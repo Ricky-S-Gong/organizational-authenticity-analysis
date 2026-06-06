@@ -143,15 +143,15 @@ F,Ford Motor,Consumer Discretionary,2021,2021-06-30T12:00:00+00:00,discovery_inc
 F,Ford Motor,Consumer Discretionary,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 F,Ford Motor,Consumer Discretionary,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 F,Ford Motor,Consumer Discretionary,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-GOOGL,Alphabet,Technology,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-GOOGL,Alphabet,Technology,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-GOOGL,Alphabet,Technology,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-GOOGL,Alphabet,Technology,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-GOOGL,Alphabet,Technology,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-GOOGL,Alphabet,Technology,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-GOOGL,Alphabet,Technology,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-GOOGL,Alphabet,Technology,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-GOOGL,Alphabet,Technology,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
+GOOGL,Alphabet,Technology,2016,2016-06-30T12:00:00+00:00,selected,,1,343,13,2016-07-10T07:43:17+00:00,https://abc.xyz/,https://web.archive.org/web/20160710074317id_/https://abc.xyz/,complete,1
+GOOGL,Alphabet,Technology,2017,2017-06-30T12:00:00+00:00,selected,,1,344,25,2017-06-30T08:00:41+00:00,https://abc.xyz/,https://web.archive.org/web/20170630080041id_/https://abc.xyz/,complete,1
+GOOGL,Alphabet,Technology,2018,2018-06-30T12:00:00+00:00,selected,,1,341,16,2018-07-25T03:50:09+00:00,https://abc.xyz/,https://web.archive.org/web/20180725035009id_/https://abc.xyz/,complete,1
+GOOGL,Alphabet,Technology,2019,2019-06-30T12:00:00+00:00,selected,,1,357,38,2019-07-14T02:10:57+00:00,https://abc.xyz/,https://web.archive.org/web/20190714021057id_/https://abc.xyz/,complete,1
+GOOGL,Alphabet,Technology,2020,2020-06-30T12:00:00+00:00,selected,,1,352,41,2020-06-26T06:15:28+00:00,https://abc.xyz/,https://web.archive.org/web/20200626061528id_/https://abc.xyz/,complete,1
+GOOGL,Alphabet,Technology,2021,2021-06-30T12:00:00+00:00,selected,,1,347,51,2021-07-06T03:45:41+00:00,https://abc.xyz/,https://web.archive.org/web/20210706034541id_/https://abc.xyz/,complete,2
+GOOGL,Alphabet,Technology,2022,2022-06-30T12:00:00+00:00,selected,,1,362,65,2022-06-30T02:01:23+00:00,https://abc.xyz,https://web.archive.org/web/20220630020123id_/https://abc.xyz,complete,1
+GOOGL,Alphabet,Technology,2023,2023-06-30T12:00:00+00:00,selected,,1,346,65,2023-06-29T04:18:21+00:00,https://abc.xyz/,https://web.archive.org/web/20230629041821id_/https://abc.xyz/,complete,1
+GOOGL,Alphabet,Technology,2024,2024-06-30T12:00:00+00:00,selected,,1,334,109,2024-07-02T10:11:28+00:00,https://abc.xyz/,https://web.archive.org/web/20240702101128id_/https://abc.xyz/,complete,1
 GS,Goldman Sachs,Financials,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 GS,Goldman Sachs,Financials,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 GS,Goldman Sachs,Financials,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
