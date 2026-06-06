@@ -206,15 +206,15 @@ JNJ,Johnson & Johnson,Healthcare,2021,2021-06-30T12:00:00+00:00,discovery_incomp
 JNJ,Johnson & Johnson,Healthcare,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 JNJ,Johnson & Johnson,Healthcare,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 JNJ,Johnson & Johnson,Healthcare,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-JPM,JPMorgan Chase,Financials,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-JPM,JPMorgan Chase,Financials,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-JPM,JPMorgan Chase,Financials,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-JPM,JPMorgan Chase,Financials,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-JPM,JPMorgan Chase,Financials,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-JPM,JPMorgan Chase,Financials,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-JPM,JPMorgan Chase,Financials,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-JPM,JPMorgan Chase,Financials,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-JPM,JPMorgan Chase,Financials,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
+JPM,JPMorgan Chase,Financials,2016,2016-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+JPM,JPMorgan Chase,Financials,2017,2017-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+JPM,JPMorgan Chase,Financials,2018,2018-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+JPM,JPMorgan Chase,Financials,2019,2019-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,3
+JPM,JPMorgan Chase,Financials,2020,2020-06-30T12:00:00+00:00,selected,,1,12,9,2020-10-24T17:00:02+00:00,https://www.jpmorganchase.com/about,https://web.archive.org/web/20201024170002id_/https://www.jpmorganchase.com/about,complete,1
+JPM,JPMorgan Chase,Financials,2021,2021-06-30T12:00:00+00:00,selected,,1,37,37,2021-06-21T07:47:24+00:00,https://www.jpmorganchase.com/about,https://web.archive.org/web/20210621074724id_/https://www.jpmorganchase.com/about,complete,2
+JPM,JPMorgan Chase,Financials,2022,2022-06-30T12:00:00+00:00,selected,,1,33,30,2022-06-30T12:49:11+00:00,https://www.jpmorganchase.com/about,https://web.archive.org/web/20220630124911id_/https://www.jpmorganchase.com/about,complete,1
+JPM,JPMorgan Chase,Financials,2023,2023-06-30T12:00:00+00:00,selected,,1,161,158,2023-07-01T13:32:52+00:00,https://www.jpmorganchase.com/about,https://web.archive.org/web/20230701133252id_/https://www.jpmorganchase.com/about,complete,3
+JPM,JPMorgan Chase,Financials,2024,2024-06-30T12:00:00+00:00,selected,,1,180,175,2024-07-03T15:41:38+00:00,https://www.jpmorganchase.com/about,https://web.archive.org/web/20240703154138id_/https://www.jpmorganchase.com/about,complete,3
 LLY,Eli Lilly,Healthcare,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 LLY,Eli Lilly,Healthcare,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 LLY,Eli Lilly,Healthcare,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2

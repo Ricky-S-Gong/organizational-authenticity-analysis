@@ -749,15 +749,237 @@ JNJ,Johnson & Johnson,Healthcare,2021,discovery_incomplete,same-year CDX query m
 JNJ,Johnson & Johnson,Healthcare,2022,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
 JNJ,Johnson & Johnson,Healthcare,2023,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
 JNJ,Johnson & Johnson,Healthcare,2024,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-JPM,JPMorgan Chase,Financials,2016,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,no_prior,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-JPM,JPMorgan Chase,Financials,2017,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-JPM,JPMorgan Chase,Financials,2018,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-JPM,JPMorgan Chase,Financials,2019,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-JPM,JPMorgan Chase,Financials,2020,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-JPM,JPMorgan Chase,Financials,2021,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-JPM,JPMorgan Chase,Financials,2022,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-JPM,JPMorgan Chase,Financials,2023,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-JPM,JPMorgan Chase,Financials,2024,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
+JPM,JPMorgan Chase,Financials,2016,no_cdx_capture,no same-year CDX capture,,,,,,,no_prior,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
+JPM,JPMorgan Chase,Financials,2017,no_cdx_capture,no same-year CDX capture,,,,,,,indeterminate,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
+JPM,JPMorgan Chase,Financials,2018,no_cdx_capture,no same-year CDX capture,,,,,,,indeterminate,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
+JPM,JPMorgan Chase,Financials,2019,no_cdx_capture,no same-year CDX capture,,,,,,,indeterminate,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
+JPM,JPMorgan Chase,Financials,2020,usable,,https://www.jpmorganchase.com/about,https://web.archive.org/web/20201024170002id_/https://www.jpmorganchase.com/about,2020-10-24T17:00:02+00:00,"Who We Are
+In a fast-moving and increasingly complex global economy, our success depends on how faithfully we adhere to our core principles: delivering exceptional client service; acting with integrity and responsibility; and supporting the growth of our employees.
+Built on Principle
+JPMorgan Chase (NYSE: JPM) is one of the oldest financial institutions in the United States. With a history dating back over 200 years, here's where we stand today:
+$2.6T+
+client assets under management
+100+
+global markets
+250K+
+employees
+Our Talent, Supporting Our Communities
+A talent-driven company is by definition a diverse and inclusive one. Though we aim to do better still, we're proud of the workplace we've created.
+America’s Ideal Employers
+America’s Ideal Employers
+Ranked in the top 5 as one of the world’s most attractive employer by business students.
+Fortune Magazine
+World's Most Admired Companies
+World's Most Admired Companies
+Ranked in the top 5 as one of the world’s most attractive employer by business students.
+Fortune Magazine
+Top 100 Military Friendly Employers
+Top 100 Military Friendly Employers
+Recognized from 2012 through 2015.
+G.I. Jobs
+See more awards & recognition Click here to see awards and recognition page.
+Do The Right Thing
+Leadership
+Do The Right Thing
+Deal directly with problems. Value everyone equally. Own up to your mistakes and learn from them.
+Meet our leaders Click here to read more.
+Business Principles
+Business Principles
+Certain principles are fundamental to our succes and each of these principles is how we will become the best and most respected bank in the world.
+Learn More Click here to read about Business Principles.
+Corporate Governance
+Corporate Governance
+We are proud of our long tradition of integrity, honesty and respect. Because that goes a long way in insuring trust and accountability today and into the future.
+Learn More Click here to read about Corporate Governance.
+Our Business
+Our Business
+JPMorgan Chase & Co. is the name of the holding company and the firm serves its customers and clients under its Chase and JPMorgan brands.
+Learn More Click here to read about Our Business.
+Over 100 Years of Thinking Big
+Over 100 Years of Thinking Big
+From helping finance the Brooklyn Bridge to pioneering data-driven Philanthropy, JPMorgan Chase has a long history.
+View our history Click here to read about Our history.
+Art Collection
+Art Collection
+Since its founding in 1959, the JPMorgan Chase Art Collection has become the most established corporate collections in the world. Our mission is to connect clients, colleagues, and communities through art and the conversations it can start.
+Learn More JPMorgan Chase Art Collection read more link.",,,indeterminate,"[""customers_and_service"", ""employees_and_workplace"", ""integrity_and_ethics"", ""diversity_equity_and_inclusion"", ""social_impact_and_community"", ""leadership_and_accountability"", ""purpose_and_identity""]","[{""evidence_excerpts"": [""is the name of the holding company and the firm serves its customers and clients under its Chase and JPMorgan brands."", ""In a fast-moving and increasingly complex global economy, our success depends on how faithfully we adhere to our core principles: delivering exceptional client service; acting with integrity and responsibility; and supporting the growth of our employees."", ""client assets under management"", ""Our mission is to connect clients, colleagues, and communities through art and the conversations it can start.""], ""match_count"": 6, ""matched_phrases"": [""customers"", ""client"", ""clients"", ""service""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""customers_and_service"", ""theme_label"": ""Customers and service""}, {""evidence_excerpts"": [""In a fast-moving and increasingly complex global economy, our success depends on how faithfully we adhere to our core principles: delivering exceptional client service; acting with integrity and responsibility; and supporting the growth of our employees."", ""employees"", ""Our Talent, Supporting Our Communities"", ""A talent-driven company is by definition a diverse and inclusive one."", ""Though we aim to do better still, we're proud of the workplace we've created.""], ""match_count"": 5, ""matched_phrases"": [""employees"", ""talent"", ""workplace""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""employees_and_workplace"", ""theme_label"": ""Employees and workplace""}, {""evidence_excerpts"": [""In a fast-moving and increasingly complex global economy, our success depends on how faithfully we adhere to our core principles: delivering exceptional client service; acting with integrity and responsibility; and supporting the growth of our employees."", ""We are proud of our long tradition of integrity, honesty and respect."", ""Because that goes a long way in insuring trust and accountability today and into the future.""], ""match_count"": 4, ""matched_phrases"": [""integrity"", ""honesty"", ""trust""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""integrity_and_ethics"", ""theme_label"": ""Integrity and ethics""}, {""evidence_excerpts"": [""A talent-driven company is by definition a diverse and inclusive one.""], ""match_count"": 2, ""matched_phrases"": [""diverse"", ""inclusive""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""diversity_equity_and_inclusion"", ""theme_label"": ""Diversity, equity, and inclusion""}, {""evidence_excerpts"": [""Our Talent, Supporting Our Communities"", ""Our mission is to connect clients, colleagues, and communities through art and the conversations it can start."", ""From helping finance the Brooklyn Bridge to pioneering data-driven Philanthropy, JPMorgan Chase has a long history.""], ""match_count"": 3, ""matched_phrases"": [""communities"", ""philanthropy""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""social_impact_and_community"", ""theme_label"": ""Social impact and community""}, {""evidence_excerpts"": [""Leadership"", ""Meet our leaders Click here to read more."", ""Because that goes a long way in insuring trust and accountability today and into the future."", ""In a fast-moving and increasingly complex global economy, our success depends on how faithfully we adhere to our core principles: delivering exceptional client service; acting with integrity and responsibility; and supporting the growth of our employees.""], ""match_count"": 4, ""matched_phrases"": [""leadership"", ""leaders"", ""accountability"", ""responsibility""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}, {""evidence_excerpts"": [""Our mission is to connect clients, colleagues, and communities through art and the conversations it can start."", ""Who We Are""], ""match_count"": 2, ""matched_phrases"": [""our mission"", ""who we are""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""purpose_and_identity"", ""theme_label"": ""Purpose and identity""}]","{""action_or_evidence_count"": 1, ""action_or_evidence_rate_per_100_words"": 0.2309, ""aspiration_count"": 1, ""aspiration_rate_per_100_words"": 0.2309, ""average_sentence_length"": 7.4655, ""commitment_count"": 1, ""commitment_rate_per_100_words"": 0.2309, ""first_person_plural_count"": 20, ""first_person_plural_rate_per_100_words"": 4.6189, ""quantified_claim_count"": 12, ""sentence_count"": 58, ""stakeholder_count"": 5, ""stakeholder_rate_per_100_words"": 1.1547, ""word_count"": 433}",,Deterministic evidence-backed baseline; manual review required.,be5130927439b9671da2257d898a2fc955e83832872cc60144c076406ff952c4,09c5d4b48cfb0f2a547bba6a72c372a16e78aee7b402db270011e0303f5ee7ea,automated_pass,pending
+JPM,JPMorgan Chase,Financials,2021,usable,,https://www.jpmorganchase.com/about,https://web.archive.org/web/20210621074724id_/https://www.jpmorganchase.com/about,2021-06-21T07:47:24+00:00,"Who We Are
+In a fast-moving and increasingly complex global economy, our success depends on how faithfully we adhere to our core principles: delivering exceptional client service; acting with integrity and responsibility; and supporting the growth of our employees.
+Built on Principle
+JPMorgan Chase (NYSE: JPM) is one of the oldest financial institutions in the United States. With a history dating back over 200 years, here's where we stand today:
+$2.6T+
+client assets under management
+100+
+global markets
+250K+
+employees
+Our Talent, Supporting Our Communities
+A talent-driven company is by definition a diverse and inclusive one. Though we aim to do better still, we're proud of the workplace we've created.
+America’s Ideal Employers
+America’s Ideal Employers
+Ranked in the top 5 as one of the world’s most attractive employer by business students.
+Fortune Magazine
+World's Most Admired Companies
+World's Most Admired Companies
+Ranked in the top 5 as one of the world’s most attractive employer by business students.
+Fortune Magazine
+Top 100 Military Friendly Employers
+Top 100 Military Friendly Employers
+Recognized from 2012 through 2015.
+G.I. Jobs
+See more awards & recognition Click here to see awards and recognition page.
+Do The Right Thing
+Leadership
+Do The Right Thing
+Deal directly with problems. Value everyone equally. Own up to your mistakes and learn from them.
+Meet our leaders Click here to read more.
+Business Principles
+Business Principles
+Certain principles are fundamental to our success and each of these principles is how we will become the best and most respected bank in the world.
+Learn More Click here to read about Business Principles.
+Corporate Governance
+Corporate Governance
+We are proud of our long tradition of integrity, honesty and respect. Because that goes a long way in insuring trust and accountability today and into the future.
+Learn More Click here to read about Corporate Governance.
+Our Business
+Our Business
+JPMorgan Chase & Co. is the name of the holding company and the firm serves its customers and clients under its Chase and JPMorgan brands.
+Learn More Click here to read about Our Business.
+Over 100 Years of Thinking Big
+Over 100 Years of Thinking Big
+From helping finance the Brooklyn Bridge to pioneering data-driven Philanthropy, JPMorgan Chase has a long history.
+View our history Click here to read about Our history.
+Art Collection
+Art Collection
+Since its founding in 1959, the JPMorgan Chase Art Collection has become the most established corporate collections in the world. Our mission is to connect clients, colleagues, and communities through art and the conversations it can start.
+Learn More JPMorgan Chase Art Collection read more link.",True,0.005051,minor_edit,"[""customers_and_service"", ""employees_and_workplace"", ""integrity_and_ethics"", ""diversity_equity_and_inclusion"", ""social_impact_and_community"", ""leadership_and_accountability"", ""purpose_and_identity""]","[{""evidence_excerpts"": [""is the name of the holding company and the firm serves its customers and clients under its Chase and JPMorgan brands."", ""In a fast-moving and increasingly complex global economy, our success depends on how faithfully we adhere to our core principles: delivering exceptional client service; acting with integrity and responsibility; and supporting the growth of our employees."", ""client assets under management"", ""Our mission is to connect clients, colleagues, and communities through art and the conversations it can start.""], ""match_count"": 6, ""matched_phrases"": [""customers"", ""client"", ""clients"", ""service""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""customers_and_service"", ""theme_label"": ""Customers and service""}, {""evidence_excerpts"": [""In a fast-moving and increasingly complex global economy, our success depends on how faithfully we adhere to our core principles: delivering exceptional client service; acting with integrity and responsibility; and supporting the growth of our employees."", ""employees"", ""Our Talent, Supporting Our Communities"", ""A talent-driven company is by definition a diverse and inclusive one."", ""Though we aim to do better still, we're proud of the workplace we've created.""], ""match_count"": 5, ""matched_phrases"": [""employees"", ""talent"", ""workplace""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""employees_and_workplace"", ""theme_label"": ""Employees and workplace""}, {""evidence_excerpts"": [""In a fast-moving and increasingly complex global economy, our success depends on how faithfully we adhere to our core principles: delivering exceptional client service; acting with integrity and responsibility; and supporting the growth of our employees."", ""We are proud of our long tradition of integrity, honesty and respect."", ""Because that goes a long way in insuring trust and accountability today and into the future.""], ""match_count"": 4, ""matched_phrases"": [""integrity"", ""honesty"", ""trust""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""integrity_and_ethics"", ""theme_label"": ""Integrity and ethics""}, {""evidence_excerpts"": [""A talent-driven company is by definition a diverse and inclusive one.""], ""match_count"": 2, ""matched_phrases"": [""diverse"", ""inclusive""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""diversity_equity_and_inclusion"", ""theme_label"": ""Diversity, equity, and inclusion""}, {""evidence_excerpts"": [""Our Talent, Supporting Our Communities"", ""Our mission is to connect clients, colleagues, and communities through art and the conversations it can start."", ""From helping finance the Brooklyn Bridge to pioneering data-driven Philanthropy, JPMorgan Chase has a long history.""], ""match_count"": 3, ""matched_phrases"": [""communities"", ""philanthropy""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""social_impact_and_community"", ""theme_label"": ""Social impact and community""}, {""evidence_excerpts"": [""Leadership"", ""Meet our leaders Click here to read more."", ""Because that goes a long way in insuring trust and accountability today and into the future."", ""In a fast-moving and increasingly complex global economy, our success depends on how faithfully we adhere to our core principles: delivering exceptional client service; acting with integrity and responsibility; and supporting the growth of our employees.""], ""match_count"": 4, ""matched_phrases"": [""leadership"", ""leaders"", ""accountability"", ""responsibility""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}, {""evidence_excerpts"": [""Our mission is to connect clients, colleagues, and communities through art and the conversations it can start."", ""Who We Are""], ""match_count"": 2, ""matched_phrases"": [""our mission"", ""who we are""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""purpose_and_identity"", ""theme_label"": ""Purpose and identity""}]","{""action_or_evidence_count"": 1, ""action_or_evidence_rate_per_100_words"": 0.2309, ""aspiration_count"": 1, ""aspiration_rate_per_100_words"": 0.2309, ""average_sentence_length"": 7.4655, ""commitment_count"": 1, ""commitment_rate_per_100_words"": 0.2309, ""first_person_plural_count"": 20, ""first_person_plural_rate_per_100_words"": 4.6189, ""quantified_claim_count"": 12, ""sentence_count"": 58, ""stakeholder_count"": 5, ""stakeholder_rate_per_100_words"": 1.1547, ""word_count"": 433}","{""added"": [""Certain principles are fundamental to our success and each of these principles is how we will become the best and most respected bank in the world.""], ""removed"": [""Certain principles are fundamental to our succes and each of these principles is how we will become the best and most respected bank in the world.""]}",Deterministic evidence-backed baseline; manual review required.,66f21ea72365427cf74b0a9e2ed8398582b3e5e0d24882abe92e32c4bc3880d3,2e835d45b266f37a1ba80fb87d1b687c0b58b7c267ff41875e61dda5642963e3,automated_pass,pending
+JPM,JPMorgan Chase,Financials,2022,usable,,https://www.jpmorganchase.com/about,https://web.archive.org/web/20220630124911id_/https://www.jpmorganchase.com/about,2022-06-30T12:49:11+00:00,"Who We Are
+In a fast-moving and increasingly complex global economy, our success depends on how faithfully we adhere to our core principles: delivering exceptional client service; acting with integrity and responsibility; and supporting the growth of our employees.
+Built on Principle
+JPMorgan Chase (NYSE: JPM) is one of the oldest financial institutions in the United States. With a history dating back over 200 years, here's where we stand today:
+$2.6T+
+client assets under management
+100+
+global markets
+250K+
+employees
+Our Talent, Supporting Our Communities
+A talent-driven company is by definition a diverse and inclusive one. Though we aim to do better still, we're proud of the workplace we've created.
+America’s Ideal Employers
+America’s Ideal Employers
+Ranked in the top 5 as one of the world’s most attractive employer by business students.
+Fortune Magazine
+World's Most Admired Companies
+World's Most Admired Companies
+Ranked in the top 5 as one of the world’s most attractive employer by business students.
+Fortune Magazine
+Top 100 Military Friendly Employers
+Top 100 Military Friendly Employers
+Recognized from 2012 through 2015.
+G.I. Jobs
+See more awards & recognition Click here to see awards and recognition page.
+Do The Right Thing
+Leadership
+Do The Right Thing
+Deal directly with problems. Value everyone equally. Own up to your mistakes and learn from them.
+Meet our leaders Click here to read more.
+Business Principles
+Business Principles
+Certain principles are fundamental to our success and each of these principles is how we will become the best and most respected bank in the world.
+Learn More Click here to read about Business Principles.
+Corporate Governance
+Corporate Governance
+We are proud of our long tradition of integrity, honesty and respect. Because that goes a long way in insuring trust and accountability today and into the future.
+Learn More Click here to read about Corporate Governance.
+Our Business
+Our Business
+JPMorgan Chase & Co. is the name of the holding company and the firm serves its customers and clients under its Chase and JPMorgan brands.
+Learn More Click here to read about Our Business.
+Over 100 Years of Thinking Big
+Over 100 Years of Thinking Big
+From helping finance the Brooklyn Bridge to pioneering data-driven Philanthropy, JPMorgan Chase has a long history.
+View our history Click here to read about Our history.
+Art Collection
+Art Collection
+Since its founding in 1959, the JPMorgan Chase Art Collection has become the most established corporate collections in the world. Our mission is to connect clients, colleagues, and communities through art and the conversations it can start.
+Learn More JPMorgan Chase Art Collection read more link.",False,0.0,unchanged_exact,"[""customers_and_service"", ""employees_and_workplace"", ""integrity_and_ethics"", ""diversity_equity_and_inclusion"", ""social_impact_and_community"", ""leadership_and_accountability"", ""purpose_and_identity""]","[{""evidence_excerpts"": [""is the name of the holding company and the firm serves its customers and clients under its Chase and JPMorgan brands."", ""In a fast-moving and increasingly complex global economy, our success depends on how faithfully we adhere to our core principles: delivering exceptional client service; acting with integrity and responsibility; and supporting the growth of our employees."", ""client assets under management"", ""Our mission is to connect clients, colleagues, and communities through art and the conversations it can start.""], ""match_count"": 6, ""matched_phrases"": [""customers"", ""client"", ""clients"", ""service""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""customers_and_service"", ""theme_label"": ""Customers and service""}, {""evidence_excerpts"": [""In a fast-moving and increasingly complex global economy, our success depends on how faithfully we adhere to our core principles: delivering exceptional client service; acting with integrity and responsibility; and supporting the growth of our employees."", ""employees"", ""Our Talent, Supporting Our Communities"", ""A talent-driven company is by definition a diverse and inclusive one."", ""Though we aim to do better still, we're proud of the workplace we've created.""], ""match_count"": 5, ""matched_phrases"": [""employees"", ""talent"", ""workplace""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""employees_and_workplace"", ""theme_label"": ""Employees and workplace""}, {""evidence_excerpts"": [""In a fast-moving and increasingly complex global economy, our success depends on how faithfully we adhere to our core principles: delivering exceptional client service; acting with integrity and responsibility; and supporting the growth of our employees."", ""We are proud of our long tradition of integrity, honesty and respect."", ""Because that goes a long way in insuring trust and accountability today and into the future.""], ""match_count"": 4, ""matched_phrases"": [""integrity"", ""honesty"", ""trust""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""integrity_and_ethics"", ""theme_label"": ""Integrity and ethics""}, {""evidence_excerpts"": [""A talent-driven company is by definition a diverse and inclusive one.""], ""match_count"": 2, ""matched_phrases"": [""diverse"", ""inclusive""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""diversity_equity_and_inclusion"", ""theme_label"": ""Diversity, equity, and inclusion""}, {""evidence_excerpts"": [""Our Talent, Supporting Our Communities"", ""Our mission is to connect clients, colleagues, and communities through art and the conversations it can start."", ""From helping finance the Brooklyn Bridge to pioneering data-driven Philanthropy, JPMorgan Chase has a long history.""], ""match_count"": 3, ""matched_phrases"": [""communities"", ""philanthropy""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""social_impact_and_community"", ""theme_label"": ""Social impact and community""}, {""evidence_excerpts"": [""Leadership"", ""Meet our leaders Click here to read more."", ""Because that goes a long way in insuring trust and accountability today and into the future."", ""In a fast-moving and increasingly complex global economy, our success depends on how faithfully we adhere to our core principles: delivering exceptional client service; acting with integrity and responsibility; and supporting the growth of our employees.""], ""match_count"": 4, ""matched_phrases"": [""leadership"", ""leaders"", ""accountability"", ""responsibility""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}, {""evidence_excerpts"": [""Our mission is to connect clients, colleagues, and communities through art and the conversations it can start."", ""Who We Are""], ""match_count"": 2, ""matched_phrases"": [""our mission"", ""who we are""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""purpose_and_identity"", ""theme_label"": ""Purpose and identity""}]","{""action_or_evidence_count"": 1, ""action_or_evidence_rate_per_100_words"": 0.2309, ""aspiration_count"": 1, ""aspiration_rate_per_100_words"": 0.2309, ""average_sentence_length"": 7.4655, ""commitment_count"": 1, ""commitment_rate_per_100_words"": 0.2309, ""first_person_plural_count"": 20, ""first_person_plural_rate_per_100_words"": 4.6189, ""quantified_claim_count"": 12, ""sentence_count"": 58, ""stakeholder_count"": 5, ""stakeholder_rate_per_100_words"": 1.1547, ""word_count"": 433}",,Deterministic evidence-backed baseline; manual review required.,3f6acf90c0e9965d8f5502107d384b9d0274659d36c05bcd65735e0bbee1a5be,2e835d45b266f37a1ba80fb87d1b687c0b58b7c267ff41875e61dda5642963e3,automated_pass,pending
+JPM,JPMorgan Chase,Financials,2023,usable,,https://www.jpmorganchase.com/about,https://web.archive.org/web/20230701133252id_/https://www.jpmorganchase.com/about,2023-07-01T13:32:52+00:00,"Who We Are
+In a fast-moving and increasingly complex global economy, our success depends on how faithfully we adhere to our core principles: delivering exceptional client service; acting with integrity and responsibility; and supporting the growth of our employees.
+Built on Principle
+JPMorgan Chase (NYSE: JPM) is one of the oldest financial institutions in the United States. With a history dating back over 200 years, here's where we stand today:
+$2.6T+
+client assets under management
+100+
+global markets
+250K+
+employees
+Our Talent, Supporting Our Communities
+A talent-driven company is by definition a diverse and inclusive one. Though we aim to do better still, we're proud of the workplace we've created.
+America’s Ideal Employers
+America’s Ideal Employers
+Ranked in the top 5 as one of the world’s most attractive employer by business students.
+Fortune Magazine
+World's Most Admired Companies
+World's Most Admired Companies
+Ranked in the top 5 as one of the world’s most attractive employer by business students.
+Fortune Magazine
+Top 100 Military Friendly Employers
+Top 100 Military Friendly Employers
+Recognized from 2012 through 2015.
+G.I. Jobs
+See more awards & recognition Click here to see awards and recognition page.
+Do The Right Thing
+Leadership
+Do The Right Thing
+Deal directly with problems. Value everyone equally. Own up to your mistakes and learn from them.
+Meet our leaders Click here to read more.
+Business Principles
+Business Principles
+Certain principles are fundamental to our success and each of these principles is how we will become the best and most respected bank in the world.
+Learn More Click here to read about Business Principles.
+Corporate Governance
+Corporate Governance
+We are proud of our long tradition of integrity, honesty and respect. Because that goes a long way in insuring trust and accountability today and into the future.
+Learn More Click here to read about Corporate Governance.
+Our Business
+Our Business
+JPMorgan Chase & Co. is the name of the holding company and the firm serves its customers and clients under its Chase and JPMorgan brands.
+Learn More Click here to read about Our Business.
+Over 100 Years of Thinking Big
+Over 100 Years of Thinking Big
+From helping finance the Brooklyn Bridge to pioneering data-driven Philanthropy, JPMorgan Chase has a long history.
+View our history Click here to read about Our history.
+Art Collection
+Art Collection
+Since its founding in 1959, the JPMorgan Chase Art Collection has become the most established corporate collections in the world. Our mission is to connect clients, colleagues, and communities through art and the conversations it can start.
+Learn More JPMorgan Chase Art Collection read more link.",False,0.0,unchanged_exact,"[""customers_and_service"", ""employees_and_workplace"", ""integrity_and_ethics"", ""diversity_equity_and_inclusion"", ""social_impact_and_community"", ""leadership_and_accountability"", ""purpose_and_identity""]","[{""evidence_excerpts"": [""is the name of the holding company and the firm serves its customers and clients under its Chase and JPMorgan brands."", ""In a fast-moving and increasingly complex global economy, our success depends on how faithfully we adhere to our core principles: delivering exceptional client service; acting with integrity and responsibility; and supporting the growth of our employees."", ""client assets under management"", ""Our mission is to connect clients, colleagues, and communities through art and the conversations it can start.""], ""match_count"": 6, ""matched_phrases"": [""customers"", ""client"", ""clients"", ""service""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""customers_and_service"", ""theme_label"": ""Customers and service""}, {""evidence_excerpts"": [""In a fast-moving and increasingly complex global economy, our success depends on how faithfully we adhere to our core principles: delivering exceptional client service; acting with integrity and responsibility; and supporting the growth of our employees."", ""employees"", ""Our Talent, Supporting Our Communities"", ""A talent-driven company is by definition a diverse and inclusive one."", ""Though we aim to do better still, we're proud of the workplace we've created.""], ""match_count"": 5, ""matched_phrases"": [""employees"", ""talent"", ""workplace""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""employees_and_workplace"", ""theme_label"": ""Employees and workplace""}, {""evidence_excerpts"": [""In a fast-moving and increasingly complex global economy, our success depends on how faithfully we adhere to our core principles: delivering exceptional client service; acting with integrity and responsibility; and supporting the growth of our employees."", ""We are proud of our long tradition of integrity, honesty and respect."", ""Because that goes a long way in insuring trust and accountability today and into the future.""], ""match_count"": 4, ""matched_phrases"": [""integrity"", ""honesty"", ""trust""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""integrity_and_ethics"", ""theme_label"": ""Integrity and ethics""}, {""evidence_excerpts"": [""A talent-driven company is by definition a diverse and inclusive one.""], ""match_count"": 2, ""matched_phrases"": [""diverse"", ""inclusive""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""diversity_equity_and_inclusion"", ""theme_label"": ""Diversity, equity, and inclusion""}, {""evidence_excerpts"": [""Our Talent, Supporting Our Communities"", ""Our mission is to connect clients, colleagues, and communities through art and the conversations it can start."", ""From helping finance the Brooklyn Bridge to pioneering data-driven Philanthropy, JPMorgan Chase has a long history.""], ""match_count"": 3, ""matched_phrases"": [""communities"", ""philanthropy""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""social_impact_and_community"", ""theme_label"": ""Social impact and community""}, {""evidence_excerpts"": [""Leadership"", ""Meet our leaders Click here to read more."", ""Because that goes a long way in insuring trust and accountability today and into the future."", ""In a fast-moving and increasingly complex global economy, our success depends on how faithfully we adhere to our core principles: delivering exceptional client service; acting with integrity and responsibility; and supporting the growth of our employees.""], ""match_count"": 4, ""matched_phrases"": [""leadership"", ""leaders"", ""accountability"", ""responsibility""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}, {""evidence_excerpts"": [""Our mission is to connect clients, colleagues, and communities through art and the conversations it can start."", ""Who We Are""], ""match_count"": 2, ""matched_phrases"": [""our mission"", ""who we are""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""purpose_and_identity"", ""theme_label"": ""Purpose and identity""}]","{""action_or_evidence_count"": 1, ""action_or_evidence_rate_per_100_words"": 0.2309, ""aspiration_count"": 1, ""aspiration_rate_per_100_words"": 0.2309, ""average_sentence_length"": 7.4655, ""commitment_count"": 1, ""commitment_rate_per_100_words"": 0.2309, ""first_person_plural_count"": 20, ""first_person_plural_rate_per_100_words"": 4.6189, ""quantified_claim_count"": 12, ""sentence_count"": 58, ""stakeholder_count"": 5, ""stakeholder_rate_per_100_words"": 1.1547, ""word_count"": 433}",,Deterministic evidence-backed baseline; manual review required.,68adce52eed302906eee499998150a6fcebb9fa911d17949d19791e9308c6aa4,2e835d45b266f37a1ba80fb87d1b687c0b58b7c267ff41875e61dda5642963e3,automated_pass,pending
+JPM,JPMorgan Chase,Financials,2024,usable,,https://www.jpmorganchase.com/about,https://web.archive.org/web/20240703154138id_/https://www.jpmorganchase.com/about,2024-07-03T15:41:38+00:00,"Business principles
+These four principles are fundamental to our success and guide our efforts within the firm and around the world.
+See how we do business
+Our leadership
+Learn more about the people upholding our values and moving our organization forward.
+Meet our leadership
+Our history
+Discover the history of our firm and how we’re building on our past to shape the future.
+Explore our timeline
+Art collection
+Connecting clients and communities with some of the most inspiring pieces of art from around the world.
+See our collection
+Suppliers
+Building strong relationships with diverse suppliers to serve our clients, shareholders, communities and employees more efficiently.
+Learn more
+Governance
+Our Board of Directors and leaders are building on our legacy of integrity with a strong vision for the future.
+Learn more
+FORTUNE names JPMorganChase the 5th Most Admired Company in the World
+FORTUNE has placed JPMorganChase in the top five of its “World’s Most Admired Companies” list, ranking #5 in 2024 for the second consecutive year.
+Learn more
+JPMorganChase named in LinkedIn’s 2024 Top Companies list
+LinkedIn recognized JPMorganChase as a top employer for career growth in the U.S., U.K., Ireland, India and France. Robin Leopold, Global Head of Human Resources, discussed career paths at JPMorganChase on LinkedIn News’ Get Hired podcast.
+Learn more
+JPMorganChase wins 2024 Handshake Early Talent Award and named Tech Transformer
+For the third consecutive year, JPMorganChase has won a Handshake Early Talent Award for being one of the best companies for today’s youth. The firm also received a special designation as a Tech Transformer for the second year in a row, for being a great place to launch a career in tech.
+Learn more",True,0.809181,substantive_change,"[""customers_and_service"", ""employees_and_workplace"", ""integrity_and_ethics"", ""diversity_equity_and_inclusion"", ""social_impact_and_community"", ""shareholders_and_performance"", ""leadership_and_accountability"", ""purpose_and_identity""]","[{""evidence_excerpts"": [""Connecting clients and communities with some of the most inspiring pieces of art from around the world."", ""Building strong relationships with diverse suppliers to serve our clients, shareholders, communities and employees more efficiently.""], ""match_count"": 2, ""matched_phrases"": [""clients""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""customers_and_service"", ""theme_label"": ""Customers and service""}, {""evidence_excerpts"": [""Building strong relationships with diverse suppliers to serve our clients, shareholders, communities and employees more efficiently."", ""JPMorganChase wins 2024 Handshake Early Talent Award and named Tech Transformer"", ""For the third consecutive year, JPMorganChase has won a Handshake Early Talent Award for being one of the best companies for today’s youth.""], ""match_count"": 3, ""matched_phrases"": [""employees"", ""talent""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""employees_and_workplace"", ""theme_label"": ""Employees and workplace""}, {""evidence_excerpts"": [""Our Board of Directors and leaders are building on our legacy of integrity with a strong vision for the future.""], ""match_count"": 1, ""matched_phrases"": [""integrity""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""integrity_and_ethics"", ""theme_label"": ""Integrity and ethics""}, {""evidence_excerpts"": [""Building strong relationships with diverse suppliers to serve our clients, shareholders, communities and employees more efficiently.""], ""match_count"": 1, ""matched_phrases"": [""diverse""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""diversity_equity_and_inclusion"", ""theme_label"": ""Diversity, equity, and inclusion""}, {""evidence_excerpts"": [""Connecting clients and communities with some of the most inspiring pieces of art from around the world."", ""Building strong relationships with diverse suppliers to serve our clients, shareholders, communities and employees more efficiently.""], ""match_count"": 2, ""matched_phrases"": [""communities""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""social_impact_and_community"", ""theme_label"": ""Social impact and community""}, {""evidence_excerpts"": [""Building strong relationships with diverse suppliers to serve our clients, shareholders, communities and employees more efficiently.""], ""match_count"": 1, ""matched_phrases"": [""shareholders""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""shareholders_and_performance"", ""theme_label"": ""Shareholders and performance""}, {""evidence_excerpts"": [""Our leadership"", ""Meet our leadership"", ""Our Board of Directors and leaders are building on our legacy of integrity with a strong vision for the future.""], ""match_count"": 3, ""matched_phrases"": [""leadership"", ""leaders""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}, {""evidence_excerpts"": [""Learn more about the people upholding our values and moving our organization forward.""], ""match_count"": 1, ""matched_phrases"": [""our values""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""purpose_and_identity"", ""theme_label"": ""Purpose and identity""}]","{""action_or_evidence_count"": 0, ""action_or_evidence_rate_per_100_words"": 0.0, ""aspiration_count"": 1, ""aspiration_rate_per_100_words"": 0.3521, ""average_sentence_length"": 9.7931, ""commitment_count"": 0, ""commitment_rate_per_100_words"": 0.0, ""first_person_plural_count"": 16, ""first_person_plural_rate_per_100_words"": 5.6338, ""quantified_claim_count"": 4, ""sentence_count"": 29, ""stakeholder_count"": 6, ""stakeholder_rate_per_100_words"": 2.1127, ""word_count"": 284}","{""added"": [""These four principles are fundamental to our success and guide our efforts within the firm and around the world."", ""See how we do business"", ""Our leadership""], ""removed"": [""Who We Are"", ""In a fast-moving and increasingly complex global economy, our success depends on how faithfully we adhere to our core principles: delivering exceptional client service; acting with integrity and responsibility; and supporting the growth of our employees."", ""Built on Principle""]}",Deterministic evidence-backed baseline; manual review required.,a994bf39bba5ae9c5f1c573ba6b9a98d0fc2bc689d4ea2d5f62231d4d5228795,d5c8f0546dbee965ff402885d29178163ac7cd3dee4377c3a1aeefb8d9ce817d,automated_pass,pending
 LLY,Eli Lilly,Healthcare,2016,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,no_prior,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
 LLY,Eli Lilly,Healthcare,2017,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
 LLY,Eli Lilly,Healthcare,2018,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
