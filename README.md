@@ -4,7 +4,7 @@ This repository contains the work for the Wharton-TAU Lab 2026 Research Assistan
 
 ## Project Status
 
-Repository scaffold and assessment analysis are complete. Implementation of Part 1 has not started.
+Repository scaffold is complete. Implementation of Part 1 has not started.
 
 ## Repository Structure
 
@@ -19,7 +19,3 @@ Repository scaffold and assessment analysis are complete. Implementation of Part
 ```
 
 Each part will eventually contain its own README, code, output data, and written summary, as required by the assignment.
-
-## Key Documents
-
-- [Detailed assessment analysis](docs/assessment_analysis.md)
