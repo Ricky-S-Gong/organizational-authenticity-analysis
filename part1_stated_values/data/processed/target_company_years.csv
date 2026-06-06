@@ -1,0 +1,451 @@
+ticker,company_name,sector,year,target_timestamp,observation_status
+MSFT,Microsoft,Technology,2016,2016-06-30T12:00:00+00:00,pending
+MSFT,Microsoft,Technology,2017,2017-06-30T12:00:00+00:00,pending
+MSFT,Microsoft,Technology,2018,2018-06-30T12:00:00+00:00,pending
+MSFT,Microsoft,Technology,2019,2019-06-30T12:00:00+00:00,pending
+MSFT,Microsoft,Technology,2020,2020-06-30T12:00:00+00:00,pending
+MSFT,Microsoft,Technology,2021,2021-06-30T12:00:00+00:00,pending
+MSFT,Microsoft,Technology,2022,2022-06-30T12:00:00+00:00,pending
+MSFT,Microsoft,Technology,2023,2023-06-30T12:00:00+00:00,pending
+MSFT,Microsoft,Technology,2024,2024-06-30T12:00:00+00:00,pending
+AAPL,Apple,Technology,2016,2016-06-30T12:00:00+00:00,pending
+AAPL,Apple,Technology,2017,2017-06-30T12:00:00+00:00,pending
+AAPL,Apple,Technology,2018,2018-06-30T12:00:00+00:00,pending
+AAPL,Apple,Technology,2019,2019-06-30T12:00:00+00:00,pending
+AAPL,Apple,Technology,2020,2020-06-30T12:00:00+00:00,pending
+AAPL,Apple,Technology,2021,2021-06-30T12:00:00+00:00,pending
+AAPL,Apple,Technology,2022,2022-06-30T12:00:00+00:00,pending
+AAPL,Apple,Technology,2023,2023-06-30T12:00:00+00:00,pending
+AAPL,Apple,Technology,2024,2024-06-30T12:00:00+00:00,pending
+NVDA,NVIDIA,Technology,2016,2016-06-30T12:00:00+00:00,pending
+NVDA,NVIDIA,Technology,2017,2017-06-30T12:00:00+00:00,pending
+NVDA,NVIDIA,Technology,2018,2018-06-30T12:00:00+00:00,pending
+NVDA,NVIDIA,Technology,2019,2019-06-30T12:00:00+00:00,pending
+NVDA,NVIDIA,Technology,2020,2020-06-30T12:00:00+00:00,pending
+NVDA,NVIDIA,Technology,2021,2021-06-30T12:00:00+00:00,pending
+NVDA,NVIDIA,Technology,2022,2022-06-30T12:00:00+00:00,pending
+NVDA,NVIDIA,Technology,2023,2023-06-30T12:00:00+00:00,pending
+NVDA,NVIDIA,Technology,2024,2024-06-30T12:00:00+00:00,pending
+GOOGL,Alphabet,Technology,2016,2016-06-30T12:00:00+00:00,pending
+GOOGL,Alphabet,Technology,2017,2017-06-30T12:00:00+00:00,pending
+GOOGL,Alphabet,Technology,2018,2018-06-30T12:00:00+00:00,pending
+GOOGL,Alphabet,Technology,2019,2019-06-30T12:00:00+00:00,pending
+GOOGL,Alphabet,Technology,2020,2020-06-30T12:00:00+00:00,pending
+GOOGL,Alphabet,Technology,2021,2021-06-30T12:00:00+00:00,pending
+GOOGL,Alphabet,Technology,2022,2022-06-30T12:00:00+00:00,pending
+GOOGL,Alphabet,Technology,2023,2023-06-30T12:00:00+00:00,pending
+GOOGL,Alphabet,Technology,2024,2024-06-30T12:00:00+00:00,pending
+META,Meta Platforms,Technology,2016,2016-06-30T12:00:00+00:00,pending
+META,Meta Platforms,Technology,2017,2017-06-30T12:00:00+00:00,pending
+META,Meta Platforms,Technology,2018,2018-06-30T12:00:00+00:00,pending
+META,Meta Platforms,Technology,2019,2019-06-30T12:00:00+00:00,pending
+META,Meta Platforms,Technology,2020,2020-06-30T12:00:00+00:00,pending
+META,Meta Platforms,Technology,2021,2021-06-30T12:00:00+00:00,pending
+META,Meta Platforms,Technology,2022,2022-06-30T12:00:00+00:00,pending
+META,Meta Platforms,Technology,2023,2023-06-30T12:00:00+00:00,pending
+META,Meta Platforms,Technology,2024,2024-06-30T12:00:00+00:00,pending
+AVGO,Broadcom,Technology,2016,2016-06-30T12:00:00+00:00,pending
+AVGO,Broadcom,Technology,2017,2017-06-30T12:00:00+00:00,pending
+AVGO,Broadcom,Technology,2018,2018-06-30T12:00:00+00:00,pending
+AVGO,Broadcom,Technology,2019,2019-06-30T12:00:00+00:00,pending
+AVGO,Broadcom,Technology,2020,2020-06-30T12:00:00+00:00,pending
+AVGO,Broadcom,Technology,2021,2021-06-30T12:00:00+00:00,pending
+AVGO,Broadcom,Technology,2022,2022-06-30T12:00:00+00:00,pending
+AVGO,Broadcom,Technology,2023,2023-06-30T12:00:00+00:00,pending
+AVGO,Broadcom,Technology,2024,2024-06-30T12:00:00+00:00,pending
+CRM,Salesforce,Technology,2016,2016-06-30T12:00:00+00:00,pending
+CRM,Salesforce,Technology,2017,2017-06-30T12:00:00+00:00,pending
+CRM,Salesforce,Technology,2018,2018-06-30T12:00:00+00:00,pending
+CRM,Salesforce,Technology,2019,2019-06-30T12:00:00+00:00,pending
+CRM,Salesforce,Technology,2020,2020-06-30T12:00:00+00:00,pending
+CRM,Salesforce,Technology,2021,2021-06-30T12:00:00+00:00,pending
+CRM,Salesforce,Technology,2022,2022-06-30T12:00:00+00:00,pending
+CRM,Salesforce,Technology,2023,2023-06-30T12:00:00+00:00,pending
+CRM,Salesforce,Technology,2024,2024-06-30T12:00:00+00:00,pending
+ORCL,Oracle,Technology,2016,2016-06-30T12:00:00+00:00,pending
+ORCL,Oracle,Technology,2017,2017-06-30T12:00:00+00:00,pending
+ORCL,Oracle,Technology,2018,2018-06-30T12:00:00+00:00,pending
+ORCL,Oracle,Technology,2019,2019-06-30T12:00:00+00:00,pending
+ORCL,Oracle,Technology,2020,2020-06-30T12:00:00+00:00,pending
+ORCL,Oracle,Technology,2021,2021-06-30T12:00:00+00:00,pending
+ORCL,Oracle,Technology,2022,2022-06-30T12:00:00+00:00,pending
+ORCL,Oracle,Technology,2023,2023-06-30T12:00:00+00:00,pending
+ORCL,Oracle,Technology,2024,2024-06-30T12:00:00+00:00,pending
+IBM,IBM,Technology,2016,2016-06-30T12:00:00+00:00,pending
+IBM,IBM,Technology,2017,2017-06-30T12:00:00+00:00,pending
+IBM,IBM,Technology,2018,2018-06-30T12:00:00+00:00,pending
+IBM,IBM,Technology,2019,2019-06-30T12:00:00+00:00,pending
+IBM,IBM,Technology,2020,2020-06-30T12:00:00+00:00,pending
+IBM,IBM,Technology,2021,2021-06-30T12:00:00+00:00,pending
+IBM,IBM,Technology,2022,2022-06-30T12:00:00+00:00,pending
+IBM,IBM,Technology,2023,2023-06-30T12:00:00+00:00,pending
+IBM,IBM,Technology,2024,2024-06-30T12:00:00+00:00,pending
+INTC,Intel,Technology,2016,2016-06-30T12:00:00+00:00,pending
+INTC,Intel,Technology,2017,2017-06-30T12:00:00+00:00,pending
+INTC,Intel,Technology,2018,2018-06-30T12:00:00+00:00,pending
+INTC,Intel,Technology,2019,2019-06-30T12:00:00+00:00,pending
+INTC,Intel,Technology,2020,2020-06-30T12:00:00+00:00,pending
+INTC,Intel,Technology,2021,2021-06-30T12:00:00+00:00,pending
+INTC,Intel,Technology,2022,2022-06-30T12:00:00+00:00,pending
+INTC,Intel,Technology,2023,2023-06-30T12:00:00+00:00,pending
+INTC,Intel,Technology,2024,2024-06-30T12:00:00+00:00,pending
+BRK.B,Berkshire Hathaway,Financials,2016,2016-06-30T12:00:00+00:00,pending
+BRK.B,Berkshire Hathaway,Financials,2017,2017-06-30T12:00:00+00:00,pending
+BRK.B,Berkshire Hathaway,Financials,2018,2018-06-30T12:00:00+00:00,pending
+BRK.B,Berkshire Hathaway,Financials,2019,2019-06-30T12:00:00+00:00,pending
+BRK.B,Berkshire Hathaway,Financials,2020,2020-06-30T12:00:00+00:00,pending
+BRK.B,Berkshire Hathaway,Financials,2021,2021-06-30T12:00:00+00:00,pending
+BRK.B,Berkshire Hathaway,Financials,2022,2022-06-30T12:00:00+00:00,pending
+BRK.B,Berkshire Hathaway,Financials,2023,2023-06-30T12:00:00+00:00,pending
+BRK.B,Berkshire Hathaway,Financials,2024,2024-06-30T12:00:00+00:00,pending
+JPM,JPMorgan Chase,Financials,2016,2016-06-30T12:00:00+00:00,pending
+JPM,JPMorgan Chase,Financials,2017,2017-06-30T12:00:00+00:00,pending
+JPM,JPMorgan Chase,Financials,2018,2018-06-30T12:00:00+00:00,pending
+JPM,JPMorgan Chase,Financials,2019,2019-06-30T12:00:00+00:00,pending
+JPM,JPMorgan Chase,Financials,2020,2020-06-30T12:00:00+00:00,pending
+JPM,JPMorgan Chase,Financials,2021,2021-06-30T12:00:00+00:00,pending
+JPM,JPMorgan Chase,Financials,2022,2022-06-30T12:00:00+00:00,pending
+JPM,JPMorgan Chase,Financials,2023,2023-06-30T12:00:00+00:00,pending
+JPM,JPMorgan Chase,Financials,2024,2024-06-30T12:00:00+00:00,pending
+BAC,Bank of America,Financials,2016,2016-06-30T12:00:00+00:00,pending
+BAC,Bank of America,Financials,2017,2017-06-30T12:00:00+00:00,pending
+BAC,Bank of America,Financials,2018,2018-06-30T12:00:00+00:00,pending
+BAC,Bank of America,Financials,2019,2019-06-30T12:00:00+00:00,pending
+BAC,Bank of America,Financials,2020,2020-06-30T12:00:00+00:00,pending
+BAC,Bank of America,Financials,2021,2021-06-30T12:00:00+00:00,pending
+BAC,Bank of America,Financials,2022,2022-06-30T12:00:00+00:00,pending
+BAC,Bank of America,Financials,2023,2023-06-30T12:00:00+00:00,pending
+BAC,Bank of America,Financials,2024,2024-06-30T12:00:00+00:00,pending
+WFC,Wells Fargo,Financials,2016,2016-06-30T12:00:00+00:00,pending
+WFC,Wells Fargo,Financials,2017,2017-06-30T12:00:00+00:00,pending
+WFC,Wells Fargo,Financials,2018,2018-06-30T12:00:00+00:00,pending
+WFC,Wells Fargo,Financials,2019,2019-06-30T12:00:00+00:00,pending
+WFC,Wells Fargo,Financials,2020,2020-06-30T12:00:00+00:00,pending
+WFC,Wells Fargo,Financials,2021,2021-06-30T12:00:00+00:00,pending
+WFC,Wells Fargo,Financials,2022,2022-06-30T12:00:00+00:00,pending
+WFC,Wells Fargo,Financials,2023,2023-06-30T12:00:00+00:00,pending
+WFC,Wells Fargo,Financials,2024,2024-06-30T12:00:00+00:00,pending
+GS,Goldman Sachs,Financials,2016,2016-06-30T12:00:00+00:00,pending
+GS,Goldman Sachs,Financials,2017,2017-06-30T12:00:00+00:00,pending
+GS,Goldman Sachs,Financials,2018,2018-06-30T12:00:00+00:00,pending
+GS,Goldman Sachs,Financials,2019,2019-06-30T12:00:00+00:00,pending
+GS,Goldman Sachs,Financials,2020,2020-06-30T12:00:00+00:00,pending
+GS,Goldman Sachs,Financials,2021,2021-06-30T12:00:00+00:00,pending
+GS,Goldman Sachs,Financials,2022,2022-06-30T12:00:00+00:00,pending
+GS,Goldman Sachs,Financials,2023,2023-06-30T12:00:00+00:00,pending
+GS,Goldman Sachs,Financials,2024,2024-06-30T12:00:00+00:00,pending
+MS,Morgan Stanley,Financials,2016,2016-06-30T12:00:00+00:00,pending
+MS,Morgan Stanley,Financials,2017,2017-06-30T12:00:00+00:00,pending
+MS,Morgan Stanley,Financials,2018,2018-06-30T12:00:00+00:00,pending
+MS,Morgan Stanley,Financials,2019,2019-06-30T12:00:00+00:00,pending
+MS,Morgan Stanley,Financials,2020,2020-06-30T12:00:00+00:00,pending
+MS,Morgan Stanley,Financials,2021,2021-06-30T12:00:00+00:00,pending
+MS,Morgan Stanley,Financials,2022,2022-06-30T12:00:00+00:00,pending
+MS,Morgan Stanley,Financials,2023,2023-06-30T12:00:00+00:00,pending
+MS,Morgan Stanley,Financials,2024,2024-06-30T12:00:00+00:00,pending
+BLK,BlackRock,Financials,2016,2016-06-30T12:00:00+00:00,pending
+BLK,BlackRock,Financials,2017,2017-06-30T12:00:00+00:00,pending
+BLK,BlackRock,Financials,2018,2018-06-30T12:00:00+00:00,pending
+BLK,BlackRock,Financials,2019,2019-06-30T12:00:00+00:00,pending
+BLK,BlackRock,Financials,2020,2020-06-30T12:00:00+00:00,pending
+BLK,BlackRock,Financials,2021,2021-06-30T12:00:00+00:00,pending
+BLK,BlackRock,Financials,2022,2022-06-30T12:00:00+00:00,pending
+BLK,BlackRock,Financials,2023,2023-06-30T12:00:00+00:00,pending
+BLK,BlackRock,Financials,2024,2024-06-30T12:00:00+00:00,pending
+SCHW,Charles Schwab,Financials,2016,2016-06-30T12:00:00+00:00,pending
+SCHW,Charles Schwab,Financials,2017,2017-06-30T12:00:00+00:00,pending
+SCHW,Charles Schwab,Financials,2018,2018-06-30T12:00:00+00:00,pending
+SCHW,Charles Schwab,Financials,2019,2019-06-30T12:00:00+00:00,pending
+SCHW,Charles Schwab,Financials,2020,2020-06-30T12:00:00+00:00,pending
+SCHW,Charles Schwab,Financials,2021,2021-06-30T12:00:00+00:00,pending
+SCHW,Charles Schwab,Financials,2022,2022-06-30T12:00:00+00:00,pending
+SCHW,Charles Schwab,Financials,2023,2023-06-30T12:00:00+00:00,pending
+SCHW,Charles Schwab,Financials,2024,2024-06-30T12:00:00+00:00,pending
+AXP,American Express,Financials,2016,2016-06-30T12:00:00+00:00,pending
+AXP,American Express,Financials,2017,2017-06-30T12:00:00+00:00,pending
+AXP,American Express,Financials,2018,2018-06-30T12:00:00+00:00,pending
+AXP,American Express,Financials,2019,2019-06-30T12:00:00+00:00,pending
+AXP,American Express,Financials,2020,2020-06-30T12:00:00+00:00,pending
+AXP,American Express,Financials,2021,2021-06-30T12:00:00+00:00,pending
+AXP,American Express,Financials,2022,2022-06-30T12:00:00+00:00,pending
+AXP,American Express,Financials,2023,2023-06-30T12:00:00+00:00,pending
+AXP,American Express,Financials,2024,2024-06-30T12:00:00+00:00,pending
+C,Citigroup,Financials,2016,2016-06-30T12:00:00+00:00,pending
+C,Citigroup,Financials,2017,2017-06-30T12:00:00+00:00,pending
+C,Citigroup,Financials,2018,2018-06-30T12:00:00+00:00,pending
+C,Citigroup,Financials,2019,2019-06-30T12:00:00+00:00,pending
+C,Citigroup,Financials,2020,2020-06-30T12:00:00+00:00,pending
+C,Citigroup,Financials,2021,2021-06-30T12:00:00+00:00,pending
+C,Citigroup,Financials,2022,2022-06-30T12:00:00+00:00,pending
+C,Citigroup,Financials,2023,2023-06-30T12:00:00+00:00,pending
+C,Citigroup,Financials,2024,2024-06-30T12:00:00+00:00,pending
+LLY,Eli Lilly,Healthcare,2016,2016-06-30T12:00:00+00:00,pending
+LLY,Eli Lilly,Healthcare,2017,2017-06-30T12:00:00+00:00,pending
+LLY,Eli Lilly,Healthcare,2018,2018-06-30T12:00:00+00:00,pending
+LLY,Eli Lilly,Healthcare,2019,2019-06-30T12:00:00+00:00,pending
+LLY,Eli Lilly,Healthcare,2020,2020-06-30T12:00:00+00:00,pending
+LLY,Eli Lilly,Healthcare,2021,2021-06-30T12:00:00+00:00,pending
+LLY,Eli Lilly,Healthcare,2022,2022-06-30T12:00:00+00:00,pending
+LLY,Eli Lilly,Healthcare,2023,2023-06-30T12:00:00+00:00,pending
+LLY,Eli Lilly,Healthcare,2024,2024-06-30T12:00:00+00:00,pending
+UNH,UnitedHealth Group,Healthcare,2016,2016-06-30T12:00:00+00:00,pending
+UNH,UnitedHealth Group,Healthcare,2017,2017-06-30T12:00:00+00:00,pending
+UNH,UnitedHealth Group,Healthcare,2018,2018-06-30T12:00:00+00:00,pending
+UNH,UnitedHealth Group,Healthcare,2019,2019-06-30T12:00:00+00:00,pending
+UNH,UnitedHealth Group,Healthcare,2020,2020-06-30T12:00:00+00:00,pending
+UNH,UnitedHealth Group,Healthcare,2021,2021-06-30T12:00:00+00:00,pending
+UNH,UnitedHealth Group,Healthcare,2022,2022-06-30T12:00:00+00:00,pending
+UNH,UnitedHealth Group,Healthcare,2023,2023-06-30T12:00:00+00:00,pending
+UNH,UnitedHealth Group,Healthcare,2024,2024-06-30T12:00:00+00:00,pending
+JNJ,Johnson & Johnson,Healthcare,2016,2016-06-30T12:00:00+00:00,pending
+JNJ,Johnson & Johnson,Healthcare,2017,2017-06-30T12:00:00+00:00,pending
+JNJ,Johnson & Johnson,Healthcare,2018,2018-06-30T12:00:00+00:00,pending
+JNJ,Johnson & Johnson,Healthcare,2019,2019-06-30T12:00:00+00:00,pending
+JNJ,Johnson & Johnson,Healthcare,2020,2020-06-30T12:00:00+00:00,pending
+JNJ,Johnson & Johnson,Healthcare,2021,2021-06-30T12:00:00+00:00,pending
+JNJ,Johnson & Johnson,Healthcare,2022,2022-06-30T12:00:00+00:00,pending
+JNJ,Johnson & Johnson,Healthcare,2023,2023-06-30T12:00:00+00:00,pending
+JNJ,Johnson & Johnson,Healthcare,2024,2024-06-30T12:00:00+00:00,pending
+ABBV,AbbVie,Healthcare,2016,2016-06-30T12:00:00+00:00,pending
+ABBV,AbbVie,Healthcare,2017,2017-06-30T12:00:00+00:00,pending
+ABBV,AbbVie,Healthcare,2018,2018-06-30T12:00:00+00:00,pending
+ABBV,AbbVie,Healthcare,2019,2019-06-30T12:00:00+00:00,pending
+ABBV,AbbVie,Healthcare,2020,2020-06-30T12:00:00+00:00,pending
+ABBV,AbbVie,Healthcare,2021,2021-06-30T12:00:00+00:00,pending
+ABBV,AbbVie,Healthcare,2022,2022-06-30T12:00:00+00:00,pending
+ABBV,AbbVie,Healthcare,2023,2023-06-30T12:00:00+00:00,pending
+ABBV,AbbVie,Healthcare,2024,2024-06-30T12:00:00+00:00,pending
+MRK,Merck,Healthcare,2016,2016-06-30T12:00:00+00:00,pending
+MRK,Merck,Healthcare,2017,2017-06-30T12:00:00+00:00,pending
+MRK,Merck,Healthcare,2018,2018-06-30T12:00:00+00:00,pending
+MRK,Merck,Healthcare,2019,2019-06-30T12:00:00+00:00,pending
+MRK,Merck,Healthcare,2020,2020-06-30T12:00:00+00:00,pending
+MRK,Merck,Healthcare,2021,2021-06-30T12:00:00+00:00,pending
+MRK,Merck,Healthcare,2022,2022-06-30T12:00:00+00:00,pending
+MRK,Merck,Healthcare,2023,2023-06-30T12:00:00+00:00,pending
+MRK,Merck,Healthcare,2024,2024-06-30T12:00:00+00:00,pending
+TMO,Thermo Fisher Scientific,Healthcare,2016,2016-06-30T12:00:00+00:00,pending
+TMO,Thermo Fisher Scientific,Healthcare,2017,2017-06-30T12:00:00+00:00,pending
+TMO,Thermo Fisher Scientific,Healthcare,2018,2018-06-30T12:00:00+00:00,pending
+TMO,Thermo Fisher Scientific,Healthcare,2019,2019-06-30T12:00:00+00:00,pending
+TMO,Thermo Fisher Scientific,Healthcare,2020,2020-06-30T12:00:00+00:00,pending
+TMO,Thermo Fisher Scientific,Healthcare,2021,2021-06-30T12:00:00+00:00,pending
+TMO,Thermo Fisher Scientific,Healthcare,2022,2022-06-30T12:00:00+00:00,pending
+TMO,Thermo Fisher Scientific,Healthcare,2023,2023-06-30T12:00:00+00:00,pending
+TMO,Thermo Fisher Scientific,Healthcare,2024,2024-06-30T12:00:00+00:00,pending
+ABT,Abbott Laboratories,Healthcare,2016,2016-06-30T12:00:00+00:00,pending
+ABT,Abbott Laboratories,Healthcare,2017,2017-06-30T12:00:00+00:00,pending
+ABT,Abbott Laboratories,Healthcare,2018,2018-06-30T12:00:00+00:00,pending
+ABT,Abbott Laboratories,Healthcare,2019,2019-06-30T12:00:00+00:00,pending
+ABT,Abbott Laboratories,Healthcare,2020,2020-06-30T12:00:00+00:00,pending
+ABT,Abbott Laboratories,Healthcare,2021,2021-06-30T12:00:00+00:00,pending
+ABT,Abbott Laboratories,Healthcare,2022,2022-06-30T12:00:00+00:00,pending
+ABT,Abbott Laboratories,Healthcare,2023,2023-06-30T12:00:00+00:00,pending
+ABT,Abbott Laboratories,Healthcare,2024,2024-06-30T12:00:00+00:00,pending
+PFE,Pfizer,Healthcare,2016,2016-06-30T12:00:00+00:00,pending
+PFE,Pfizer,Healthcare,2017,2017-06-30T12:00:00+00:00,pending
+PFE,Pfizer,Healthcare,2018,2018-06-30T12:00:00+00:00,pending
+PFE,Pfizer,Healthcare,2019,2019-06-30T12:00:00+00:00,pending
+PFE,Pfizer,Healthcare,2020,2020-06-30T12:00:00+00:00,pending
+PFE,Pfizer,Healthcare,2021,2021-06-30T12:00:00+00:00,pending
+PFE,Pfizer,Healthcare,2022,2022-06-30T12:00:00+00:00,pending
+PFE,Pfizer,Healthcare,2023,2023-06-30T12:00:00+00:00,pending
+PFE,Pfizer,Healthcare,2024,2024-06-30T12:00:00+00:00,pending
+MDT,Medtronic,Healthcare,2016,2016-06-30T12:00:00+00:00,pending
+MDT,Medtronic,Healthcare,2017,2017-06-30T12:00:00+00:00,pending
+MDT,Medtronic,Healthcare,2018,2018-06-30T12:00:00+00:00,pending
+MDT,Medtronic,Healthcare,2019,2019-06-30T12:00:00+00:00,pending
+MDT,Medtronic,Healthcare,2020,2020-06-30T12:00:00+00:00,pending
+MDT,Medtronic,Healthcare,2021,2021-06-30T12:00:00+00:00,pending
+MDT,Medtronic,Healthcare,2022,2022-06-30T12:00:00+00:00,pending
+MDT,Medtronic,Healthcare,2023,2023-06-30T12:00:00+00:00,pending
+MDT,Medtronic,Healthcare,2024,2024-06-30T12:00:00+00:00,pending
+BMY,Bristol-Myers Squibb,Healthcare,2016,2016-06-30T12:00:00+00:00,pending
+BMY,Bristol-Myers Squibb,Healthcare,2017,2017-06-30T12:00:00+00:00,pending
+BMY,Bristol-Myers Squibb,Healthcare,2018,2018-06-30T12:00:00+00:00,pending
+BMY,Bristol-Myers Squibb,Healthcare,2019,2019-06-30T12:00:00+00:00,pending
+BMY,Bristol-Myers Squibb,Healthcare,2020,2020-06-30T12:00:00+00:00,pending
+BMY,Bristol-Myers Squibb,Healthcare,2021,2021-06-30T12:00:00+00:00,pending
+BMY,Bristol-Myers Squibb,Healthcare,2022,2022-06-30T12:00:00+00:00,pending
+BMY,Bristol-Myers Squibb,Healthcare,2023,2023-06-30T12:00:00+00:00,pending
+BMY,Bristol-Myers Squibb,Healthcare,2024,2024-06-30T12:00:00+00:00,pending
+AMZN,Amazon,Consumer Discretionary,2016,2016-06-30T12:00:00+00:00,pending
+AMZN,Amazon,Consumer Discretionary,2017,2017-06-30T12:00:00+00:00,pending
+AMZN,Amazon,Consumer Discretionary,2018,2018-06-30T12:00:00+00:00,pending
+AMZN,Amazon,Consumer Discretionary,2019,2019-06-30T12:00:00+00:00,pending
+AMZN,Amazon,Consumer Discretionary,2020,2020-06-30T12:00:00+00:00,pending
+AMZN,Amazon,Consumer Discretionary,2021,2021-06-30T12:00:00+00:00,pending
+AMZN,Amazon,Consumer Discretionary,2022,2022-06-30T12:00:00+00:00,pending
+AMZN,Amazon,Consumer Discretionary,2023,2023-06-30T12:00:00+00:00,pending
+AMZN,Amazon,Consumer Discretionary,2024,2024-06-30T12:00:00+00:00,pending
+TSLA,Tesla,Consumer Discretionary,2016,2016-06-30T12:00:00+00:00,pending
+TSLA,Tesla,Consumer Discretionary,2017,2017-06-30T12:00:00+00:00,pending
+TSLA,Tesla,Consumer Discretionary,2018,2018-06-30T12:00:00+00:00,pending
+TSLA,Tesla,Consumer Discretionary,2019,2019-06-30T12:00:00+00:00,pending
+TSLA,Tesla,Consumer Discretionary,2020,2020-06-30T12:00:00+00:00,pending
+TSLA,Tesla,Consumer Discretionary,2021,2021-06-30T12:00:00+00:00,pending
+TSLA,Tesla,Consumer Discretionary,2022,2022-06-30T12:00:00+00:00,pending
+TSLA,Tesla,Consumer Discretionary,2023,2023-06-30T12:00:00+00:00,pending
+TSLA,Tesla,Consumer Discretionary,2024,2024-06-30T12:00:00+00:00,pending
+HD,Home Depot,Consumer Discretionary,2016,2016-06-30T12:00:00+00:00,pending
+HD,Home Depot,Consumer Discretionary,2017,2017-06-30T12:00:00+00:00,pending
+HD,Home Depot,Consumer Discretionary,2018,2018-06-30T12:00:00+00:00,pending
+HD,Home Depot,Consumer Discretionary,2019,2019-06-30T12:00:00+00:00,pending
+HD,Home Depot,Consumer Discretionary,2020,2020-06-30T12:00:00+00:00,pending
+HD,Home Depot,Consumer Discretionary,2021,2021-06-30T12:00:00+00:00,pending
+HD,Home Depot,Consumer Discretionary,2022,2022-06-30T12:00:00+00:00,pending
+HD,Home Depot,Consumer Discretionary,2023,2023-06-30T12:00:00+00:00,pending
+HD,Home Depot,Consumer Discretionary,2024,2024-06-30T12:00:00+00:00,pending
+MCD,McDonald's,Consumer Discretionary,2016,2016-06-30T12:00:00+00:00,pending
+MCD,McDonald's,Consumer Discretionary,2017,2017-06-30T12:00:00+00:00,pending
+MCD,McDonald's,Consumer Discretionary,2018,2018-06-30T12:00:00+00:00,pending
+MCD,McDonald's,Consumer Discretionary,2019,2019-06-30T12:00:00+00:00,pending
+MCD,McDonald's,Consumer Discretionary,2020,2020-06-30T12:00:00+00:00,pending
+MCD,McDonald's,Consumer Discretionary,2021,2021-06-30T12:00:00+00:00,pending
+MCD,McDonald's,Consumer Discretionary,2022,2022-06-30T12:00:00+00:00,pending
+MCD,McDonald's,Consumer Discretionary,2023,2023-06-30T12:00:00+00:00,pending
+MCD,McDonald's,Consumer Discretionary,2024,2024-06-30T12:00:00+00:00,pending
+NKE,Nike,Consumer Discretionary,2016,2016-06-30T12:00:00+00:00,pending
+NKE,Nike,Consumer Discretionary,2017,2017-06-30T12:00:00+00:00,pending
+NKE,Nike,Consumer Discretionary,2018,2018-06-30T12:00:00+00:00,pending
+NKE,Nike,Consumer Discretionary,2019,2019-06-30T12:00:00+00:00,pending
+NKE,Nike,Consumer Discretionary,2020,2020-06-30T12:00:00+00:00,pending
+NKE,Nike,Consumer Discretionary,2021,2021-06-30T12:00:00+00:00,pending
+NKE,Nike,Consumer Discretionary,2022,2022-06-30T12:00:00+00:00,pending
+NKE,Nike,Consumer Discretionary,2023,2023-06-30T12:00:00+00:00,pending
+NKE,Nike,Consumer Discretionary,2024,2024-06-30T12:00:00+00:00,pending
+SBUX,Starbucks,Consumer Discretionary,2016,2016-06-30T12:00:00+00:00,pending
+SBUX,Starbucks,Consumer Discretionary,2017,2017-06-30T12:00:00+00:00,pending
+SBUX,Starbucks,Consumer Discretionary,2018,2018-06-30T12:00:00+00:00,pending
+SBUX,Starbucks,Consumer Discretionary,2019,2019-06-30T12:00:00+00:00,pending
+SBUX,Starbucks,Consumer Discretionary,2020,2020-06-30T12:00:00+00:00,pending
+SBUX,Starbucks,Consumer Discretionary,2021,2021-06-30T12:00:00+00:00,pending
+SBUX,Starbucks,Consumer Discretionary,2022,2022-06-30T12:00:00+00:00,pending
+SBUX,Starbucks,Consumer Discretionary,2023,2023-06-30T12:00:00+00:00,pending
+SBUX,Starbucks,Consumer Discretionary,2024,2024-06-30T12:00:00+00:00,pending
+TGT,Target,Consumer Discretionary,2016,2016-06-30T12:00:00+00:00,pending
+TGT,Target,Consumer Discretionary,2017,2017-06-30T12:00:00+00:00,pending
+TGT,Target,Consumer Discretionary,2018,2018-06-30T12:00:00+00:00,pending
+TGT,Target,Consumer Discretionary,2019,2019-06-30T12:00:00+00:00,pending
+TGT,Target,Consumer Discretionary,2020,2020-06-30T12:00:00+00:00,pending
+TGT,Target,Consumer Discretionary,2021,2021-06-30T12:00:00+00:00,pending
+TGT,Target,Consumer Discretionary,2022,2022-06-30T12:00:00+00:00,pending
+TGT,Target,Consumer Discretionary,2023,2023-06-30T12:00:00+00:00,pending
+TGT,Target,Consumer Discretionary,2024,2024-06-30T12:00:00+00:00,pending
+LOW,Lowe's,Consumer Discretionary,2016,2016-06-30T12:00:00+00:00,pending
+LOW,Lowe's,Consumer Discretionary,2017,2017-06-30T12:00:00+00:00,pending
+LOW,Lowe's,Consumer Discretionary,2018,2018-06-30T12:00:00+00:00,pending
+LOW,Lowe's,Consumer Discretionary,2019,2019-06-30T12:00:00+00:00,pending
+LOW,Lowe's,Consumer Discretionary,2020,2020-06-30T12:00:00+00:00,pending
+LOW,Lowe's,Consumer Discretionary,2021,2021-06-30T12:00:00+00:00,pending
+LOW,Lowe's,Consumer Discretionary,2022,2022-06-30T12:00:00+00:00,pending
+LOW,Lowe's,Consumer Discretionary,2023,2023-06-30T12:00:00+00:00,pending
+LOW,Lowe's,Consumer Discretionary,2024,2024-06-30T12:00:00+00:00,pending
+TJX,TJX Companies,Consumer Discretionary,2016,2016-06-30T12:00:00+00:00,pending
+TJX,TJX Companies,Consumer Discretionary,2017,2017-06-30T12:00:00+00:00,pending
+TJX,TJX Companies,Consumer Discretionary,2018,2018-06-30T12:00:00+00:00,pending
+TJX,TJX Companies,Consumer Discretionary,2019,2019-06-30T12:00:00+00:00,pending
+TJX,TJX Companies,Consumer Discretionary,2020,2020-06-30T12:00:00+00:00,pending
+TJX,TJX Companies,Consumer Discretionary,2021,2021-06-30T12:00:00+00:00,pending
+TJX,TJX Companies,Consumer Discretionary,2022,2022-06-30T12:00:00+00:00,pending
+TJX,TJX Companies,Consumer Discretionary,2023,2023-06-30T12:00:00+00:00,pending
+TJX,TJX Companies,Consumer Discretionary,2024,2024-06-30T12:00:00+00:00,pending
+F,Ford Motor,Consumer Discretionary,2016,2016-06-30T12:00:00+00:00,pending
+F,Ford Motor,Consumer Discretionary,2017,2017-06-30T12:00:00+00:00,pending
+F,Ford Motor,Consumer Discretionary,2018,2018-06-30T12:00:00+00:00,pending
+F,Ford Motor,Consumer Discretionary,2019,2019-06-30T12:00:00+00:00,pending
+F,Ford Motor,Consumer Discretionary,2020,2020-06-30T12:00:00+00:00,pending
+F,Ford Motor,Consumer Discretionary,2021,2021-06-30T12:00:00+00:00,pending
+F,Ford Motor,Consumer Discretionary,2022,2022-06-30T12:00:00+00:00,pending
+F,Ford Motor,Consumer Discretionary,2023,2023-06-30T12:00:00+00:00,pending
+F,Ford Motor,Consumer Discretionary,2024,2024-06-30T12:00:00+00:00,pending
+XOM,ExxonMobil,Energy,2016,2016-06-30T12:00:00+00:00,pending
+XOM,ExxonMobil,Energy,2017,2017-06-30T12:00:00+00:00,pending
+XOM,ExxonMobil,Energy,2018,2018-06-30T12:00:00+00:00,pending
+XOM,ExxonMobil,Energy,2019,2019-06-30T12:00:00+00:00,pending
+XOM,ExxonMobil,Energy,2020,2020-06-30T12:00:00+00:00,pending
+XOM,ExxonMobil,Energy,2021,2021-06-30T12:00:00+00:00,pending
+XOM,ExxonMobil,Energy,2022,2022-06-30T12:00:00+00:00,pending
+XOM,ExxonMobil,Energy,2023,2023-06-30T12:00:00+00:00,pending
+XOM,ExxonMobil,Energy,2024,2024-06-30T12:00:00+00:00,pending
+CVX,Chevron,Energy,2016,2016-06-30T12:00:00+00:00,pending
+CVX,Chevron,Energy,2017,2017-06-30T12:00:00+00:00,pending
+CVX,Chevron,Energy,2018,2018-06-30T12:00:00+00:00,pending
+CVX,Chevron,Energy,2019,2019-06-30T12:00:00+00:00,pending
+CVX,Chevron,Energy,2020,2020-06-30T12:00:00+00:00,pending
+CVX,Chevron,Energy,2021,2021-06-30T12:00:00+00:00,pending
+CVX,Chevron,Energy,2022,2022-06-30T12:00:00+00:00,pending
+CVX,Chevron,Energy,2023,2023-06-30T12:00:00+00:00,pending
+CVX,Chevron,Energy,2024,2024-06-30T12:00:00+00:00,pending
+COP,ConocoPhillips,Energy,2016,2016-06-30T12:00:00+00:00,pending
+COP,ConocoPhillips,Energy,2017,2017-06-30T12:00:00+00:00,pending
+COP,ConocoPhillips,Energy,2018,2018-06-30T12:00:00+00:00,pending
+COP,ConocoPhillips,Energy,2019,2019-06-30T12:00:00+00:00,pending
+COP,ConocoPhillips,Energy,2020,2020-06-30T12:00:00+00:00,pending
+COP,ConocoPhillips,Energy,2021,2021-06-30T12:00:00+00:00,pending
+COP,ConocoPhillips,Energy,2022,2022-06-30T12:00:00+00:00,pending
+COP,ConocoPhillips,Energy,2023,2023-06-30T12:00:00+00:00,pending
+COP,ConocoPhillips,Energy,2024,2024-06-30T12:00:00+00:00,pending
+EOG,EOG Resources,Energy,2016,2016-06-30T12:00:00+00:00,pending
+EOG,EOG Resources,Energy,2017,2017-06-30T12:00:00+00:00,pending
+EOG,EOG Resources,Energy,2018,2018-06-30T12:00:00+00:00,pending
+EOG,EOG Resources,Energy,2019,2019-06-30T12:00:00+00:00,pending
+EOG,EOG Resources,Energy,2020,2020-06-30T12:00:00+00:00,pending
+EOG,EOG Resources,Energy,2021,2021-06-30T12:00:00+00:00,pending
+EOG,EOG Resources,Energy,2022,2022-06-30T12:00:00+00:00,pending
+EOG,EOG Resources,Energy,2023,2023-06-30T12:00:00+00:00,pending
+EOG,EOG Resources,Energy,2024,2024-06-30T12:00:00+00:00,pending
+SLB,SLB (Schlumberger),Energy,2016,2016-06-30T12:00:00+00:00,pending
+SLB,SLB (Schlumberger),Energy,2017,2017-06-30T12:00:00+00:00,pending
+SLB,SLB (Schlumberger),Energy,2018,2018-06-30T12:00:00+00:00,pending
+SLB,SLB (Schlumberger),Energy,2019,2019-06-30T12:00:00+00:00,pending
+SLB,SLB (Schlumberger),Energy,2020,2020-06-30T12:00:00+00:00,pending
+SLB,SLB (Schlumberger),Energy,2021,2021-06-30T12:00:00+00:00,pending
+SLB,SLB (Schlumberger),Energy,2022,2022-06-30T12:00:00+00:00,pending
+SLB,SLB (Schlumberger),Energy,2023,2023-06-30T12:00:00+00:00,pending
+SLB,SLB (Schlumberger),Energy,2024,2024-06-30T12:00:00+00:00,pending
+MPC,Marathon Petroleum,Energy,2016,2016-06-30T12:00:00+00:00,pending
+MPC,Marathon Petroleum,Energy,2017,2017-06-30T12:00:00+00:00,pending
+MPC,Marathon Petroleum,Energy,2018,2018-06-30T12:00:00+00:00,pending
+MPC,Marathon Petroleum,Energy,2019,2019-06-30T12:00:00+00:00,pending
+MPC,Marathon Petroleum,Energy,2020,2020-06-30T12:00:00+00:00,pending
+MPC,Marathon Petroleum,Energy,2021,2021-06-30T12:00:00+00:00,pending
+MPC,Marathon Petroleum,Energy,2022,2022-06-30T12:00:00+00:00,pending
+MPC,Marathon Petroleum,Energy,2023,2023-06-30T12:00:00+00:00,pending
+MPC,Marathon Petroleum,Energy,2024,2024-06-30T12:00:00+00:00,pending
+PSX,Phillips 66,Energy,2016,2016-06-30T12:00:00+00:00,pending
+PSX,Phillips 66,Energy,2017,2017-06-30T12:00:00+00:00,pending
+PSX,Phillips 66,Energy,2018,2018-06-30T12:00:00+00:00,pending
+PSX,Phillips 66,Energy,2019,2019-06-30T12:00:00+00:00,pending
+PSX,Phillips 66,Energy,2020,2020-06-30T12:00:00+00:00,pending
+PSX,Phillips 66,Energy,2021,2021-06-30T12:00:00+00:00,pending
+PSX,Phillips 66,Energy,2022,2022-06-30T12:00:00+00:00,pending
+PSX,Phillips 66,Energy,2023,2023-06-30T12:00:00+00:00,pending
+PSX,Phillips 66,Energy,2024,2024-06-30T12:00:00+00:00,pending
+VLO,Valero Energy,Energy,2016,2016-06-30T12:00:00+00:00,pending
+VLO,Valero Energy,Energy,2017,2017-06-30T12:00:00+00:00,pending
+VLO,Valero Energy,Energy,2018,2018-06-30T12:00:00+00:00,pending
+VLO,Valero Energy,Energy,2019,2019-06-30T12:00:00+00:00,pending
+VLO,Valero Energy,Energy,2020,2020-06-30T12:00:00+00:00,pending
+VLO,Valero Energy,Energy,2021,2021-06-30T12:00:00+00:00,pending
+VLO,Valero Energy,Energy,2022,2022-06-30T12:00:00+00:00,pending
+VLO,Valero Energy,Energy,2023,2023-06-30T12:00:00+00:00,pending
+VLO,Valero Energy,Energy,2024,2024-06-30T12:00:00+00:00,pending
+OXY,Occidental Petroleum,Energy,2016,2016-06-30T12:00:00+00:00,pending
+OXY,Occidental Petroleum,Energy,2017,2017-06-30T12:00:00+00:00,pending
+OXY,Occidental Petroleum,Energy,2018,2018-06-30T12:00:00+00:00,pending
+OXY,Occidental Petroleum,Energy,2019,2019-06-30T12:00:00+00:00,pending
+OXY,Occidental Petroleum,Energy,2020,2020-06-30T12:00:00+00:00,pending
+OXY,Occidental Petroleum,Energy,2021,2021-06-30T12:00:00+00:00,pending
+OXY,Occidental Petroleum,Energy,2022,2022-06-30T12:00:00+00:00,pending
+OXY,Occidental Petroleum,Energy,2023,2023-06-30T12:00:00+00:00,pending
+OXY,Occidental Petroleum,Energy,2024,2024-06-30T12:00:00+00:00,pending
+HAL,Halliburton,Energy,2016,2016-06-30T12:00:00+00:00,pending
+HAL,Halliburton,Energy,2017,2017-06-30T12:00:00+00:00,pending
+HAL,Halliburton,Energy,2018,2018-06-30T12:00:00+00:00,pending
+HAL,Halliburton,Energy,2019,2019-06-30T12:00:00+00:00,pending
+HAL,Halliburton,Energy,2020,2020-06-30T12:00:00+00:00,pending
+HAL,Halliburton,Energy,2021,2021-06-30T12:00:00+00:00,pending
+HAL,Halliburton,Energy,2022,2022-06-30T12:00:00+00:00,pending
+HAL,Halliburton,Energy,2023,2023-06-30T12:00:00+00:00,pending
+HAL,Halliburton,Energy,2024,2024-06-30T12:00:00+00:00,pending

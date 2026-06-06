@@ -13,9 +13,17 @@ AGENT.md
 # Python
 __pycache__/
 *.py[cod]
+*.egg-info/
+build/
 .pytest_cache/
 .ruff_cache/
 .venv/
+
+# Local Part 1 artifacts
+/part1_stated_values/data/raw/*
+!/part1_stated_values/data/raw/.gitkeep
+/part1_stated_values/data/interim/*
+!/part1_stated_values/data/interim/.gitkeep
 
 # Notebooks
 .ipynb_checkpoints/

@@ -1,0 +1,51 @@
+ticker,company_name,sector,primary_domain,known_historical_domains
+MSFT,Microsoft,Technology,microsoft.com,
+AAPL,Apple,Technology,apple.com,
+NVDA,NVIDIA,Technology,nvidia.com,
+GOOGL,Alphabet,Technology,abc.xyz,
+META,Meta Platforms,Technology,about.meta.com,facebook.com
+AVGO,Broadcom,Technology,broadcom.com,
+CRM,Salesforce,Technology,salesforce.com,
+ORCL,Oracle,Technology,oracle.com,
+IBM,IBM,Technology,ibm.com,
+INTC,Intel,Technology,intel.com,
+BRK.B,Berkshire Hathaway,Financials,berkshirehathaway.com,
+JPM,JPMorgan Chase,Financials,jpmorganchase.com,
+BAC,Bank of America,Financials,bankofamerica.com,
+WFC,Wells Fargo,Financials,wellsfargo.com,
+GS,Goldman Sachs,Financials,goldmansachs.com,
+MS,Morgan Stanley,Financials,morganstanley.com,
+BLK,BlackRock,Financials,blackrock.com,
+SCHW,Charles Schwab,Financials,schwab.com,
+AXP,American Express,Financials,americanexpress.com,
+C,Citigroup,Financials,citigroup.com,
+LLY,Eli Lilly,Healthcare,lilly.com,
+UNH,UnitedHealth Group,Healthcare,unitedhealthgroup.com,
+JNJ,Johnson & Johnson,Healthcare,jnj.com,
+ABBV,AbbVie,Healthcare,abbvie.com,
+MRK,Merck,Healthcare,merck.com,
+TMO,Thermo Fisher Scientific,Healthcare,thermofisher.com,
+ABT,Abbott Laboratories,Healthcare,abbott.com,
+PFE,Pfizer,Healthcare,pfizer.com,
+MDT,Medtronic,Healthcare,medtronic.com,
+BMY,Bristol-Myers Squibb,Healthcare,bms.com,
+AMZN,Amazon,Consumer Discretionary,aboutamazon.com,amazon.com
+TSLA,Tesla,Consumer Discretionary,tesla.com,
+HD,Home Depot,Consumer Discretionary,corporate.homedepot.com,homedepot.com
+MCD,McDonald's,Consumer Discretionary,corporate.mcdonalds.com,mcdonalds.com
+NKE,Nike,Consumer Discretionary,about.nike.com,nike.com
+SBUX,Starbucks,Consumer Discretionary,about.starbucks.com,starbucks.com
+TGT,Target,Consumer Discretionary,corporate.target.com,target.com
+LOW,Lowe's,Consumer Discretionary,corporate.lowes.com,lowes.com
+TJX,TJX Companies,Consumer Discretionary,tjx.com,
+F,Ford Motor,Consumer Discretionary,corporate.ford.com,ford.com
+XOM,ExxonMobil,Energy,corporate.exxonmobil.com,exxonmobil.com
+CVX,Chevron,Energy,chevron.com,
+COP,ConocoPhillips,Energy,conocophillips.com,
+EOG,EOG Resources,Energy,eogresources.com,
+SLB,SLB (Schlumberger),Energy,slb.com,schlumberger.com
+MPC,Marathon Petroleum,Energy,marathonpetroleum.com,
+PSX,Phillips 66,Energy,phillips66.com,
+VLO,Valero Energy,Energy,valero.com,
+OXY,Occidental Petroleum,Energy,oxy.com,
+HAL,Halliburton,Energy,halliburton.com,
