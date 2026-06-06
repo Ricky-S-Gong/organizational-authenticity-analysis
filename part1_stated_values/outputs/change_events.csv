@@ -33,8 +33,8 @@ AMZN,2019,,,indeterminate,
 AMZN,2020,,,indeterminate,
 AMZN,2021,,,indeterminate,
 AMZN,2022,,,indeterminate,
-AMZN,2023,,,indeterminate,
-AMZN,2024,,,indeterminate,
+AMZN,2023,True,0.489362,substantive_change,"{""added"": [""Public Policy"", ""We engage with policymakers on a wide range of issues that are important to our customers and employees."", ""Learn more about our views on current policy issues.""], ""removed"": [""Workplace"", ""At Amazon, $15 is just the start"", ""All Amazon employees earn at least $15 an hour—and more in areas where the cost of living is higher.""]}"
+AMZN,2024,True,0.424699,substantive_change,"{""added"": [""Amazon Leadership Principles"", ""Our Reports"", ""Dive deep into Amazon's support of employees and small businesses, and learn more about our efforts to build stronger communities and protect the planet.""], ""removed"": [""Leadership Principles"", ""CEO Andy Jassy’s 2022 Letter to Shareholders"", ""More from Amazon""]}"
 AVGO,2016,,,no_prior,
 AVGO,2017,,,indeterminate,
 AVGO,2018,,,indeterminate,

@@ -26,15 +26,15 @@ ABT,Abbott Laboratories,Healthcare,2021,2021-06-30T12:00:00+00:00,discovery_inco
 ABT,Abbott Laboratories,Healthcare,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 ABT,Abbott Laboratories,Healthcare,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 ABT,Abbott Laboratories,Healthcare,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-AMZN,Amazon,Consumer Discretionary,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-AMZN,Amazon,Consumer Discretionary,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-AMZN,Amazon,Consumer Discretionary,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-AMZN,Amazon,Consumer Discretionary,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-AMZN,Amazon,Consumer Discretionary,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-AMZN,Amazon,Consumer Discretionary,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-AMZN,Amazon,Consumer Discretionary,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-AMZN,Amazon,Consumer Discretionary,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-AMZN,Amazon,Consumer Discretionary,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
+AMZN,Amazon,Consumer Discretionary,2016,2016-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+AMZN,Amazon,Consumer Discretionary,2017,2017-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,2
+AMZN,Amazon,Consumer Discretionary,2018,2018-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+AMZN,Amazon,Consumer Discretionary,2019,2019-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,3
+AMZN,Amazon,Consumer Discretionary,2020,2020-06-30T12:00:00+00:00,selected,,1,4,4,2020-11-24T04:01:48+00:00,https://www.aboutamazon.com/about-us,https://web.archive.org/web/20201124040148id_/https://www.aboutamazon.com/about-us,complete,2
+AMZN,Amazon,Consumer Discretionary,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,5
+AMZN,Amazon,Consumer Discretionary,2022,2022-06-30T12:00:00+00:00,selected,,1,75,65,2022-07-01T19:56:56+00:00,https://www.aboutamazon.com/about-us,https://web.archive.org/web/20220701195656id_/https://www.aboutamazon.com/about-us,complete,1
+AMZN,Amazon,Consumer Discretionary,2023,2023-06-30T12:00:00+00:00,selected,,1,63,60,2023-07-01T06:12:32+00:00,https://www.aboutamazon.com/about-us,https://web.archive.org/web/20230701061232id_/https://www.aboutamazon.com/about-us,complete,1
+AMZN,Amazon,Consumer Discretionary,2024,2024-06-30T12:00:00+00:00,selected,,1,96,85,2024-06-28T04:12:06+00:00,https://www.aboutamazon.com/about-us,https://web.archive.org/web/20240628041206id_/https://www.aboutamazon.com/about-us,complete,2
 AVGO,Broadcom,Technology,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 AVGO,Broadcom,Technology,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 AVGO,Broadcom,Technology,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
