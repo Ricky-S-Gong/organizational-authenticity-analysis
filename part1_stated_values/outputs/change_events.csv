@@ -238,27 +238,27 @@ MCD,2017,,,indeterminate,
 MCD,2018,,,indeterminate,
 MCD,2019,,,indeterminate,
 MCD,2020,,,indeterminate,
-MCD,2021,,,indeterminate,
-MCD,2022,,,indeterminate,
-MCD,2023,,,indeterminate,
-MCD,2024,,,indeterminate,
+MCD,2021,True,0.363942,substantive_change,"{""added"": [""Download PDF (2.7 MB)"", ""Download PDF (869 KB)""], ""removed"": [""Our Purpose & Impact"", ""What matters to you matters to us."", ""Here at McDonald’s, our purpose is to feed and foster communities.""]}"
+MCD,2022,True,0.2,substantive_change,"{""added"": [""Diversity Snapshot"", ""Track our progress against our diversity, equity, and inclusion strategy with us."", ""Learn More""], ""removed"": [""Because we know there’s a difference between being in a community and being part of one."", ""We are helping to create a future of quality, secure and sustainable food."", ""Impact Areas""]}"
+MCD,2023,True,0.85376,substantive_change,"{""added"": [""Feeding and Fostering Communities"", ""2021–2022 Purpose & Impact Progress Summary"", ""Explore our main points of ESG progress and performance from 2021–2022.""], ""removed"": [""What matters to you matters to us."", ""Diversity Snapshot"", ""Track our progress against our diversity, equity, and inclusion strategy with us.""]}"
+MCD,2024,True,0.29108,substantive_change,"{""added"": [""Our purpose is to feed and foster communities."", ""Purpose & Impact Report 2022–2023"", ""Explore our full progress, performance and actions in FY2022 in our latest report.""], ""removed"": [""Feeding and Fostering Communities"", ""2021–2022 Purpose & Impact Progress Summary"", ""Explore our main points of ESG progress and performance from 2021–2022.""]}"
 MDT,2016,,,no_prior,
 MDT,2017,,,indeterminate,
 MDT,2018,,,indeterminate,
 MDT,2019,,,indeterminate,
 MDT,2020,,,indeterminate,
 MDT,2021,,,indeterminate,
-MDT,2022,,,indeterminate,
-MDT,2023,,,indeterminate,
-MDT,2024,,,indeterminate,
+MDT,2022,True,0.092949,minor_edit,"{""added"": [""Copy Link"", ""Healthcare technology"", ""Improving people’s lives with groundbreaking tech""], ""removed"": [""The father of a Type 1 diabetic who worries constantly about his son’s blood sugar spiking when he’s at a friend’s house."", ""Insight-driven care"", ""Committed to compassion, we make technologies that transform two lives per second — and that's just the start.""]}"
+MDT,2023,True,0.525469,substantive_change,"{""added"": [""Health tech for a better future | Medtronic"", ""Health tech for a better future"", ""From AI to connected care and beyond, our technology is building a bridge to better health for more people.""], ""removed"": [""Our Company | Medtronic"", ""Engineering the extraordinary"", ""Groundbreaking healthcare technology solutions, inspiring hope and possibility in people around the world""]}"
+MDT,2024,True,0.016529,minor_edit,"{""added"": [""With 95,000-plus people in over 150 countries, we see extraordinary possibilities to further increase our positive impact in the world."", ""Email"", ""Copy Link""], ""removed"": [""Print"", ""Email"", ""Copy Link""]}"
 META,2016,,,no_prior,
 META,2017,,,indeterminate,
 META,2018,,,indeterminate,
 META,2019,,,indeterminate,
-META,2020,,,indeterminate,
-META,2021,,,indeterminate,
-META,2022,,,indeterminate,
-META,2023,,,indeterminate,
+META,2020,True,0.039916,minor_edit,"{""added"": [""Our products empower more than 3 billion people around the world to share ideas, offer support and make a difference."", ""$3 billion+ raised"", ""160 million+ businesses""], ""removed"": [""We’re committed to building technologies that enable the best of what people can do together."", ""Our products empower more than 2 billion people around the world to share ideas, offer support and make a difference."", ""$2 billion+ raised""]}"
+META,2021,True,0.027484,minor_edit,"{""added"": [""$5 billion+ raised"", ""200 million+ businesses"", ""Chris Cox""], ""removed"": [""$3 billion+ raised"", ""160 million+ businesses"", ""Offices in 70 cities worldwide""]}"
+META,2022,True,0.763985,substantive_change,"{""added"": [""Company Information, Culture, and Principles | About"", ""Skip to content"", ""$6 billion+ raised""], ""removed"": [""$5 billion+ raised"", ""100 billion+ messages shared every day"", ""Serve Everyone""]}"
+META,2023,True,0.636364,substantive_change,"{""added"": [""Company Information, Culture, and Principles | About Meta"", ""Giving people the power to build community and bring the world closer together"", ""Our products empower more than 3 billion people around the world to share ideas and offer support.""], ""removed"": [""Company Information, Culture, and Principles | About"", ""Give people the power to build community and bring the world closer together."", ""Our products empower more than 3 billion people around the world to share ideas, offer support and make a difference.""]}"
 META,2024,,,indeterminate,
 MPC,2016,,,no_prior,
 MPC,2017,,,indeterminate,
