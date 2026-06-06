@@ -116,33 +116,33 @@ CRM,Salesforce,Technology,2021,2021-06-30T12:00:00+00:00,selected,,1,77,9,2021-0
 CRM,Salesforce,Technology,2022,2022-06-30T12:00:00+00:00,selected,,1,95,6,2022-03-23T13:51:07+00:00,https://www.salesforce.com/company/our-story/,https://web.archive.org/web/20220323135107id_/https://www.salesforce.com/company/our-story/,complete,2
 CRM,Salesforce,Technology,2023,2023-06-30T12:00:00+00:00,selected,,1,123,2,2023-07-07T02:22:09+00:00,https://www.salesforce.com/company/our-story/,https://web.archive.org/web/20230707022209id_/https://www.salesforce.com/company/our-story/,complete,1
 CRM,Salesforce,Technology,2024,2024-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,272,0,,,,complete,1
-CVX,Chevron,Energy,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-CVX,Chevron,Energy,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-CVX,Chevron,Energy,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-CVX,Chevron,Energy,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-CVX,Chevron,Energy,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-CVX,Chevron,Energy,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-CVX,Chevron,Energy,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-CVX,Chevron,Energy,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-CVX,Chevron,Energy,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-EOG,EOG Resources,Energy,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-EOG,EOG Resources,Energy,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-EOG,EOG Resources,Energy,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-EOG,EOG Resources,Energy,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-EOG,EOG Resources,Energy,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-EOG,EOG Resources,Energy,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-EOG,EOG Resources,Energy,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-EOG,EOG Resources,Energy,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-EOG,EOG Resources,Energy,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-F,Ford Motor,Consumer Discretionary,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-F,Ford Motor,Consumer Discretionary,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-F,Ford Motor,Consumer Discretionary,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-F,Ford Motor,Consumer Discretionary,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-F,Ford Motor,Consumer Discretionary,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-F,Ford Motor,Consumer Discretionary,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-F,Ford Motor,Consumer Discretionary,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-F,Ford Motor,Consumer Discretionary,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-F,Ford Motor,Consumer Discretionary,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
+CVX,Chevron,Energy,2016,2016-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+CVX,Chevron,Energy,2017,2017-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+CVX,Chevron,Energy,2018,2018-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,2
+CVX,Chevron,Energy,2019,2019-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,5
+CVX,Chevron,Energy,2020,2020-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,3
+CVX,Chevron,Energy,2021,2021-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+CVX,Chevron,Energy,2022,2022-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+CVX,Chevron,Energy,2023,2023-06-30T12:00:00+00:00,selected,,1,3,3,2023-12-15T13:42:49+00:00,https://www.chevron.com/who-we-are,https://web.archive.org/web/20231215134249id_/https://www.chevron.com/who-we-are,complete,1
+CVX,Chevron,Energy,2024,2024-06-30T12:00:00+00:00,selected,,1,43,41,2024-07-02T02:24:34+00:00,https://www.chevron.com/who-we-are,https://web.archive.org/web/20240702022434id_/https://www.chevron.com/who-we-are,complete,1
+EOG,EOG Resources,Energy,2016,2016-06-30T12:00:00+00:00,selected,,1,2,1,2016-10-19T19:49:35+00:00,http://www.eogresources.com:80/about/,https://web.archive.org/web/20161019194935id_/http://www.eogresources.com:80/about/,complete,1
+EOG,EOG Resources,Energy,2017,2017-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,2
+EOG,EOG Resources,Energy,2018,2018-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,2
+EOG,EOG Resources,Energy,2019,2019-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+EOG,EOG Resources,Energy,2020,2020-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+EOG,EOG Resources,Energy,2021,2021-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+EOG,EOG Resources,Energy,2022,2022-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,2
+EOG,EOG Resources,Energy,2023,2023-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,4
+EOG,EOG Resources,Energy,2024,2024-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,1,0,,,,complete,1
+F,Ford Motor,Consumer Discretionary,2016,2016-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,2
+F,Ford Motor,Consumer Discretionary,2017,2017-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+F,Ford Motor,Consumer Discretionary,2018,2018-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+F,Ford Motor,Consumer Discretionary,2019,2019-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+F,Ford Motor,Consumer Discretionary,2020,2020-06-30T12:00:00+00:00,selected,,1,8,7,2020-07-26T09:28:03+00:00,https://corporate.ford.com/about.html,https://web.archive.org/web/20200726092803id_/https://corporate.ford.com/about.html,complete,2
+F,Ford Motor,Consumer Discretionary,2021,2021-06-30T12:00:00+00:00,selected,,1,36,13,2021-06-07T05:09:42+00:00,https://corporate.ford.com/about.html,https://web.archive.org/web/20210607050942id_/https://corporate.ford.com/about.html,complete,1
+F,Ford Motor,Consumer Discretionary,2022,2022-06-30T12:00:00+00:00,selected,,1,55,8,2022-05-11T17:17:04+00:00,https://corporate.ford.com/about.html,https://web.archive.org/web/20220511171704id_/https://corporate.ford.com/about.html,complete,2
+F,Ford Motor,Consumer Discretionary,2023,2023-06-30T12:00:00+00:00,selected,,1,37,18,2023-07-25T03:49:18+00:00,https://corporate.ford.com/about.html,https://web.archive.org/web/20230725034918id_/https://corporate.ford.com/about.html,complete,1
+F,Ford Motor,Consumer Discretionary,2024,2024-06-30T12:00:00+00:00,selected,,1,35,19,2024-06-25T22:40:35+00:00,https://corporate.ford.com/about.html,https://web.archive.org/web/20240625224035id_/https://corporate.ford.com/about.html,complete,2
 GOOGL,Alphabet,Technology,2016,2016-06-30T12:00:00+00:00,selected,,1,343,13,2016-07-10T07:43:17+00:00,https://abc.xyz/,https://web.archive.org/web/20160710074317id_/https://abc.xyz/,complete,1
 GOOGL,Alphabet,Technology,2017,2017-06-30T12:00:00+00:00,selected,,1,344,25,2017-06-30T08:00:41+00:00,https://abc.xyz/,https://web.archive.org/web/20170630080041id_/https://abc.xyz/,complete,1
 GOOGL,Alphabet,Technology,2018,2018-06-30T12:00:00+00:00,selected,,1,341,16,2018-07-25T03:50:09+00:00,https://abc.xyz/,https://web.archive.org/web/20180725035009id_/https://abc.xyz/,complete,1
@@ -161,15 +161,15 @@ GS,Goldman Sachs,Financials,2021,2021-06-30T12:00:00+00:00,selected,,1,9,8,2021-
 GS,Goldman Sachs,Financials,2022,2022-06-30T12:00:00+00:00,selected,,1,15,12,2022-06-29T12:55:36+00:00,https://www.goldmansachs.com/our-firm/,https://web.archive.org/web/20220629125536id_/https://www.goldmansachs.com/our-firm/,complete,1
 GS,Goldman Sachs,Financials,2023,2023-06-30T12:00:00+00:00,selected,,1,8,7,2023-09-04T14:15:29+00:00,https://www.goldmansachs.com/our-firm/,https://web.archive.org/web/20230904141529id_/https://www.goldmansachs.com/our-firm/,complete,2
 GS,Goldman Sachs,Financials,2024,2024-06-30T12:00:00+00:00,selected,,1,6,2,2024-05-14T23:33:11+00:00,https://www.goldmansachs.com/our-firm/,https://web.archive.org/web/20240514233311id_/https://www.goldmansachs.com/our-firm/,complete,1
-HAL,Halliburton,Energy,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-HAL,Halliburton,Energy,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-HAL,Halliburton,Energy,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-HAL,Halliburton,Energy,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-HAL,Halliburton,Energy,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-HAL,Halliburton,Energy,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-HAL,Halliburton,Energy,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-HAL,Halliburton,Energy,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-HAL,Halliburton,Energy,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
+HAL,Halliburton,Energy,2016,2016-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,2
+HAL,Halliburton,Energy,2017,2017-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+HAL,Halliburton,Energy,2018,2018-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+HAL,Halliburton,Energy,2019,2019-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+HAL,Halliburton,Energy,2020,2020-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,2
+HAL,Halliburton,Energy,2021,2021-06-30T12:00:00+00:00,selected,,1,13,6,2021-06-19T18:44:39+00:00,https://www.halliburton.com/en/about-us,https://web.archive.org/web/20210619184439id_/https://www.halliburton.com/en/about-us,complete,1
+HAL,Halliburton,Energy,2022,2022-06-30T12:00:00+00:00,selected,,1,13,7,2022-07-06T04:35:57+00:00,https://www.halliburton.com/en/about-us,https://web.archive.org/web/20220706043557id_/https://www.halliburton.com/en/about-us,complete,1
+HAL,Halliburton,Energy,2023,2023-06-30T12:00:00+00:00,selected,,1,20,16,2023-07-02T07:17:47+00:00,http://www.halliburton.com/en/about-us,https://web.archive.org/web/20230702071747id_/http://www.halliburton.com/en/about-us,complete,1
+HAL,Halliburton,Energy,2024,2024-06-30T12:00:00+00:00,selected,,1,23,21,2024-07-01T17:36:43+00:00,https://www.halliburton.com/en/about-us,https://web.archive.org/web/20240701173643id_/https://www.halliburton.com/en/about-us,complete,1
 HD,Home Depot,Consumer Discretionary,2016,2016-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,3
 HD,Home Depot,Consumer Discretionary,2017,2017-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
 HD,Home Depot,Consumer Discretionary,2018,2018-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
@@ -188,15 +188,15 @@ IBM,IBM,Technology,2021,2021-06-30T12:00:00+00:00,selected,,1,94,94,2021-06-23T1
 IBM,IBM,Technology,2022,2022-06-30T12:00:00+00:00,selected,,1,205,204,2022-06-30T12:36:34+00:00,https://www.ibm.com/about,https://web.archive.org/web/20220630123634id_/https://www.ibm.com/about,complete,2
 IBM,IBM,Technology,2023,2023-06-30T12:00:00+00:00,selected,,1,354,354,2023-06-30T05:39:33+00:00,https://www.ibm.com/about,https://web.archive.org/web/20230630053933id_/https://www.ibm.com/about,complete,1
 IBM,IBM,Technology,2024,2024-06-30T12:00:00+00:00,selected,,1,333,333,2024-06-30T08:39:02+00:00,https://www.ibm.com/about,https://web.archive.org/web/20240630083902id_/https://www.ibm.com/about,complete,1
-INTC,Intel,Technology,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-INTC,Intel,Technology,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-INTC,Intel,Technology,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-INTC,Intel,Technology,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-INTC,Intel,Technology,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-INTC,Intel,Technology,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-INTC,Intel,Technology,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-INTC,Intel,Technology,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-INTC,Intel,Technology,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
+INTC,Intel,Technology,2016,2016-06-30T12:00:00+00:00,selected,,1,103,100,2016-07-04T14:52:02+00:00,http://www.intel.com:80/content/www/us/en/company-overview/company-overview.html,https://web.archive.org/web/20160704145202id_/http://www.intel.com:80/content/www/us/en/company-overview/company-overview.html,complete,1
+INTC,Intel,Technology,2017,2017-06-30T12:00:00+00:00,selected,,1,47,36,2017-06-10T05:16:11+00:00,https://www.intel.com/content/www/us/en/company-overview/company-overview.html,https://web.archive.org/web/20170610051611id_/https://www.intel.com/content/www/us/en/company-overview/company-overview.html,complete,1
+INTC,Intel,Technology,2018,2018-06-30T12:00:00+00:00,selected,,1,88,53,2018-06-27T22:52:02+00:00,https://www.intel.com/content/www/us/en/company-overview/company-overview.html,https://web.archive.org/web/20180627225202id_/https://www.intel.com/content/www/us/en/company-overview/company-overview.html,complete,1
+INTC,Intel,Technology,2019,2019-06-30T12:00:00+00:00,selected,,1,146,100,2019-07-03T08:14:20+00:00,https://www.intel.com/content/www/us/en/company-overview/company-overview.html,https://web.archive.org/web/20190703081420id_/https://www.intel.com/content/www/us/en/company-overview/company-overview.html,complete,1
+INTC,Intel,Technology,2020,2020-06-30T12:00:00+00:00,selected,,1,132,113,2020-06-30T02:54:43+00:00,https://www.intel.com/content/www/us/en/company-overview/company-overview.html,https://web.archive.org/web/20200630025443id_/https://www.intel.com/content/www/us/en/company-overview/company-overview.html,complete,3
+INTC,Intel,Technology,2021,2021-06-30T12:00:00+00:00,selected,,1,151,129,2021-07-02T06:45:04+00:00,https://www.intel.com/content/www/us/en/company-overview/company-overview.html,https://web.archive.org/web/20210702064504id_/https://www.intel.com/content/www/us/en/company-overview/company-overview.html,complete,1
+INTC,Intel,Technology,2022,2022-06-30T12:00:00+00:00,selected,,1,139,137,2022-06-29T14:05:29+00:00,https://www.intel.com/content/www/us/en/company-overview/company-overview.html,https://web.archive.org/web/20220629140529id_/https://www.intel.com/content/www/us/en/company-overview/company-overview.html,complete,3
+INTC,Intel,Technology,2023,2023-06-30T12:00:00+00:00,selected,,1,109,98,2023-07-01T08:43:47+00:00,https://www.intel.com/content/www/us/en/company-overview/company-overview.html,https://web.archive.org/web/20230701084347id_/https://www.intel.com/content/www/us/en/company-overview/company-overview.html,complete,1
+INTC,Intel,Technology,2024,2024-06-30T12:00:00+00:00,selected,,1,112,108,2024-07-01T14:15:13+00:00,https://www.intel.com/content/www/us/en/company-overview/company-overview.html,https://web.archive.org/web/20240701141513id_/https://www.intel.com/content/www/us/en/company-overview/company-overview.html,complete,1
 JNJ,Johnson & Johnson,Healthcare,2016,2016-06-30T12:00:00+00:00,selected,,1,49,47,2016-06-29T22:06:57+00:00,http://www.jnj.com:80/about-jnj,https://web.archive.org/web/20160629220657id_/http://www.jnj.com:80/about-jnj,complete,1
 JNJ,Johnson & Johnson,Healthcare,2017,2017-06-30T12:00:00+00:00,selected,,1,18,4,2017-05-03T17:33:44+00:00,https://www.jnj.com/about-jnj,https://web.archive.org/web/20170503173344id_/https://www.jnj.com/about-jnj,complete,1
 JNJ,Johnson & Johnson,Healthcare,2018,2018-06-30T12:00:00+00:00,selected,,1,28,14,2018-07-01T20:02:38+00:00,https://www.jnj.com/about-jnj,https://web.archive.org/web/20180701200238id_/https://www.jnj.com/about-jnj,complete,5

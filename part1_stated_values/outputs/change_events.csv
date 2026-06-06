@@ -73,13 +73,13 @@ BLK,2023,True,0.269136,substantive_change,"{""added"": [""Our focus"", ""Our inv
 BLK,2024,True,0.006754,minor_edit,"{""added"": [""As it becomes harder to save for goals like retirement, we help more people invest for their future."", ""42 countries""], ""removed"": [""As it becomes harder to save for goals like retirement, how can we help more people invest for their future?"", ""Better retirement for all Better retirement for all"", ""36 countries""]}"
 BMY,2016,,,no_prior,
 BMY,2017,,,indeterminate,
-BMY,2018,,,indeterminate,
-BMY,2019,,,indeterminate,
-BMY,2020,,,indeterminate,
-BMY,2021,,,indeterminate,
-BMY,2022,,,indeterminate,
-BMY,2023,,,indeterminate,
-BMY,2024,,,indeterminate,
+BMY,2018,True,0.1,minor_edit,"{""added"": [""Global Patient Week 2018"", ""Learn More"", ""Life with Cancer Series""], ""removed"": [""Patients are at the center of everything we do."", ""See All Our Stories""]}"
+BMY,2019,True,0.070588,minor_edit,"{""added"": [""Survivorship Today"", ""Sterling K."", ""Brown talks to people about what it’s like to live with cancer""], ""removed"": [""Global Patient Week 2018"", ""Working Together for Patients"", ""Life with Cancer Series""]}"
+BMY,2020,True,0.550869,substantive_change,"{""added"": [""A Commitment to Patients"", ""All around the world Bristol Myers Squibb employees take time to pause, reflect and meet inspirational patients during an annual Global Patient Week event."", ""Learn More""], ""removed"": [""Brown talks to people about what it’s like to live with cancer"", ""Learn More"", ""B""]}"
+BMY,2021,True,0.101493,substantive_change,"{""added"": [""Patient & Employee Stories"", ""Daniel's Story"", ""Daniel had many life plans still ahead of him.""], ""removed"": [""A Commitment to Patients"", ""All around the world Bristol Myers Squibb employees take time to pause, reflect and meet inspirational patients during an annual Global Patient Week event."", ""Learn More""]}"
+BMY,2022,True,0.075758,minor_edit,"{""added"": [""Committed to creating a better future for cancer patients"", ""Bristol Myers Squibb is committed to patient care and is constantly working to shape the future of cancer care and improve the lives of cancer patients."", ""Learn more >""], ""removed"": [""Patient & Employee Stories"", ""Daniel's Story"", ""Daniel had many life plans still ahead of him.""]}"
+BMY,2023,True,0.318471,substantive_change,"{""added"": [""Committed to creating a better future for cancer patients >"", ""Global Inclusion & Diversity >"", ""Survivorship Today >""], ""removed"": [""Committed to creating a better future for cancer patients"", ""Bristol Myers Squibb is committed to patient care and is constantly working to shape the future of cancer care and improve the lives of cancer patients."", ""Learn more >""]}"
+BMY,2024,True,0.022727,minor_edit,"{""added"": [""Explore about us"", ""Global inclusion and diversity >"", ""Sustainability at BMS >""], ""removed"": [""Quick links"", ""Global Inclusion & Diversity >"", ""Sustainability >""]}"
 BRK.B,2016,,,no_prior,
 BRK.B,2017,,,indeterminate,
 BRK.B,2018,,,indeterminate,
