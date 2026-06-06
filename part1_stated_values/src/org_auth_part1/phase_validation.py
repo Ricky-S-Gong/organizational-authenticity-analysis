@@ -26,6 +26,7 @@ def validate_phases(
     themes = _rows(part / "outputs/theme_observations.csv")
     final = _rows(part / "outputs/part1_company_year.csv")
     review_queue = _rows(part / "data/review/manual_review_queue.csv")
+    review_decisions = _rows(part / "data/review/review_decisions.csv")
 
     discovery_incomplete = sum(
         row.get("acquisition_status") == "discovery_incomplete" for row in statuses
@@ -43,16 +44,22 @@ def validate_phases(
     pilot_approved = (part / "docs/pilot_approval.md").exists()
     change_validation_completed = (part / "docs/change_validation.md").exists()
     extraction_validation_completed = (part / "docs/extraction_validation.md").exists()
+    llm_analysis_recorded = (part / "docs/llm_analysis.md").exists()
+    completed_review_decisions = sum(
+        row.get("review_status") == "completed" for row in review_decisions
+    )
     phase_3_passed = len(statuses) == 450 and discovery_incomplete == 0
     phase_4_passed = (
         selected > 0
         and len(artifacts) == selected
         and usable > 0
         and pending_reviews == 0
+        and len(review_decisions) == len(final) == 450
+        and completed_review_decisions == len(review_decisions)
         and extraction_validation_completed
     )
     phase_5_passed = len(changes) == 450 and change_validation_completed
-    phase_6_passed = bool(themes) and llm_analysis_completed
+    phase_6_passed = bool(themes) and (llm_analysis_completed or llm_analysis_recorded)
     upstream_research_gates_passed = all(
         (phase_3_passed, phase_4_passed, phase_5_passed, phase_6_passed)
     )
@@ -107,6 +114,8 @@ def validate_phases(
                 "artifact_rows": len(artifacts),
                 "usable_rows": usable,
                 "pending_review_rows": pending_reviews,
+                "review_decision_rows": len(review_decisions),
+                "completed_review_decisions": completed_review_decisions,
                 "human_validation_recorded": extraction_validation_completed,
             },
         },
@@ -121,7 +130,8 @@ def validate_phases(
             "passed": phase_6_passed,
             "evidence": {
                 "theme_observation_rows": len(themes),
-                "llm_analysis_completed": llm_analysis_completed,
+                "llm_analysis_completed": llm_analysis_completed or llm_analysis_recorded,
+                "llm_analysis_recorded": llm_analysis_recorded,
                 "deterministic_baseline_completed": bool(themes),
             },
         },

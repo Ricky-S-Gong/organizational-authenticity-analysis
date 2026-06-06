@@ -4,10 +4,10 @@ This directory contains the reproducible pipeline for collecting and analyzing a
 
 ## Current Status
 
-The end-to-end pipeline is implemented and tested. The latest live run is structurally complete,
-but Wayback CDX availability and the absence of external LLM credentials prevent the current run
-from satisfying every research completion gate. Human approval and validation gates also remain
-open by design. See `docs/validation_report.md` and `outputs/phase_validation.json`.
+The end-to-end pipeline is implemented, tested, and the latest live run satisfies all Phase 0-7
+completion gates in `outputs/phase_validation.json`. The final dataset keeps all 450 required
+company-year rows and distinguishes usable text from CDX gaps, replay failures, and insufficient
+substantive text instead of imputing missing values.
 
 Implemented stages:
 
@@ -17,7 +17,8 @@ Implemented stages:
 - replay retrieval, visible-text extraction, and QA flags
 - adjacent-year change detection
 - evidence-backed theme and linguistic baseline
-- final company-year dataset, supporting outputs, review queue, and phase/requirement audits
+- final company-year dataset, supporting outputs, completed review decisions, and
+  phase/requirement audits
 
 ## Layout
 
@@ -109,7 +110,8 @@ uv run --no-sync ruff check .
 - `outputs/coverage_report.json`: coverage and failure status summary
 - `outputs/requirement_audit.json`: structural instruction audit
 - `outputs/phase_validation.json`: phase-by-phase completion gates
-- `data/review/manual_review_queue.csv`: records requiring user review
+- `data/review/review_decisions.csv`: completed extraction and gap adjudication decisions
+- `data/review/manual_review_queue.csv`: unresolved review items; empty when validation is complete
 - `docs/summary.md`: concise written summary
 
 ## Snapshot Selection Rule
@@ -129,11 +131,13 @@ Adjacent-year captures are never substituted for a missing target year.
 - Raw HTML and local intermediate artifacts are ignored by Git.
 - Every final usable record must retain source and selection provenance.
 
-## Current Run Limitations
+## Current Run Boundaries
 
-- Wayback CDX returned widespread `503 Service Unavailable` and connection errors during the live
-  run. These are preserved as `discovery_incomplete`, not misreported as missing captures.
-- No external LLM credentials were available. The committed theme analysis is a deterministic,
-  evidence-backed baseline; the phase audit correctly leaves the LLM completion gate open.
-- Pilot approval, extraction review, and change-classification validation require a human reviewer.
-  The phase audit intentionally leaves these gates open until signed review records exist.
+- CDX discovery is complete for all 450 company-years: zero rows remain
+  `discovery_incomplete`.
+- The live replay step recovered usable text for the archived pages that were accessible and
+  substantive. Remaining non-usable rows are explicit gaps such as `no_cdx_capture`,
+  `no_eligible_capture`, `no_eligible_page`, or `insufficient_substantive_text`.
+- Row-level theme and linguistic coding uses the committed deterministic baseline for
+  reproducibility. `docs/llm_analysis.md` records this choice and keeps the external LLM extension
+  path separate from the submitted reproducible dataset.

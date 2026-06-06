@@ -279,14 +279,14 @@ MRK,2022,,,indeterminate,
 MRK,2023,,,indeterminate,
 MRK,2024,,,indeterminate,
 MS,2016,,,no_prior,
-MS,2017,,,indeterminate,
-MS,2018,,,indeterminate,
-MS,2019,,,indeterminate,
-MS,2020,,,indeterminate,
-MS,2021,,,indeterminate,
+MS,2017,False,0.0,unchanged_exact,
+MS,2018,False,0.0,unchanged_exact,
+MS,2019,False,0.0,unchanged_exact,
+MS,2020,True,0.944732,substantive_change,"{""added"": [""About Us | Morgan Stanley"", ""Institute for Sustainable Investing"", ""Institute for Sustainable Investing""], ""removed"": [""1935"", ""Laying The Foundation"", ""Morgan Stanley formally opens its doors for business at 2 Wall Street, New York City, on September 16, 1935.""]}"
+MS,2021,False,0.0,unchanged_exact,
 MS,2022,False,0.0,unchanged_exact,
 MS,2023,False,0.0,unchanged_exact,
-MS,2024,,,indeterminate,
+MS,2024,True,0.252101,substantive_change,"{""added"": [""Ideas"", ""The Latest on Markets and the Economy"", ""At Morgan Stanley, we lead with exceptional ideas.""], ""removed"": [""Technology"", ""Reducing our Carbon Footprint"", ""New fuel-cell system and six-acre solar panel field at Morgan Stanley's Westchester campus help reduce the firm's carbon footprint.""]}"
 MSFT,2016,,,no_prior,
 MSFT,2017,,,indeterminate,
 MSFT,2018,,,indeterminate,
@@ -338,16 +338,16 @@ PFE,2018,,,indeterminate,
 PFE,2019,,,indeterminate,
 PFE,2020,,,indeterminate,
 PFE,2021,,,indeterminate,
-PFE,2022,,,indeterminate,
-PFE,2023,,,indeterminate,
-PFE,2024,,,indeterminate,
+PFE,2022,True,0.096208,minor_edit,"{""added"": [""A network of external suppliers is essential to enable manufacture of medicines and vaccines that deliver breakthroughs that change patients’ lives."", ""Pfizer’s supply chain supports the research, development and manufacturing process by providing flexibility and access to technologies necessary to meet our commitment to patients We are committed to using suppliers that demonstrate strong performance in Environment, Health, and Safety (EHS) management."", ""We advance medical innovation and distribute medicines that might not otherwise be available to underserved communities.""], ""removed"": [""Providing a reliable supply of safe and effective medicines requires a foundation of compliance and the effective management of quality and EHS performance across our supply chain."", ""We advance medical innovation and grant access to medicines that would not otherwise be available to underserved communities."", ""Learn More""]}"
+PFE,2023,True,0.269676,substantive_change,"{""added"": [""Home About"", ""Explore Our Purpose"", ""Fighting Misinformation""], ""removed"": [""Home"", ""About"", ""Button previous Button next""]}"
+PFE,2024,True,0.121333,substantive_change,"{""added"": [""Chris Boshoff, FRCP, FMedSci, Ph.D"", ""Chief Oncology Officer, Executive Vice President"", ""Alexandre de Germay""], ""removed"": [""Home About"", ""Seng H Cheng, Ph.D."", ""Senior Vice President & Chief Scientific Officer, Rare Disease""]}"
 PSX,2016,,,no_prior,
 PSX,2017,,,indeterminate,
 PSX,2018,,,indeterminate,
 PSX,2019,,,indeterminate,
 PSX,2020,,,indeterminate,
 PSX,2021,,,indeterminate,
-PSX,2022,,,indeterminate,
+PSX,2022,True,0.301471,substantive_change,"{""added"": [""With nearly 150 years of experience, we are well-positioned to help fulfill global energy needs."", ""At Phillips 66, we know that now, more than ever, is the time to try new things."", ""Trying New Things""], ""removed"": [""With more than 140 years of experience, we are well-positioned to help fulfill global energy needs."", ""We do the work that makes the world work."", ""Our vision is to provide energy and improve lives, and we back that up with core company values of safety, honor and commitment.""]}"
 PSX,2023,,,indeterminate,
 PSX,2024,,,indeterminate,
 SBUX,2016,,,no_prior,
@@ -360,14 +360,14 @@ SBUX,2022,,,indeterminate,
 SBUX,2023,,,indeterminate,
 SBUX,2024,,,indeterminate,
 SCHW,2016,,,no_prior,
-SCHW,2017,,,indeterminate,
-SCHW,2018,,,indeterminate,
-SCHW,2019,,,indeterminate,
-SCHW,2020,,,indeterminate,
-SCHW,2021,,,indeterminate,
-SCHW,2022,,,indeterminate,
-SCHW,2023,,,indeterminate,
-SCHW,2024,,,indeterminate,
+SCHW,2017,True,0.695652,substantive_change,"{""added"": [""Schwab offers a better, more modern way to build and manage wealth."", ""Schwab is named to The Civic 50 as one of the 50 most community-minded companies in the nation."", ""Learn more about the award and Schwab's commitment to helping individuals and communities succeed""], ""removed"": [""We believe in the power of investing to transform people’s lives."", ""It lets people take ownership of their financial future."", ""Our disruptive approach to serving investors and solving for their needs leads to a better investing experience.""]}"
+SCHW,2018,True,0.630705,substantive_change,"{""added"": [""Young adults have big financial goals, but lack key knowledge"", ""Learn more from Schwab’s Financial Literacy Survey of Young Adults"", ""There’s no more fulfilling work than helping others achieve their dreams.""], ""removed"": [""Learn more about how Schwab champions investors and those who serve them"", ""Schwab is named to The Civic 50 as one of the 50 most community-minded companies in the nation."", ""Learn more about the award and Schwab's commitment to helping individuals and communities succeed""]}"
+SCHW,2019,True,0.764431,substantive_change,"{""added"": [""Home page triptych"", ""Description of the triptych"", ""What we do""], ""removed"": [""About Schwab"", ""Young adults have big financial goals, but lack key knowledge"", ""Learn more from Schwab’s Financial Literacy Survey of Young Adults""]}"
+SCHW,2020,True,0.626,substantive_change,"{""added"": [""Schwab offers a better, more modern way to build and manage wealth"", ""Recent News"", ""June 24, 2020""], ""removed"": [""Schwab offers a better, more modern way to build and manage wealth."", ""Recent news"", ""June 17, 2019""]}"
+SCHW,2021,True,0.466581,substantive_change,"{""added"": [""Coming together with a single goal: to serve you."", ""We're making history, but it is your tomorrow we care about most."", ""Learn more what the new Schwab means >""], ""removed"": [""June 24, 2020"", ""Schwab Ranks #1 in Large Plan Segment in J.D."", ""Power U.S.""]}"
+SCHW,2022,True,0.487337,substantive_change,"{""added"": [""Learn more about what the new Schwab means >"", ""June 27, 2022"", ""Charles Schwab Discloses Results of the Federal Reserve’s 2022 Comprehensive Capital Analysis and Review""], ""removed"": [""Learn more what the new Schwab means >"", ""June 23, 2021"", ""Schwab 401(k) Survey Shows Sharp Increase in Confidence and Demand for Financial Advice""]}"
+SCHW,2023,True,0.56338,substantive_change,"{""added"": [""One combined company dedicated to serving investors across every phase of their financial journeys."", ""View the Client Information Hub to learn more"", ""June 30, 2023""], ""removed"": [""Coming together with a single goal: to serve you."", ""We're making history, but it is your tomorrow we care about most."", ""Learn more about what the new Schwab means >""]}"
+SCHW,2024,True,0.87788,substantive_change,"{""added"": [""We are champions of investors and those who serve them."", ""Investing is an act of optimism and can be transformative when investors actively engage."", ""Watch our story unfold""], ""removed"": [""Schwab offers a better, more modern way to build and manage wealth"", ""One combined company dedicated to serving investors across every phase of their financial journeys."", ""View the Client Information Hub to learn more""]}"
 SLB,2016,,,no_prior,
 SLB,2017,,,indeterminate,
 SLB,2018,,,indeterminate,
@@ -388,7 +388,7 @@ TGT,2023,,,indeterminate,
 TGT,2024,,,indeterminate,
 TJX,2016,,,no_prior,
 TJX,2017,,,indeterminate,
-TJX,2018,,,indeterminate,
+TJX,2018,True,0.204082,substantive_change,"{""added"": [""Company | TJX.com"", ""The TJX Companies, Inc., the leading off-price retailer of apparel and home fashions in the U.S."", ""and worldwide, is ranked 85 among Fortune 500 companies.""], ""removed"": [""Deliver Off Price Value | TJX.com"", ""The TJX Companies, Inc."", ""is the leading off-price retailer of apparel and home fashions in the U.S.""]}"
 TJX,2019,,,indeterminate,
 TJX,2020,,,indeterminate,
 TJX,2021,,,indeterminate,
@@ -432,14 +432,14 @@ VLO,2022,,,indeterminate,
 VLO,2023,,,indeterminate,
 VLO,2024,,,indeterminate,
 WFC,2016,,,no_prior,
-WFC,2017,,,indeterminate,
+WFC,2017,False,0.0,unchanged_exact,
 WFC,2018,,,indeterminate,
 WFC,2019,,,indeterminate,
 WFC,2020,,,indeterminate,
-WFC,2021,,,indeterminate,
-WFC,2022,,,indeterminate,
-WFC,2023,,,indeterminate,
-WFC,2024,,,indeterminate,
+WFC,2021,True,0.119617,substantive_change,"{""added"": [""We’re building stronger communities by focusing on housing affordability, small business growth, financial health and sustainability."", ""Press Room and Contacts"", ""Press Room and Contacts""], ""removed"": [""We’re supporting communities through grants, financial education, environmental stewardship, and volunteerism."", ""Media Contacts (PDF)"", ""Multimedia Resources""]}"
+WFC,2022,True,0.111111,substantive_change,"{""added"": [""Explore our stories of how we’re helping customers succeed and communities thrive."", ""We create custom-designed art that honors the vibrancy and unique character of our local communities."", ""Teamworks for Employees""], ""removed"": [""Explore a journal of how we help customers succeed and communities thrive."", ""We are dedicated to creating unique, custom-designed works of art that commemorate the rich legacy of our communities."", ""Jobs Outside of the U.S.""]}"
+WFC,2023,True,0.092308,minor_edit,"{""added"": [""Learn More"", ""Dividends and Stock Price"", ""Dividends and Stock Price""], ""removed"": [""Read the Report"", ""Who We Are"", ""Community Mural Program""]}"
+WFC,2024,True,0.053476,minor_edit,"{""added"": [""Operating Committee"", ""Wells Fargo has provided this link for your convenience but does not control or endorse the website and is not responsible for the products, services, content, links, privacy policy, or security policy of the website."", ""QSR-04132025-6021569.1.1""], ""removed"": [""Senior Leadership Team"", ""Wells Fargo has provided this link for your convenience but does not control or endorse the website and is not responsible for the content, links, privacy policy, or security policy of the website."", ""QSR-0123-03278""]}"
 XOM,2016,,,no_prior,
 XOM,2017,,,indeterminate,
 XOM,2018,,,indeterminate,

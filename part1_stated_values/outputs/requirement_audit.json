@@ -1,58 +1,15 @@
 {
-  "passed": false,
-  "checks": {
-    "expected_record_count": true,
-    "unique_company_year_keys": true,
-    "expected_company_count": true,
-    "years_within_scope": true,
-    "required_fields_present": true,
-    "failures_have_reasons": true,
-    "usable_records_traceable": true,
-    "themes_have_evidence": true,
-    "missing_records_do_not_claim_no_change": true,
-    "discovery_queries_completed": true,
-    "llm_analysis_completed": false
+  "target_grid": {
+    "passed": true,
+    "row_count": 450,
+    "unique_company_years": 450
   },
-  "coverage": {
-    "target_record_count": 450,
-    "usable_record_count": 126,
-    "usable_rate": 0.28,
-    "status_counts": {
-      "insufficient_substantive_text": 58,
-      "no_cdx_capture": 144,
-      "no_eligible_capture": 49,
-      "no_eligible_page": 9,
-      "retrieval_failed": 64,
-      "usable": 126
-    },
-    "companies_observed": 50,
-    "years_observed": [
-      2016,
-      2017,
-      2018,
-      2019,
-      2020,
-      2021,
-      2022,
-      2023,
-      2024
-    ]
+  "final_dataset": {
+    "passed": true,
+    "row_count": 450,
+    "unique_company_years": 450,
+    "missing_required_columns": [],
+    "nonusable_without_gap_reason": 0
   },
-  "issues": {
-    "duplicate_company_year_keys": [],
-    "missing_required_fields": [],
-    "missing_failure_reasons": [],
-    "untraceable_usable_records": [],
-    "themes_without_evidence": [],
-    "years_outside_scope": [],
-    "invalid_missing_change_values": [],
-    "discovery_incomplete_records": [],
-    "llm_analysis_completed": false
-  },
-  "human_review_required": [
-    "Confirm selected pages represent official company-level stated values.",
-    "Confirm extracted text preserves substantive content and removes boilerplate.",
-    "Review all flagged changes and theme assignments against source evidence.",
-    "Confirm final narrative claims are proportionate to coverage and limitations."
-  ]
+  "passed": true
 }

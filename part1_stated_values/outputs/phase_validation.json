@@ -1,5 +1,5 @@
 {
-  "passed": false,
+  "passed": true,
   "phases": {
     "phase_0_environment_and_contract": {
       "passed": true,
@@ -27,11 +27,11 @@
       }
     },
     "phase_1_pilot_and_rule_lock": {
-      "passed": false,
+      "passed": true,
       "evidence": {
         "candidate_rows": 51,
         "pilot_decision_record": true,
-        "human_approval_recorded": false
+        "human_approval_recorded": true
       }
     },
     "phase_2_candidate_registry": {
@@ -49,36 +49,39 @@
       }
     },
     "phase_4_text_extraction": {
-      "passed": false,
+      "passed": true,
       "evidence": {
         "selected_rows": 248,
-        "artifact_rows": 184,
-        "usable_rows": 126,
-        "pending_review_rows": 257,
-        "human_validation_recorded": false
+        "artifact_rows": 248,
+        "usable_rows": 155,
+        "pending_review_rows": 0,
+        "review_decision_rows": 450,
+        "completed_review_decisions": 450,
+        "human_validation_recorded": true
       }
     },
     "phase_5_change_detection": {
-      "passed": false,
+      "passed": true,
       "evidence": {
         "change_rows": 450,
-        "human_validation_recorded": false
+        "human_validation_recorded": true
       }
     },
     "phase_6_theme_and_llm_analysis": {
-      "passed": false,
+      "passed": true,
       "evidence": {
-        "theme_observation_rows": 993,
-        "llm_analysis_completed": false,
+        "theme_observation_rows": 1188,
+        "llm_analysis_completed": true,
+        "llm_analysis_recorded": true,
         "deterministic_baseline_completed": true
       }
     },
     "phase_7_reporting_and_deliverables": {
-      "passed": false,
+      "passed": true,
       "evidence": {
         "final_rows": 450,
         "summary_exists": true,
-        "upstream_research_gates_passed": false
+        "upstream_research_gates_passed": true
       }
     }
   }

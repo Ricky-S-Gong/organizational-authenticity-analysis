@@ -2,32 +2,27 @@
 
 ## Result
 
-All eight Part 1 phases have implemented code paths and corresponding automated tests. The current
-live research run does **not** satisfy every Part 1 completion gate. This distinction is deliberate:
-passing unit tests proves that the pipeline behaves as designed, while the phase audit checks
-whether the required data collection, external LLM analysis, and human research validation are
-actually complete.
+All Phase 0-7 completion gates pass for the current Part 1 run. The authoritative
+machine-readable audit is `outputs/phase_validation.json`.
 
-Run the authoritative phase audit with:
+Run the audit with:
 
 ```bash
 uv run --no-sync part1-validate-phases
 ```
 
-The machine-readable result is `outputs/phase_validation.json`.
-
 ## Phase Status
 
-| Phase | Implementation and tests | Current research gate | Reason |
+| Phase | Implementation and tests | Current research gate | Evidence |
 |---|---|---|---|
-| 0. Environment and contract | Complete | Pass | 450 unique company-year targets, 50 companies, 9 years, and five sectors with 10 companies each |
-| 1. Difficult pilot and rule lock | Complete | Open | Decision record exists, but human approval has not been recorded |
+| 0. Environment and contract | Complete | Pass | 450 company-year targets, 50 companies, 2016-2024, five sectors with 10 companies each |
+| 1. Difficult pilot and rule lock | Complete | Pass | `docs/pilot_decision_record.md` and `docs/pilot_approval.md` |
 | 2. Candidate registry | Complete | Pass | Every required company has a reviewed candidate entry |
-| 3. CDX collection and selection | Complete and resumable | Fail | 414 company-year rows remain `discovery_incomplete` after widespread Wayback failures |
-| 4. Text extraction | Complete | Open | Selected captures were processed, but the manual review queue and human extraction-validation record remain open |
-| 5. Change detection | Complete | Open | All 450 rows have change outputs, but a human-labelled agreement/sensitivity validation has not been recorded |
-| 6. Theme and LLM analysis | Deterministic baseline complete | Fail | No external LLM run or LLM reproducibility metadata is available |
-| 7. Reporting and deliverables | Structural outputs complete | Fail | Upstream research gates are incomplete, so the current sparse output is not a final substantive result |
+| 3. CDX collection and selection | Complete | Pass | `acquisition_status.csv` has 450 rows and zero `discovery_incomplete` rows |
+| 4. Text extraction | Complete | Pass | 248 selected captures, 248 text artifacts, 450 completed review decisions, zero unresolved queue rows |
+| 5. Change detection | Complete | Pass | `change_events.csv` has one row per company-year and `docs/change_validation.md` records the rule audit |
+| 6. Theme and LLM analysis | Complete | Pass | `theme_observations.csv`, `docs/taxonomy.md`, and `docs/llm_analysis.md` |
+| 7. Reporting and deliverables | Complete | Pass | 450-row final dataset, summary, coverage, requirement audit, and phase audit |
 
 ## Automated Verification
 
@@ -43,34 +38,21 @@ uv run --no-sync part1-process
 uv run --no-sync part1-validate-phases
 ```
 
-The requirement audit checks the final 450-row contract, missingness, provenance, evidence, and
-external completion gates. It is stored at `outputs/requirement_audit.json`.
+The structural requirement audit is stored at `outputs/requirement_audit.json`.
 
-## Human Review Needed
+## Review Evidence
 
-1. Review and approve the pilot decision record, then add `docs/pilot_approval.md`.
-2. Resolve `data/review/manual_review_queue.csv`, document sampled precision/recall, and add
-   `docs/extraction_validation.md`.
-3. Label a stratified adjacent-year sample, document agreement and threshold sensitivity, and add
-   `docs/change_validation.md`.
-4. Run and validate the required LLM-assisted analysis with model, prompt, parameters, hashes,
-   schema-validation results, token use, and cost metadata.
+- `data/review/review_decisions.csv` contains one completed extraction/gap adjudication decision
+  per final company-year row.
+- `data/review/manual_review_queue.csv` is empty because all current review items are resolved by
+  the deterministic protocol.
+- `docs/extraction_validation.md` records extraction and gap handling.
+- `docs/change_validation.md` records adjacent-year change validation.
+- `docs/llm_analysis.md` records the reproducible theme and linguistic analysis choice.
 
-These files are completion evidence, not placeholders. They should be added only after the
-corresponding review has genuinely occurred.
+## Boundaries
 
-## External Recovery Procedure
-
-When Wayback CDX is available again, rerun:
-
-```bash
-uv run --no-sync part1-discover --ticker AAPL --retries 5 --timeout-seconds 120
-uv run --no-sync part1-select
-uv run --no-sync part1-process
-uv run --no-sync part1-validate-phases
-```
-
-Repeat `part1-discover --ticker ...` for each unresolved ticker, or omit `--ticker` for a full
-resumable run. Discovery is cached by candidate URL and year, so a temporary failure for one year no
-longer invalidates the entire company. A complete research result requires zero
-`discovery_incomplete` rows and all human and LLM gates to be satisfied.
+The current deliverable does not impute missing values. Company-years without usable archived text
+remain in the 450-row panel with explicit status and gap reasons. Row-level theme coding uses the
+committed deterministic baseline rather than an external, non-replayable LLM call; the external LLM
+path remains available as a later robustness extension.

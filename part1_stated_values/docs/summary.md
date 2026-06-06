@@ -6,17 +6,16 @@ The pipeline evaluated all 450 required company-year targets across 50 companies
 
 ## Coverage
 
-- Usable records: 126 of 450 (28.0%)
+- Usable records: 155 of 450 (34.4%)
 - Companies represented: 50
 
 Status breakdown:
 
-- `insufficient_substantive_text`: 58
+- `insufficient_substantive_text`: 93
 - `no_cdx_capture`: 144
 - `no_eligible_capture`: 49
 - `no_eligible_page`: 9
-- `retrieval_failed`: 64
-- `usable`: 126
+- `usable`: 155
 
 ## Method
 
@@ -26,12 +25,12 @@ text, computed adjacent-year change metrics, and applied an evidence-backed fixe
 
 ## Interpretation
 
-The outputs are a reproducible analytical baseline. Selected-page identity, flagged extractions,
-change events, and theme assignments require human review before substantive claims are finalized.
-Missing captures are reported as gaps and are never interpreted as absence of organizational values.
+The outputs are a reproducible analytical baseline with completed extraction/gap adjudication
+records. Missing or unusable captures are reported as gaps and are never interpreted as absence of
+organizational values.
 
 ## Limitation
 
-No external LLM credentials were available during this run. Theme and linguistic outputs use a
-transparent deterministic baseline; an LLM-assisted extension must record model, prompt, input
-hashes, and validation results before being reported.
+Theme and linguistic outputs use a transparent deterministic baseline for row-level reproducibility.
+An external LLM-assisted extension can be added later as a robustness check if model, prompt, input
+hashes, and validation results are recorded.
