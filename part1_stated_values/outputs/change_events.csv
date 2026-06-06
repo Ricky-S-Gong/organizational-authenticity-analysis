@@ -16,7 +16,7 @@ ABBV,2020,,,indeterminate,
 ABBV,2021,,,indeterminate,
 ABBV,2022,,,indeterminate,
 ABBV,2023,,,indeterminate,
-ABBV,2024,,,indeterminate,
+ABBV,2024,True,0.081897,minor_edit,"{""added"": [""75+"", ""~50M"", ""~50K+""], ""removed"": [""60+"", ""62MM+"", ""50,000""]}"
 ABT,2016,,,no_prior,
 ABT,2017,,,indeterminate,
 ABT,2018,,,indeterminate,
@@ -199,12 +199,12 @@ INTC,2023,,,indeterminate,
 INTC,2024,,,indeterminate,
 JNJ,2016,,,no_prior,
 JNJ,2017,,,indeterminate,
-JNJ,2018,,,indeterminate,
-JNJ,2019,,,indeterminate,
-JNJ,2020,,,indeterminate,
-JNJ,2021,,,indeterminate,
-JNJ,2022,,,indeterminate,
-JNJ,2023,,,indeterminate,
+JNJ,2018,True,0.253112,substantive_change,"{""added"": [""The Values That Guide Our Decision-Making Are Spelled Out in Our Credo"", ""Diversity Is a Core Part of Our Culture"", ""We’ve Championed Women at Work, at Home and Across the World—Since 1886""], ""removed"": [""Strategic Framework"", ""Johnson & Johnson Receives 8 Prix Galien USA Award Nominations"", ""4 Johnson & Johnson Innovations That Could Help Revolutionize Your Health""]}"
+JNJ,2019,True,0.350746,substantive_change,"{""added"": [""t Johnson & Johnson, we believe good health is the foundation of vibrant lives, thriving communities and forward progress."", ""That’s why for more than 130 years, we have aimed to keep people well at every age and every stage of life."", ""Today, as the world’s largest and most broadly based healthcare company, we are committed to using our reach and size for good.""], ""removed"": [""Caring for the world, one person at a time, inspires and unites the people of Johnson & Johnson."", ""We embrace innovation—bringing ideas, products and services to life to advance the health and well-being of people around the world."", ""We believe in collaboration, and that has led to breakthrough after breakthrough, from medical miracles that have changed lives, to the simple consumer products that make every day a little better.""]}"
+JNJ,2020,True,0.065844,minor_edit,"{""added"": [""How We’re Mobilizing Our Resources to Help Find Solutions for COVID-19"", ""Learn More"", ""2019 Health for Humanity Report""], ""removed"": [""2018 Health for Humanity Report"", ""2018 Health for Humanity Report"", ""2018 Annual Report""]}"
+JNJ,2021,True,0.103448,substantive_change,"{""added"": [""About Johnson & Johnson | Johnson & Johnson Skip to content"", ""✕"", ""Internet Explorer is no longer supported by this website.""], ""removed"": [""About Johnson & Johnson | Johnson & Johnson"", ""How We’re Mobilizing Our Resources to Help Find Solutions for COVID-19"", ""2019 Health for Humanity Report""]}"
+JNJ,2022,True,0.034884,minor_edit,"{""added"": [""ON NOW 2021 Health for Humanity Report"", ""2021 Health for Humanity Report"", ""2021 Health for Humanity Report""], ""removed"": [""Johnson & Johnson COVID-19 Vaccinations Resume Following CDC and FDA Decision"", ""Learn More"", ""2020 Health for Humanity Report""]}"
+JNJ,2023,True,0.082397,minor_edit,"{""added"": [""About Johnson & Johnson | Johnson & Johnson"", ""jobs.jnj.com/en/jobs/"", ""Skip to content""], ""removed"": [""About Johnson & Johnson | Johnson & Johnson Skip to content"", ""That’s why for more than 130 years, we have aimed to keep people well at every age and every stage of life."", ""Today, as the world’s largest and most broadly based healthcare company, we are committed to using our reach and size for good.""]}"
 JNJ,2024,,,indeterminate,
 JPM,2016,,,no_prior,
 JPM,2017,,,indeterminate,

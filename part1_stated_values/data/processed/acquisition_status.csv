@@ -8,24 +8,24 @@ AAPL,Apple,Technology,2021,2021-06-30T12:00:00+00:00,no_eligible_capture,same-ye
 AAPL,Apple,Technology,2022,2022-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,27,0,,,,complete,2
 AAPL,Apple,Technology,2023,2023-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,15,0,,,,complete,2
 AAPL,Apple,Technology,2024,2024-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,12,0,,,,complete,2
-ABBV,AbbVie,Healthcare,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-ABBV,AbbVie,Healthcare,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-ABBV,AbbVie,Healthcare,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-ABBV,AbbVie,Healthcare,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-ABBV,AbbVie,Healthcare,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-ABBV,AbbVie,Healthcare,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-ABBV,AbbVie,Healthcare,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-ABBV,AbbVie,Healthcare,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-ABBV,AbbVie,Healthcare,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-ABT,Abbott Laboratories,Healthcare,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-ABT,Abbott Laboratories,Healthcare,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-ABT,Abbott Laboratories,Healthcare,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-ABT,Abbott Laboratories,Healthcare,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-ABT,Abbott Laboratories,Healthcare,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-ABT,Abbott Laboratories,Healthcare,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-ABT,Abbott Laboratories,Healthcare,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-ABT,Abbott Laboratories,Healthcare,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-ABT,Abbott Laboratories,Healthcare,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
+ABBV,AbbVie,Healthcare,2016,2016-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+ABBV,AbbVie,Healthcare,2017,2017-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,2
+ABBV,AbbVie,Healthcare,2018,2018-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,3
+ABBV,AbbVie,Healthcare,2019,2019-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,3
+ABBV,AbbVie,Healthcare,2020,2020-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,5
+ABBV,AbbVie,Healthcare,2021,2021-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+ABBV,AbbVie,Healthcare,2022,2022-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+ABBV,AbbVie,Healthcare,2023,2023-06-30T12:00:00+00:00,selected,,1,26,20,2023-06-14T13:56:56+00:00,https://www.abbvie.com/who-we-are.html,https://web.archive.org/web/20230614135656id_/https://www.abbvie.com/who-we-are.html,complete,1
+ABBV,AbbVie,Healthcare,2024,2024-06-30T12:00:00+00:00,selected,,1,25,17,2024-06-20T17:50:13+00:00,https://www.abbvie.com/who-we-are.html,https://web.archive.org/web/20240620175013id_/https://www.abbvie.com/who-we-are.html,complete,1
+ABT,Abbott Laboratories,Healthcare,2016,2016-06-30T12:00:00+00:00,selected,,1,48,46,2016-07-02T19:27:41+00:00,http://www.abbott.com:80/about-abbott.html,https://web.archive.org/web/20160702192741id_/http://www.abbott.com:80/about-abbott.html,complete,1
+ABT,Abbott Laboratories,Healthcare,2017,2017-06-30T12:00:00+00:00,selected,,1,37,35,2017-07-02T07:38:16+00:00,http://www.abbott.com:80/about-abbott.html,https://web.archive.org/web/20170702073816id_/http://www.abbott.com:80/about-abbott.html,complete,1
+ABT,Abbott Laboratories,Healthcare,2018,2018-06-30T12:00:00+00:00,selected,,1,73,55,2018-06-29T10:21:07+00:00,http://www.abbott.com:80/about-abbott.html,https://web.archive.org/web/20180629102107id_/http://www.abbott.com:80/about-abbott.html,complete,1
+ABT,Abbott Laboratories,Healthcare,2019,2019-06-30T12:00:00+00:00,selected,,1,41,9,2019-06-10T19:45:07+00:00,https://www.abbott.com/about-abbott.html,https://web.archive.org/web/20190610194507id_/https://www.abbott.com/about-abbott.html,complete,1
+ABT,Abbott Laboratories,Healthcare,2020,2020-06-30T12:00:00+00:00,selected,,1,40,24,2020-06-25T16:35:59+00:00,https://www.abbott.com/about-abbott.html,https://web.archive.org/web/20200625163559id_/https://www.abbott.com/about-abbott.html,complete,1
+ABT,Abbott Laboratories,Healthcare,2021,2021-06-30T12:00:00+00:00,selected,,1,36,25,2021-06-17T09:27:24+00:00,https://www.abbott.com/about-abbott.html,https://web.archive.org/web/20210617092724id_/https://www.abbott.com/about-abbott.html,complete,1
+ABT,Abbott Laboratories,Healthcare,2022,2022-06-30T12:00:00+00:00,selected,,1,22,17,2022-07-06T17:15:25+00:00,https://www.abbott.com/about-abbott.html,https://web.archive.org/web/20220706171525id_/https://www.abbott.com/about-abbott.html,complete,1
+ABT,Abbott Laboratories,Healthcare,2023,2023-06-30T12:00:00+00:00,selected,,1,26,21,2023-07-01T17:43:40+00:00,https://www.abbott.com/about-abbott.html,https://web.archive.org/web/20230701174340id_/https://www.abbott.com/about-abbott.html,complete,3
+ABT,Abbott Laboratories,Healthcare,2024,2024-06-30T12:00:00+00:00,selected,,1,35,28,2024-07-05T07:59:29+00:00,https://www.abbott.com/about-abbott.html,https://web.archive.org/web/20240705075929id_/https://www.abbott.com/about-abbott.html,complete,1
 AMZN,Amazon,Consumer Discretionary,2016,2016-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
 AMZN,Amazon,Consumer Discretionary,2017,2017-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,2
 AMZN,Amazon,Consumer Discretionary,2018,2018-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
@@ -35,15 +35,15 @@ AMZN,Amazon,Consumer Discretionary,2021,2021-06-30T12:00:00+00:00,discovery_inco
 AMZN,Amazon,Consumer Discretionary,2022,2022-06-30T12:00:00+00:00,selected,,1,75,65,2022-07-01T19:56:56+00:00,https://www.aboutamazon.com/about-us,https://web.archive.org/web/20220701195656id_/https://www.aboutamazon.com/about-us,complete,1
 AMZN,Amazon,Consumer Discretionary,2023,2023-06-30T12:00:00+00:00,selected,,1,63,60,2023-07-01T06:12:32+00:00,https://www.aboutamazon.com/about-us,https://web.archive.org/web/20230701061232id_/https://www.aboutamazon.com/about-us,complete,1
 AMZN,Amazon,Consumer Discretionary,2024,2024-06-30T12:00:00+00:00,selected,,1,96,85,2024-06-28T04:12:06+00:00,https://www.aboutamazon.com/about-us,https://web.archive.org/web/20240628041206id_/https://www.aboutamazon.com/about-us,complete,2
-AVGO,Broadcom,Technology,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-AVGO,Broadcom,Technology,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-AVGO,Broadcom,Technology,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-AVGO,Broadcom,Technology,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-AVGO,Broadcom,Technology,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-AVGO,Broadcom,Technology,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-AVGO,Broadcom,Technology,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-AVGO,Broadcom,Technology,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-AVGO,Broadcom,Technology,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
+AVGO,Broadcom,Technology,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,5
+AVGO,Broadcom,Technology,2017,2017-06-30T12:00:00+00:00,selected,,1,4,4,2017-07-12T08:48:05+00:00,https://www.broadcom.com/company/about-us/,https://web.archive.org/web/20170712084805id_/https://www.broadcom.com/company/about-us/,complete,2
+AVGO,Broadcom,Technology,2018,2018-06-30T12:00:00+00:00,selected,,1,8,7,2018-05-18T23:54:42+00:00,https://www.broadcom.com/company/about-us/,https://web.archive.org/web/20180518235442id_/https://www.broadcom.com/company/about-us/,complete,1
+AVGO,Broadcom,Technology,2019,2019-06-30T12:00:00+00:00,selected,,1,20,19,2019-07-20T02:52:41+00:00,https://www.broadcom.com/company/about-us,https://web.archive.org/web/20190720025241id_/https://www.broadcom.com/company/about-us,complete,1
+AVGO,Broadcom,Technology,2020,2020-06-30T12:00:00+00:00,selected,,1,106,67,2020-06-29T18:08:21+00:00,https://www.broadcom.com/company/about-us,https://web.archive.org/web/20200629180821id_/https://www.broadcom.com/company/about-us,complete,1
+AVGO,Broadcom,Technology,2021,2021-06-30T12:00:00+00:00,selected,,1,100,71,2021-06-16T14:26:04+00:00,https://www.broadcom.com/company/about-us,https://web.archive.org/web/20210616142604id_/https://www.broadcom.com/company/about-us,complete,1
+AVGO,Broadcom,Technology,2022,2022-06-30T12:00:00+00:00,selected,,1,113,87,2022-07-01T11:30:22+00:00,https://www.broadcom.com/company/about-us,https://web.archive.org/web/20220701113022id_/https://www.broadcom.com/company/about-us,complete,1
+AVGO,Broadcom,Technology,2023,2023-06-30T12:00:00+00:00,selected,,1,27,19,2023-06-07T09:41:13+00:00,https://www.broadcom.com/company/about-us,https://web.archive.org/web/20230607094113id_/https://www.broadcom.com/company/about-us,complete,1
+AVGO,Broadcom,Technology,2024,2024-06-30T12:00:00+00:00,selected,,1,56,53,2024-07-02T01:03:08+00:00,https://www.broadcom.com/company/about-us,https://web.archive.org/web/20240702010308id_/https://www.broadcom.com/company/about-us,complete,1
 AXP,American Express,Financials,2016,2016-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,2
 AXP,American Express,Financials,2017,2017-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,2
 AXP,American Express,Financials,2018,2018-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,2
@@ -71,15 +71,15 @@ BLK,BlackRock,Financials,2021,2021-06-30T12:00:00+00:00,selected,,1,33,31,2021-0
 BLK,BlackRock,Financials,2022,2022-06-30T12:00:00+00:00,selected,,1,45,43,2022-06-29T11:19:55+00:00,https://www.blackrock.com/corporate/about-us,https://web.archive.org/web/20220629111955id_/https://www.blackrock.com/corporate/about-us,complete,2
 BLK,BlackRock,Financials,2023,2023-06-30T12:00:00+00:00,selected,,1,25,25,2023-06-27T23:01:14+00:00,https://www.blackrock.com/corporate/about-us,https://web.archive.org/web/20230627230114id_/https://www.blackrock.com/corporate/about-us,complete,2
 BLK,BlackRock,Financials,2024,2024-06-30T12:00:00+00:00,selected,,1,22,21,2024-07-03T15:08:58+00:00,https://www.blackrock.com/corporate/about-us,https://web.archive.org/web/20240703150858id_/https://www.blackrock.com/corporate/about-us,complete,2
-BMY,Bristol-Myers Squibb,Healthcare,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-BMY,Bristol-Myers Squibb,Healthcare,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-BMY,Bristol-Myers Squibb,Healthcare,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-BMY,Bristol-Myers Squibb,Healthcare,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-BMY,Bristol-Myers Squibb,Healthcare,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-BMY,Bristol-Myers Squibb,Healthcare,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-BMY,Bristol-Myers Squibb,Healthcare,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-BMY,Bristol-Myers Squibb,Healthcare,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-BMY,Bristol-Myers Squibb,Healthcare,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
+BMY,Bristol-Myers Squibb,Healthcare,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,5
+BMY,Bristol-Myers Squibb,Healthcare,2017,2017-06-30T12:00:00+00:00,selected,,1,10,3,2017-06-06T23:15:06+00:00,https://www.bms.com/about-us.html,https://web.archive.org/web/20170606231506id_/https://www.bms.com/about-us.html,complete,3
+BMY,Bristol-Myers Squibb,Healthcare,2018,2018-06-30T12:00:00+00:00,selected,,1,9,2,2018-11-04T11:01:41+00:00,https://www.bms.com/about-us.html,https://web.archive.org/web/20181104110141id_/https://www.bms.com/about-us.html,complete,2
+BMY,Bristol-Myers Squibb,Healthcare,2019,2019-06-30T12:00:00+00:00,selected,,1,21,14,2019-07-30T18:48:45+00:00,https://www.bms.com/about-us.html,https://web.archive.org/web/20190730184845id_/https://www.bms.com/about-us.html,complete,1
+BMY,Bristol-Myers Squibb,Healthcare,2020,2020-06-30T12:00:00+00:00,selected,,1,27,23,2020-06-30T21:11:29+00:00,https://www.bms.com/about-us.html,https://web.archive.org/web/20200630211129id_/https://www.bms.com/about-us.html,complete,3
+BMY,Bristol-Myers Squibb,Healthcare,2021,2021-06-30T12:00:00+00:00,selected,,1,64,54,2021-07-12T09:18:49+00:00,https://www.bms.com/about-us.html,https://web.archive.org/web/20210712091849id_/https://www.bms.com/about-us.html,complete,1
+BMY,Bristol-Myers Squibb,Healthcare,2022,2022-06-30T12:00:00+00:00,selected,,1,41,36,2022-06-23T23:41:31+00:00,https://www.bms.com/about-us.html,https://web.archive.org/web/20220623234131id_/https://www.bms.com/about-us.html,complete,1
+BMY,Bristol-Myers Squibb,Healthcare,2023,2023-06-30T12:00:00+00:00,selected,,1,40,40,2023-07-01T23:36:52+00:00,https://www.bms.com/about-us.html,https://web.archive.org/web/20230701233652id_/https://www.bms.com/about-us.html,complete,1
+BMY,Bristol-Myers Squibb,Healthcare,2024,2024-06-30T12:00:00+00:00,selected,,1,40,37,2024-07-03T22:22:08+00:00,https://www.bms.com/about-us.html,https://web.archive.org/web/20240703222208id_/https://www.bms.com/about-us.html,complete,1
 BRK.B,Berkshire Hathaway,Financials,2016,2016-06-30T12:00:00+00:00,no_eligible_page,no eligible page candidate,0,0,0,,,,not_applicable,0
 BRK.B,Berkshire Hathaway,Financials,2017,2017-06-30T12:00:00+00:00,no_eligible_page,no eligible page candidate,0,0,0,,,,not_applicable,0
 BRK.B,Berkshire Hathaway,Financials,2018,2018-06-30T12:00:00+00:00,no_eligible_page,no eligible page candidate,0,0,0,,,,not_applicable,0
@@ -98,15 +98,15 @@ C,Citigroup,Financials,2021,2021-06-30T12:00:00+00:00,no_cdx_capture,no same-yea
 C,Citigroup,Financials,2022,2022-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,2
 C,Citigroup,Financials,2023,2023-06-30T12:00:00+00:00,selected,,1,24,22,2023-07-22T10:17:07+00:00,https://www.citigroup.com/global/about-us,https://web.archive.org/web/20230722101707id_/https://www.citigroup.com/global/about-us,complete,2
 C,Citigroup,Financials,2024,2024-06-30T12:00:00+00:00,selected,,1,38,37,2024-07-02T09:34:43+00:00,https://www.citigroup.com/global/about-us,https://web.archive.org/web/20240702093443id_/https://www.citigroup.com/global/about-us,complete,2
-COP,ConocoPhillips,Energy,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-COP,ConocoPhillips,Energy,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-COP,ConocoPhillips,Energy,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-COP,ConocoPhillips,Energy,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-COP,ConocoPhillips,Energy,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-COP,ConocoPhillips,Energy,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-COP,ConocoPhillips,Energy,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-COP,ConocoPhillips,Energy,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-COP,ConocoPhillips,Energy,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
+COP,ConocoPhillips,Energy,2016,2016-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+COP,ConocoPhillips,Energy,2017,2017-06-30T12:00:00+00:00,selected,,1,4,3,2017-12-04T02:30:00+00:00,http://www.conocophillips.com:80/about-us/,https://web.archive.org/web/20171204023000id_/http://www.conocophillips.com:80/about-us/,complete,1
+COP,ConocoPhillips,Energy,2018,2018-06-30T12:00:00+00:00,selected,,1,21,10,2018-06-25T20:49:27+00:00,http://www.conocophillips.com/about-us/,https://web.archive.org/web/20180625204927id_/http://www.conocophillips.com/about-us/,complete,1
+COP,ConocoPhillips,Energy,2019,2019-06-30T12:00:00+00:00,selected,,1,18,13,2019-06-20T16:45:30+00:00,http://www.conocophillips.com/about-us/,https://web.archive.org/web/20190620164530id_/http://www.conocophillips.com/about-us/,complete,2
+COP,ConocoPhillips,Energy,2020,2020-06-30T12:00:00+00:00,selected,,1,19,11,2020-06-27T11:37:44+00:00,http://www.conocophillips.com:80/about-us/,https://web.archive.org/web/20200627113744id_/http://www.conocophillips.com:80/about-us/,complete,1
+COP,ConocoPhillips,Energy,2021,2021-06-30T12:00:00+00:00,selected,,1,17,14,2021-05-11T06:52:50+00:00,https://www.conocophillips.com/about-us/,https://web.archive.org/web/20210511065250id_/https://www.conocophillips.com/about-us/,complete,1
+COP,ConocoPhillips,Energy,2022,2022-06-30T12:00:00+00:00,selected,,1,9,6,2022-05-22T11:39:59+00:00,https://www.conocophillips.com/about-us/,https://web.archive.org/web/20220522113959id_/https://www.conocophillips.com/about-us/,complete,4
+COP,ConocoPhillips,Energy,2023,2023-06-30T12:00:00+00:00,selected,,1,17,13,2023-07-03T16:05:12+00:00,https://www.conocophillips.com/about-us/,https://web.archive.org/web/20230703160512id_/https://www.conocophillips.com/about-us/,complete,1
+COP,ConocoPhillips,Energy,2024,2024-06-30T12:00:00+00:00,selected,,1,25,17,2024-07-03T09:35:00+00:00,https://www.conocophillips.com/about-us/,https://web.archive.org/web/20240703093500id_/https://www.conocophillips.com/about-us/,complete,1
 CRM,Salesforce,Technology,2016,2016-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,2
 CRM,Salesforce,Technology,2017,2017-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
 CRM,Salesforce,Technology,2018,2018-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
@@ -197,15 +197,15 @@ INTC,Intel,Technology,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-y
 INTC,Intel,Technology,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 INTC,Intel,Technology,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 INTC,Intel,Technology,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-JNJ,Johnson & Johnson,Healthcare,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-JNJ,Johnson & Johnson,Healthcare,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-JNJ,Johnson & Johnson,Healthcare,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-JNJ,Johnson & Johnson,Healthcare,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-JNJ,Johnson & Johnson,Healthcare,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-JNJ,Johnson & Johnson,Healthcare,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-JNJ,Johnson & Johnson,Healthcare,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-JNJ,Johnson & Johnson,Healthcare,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-JNJ,Johnson & Johnson,Healthcare,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
+JNJ,Johnson & Johnson,Healthcare,2016,2016-06-30T12:00:00+00:00,selected,,1,49,47,2016-06-29T22:06:57+00:00,http://www.jnj.com:80/about-jnj,https://web.archive.org/web/20160629220657id_/http://www.jnj.com:80/about-jnj,complete,1
+JNJ,Johnson & Johnson,Healthcare,2017,2017-06-30T12:00:00+00:00,selected,,1,18,4,2017-05-03T17:33:44+00:00,https://www.jnj.com/about-jnj,https://web.archive.org/web/20170503173344id_/https://www.jnj.com/about-jnj,complete,1
+JNJ,Johnson & Johnson,Healthcare,2018,2018-06-30T12:00:00+00:00,selected,,1,28,14,2018-07-01T20:02:38+00:00,https://www.jnj.com/about-jnj,https://web.archive.org/web/20180701200238id_/https://www.jnj.com/about-jnj,complete,5
+JNJ,Johnson & Johnson,Healthcare,2019,2019-06-30T12:00:00+00:00,selected,,1,25,16,2019-07-19T08:33:48+00:00,https://www.jnj.com/about-jnj,https://web.archive.org/web/20190719083348id_/https://www.jnj.com/about-jnj,complete,1
+JNJ,Johnson & Johnson,Healthcare,2020,2020-06-30T12:00:00+00:00,selected,,1,34,28,2020-06-30T20:59:49+00:00,https://www.jnj.com/about-jnj,https://web.archive.org/web/20200630205949id_/https://www.jnj.com/about-jnj,complete,1
+JNJ,Johnson & Johnson,Healthcare,2021,2021-06-30T12:00:00+00:00,selected,,1,54,46,2021-06-27T23:27:49+00:00,https://www.jnj.com/about-jnj,https://web.archive.org/web/20210627232749id_/https://www.jnj.com/about-jnj,complete,1
+JNJ,Johnson & Johnson,Healthcare,2022,2022-06-30T12:00:00+00:00,selected,,1,32,23,2022-06-28T01:03:43+00:00,https://www.jnj.com/about-jnj,https://web.archive.org/web/20220628010343id_/https://www.jnj.com/about-jnj,complete,1
+JNJ,Johnson & Johnson,Healthcare,2023,2023-06-30T12:00:00+00:00,selected,,1,27,23,2023-07-02T04:42:50+00:00,https://www.jnj.com/about-jnj,https://web.archive.org/web/20230702044250id_/https://www.jnj.com/about-jnj,complete,1
+JNJ,Johnson & Johnson,Healthcare,2024,2024-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,4,0,,,,complete,1
 JPM,JPMorgan Chase,Financials,2016,2016-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
 JPM,JPMorgan Chase,Financials,2017,2017-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
 JPM,JPMorgan Chase,Financials,2018,2018-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
