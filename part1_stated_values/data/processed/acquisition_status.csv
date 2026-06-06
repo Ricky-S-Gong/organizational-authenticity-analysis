@@ -260,33 +260,33 @@ META,Meta Platforms,Technology,2021,2021-06-30T12:00:00+00:00,selected,,2,165,53
 META,Meta Platforms,Technology,2022,2022-06-30T12:00:00+00:00,selected,,1,103,77,2022-09-20T05:03:18+00:00,https://about.meta.com/company-info/,https://web.archive.org/web/20220920050318id_/https://about.meta.com/company-info/,complete,1
 META,Meta Platforms,Technology,2023,2023-06-30T12:00:00+00:00,selected,,1,332,256,2023-06-30T09:17:30+00:00,https://about.meta.com/company-info/,https://web.archive.org/web/20230630091730id_/https://about.meta.com/company-info/,complete,1
 META,Meta Platforms,Technology,2024,2024-06-30T12:00:00+00:00,selected,,1,184,154,2024-06-30T16:04:29+00:00,https://about.meta.com/company-info/,https://web.archive.org/web/20240630160429id_/https://about.meta.com/company-info/,complete,2
-MPC,Marathon Petroleum,Energy,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MPC,Marathon Petroleum,Energy,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MPC,Marathon Petroleum,Energy,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MPC,Marathon Petroleum,Energy,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MPC,Marathon Petroleum,Energy,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MPC,Marathon Petroleum,Energy,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MPC,Marathon Petroleum,Energy,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MPC,Marathon Petroleum,Energy,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MPC,Marathon Petroleum,Energy,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MRK,Merck,Healthcare,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MRK,Merck,Healthcare,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MRK,Merck,Healthcare,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MRK,Merck,Healthcare,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MRK,Merck,Healthcare,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MRK,Merck,Healthcare,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MRK,Merck,Healthcare,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MRK,Merck,Healthcare,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MRK,Merck,Healthcare,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MS,Morgan Stanley,Financials,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MS,Morgan Stanley,Financials,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MS,Morgan Stanley,Financials,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MS,Morgan Stanley,Financials,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MS,Morgan Stanley,Financials,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MS,Morgan Stanley,Financials,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MS,Morgan Stanley,Financials,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MS,Morgan Stanley,Financials,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MS,Morgan Stanley,Financials,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
+MPC,Marathon Petroleum,Energy,2016,2016-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+MPC,Marathon Petroleum,Energy,2017,2017-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+MPC,Marathon Petroleum,Energy,2018,2018-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,5
+MPC,Marathon Petroleum,Energy,2019,2019-06-30T12:00:00+00:00,selected,,1,10,10,2019-06-20T17:09:33+00:00,https://www.marathonpetroleum.com/About/,https://web.archive.org/web/20190620170933id_/https://www.marathonpetroleum.com/About/,complete,1
+MPC,Marathon Petroleum,Energy,2020,2020-06-30T12:00:00+00:00,selected,,1,9,7,2020-08-05T11:23:48+00:00,https://www.marathonpetroleum.com/About/,https://web.archive.org/web/20200805112348id_/https://www.marathonpetroleum.com/About/,complete,2
+MPC,Marathon Petroleum,Energy,2021,2021-06-30T12:00:00+00:00,selected,,1,18,12,2021-06-14T15:31:43+00:00,https://www.marathonpetroleum.com/About/,https://web.archive.org/web/20210614153143id_/https://www.marathonpetroleum.com/About/,complete,1
+MPC,Marathon Petroleum,Energy,2022,2022-06-30T12:00:00+00:00,selected,,1,15,10,2022-06-20T00:22:37+00:00,https://www.marathonpetroleum.com/About/,https://web.archive.org/web/20220620002237id_/https://www.marathonpetroleum.com/About/,complete,2
+MPC,Marathon Petroleum,Energy,2023,2023-06-30T12:00:00+00:00,selected,,1,10,5,2023-08-26T18:58:03+00:00,https://www.marathonpetroleum.com/About/,https://web.archive.org/web/20230826185803id_/https://www.marathonpetroleum.com/About/,complete,1
+MPC,Marathon Petroleum,Energy,2024,2024-06-30T12:00:00+00:00,selected,,1,13,8,2024-06-20T09:26:23+00:00,https://www.marathonpetroleum.com/About/,https://web.archive.org/web/20240620092623id_/https://www.marathonpetroleum.com/About/,complete,1
+MRK,Merck,Healthcare,2016,2016-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,3
+MRK,Merck,Healthcare,2017,2017-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,2
+MRK,Merck,Healthcare,2018,2018-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+MRK,Merck,Healthcare,2019,2019-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+MRK,Merck,Healthcare,2020,2020-06-30T12:00:00+00:00,selected,,1,34,34,2020-08-11T06:33:49+00:00,https://www.merck.com/company-overview/,https://web.archive.org/web/20200811063349id_/https://www.merck.com/company-overview/,complete,1
+MRK,Merck,Healthcare,2021,2021-06-30T12:00:00+00:00,selected,,1,103,101,2021-07-03T00:12:24+00:00,https://www.merck.com/company-overview/,https://web.archive.org/web/20210703001224id_/https://www.merck.com/company-overview/,complete,1
+MRK,Merck,Healthcare,2022,2022-06-30T12:00:00+00:00,selected,,1,73,66,2022-07-01T22:44:11+00:00,https://www.merck.com/company-overview/,https://web.archive.org/web/20220701224411id_/https://www.merck.com/company-overview/,complete,1
+MRK,Merck,Healthcare,2023,2023-06-30T12:00:00+00:00,selected,,1,69,66,2023-07-01T18:22:14+00:00,https://www.merck.com/company-overview/,https://web.archive.org/web/20230701182214id_/https://www.merck.com/company-overview/,complete,1
+MRK,Merck,Healthcare,2024,2024-06-30T12:00:00+00:00,selected,,1,58,56,2024-06-28T01:00:12+00:00,https://www.merck.com/company-overview/,https://web.archive.org/web/20240628010012id_/https://www.merck.com/company-overview/,complete,1
+MS,Morgan Stanley,Financials,2016,2016-06-30T12:00:00+00:00,selected,,1,45,39,2016-06-30T15:13:00+00:00,http://www.morganstanley.com:80/about-us,https://web.archive.org/web/20160630151300id_/http://www.morganstanley.com:80/about-us,complete,2
+MS,Morgan Stanley,Financials,2017,2017-06-30T12:00:00+00:00,selected,,1,36,35,2017-06-30T16:55:54+00:00,http://www.morganstanley.com:80/about-us/,https://web.archive.org/web/20170630165554id_/http://www.morganstanley.com:80/about-us/,complete,1
+MS,Morgan Stanley,Financials,2018,2018-06-30T12:00:00+00:00,selected,,1,67,56,2018-07-02T05:03:29+00:00,http://www.morganstanley.com/about-us,https://web.archive.org/web/20180702050329id_/http://www.morganstanley.com/about-us,complete,1
+MS,Morgan Stanley,Financials,2019,2019-06-30T12:00:00+00:00,selected,,1,31,22,2019-06-18T23:31:02+00:00,http://www.morganstanley.com:80/about-us,https://web.archive.org/web/20190618233102id_/http://www.morganstanley.com:80/about-us,complete,1
+MS,Morgan Stanley,Financials,2020,2020-06-30T12:00:00+00:00,selected,,1,18,15,2020-07-08T06:09:44+00:00,https://www.morganstanley.com/about-us,https://web.archive.org/web/20200708060944id_/https://www.morganstanley.com/about-us,complete,2
+MS,Morgan Stanley,Financials,2021,2021-06-30T12:00:00+00:00,selected,,1,34,30,2021-07-09T09:00:54+00:00,https://www.morganstanley.com/about-us,https://web.archive.org/web/20210709090054id_/https://www.morganstanley.com/about-us,complete,1
+MS,Morgan Stanley,Financials,2022,2022-06-30T12:00:00+00:00,selected,,1,35,35,2022-07-07T13:15:19+00:00,https://www.morganstanley.com/about-us,https://web.archive.org/web/20220707131519id_/https://www.morganstanley.com/about-us,complete,1
+MS,Morgan Stanley,Financials,2023,2023-06-30T12:00:00+00:00,selected,,1,28,26,2023-07-01T04:05:53+00:00,https://www.morganstanley.com/about-us,https://web.archive.org/web/20230701040553id_/https://www.morganstanley.com/about-us,complete,1
+MS,Morgan Stanley,Financials,2024,2024-06-30T12:00:00+00:00,selected,,1,41,35,2024-07-03T04:46:21+00:00,https://www.morganstanley.com/about-us,https://web.archive.org/web/20240703044621id_/https://www.morganstanley.com/about-us,complete,1
 MSFT,Microsoft,Technology,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,5
 MSFT,Microsoft,Technology,2017,2017-06-30T12:00:00+00:00,selected,,1,130,130,2017-07-01T04:55:06+00:00,https://www.microsoft.com/en-us/about,https://web.archive.org/web/20170701045506id_/https://www.microsoft.com/en-us/about,complete,1
 MSFT,Microsoft,Technology,2018,2018-06-30T12:00:00+00:00,selected,,1,183,174,2018-06-30T12:10:20+00:00,https://www.microsoft.com/en-us/about,https://web.archive.org/web/20180630121020id_/https://www.microsoft.com/en-us/about,complete,5
@@ -296,15 +296,15 @@ MSFT,Microsoft,Technology,2021,2021-06-30T12:00:00+00:00,selected,,1,312,311,202
 MSFT,Microsoft,Technology,2022,2022-06-30T12:00:00+00:00,selected,,1,281,278,2022-06-30T14:43:36+00:00,https://www.microsoft.com/en-us/about,https://web.archive.org/web/20220630144336id_/https://www.microsoft.com/en-us/about,complete,1
 MSFT,Microsoft,Technology,2023,2023-06-30T12:00:00+00:00,selected,,1,311,310,2023-06-30T17:24:39+00:00,https://www.microsoft.com/en-us/about,https://web.archive.org/web/20230630172439id_/https://www.microsoft.com/en-us/about,complete,2
 MSFT,Microsoft,Technology,2024,2024-06-30T12:00:00+00:00,selected,,1,300,296,2024-07-01T23:01:01+00:00,https://www.microsoft.com/en-us/about,https://web.archive.org/web/20240701230101id_/https://www.microsoft.com/en-us/about,complete,3
-NKE,Nike,Consumer Discretionary,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-NKE,Nike,Consumer Discretionary,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-NKE,Nike,Consumer Discretionary,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-NKE,Nike,Consumer Discretionary,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-NKE,Nike,Consumer Discretionary,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-NKE,Nike,Consumer Discretionary,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-NKE,Nike,Consumer Discretionary,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-NKE,Nike,Consumer Discretionary,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-NKE,Nike,Consumer Discretionary,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
+NKE,Nike,Consumer Discretionary,2016,2016-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,2
+NKE,Nike,Consumer Discretionary,2017,2017-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+NKE,Nike,Consumer Discretionary,2018,2018-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+NKE,Nike,Consumer Discretionary,2019,2019-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+NKE,Nike,Consumer Discretionary,2020,2020-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+NKE,Nike,Consumer Discretionary,2021,2021-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+NKE,Nike,Consumer Discretionary,2022,2022-06-30T12:00:00+00:00,selected,,1,9,7,2022-07-14T00:42:53+00:00,https://about.nike.com/en/company,https://web.archive.org/web/20220714004253id_/https://about.nike.com/en/company,complete,1
+NKE,Nike,Consumer Discretionary,2023,2023-06-30T12:00:00+00:00,selected,,1,26,25,2023-07-08T20:42:45+00:00,https://about.nike.com/en/company,https://web.archive.org/web/20230708204245id_/https://about.nike.com/en/company,complete,1
+NKE,Nike,Consumer Discretionary,2024,2024-06-30T12:00:00+00:00,selected,,1,33,32,2024-06-30T02:56:27+00:00,https://about.nike.com/en/company,https://web.archive.org/web/20240630025627id_/https://about.nike.com/en/company,complete,1
 NVDA,NVIDIA,Technology,2016,2016-06-30T12:00:00+00:00,selected,,1,7,1,2016-11-29T03:24:58+00:00,https://www2.nvidia.com/en-us/about-nvidia/,https://web.archive.org/web/20161129032458id_/https://www2.nvidia.com/en-us/about-nvidia/,complete,1
 NVDA,NVIDIA,Technology,2017,2017-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,2
 NVDA,NVIDIA,Technology,2018,2018-06-30T12:00:00+00:00,selected,,1,12,12,2018-08-09T00:23:37+00:00,https://www.nvidia.com/en-us/about-nvidia/,https://web.archive.org/web/20180809002337id_/https://www.nvidia.com/en-us/about-nvidia/,complete,1
@@ -323,15 +323,15 @@ ORCL,Oracle,Technology,2021,2021-06-30T12:00:00+00:00,selected,,1,150,115,2021-0
 ORCL,Oracle,Technology,2022,2022-06-30T12:00:00+00:00,selected,,1,103,86,2022-06-30T11:25:45+00:00,https://www.oracle.com/corporate/,https://web.archive.org/web/20220630112545id_/https://www.oracle.com/corporate/,complete,2
 ORCL,Oracle,Technology,2023,2023-06-30T12:00:00+00:00,selected,,1,56,51,2023-07-02T09:06:58+00:00,https://www.oracle.com/corporate/,https://web.archive.org/web/20230702090658id_/https://www.oracle.com/corporate/,complete,1
 ORCL,Oracle,Technology,2024,2024-06-30T12:00:00+00:00,selected,,1,86,75,2024-06-26T00:13:19+00:00,https://www.oracle.com/corporate/,https://web.archive.org/web/20240626001319id_/https://www.oracle.com/corporate/,complete,1
-OXY,Occidental Petroleum,Energy,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-OXY,Occidental Petroleum,Energy,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-OXY,Occidental Petroleum,Energy,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-OXY,Occidental Petroleum,Energy,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-OXY,Occidental Petroleum,Energy,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-OXY,Occidental Petroleum,Energy,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-OXY,Occidental Petroleum,Energy,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-OXY,Occidental Petroleum,Energy,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-OXY,Occidental Petroleum,Energy,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
+OXY,Occidental Petroleum,Energy,2016,2016-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+OXY,Occidental Petroleum,Energy,2017,2017-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+OXY,Occidental Petroleum,Energy,2018,2018-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+OXY,Occidental Petroleum,Energy,2019,2019-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+OXY,Occidental Petroleum,Energy,2020,2020-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,2
+OXY,Occidental Petroleum,Energy,2021,2021-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+OXY,Occidental Petroleum,Energy,2022,2022-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+OXY,Occidental Petroleum,Energy,2023,2023-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+OXY,Occidental Petroleum,Energy,2024,2024-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
 PFE,Pfizer,Healthcare,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 PFE,Pfizer,Healthcare,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 PFE,Pfizer,Healthcare,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2

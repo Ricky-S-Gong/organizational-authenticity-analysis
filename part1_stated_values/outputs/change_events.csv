@@ -141,8 +141,8 @@ F,2019,,,indeterminate,
 F,2020,,,indeterminate,
 F,2021,True,0.765258,substantive_change,"{""added"": [""Ford is a family company, one that spans the globe and has shared ideals."", ""We value service to each other and the world as much as to our customers."", ""Generations have made their memories with us and included us in their hopes and dreams.""], ""removed"": [""About"", ""In the words of our founder, Henry Ford, “To do more for the world than the world does for you."", ""That is success.” Throughout our 117-year history and today, we strive to do more through our products, our services and by supporting the communities where we operate globally.""]}"
 F,2022,False,0.0,unchanged_exact,
-F,2023,,,indeterminate,
-F,2024,,,indeterminate,
+F,2023,True,0.123288,substantive_change,"{""added"": [], ""removed"": [""Our culture"", ""Ford is a family company in more ways than one."", ""The culture is anchored in shared beliefs and ideals, acting for the common good.""]}"
+F,2024,True,0.023256,minor_edit,"{""added"": [""After 121 years, we’re used to adapting to and leading change."", ""That is why we are evolving to focus on services, experiences and software as well as vehicles.""], ""removed"": [""After 117 years, we’re used to adapting to and leading change."", ""That’s why we’re evolving to focus on services, experiences and software as well as vehicles.""]}"
 GOOGL,2016,,,no_prior,
 GOOGL,2017,False,0.0,unchanged_exact,
 GOOGL,2018,False,0.0,unchanged_exact,
@@ -167,9 +167,9 @@ HAL,2018,,,indeterminate,
 HAL,2019,,,indeterminate,
 HAL,2020,,,indeterminate,
 HAL,2021,,,indeterminate,
-HAL,2022,,,indeterminate,
-HAL,2023,,,indeterminate,
-HAL,2024,,,indeterminate,
+HAL,2022,True,0.095217,minor_edit,"{""added"": [""Founded in 1919, Halliburton is one of the world's largest providers of products and services to the energy industry."", ""With more than 40,000 employees, representing 130 nationalities in more than 70 countries, the company helps its customers maximize value throughout the lifecycle of the reservoir – from locating hydrocarbons and managing geological data, to drilling and formation evaluation, well construction and completion, and optimizing production throughout the life of the asset.""], ""removed"": [""Halliburton is one of the world's largest providers of products and services for the ever-evolving needs of the energy industry."", ""Founded in 1919, Halliburton serves major, national and independent oil and natural gas companies throughout the world."", ""Halliburton and our 40,000+ global employees collaborate and engineer solutions to maximize asset value for our customers.""]}"
+HAL,2023,True,0.075758,minor_edit,"{""added"": [""About Halliburton"", ""Halliburton is one of the world's leading providers of products and services to the energy industry."", ""Founded in 1919, we create innovative technologies, products, and services that help our customers maximize their value throughout the life cycle of an asset and advance a sustainable energy future.""], ""removed"": [""About Us"", ""Founded in 1919, Halliburton is one of the world's largest providers of products and services to the energy industry."", ""With more than 40,000 employees, representing 130 nationalities in more than 70 countries, the company helps its customers maximize value throughout the lifecycle of the reservoir – from locating hydrocarbons and managing geological data, to drilling and formation evaluation, well construction and completion, and optimizing production throughout the life of the asset.""]}"
+HAL,2024,True,0.571765,substantive_change,"{""added"": [""Founded in 1919, Halliburton is one of the world's leading providers of products and services to the energy industry."", ""We create innovative technologies, products, and services that help our customers maximize their value throughout the life cycle of an asset and advance a sustainable energy future."", ""0.02""], ""removed"": [""Halliburton is one of the world's leading providers of products and services to the energy industry."", ""Founded in 1919, we create innovative technologies, products, and services that help our customers maximize their value throughout the life cycle of an asset and advance a sustainable energy future."", ""Collaborating and engineering solutions to maximize asset value""]}"
 HD,2016,,,no_prior,
 HD,2017,,,indeterminate,
 HD,2018,,,indeterminate,
@@ -189,8 +189,8 @@ IBM,2022,True,0.142494,substantive_change,"{""added"": [""\""It is my great priv
 IBM,2023,True,0.861416,substantive_change,"{""added"": [""01 Overview"", ""02 What IBM does"", ""03 Our impact""], ""removed"": [""01 People"", ""02 Solutions"", ""03 Clients""]}"
 IBM,2024,True,0.423208,substantive_change,"{""added"": [""About | IBM"", ""Home about About IBM"", ""Creators, partners and clients putting technology to work in the real world""], ""removed"": [""01 Overview"", ""02 What IBM does"", ""03 Our impact""]}"
 INTC,2016,,,no_prior,
-INTC,2017,,,indeterminate,
-INTC,2018,,,indeterminate,
+INTC,2017,True,0.366412,substantive_change,"{""added"": [""We're #14."", ""See the rankings"", ""We’re #44.""], ""removed"": [""The browser version you are using is not recommended for this site."", ""Please consider upgrading to the latest version of your browser by clicking one of the following links."", ""Safari""]}"
+INTC,2018,True,0.162602,substantive_change,"{""added"": [""We're #15."", ""We’re #45."", ""Show more Show less""], ""removed"": [""We're #14."", ""We’re #46."", ""Show more Show less""]}"
 INTC,2019,,,indeterminate,
 INTC,2020,,,indeterminate,
 INTC,2021,,,indeterminate,
@@ -284,8 +284,8 @@ MS,2018,,,indeterminate,
 MS,2019,,,indeterminate,
 MS,2020,,,indeterminate,
 MS,2021,,,indeterminate,
-MS,2022,,,indeterminate,
-MS,2023,,,indeterminate,
+MS,2022,False,0.0,unchanged_exact,
+MS,2023,False,0.0,unchanged_exact,
 MS,2024,,,indeterminate,
 MSFT,2016,,,no_prior,
 MSFT,2017,,,indeterminate,
