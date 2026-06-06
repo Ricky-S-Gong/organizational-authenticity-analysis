@@ -215,51 +215,51 @@ JPM,JPMorgan Chase,Financials,2021,2021-06-30T12:00:00+00:00,selected,,1,37,37,2
 JPM,JPMorgan Chase,Financials,2022,2022-06-30T12:00:00+00:00,selected,,1,33,30,2022-06-30T12:49:11+00:00,https://www.jpmorganchase.com/about,https://web.archive.org/web/20220630124911id_/https://www.jpmorganchase.com/about,complete,1
 JPM,JPMorgan Chase,Financials,2023,2023-06-30T12:00:00+00:00,selected,,1,161,158,2023-07-01T13:32:52+00:00,https://www.jpmorganchase.com/about,https://web.archive.org/web/20230701133252id_/https://www.jpmorganchase.com/about,complete,3
 JPM,JPMorgan Chase,Financials,2024,2024-06-30T12:00:00+00:00,selected,,1,180,175,2024-07-03T15:41:38+00:00,https://www.jpmorganchase.com/about,https://web.archive.org/web/20240703154138id_/https://www.jpmorganchase.com/about,complete,3
-LLY,Eli Lilly,Healthcare,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-LLY,Eli Lilly,Healthcare,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-LLY,Eli Lilly,Healthcare,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-LLY,Eli Lilly,Healthcare,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-LLY,Eli Lilly,Healthcare,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-LLY,Eli Lilly,Healthcare,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-LLY,Eli Lilly,Healthcare,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-LLY,Eli Lilly,Healthcare,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-LLY,Eli Lilly,Healthcare,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-LOW,Lowe's,Consumer Discretionary,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-LOW,Lowe's,Consumer Discretionary,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-LOW,Lowe's,Consumer Discretionary,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-LOW,Lowe's,Consumer Discretionary,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-LOW,Lowe's,Consumer Discretionary,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-LOW,Lowe's,Consumer Discretionary,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-LOW,Lowe's,Consumer Discretionary,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-LOW,Lowe's,Consumer Discretionary,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-LOW,Lowe's,Consumer Discretionary,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MCD,McDonald's,Consumer Discretionary,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MCD,McDonald's,Consumer Discretionary,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MCD,McDonald's,Consumer Discretionary,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MCD,McDonald's,Consumer Discretionary,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MCD,McDonald's,Consumer Discretionary,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MCD,McDonald's,Consumer Discretionary,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MCD,McDonald's,Consumer Discretionary,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MCD,McDonald's,Consumer Discretionary,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MCD,McDonald's,Consumer Discretionary,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MDT,Medtronic,Healthcare,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MDT,Medtronic,Healthcare,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MDT,Medtronic,Healthcare,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MDT,Medtronic,Healthcare,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MDT,Medtronic,Healthcare,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MDT,Medtronic,Healthcare,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MDT,Medtronic,Healthcare,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MDT,Medtronic,Healthcare,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MDT,Medtronic,Healthcare,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-META,Meta Platforms,Technology,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-META,Meta Platforms,Technology,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-META,Meta Platforms,Technology,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-META,Meta Platforms,Technology,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-META,Meta Platforms,Technology,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-META,Meta Platforms,Technology,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,2,0,0,,,,incomplete,4
-META,Meta Platforms,Technology,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-META,Meta Platforms,Technology,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-META,Meta Platforms,Technology,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
+LLY,Eli Lilly,Healthcare,2016,2016-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,3,0,,,,complete,1
+LLY,Eli Lilly,Healthcare,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,5
+LLY,Eli Lilly,Healthcare,2018,2018-06-30T12:00:00+00:00,selected,,1,7,5,2018-06-23T09:33:14+00:00,https://www.lilly.com/who-we-are,https://web.archive.org/web/20180623093314id_/https://www.lilly.com/who-we-are,complete,4
+LLY,Eli Lilly,Healthcare,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,5
+LLY,Eli Lilly,Healthcare,2020,2020-06-30T12:00:00+00:00,selected,,1,6,2,2020-03-10T12:07:59+00:00,https://www.lilly.com/who-we-are,https://web.archive.org/web/20200310120759id_/https://www.lilly.com/who-we-are,complete,4
+LLY,Eli Lilly,Healthcare,2021,2021-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+LLY,Eli Lilly,Healthcare,2022,2022-06-30T12:00:00+00:00,selected,,1,3,1,2022-01-24T04:39:31+00:00,https://www.lilly.com/who-we-are/,https://web.archive.org/web/20220124043931id_/https://www.lilly.com/who-we-are/,complete,1
+LLY,Eli Lilly,Healthcare,2023,2023-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,1,0,,,,complete,2
+LLY,Eli Lilly,Healthcare,2024,2024-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,1,0,,,,complete,4
+LOW,Lowe's,Consumer Discretionary,2016,2016-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+LOW,Lowe's,Consumer Discretionary,2017,2017-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+LOW,Lowe's,Consumer Discretionary,2018,2018-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+LOW,Lowe's,Consumer Discretionary,2019,2019-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+LOW,Lowe's,Consumer Discretionary,2020,2020-06-30T12:00:00+00:00,selected,,1,13,6,2020-10-01T03:02:14+00:00,https://corporate.lowes.com/who-we-are,https://web.archive.org/web/20201001030214id_/https://corporate.lowes.com/who-we-are,complete,2
+LOW,Lowe's,Consumer Discretionary,2021,2021-06-30T12:00:00+00:00,selected,,1,20,18,2021-06-06T04:07:32+00:00,https://corporate.lowes.com/who-we-are,https://web.archive.org/web/20210606040732id_/https://corporate.lowes.com/who-we-are,complete,1
+LOW,Lowe's,Consumer Discretionary,2022,2022-06-30T12:00:00+00:00,selected,,1,21,14,2022-06-30T06:13:00+00:00,https://corporate.lowes.com/who-we-are,https://web.archive.org/web/20220630061300id_/https://corporate.lowes.com/who-we-are,complete,1
+LOW,Lowe's,Consumer Discretionary,2023,2023-06-30T12:00:00+00:00,selected,,1,8,6,2023-06-06T04:51:38+00:00,https://corporate.lowes.com/who-we-are,https://web.archive.org/web/20230606045138id_/https://corporate.lowes.com/who-we-are,complete,1
+LOW,Lowe's,Consumer Discretionary,2024,2024-06-30T12:00:00+00:00,selected,,1,10,4,2024-05-29T09:52:41+00:00,https://corporate.lowes.com/who-we-are,https://web.archive.org/web/20240529095241id_/https://corporate.lowes.com/who-we-are,complete,1
+MCD,McDonald's,Consumer Discretionary,2016,2016-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+MCD,McDonald's,Consumer Discretionary,2017,2017-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+MCD,McDonald's,Consumer Discretionary,2018,2018-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+MCD,McDonald's,Consumer Discretionary,2019,2019-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+MCD,McDonald's,Consumer Discretionary,2020,2020-06-30T12:00:00+00:00,selected,,1,3,3,2020-11-10T17:32:14+00:00,https://corporate.mcdonalds.com/corpmcd/our-purpose-and-impact.html,https://web.archive.org/web/20201110173214id_/https://corporate.mcdonalds.com/corpmcd/our-purpose-and-impact.html,complete,1
+MCD,McDonald's,Consumer Discretionary,2021,2021-06-30T12:00:00+00:00,selected,,1,18,17,2021-06-16T17:53:52+00:00,https://corporate.mcdonalds.com/corpmcd/our-purpose-and-impact.html,https://web.archive.org/web/20210616175352id_/https://corporate.mcdonalds.com/corpmcd/our-purpose-and-impact.html,complete,1
+MCD,McDonald's,Consumer Discretionary,2022,2022-06-30T12:00:00+00:00,selected,,1,31,29,2022-06-19T02:09:30+00:00,https://corporate.mcdonalds.com/corpmcd/our-purpose-and-impact.html,https://web.archive.org/web/20220619020930id_/https://corporate.mcdonalds.com/corpmcd/our-purpose-and-impact.html,complete,1
+MCD,McDonald's,Consumer Discretionary,2023,2023-06-30T12:00:00+00:00,selected,,1,13,12,2023-06-03T15:37:26+00:00,https://corporate.mcdonalds.com/corpmcd/our-purpose-and-impact.html,https://web.archive.org/web/20230603153726id_/https://corporate.mcdonalds.com/corpmcd/our-purpose-and-impact.html,complete,1
+MCD,McDonald's,Consumer Discretionary,2024,2024-06-30T12:00:00+00:00,selected,,1,20,19,2024-06-19T22:33:21+00:00,https://corporate.mcdonalds.com/corpmcd/our-purpose-and-impact.html,https://web.archive.org/web/20240619223321id_/https://corporate.mcdonalds.com/corpmcd/our-purpose-and-impact.html,complete,1
+MDT,Medtronic,Healthcare,2016,2016-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,2
+MDT,Medtronic,Healthcare,2017,2017-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,3
+MDT,Medtronic,Healthcare,2018,2018-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,3
+MDT,Medtronic,Healthcare,2019,2019-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,2
+MDT,Medtronic,Healthcare,2020,2020-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,3
+MDT,Medtronic,Healthcare,2021,2021-06-30T12:00:00+00:00,selected,,1,8,8,2021-10-15T19:46:13+00:00,https://www.medtronic.com/us-en/our-company.html,https://web.archive.org/web/20211015194613id_/https://www.medtronic.com/us-en/our-company.html,complete,1
+MDT,Medtronic,Healthcare,2022,2022-06-30T12:00:00+00:00,selected,,1,39,39,2022-06-30T17:13:23+00:00,https://www.medtronic.com/us-en/our-company.html,https://web.archive.org/web/20220630171323id_/https://www.medtronic.com/us-en/our-company.html,complete,1
+MDT,Medtronic,Healthcare,2023,2023-06-30T12:00:00+00:00,selected,,1,29,28,2023-07-05T19:42:02+00:00,https://www.medtronic.com/us-en/our-company.html,https://web.archive.org/web/20230705194202id_/https://www.medtronic.com/us-en/our-company.html,complete,2
+MDT,Medtronic,Healthcare,2024,2024-06-30T12:00:00+00:00,selected,,1,30,28,2024-06-23T20:17:21+00:00,https://www.medtronic.com/us-en/our-company.html,https://web.archive.org/web/20240623201721id_/https://www.medtronic.com/us-en/our-company.html,complete,1
+META,Meta Platforms,Technology,2016,2016-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+META,Meta Platforms,Technology,2017,2017-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+META,Meta Platforms,Technology,2018,2018-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+META,Meta Platforms,Technology,2019,2019-06-30T12:00:00+00:00,selected,,1,49,40,2019-11-12T04:52:28+00:00,https://about.fb.com/company-info/,https://web.archive.org/web/20191112045228id_/https://about.fb.com/company-info/,complete,2
+META,Meta Platforms,Technology,2020,2020-06-30T12:00:00+00:00,selected,,1,308,190,2020-06-29T18:24:27+00:00,https://about.fb.com/company-info/,https://web.archive.org/web/20200629182427id_/https://about.fb.com/company-info/,complete,4
+META,Meta Platforms,Technology,2021,2021-06-30T12:00:00+00:00,selected,,2,165,53,2021-05-06T00:54:46+00:00,https://about.fb.com/company-info/,https://web.archive.org/web/20210506005446id_/https://about.fb.com/company-info/,complete,3
+META,Meta Platforms,Technology,2022,2022-06-30T12:00:00+00:00,selected,,1,103,77,2022-09-20T05:03:18+00:00,https://about.meta.com/company-info/,https://web.archive.org/web/20220920050318id_/https://about.meta.com/company-info/,complete,1
+META,Meta Platforms,Technology,2023,2023-06-30T12:00:00+00:00,selected,,1,332,256,2023-06-30T09:17:30+00:00,https://about.meta.com/company-info/,https://web.archive.org/web/20230630091730id_/https://about.meta.com/company-info/,complete,1
+META,Meta Platforms,Technology,2024,2024-06-30T12:00:00+00:00,selected,,1,184,154,2024-06-30T16:04:29+00:00,https://about.meta.com/company-info/,https://web.archive.org/web/20240630160429id_/https://about.meta.com/company-info/,complete,2
 MPC,Marathon Petroleum,Energy,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 MPC,Marathon Petroleum,Energy,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 MPC,Marathon Petroleum,Energy,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2

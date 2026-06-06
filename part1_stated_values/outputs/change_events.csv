@@ -100,13 +100,13 @@ C,2023,,,indeterminate,
 C,2024,True,0.313433,substantive_change,"{""added"": [""Citi | About Us"", ""Recent news"", ""Citi Enhances the Citi Premier Card with New Benefits to Make Travel Adventures More Rewarding""], ""removed"": [""Delivering the Full Value of Our Franchise"", ""Related Articles"", ""Second Quarter 2023 Results and Key Metrics""]}"
 COP,2016,,,no_prior,
 COP,2017,,,indeterminate,
-COP,2018,,,indeterminate,
-COP,2019,,,indeterminate,
-COP,2020,,,indeterminate,
-COP,2021,,,indeterminate,
-COP,2022,,,indeterminate,
-COP,2023,,,indeterminate,
-COP,2024,,,indeterminate,
+COP,2018,True,0.5,substantive_change,"{""added"": [""Unconventional reservoirs: It takes a village"", ""June 7, 2018"", ""NRG COSIA Carbon XPRIZE finalists announced""], ""removed"": [""Conoco­Phillips Canada: Operating responsibly in the Arctic"", ""November 9, 2017"", ""Proudly supporting parents when it matters most""]}"
+COP,2019,True,0.46087,substantive_change,"{""added"": [""In China: Bringing a message of hope to young patients"", ""June 17, 2019"", ""Water recycling in the Delaware Basin""], ""removed"": [""Unconventional reservoirs: It takes a village"", ""June 7, 2018"", ""NRG COSIA Carbon XPRIZE finalists announced""]}"
+COP,2020,True,0.688776,substantive_change,"{""added"": [""Who We Are"", ""We are challenged with an important job to safely find and deliver energy to the world."", ""Learn More""], ""removed"": [""In China: Bringing a message of hope to young patients"", ""June 17, 2019"", ""Water recycling in the Delaware Basin""]}"
+COP,2021,True,0.25,substantive_change,"{""added"": [""A spotlight on sustainability: Managing environmental and social risks"", ""May 6, 2021"", ""The Haifleys""], ""removed"": [""The magic of rigless: North Slope ESPs pump sandy thick oil"", ""June 21, 2020"", ""Condemning racial injustice, championing human rights""]}"
+COP,2022,True,0.308057,substantive_change,"{""added"": [""We are focused on sustainably meeting energy demand, while creating lasting value for employees, communities and shareholders."", ""Girls Talk Tech: On a Quest to educate, encourage and empower girls to pursue STEM"", ""May 18, 2022""], ""removed"": [""Learn More"", ""Learn More"", ""Learn More""]}"
+COP,2023,True,0.36036,substantive_change,"{""added"": [""We have an important job – to safely find and deliver energy to the world."", ""Full Screen Kuparuk"", ""Greater Kuparuk Area, Alaska""], ""removed"": [""We are challenged with an important job to safely find and deliver energy to the world."", ""Full Screen Jasmine"", ""North Sea, U.K.""]}"
+COP,2024,True,0.347826,substantive_change,"{""added"": [""Full Screen"", ""Full Screen"", ""Full Screen""], ""removed"": [""Full Screen Ekofisk"", ""Full Screen Britannia Satellites"", ""Full Screen Bohai Bay""]}"
 CRM,2016,,,no_prior,
 CRM,2017,,,indeterminate,
 CRM,2018,,,indeterminate,
@@ -124,7 +124,7 @@ CVX,2020,,,indeterminate,
 CVX,2021,,,indeterminate,
 CVX,2022,,,indeterminate,
 CVX,2023,,,indeterminate,
-CVX,2024,,,indeterminate,
+CVX,2024,False,0.0,unchanged_exact,
 EOG,2016,,,no_prior,
 EOG,2017,,,indeterminate,
 EOG,2018,,,indeterminate,
@@ -139,8 +139,8 @@ F,2017,,,indeterminate,
 F,2018,,,indeterminate,
 F,2019,,,indeterminate,
 F,2020,,,indeterminate,
-F,2021,,,indeterminate,
-F,2022,,,indeterminate,
+F,2021,True,0.765258,substantive_change,"{""added"": [""Ford is a family company, one that spans the globe and has shared ideals."", ""We value service to each other and the world as much as to our customers."", ""Generations have made their memories with us and included us in their hopes and dreams.""], ""removed"": [""About"", ""In the words of our founder, Henry Ford, “To do more for the world than the world does for you."", ""That is success.” Throughout our 117-year history and today, we strive to do more through our products, our services and by supporting the communities where we operate globally.""]}"
+F,2022,False,0.0,unchanged_exact,
 F,2023,,,indeterminate,
 F,2024,,,indeterminate,
 GOOGL,2016,,,no_prior,

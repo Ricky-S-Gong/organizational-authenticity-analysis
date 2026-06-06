@@ -1294,14 +1294,252 @@ Suppliers
 Ethics Hotline
 Contact Us",True,0.313433,substantive_change,"[""customers_and_service"", ""innovation_and_excellence"", ""integrity_and_ethics"", ""diversity_equity_and_inclusion"", ""social_impact_and_community"", ""leadership_and_accountability"", ""collaboration_and_partnership"", ""purpose_and_identity""]","[{""evidence_excerpts"": [""Through our vast global network and our on-the-ground expertise, we can connect the dots, anticipate change and empathize the needs of our clients and customers in ways that other banks simply cannot."", ""customers"", ""Through our five businesses, we have the experience and capabilities to meet the banking needs of our clients and customers as they grow across borders and adapt to the digital age."", ""institutional clients"", ""Our clients include 90% of global Fortune 500 companies who are served through our institutional banking franchise."", ""Citi's mission is to serve as a trusted partner to our clients by responsibly providing financial services that enable growth and economic progress."", ""Business and geopolitics are forging an entirely new dynamic and consumers now expect financial services to be a seamless part of their digital lives.""], ""match_count"": 9, ""matched_phrases"": [""customers"", ""clients"", ""consumers""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""customers_and_service"", ""theme_label"": ""Customers and service""}, {""evidence_excerpts"": [""TECHNOLOGY & INNOVATION"", ""Our diverse leadership team is committed to stewarding a firm known for excellence.""], ""match_count"": 2, ""matched_phrases"": [""innovation"", ""excellence""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""innovation_and_excellence"", ""theme_label"": ""Innovation and excellence""}, {""evidence_excerpts"": [""Ethics Hotline""], ""match_count"": 1, ""matched_phrases"": [""ethics""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""integrity_and_ethics"", ""theme_label"": ""Integrity and ethics""}, {""evidence_excerpts"": [""Our diverse leadership team is committed to stewarding a firm known for excellence.""], ""match_count"": 1, ""matched_phrases"": [""diverse""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""diversity_equity_and_inclusion"", ""theme_label"": ""Diversity, equity, and inclusion""}, {""evidence_excerpts"": [""Citi has more than 200 years of experience growing businesses and supporting communities.""], ""match_count"": 1, ""matched_phrases"": [""communities""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""social_impact_and_community"", ""theme_label"": ""Social impact and community""}, {""evidence_excerpts"": [""These expectations are at the heart of our Leadership Principles – we take ownership, we deliver with pride and we succeed together."", ""Leadership"", ""Our diverse leadership team is committed to stewarding a firm known for excellence."", ""We set goals and we hold ourselves accountable to reaching them.""], ""match_count"": 5, ""matched_phrases"": [""leadership"", ""accountable"", ""ownership""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}, {""evidence_excerpts"": [""These expectations are at the heart of our Leadership Principles – we take ownership, we deliver with pride and we succeed together.""], ""match_count"": 1, ""matched_phrases"": [""together""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""collaboration_and_partnership"", ""theme_label"": ""Collaboration and partnership""}, {""evidence_excerpts"": [""Our Mission"", ""We have set expectations for how we must act to bring our mission to life.""], ""match_count"": 2, ""matched_phrases"": [""our mission""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""purpose_and_identity"", ""theme_label"": ""Purpose and identity""}]","{""action_or_evidence_count"": 0, ""action_or_evidence_rate_per_100_words"": 0.0, ""aspiration_count"": 0, ""aspiration_rate_per_100_words"": 0.0, ""average_sentence_length"": 6.1392, ""commitment_count"": 3, ""commitment_rate_per_100_words"": 0.6186, ""first_person_plural_count"": 34, ""first_person_plural_rate_per_100_words"": 7.0103, ""quantified_claim_count"": 19, ""sentence_count"": 79, ""stakeholder_count"": 6, ""stakeholder_rate_per_100_words"": 1.2371, ""word_count"": 485}","{""added"": [""Citi | About Us"", ""Recent news"", ""Citi Enhances the Citi Premier Card with New Benefits to Make Travel Adventures More Rewarding""], ""removed"": [""Delivering the Full Value of Our Franchise"", ""Related Articles"", ""Second Quarter 2023 Results and Key Metrics""]}",Deterministic evidence-backed baseline; manual review required.,49d68f26df1c5c1a5a493d3d736c66c9ae817495e2a5bb4cb497913741296663,6b5be4ad8b14bf1caf46727ed146cb584fbda5e65013b33cbecc95238a18ce12,review_required,pending
 COP,ConocoPhillips,Energy,2016,no_cdx_capture,no same-year CDX capture,,,,,,,no_prior,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
-COP,ConocoPhillips,Energy,2017,retrieval_failed,ConnectError: [Errno 61] Connection refused,http://www.conocophillips.com:80/about-us/,https://web.archive.org/web/20171204023000id_/http://www.conocophillips.com:80/about-us/,2017-12-04T02:30:00+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
-COP,ConocoPhillips,Energy,2018,retrieval_failed,ConnectError: [Errno 61] Connection refused,http://www.conocophillips.com/about-us/,https://web.archive.org/web/20180625204927id_/http://www.conocophillips.com/about-us/,2018-06-25T20:49:27+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
-COP,ConocoPhillips,Energy,2019,retrieval_failed,ConnectError: [Errno 61] Connection refused,http://www.conocophillips.com/about-us/,https://web.archive.org/web/20190620164530id_/http://www.conocophillips.com/about-us/,2019-06-20T16:45:30+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
-COP,ConocoPhillips,Energy,2020,retrieval_failed,ConnectError: [Errno 61] Connection refused,http://www.conocophillips.com:80/about-us/,https://web.archive.org/web/20200627113744id_/http://www.conocophillips.com:80/about-us/,2020-06-27T11:37:44+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
-COP,ConocoPhillips,Energy,2021,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://www.conocophillips.com/about-us/,https://web.archive.org/web/20210511065250id_/https://www.conocophillips.com/about-us/,2021-05-11T06:52:50+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
-COP,ConocoPhillips,Energy,2022,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://www.conocophillips.com/about-us/,https://web.archive.org/web/20220522113959id_/https://www.conocophillips.com/about-us/,2022-05-22T11:39:59+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
-COP,ConocoPhillips,Energy,2023,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://www.conocophillips.com/about-us/,https://web.archive.org/web/20230703160512id_/https://www.conocophillips.com/about-us/,2023-07-03T16:05:12+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
-COP,ConocoPhillips,Energy,2024,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://www.conocophillips.com/about-us/,https://web.archive.org/web/20240703093500id_/https://www.conocophillips.com/about-us/,2024-07-03T09:35:00+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
+COP,ConocoPhillips,Energy,2017,usable,,http://www.conocophillips.com:80/about-us/,https://web.archive.org/web/20171204023000id_/http://www.conocophillips.com:80/about-us/,2017-12-04T02:30:00+00:00,"Our technical capabilities, asset quality and scale, and financial strength are unmatched among independent exploration and production companies and uniquely position us to compete around the world.
+ConocoPhillips is committed to the efficient and effective exploration and production of oil and natural gas. Producing oil and natural gas and getting them to market takes ingenuity, technology and investment. Our innovative, collaborative efforts yield products that improve quality of life globally while producing economic benefits with far-reaching influence.​
+Conoco­Phillips Canada: Operating responsibly in the Arctic
+November 9, 2017
+Proudly supporting parents when it matters most
+November 7, 2017
+Kendra Lema
+November 13, 2017
+UK Spotlight: Adapting to a changing landscape
+November 13, 2017",,,indeterminate,"[""innovation_and_excellence""]","[{""evidence_excerpts"": [""Our innovative, collaborative efforts yield products that improve quality of life globally while producing economic benefits with far-reaching influence.​"", ""Our technical capabilities, asset quality and scale, and financial strength are unmatched among independent exploration and production companies and uniquely position us to compete around the world.""], ""match_count"": 3, ""matched_phrases"": [""innovative"", ""quality""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""innovation_and_excellence"", ""theme_label"": ""Innovation and excellence""}]","{""action_or_evidence_count"": 0, ""action_or_evidence_rate_per_100_words"": 0.0, ""aspiration_count"": 0, ""aspiration_rate_per_100_words"": 0.0, ""average_sentence_length"": 9.4167, ""commitment_count"": 1, ""commitment_rate_per_100_words"": 0.885, ""first_person_plural_count"": 3, ""first_person_plural_rate_per_100_words"": 2.6549, ""quantified_claim_count"": 8, ""sentence_count"": 12, ""stakeholder_count"": 0, ""stakeholder_rate_per_100_words"": 0.0, ""word_count"": 113}",,Deterministic evidence-backed baseline; manual review required.,6e6bf5a1686a742c7176e5bbe120bd99dedfa6101650970bf35fea6cf80887e1,8e306d814d3e63dc31533942eba6f4547cddf245d13a6f32578d59cb401e0faf,automated_pass,pending
+COP,ConocoPhillips,Energy,2018,usable,,http://www.conocophillips.com/about-us/,https://web.archive.org/web/20180625204927id_/http://www.conocophillips.com/about-us/,2018-06-25T20:49:27+00:00,"Our technical capabilities, asset quality and scale, and financial strength are unmatched among independent exploration and production companies and uniquely position us to compete around the world.
+ConocoPhillips is committed to the efficient and effective exploration and production of oil and natural gas. Producing oil and natural gas and getting them to market takes ingenuity, technology and investment. Our innovative, collaborative efforts yield products that improve quality of life globally while producing economic benefits with far-reaching influence.​
+Unconventional reservoirs: It takes a village
+June 7, 2018
+NRG COSIA Carbon XPRIZE finalists announced
+May 31, 2018
+ConocoPhillips honors great mentors
+May 30, 2018
+Mel Bechberger
+May 30, 2018
+Training the next generation of geoscientists
+May 17, 2018
+Construction completed on first Bohai Phase 3 wellhead platform jacket
+May 15, 2018",True,0.5,substantive_change,"[""innovation_and_excellence""]","[{""evidence_excerpts"": [""Our innovative, collaborative efforts yield products that improve quality of life globally while producing economic benefits with far-reaching influence.​"", ""Our technical capabilities, asset quality and scale, and financial strength are unmatched among independent exploration and production companies and uniquely position us to compete around the world.""], ""match_count"": 3, ""matched_phrases"": [""innovative"", ""quality""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""innovation_and_excellence"", ""theme_label"": ""Innovation and excellence""}]","{""action_or_evidence_count"": 0, ""action_or_evidence_rate_per_100_words"": 0.0, ""aspiration_count"": 0, ""aspiration_rate_per_100_words"": 0.0, ""average_sentence_length"": 8.0625, ""commitment_count"": 1, ""commitment_rate_per_100_words"": 0.7752, ""first_person_plural_count"": 3, ""first_person_plural_rate_per_100_words"": 2.3256, ""quantified_claim_count"": 13, ""sentence_count"": 16, ""stakeholder_count"": 0, ""stakeholder_rate_per_100_words"": 0.0, ""word_count"": 129}","{""added"": [""Unconventional reservoirs: It takes a village"", ""June 7, 2018"", ""NRG COSIA Carbon XPRIZE finalists announced""], ""removed"": [""Conoco­Phillips Canada: Operating responsibly in the Arctic"", ""November 9, 2017"", ""Proudly supporting parents when it matters most""]}",Deterministic evidence-backed baseline; manual review required.,74628a3564c3a2ccfc68d3f533fd3fba1d711016665cba7b8c484493b2d720e7,af13aabe0490716f24249bc1bb5686f508f7fc67094325c9b0569d9853d850fc,automated_pass,pending
+COP,ConocoPhillips,Energy,2019,usable,,http://www.conocophillips.com/about-us/,https://web.archive.org/web/20190620164530id_/http://www.conocophillips.com/about-us/,2019-06-20T16:45:30+00:00,"Our technical capabilities, asset quality and scale, and financial strength are unmatched among independent exploration and production companies and uniquely position us to compete around the world.
+ConocoPhillips is committed to the efficient and effective exploration and production of oil and natural gas. Producing oil and natural gas and getting them to market takes ingenuity, technology and investment. Our innovative, collaborative efforts yield products that improve quality of life globally while producing economic benefits with far-reaching influence.​
+In China: Bringing a message of hope to young patients
+June 17, 2019
+Water recycling in the Delaware Basin
+June 6, 2019
+ConocoPhillips honors Math Teacher of the Year
+May 30, 2019
+Living and working in Watford City
+May 23, 2019",True,0.46087,substantive_change,"[""customers_and_service"", ""innovation_and_excellence""]","[{""evidence_excerpts"": [""In China: Bringing a message of hope to young patients""], ""match_count"": 1, ""matched_phrases"": [""patients""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""customers_and_service"", ""theme_label"": ""Customers and service""}, {""evidence_excerpts"": [""Our innovative, collaborative efforts yield products that improve quality of life globally while producing economic benefits with far-reaching influence.​"", ""Our technical capabilities, asset quality and scale, and financial strength are unmatched among independent exploration and production companies and uniquely position us to compete around the world.""], ""match_count"": 3, ""matched_phrases"": [""innovative"", ""quality""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""innovation_and_excellence"", ""theme_label"": ""Innovation and excellence""}]","{""action_or_evidence_count"": 0, ""action_or_evidence_rate_per_100_words"": 0.0, ""aspiration_count"": 1, ""aspiration_rate_per_100_words"": 0.8475, ""average_sentence_length"": 9.8333, ""commitment_count"": 1, ""commitment_rate_per_100_words"": 0.8475, ""first_person_plural_count"": 3, ""first_person_plural_rate_per_100_words"": 2.5424, ""quantified_claim_count"": 8, ""sentence_count"": 12, ""stakeholder_count"": 0, ""stakeholder_rate_per_100_words"": 0.0, ""word_count"": 118}","{""added"": [""In China: Bringing a message of hope to young patients"", ""June 17, 2019"", ""Water recycling in the Delaware Basin""], ""removed"": [""Unconventional reservoirs: It takes a village"", ""June 7, 2018"", ""NRG COSIA Carbon XPRIZE finalists announced""]}",Deterministic evidence-backed baseline; manual review required.,67e9acbcb0b9c99b8fc36bf448b18fe48cdd1858b7ceeca12e3622db37535495,04e5138366d456580752467a92b85fb1849074522d8361c0edd7073e11cdccf6,automated_pass,pending
+COP,ConocoPhillips,Energy,2020,usable,,http://www.conocophillips.com:80/about-us/,https://web.archive.org/web/20200627113744id_/http://www.conocophillips.com:80/about-us/,2020-06-27T11:37:44+00:00,"Our technical capabilities, asset quality and scale, and financial strength are unmatched among independent exploration and production companies and uniquely position us to compete around the world.
+ConocoPhillips is committed to the efficient and effective exploration and production of oil and natural gas. Producing oil and natural gas and getting them to market takes ingenuity, technology and investment. Our innovative, collaborative efforts yield products that improve quality of life globally while producing economic benefits with far-reaching influence.​
+Who We Are
+We are challenged with an important job to safely find and deliver energy to the world.
+Learn More
+Learn More
+Integrating Sustainability
+Learn More
+Learn More
+Our History
+We have a long and proud history of finding and producing oil and gas. Through that history we have become a technical company committed to innovation and the responsible development of energy.
+Learn More
+Learn More
+What We Do
+We explore for, produce, transport and market crude oil, natural gas, natural gas liquids, liquefied natural gas and bitumen on a worldwide basis - energy that plays a foundational role in enabling global economic development and human progress.
+Learn More
+Learn More
+Full Screen Ekofisk
+North Sea, Norway
+Full Screen Britannia Satellites
+North Sea, U.K.
+Full Screen Jasmine
+North Sea, U.K.
+Full Screen Bohai Bay
+China
+Full Screen APLNG
+Curtis Island, Australia
+Full Screen Elevated equipment at Grissik
+Indonesia
+Full Screen Surmont Oil Sands Phase 1
+Canada
+Full Screen Polar Tankers
+Alaska
+Full Screen Alpine
+Alaska
+Full Screen Eagle Ford Drilling Rig
+Texas
+Full Screen Bakken
+North Dakota
+Full Screen ConocoPhillips Headquarters
+Houston, Texas
+The magic of rigless: North Slope ESPs pump sandy thick oil
+June 21, 2020
+Condemning racial injustice, championing human rights
+June 9, 2020
+High-performance computing: The need for speed
+May 28, 2020
+ConocoPhillips focuses on its core job and values during COVID-19
+April 11, 2020",True,0.688776,substantive_change,"[""innovation_and_excellence"", ""environment_and_sustainability"", ""leadership_and_accountability"", ""purpose_and_identity""]","[{""evidence_excerpts"": [""Through that history we have become a technical company committed to innovation and the responsible development of energy."", ""Our innovative, collaborative efforts yield products that improve quality of life globally while producing economic benefits with far-reaching influence.​"", ""Our technical capabilities, asset quality and scale, and financial strength are unmatched among independent exploration and production companies and uniquely position us to compete around the world.""], ""match_count"": 4, ""matched_phrases"": [""innovation"", ""innovative"", ""quality""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""innovation_and_excellence"", ""theme_label"": ""Innovation and excellence""}, {""evidence_excerpts"": [""Integrating Sustainability""], ""match_count"": 1, ""matched_phrases"": [""sustainability""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""environment_and_sustainability"", ""theme_label"": ""Environment and sustainability""}, {""evidence_excerpts"": [""Through that history we have become a technical company committed to innovation and the responsible development of energy.""], ""match_count"": 1, ""matched_phrases"": [""responsible""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}, {""evidence_excerpts"": [""Who We Are""], ""match_count"": 1, ""matched_phrases"": [""who we are""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""purpose_and_identity"", ""theme_label"": ""Purpose and identity""}]","{""action_or_evidence_count"": 0, ""action_or_evidence_rate_per_100_words"": 0.0, ""aspiration_count"": 0, ""aspiration_rate_per_100_words"": 0.0, ""average_sentence_length"": 5.9038, ""commitment_count"": 2, ""commitment_rate_per_100_words"": 0.6515, ""first_person_plural_count"": 10, ""first_person_plural_rate_per_100_words"": 3.2573, ""quantified_claim_count"": 10, ""sentence_count"": 52, ""stakeholder_count"": 0, ""stakeholder_rate_per_100_words"": 0.0, ""word_count"": 307}","{""added"": [""Who We Are"", ""We are challenged with an important job to safely find and deliver energy to the world."", ""Learn More""], ""removed"": [""In China: Bringing a message of hope to young patients"", ""June 17, 2019"", ""Water recycling in the Delaware Basin""]}",Deterministic evidence-backed baseline; manual review required.,abe70485ec7f5295bac35e38e9f59f2d89dc59fa4c63c85c44a1f27a813cbc10,0c9e5553b2f45dd47e53b35b9ce1845f3e8f082c81a1ab94c366838423ffd399,review_required,pending
+COP,ConocoPhillips,Energy,2021,usable,,https://www.conocophillips.com/about-us/,https://web.archive.org/web/20210511065250id_/https://www.conocophillips.com/about-us/,2021-05-11T06:52:50+00:00,"Our technical capabilities, asset quality and scale, and financial strength are unmatched among independent exploration and production companies and uniquely position us to compete around the world.
+ConocoPhillips is committed to the efficient and effective exploration and production of oil and natural gas. Producing oil and natural gas and getting them to market takes ingenuity, technology and investment. Our innovative, collaborative efforts yield products that improve quality of life globally while producing economic benefits with far-reaching influence.​
+Who We Are
+We are challenged with an important job to safely find and deliver energy to the world.
+Learn More
+Learn More
+Integrating Sustainability
+Learn More
+Learn More
+Our History
+We have a long and proud history of finding and producing oil and gas. Through that history we have become a technical company committed to innovation and the responsible development of energy.
+Learn More
+Learn More
+What We Do
+We explore for, produce, transport and market crude oil, natural gas, natural gas liquids, liquefied natural gas and bitumen on a worldwide basis - energy that plays a foundational role in enabling global economic development and human progress.
+Learn More
+Learn More
+Full Screen Ekofisk
+North Sea, Norway
+Full Screen Britannia Satellites
+North Sea, U.K.
+Full Screen Jasmine
+North Sea, U.K.
+Full Screen Bohai Bay
+China
+Full Screen APLNG
+Curtis Island, Australia
+Full Screen Elevated equipment at Grissik
+Indonesia
+Full Screen Surmont Oil Sands Phase 1
+Canada
+Full Screen Polar Tankers
+Alaska
+Full Screen Alpine
+Alaska
+Full Screen Eagle Ford Drilling Rig
+Texas
+Full Screen Bakken
+North Dakota
+Full Screen ConocoPhillips Headquarters
+Houston, Texas
+A spotlight on sustainability: Managing environmental and social risks
+May 6, 2021
+The Haifleys
+April 21, 2021
+Accelerating analytics: Global Wells leads digital transformation
+March 30, 2021
+There’s no place like Alpine
+March 10, 2021",True,0.25,substantive_change,"[""innovation_and_excellence"", ""environment_and_sustainability"", ""leadership_and_accountability"", ""purpose_and_identity""]","[{""evidence_excerpts"": [""Through that history we have become a technical company committed to innovation and the responsible development of energy."", ""Our innovative, collaborative efforts yield products that improve quality of life globally while producing economic benefits with far-reaching influence.​"", ""Our technical capabilities, asset quality and scale, and financial strength are unmatched among independent exploration and production companies and uniquely position us to compete around the world.""], ""match_count"": 4, ""matched_phrases"": [""innovation"", ""innovative"", ""quality""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""innovation_and_excellence"", ""theme_label"": ""Innovation and excellence""}, {""evidence_excerpts"": [""Integrating Sustainability"", ""A spotlight on sustainability: Managing environmental and social risks""], ""match_count"": 3, ""matched_phrases"": [""sustainability"", ""environmental""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""environment_and_sustainability"", ""theme_label"": ""Environment and sustainability""}, {""evidence_excerpts"": [""Through that history we have become a technical company committed to innovation and the responsible development of energy.""], ""match_count"": 1, ""matched_phrases"": [""responsible""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}, {""evidence_excerpts"": [""Who We Are""], ""match_count"": 1, ""matched_phrases"": [""who we are""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""purpose_and_identity"", ""theme_label"": ""Purpose and identity""}]","{""action_or_evidence_count"": 0, ""action_or_evidence_rate_per_100_words"": 0.0, ""aspiration_count"": 0, ""aspiration_rate_per_100_words"": 0.0, ""average_sentence_length"": 5.7308, ""commitment_count"": 2, ""commitment_rate_per_100_words"": 0.6711, ""first_person_plural_count"": 10, ""first_person_plural_rate_per_100_words"": 3.3557, ""quantified_claim_count"": 9, ""sentence_count"": 52, ""stakeholder_count"": 0, ""stakeholder_rate_per_100_words"": 0.0, ""word_count"": 298}","{""added"": [""A spotlight on sustainability: Managing environmental and social risks"", ""May 6, 2021"", ""The Haifleys""], ""removed"": [""The magic of rigless: North Slope ESPs pump sandy thick oil"", ""June 21, 2020"", ""Condemning racial injustice, championing human rights""]}",Deterministic evidence-backed baseline; manual review required.,d549280f505f3387f0e548f60c5994262b2539aa0c19b90bfefd44194c186f7a,806371fac820473923cb35438fc6f3a2799a26508b90a58253310a477a82eddb,review_required,pending
+COP,ConocoPhillips,Energy,2022,usable,,https://www.conocophillips.com/about-us/,https://web.archive.org/web/20220522113959id_/https://www.conocophillips.com/about-us/,2022-05-22T11:39:59+00:00,"Our technical capabilities, asset quality and scale, and financial strength are unmatched among independent exploration and production companies and uniquely position us to compete around the world.
+ConocoPhillips is committed to the efficient and effective exploration and production of oil and natural gas. Producing oil and natural gas and getting them to market takes ingenuity, technology and investment. Our innovative, collaborative efforts yield products that improve quality of life globally while producing economic benefits with far-reaching influence.​
+Who We Are
+We are challenged with an important job to safely find and deliver energy to the world.
+Integrating Sustainability
+We are focused on sustainably meeting energy demand, while creating lasting value for employees, communities and shareholders.
+Our History
+We have a long and proud history of finding and producing oil and gas. Through that history we have become a technical company committed to innovation and the responsible development of energy.
+What We Do
+We explore for, produce, transport and market crude oil, natural gas, natural gas liquids, liquefied natural gas and bitumen on a worldwide basis - energy that plays a foundational role in enabling global economic development and human progress.
+Full Screen Ekofisk
+North Sea, Norway
+Full Screen Britannia Satellites
+North Sea, U.K.
+Full Screen Jasmine
+North Sea, U.K.
+Full Screen Bohai Bay
+China
+Full Screen APLNG
+Curtis Island, Australia
+Full Screen Elevated equipment at Grissik
+Indonesia
+Full Screen Surmont Oil Sands Phase 1
+Canada
+Full Screen Polar Tankers
+Alaska
+Full Screen Alpine
+Alaska
+Full Screen Eagle Ford Drilling Rig
+Texas
+Full Screen Bakken
+North Dakota
+Full Screen ConocoPhillips Headquarters
+Houston, Texas
+Girls Talk Tech: On a Quest to educate, encourage and empower girls to pursue STEM
+May 18, 2022
+ConocoPhillips celebrates 10-year anniversary
+May 4, 2022
+Uri’s fury: How ConocoPhillips’ workforce delivered a SPIRITed response to an epic storm
+April 7, 2022
+The SPIRIT Awards mark 20 years of excellence
+March 22, 2022",True,0.308057,substantive_change,"[""employees_and_workplace"", ""innovation_and_excellence"", ""social_impact_and_community"", ""environment_and_sustainability"", ""shareholders_and_performance"", ""leadership_and_accountability"", ""purpose_and_identity""]","[{""evidence_excerpts"": [""We are focused on sustainably meeting energy demand, while creating lasting value for employees, communities and shareholders."", ""Uri’s fury: How ConocoPhillips’ workforce delivered a SPIRITed response to an epic storm""], ""match_count"": 2, ""matched_phrases"": [""employees"", ""workforce""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""employees_and_workplace"", ""theme_label"": ""Employees and workplace""}, {""evidence_excerpts"": [""Through that history we have become a technical company committed to innovation and the responsible development of energy."", ""Our innovative, collaborative efforts yield products that improve quality of life globally while producing economic benefits with far-reaching influence.​"", ""The SPIRIT Awards mark 20 years of excellence"", ""Our technical capabilities, asset quality and scale, and financial strength are unmatched among independent exploration and production companies and uniquely position us to compete around the world.""], ""match_count"": 5, ""matched_phrases"": [""innovation"", ""innovative"", ""excellence"", ""quality""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""innovation_and_excellence"", ""theme_label"": ""Innovation and excellence""}, {""evidence_excerpts"": [""We are focused on sustainably meeting energy demand, while creating lasting value for employees, communities and shareholders.""], ""match_count"": 1, ""matched_phrases"": [""communities""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""social_impact_and_community"", ""theme_label"": ""Social impact and community""}, {""evidence_excerpts"": [""Integrating Sustainability""], ""match_count"": 1, ""matched_phrases"": [""sustainability""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""environment_and_sustainability"", ""theme_label"": ""Environment and sustainability""}, {""evidence_excerpts"": [""We are focused on sustainably meeting energy demand, while creating lasting value for employees, communities and shareholders.""], ""match_count"": 1, ""matched_phrases"": [""shareholders""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""shareholders_and_performance"", ""theme_label"": ""Shareholders and performance""}, {""evidence_excerpts"": [""Through that history we have become a technical company committed to innovation and the responsible development of energy.""], ""match_count"": 1, ""matched_phrases"": [""responsible""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}, {""evidence_excerpts"": [""Who We Are""], ""match_count"": 1, ""matched_phrases"": [""who we are""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""purpose_and_identity"", ""theme_label"": ""Purpose and identity""}]","{""action_or_evidence_count"": 1, ""action_or_evidence_rate_per_100_words"": 0.3165, ""aspiration_count"": 0, ""aspiration_rate_per_100_words"": 0.0, ""average_sentence_length"": 7.0222, ""commitment_count"": 2, ""commitment_rate_per_100_words"": 0.6329, ""first_person_plural_count"": 11, ""first_person_plural_rate_per_100_words"": 3.481, ""quantified_claim_count"": 11, ""sentence_count"": 45, ""stakeholder_count"": 3, ""stakeholder_rate_per_100_words"": 0.9494, ""word_count"": 316}","{""added"": [""We are focused on sustainably meeting energy demand, while creating lasting value for employees, communities and shareholders."", ""Girls Talk Tech: On a Quest to educate, encourage and empower girls to pursue STEM"", ""May 18, 2022""], ""removed"": [""Learn More"", ""Learn More"", ""Learn More""]}",Deterministic evidence-backed baseline; manual review required.,91ecb6464d60829e7cdca8e1679d7573f6d9723603473dfa1aeb5f05d477cc4b,4cff3ffac5219f5b1f37b367494adcd0fa50768112422814bff4e6f7bf006619,review_required,pending
+COP,ConocoPhillips,Energy,2023,usable,,https://www.conocophillips.com/about-us/,https://web.archive.org/web/20230703160512id_/https://www.conocophillips.com/about-us/,2023-07-03T16:05:12+00:00,"Our technical capabilities, asset quality and scale, and financial strength are unmatched among independent exploration and production companies and uniquely position us to compete around the world.
+ConocoPhillips is committed to the efficient and effective exploration and production of oil and natural gas. Producing oil and natural gas and getting them to market takes ingenuity, technology and investment. Our innovative, collaborative efforts yield products that improve quality of life globally while producing economic benefits with far-reaching influence.​
+Who We Are
+We have an important job – to safely find and deliver energy to the world.
+Integrating Sustainability
+We are focused on sustainably meeting energy demand, while creating lasting value for employees, communities and shareholders.
+Our History
+We have a long and proud history of finding and producing oil and gas. Through that history we have become a technical company committed to innovation and the responsible development of energy.
+What We Do
+We explore for, produce, transport and market crude oil, natural gas, natural gas liquids, liquefied natural gas and bitumen on a worldwide basis - energy that plays a foundational role in enabling global economic development and human progress.
+Full Screen Ekofisk
+North Sea, Norway
+Full Screen Britannia Satellites
+North Sea, U.K.
+Full Screen Bohai Bay
+China
+Full Screen APLNG
+Curtis Island, Australia
+Full Screen Kuparuk
+Greater Kuparuk Area, Alaska
+Full Screen Polar Tankers
+Alaska
+Full Screen Eagle Ford
+South Texas
+Full Screen Permian
+West Texas and Southeastern New Mexico
+Full Screen ConocoPhillips Headquarters
+Houston, Texas
+Always growing: The science behind boreal forest reclamation in Canada
+June 29, 2023
+The ‘system of systems’
+June 12, 2023
+Welcome to the DIG: Drilling Intelligence Group moves into new space
+May 4, 2023
+Energetic environments: How ConocoPhillips’ offices play an important role in the company’s ‘Who We Are’…
+April 17, 2023",True,0.36036,substantive_change,"[""employees_and_workplace"", ""innovation_and_excellence"", ""social_impact_and_community"", ""environment_and_sustainability"", ""shareholders_and_performance"", ""leadership_and_accountability"", ""purpose_and_identity""]","[{""evidence_excerpts"": [""We are focused on sustainably meeting energy demand, while creating lasting value for employees, communities and shareholders.""], ""match_count"": 1, ""matched_phrases"": [""employees""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""employees_and_workplace"", ""theme_label"": ""Employees and workplace""}, {""evidence_excerpts"": [""Through that history we have become a technical company committed to innovation and the responsible development of energy."", ""Our innovative, collaborative efforts yield products that improve quality of life globally while producing economic benefits with far-reaching influence.​"", ""Our technical capabilities, asset quality and scale, and financial strength are unmatched among independent exploration and production companies and uniquely position us to compete around the world.""], ""match_count"": 4, ""matched_phrases"": [""innovation"", ""innovative"", ""quality""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""innovation_and_excellence"", ""theme_label"": ""Innovation and excellence""}, {""evidence_excerpts"": [""We are focused on sustainably meeting energy demand, while creating lasting value for employees, communities and shareholders.""], ""match_count"": 1, ""matched_phrases"": [""communities""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""social_impact_and_community"", ""theme_label"": ""Social impact and community""}, {""evidence_excerpts"": [""Integrating Sustainability""], ""match_count"": 1, ""matched_phrases"": [""sustainability""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""environment_and_sustainability"", ""theme_label"": ""Environment and sustainability""}, {""evidence_excerpts"": [""We are focused on sustainably meeting energy demand, while creating lasting value for employees, communities and shareholders.""], ""match_count"": 1, ""matched_phrases"": [""shareholders""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""shareholders_and_performance"", ""theme_label"": ""Shareholders and performance""}, {""evidence_excerpts"": [""Through that history we have become a technical company committed to innovation and the responsible development of energy.""], ""match_count"": 1, ""matched_phrases"": [""responsible""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}, {""evidence_excerpts"": [""Who We Are"", ""Energetic environments: How ConocoPhillips’ offices play an important role in the company’s ‘Who We Are’…""], ""match_count"": 2, ""matched_phrases"": [""who we are""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""purpose_and_identity"", ""theme_label"": ""Purpose and identity""}]","{""action_or_evidence_count"": 0, ""action_or_evidence_rate_per_100_words"": 0.0, ""aspiration_count"": 0, ""aspiration_rate_per_100_words"": 0.0, ""average_sentence_length"": 7.641, ""commitment_count"": 2, ""commitment_rate_per_100_words"": 0.6711, ""first_person_plural_count"": 12, ""first_person_plural_rate_per_100_words"": 4.0268, ""quantified_claim_count"": 8, ""sentence_count"": 39, ""stakeholder_count"": 3, ""stakeholder_rate_per_100_words"": 1.0067, ""word_count"": 298}","{""added"": [""We have an important job – to safely find and deliver energy to the world."", ""Full Screen Kuparuk"", ""Greater Kuparuk Area, Alaska""], ""removed"": [""We are challenged with an important job to safely find and deliver energy to the world."", ""Full Screen Jasmine"", ""North Sea, U.K.""]}",Deterministic evidence-backed baseline; manual review required.,d109d62d37205a307402f1d641208d1e4df82bbdd550a4ba69ed2fb9ccf6993c,8c2f2e209dc162b353a2f359458f7b6dd682360a21b53a972195675b8a6f4e6e,review_required,pending
+COP,ConocoPhillips,Energy,2024,usable,,https://www.conocophillips.com/about-us/,https://web.archive.org/web/20240703093500id_/https://www.conocophillips.com/about-us/,2024-07-03T09:35:00+00:00,"Our technical capabilities, asset quality and scale, and financial strength are unmatched among independent exploration and production companies and uniquely position us to compete around the world.
+ConocoPhillips is committed to the efficient and effective exploration and production of oil and natural gas. Producing oil and natural gas and getting them to market takes ingenuity, technology and investment. Our innovative, collaborative efforts yield products that improve quality of life globally while producing economic benefits with far-reaching influence.​
+Who We Are
+We have an important job – to safely find and deliver energy to the world.
+Integrating Sustainability
+We are focused on sustainably meeting energy demand, while creating lasting value for employees, communities and shareholders.
+Our History
+We have a long and proud history of finding and producing oil and gas. Through that history we have become a technical company committed to innovation and the responsible development of energy.
+What We Do
+We explore for, produce, transport and market crude oil, natural gas, natural gas liquids, liquefied natural gas and bitumen on a worldwide basis - energy that plays a foundational role in enabling global economic development and human progress.
+Full Screen
+North Sea, Norway
+Full Screen
+North Sea, U.K.
+Full Screen
+China
+Full Screen
+Curtis Island, Australia
+Full Screen
+Greater Kuparuk Area, Alaska
+Full Screen
+Alaska
+Full Screen
+South Texas
+Full Screen
+West Texas and Southeastern New Mexico
+Full Screen
+Houston, Texas
+Norway business unit achieves an outstanding HSE milestone
+June 11, 2024
+Girls Talk Tech is encouraging, educating and empowering young women
+June 4, 2024
+A promise is a promise: Lessons from a legacy partnership in the Congo
+May 23, 2024
+Australia Pacific LNG: Long-term investments build world-class energy assets
+May 16, 2024",True,0.347826,substantive_change,"[""employees_and_workplace"", ""innovation_and_excellence"", ""social_impact_and_community"", ""environment_and_sustainability"", ""shareholders_and_performance"", ""leadership_and_accountability"", ""collaboration_and_partnership"", ""purpose_and_identity""]","[{""evidence_excerpts"": [""We are focused on sustainably meeting energy demand, while creating lasting value for employees, communities and shareholders.""], ""match_count"": 1, ""matched_phrases"": [""employees""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""employees_and_workplace"", ""theme_label"": ""Employees and workplace""}, {""evidence_excerpts"": [""Through that history we have become a technical company committed to innovation and the responsible development of energy."", ""Our innovative, collaborative efforts yield products that improve quality of life globally while producing economic benefits with far-reaching influence.​"", ""Our technical capabilities, asset quality and scale, and financial strength are unmatched among independent exploration and production companies and uniquely position us to compete around the world.""], ""match_count"": 4, ""matched_phrases"": [""innovation"", ""innovative"", ""quality""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""innovation_and_excellence"", ""theme_label"": ""Innovation and excellence""}, {""evidence_excerpts"": [""We are focused on sustainably meeting energy demand, while creating lasting value for employees, communities and shareholders.""], ""match_count"": 1, ""matched_phrases"": [""communities""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""social_impact_and_community"", ""theme_label"": ""Social impact and community""}, {""evidence_excerpts"": [""Integrating Sustainability""], ""match_count"": 1, ""matched_phrases"": [""sustainability""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""environment_and_sustainability"", ""theme_label"": ""Environment and sustainability""}, {""evidence_excerpts"": [""We are focused on sustainably meeting energy demand, while creating lasting value for employees, communities and shareholders.""], ""match_count"": 1, ""matched_phrases"": [""shareholders""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""shareholders_and_performance"", ""theme_label"": ""Shareholders and performance""}, {""evidence_excerpts"": [""Through that history we have become a technical company committed to innovation and the responsible development of energy.""], ""match_count"": 1, ""matched_phrases"": [""responsible""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}, {""evidence_excerpts"": [""A promise is a promise: Lessons from a legacy partnership in the Congo""], ""match_count"": 1, ""matched_phrases"": [""partnership""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""collaboration_and_partnership"", ""theme_label"": ""Collaboration and partnership""}, {""evidence_excerpts"": [""Who We Are""], ""match_count"": 1, ""matched_phrases"": [""who we are""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""purpose_and_identity"", ""theme_label"": ""Purpose and identity""}]","{""action_or_evidence_count"": 0, ""action_or_evidence_rate_per_100_words"": 0.0, ""aspiration_count"": 0, ""aspiration_rate_per_100_words"": 0.0, ""average_sentence_length"": 7.2564, ""commitment_count"": 4, ""commitment_rate_per_100_words"": 1.4134, ""first_person_plural_count"": 11, ""first_person_plural_rate_per_100_words"": 3.8869, ""quantified_claim_count"": 8, ""sentence_count"": 39, ""stakeholder_count"": 3, ""stakeholder_rate_per_100_words"": 1.0601, ""word_count"": 283}","{""added"": [""Full Screen"", ""Full Screen"", ""Full Screen""], ""removed"": [""Full Screen Ekofisk"", ""Full Screen Britannia Satellites"", ""Full Screen Bohai Bay""]}",Deterministic evidence-backed baseline; manual review required.,21280d340e3adef111df7898dd1dd522f1cc8c019e32de402a43b3c82cd97680,7e80c79bf2db531b3ca1254974191c50db9b76c6e5d5375fce470088b0c73dca,review_required,pending
 CRM,Salesforce,Technology,2016,no_cdx_capture,no same-year CDX capture,,,,,,,no_prior,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
 CRM,Salesforce,Technology,2017,no_cdx_capture,no same-year CDX capture,,,,,,,indeterminate,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
 CRM,Salesforce,Technology,2018,no_cdx_capture,no same-year CDX capture,,,,,,,indeterminate,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
@@ -1489,9 +1727,47 @@ CVX,Chevron,Energy,2019,no_cdx_capture,no same-year CDX capture,,,,,,,indetermin
 CVX,Chevron,Energy,2020,no_cdx_capture,no same-year CDX capture,,,,,,,indeterminate,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
 CVX,Chevron,Energy,2021,no_cdx_capture,no same-year CDX capture,,,,,,,indeterminate,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
 CVX,Chevron,Energy,2022,no_cdx_capture,no same-year CDX capture,,,,,,,indeterminate,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
-CVX,Chevron,Energy,2023,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://www.chevron.com/who-we-are,https://web.archive.org/web/20231215134249id_/https://www.chevron.com/who-we-are,2023-12-15T13:42:49+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
-CVX,Chevron,Energy,2024,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://www.chevron.com/who-we-are,https://web.archive.org/web/20240702022434id_/https://www.chevron.com/who-we-are,2024-07-02T02:24:34+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
-EOG,EOG Resources,Energy,2016,retrieval_failed,ConnectError: [Errno 61] Connection refused,http://www.eogresources.com:80/about/,https://web.archive.org/web/20161019194935id_/http://www.eogresources.com:80/about/,2016-10-19T19:49:35+00:00,,,,no_prior,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
+CVX,Chevron,Energy,2023,usable,,https://www.chevron.com/who-we-are,https://web.archive.org/web/20231215134249id_/https://www.chevron.com/who-we-are,2023-12-15T13:42:49+00:00,"subscribe to our newsletter to receive news and updates.
+sign up now
+who we are
+we define energy in human terms
+Access to energy helps improve lives by driving human progress and enabling the benefits of modern society. That’s why we’re constantly working to provide reliable, affordable and ever-cleaner energy for the millions around the world that rely on us.
+see how we drive human progress
+explore the largest single resource development in Australia
+we believe humanity can solve any challenge
+Our greatest resource is our people. Their ingenuity, creativity and collaboration have met the complex challenges of energy’s past. Together, we’ll take on the future.
+meet our leaders
+join us
+we deliver results responsibly
+We’re leaders in energy because we value responsibility, trust and integrity. This unwavering dedication to quality drives our company culture and will keep us ahead for years to come.
+discover the chevron way
+see how we operate
+learn about our culture
+140+ years of human ingenuity
+Our history is the result of the accomplishments of generations of problem solvers. Read about how human innovation led us here.
+chevron email updates
+sign up for the newsletter",,,indeterminate,"[""employees_and_workplace"", ""innovation_and_excellence"", ""integrity_and_ethics"", ""social_impact_and_community"", ""leadership_and_accountability"", ""collaboration_and_partnership"", ""purpose_and_identity""]","[{""evidence_excerpts"": [""Our greatest resource is our people.""], ""match_count"": 1, ""matched_phrases"": [""our people""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""employees_and_workplace"", ""theme_label"": ""Employees and workplace""}, {""evidence_excerpts"": [""Read about how human innovation led us here."", ""This unwavering dedication to quality drives our company culture and will keep us ahead for years to come.""], ""match_count"": 2, ""matched_phrases"": [""innovation"", ""quality""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""innovation_and_excellence"", ""theme_label"": ""Innovation and excellence""}, {""evidence_excerpts"": [""We’re leaders in energy because we value responsibility, trust and integrity.""], ""match_count"": 2, ""matched_phrases"": [""integrity"", ""trust""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""integrity_and_ethics"", ""theme_label"": ""Integrity and ethics""}, {""evidence_excerpts"": [""Access to energy helps improve lives by driving human progress and enabling the benefits of modern society.""], ""match_count"": 1, ""matched_phrases"": [""society""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""social_impact_and_community"", ""theme_label"": ""Social impact and community""}, {""evidence_excerpts"": [""meet our leaders"", ""We’re leaders in energy because we value responsibility, trust and integrity.""], ""match_count"": 3, ""matched_phrases"": [""leaders"", ""responsibility""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}, {""evidence_excerpts"": [""Their ingenuity, creativity and collaboration have met the complex challenges of energy’s past."", ""Together, we’ll take on the future.""], ""match_count"": 2, ""matched_phrases"": [""collaboration"", ""together""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""collaboration_and_partnership"", ""theme_label"": ""Collaboration and partnership""}, {""evidence_excerpts"": [""who we are""], ""match_count"": 1, ""matched_phrases"": [""who we are""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""purpose_and_identity"", ""theme_label"": ""Purpose and identity""}]","{""action_or_evidence_count"": 0, ""action_or_evidence_rate_per_100_words"": 0.0, ""aspiration_count"": 0, ""aspiration_rate_per_100_words"": 0.0, ""average_sentence_length"": 7.8, ""commitment_count"": 1, ""commitment_rate_per_100_words"": 0.5128, ""first_person_plural_count"": 21, ""first_person_plural_rate_per_100_words"": 10.7692, ""quantified_claim_count"": 1, ""sentence_count"": 25, ""stakeholder_count"": 0, ""stakeholder_rate_per_100_words"": 0.0, ""word_count"": 195}",,Deterministic evidence-backed baseline; manual review required.,41bb29dbb07f2facc07724d602ed33a3785ea3646bb32af9a3f020bae84a6a24,84ef98b31fe62a7a913e1225b2ec3cbb4e0fcd794cc55910fa0a3ce65c28ab6b,review_required,pending
+CVX,Chevron,Energy,2024,usable,,https://www.chevron.com/who-we-are,https://web.archive.org/web/20240702022434id_/https://www.chevron.com/who-we-are,2024-07-02T02:24:34+00:00,"subscribe to our newsletter to receive news and updates.
+sign up now
+who we are
+we define energy in human terms
+Access to energy helps improve lives by driving human progress and enabling the benefits of modern society. That’s why we’re constantly working to provide reliable, affordable and ever-cleaner energy for the millions around the world that rely on us.
+see how we drive human progress
+explore the largest single resource development in Australia
+we believe humanity can solve any challenge
+Our greatest resource is our people. Their ingenuity, creativity and collaboration have met the complex challenges of energy’s past. Together, we’ll take on the future.
+meet our leaders
+join us
+we deliver results responsibly
+We’re leaders in energy because we value responsibility, trust and integrity. This unwavering dedication to quality drives our company culture and will keep us ahead for years to come.
+discover the chevron way
+see how we operate
+learn about our culture
+140+ years of human ingenuity
+Our history is the result of the accomplishments of generations of problem solvers. Read about how human innovation led us here.
+chevron email updates
+sign up for the newsletter",False,0.0,unchanged_exact,"[""employees_and_workplace"", ""innovation_and_excellence"", ""integrity_and_ethics"", ""social_impact_and_community"", ""leadership_and_accountability"", ""collaboration_and_partnership"", ""purpose_and_identity""]","[{""evidence_excerpts"": [""Our greatest resource is our people.""], ""match_count"": 1, ""matched_phrases"": [""our people""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""employees_and_workplace"", ""theme_label"": ""Employees and workplace""}, {""evidence_excerpts"": [""Read about how human innovation led us here."", ""This unwavering dedication to quality drives our company culture and will keep us ahead for years to come.""], ""match_count"": 2, ""matched_phrases"": [""innovation"", ""quality""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""innovation_and_excellence"", ""theme_label"": ""Innovation and excellence""}, {""evidence_excerpts"": [""We’re leaders in energy because we value responsibility, trust and integrity.""], ""match_count"": 2, ""matched_phrases"": [""integrity"", ""trust""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""integrity_and_ethics"", ""theme_label"": ""Integrity and ethics""}, {""evidence_excerpts"": [""Access to energy helps improve lives by driving human progress and enabling the benefits of modern society.""], ""match_count"": 1, ""matched_phrases"": [""society""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""social_impact_and_community"", ""theme_label"": ""Social impact and community""}, {""evidence_excerpts"": [""meet our leaders"", ""We’re leaders in energy because we value responsibility, trust and integrity.""], ""match_count"": 3, ""matched_phrases"": [""leaders"", ""responsibility""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}, {""evidence_excerpts"": [""Their ingenuity, creativity and collaboration have met the complex challenges of energy’s past."", ""Together, we’ll take on the future.""], ""match_count"": 2, ""matched_phrases"": [""collaboration"", ""together""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""collaboration_and_partnership"", ""theme_label"": ""Collaboration and partnership""}, {""evidence_excerpts"": [""who we are""], ""match_count"": 1, ""matched_phrases"": [""who we are""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""purpose_and_identity"", ""theme_label"": ""Purpose and identity""}]","{""action_or_evidence_count"": 0, ""action_or_evidence_rate_per_100_words"": 0.0, ""aspiration_count"": 0, ""aspiration_rate_per_100_words"": 0.0, ""average_sentence_length"": 7.8, ""commitment_count"": 1, ""commitment_rate_per_100_words"": 0.5128, ""first_person_plural_count"": 21, ""first_person_plural_rate_per_100_words"": 10.7692, ""quantified_claim_count"": 1, ""sentence_count"": 25, ""stakeholder_count"": 0, ""stakeholder_rate_per_100_words"": 0.0, ""word_count"": 195}",,Deterministic evidence-backed baseline; manual review required.,e76c8e2d06b575b97c077543b1b630a03f69d273d7d3f93246b04bd067b00bdf,84ef98b31fe62a7a913e1225b2ec3cbb4e0fcd794cc55910fa0a3ce65c28ab6b,review_required,pending
+EOG,EOG Resources,Energy,2016,insufficient_substantive_text,selected capture could not be extracted,http://www.eogresources.com:80/about/,https://web.archive.org/web/20161019194935id_/http://www.eogresources.com:80/about/,2016-10-19T19:49:35+00:00,,,,no_prior,,,,,Unavailable: selected capture could not be extracted,f5bc4a72f41dd924729d29bb745dec9d98fb4943ad1d010116cb757f68d55033,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,not_available,pending
 EOG,EOG Resources,Energy,2017,no_cdx_capture,no same-year CDX capture,,,,,,,indeterminate,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
 EOG,EOG Resources,Energy,2018,no_cdx_capture,no same-year CDX capture,,,,,,,indeterminate,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
 EOG,EOG Resources,Energy,2019,no_cdx_capture,no same-year CDX capture,,,,,,,indeterminate,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
@@ -1504,9 +1780,55 @@ F,Ford Motor,Consumer Discretionary,2016,no_cdx_capture,no same-year CDX capture
 F,Ford Motor,Consumer Discretionary,2017,no_cdx_capture,no same-year CDX capture,,,,,,,indeterminate,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
 F,Ford Motor,Consumer Discretionary,2018,no_cdx_capture,no same-year CDX capture,,,,,,,indeterminate,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
 F,Ford Motor,Consumer Discretionary,2019,no_cdx_capture,no same-year CDX capture,,,,,,,indeterminate,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
-F,Ford Motor,Consumer Discretionary,2020,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://corporate.ford.com/about.html,https://web.archive.org/web/20200726092803id_/https://corporate.ford.com/about.html,2020-07-26T09:28:03+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
-F,Ford Motor,Consumer Discretionary,2021,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://corporate.ford.com/about.html,https://web.archive.org/web/20210607050942id_/https://corporate.ford.com/about.html,2021-06-07T05:09:42+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
-F,Ford Motor,Consumer Discretionary,2022,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://corporate.ford.com/about.html,https://web.archive.org/web/20220511171704id_/https://corporate.ford.com/about.html,2022-05-11T17:17:04+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
+F,Ford Motor,Consumer Discretionary,2020,usable,,https://corporate.ford.com/about.html,https://web.archive.org/web/20200726092803id_/https://corporate.ford.com/about.html,2020-07-26T09:28:03+00:00,"About
+About Us
+In the words of our founder, Henry Ford, “To do more for the world than the world does for you. That is success.” Throughout our 117-year history and today, we strive to do more through our products, our services and by supporting the communities where we operate globally. We are proud of our contributions – yesterday, today and tomorrow.
+Our purpose
+We are once again working to revolutionize mobility, fueled by new challenges and creating solutions to build a better world for everyone.
+Our purpose
+Our leadership
+Making life better for our everyday customers, our communities and our climate takes impassioned direction.
+Our leadership
+Our history
+Since 1903, Ford Motor Company has put the world on wheels. From the moving assembly line and the $5 workday, to soy foam seats and aluminum truck bodies, Ford has a long heritage of progress. Learn more about the automobiles, innovations and manufacturing that have made the blue oval known around the world.
+Our history
+Our culture
+Our backgrounds, experiences and beliefs not only define us as individuals, they enhance our efforts in delivering vehicles that benefit all walks of life.
+Our culture
+Our brands
+Our brands",,,indeterminate,"[""customers_and_service"", ""social_impact_and_community"", ""environment_and_sustainability"", ""leadership_and_accountability"", ""purpose_and_identity""]","[{""evidence_excerpts"": [""Making life better for our everyday customers, our communities and our climate takes impassioned direction.""], ""match_count"": 1, ""matched_phrases"": [""customers""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""customers_and_service"", ""theme_label"": ""Customers and service""}, {""evidence_excerpts"": [""That is success.” Throughout our 117-year history and today, we strive to do more through our products, our services and by supporting the communities where we operate globally."", ""Making life better for our everyday customers, our communities and our climate takes impassioned direction.""], ""match_count"": 2, ""matched_phrases"": [""communities""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""social_impact_and_community"", ""theme_label"": ""Social impact and community""}, {""evidence_excerpts"": [""Making life better for our everyday customers, our communities and our climate takes impassioned direction.""], ""match_count"": 1, ""matched_phrases"": [""climate""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""environment_and_sustainability"", ""theme_label"": ""Environment and sustainability""}, {""evidence_excerpts"": [""Our leadership""], ""match_count"": 2, ""matched_phrases"": [""leadership""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}, {""evidence_excerpts"": [""Our purpose""], ""match_count"": 2, ""matched_phrases"": [""our purpose""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""purpose_and_identity"", ""theme_label"": ""Purpose and identity""}]","{""action_or_evidence_count"": 0, ""action_or_evidence_rate_per_100_words"": 0.0, ""aspiration_count"": 1, ""aspiration_rate_per_100_words"": 0.5128, ""average_sentence_length"": 9.2857, ""commitment_count"": 0, ""commitment_rate_per_100_words"": 0.0, ""first_person_plural_count"": 26, ""first_person_plural_rate_per_100_words"": 13.3333, ""quantified_claim_count"": 3, ""sentence_count"": 21, ""stakeholder_count"": 3, ""stakeholder_rate_per_100_words"": 1.5385, ""word_count"": 195}",,Deterministic evidence-backed baseline; manual review required.,9e1d13472245676745becc479fa37194e9e5f46df48f17a597839af2e5f632b0,642f300f486ff226962669affd4cb74b8fd811f06f0b226201632d98c2acc14c,review_required,pending
+F,Ford Motor,Consumer Discretionary,2021,usable,,https://corporate.ford.com/about.html,https://web.archive.org/web/20210607050942id_/https://corporate.ford.com/about.html,2021-06-07T05:09:42+00:00,"About Us
+Ford is a family company, one that spans the globe and has shared ideals. We value service to each other and the world as much as to our customers. Generations have made their memories with us and included us in their hopes and dreams. After 117 years, we’re used to adapting to and leading change. That’s why we’re evolving to focus on services, experiences and software as well as vehicles.
+Our purpose
+We are here for one purpose, to help build a better world, where every person is free to move and pursue their dreams.
+Our purpose
+Our leadership
+With the people of Ford around the world, our leadership is committed to serving all of our stakeholder groups. Like generations of leaders before them, they understand that by helping to create a world with fewer obstacles and limits, we help people to move forward and upward.
+Our leadership
+Our history
+Henry Ford transformed not only the automobile but working life and the role of transportation. Having played our part in everything from the birth of the middle class to the recent global pandemic, we serve the world with integrity and competence. The Blue Oval is one of the most recognized corporate symbols in history, continually striving to earn the trust of all stakeholders.
+Our history
+Our culture
+Ford is a family company in more ways than one. The culture is anchored in shared beliefs and ideals, acting for the common good. As an organization, Ford believes everyone should have the freedom to move and pursue their dreams, and seeks to create a culture of belonging for every employee.
+Our culture
+Our brands
+Our brands",True,0.765258,substantive_change,"[""customers_and_service"", ""employees_and_workplace"", ""integrity_and_ethics"", ""diversity_equity_and_inclusion"", ""leadership_and_accountability"", ""purpose_and_identity""]","[{""evidence_excerpts"": [""We value service to each other and the world as much as to our customers.""], ""match_count"": 2, ""matched_phrases"": [""customers"", ""service""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""customers_and_service"", ""theme_label"": ""Customers and service""}, {""evidence_excerpts"": [""As an organization, Ford believes everyone should have the freedom to move and pursue their dreams, and seeks to create a culture of belonging for every employee.""], ""match_count"": 1, ""matched_phrases"": [""employee""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""employees_and_workplace"", ""theme_label"": ""Employees and workplace""}, {""evidence_excerpts"": [""Having played our part in everything from the birth of the middle class to the recent global pandemic, we serve the world with integrity and competence."", ""The Blue Oval is one of the most recognized corporate symbols in history, continually striving to earn the trust of all stakeholders.""], ""match_count"": 2, ""matched_phrases"": [""integrity"", ""trust""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""integrity_and_ethics"", ""theme_label"": ""Integrity and ethics""}, {""evidence_excerpts"": [""As an organization, Ford believes everyone should have the freedom to move and pursue their dreams, and seeks to create a culture of belonging for every employee.""], ""match_count"": 1, ""matched_phrases"": [""belonging""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""diversity_equity_and_inclusion"", ""theme_label"": ""Diversity, equity, and inclusion""}, {""evidence_excerpts"": [""Our leadership"", ""With the people of Ford around the world, our leadership is committed to serving all of our stakeholder groups."", ""Like generations of leaders before them, they understand that by helping to create a world with fewer obstacles and limits, we help people to move forward and upward.""], ""match_count"": 4, ""matched_phrases"": [""leadership"", ""leaders""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}, {""evidence_excerpts"": [""Our purpose""], ""match_count"": 2, ""matched_phrases"": [""our purpose""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""purpose_and_identity"", ""theme_label"": ""Purpose and identity""}]","{""action_or_evidence_count"": 0, ""action_or_evidence_rate_per_100_words"": 0.0, ""aspiration_count"": 0, ""aspiration_rate_per_100_words"": 0.0, ""average_sentence_length"": 11.16, ""commitment_count"": 1, ""commitment_rate_per_100_words"": 0.3584, ""first_person_plural_count"": 23, ""first_person_plural_rate_per_100_words"": 8.2437, ""quantified_claim_count"": 1, ""sentence_count"": 25, ""stakeholder_count"": 2, ""stakeholder_rate_per_100_words"": 0.7168, ""word_count"": 279}","{""added"": [""Ford is a family company, one that spans the globe and has shared ideals."", ""We value service to each other and the world as much as to our customers."", ""Generations have made their memories with us and included us in their hopes and dreams.""], ""removed"": [""About"", ""In the words of our founder, Henry Ford, “To do more for the world than the world does for you."", ""That is success.” Throughout our 117-year history and today, we strive to do more through our products, our services and by supporting the communities where we operate globally.""]}",Deterministic evidence-backed baseline; manual review required.,6ae1abbeb76a6cd793fb7500cbae5c5de7223ade64b19a759a086dbc1b41ecd5,d4a16ec84dde1aea7a6a7663df1c4026de3fff842ef90c85d5fc35c44ddd9d33,review_required,pending
+F,Ford Motor,Consumer Discretionary,2022,usable,,https://corporate.ford.com/about.html,https://web.archive.org/web/20220511171704id_/https://corporate.ford.com/about.html,2022-05-11T17:17:04+00:00,"About Us
+Ford is a family company, one that spans the globe and has shared ideals. We value service to each other and the world as much as to our customers. Generations have made their memories with us and included us in their hopes and dreams. After 117 years, we’re used to adapting to and leading change. That’s why we’re evolving to focus on services, experiences and software as well as vehicles.
+Our purpose
+We are here for one purpose, to help build a better world, where every person is free to move and pursue their dreams.
+Our purpose
+Our leadership
+With the people of Ford around the world, our leadership is committed to serving all of our stakeholder groups. Like generations of leaders before them, they understand that by helping to create a world with fewer obstacles and limits, we help people to move forward and upward.
+Our leadership
+Our history
+Henry Ford transformed not only the automobile but working life and the role of transportation. Having played our part in everything from the birth of the middle class to the recent global pandemic, we serve the world with integrity and competence. The Blue Oval is one of the most recognized corporate symbols in history, continually striving to earn the trust of all stakeholders.
+Our history
+Our culture
+Ford is a family company in more ways than one. The culture is anchored in shared beliefs and ideals, acting for the common good. As an organization, Ford believes everyone should have the freedom to move and pursue their dreams, and seeks to create a culture of belonging for every employee.
+Our culture
+Our brands
+Our brands",False,0.0,unchanged_exact,"[""customers_and_service"", ""employees_and_workplace"", ""integrity_and_ethics"", ""diversity_equity_and_inclusion"", ""leadership_and_accountability"", ""purpose_and_identity""]","[{""evidence_excerpts"": [""We value service to each other and the world as much as to our customers.""], ""match_count"": 2, ""matched_phrases"": [""customers"", ""service""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""customers_and_service"", ""theme_label"": ""Customers and service""}, {""evidence_excerpts"": [""As an organization, Ford believes everyone should have the freedom to move and pursue their dreams, and seeks to create a culture of belonging for every employee.""], ""match_count"": 1, ""matched_phrases"": [""employee""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""employees_and_workplace"", ""theme_label"": ""Employees and workplace""}, {""evidence_excerpts"": [""Having played our part in everything from the birth of the middle class to the recent global pandemic, we serve the world with integrity and competence."", ""The Blue Oval is one of the most recognized corporate symbols in history, continually striving to earn the trust of all stakeholders.""], ""match_count"": 2, ""matched_phrases"": [""integrity"", ""trust""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""integrity_and_ethics"", ""theme_label"": ""Integrity and ethics""}, {""evidence_excerpts"": [""As an organization, Ford believes everyone should have the freedom to move and pursue their dreams, and seeks to create a culture of belonging for every employee.""], ""match_count"": 1, ""matched_phrases"": [""belonging""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""diversity_equity_and_inclusion"", ""theme_label"": ""Diversity, equity, and inclusion""}, {""evidence_excerpts"": [""Our leadership"", ""With the people of Ford around the world, our leadership is committed to serving all of our stakeholder groups."", ""Like generations of leaders before them, they understand that by helping to create a world with fewer obstacles and limits, we help people to move forward and upward.""], ""match_count"": 4, ""matched_phrases"": [""leadership"", ""leaders""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}, {""evidence_excerpts"": [""Our purpose""], ""match_count"": 2, ""matched_phrases"": [""our purpose""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""purpose_and_identity"", ""theme_label"": ""Purpose and identity""}]","{""action_or_evidence_count"": 0, ""action_or_evidence_rate_per_100_words"": 0.0, ""aspiration_count"": 0, ""aspiration_rate_per_100_words"": 0.0, ""average_sentence_length"": 11.16, ""commitment_count"": 1, ""commitment_rate_per_100_words"": 0.3584, ""first_person_plural_count"": 23, ""first_person_plural_rate_per_100_words"": 8.2437, ""quantified_claim_count"": 1, ""sentence_count"": 25, ""stakeholder_count"": 2, ""stakeholder_rate_per_100_words"": 0.7168, ""word_count"": 279}",,Deterministic evidence-backed baseline; manual review required.,1ff87ccdae59e5bcb30d2c8fcf73f6977c02823c8c2d0b6e94b39e8b4df3750d,d4a16ec84dde1aea7a6a7663df1c4026de3fff842ef90c85d5fc35c44ddd9d33,review_required,pending
 F,Ford Motor,Consumer Discretionary,2023,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://corporate.ford.com/about.html,https://web.archive.org/web/20230725034918id_/https://corporate.ford.com/about.html,2023-07-25T03:49:18+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
 F,Ford Motor,Consumer Discretionary,2024,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://corporate.ford.com/about.html,https://web.archive.org/web/20240625224035id_/https://corporate.ford.com/about.html,2024-06-25T22:40:35+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
 GOOGL,Alphabet,Technology,2016,usable,,https://abc.xyz/,https://web.archive.org/web/20160710074317id_/https://abc.xyz/,2016-07-10T07:43:17+00:00,"Alphabet
@@ -3242,51 +3564,419 @@ Learn more
 JPMorganChase wins 2024 Handshake Early Talent Award and named Tech Transformer
 For the third consecutive year, JPMorganChase has won a Handshake Early Talent Award for being one of the best companies for today’s youth. The firm also received a special designation as a Tech Transformer for the second year in a row, for being a great place to launch a career in tech.
 Learn more",True,0.809181,substantive_change,"[""customers_and_service"", ""employees_and_workplace"", ""integrity_and_ethics"", ""diversity_equity_and_inclusion"", ""social_impact_and_community"", ""shareholders_and_performance"", ""leadership_and_accountability"", ""purpose_and_identity""]","[{""evidence_excerpts"": [""Connecting clients and communities with some of the most inspiring pieces of art from around the world."", ""Building strong relationships with diverse suppliers to serve our clients, shareholders, communities and employees more efficiently.""], ""match_count"": 2, ""matched_phrases"": [""clients""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""customers_and_service"", ""theme_label"": ""Customers and service""}, {""evidence_excerpts"": [""Building strong relationships with diverse suppliers to serve our clients, shareholders, communities and employees more efficiently."", ""JPMorganChase wins 2024 Handshake Early Talent Award and named Tech Transformer"", ""For the third consecutive year, JPMorganChase has won a Handshake Early Talent Award for being one of the best companies for today’s youth.""], ""match_count"": 3, ""matched_phrases"": [""employees"", ""talent""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""employees_and_workplace"", ""theme_label"": ""Employees and workplace""}, {""evidence_excerpts"": [""Our Board of Directors and leaders are building on our legacy of integrity with a strong vision for the future.""], ""match_count"": 1, ""matched_phrases"": [""integrity""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""integrity_and_ethics"", ""theme_label"": ""Integrity and ethics""}, {""evidence_excerpts"": [""Building strong relationships with diverse suppliers to serve our clients, shareholders, communities and employees more efficiently.""], ""match_count"": 1, ""matched_phrases"": [""diverse""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""diversity_equity_and_inclusion"", ""theme_label"": ""Diversity, equity, and inclusion""}, {""evidence_excerpts"": [""Connecting clients and communities with some of the most inspiring pieces of art from around the world."", ""Building strong relationships with diverse suppliers to serve our clients, shareholders, communities and employees more efficiently.""], ""match_count"": 2, ""matched_phrases"": [""communities""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""social_impact_and_community"", ""theme_label"": ""Social impact and community""}, {""evidence_excerpts"": [""Building strong relationships with diverse suppliers to serve our clients, shareholders, communities and employees more efficiently.""], ""match_count"": 1, ""matched_phrases"": [""shareholders""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""shareholders_and_performance"", ""theme_label"": ""Shareholders and performance""}, {""evidence_excerpts"": [""Our leadership"", ""Meet our leadership"", ""Our Board of Directors and leaders are building on our legacy of integrity with a strong vision for the future.""], ""match_count"": 3, ""matched_phrases"": [""leadership"", ""leaders""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}, {""evidence_excerpts"": [""Learn more about the people upholding our values and moving our organization forward.""], ""match_count"": 1, ""matched_phrases"": [""our values""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""purpose_and_identity"", ""theme_label"": ""Purpose and identity""}]","{""action_or_evidence_count"": 0, ""action_or_evidence_rate_per_100_words"": 0.0, ""aspiration_count"": 1, ""aspiration_rate_per_100_words"": 0.3521, ""average_sentence_length"": 9.7931, ""commitment_count"": 0, ""commitment_rate_per_100_words"": 0.0, ""first_person_plural_count"": 16, ""first_person_plural_rate_per_100_words"": 5.6338, ""quantified_claim_count"": 4, ""sentence_count"": 29, ""stakeholder_count"": 6, ""stakeholder_rate_per_100_words"": 2.1127, ""word_count"": 284}","{""added"": [""These four principles are fundamental to our success and guide our efforts within the firm and around the world."", ""See how we do business"", ""Our leadership""], ""removed"": [""Who We Are"", ""In a fast-moving and increasingly complex global economy, our success depends on how faithfully we adhere to our core principles: delivering exceptional client service; acting with integrity and responsibility; and supporting the growth of our employees."", ""Built on Principle""]}",Deterministic evidence-backed baseline; manual review required.,a994bf39bba5ae9c5f1c573ba6b9a98d0fc2bc689d4ea2d5f62231d4d5228795,d5c8f0546dbee965ff402885d29178163ac7cd3dee4377c3a1aeefb8d9ce817d,automated_pass,pending
-LLY,Eli Lilly,Healthcare,2016,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,no_prior,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
+LLY,Eli Lilly,Healthcare,2016,no_eligible_capture,same-year captures exist but none are successful HTML,,,,,,,no_prior,,,,,Unavailable: same-year captures exist but none are successful HTML,,,not_available,not_applicable
 LLY,Eli Lilly,Healthcare,2017,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-LLY,Eli Lilly,Healthcare,2018,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
+LLY,Eli Lilly,Healthcare,2018,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://www.lilly.com/who-we-are,https://web.archive.org/web/20180623093314id_/https://www.lilly.com/who-we-are,2018-06-23T09:33:14+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
 LLY,Eli Lilly,Healthcare,2019,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-LLY,Eli Lilly,Healthcare,2020,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-LLY,Eli Lilly,Healthcare,2021,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-LLY,Eli Lilly,Healthcare,2022,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-LLY,Eli Lilly,Healthcare,2023,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-LLY,Eli Lilly,Healthcare,2024,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-LOW,Lowe's,Consumer Discretionary,2016,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,no_prior,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-LOW,Lowe's,Consumer Discretionary,2017,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-LOW,Lowe's,Consumer Discretionary,2018,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-LOW,Lowe's,Consumer Discretionary,2019,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-LOW,Lowe's,Consumer Discretionary,2020,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-LOW,Lowe's,Consumer Discretionary,2021,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-LOW,Lowe's,Consumer Discretionary,2022,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-LOW,Lowe's,Consumer Discretionary,2023,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-LOW,Lowe's,Consumer Discretionary,2024,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-MCD,McDonald's,Consumer Discretionary,2016,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,no_prior,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-MCD,McDonald's,Consumer Discretionary,2017,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-MCD,McDonald's,Consumer Discretionary,2018,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-MCD,McDonald's,Consumer Discretionary,2019,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-MCD,McDonald's,Consumer Discretionary,2020,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-MCD,McDonald's,Consumer Discretionary,2021,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-MCD,McDonald's,Consumer Discretionary,2022,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-MCD,McDonald's,Consumer Discretionary,2023,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-MCD,McDonald's,Consumer Discretionary,2024,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-MDT,Medtronic,Healthcare,2016,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,no_prior,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-MDT,Medtronic,Healthcare,2017,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-MDT,Medtronic,Healthcare,2018,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-MDT,Medtronic,Healthcare,2019,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-MDT,Medtronic,Healthcare,2020,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-MDT,Medtronic,Healthcare,2021,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-MDT,Medtronic,Healthcare,2022,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-MDT,Medtronic,Healthcare,2023,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-MDT,Medtronic,Healthcare,2024,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-META,Meta Platforms,Technology,2016,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,no_prior,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-META,Meta Platforms,Technology,2017,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-META,Meta Platforms,Technology,2018,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-META,Meta Platforms,Technology,2019,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-META,Meta Platforms,Technology,2020,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-META,Meta Platforms,Technology,2021,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-META,Meta Platforms,Technology,2022,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-META,Meta Platforms,Technology,2023,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-META,Meta Platforms,Technology,2024,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
+LLY,Eli Lilly,Healthcare,2020,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://www.lilly.com/who-we-are,https://web.archive.org/web/20200310120759id_/https://www.lilly.com/who-we-are,2020-03-10T12:07:59+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
+LLY,Eli Lilly,Healthcare,2021,no_cdx_capture,no same-year CDX capture,,,,,,,indeterminate,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
+LLY,Eli Lilly,Healthcare,2022,insufficient_substantive_text,selected capture could not be extracted,https://www.lilly.com/who-we-are/,https://web.archive.org/web/20220124043931id_/https://www.lilly.com/who-we-are/,2022-01-24T04:39:31+00:00,"Lilly.com | Eli Lilly and Company
+Loading...",,,indeterminate,,,,,Unavailable: selected capture could not be extracted,887daa6ca0662e2fc6a12b96846a8c6da9b7ea78b0b8731ad9daa2791d1ad96d,d7bc22efd79299db1eb0186a0d15baa1c56d65bed4baf43d3844567eb185e9a6,not_available,pending
+LLY,Eli Lilly,Healthcare,2023,no_eligible_capture,same-year captures exist but none are successful HTML,,,,,,,indeterminate,,,,,Unavailable: same-year captures exist but none are successful HTML,,,not_available,not_applicable
+LLY,Eli Lilly,Healthcare,2024,no_eligible_capture,same-year captures exist but none are successful HTML,,,,,,,indeterminate,,,,,Unavailable: same-year captures exist but none are successful HTML,,,not_available,not_applicable
+LOW,Lowe's,Consumer Discretionary,2016,no_cdx_capture,no same-year CDX capture,,,,,,,no_prior,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
+LOW,Lowe's,Consumer Discretionary,2017,no_cdx_capture,no same-year CDX capture,,,,,,,indeterminate,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
+LOW,Lowe's,Consumer Discretionary,2018,no_cdx_capture,no same-year CDX capture,,,,,,,indeterminate,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
+LOW,Lowe's,Consumer Discretionary,2019,no_cdx_capture,no same-year CDX capture,,,,,,,indeterminate,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
+LOW,Lowe's,Consumer Discretionary,2020,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://corporate.lowes.com/who-we-are,https://web.archive.org/web/20201001030214id_/https://corporate.lowes.com/who-we-are,2020-10-01T03:02:14+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
+LOW,Lowe's,Consumer Discretionary,2021,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://corporate.lowes.com/who-we-are,https://web.archive.org/web/20210606040732id_/https://corporate.lowes.com/who-we-are,2021-06-06T04:07:32+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
+LOW,Lowe's,Consumer Discretionary,2022,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://corporate.lowes.com/who-we-are,https://web.archive.org/web/20220630061300id_/https://corporate.lowes.com/who-we-are,2022-06-30T06:13:00+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
+LOW,Lowe's,Consumer Discretionary,2023,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://corporate.lowes.com/who-we-are,https://web.archive.org/web/20230606045138id_/https://corporate.lowes.com/who-we-are,2023-06-06T04:51:38+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
+LOW,Lowe's,Consumer Discretionary,2024,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://corporate.lowes.com/who-we-are,https://web.archive.org/web/20240529095241id_/https://corporate.lowes.com/who-we-are,2024-05-29T09:52:41+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
+MCD,McDonald's,Consumer Discretionary,2016,no_cdx_capture,no same-year CDX capture,,,,,,,no_prior,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
+MCD,McDonald's,Consumer Discretionary,2017,no_cdx_capture,no same-year CDX capture,,,,,,,indeterminate,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
+MCD,McDonald's,Consumer Discretionary,2018,no_cdx_capture,no same-year CDX capture,,,,,,,indeterminate,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
+MCD,McDonald's,Consumer Discretionary,2019,no_cdx_capture,no same-year CDX capture,,,,,,,indeterminate,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
+MCD,McDonald's,Consumer Discretionary,2020,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://corporate.mcdonalds.com/corpmcd/our-purpose-and-impact.html,https://web.archive.org/web/20201110173214id_/https://corporate.mcdonalds.com/corpmcd/our-purpose-and-impact.html,2020-11-10T17:32:14+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
+MCD,McDonald's,Consumer Discretionary,2021,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://corporate.mcdonalds.com/corpmcd/our-purpose-and-impact.html,https://web.archive.org/web/20210616175352id_/https://corporate.mcdonalds.com/corpmcd/our-purpose-and-impact.html,2021-06-16T17:53:52+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
+MCD,McDonald's,Consumer Discretionary,2022,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://corporate.mcdonalds.com/corpmcd/our-purpose-and-impact.html,https://web.archive.org/web/20220619020930id_/https://corporate.mcdonalds.com/corpmcd/our-purpose-and-impact.html,2022-06-19T02:09:30+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
+MCD,McDonald's,Consumer Discretionary,2023,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://corporate.mcdonalds.com/corpmcd/our-purpose-and-impact.html,https://web.archive.org/web/20230603153726id_/https://corporate.mcdonalds.com/corpmcd/our-purpose-and-impact.html,2023-06-03T15:37:26+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
+MCD,McDonald's,Consumer Discretionary,2024,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://corporate.mcdonalds.com/corpmcd/our-purpose-and-impact.html,https://web.archive.org/web/20240619223321id_/https://corporate.mcdonalds.com/corpmcd/our-purpose-and-impact.html,2024-06-19T22:33:21+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
+MDT,Medtronic,Healthcare,2016,no_cdx_capture,no same-year CDX capture,,,,,,,no_prior,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
+MDT,Medtronic,Healthcare,2017,no_cdx_capture,no same-year CDX capture,,,,,,,indeterminate,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
+MDT,Medtronic,Healthcare,2018,no_cdx_capture,no same-year CDX capture,,,,,,,indeterminate,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
+MDT,Medtronic,Healthcare,2019,no_cdx_capture,no same-year CDX capture,,,,,,,indeterminate,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
+MDT,Medtronic,Healthcare,2020,no_cdx_capture,no same-year CDX capture,,,,,,,indeterminate,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
+MDT,Medtronic,Healthcare,2021,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://www.medtronic.com/us-en/our-company.html,https://web.archive.org/web/20211015194613id_/https://www.medtronic.com/us-en/our-company.html,2021-10-15T19:46:13+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
+MDT,Medtronic,Healthcare,2022,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://www.medtronic.com/us-en/our-company.html,https://web.archive.org/web/20220630171323id_/https://www.medtronic.com/us-en/our-company.html,2022-06-30T17:13:23+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
+MDT,Medtronic,Healthcare,2023,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://www.medtronic.com/us-en/our-company.html,https://web.archive.org/web/20230705194202id_/https://www.medtronic.com/us-en/our-company.html,2023-07-05T19:42:02+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
+MDT,Medtronic,Healthcare,2024,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://www.medtronic.com/us-en/our-company.html,https://web.archive.org/web/20240623201721id_/https://www.medtronic.com/us-en/our-company.html,2024-06-23T20:17:21+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
+META,Meta Platforms,Technology,2016,no_cdx_capture,no same-year CDX capture,,,,,,,no_prior,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
+META,Meta Platforms,Technology,2017,no_cdx_capture,no same-year CDX capture,,,,,,,indeterminate,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
+META,Meta Platforms,Technology,2018,no_cdx_capture,no same-year CDX capture,,,,,,,indeterminate,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
+META,Meta Platforms,Technology,2019,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://about.fb.com/company-info/,https://web.archive.org/web/20191112045228id_/https://about.fb.com/company-info/,2019-11-12T04:52:28+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
+META,Meta Platforms,Technology,2020,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://about.fb.com/company-info/,https://web.archive.org/web/20200629182427id_/https://about.fb.com/company-info/,2020-06-29T18:24:27+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
+META,Meta Platforms,Technology,2021,usable,,https://about.fb.com/company-info/,https://web.archive.org/web/20210506005446id_/https://about.fb.com/company-info/,2021-05-06T00:54:46+00:00,"Our Mission
+Give people the power to build community and bring the world closer together.
+Our products empower more than 3 billion people around the world to share ideas, offer support and make a difference.
+$5 billion+ raised
+By our community to support the causes they care about
+200 million+ businesses
+Use our apps to connect with customers and grow
+100 billion+ messages shared every day
+Help people stay close even when they are far apart
+1 billion+ stories shared every day
+Help people express themselves and connect
+Our Principles
+Our principles are what we stand for. They are beliefs we hold deeply and make tradeoffs to pursue.
+Give People a Voice
+People deserve to be heard and to have a voice — even when that means defending the right of people we disagree with.
+Build Connection and Community
+Our services help people connect, and when they’re at their best, they bring people closer together.
+Serve Everyone
+We work to make technology accessible to everyone, and our business model is ads so our services can be free.
+Keep People Safe and Protect Privacy
+We have a responsibility to promote the best of what people can do together by keeping people safe and preventing harm.
+Promote Economic Opportunity
+Our tools level the playing field so businesses grow, create jobs and strengthen the economy.
+Our Leadership
+Mark Zuckerberg
+Founder, Chairman and Chief Executive Officer
+Sheryl Sandberg
+Chief Operating Officer
+David Wehner
+Chief Financial Officer
+Mike Schroepfer
+Chief Technology Officer
+Chris Cox
+Chief Product Officer
+David Fischer
+Chief Revenue Officer
+Jennifer Newstead
+General Counsel
+See more about our leadership team
+Our Offices
+Offices in 80+ cities worldwide
+Across North America, Latin America, Europe, Middle East, Africa and Asia Pacific
+17 data centers globally
+To be supported by 100% renewable energy
+Headquarters
+1 Hacker Way
+Menlo Park, California 94025
+Our History
+Previous Next
+Mark Zuckerberg and co-founders Dustin Moskovitz, Chris Hughes and Eduardo Saverin launch Facebook.
+February 4, 2004
+Related Articles
+Facebook
+Facebook moves to Palo Alto, California.
+June 1, 2004
+Launch of the Facebook Wall, giving people a place to post messages to their friends.
+September 1, 2004
+1 million people are now active on Facebook.
+December 1, 2004
+thefacebook.com officially drops the “the” and becomes Facebook.
+September 20, 2005
+Launch of Facebook Photos.
+October 1, 2005
+Facebook for Mobile launches.
+April 1, 2006
+Facebook introduces the first version of the Facebook API.
+August 1, 2006
+Launch of News Feed.
+September 5, 2006
+Related Articles
+Facebook Gets a Facelift
+Facebook Launches Additional Privacy Controls for News Feed and Mini-Feed
+Facebook expands registration so anyone can join.
+September 26, 2006
+Related Articles
+Welcome to Facebook, everyone.
+Facebook Platform launches.
+May 24, 2007
+Related Articles
+Platform is Here
+Facebook Platform is Here
+Facebook Video launches.
+June 22, 2007
+Related Articles
+Video is here
+Facebook launches self-service Ads Platform and Pages.
+November 6, 2007
+Related Articles
+Facebook Ads
+Facebook Chat launches.
+April 6, 2008
+Related Articles
+Facebook Chat: Now We’re Talking
+Facebook Connect is announced.
+May 9, 2008
+Related Articles
+Announcing Facebook Connect
+Facebook for iPhone launches.
+July 10, 2008
+Related Articles
+Facebook for iPhone
+New Facebook launches.
+July 21, 2008
+Related Articles
+Check Out the New Facebook
+New Design, New Powers, New Responsibilities
+Introduction of the Like button.
+February 9, 2009
+Related Articles
+“I Like This”
+New Facebook home page launches.
+March 11, 2009
+Related Articles
+Welcome to Your New Home Page
+Improving Your Ability to Share and Connect
+500 million people are now active on Facebook.
+July 21, 2010
+Related Articles
+500 Million Stories
+Launch of Facebook Places.
+August 18, 2010
+Related Articles
+Who, What, When, and Now … Where
+New Groups are introduced.
+October 6, 2010
+Related Articles
+New Groups: Stay Closer to Groups of People in Your Life
+Giving You More Control
+Launch of the new profile.
+December 5, 2010
+Related Articles
+Introducing the New Profile
+Facebook opens first, custom-built data center in Prineville, Oregon.
+April 15, 2011
+Related Articles
+Facebook Opens First Data Center in Prineville, Oregon
+Messenger is introduced.
+August 9, 2011
+Related Articles
+A Faster Way to Message on Mobile
+Timeline is introduced at f8.
+September 22, 2011
+Related Articles
+Tell Your Story With Timeline
+Introducing Timeline
+Facebook announces acquisition of Instagram.
+April 9, 2012
+Related Articles
+Facebook to Acquire Instagram
+Welcoming Instagram to Facebook
+Facebook holds its initial public offering.
+May 18, 2012
+Related Articles
+Facebook Announces Pricing of Initial Public Offering
+How Facebook Hacked the NASDAQ Button
+More than one billion people are active on Facebook.
+October 4, 2012
+Related Articles
+One Billion People on Facebook
+One Billion Means…
+More than 100 million people use Instagram every month.
+February 26, 2013
+Related Articles
+Instagram Today: 100 Million People
+Video on Instagram launches.
+June 20, 2013
+Related Articles
+Introducing Video on Instagram
+Video: Video on Instagram announcement
+Facebook announces Internet.org.
+August 20, 2013
+Related Articles
+Technology Leaders Launch Partnership to Make Internet Access Available to All
+Internet.org
+Focusing on Efficiency
+Instagram Direct launches.
+December 12, 2013
+Related Articles
+Instagram Direct
+Co-founder Kevin Systrom Introduces Instagram Direct in NYC—December 12th, 2013
+Donate launches
+December 15, 2013
+Related Articles
+Donate to Nonprofits Through Facebook
+How to Help: Donate to Typhoon Relief on Facebook
+Facebook announces acquisition of WhatsApp.
+February 19, 2014
+Related Articles
+Facebook to Acquire WhatsApp
+WhatsApp Blog
+Connectivity Lab at Facebook is announced.
+March 17, 2014
+Related Articles
+Announcing the Connectivity Lab at Facebook
+Facebook announces acquisition of Oculus.
+March 25, 2014
+Related Articles
+Facebook to Acquire Oculus
+Oculus Joins Facebook
+Safety Check is introduced.
+October 15, 2014
+Related Articles
+Introducing Safety Check
+Messenger Platform launches at F8.
+March 25, 2015
+Related Articles
+Messenger at F8
+Video Calling in Messenger launches.
+April 27, 2015
+Related Articles
+Introducing Video Calling in Messenger
+Oculus Rift is introduced.
+June 11, 2015
+Related Articles
+Introducing the Oculus Rift
+Instagram’s new Search and Explore launch.
+June 23, 2015
+Related Articles
+Introducing Instagram’s All-New Search and Explore
+One billion people use Facebook in a single day.
+August 24, 2015
+Related Articles
+Post from Mark
+Facebook Live is introduced.
+December 3, 2015
+Related Articles
+Introducing Live Video and Collages
+Expanding Live Video
+Introducing New Ways to Create, Share and Discover Live Video on Facebook
+Facebook launches Reactions globally.
+February 24, 2016
+Related Articles
+Reactions Now Available Globally
+WhatsApp announces end-to-end encryption.
+April 5, 2016
+Related Articles
+End-to-End Encryption
+WhatsApp’s desktop app is introduced.
+May 10, 2016
+Related Articles
+Introducing WhatsApp's Desktop App
+Introducing a new look for Instagram’s icon and app design.
+May 11, 2016
+Related Articles
+A New Look for Instagram
+More than 1 billion people use Messenger every month.
+July 20, 2016
+Related Articles
+Thank You! ♥ Messenger
+Instagram Stories launches.
+August 2, 2016
+Related Articles
+Introducing Instagram Stories
+Facebook Marketplace is introduced.
+October 3, 2016
+Related Articles
+Introducing Marketplace: Buy and Sell with Your Local Community
+Workplace by Facebook is introduced.
+October 10, 2016
+Related Articles
+Introducing Workplace by Facebook
+WhatsApp introduces video calling.
+November 14, 2016
+Related Articles
+WhatsApp Video Calling
+WhatsApp Status launches.
+February 20, 2017
+Related Articles
+WhatsApp Status
+Instagram Shopping is introduced.
+March 21, 2017
+Related Articles
+A Better Shopping Experience on Instagram
+Bringing Shopping on Instagram to More Countries
+New Ways to Shop on Instagram
+Bringing Shopping to Instagram Stories
+New company mission is introduced at first Facebook Communities Summit.
+June 22, 2017
+Related Articles
+Our First Communities Summit and New Tools For Group Admins
+2 billion people use Facebook every month.
+June 27, 2017
+Related Articles
+Two Billion People Coming Together on Facebook
+1 billion people use WhatsApp every day.
+July 26, 2017
+Related Articles
+Connecting One Billion Users Every Day
+Facebook Watch is introduced.
+August 9, 2017
+Related Articles
+Introducing Watch, a New Platform For Shows On Facebook
+Facebook Watch Is Going Global
+Facebook Community Boost program launches.
+November 9, 2017
+Related Articles
+Facebook Community Boost: Helping to Create Jobs and Provide Digital Skills Across the US
+Training 1 Million People and Small Businesses in Europe by 2020
+Training 1 Million People and Small Business Owners Across the US by 2020
+Messenger Kids is introduced.
+December 4, 2017
+Related Articles
+Introducing Messenger Kids, a New App For Families to Connect
+Messenger Kids Introduces New Features and Expands to Canada and Peru
+WhatsApp Business App launches.
+January 18, 2018
+Related Articles
+Introducing the WhatsApp Business App
+1 billion people use Instagram every month.
+June 20, 2018
+Instagram introduces Video Chat, a new Explore and new camera effects for Stories
+June 26, 2018
+Related Articles
+Introducing Video Chat, a New Explore, and More
+New tools to manage your time on Facebook and Instagram are introduced.
+August 1, 2018
+Related Articles
+New Tools to Manage Your Time on Instagram and Facebook
+Oculus Quest is introduced at OC5.
+September 26, 2018
+Related Articles
+Introducing Oculus Quest — a New All-in-One VR System
+Introducing Hand Tracking on Oculus Quest
+Portal and Portal+ are introduced.
+October 8, 2018
+Related Articles
+Introducing Portal From Facebook: New Video Calling Devices to Connect You With Friends and Family
+Portal and Portal+ Shipping Now
+Messenger 4 launches.
+October 23, 2018
+Related Articles
+Say Hello to the New Messenger: Introducing Messenger 4
+Mark shares his vision for a privacy-focused social platform.
+March 6, 2019
+Related Articles
+A Privacy-Focused Vision for Social Networking
+Checkout is introduced on Instagram.
+March 19, 2019
+Related Articles
+Instagram Checkout
+Oculus Rift S, a new PC VR headset, is introduced.
+March 20, 2019
+Related Articles
+Introducing Oculus Rift S
+Novi is announced.*
+June 18, 2019
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+2018
+2019
+*Novi was first announced as Calibra in 2019.
+Contact Us
+For Press Inquiries
+press@fb.com
+Need Help?
+Explore the Help Center",,,indeterminate,"[""customers_and_service"", ""employees_and_workplace"", ""social_impact_and_community"", ""environment_and_sustainability"", ""health_safety_and_wellbeing"", ""leadership_and_accountability"", ""collaboration_and_partnership"", ""purpose_and_identity""]","[{""evidence_excerpts"": [""Use our apps to connect with customers and grow"", ""Facebook launches self-service Ads Platform and Pages.""], ""match_count"": 2, ""matched_phrases"": [""customers"", ""service""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""customers_and_service"", ""theme_label"": ""Customers and service""}, {""evidence_excerpts"": [""Workplace by Facebook is introduced."", ""Introducing Workplace by Facebook""], ""match_count"": 2, ""matched_phrases"": [""workplace""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""employees_and_workplace"", ""theme_label"": ""Employees and workplace""}, {""evidence_excerpts"": [""Give people the power to build community and bring the world closer together."", ""By our community to support the causes they care about"", ""Build Connection and Community"", ""Introducing Marketplace: Buy and Sell with Your Local Community"", ""Facebook Community Boost program launches."", ""Facebook Community Boost: Helping to Create Jobs and Provide Digital Skills Across the US"", ""New company mission is introduced at first Facebook Communities Summit."", ""Our First Communities Summit and New Tools For Group Admins""], ""match_count"": 8, ""matched_phrases"": [""community"", ""communities""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""social_impact_and_community"", ""theme_label"": ""Social impact and community""}, {""evidence_excerpts"": [""To be supported by 100% renewable energy""], ""match_count"": 1, ""matched_phrases"": [""renewable""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""environment_and_sustainability"", ""theme_label"": ""Environment and sustainability""}, {""evidence_excerpts"": [""Safety Check is introduced."", ""Introducing Safety Check"", ""Keep People Safe and Protect Privacy"", ""We have a responsibility to promote the best of what people can do together by keeping people safe and preventing harm.""], ""match_count"": 4, ""matched_phrases"": [""safety"", ""safe""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""health_safety_and_wellbeing"", ""theme_label"": ""Health, safety, and wellbeing""}, {""evidence_excerpts"": [""Our Leadership"", ""See more about our leadership team"", ""Technology Leaders Launch Partnership to Make Internet Access Available to All"", ""We have a responsibility to promote the best of what people can do together by keeping people safe and preventing harm.""], ""match_count"": 4, ""matched_phrases"": [""leadership"", ""leaders"", ""responsibility""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}, {""evidence_excerpts"": [""Technology Leaders Launch Partnership to Make Internet Access Available to All"", ""Give people the power to build community and bring the world closer together."", ""Our services help people connect, and when they’re at their best, they bring people closer together."", ""We have a responsibility to promote the best of what people can do together by keeping people safe and preventing harm."", ""Two Billion People Coming Together on Facebook""], ""match_count"": 5, ""matched_phrases"": [""partnership"", ""together""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""collaboration_and_partnership"", ""theme_label"": ""Collaboration and partnership""}, {""evidence_excerpts"": [""Our Mission""], ""match_count"": 1, ""matched_phrases"": [""our mission""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""purpose_and_identity"", ""theme_label"": ""Purpose and identity""}]","{""action_or_evidence_count"": 0, ""action_or_evidence_rate_per_100_words"": 0.0, ""aspiration_count"": 2, ""aspiration_rate_per_100_words"": 0.1237, ""average_sentence_length"": 4.3703, ""commitment_count"": 0, ""commitment_rate_per_100_words"": 0.0, ""first_person_plural_count"": 24, ""first_person_plural_rate_per_100_words"": 1.4842, ""quantified_claim_count"": 188, ""sentence_count"": 370, ""stakeholder_count"": 9, ""stakeholder_rate_per_100_words"": 0.5566, ""word_count"": 1617}",,Deterministic evidence-backed baseline; manual review required.,6ca435dad94e5135428460785bce8bb1bc666f0715891fedc605a1f6b59c764f,49255fb3f33b3060e6346e658baff605cd082591ecee6f55ff3701f7a3c880b9,automated_pass,pending
+META,Meta Platforms,Technology,2022,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://about.meta.com/company-info/,https://web.archive.org/web/20220920050318id_/https://about.meta.com/company-info/,2022-09-20T05:03:18+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
+META,Meta Platforms,Technology,2023,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://about.meta.com/company-info/,https://web.archive.org/web/20230630091730id_/https://about.meta.com/company-info/,2023-06-30T09:17:30+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
+META,Meta Platforms,Technology,2024,retrieval_failed,ConnectError: [Errno 61] Connection refused,https://about.meta.com/company-info/,https://web.archive.org/web/20240630160429id_/https://about.meta.com/company-info/,2024-06-30T16:04:29+00:00,,,,indeterminate,,,,,Unavailable: ConnectError: [Errno 61] Connection refused,,,not_available,not_applicable
 MPC,Marathon Petroleum,Energy,2016,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,no_prior,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
 MPC,Marathon Petroleum,Energy,2017,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
 MPC,Marathon Petroleum,Energy,2018,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
