@@ -2316,15 +2316,112 @@ NKE,Nike,Consumer Discretionary,2021,discovery_incomplete,same-year CDX query mi
 NKE,Nike,Consumer Discretionary,2022,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
 NKE,Nike,Consumer Discretionary,2023,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
 NKE,Nike,Consumer Discretionary,2024,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-NVDA,NVIDIA,Technology,2016,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,no_prior,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-NVDA,NVIDIA,Technology,2017,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-NVDA,NVIDIA,Technology,2018,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-NVDA,NVIDIA,Technology,2019,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-NVDA,NVIDIA,Technology,2020,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-NVDA,NVIDIA,Technology,2021,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-NVDA,NVIDIA,Technology,2022,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-NVDA,NVIDIA,Technology,2023,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-NVDA,NVIDIA,Technology,2024,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
+NVDA,NVIDIA,Technology,2016,insufficient_substantive_text,selected capture could not be extracted,https://www2.nvidia.com/en-us/about-nvidia/,https://web.archive.org/web/20161129032458id_/https://www2.nvidia.com/en-us/about-nvidia/,2016-11-29T03:24:58+00:00,,,,no_prior,,,,,Unavailable: selected capture could not be extracted,b4eebbcf68d1796c6336ca12490e4afc0b52817723e3115ce57ad57e94c6e228,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,not_available,pending
+NVDA,NVIDIA,Technology,2017,no_cdx_capture,no same-year CDX capture,,,,,,,indeterminate,,,,,Unavailable: no same-year CDX capture,,,not_available,not_applicable
+NVDA,NVIDIA,Technology,2018,insufficient_substantive_text,selected capture could not be extracted,https://www.nvidia.com/en-us/about-nvidia/,https://web.archive.org/web/20180809002337id_/https://www.nvidia.com/en-us/about-nvidia/,2018-08-09T00:23:37+00:00,About NVIDIA Corporation | NVIDIA,,,indeterminate,,,,,Unavailable: selected capture could not be extracted,fc3ad60b356fcf141c61e3c648b4ba5ca2ba75062828d0190e4543ae3170b3fb,fbc6886298c13db67e658a0100cc503e1d2118c941c8a74fa99688a9fa427803,not_available,pending
+NVDA,NVIDIA,Technology,2019,insufficient_substantive_text,selected capture could not be extracted,https://www.nvidia.com/en-us/about-nvidia/,https://web.archive.org/web/20190701215625id_/https://www.nvidia.com/en-us/about-nvidia/,2019-07-01T21:56:25+00:00,About NVIDIA Corporation | NVIDIA,,,indeterminate,,,,,Unavailable: selected capture could not be extracted,c5fcfe0f4c5e29d6cfb8ae62a33467d20bee835a4f6237a9d07faefefcc967db,fbc6886298c13db67e658a0100cc503e1d2118c941c8a74fa99688a9fa427803,not_available,pending
+NVDA,NVIDIA,Technology,2020,insufficient_substantive_text,selected capture could not be extracted,https://www.nvidia.com/en-us/about-nvidia/,https://web.archive.org/web/20200626063746id_/https://www.nvidia.com/en-us/about-nvidia/,2020-06-26T06:37:46+00:00,About NVIDIA Corporation | NVIDIA,,,indeterminate,,,,,Unavailable: selected capture could not be extracted,2217bcc6a53796799b6ed82d0f351af1e0151d1d3eb18b54b1d3d2f6ebcf7616,fbc6886298c13db67e658a0100cc503e1d2118c941c8a74fa99688a9fa427803,not_available,pending
+NVDA,NVIDIA,Technology,2021,insufficient_substantive_text,selected capture could not be extracted,https://www.nvidia.com/en-us/about-nvidia/,https://web.archive.org/web/20210707184544id_/https://www.nvidia.com/en-us/about-nvidia/,2021-07-07T18:45:44+00:00,"NVIDIA'S Invention of the GPU
+In 1999 sparked the growth of the PC gaming market, redefined modern computer graphics, and revolutionized parallel computing. More recently, GPU deep learning ignited modern AI — the next era of computing — with the GPU acting as the brain of computers, robots, and self-driving cars that can perceive and understand the world.
+WHO WE ARE
+Download NVIDIA Brochure (PDF)",,,indeterminate,,,,,Unavailable: selected capture could not be extracted,cf815d6fce53d1df6ea0f8f43b5fccd2053b9da0c36c6c197353d1c1bdbe94e6,6e2f35962fc4fb86db4e3b8d530330c2eb0977d99b98895ba5508140fa14a962,not_available,pending
+NVDA,NVIDIA,Technology,2022,insufficient_substantive_text,selected capture could not be extracted,https://www.nvidia.com/en-us/about-nvidia/,https://web.archive.org/web/20220627003508id_/https://www.nvidia.com/en-us/about-nvidia/,2022-06-27T00:35:08+00:00,"Taking on the world's greatest challenges
+Taking on the world's greatest challenges
+Read our Story
+See our body of work
+Read our story
+See our body of work",,,indeterminate,,,,,Unavailable: selected capture could not be extracted,097b85072856b0e1f66cdb474950947b60435c30f067694e0a167b7ffb203d9c,ad65cc429bd3a18e45df3ea6350623a5d34cdf642b1ac6b9fe1dd1eb18436f2f,not_available,pending
+NVDA,NVIDIA,Technology,2023,usable,,https://www.nvidia.com/en-us/about-nvidia/,https://web.archive.org/web/20230627231136id_/https://www.nvidia.com/en-us/about-nvidia/,2023-06-27T23:11:36+00:00,"About Us: Company Leadership, History, Jobs, News | NVIDIA
+Nvidia - NVIDIA Corp Brochure
+Our Body of Work
+NVIDIA pioneered accelerated computing to tackle challenges no one else can solve. Our work in AI and the metaverse is transforming the world's largest industries and profoundly impacting society.
+Explore
+Reinventing Modern Graphics
+NVIDIA RTX™ taps into AI and ray tracing to deliver a whole new level of realism in graphics.
+Powering the Metaverse
+The metaverse—the 3D internet—promises a world where virtual collaboration is effortless and industrial giants can experience the efficiencies of digital twins. NVIDIA Omniverse™ is a tool to build and operate metaverse applications.
+Virtual collaboration
+BMW
+Amazon Robotics
+PepsiCo/Kinetic Vision
+Ericsson
+Siemens
+AI Avatars
+We’re even creating a digital twin of our planet—called Earth-2—to help predict climate change decades in advance.
+Turbocharging Science
+From astrophysics and genomics to climate science and new energy exploration, researchers across disciplines are using NVIDIA technology to solve the next grand challenge.
+Your browser does not support the video tag.
+Stanford sets world record for DNA sequencing of human genome.
+Your browser does not support the video tag.
+Physicists proved Einstein’s theory and won the Nobel prize.
+The Engine of AI
+We engineer the most advanced chips, systems, and software for the AI factories of the future.
+The Engine of AI
+We engineer the most advanced chips, systems, and software for the AI factories of the future.
+Democratizing the Miracles of AI
+We’re delivering AI breakthroughs in a variety of applications to the world’s largest enterprises. Today, more than 35,000 companies are building on the NVIDIA AI platform.
+Large Language Models
+Recommender Systems
+Cybersecurity
+Logistics Optimization Planning
+Medical Imaging
+Speech AI
+Video Conferencing
+Customer Service
+Video Analytics
+Everything That Moves Will Be an Autonomous Machine
+NVIDIA-powered robots are everywhere, from manufacturing and agriculture to security and home-based healthcare. NVIDIA Isaac is our platform for accelerating and enhancing robotics.
+Robotic Systems Lab, ETH Zurich & Swiss-Mile; Festo; Obelix
+Driving the Future of Autonomous Vehicles
+The NVIDIA DRIVE® platform covers everything from the car to the data center—including life like simulated environments where vehicles can learn, adapt, and evolve. Automakers from Mercedes Benz and Jaguar Land Rover, to Lucid Air and NIO, to Amazon’s Zoox and GM’s Cruise, tap into the power of DRIVE.
+Your browser does not support the video tag.
+Like No Place You’ve Ever Worked
+NVIDIA is a learning machine. The mission is boss. Everyone has a voice. And we’ve built a culture where people can do their life's work.
+“Nothing makes me prouder than the incredible people who have made NVIDIA the company it is today. Together, we continue to drive advances in AI, HPC, gaming, creative design, autonomous vehicles, and robotics.”
+Jensen Huang
+Read Our Story
+“Nothing makes me prouder than the incredible people who have made NVIDIA the company it is today. Together, we continue to drive advances in AI, HPC, gaming, creative design, autonomous vehicles, and robotics.”
+Jensen Huang
+Read Our Story
+Our History
+A timeline of innovation
+Full Timeline
+30 Years of Fun and Games. And Some Serious Innovation.
+Keep Updated on Our Most Impactful Breakthroughs
+Sign Up",,,indeterminate,"[""customers_and_service"", ""innovation_and_excellence"", ""social_impact_and_community"", ""environment_and_sustainability"", ""health_safety_and_wellbeing"", ""leadership_and_accountability"", ""collaboration_and_partnership""]","[{""evidence_excerpts"": [""Customer Service""], ""match_count"": 2, ""matched_phrases"": [""customer"", ""service""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""customers_and_service"", ""theme_label"": ""Customers and service""}, {""evidence_excerpts"": [""A timeline of innovation"", ""And Some Serious Innovation.""], ""match_count"": 2, ""matched_phrases"": [""innovation""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""innovation_and_excellence"", ""theme_label"": ""Innovation and excellence""}, {""evidence_excerpts"": [""Our work in AI and the metaverse is transforming the world's largest industries and profoundly impacting society.""], ""match_count"": 1, ""matched_phrases"": [""society""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""social_impact_and_community"", ""theme_label"": ""Social impact and community""}, {""evidence_excerpts"": [""We’re even creating a digital twin of our planet—called Earth-2—to help predict climate change decades in advance."", ""From astrophysics and genomics to climate science and new energy exploration, researchers across disciplines are using NVIDIA technology to solve the next grand challenge.""], ""match_count"": 2, ""matched_phrases"": [""climate""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""environment_and_sustainability"", ""theme_label"": ""Environment and sustainability""}, {""evidence_excerpts"": [""NVIDIA-powered robots are everywhere, from manufacturing and agriculture to security and home-based healthcare.""], ""match_count"": 1, ""matched_phrases"": [""security""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""health_safety_and_wellbeing"", ""theme_label"": ""Health, safety, and wellbeing""}, {""evidence_excerpts"": [""About Us: Company Leadership, History, Jobs, News | NVIDIA""], ""match_count"": 1, ""matched_phrases"": [""leadership""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}, {""evidence_excerpts"": [""The metaverse—the 3D internet—promises a world where virtual collaboration is effortless and industrial giants can experience the efficiencies of digital twins."", ""Virtual collaboration"", ""Together, we continue to drive advances in AI, HPC, gaming, creative design, autonomous vehicles, and robotics.”""], ""match_count"": 4, ""matched_phrases"": [""collaboration"", ""together""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""collaboration_and_partnership"", ""theme_label"": ""Collaboration and partnership""}]","{""action_or_evidence_count"": 0, ""action_or_evidence_rate_per_100_words"": 0.0, ""aspiration_count"": 1, ""aspiration_rate_per_100_words"": 0.188, ""average_sentence_length"": 7.7101, ""commitment_count"": 1, ""commitment_rate_per_100_words"": 0.188, ""first_person_plural_count"": 16, ""first_person_plural_rate_per_100_words"": 3.0075, ""quantified_claim_count"": 3, ""sentence_count"": 69, ""stakeholder_count"": 1, ""stakeholder_rate_per_100_words"": 0.188, ""word_count"": 532}",,Deterministic evidence-backed baseline; manual review required.,fd8b618f65bd1b7618336f0a884324a30d3934094c9fcacf7253e7e7e7ade168,07959c5f3e65b070445787b4c6a9393e15072a3e75c419b086816640717882ae,review_required,pending
+NVDA,NVIDIA,Technology,2024,usable,,https://www.nvidia.com/en-us/about-nvidia/,https://web.archive.org/web/20240701211926id_/https://www.nvidia.com/en-us/about-nvidia/,2024-07-01T21:19:26+00:00,"About Us: Company Leadership, History, Jobs, News | NVIDIA
+Nvidia - NVIDIA Corp Brochure
+Our Body of Work
+NVIDIA pioneered accelerated computing to tackle challenges no one else can solve. Our work in AI and digital twins is transforming the world's largest industries and profoundly impacting society.
+Explore
+The iPhone Moment for AI
+Accelerated computing and AI have fully arrived. The acceleration of deep learning ignited the Big Bang of AI.
+Now, generative AI is a new computing platform, like the PC, internet, and mobile-cloud.
+Credit: Runway AI, Adobe, Tabnine, WPP
+NVIDIA is the Engine of AI
+NVIDIA engineers the most advanced chips, systems, and software for the AI factories of the future. We build new AI services that help companies create their own AI factories.
+Reinventing Modern Graphics
+NVIDIA RTX™ taps into AI and ray tracing to deliver a whole new level of realism in graphics. This year, we introduced the next breakthrough in AI-powered graphics: DLSS 3.
+Connecting Our Physical and Digital Worlds
+Omniverse, our platform for industrial digitalization, enables industries grounded in physical processes to become software-defined and connect large, highly skilled teams.
+Driving Automotive Growth
+Generative AI and digitalization are reshaping the $3 trillion automotive industry, from design and engineering to manufacturing, autonomous driving, and customer experience. NVIDIA is at the epicenter of this industrial transformation.
+Credit: WPP, McLaren; Koenigsegg; BMW; Rimac
+Supercharging Healthcare
+With NVIDIA, healthcare institutions can harness the power of AI and high-performance computing to define the future of medicine.
+Accelerated Computing Is Sustainable Computing
+Data centers are already about 1-2% of global electricity consumption and growing. This is not sustainable for operating budgets and our planet. Acceleration is the best way to reclaim power and achieve sustainability and net zero.
+Like No Place You’ve Ever Worked
+“NVIDIA is reshaping the future of computing. We’ve built a culture where people can do their life's work. We are a learning machine. The mission is boss. Everyone has a voice.” — Jensen Huang
+See Careers
+History
+A timeline of innovation
+Investors
+Quarterly and historical results, resources
+Newsroom
+The latest NVIDIA news
+Careers
+Join our team",True,0.701837,substantive_change,"[""customers_and_service"", ""innovation_and_excellence"", ""social_impact_and_community"", ""environment_and_sustainability"", ""leadership_and_accountability""]","[{""evidence_excerpts"": [""Generative AI and digitalization are reshaping the $3 trillion automotive industry, from design and engineering to manufacturing, autonomous driving, and customer experience.""], ""match_count"": 2, ""matched_phrases"": [""customer"", ""customer experience""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""customers_and_service"", ""theme_label"": ""Customers and service""}, {""evidence_excerpts"": [""A timeline of innovation""], ""match_count"": 1, ""matched_phrases"": [""innovation""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""innovation_and_excellence"", ""theme_label"": ""Innovation and excellence""}, {""evidence_excerpts"": [""Our work in AI and digital twins is transforming the world's largest industries and profoundly impacting society.""], ""match_count"": 1, ""matched_phrases"": [""society""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""social_impact_and_community"", ""theme_label"": ""Social impact and community""}, {""evidence_excerpts"": [""Acceleration is the best way to reclaim power and achieve sustainability and net zero."", ""Accelerated Computing Is Sustainable Computing"", ""This is not sustainable for operating budgets and our planet.""], ""match_count"": 3, ""matched_phrases"": [""sustainability"", ""sustainable""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""environment_and_sustainability"", ""theme_label"": ""Environment and sustainability""}, {""evidence_excerpts"": [""About Us: Company Leadership, History, Jobs, News | NVIDIA""], ""match_count"": 1, ""matched_phrases"": [""leadership""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}]","{""action_or_evidence_count"": 0, ""action_or_evidence_rate_per_100_words"": 0.0, ""aspiration_count"": 0, ""aspiration_rate_per_100_words"": 0.0, ""average_sentence_length"": 7.9318, ""commitment_count"": 0, ""commitment_rate_per_100_words"": 0.0, ""first_person_plural_count"": 11, ""first_person_plural_rate_per_100_words"": 3.1519, ""quantified_claim_count"": 5, ""sentence_count"": 44, ""stakeholder_count"": 1, ""stakeholder_rate_per_100_words"": 0.2865, ""word_count"": 349}","{""added"": [""Our work in AI and digital twins is transforming the world's largest industries and profoundly impacting society."", ""The iPhone Moment for AI"", ""Accelerated computing and AI have fully arrived.""], ""removed"": [""Our work in AI and the metaverse is transforming the world's largest industries and profoundly impacting society."", ""Powering the Metaverse"", ""The metaverse—the 3D internet—promises a world where virtual collaboration is effortless and industrial giants can experience the efficiencies of digital twins.""]}",Deterministic evidence-backed baseline; manual review required.,93983dfe95db6251dbf57488475b680a1b109d22602abf65b4bbe674b1bedb94,d3ef76825b2b08a6e1a89228f18796c794dc7efa0cb58b587a6268d88d758008,review_required,pending
 ORCL,Oracle,Technology,2016,no_eligible_capture,same-year captures exist but none are successful HTML,,,,,,,no_prior,,,,,Unavailable: same-year captures exist but none are successful HTML,,,not_available,not_applicable
 ORCL,Oracle,Technology,2017,no_eligible_capture,same-year captures exist but none are successful HTML,,,,,,,indeterminate,,,,,Unavailable: same-year captures exist but none are successful HTML,,,not_available,not_applicable
 ORCL,Oracle,Technology,2018,usable,,https://www.oracle.com/corporate/,https://web.archive.org/web/20180927154601id_/https://www.oracle.com/corporate/,2018-09-27T15:46:01+00:00,"About Oracle | Company Information | Oracle

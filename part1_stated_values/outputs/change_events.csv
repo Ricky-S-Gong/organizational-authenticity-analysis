@@ -313,7 +313,7 @@ NVDA,2020,,,indeterminate,
 NVDA,2021,,,indeterminate,
 NVDA,2022,,,indeterminate,
 NVDA,2023,,,indeterminate,
-NVDA,2024,,,indeterminate,
+NVDA,2024,True,0.701837,substantive_change,"{""added"": [""Our work in AI and digital twins is transforming the world's largest industries and profoundly impacting society."", ""The iPhone Moment for AI"", ""Accelerated computing and AI have fully arrived.""], ""removed"": [""Our work in AI and the metaverse is transforming the world's largest industries and profoundly impacting society."", ""Powering the Metaverse"", ""The metaverse—the 3D internet—promises a world where virtual collaboration is effortless and industrial giants can experience the efficiencies of digital twins.""]}"
 ORCL,2016,,,no_prior,
 ORCL,2017,,,indeterminate,
 ORCL,2018,,,indeterminate,

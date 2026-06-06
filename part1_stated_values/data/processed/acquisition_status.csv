@@ -305,15 +305,15 @@ NKE,Nike,Consumer Discretionary,2021,2021-06-30T12:00:00+00:00,discovery_incompl
 NKE,Nike,Consumer Discretionary,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 NKE,Nike,Consumer Discretionary,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 NKE,Nike,Consumer Discretionary,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-NVDA,NVIDIA,Technology,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-NVDA,NVIDIA,Technology,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-NVDA,NVIDIA,Technology,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-NVDA,NVIDIA,Technology,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-NVDA,NVIDIA,Technology,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-NVDA,NVIDIA,Technology,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-NVDA,NVIDIA,Technology,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-NVDA,NVIDIA,Technology,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-NVDA,NVIDIA,Technology,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
+NVDA,NVIDIA,Technology,2016,2016-06-30T12:00:00+00:00,selected,,1,7,1,2016-11-29T03:24:58+00:00,https://www2.nvidia.com/en-us/about-nvidia/,https://web.archive.org/web/20161129032458id_/https://www2.nvidia.com/en-us/about-nvidia/,complete,1
+NVDA,NVIDIA,Technology,2017,2017-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,2
+NVDA,NVIDIA,Technology,2018,2018-06-30T12:00:00+00:00,selected,,1,12,12,2018-08-09T00:23:37+00:00,https://www.nvidia.com/en-us/about-nvidia/,https://web.archive.org/web/20180809002337id_/https://www.nvidia.com/en-us/about-nvidia/,complete,1
+NVDA,NVIDIA,Technology,2019,2019-06-30T12:00:00+00:00,selected,,1,68,67,2019-07-01T21:56:25+00:00,https://www.nvidia.com/en-us/about-nvidia/,https://web.archive.org/web/20190701215625id_/https://www.nvidia.com/en-us/about-nvidia/,complete,1
+NVDA,NVIDIA,Technology,2020,2020-06-30T12:00:00+00:00,selected,,1,70,67,2020-06-26T06:37:46+00:00,https://www.nvidia.com/en-us/about-nvidia/,https://web.archive.org/web/20200626063746id_/https://www.nvidia.com/en-us/about-nvidia/,complete,1
+NVDA,NVIDIA,Technology,2021,2021-06-30T12:00:00+00:00,selected,,1,78,68,2021-07-07T18:45:44+00:00,https://www.nvidia.com/en-us/about-nvidia/,https://web.archive.org/web/20210707184544id_/https://www.nvidia.com/en-us/about-nvidia/,complete,2
+NVDA,NVIDIA,Technology,2022,2022-06-30T12:00:00+00:00,selected,,1,98,81,2022-06-27T00:35:08+00:00,https://www.nvidia.com/en-us/about-nvidia/,https://web.archive.org/web/20220627003508id_/https://www.nvidia.com/en-us/about-nvidia/,complete,1
+NVDA,NVIDIA,Technology,2023,2023-06-30T12:00:00+00:00,selected,,1,73,72,2023-06-27T23:11:36+00:00,https://www.nvidia.com/en-us/about-nvidia/,https://web.archive.org/web/20230627231136id_/https://www.nvidia.com/en-us/about-nvidia/,complete,1
+NVDA,NVIDIA,Technology,2024,2024-06-30T12:00:00+00:00,selected,,1,81,67,2024-07-01T21:19:26+00:00,https://www.nvidia.com/en-us/about-nvidia/,https://web.archive.org/web/20240701211926id_/https://www.nvidia.com/en-us/about-nvidia/,complete,1
 ORCL,Oracle,Technology,2016,2016-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,16,0,,,,complete,1
 ORCL,Oracle,Technology,2017,2017-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,15,0,,,,complete,1
 ORCL,Oracle,Technology,2018,2018-06-30T12:00:00+00:00,selected,,1,23,13,2018-09-27T15:46:01+00:00,https://www.oracle.com/corporate/,https://web.archive.org/web/20180927154601id_/https://www.oracle.com/corporate/,complete,1
