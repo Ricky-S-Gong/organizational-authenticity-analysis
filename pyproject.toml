@@ -18,6 +18,12 @@ dev = [
 [project.scripts]
 part1-build-targets = "org_auth_part1.targets:main"
 part1-query-cdx = "org_auth_part1.cdx:main"
+part1-validate-registry = "org_auth_part1.registry:main"
+part1-discover = "org_auth_part1.discover:main"
+part1-select = "org_auth_part1.acquire:main"
+part1-process = "org_auth_part1.pipeline:main"
+part1-validate = "org_auth_part1.validate:main"
+part1-validate-phases = "org_auth_part1.phase_validation:main"
 
 [build-system]
 requires = ["setuptools>=77"]

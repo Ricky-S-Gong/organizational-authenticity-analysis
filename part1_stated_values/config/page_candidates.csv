@@ -1,1 +1,52 @@
 ticker,candidate_url,page_type,valid_from_year,valid_to_year,discovery_method,eligibility_status,eligibility_reason,reviewer
+MSFT,https://www.microsoft.com/en-us/about,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+AAPL,https://www.apple.com/about/,about,2016,2024,manual_seed,eligible,Official corporate about path,pipeline_seed
+NVDA,https://www.nvidia.com/en-us/about-nvidia/,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+GOOGL,https://abc.xyz/,overview,2016,2024,manual_seed,eligible,Official Alphabet corporate overview,pipeline_seed
+META,https://about.meta.com/company-info/,about,2021,2024,manual_seed,eligible,Official Meta corporate information page,pipeline_seed
+META,https://about.fb.com/company-info/,about,2016,2021,manual_seed,eligible,Official historical Facebook corporate information page,pipeline_seed
+AVGO,https://www.broadcom.com/company/about-us,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+CRM,https://www.salesforce.com/company/our-story/,about,2016,2024,manual_seed,eligible,Official corporate story page,pipeline_seed
+ORCL,https://www.oracle.com/corporate/,overview,2016,2024,manual_seed,eligible,Official corporate overview page,pipeline_seed
+IBM,https://www.ibm.com/about,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+INTC,https://www.intel.com/content/www/us/en/company-overview/company-overview.html,overview,2016,2024,manual_seed,eligible,Official company overview page,pipeline_seed
+BRK.B,https://www.berkshirehathaway.com/,overview,2016,2024,manual_seed,review,Official parent-company site but substantive page identity requires review,pipeline_seed
+JPM,https://www.jpmorganchase.com/about,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+BAC,https://about.bankofamerica.com/,about,2016,2024,manual_seed,eligible,Official corporate about site,pipeline_seed
+WFC,https://www.wellsfargo.com/about/,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+GS,https://www.goldmansachs.com/our-firm,about,2016,2024,manual_seed,eligible,Official firm overview page,pipeline_seed
+MS,https://www.morganstanley.com/about-us,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+BLK,https://www.blackrock.com/corporate/about-us,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+SCHW,https://www.aboutschwab.com/,about,2016,2024,manual_seed,eligible,Official corporate about site,pipeline_seed
+AXP,https://www.americanexpress.com/en-us/company/who-we-are/,about,2016,2024,manual_seed,eligible,Official who-we-are page,pipeline_seed
+C,https://www.citigroup.com/global/about-us,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+LLY,https://www.lilly.com/who-we-are,about,2016,2024,manual_seed,eligible,Official who-we-are page,pipeline_seed
+UNH,https://www.unitedhealthgroup.com/about-us.html,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+JNJ,https://www.jnj.com/about-jnj,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+ABBV,https://www.abbvie.com/who-we-are.html,about,2016,2024,manual_seed,eligible,Official who-we-are page,pipeline_seed
+MRK,https://www.merck.com/company-overview/,overview,2016,2024,manual_seed,eligible,Official company overview page,pipeline_seed
+TMO,https://www.thermofisher.com/us/en/home/about-us.html,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+ABT,https://www.abbott.com/about-abbott.html,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+PFE,https://www.pfizer.com/about,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+MDT,https://www.medtronic.com/us-en/our-company.html,about,2016,2024,manual_seed,eligible,Official company page,pipeline_seed
+BMY,https://www.bms.com/about-us.html,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+AMZN,https://www.aboutamazon.com/about-us,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+TSLA,https://www.tesla.com/about,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+HD,https://corporate.homedepot.com/page/about-us,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+MCD,https://corporate.mcdonalds.com/corpmcd/our-purpose-and-impact.html,purpose,2016,2024,manual_seed,eligible,Official corporate purpose page,pipeline_seed
+NKE,https://about.nike.com/en/company,about,2016,2024,manual_seed,eligible,Official company page,pipeline_seed
+SBUX,https://about.starbucks.com/mission/,mission,2016,2024,manual_seed,eligible,Official corporate mission page,pipeline_seed
+TGT,https://corporate.target.com/about,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+LOW,https://corporate.lowes.com/who-we-are,about,2016,2024,manual_seed,eligible,Official who-we-are page,pipeline_seed
+TJX,https://www.tjx.com/company,about,2016,2024,manual_seed,eligible,Official company page,pipeline_seed
+F,https://corporate.ford.com/about.html,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+XOM,https://corporate.exxonmobil.com/who-we-are,about,2016,2024,manual_seed,eligible,Official who-we-are page,pipeline_seed
+CVX,https://www.chevron.com/who-we-are,about,2016,2024,manual_seed,eligible,Official who-we-are page,pipeline_seed
+COP,https://www.conocophillips.com/about-us/,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+EOG,https://www.eogresources.com/about/,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+SLB,https://www.slb.com/about,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+MPC,https://www.marathonpetroleum.com/About/,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+PSX,https://www.phillips66.com/about/,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+VLO,https://www.valero.com/about,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+OXY,https://www.oxy.com/about-us/,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+HAL,https://www.halliburton.com/en/about-us,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed

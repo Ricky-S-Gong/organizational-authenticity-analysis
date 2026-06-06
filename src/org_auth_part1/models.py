@@ -68,3 +68,24 @@ class CdxCapture(BaseModel):
 
     def is_html_success(self) -> bool:
         return self.status_code == 200 and self.mime_type in {"text/html", "application/xhtml+xml"}
+
+
+class PageCandidate(BaseModel):
+    model_config = ConfigDict(str_strip_whitespace=True)
+
+    ticker: str
+    candidate_url: str
+    page_type: str
+    valid_from_year: int = Field(default=2016, ge=2016, le=2024)
+    valid_to_year: int = Field(default=2024, ge=2016, le=2024)
+    discovery_method: str
+    eligibility_status: str
+    eligibility_reason: str
+    reviewer: str
+
+    @field_validator("candidate_url")
+    @classmethod
+    def require_http_url(cls, value: str) -> str:
+        if not value.startswith(("http://", "https://")):
+            raise ValueError("candidate URL must use http or https")
+        return value

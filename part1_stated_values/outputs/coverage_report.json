@@ -1,0 +1,25 @@
+{
+  "target_record_count": 450,
+  "usable_record_count": 9,
+  "usable_rate": 0.02,
+  "status_counts": {
+    "discovery_incomplete": 414,
+    "insufficient_substantive_text": 1,
+    "no_cdx_capture": 14,
+    "no_eligible_capture": 3,
+    "no_eligible_page": 9,
+    "usable": 9
+  },
+  "companies_observed": 50,
+  "years_observed": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "passed": false,
+  "phases": {
+    "phase_0_environment_and_contract": {
+      "passed": true,
+      "evidence": {
+        "target_rows": 450,
+        "companies": 50,
+        "years": [
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024"
+        ],
+        "sector_company_counts": {
+          "Consumer Discretionary": 10,
+          "Energy": 10,
+          "Financials": 10,
+          "Healthcare": 10,
+          "Technology": 10
+        }
+      }
+    },
+    "phase_1_pilot_and_rule_lock": {
+      "passed": false,
+      "evidence": {
+        "candidate_rows": 51,
+        "pilot_decision_record": true,
+        "human_approval_recorded": false
+      }
+    },
+    "phase_2_candidate_registry": {
+      "passed": true,
+      "evidence": {
+        "companies_with_candidates": 50,
+        "missing_company_candidates": []
+      }
+    },
+    "phase_3_cdx_and_snapshot_selection": {
+      "passed": false,
+      "evidence": {
+        "status_rows": 450,
+        "discovery_incomplete_rows": 414
+      }
+    },
+    "phase_4_text_extraction": {
+      "passed": false,
+      "evidence": {
+        "selected_rows": 10,
+        "artifact_rows": 10,
+        "usable_rows": 9,
+        "pending_review_rows": 19,
+        "human_validation_recorded": false
+      }
+    },
+    "phase_5_change_detection": {
+      "passed": false,
+      "evidence": {
+        "change_rows": 450,
+        "human_validation_recorded": false
+      }
+    },
+    "phase_6_theme_and_llm_analysis": {
+      "passed": false,
+      "evidence": {
+        "theme_observation_rows": 83,
+        "llm_analysis_completed": false,
+        "deterministic_baseline_completed": true
+      }
+    },
+    "phase_7_reporting_and_deliverables": {
+      "passed": false,
+      "evidence": {
+        "final_rows": 450,
+        "summary_exists": true,
+        "upstream_research_gates_passed": false
+      }
+    }
+  }
+}
