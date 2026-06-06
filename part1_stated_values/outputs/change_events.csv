@@ -113,8 +113,8 @@ CRM,2018,,,indeterminate,
 CRM,2019,,,indeterminate,
 CRM,2020,,,indeterminate,
 CRM,2021,,,indeterminate,
-CRM,2022,,,indeterminate,
-CRM,2023,,,indeterminate,
+CRM,2022,True,0.027248,minor_edit,"{""added"": [""We are committed to bringing the full power of Salesforce to accelerate the world’s journey to net zero."", ""LEARN ABOUT OUR CLIMATE ACTION PROGRAMS"", ""Today, more than 15,000 companies worldwide have joined us in our Pledge 1% movement.""], ""removed"": [""Explore our values"", ""Explore our values"", ""Today, more than 12,000 companies worldwide have joined us in our Pledge 1% movement.""]}"
+CRM,2023,True,0.174129,substantive_change,"{""added"": [""You could say we've always been the customer company."", ""From the day we opened our doors, focus on our customers drove our every decision."", ""It fueled our growth and powered our customers' success.""], ""removed"": [""From the start, Salesforce has sought to change the world for the better through technology that builds stronger relationships."", ""Between companies and their customers."", ""Between employees and far-flung teams.""]}"
 CRM,2024,,,indeterminate,
 CVX,2016,,,no_prior,
 CVX,2017,,,indeterminate,

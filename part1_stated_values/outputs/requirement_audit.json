@@ -15,15 +15,15 @@
   },
   "coverage": {
     "target_record_count": 450,
-    "usable_record_count": 44,
-    "usable_rate": 0.0978,
+    "usable_record_count": 47,
+    "usable_rate": 0.1044,
     "status_counts": {
-      "discovery_incomplete": 344,
+      "discovery_incomplete": 335,
       "insufficient_substantive_text": 14,
-      "no_cdx_capture": 25,
-      "no_eligible_capture": 14,
+      "no_cdx_capture": 30,
+      "no_eligible_capture": 15,
       "no_eligible_page": 9,
-      "usable": 44
+      "usable": 47
     },
     "companies_observed": 50,
     "years_observed": [
@@ -102,15 +102,6 @@
       "COP:2022",
       "COP:2023",
       "COP:2024",
-      "CRM:2016",
-      "CRM:2017",
-      "CRM:2018",
-      "CRM:2019",
-      "CRM:2020",
-      "CRM:2021",
-      "CRM:2022",
-      "CRM:2023",
-      "CRM:2024",
       "CVX:2016",
       "CVX:2017",
       "CVX:2018",

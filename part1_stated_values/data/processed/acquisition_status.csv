@@ -107,15 +107,15 @@ COP,ConocoPhillips,Energy,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,sa
 COP,ConocoPhillips,Energy,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 COP,ConocoPhillips,Energy,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 COP,ConocoPhillips,Energy,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-CRM,Salesforce,Technology,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-CRM,Salesforce,Technology,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-CRM,Salesforce,Technology,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-CRM,Salesforce,Technology,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-CRM,Salesforce,Technology,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-CRM,Salesforce,Technology,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-CRM,Salesforce,Technology,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-CRM,Salesforce,Technology,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-CRM,Salesforce,Technology,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
+CRM,Salesforce,Technology,2016,2016-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,2
+CRM,Salesforce,Technology,2017,2017-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+CRM,Salesforce,Technology,2018,2018-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+CRM,Salesforce,Technology,2019,2019-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+CRM,Salesforce,Technology,2020,2020-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+CRM,Salesforce,Technology,2021,2021-06-30T12:00:00+00:00,selected,,1,77,9,2021-06-29T08:50:38+00:00,https://www.salesforce.com/company/our-story/,https://web.archive.org/web/20210629085038id_/https://www.salesforce.com/company/our-story/,complete,3
+CRM,Salesforce,Technology,2022,2022-06-30T12:00:00+00:00,selected,,1,95,6,2022-03-23T13:51:07+00:00,https://www.salesforce.com/company/our-story/,https://web.archive.org/web/20220323135107id_/https://www.salesforce.com/company/our-story/,complete,2
+CRM,Salesforce,Technology,2023,2023-06-30T12:00:00+00:00,selected,,1,123,2,2023-07-07T02:22:09+00:00,https://www.salesforce.com/company/our-story/,https://web.archive.org/web/20230707022209id_/https://www.salesforce.com/company/our-story/,complete,1
+CRM,Salesforce,Technology,2024,2024-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,272,0,,,,complete,1
 CVX,Chevron,Energy,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 CVX,Chevron,Energy,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 CVX,Chevron,Energy,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
