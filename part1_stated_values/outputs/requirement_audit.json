@@ -15,15 +15,15 @@
   },
   "coverage": {
     "target_record_count": 450,
-    "usable_record_count": 35,
-    "usable_rate": 0.0778,
+    "usable_record_count": 42,
+    "usable_rate": 0.0933,
     "status_counts": {
-      "discovery_incomplete": 362,
+      "discovery_incomplete": 353,
       "insufficient_substantive_text": 8,
       "no_cdx_capture": 24,
-      "no_eligible_capture": 12,
+      "no_eligible_capture": 14,
       "no_eligible_page": 9,
-      "usable": 35
+      "usable": 42
     },
     "companies_observed": 50,
     "years_observed": [
@@ -274,15 +274,6 @@
       "NVDA:2022",
       "NVDA:2023",
       "NVDA:2024",
-      "ORCL:2016",
-      "ORCL:2017",
-      "ORCL:2018",
-      "ORCL:2019",
-      "ORCL:2020",
-      "ORCL:2021",
-      "ORCL:2022",
-      "ORCL:2023",
-      "ORCL:2024",
       "OXY:2016",
       "OXY:2017",
       "OXY:2018",

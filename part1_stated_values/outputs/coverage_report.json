@@ -1,14 +1,14 @@
 {
   "target_record_count": 450,
-  "usable_record_count": 35,
-  "usable_rate": 0.0778,
+  "usable_record_count": 42,
+  "usable_rate": 0.0933,
   "status_counts": {
-    "discovery_incomplete": 362,
+    "discovery_incomplete": 353,
     "insufficient_substantive_text": 8,
     "no_cdx_capture": 24,
-    "no_eligible_capture": 12,
+    "no_eligible_capture": 14,
     "no_eligible_page": 9,
-    "usable": 35
+    "usable": 42
   },
   "companies_observed": 50,
   "years_observed": [

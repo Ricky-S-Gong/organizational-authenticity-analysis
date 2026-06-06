@@ -2325,15 +2325,876 @@ NVDA,NVIDIA,Technology,2021,discovery_incomplete,same-year CDX query missing or 
 NVDA,NVIDIA,Technology,2022,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
 NVDA,NVIDIA,Technology,2023,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
 NVDA,NVIDIA,Technology,2024,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-ORCL,Oracle,Technology,2016,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,no_prior,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-ORCL,Oracle,Technology,2017,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-ORCL,Oracle,Technology,2018,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-ORCL,Oracle,Technology,2019,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-ORCL,Oracle,Technology,2020,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-ORCL,Oracle,Technology,2021,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-ORCL,Oracle,Technology,2022,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-ORCL,Oracle,Technology,2023,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-ORCL,Oracle,Technology,2024,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
+ORCL,Oracle,Technology,2016,no_eligible_capture,same-year captures exist but none are successful HTML,,,,,,,no_prior,,,,,Unavailable: same-year captures exist but none are successful HTML,,,not_available,not_applicable
+ORCL,Oracle,Technology,2017,no_eligible_capture,same-year captures exist but none are successful HTML,,,,,,,indeterminate,,,,,Unavailable: same-year captures exist but none are successful HTML,,,not_available,not_applicable
+ORCL,Oracle,Technology,2018,usable,,https://www.oracle.com/corporate/,https://web.archive.org/web/20180927154601id_/https://www.oracle.com/corporate/,2018-09-27T15:46:01+00:00,"About Oracle | Company Information | Oracle
+About Oracle
+430,000+ Customers worldwide
+25,000+ Partners worldwide
+138,000+ Employees around the globe
+US$37.7B FY17 GAAP revenue
+Company Information
+Customers, Partners, Communities
+Press, Analysts, Investors
+Careers at Oracle
+With 430,000 customers in 175 countries, Oracle provides leading-edge capabilities in software as a service, platform as a service, infrastructure as a service, and data as a service. Learn more about Oracle and who we are.
+Company Information
+Oracle Fact Sheet
+Corporate Citizenship
+Analyst Relations
+Board of Directors
+Investor Relations
+See More
+Acquisitions
+Cloud Customer Successes
+Corporate Governance
+Events Calendar
+Executive Spokespeople
+Experience Inspiration
+Feature Stories
+Oracle Academy
+Oracle Awards
+Oracle Excellence Awards
+Oracle Subscription Center
+ORACLE TEAM USA
+Oracle Thought Leadership on Forbes.com
+Sustainability Solutions
+Team Oracle
+Customers, Partners, Communities
+Oracle University
+Oracle Communities
+Oracle Events
+Cloud Customer Successes
+See More
+Customer Visit Center
+Global Pricing and Licensing
+Oracle Contracts
+Oracle Insight
+Oracle License Management Services
+Oracle Software Investment Advisory
+Oracle Subscription Center
+Oracle Suppliers
+Social Connections
+Supplier Diversity
+Press, Analysts, Investors
+Newsroom
+Investor Relations
+Strategic Acquisitions
+Analyst Relations and Reports
+See More
+Executive Spokespeople
+Financial News
+Investor Events and Presentations
+Press Releases
+Careers at Oracle
+Search for a Job
+College Recruiting
+Diversity and Inclusion
+Oracle Careers
+See More
+Careers by Region
+Internships for Injured Veterans
+Internship Opportunities
+Contact Us
+US Sales: +1.800.633.0738
+Global Contacts
+Support Directory
+Subscribe to Emails
+About Oracle
+Careers
+Company Information
+Social Responsibility
+Communities
+Downloads and Trials
+Java Runtime Download
+Java for Developers
+Software Downloads
+Try Oracle Cloud Free
+News and Events
+Acquisitions
+Blogs
+Events
+Newsroom
+Facebook
+Twitter
+LinkedIn
+Google+
+YouTube
+Oracle RSS Feed
+Oracle
+Integrated Cloud Applications & Platform Services
+© Oracle
+Site Map
+Terms of Use and Privacy
+Ad Choices",,,indeterminate,"[""customers_and_service"", ""employees_and_workplace"", ""innovation_and_excellence"", ""diversity_equity_and_inclusion"", ""social_impact_and_community"", ""environment_and_sustainability"", ""leadership_and_accountability"", ""purpose_and_identity""]","[{""evidence_excerpts"": [""Cloud Customer Successes"", ""Customer Visit Center"", ""430,000+ Customers worldwide"", ""Customers, Partners, Communities"", ""With 430,000 customers in 175 countries, Oracle provides leading-edge capabilities in software as a service, platform as a service, infrastructure as a service, and data as a service.""], ""match_count"": 11, ""matched_phrases"": [""customer"", ""customers"", ""service""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""customers_and_service"", ""theme_label"": ""Customers and service""}, {""evidence_excerpts"": [""138,000+ Employees around the globe""], ""match_count"": 1, ""matched_phrases"": [""employees""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""employees_and_workplace"", ""theme_label"": ""Employees and workplace""}, {""evidence_excerpts"": [""Oracle Excellence Awards""], ""match_count"": 1, ""matched_phrases"": [""excellence""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""innovation_and_excellence"", ""theme_label"": ""Innovation and excellence""}, {""evidence_excerpts"": [""Supplier Diversity"", ""Diversity and Inclusion""], ""match_count"": 3, ""matched_phrases"": [""diversity"", ""inclusion""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""diversity_equity_and_inclusion"", ""theme_label"": ""Diversity, equity, and inclusion""}, {""evidence_excerpts"": [""Customers, Partners, Communities"", ""Oracle Communities"", ""Communities""], ""match_count"": 4, ""matched_phrases"": [""communities""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""social_impact_and_community"", ""theme_label"": ""Social impact and community""}, {""evidence_excerpts"": [""Sustainability Solutions""], ""match_count"": 1, ""matched_phrases"": [""sustainability""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""environment_and_sustainability"", ""theme_label"": ""Environment and sustainability""}, {""evidence_excerpts"": [""Oracle Thought Leadership on Forbes.com"", ""Social Responsibility""], ""match_count"": 2, ""matched_phrases"": [""leadership"", ""responsibility""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}, {""evidence_excerpts"": [""Learn more about Oracle and who we are.""], ""match_count"": 1, ""matched_phrases"": [""who we are""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""purpose_and_identity"", ""theme_label"": ""Purpose and identity""}]","{""action_or_evidence_count"": 0, ""action_or_evidence_rate_per_100_words"": 0.0, ""aspiration_count"": 0, ""aspiration_rate_per_100_words"": 0.0, ""average_sentence_length"": 2.8515, ""commitment_count"": 0, ""commitment_rate_per_100_words"": 0.0, ""first_person_plural_count"": 4, ""first_person_plural_rate_per_100_words"": 1.3889, ""quantified_claim_count"": 7, ""sentence_count"": 101, ""stakeholder_count"": 17, ""stakeholder_rate_per_100_words"": 5.9028, ""word_count"": 288}",,Deterministic evidence-backed baseline; manual review required.,310e46ac74a529b18830bb13a2225f3743cdd239db626283398e64ed3fff7fb8,0ccc88231d6f3f20427482011a9a881d4e1b53b224924777c9dc1eca94c2141d,review_required,pending
+ORCL,Oracle,Technology,2019,usable,,https://www.oracle.com/corporate/,https://web.archive.org/web/20190630231129id_/https://www.oracle.com/corporate/,2019-06-30T23:11:29+00:00,"About Oracle | Company Information | Oracle
+About Oracle
+430,000+ Customers worldwide
+25,000+ Partners worldwide
+138,000+ Employees around the globe
+US$37.7B FY17 GAAP revenue
+Company Information
+Customers, Partners, Communities
+Press, Analysts, Investors
+Careers at Oracle
+Emerging technologies are disrupting old paradigms and unleashing new opportunities. Oracle has embedded innovative technologies in every aspect of our cloud, enabling companies to reimagine their businesses, processes, and experiences.
+With the introduction of Oracle Autonomous Database, the industry’s only self-driving, self-securing, and self-repairing database, Oracle is again revolutionizing how data is managed. Oracle is the #1 provider of business software, with a broad portfolio of solutions for companies of all sizes. Today, 430,000 customers in 175 countries use Oracle technologies to seize business opportunities and solve real, tangible challenges.
+Company Information
+Oracle Fact Sheet (PDF)
+Corporate Citizenship
+Analyst Relations
+Board of Directors
+Investor Relations
+See More
+Acquisitions
+Cloud Customer Successes
+Corporate Governance
+Events Calendar
+Executive Spokespeople
+Experience Inspiration
+Oracle Academy
+Oracle Excellence Awards
+Oracle Subscription Center
+Security Practices
+Sustainability Solutions
+Team Oracle
+Customers, Partners, Communities
+Oracle University
+Oracle Communities
+Oracle Events
+Cloud Customer Successes
+See More
+Customer Visit Center
+Global Pricing and Licensing
+Oracle Contracts
+Oracle Insight
+Oracle License Management Services
+Oracle Publishing
+Oracle Software Investment Advisory
+Oracle Subscription Center
+Oracle Suppliers
+Supplier Diversity
+Press, Analysts, Investors
+Newsroom
+Investor Relations
+Strategic Acquisitions
+Analyst Relations and Reports
+See More
+Executive Spokespeople
+Financial News
+Investor Events and Presentations
+Press Releases
+Careers at Oracle
+Search for a Job
+College Recruiting
+Diversity and Inclusion
+Oracle Careers
+See More
+Careers by Region
+Internships for Injured Veterans
+Internship Opportunities
+Contact Us
+US Sales: +1.800.633.0738
+Global Contacts
+Support Directory
+Subscribe to Emails
+About Oracle
+Careers
+Company Information
+Social Responsibility
+Communities
+Downloads and Trials
+Java Runtime Download
+Java for Developers
+Software Downloads
+Try Oracle Cloud Free
+News and Events
+Acquisitions
+Blogs
+Events
+Newsroom
+Facebook
+Twitter
+LinkedIn
+YouTube
+Oracle
+Integrated Cloud Applications & Platform Services
+© Oracle
+Site Map
+Terms of Use and Privacy
+Ad Choices",True,0.338095,substantive_change,"[""customers_and_service"", ""employees_and_workplace"", ""innovation_and_excellence"", ""diversity_equity_and_inclusion"", ""social_impact_and_community"", ""environment_and_sustainability"", ""health_safety_and_wellbeing"", ""leadership_and_accountability""]","[{""evidence_excerpts"": [""Cloud Customer Successes"", ""Customer Visit Center"", ""430,000+ Customers worldwide"", ""Customers, Partners, Communities"", ""Today, 430,000 customers in 175 countries use Oracle technologies to seize business opportunities and solve real, tangible challenges.""], ""match_count"": 7, ""matched_phrases"": [""customer"", ""customers""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""customers_and_service"", ""theme_label"": ""Customers and service""}, {""evidence_excerpts"": [""138,000+ Employees around the globe""], ""match_count"": 1, ""matched_phrases"": [""employees""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""employees_and_workplace"", ""theme_label"": ""Employees and workplace""}, {""evidence_excerpts"": [""Oracle has embedded innovative technologies in every aspect of our cloud, enabling companies to reimagine their businesses, processes, and experiences."", ""Oracle Excellence Awards""], ""match_count"": 2, ""matched_phrases"": [""innovative"", ""excellence""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""innovation_and_excellence"", ""theme_label"": ""Innovation and excellence""}, {""evidence_excerpts"": [""Supplier Diversity"", ""Diversity and Inclusion""], ""match_count"": 3, ""matched_phrases"": [""diversity"", ""inclusion""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""diversity_equity_and_inclusion"", ""theme_label"": ""Diversity, equity, and inclusion""}, {""evidence_excerpts"": [""Customers, Partners, Communities"", ""Oracle Communities"", ""Communities""], ""match_count"": 4, ""matched_phrases"": [""communities""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""social_impact_and_community"", ""theme_label"": ""Social impact and community""}, {""evidence_excerpts"": [""Sustainability Solutions""], ""match_count"": 1, ""matched_phrases"": [""sustainability""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""environment_and_sustainability"", ""theme_label"": ""Environment and sustainability""}, {""evidence_excerpts"": [""Security Practices""], ""match_count"": 1, ""matched_phrases"": [""security""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""health_safety_and_wellbeing"", ""theme_label"": ""Health, safety, and wellbeing""}, {""evidence_excerpts"": [""Social Responsibility""], ""match_count"": 1, ""matched_phrases"": [""responsibility""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}]","{""action_or_evidence_count"": 0, ""action_or_evidence_rate_per_100_words"": 0.0, ""aspiration_count"": 0, ""aspiration_rate_per_100_words"": 0.0, ""average_sentence_length"": 3.3232, ""commitment_count"": 0, ""commitment_rate_per_100_words"": 0.0, ""first_person_plural_count"": 4, ""first_person_plural_rate_per_100_words"": 1.2158, ""quantified_claim_count"": 8, ""sentence_count"": 99, ""stakeholder_count"": 17, ""stakeholder_rate_per_100_words"": 5.1672, ""word_count"": 329}","{""added"": [""Emerging technologies are disrupting old paradigms and unleashing new opportunities."", ""Oracle has embedded innovative technologies in every aspect of our cloud, enabling companies to reimagine their businesses, processes, and experiences."", ""With the introduction of Oracle Autonomous Database, the industry’s only self-driving, self-securing, and self-repairing database, Oracle is again revolutionizing how data is managed.""], ""removed"": [""With 430,000 customers in 175 countries, Oracle provides leading-edge capabilities in software as a service, platform as a service, infrastructure as a service, and data as a service."", ""Learn more about Oracle and who we are."", ""Oracle Fact Sheet""]}",Deterministic evidence-backed baseline; manual review required.,aa783f95cc5549728a17c86db9b1b414d97142484350161aeba2cea1661602ad,28b87cd9edf7bc9d952b75362a7a6612a13a3f0a15e31b0e77050fd78c4fb27c,review_required,pending
+ORCL,Oracle,Technology,2020,usable,,https://www.oracle.com/corporate/,https://web.archive.org/web/20200630104638id_/https://www.oracle.com/corporate/,2020-06-30T10:46:38+00:00,"About Oracle | Company Information | Oracle
+home nav
+View Accounts
+Sign In
+Back Oracle Account
+Sign-In
+Create an Account
+Help
+Sign Out
+Cloud Account Sign in to Cloud Sign Up for Free Cloud Tier
+No results found
+Your search did not match any results.
+We suggest you try the following to help find what you’re looking for:
+Check the spelling of your keyword search.
+Use synonyms for the keyword you typed, for example, try “application” instead of “software.”
+Try one of the popular searches shown below.
+Start a new search.
+Trending Questions
+Our mission is to help people see data in new ways, discover insights, unlock endless possibilities.
+Working @ Oracle
+Innovative
+Oracle applies enterprise expertise to startup ingenuity to solve business problems
+Oracle for Startups details
+Growth Centric
+Employees develop skills and achieve success alongside managers who invest in them
+Check our training benefits
+People Oriented
+Oracle’s corporate culture values teamwork, quality, and collaboration
+Review our core values
+Learn about our leadership team and Board of Directors.
+Read their biographies
+A history of possibilities
+Birth of a Silicon Valley startup
+Engineers Larry Ellison, Bob Miner, and Ed Oates found Software Development Laboratories. Their first office is 900-square-feet in Santa Clara, California.
+1977
+Oracle sees the future
+The company changes its name to Oracle Corporation from Relational Software Inc. (formerly SDL).
+1982
+Oracle goes public
+Oracle becomes a publicly traded company on the NASDAQ exchange. Quotation symbol is ORCL.
+1986
+World’s largest database management company
+Oracle ranked as the world’s largest database management company with US$100M in sales and 4,500 end users in 55 countries.
+1987
+Moving on up
+Oracle debuts on the S&P 500; outgrows old headquarters and moves to its current location in Redwood Shores, California.
+1989
+Oracle celebrates 15 years and Oracle7 release
+There’s lots to celebrate with the release of game-changer Oracle7 database and the company’s 15th anniversary.
+1992
+Harnessing the power of the internet
+CEO Larry Ellison introduces a product strategy for delivering Oracle software via the internet.
+1995
+Oracle Database sets the standard
+InformationWeek names Oracle Database one of the most influential products of the 1990s.
+1999
+Oracle saves a billion—using Oracle
+Oracle saves US$1B dollars consolidating its own systems using Oracle E-Business Suite 11i, the first fully integrated enterprise apps suite.
+2000
+Oracle acquires PeopleSoft
+Oracle kicks off a Silicon Valley high-tech acquisition trend by buying a leader in HR and ERP apps.
+2005
+Oracle at 30 continues to grow and innovate
+Oracle turns 30 with revenues of US$18B, 65,000 employees, and 275,000 customers in more than 145 countries.
+2007
+Simply Marvel-ous
+Marvel Entertainment smashes silos and mines data using Oracle applications.
+2008
+Hardware and software, engineered to work together
+Oracle acquires Sun Microsystems, cementing its strategy to engineer hardware and software together. Becomes the steward of Java.
+2010
+Oracle Database plugs into the cloud
+Revolutionary multitenant architecture helps deliver a secure and consolidated database cloud.
+2013
+ORACLE TEAM USA sails to second America’s Cup win
+ORACLE TEAM USA beats challenger Team New Zealand to win the 2013 America’s Cup yacht race, its second consecutive victory.
+2013
+Leadership to the power of three
+Safra Catz and Mark Hurd named Oracle CEOs. Founder Larry Ellison becomes chairman of the board and chief technology officer.
+2014
+Support for startups
+Oracle’s startup program promoting tech entrepreneurship launches, grows to nine centers before becoming a global digital program.
+2016
+Oracle launches the first autonomous database
+The company launches Oracle Autonomous Database, the industry’s first self-patching, self-tuning, self-managing database.
+2018
+CERN explores inner workings of the universe
+Scientific research center is using 10,000 Oracle Cloud cores to perform physics analysis.
+2018
+Barcelona biotech fights heart disease
+ELEM computes full-heart models of diseased hearts using Oracle's high performance cloud.
+2019
+Endless
+possibilities
+Our Culture
+Work Here
+Want to make a difference? You’ve come to the right place.
+Socially Responsible
+At Oracle, we know that sustainability is good business.
+Diverse and Inclusive
+We don’t just value differences—we celebrate them.
+“Oracle thrives because of the exceptional talent we have attracted.”
+Resources for
+Developers
+Startups
+Students and Educators
+Partners
+Oracle PartnerNetwork
+Find a Partner
+Log in to OPN
+Solutions
+Artificial Intelligence
+Internet of Things
+Blockchain
+What’s New
+Oracle’s response to COVID-19
+Java SE14 download
+Try Oracle Cloud Free Tier
+Contact Us
+US Sales: +1.800.633.0738
+How can we help?
+Subscribe to emails
+Facebook
+Twitter
+LinkedIn
+YouTube
+Oracle
+Integrated Cloud Applications & Platform Services
+© 2020 Oracle
+Site Map
+Privacy / Do Not Sell My Info
+Country/Region
+Ad Choices
+Careers",True,0.859712,substantive_change,"[""customers_and_service"", ""employees_and_workplace"", ""innovation_and_excellence"", ""diversity_equity_and_inclusion"", ""environment_and_sustainability"", ""leadership_and_accountability"", ""collaboration_and_partnership"", ""purpose_and_identity""]","[{""evidence_excerpts"": [""Oracle turns 30 with revenues of US$18B, 65,000 employees, and 275,000 customers in more than 145 countries.""], ""match_count"": 1, ""matched_phrases"": [""customers""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""customers_and_service"", ""theme_label"": ""Customers and service""}, {""evidence_excerpts"": [""Employees develop skills and achieve success alongside managers who invest in them"", ""Oracle turns 30 with revenues of US$18B, 65,000 employees, and 275,000 customers in more than 145 countries."", ""“Oracle thrives because of the exceptional talent we have attracted.”""], ""match_count"": 3, ""matched_phrases"": [""employees"", ""talent""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""employees_and_workplace"", ""theme_label"": ""Employees and workplace""}, {""evidence_excerpts"": [""Innovative"", ""Oracle’s corporate culture values teamwork, quality, and collaboration""], ""match_count"": 2, ""matched_phrases"": [""innovative"", ""quality""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""innovation_and_excellence"", ""theme_label"": ""Innovation and excellence""}, {""evidence_excerpts"": [""Diverse and Inclusive""], ""match_count"": 2, ""matched_phrases"": [""diverse"", ""inclusive""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""diversity_equity_and_inclusion"", ""theme_label"": ""Diversity, equity, and inclusion""}, {""evidence_excerpts"": [""At Oracle, we know that sustainability is good business.""], ""match_count"": 1, ""matched_phrases"": [""sustainability""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""environment_and_sustainability"", ""theme_label"": ""Environment and sustainability""}, {""evidence_excerpts"": [""Learn about our leadership team and Board of Directors."", ""Leadership to the power of three"", ""Oracle kicks off a Silicon Valley high-tech acquisition trend by buying a leader in HR and ERP apps."", ""Socially Responsible""], ""match_count"": 4, ""matched_phrases"": [""leadership"", ""leader"", ""responsible""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}, {""evidence_excerpts"": [""Oracle’s corporate culture values teamwork, quality, and collaboration"", ""Hardware and software, engineered to work together"", ""Oracle acquires Sun Microsystems, cementing its strategy to engineer hardware and software together.""], ""match_count"": 4, ""matched_phrases"": [""collaboration"", ""teamwork"", ""together""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""collaboration_and_partnership"", ""theme_label"": ""Collaboration and partnership""}, {""evidence_excerpts"": [""Our mission is to help people see data in new ways, discover insights, unlock endless possibilities."", ""Review our core values""], ""match_count"": 2, ""matched_phrases"": [""our mission"", ""core values""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""purpose_and_identity"", ""theme_label"": ""Purpose and identity""}]","{""action_or_evidence_count"": 1, ""action_or_evidence_rate_per_100_words"": 0.13, ""aspiration_count"": 0, ""aspiration_rate_per_100_words"": 0.0, ""average_sentence_length"": 5.4929, ""commitment_count"": 0, ""commitment_rate_per_100_words"": 0.0, ""first_person_plural_count"": 16, ""first_person_plural_rate_per_100_words"": 2.0806, ""quantified_claim_count"": 35, ""sentence_count"": 140, ""stakeholder_count"": 5, ""stakeholder_rate_per_100_words"": 0.6502, ""word_count"": 769}","{""added"": [""home nav"", ""View Accounts"", ""Sign In""], ""removed"": [""About Oracle"", ""430,000+ Customers worldwide"", ""25,000+ Partners worldwide""]}",Deterministic evidence-backed baseline; manual review required.,33d50c38b26893ceb7f5c46ac83e9aca89674f11401503b8327f031ecbf4e525,c0f33cb7f4a7ec2e9055a1bd1861e25c4ac405a803e1b49f3f9e82ce58885e1f,review_required,pending
+ORCL,Oracle,Technology,2021,usable,,https://www.oracle.com/corporate/,https://web.archive.org/web/20210701062101id_/https://www.oracle.com/corporate/,2021-07-01T06:21:01+00:00,"About Oracle | Company Information | Oracle
+Click to view our Accessibility Policy
+Skip to content
+home nav
+View Accounts
+Sign In
+Back Oracle Account
+Cloud Account Sign in to Cloud Sign Up for Free Cloud Tier
+Sign-In
+Create an Account
+Help
+Sign Out
+Contact Sales
+No results found
+Your search did not match any results.
+We suggest you try the following to help find what you’re looking for:
+Check the spelling of your keyword search.
+Use synonyms for the keyword you typed, for example, try “application” instead of “software.”
+Try one of the popular searches shown below.
+Start a new search.
+Trending Questions
+Our mission is to help people see data in new ways, discover insights, unlock endless possibilities.
+Working @ Oracle
+Innovative
+Oracle applies enterprise expertise to startup ingenuity to solve business problems
+Oracle for Startups details
+Growth Centric
+Employees develop skills and achieve success alongside managers who invest in them
+Check our training benefits
+People Oriented
+Oracle’s corporate culture values teamwork, quality, and collaboration
+Review our core values
+Learn about our leadership team and Board of Directors.
+Read their biographies
+A history of possibilities
+Birth of a Silicon Valley startup
+Engineers Larry Ellison, Bob Miner, and Ed Oates found Software Development Laboratories. Their first office is 900-square-feet in Santa Clara, California.
+1977
+Oracle sees the future
+The company changes its name to Oracle Corporation from Relational Software Inc. (formerly SDL).
+1982
+Oracle goes public
+Oracle becomes a publicly traded company on the NASDAQ exchange. Quotation symbol is ORCL.
+1986
+World’s largest database management company
+Oracle ranked as the world’s largest database management company with US$100M in sales and 4,500 end users in 55 countries.
+1987
+Moving on up
+Oracle debuts on the S&P 500; outgrows old headquarters and moves to its current location in Redwood Shores, California.
+1989
+Oracle celebrates 15 years and Oracle7 release
+There’s lots to celebrate with the release of game-changer Oracle7 database and the company’s 15th anniversary.
+1992
+Harnessing the power of the internet
+CEO Larry Ellison introduces a product strategy for delivering Oracle software via the internet.
+1995
+Oracle Database sets the standard
+InformationWeek names Oracle Database one of the most influential products of the 1990s.
+1999
+Oracle saves a billion—using Oracle
+Oracle saves US$1B dollars consolidating its own systems using Oracle E-Business Suite 11i, the first fully integrated enterprise apps suite.
+2000
+Oracle acquires PeopleSoft
+Oracle kicks off a Silicon Valley high-tech acquisition trend by buying a leader in HR and ERP apps.
+2005
+Oracle at 30 continues to grow and innovate
+Oracle turns 30 with revenues of US$18B, 65,000 employees, and 275,000 customers in more than 145 countries.
+2007
+Simply Marvel-ous
+Marvel Entertainment smashes silos and mines data using Oracle applications.
+2008
+Hardware and software, engineered to work together
+Oracle acquires Sun Microsystems, cementing its strategy to engineer hardware and software together. Becomes the steward of Java.
+2010
+Oracle Database plugs into the cloud
+Revolutionary multitenant architecture helps deliver a secure and consolidated database cloud.
+2013
+ORACLE TEAM USA sails to second America’s Cup win
+ORACLE TEAM USA beats challenger Team New Zealand to win the 2013 America’s Cup yacht race, its second consecutive victory.
+2013
+Leadership to the power of three
+Safra Catz and Mark Hurd named Oracle CEOs. Founder Larry Ellison becomes chairman of the board and chief technology officer.
+2014
+Support for startups
+Oracle’s startup program promoting tech entrepreneurship launches, grows to nine centers before becoming a global digital program.
+2016
+Oracle launches the first autonomous database
+The company launches Oracle Autonomous Database, the industry’s first self-patching, self-tuning, self-managing database.
+2018
+CERN explores inner workings of the universe
+Scientific research center is using 10,000 Oracle Cloud cores to perform physics analysis.
+2018
+Barcelona biotech fights heart disease
+ELEM computes full-heart models of diseased hearts using Oracle's high performance cloud.
+2019
+We’re taking on COVID-19
+Oracle is helping government agencies and the medical community better understand and combat the coronavirus.
+2021
+Endless
+possibilities
+Our Culture
+Work Here
+Want to make a difference? You’ve come to the right place.
+Socially Responsible
+At Oracle, we know that sustainability is good business.
+Diverse and Inclusive
+We don’t just value differences—we celebrate them.
+“Oracle thrives because of the exceptional talent we have attracted.”
+Resources for
+Career Seekers
+Developers
+Investors
+Partners
+Startups
+Students and Educators
+Why Oracle
+Analyst Reports
+Gartner MQ for ERP Cloud
+Cloud Economics
+Corporate Responsibility
+Diversity and Inclusion
+Security Practices
+Learn
+What is cloud computing?
+What is CRM?
+What is Docker?
+What is Kubernetes?
+What is Python?
+What is SaaS?
+What’s New
+Try Oracle Cloud Free Tier
+Oracle Arm Processors
+Oracle and Premier League
+Oracle and Red Bull Racing Honda
+Employee Experience Platform
+Oracle Cloud Rewards
+Contact Us
+US Sales: +1.800.633.0738
+How can we help?
+Subscribe to emails
+Events
+News
+Blogs
+Country/Region
+© 2021 Oracle
+Site Map
+Privacy / Do Not Sell My Info
+Ad Choices
+Careers
+Facebook
+Twitter
+LinkedIn
+YouTube",True,0.129293,substantive_change,"[""customers_and_service"", ""employees_and_workplace"", ""innovation_and_excellence"", ""diversity_equity_and_inclusion"", ""social_impact_and_community"", ""environment_and_sustainability"", ""health_safety_and_wellbeing"", ""leadership_and_accountability"", ""collaboration_and_partnership"", ""purpose_and_identity""]","[{""evidence_excerpts"": [""Oracle turns 30 with revenues of US$18B, 65,000 employees, and 275,000 customers in more than 145 countries.""], ""match_count"": 1, ""matched_phrases"": [""customers""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""customers_and_service"", ""theme_label"": ""Customers and service""}, {""evidence_excerpts"": [""Employee Experience Platform"", ""Employees develop skills and achieve success alongside managers who invest in them"", ""Oracle turns 30 with revenues of US$18B, 65,000 employees, and 275,000 customers in more than 145 countries."", ""“Oracle thrives because of the exceptional talent we have attracted.”""], ""match_count"": 4, ""matched_phrases"": [""employee"", ""employees"", ""talent""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""employees_and_workplace"", ""theme_label"": ""Employees and workplace""}, {""evidence_excerpts"": [""Innovative"", ""Oracle’s corporate culture values teamwork, quality, and collaboration""], ""match_count"": 2, ""matched_phrases"": [""innovative"", ""quality""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""innovation_and_excellence"", ""theme_label"": ""Innovation and excellence""}, {""evidence_excerpts"": [""Diversity and Inclusion"", ""Diverse and Inclusive""], ""match_count"": 4, ""matched_phrases"": [""diversity"", ""diverse"", ""inclusion"", ""inclusive""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""diversity_equity_and_inclusion"", ""theme_label"": ""Diversity, equity, and inclusion""}, {""evidence_excerpts"": [""Oracle is helping government agencies and the medical community better understand and combat the coronavirus.""], ""match_count"": 1, ""matched_phrases"": [""community""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""social_impact_and_community"", ""theme_label"": ""Social impact and community""}, {""evidence_excerpts"": [""At Oracle, we know that sustainability is good business.""], ""match_count"": 1, ""matched_phrases"": [""sustainability""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""environment_and_sustainability"", ""theme_label"": ""Environment and sustainability""}, {""evidence_excerpts"": [""Security Practices""], ""match_count"": 1, ""matched_phrases"": [""security""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""health_safety_and_wellbeing"", ""theme_label"": ""Health, safety, and wellbeing""}, {""evidence_excerpts"": [""Learn about our leadership team and Board of Directors."", ""Leadership to the power of three"", ""Oracle kicks off a Silicon Valley high-tech acquisition trend by buying a leader in HR and ERP apps."", ""Corporate Responsibility"", ""Socially Responsible""], ""match_count"": 5, ""matched_phrases"": [""leadership"", ""leader"", ""responsibility"", ""responsible""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}, {""evidence_excerpts"": [""Oracle’s corporate culture values teamwork, quality, and collaboration"", ""Hardware and software, engineered to work together"", ""Oracle acquires Sun Microsystems, cementing its strategy to engineer hardware and software together.""], ""match_count"": 4, ""matched_phrases"": [""collaboration"", ""teamwork"", ""together""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""collaboration_and_partnership"", ""theme_label"": ""Collaboration and partnership""}, {""evidence_excerpts"": [""Our mission is to help people see data in new ways, discover insights, unlock endless possibilities."", ""Review our core values""], ""match_count"": 2, ""matched_phrases"": [""our mission"", ""core values""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""purpose_and_identity"", ""theme_label"": ""Purpose and identity""}]","{""action_or_evidence_count"": 1, ""action_or_evidence_rate_per_100_words"": 0.1199, ""aspiration_count"": 0, ""aspiration_rate_per_100_words"": 0.0, ""average_sentence_length"": 5.2453, ""commitment_count"": 0, ""commitment_rate_per_100_words"": 0.0, ""first_person_plural_count"": 18, ""first_person_plural_rate_per_100_words"": 2.1583, ""quantified_claim_count"": 36, ""sentence_count"": 159, ""stakeholder_count"": 6, ""stakeholder_rate_per_100_words"": 0.7194, ""word_count"": 834}","{""added"": [""Click to view our Accessibility Policy"", ""Skip to content"", ""Cloud Account Sign in to Cloud Sign Up for Free Cloud Tier""], ""removed"": [""Cloud Account Sign in to Cloud Sign Up for Free Cloud Tier"", ""Partners"", ""Oracle PartnerNetwork""]}",Deterministic evidence-backed baseline; manual review required.,ffca8761605b3496c2f225e6a53de1500eb75a41c06101c5c90004c6637d643e,c8723abf5005920a168b3183b6ee48c065e437fbc1ec34158301337ed59cc617,review_required,pending
+ORCL,Oracle,Technology,2022,usable,,https://www.oracle.com/corporate/,https://web.archive.org/web/20220630112545id_/https://www.oracle.com/corporate/,2022-06-30T11:25:45+00:00,"About Oracle | Company Information | Oracle
+Click to view our Accessibility Policy
+Skip to content
+Search
+View Accounts
+Back
+Cloud Account Sign in to Cloud
+Oracle Account
+Sign-In
+Create an Account
+Help
+Sign Out
+Contact Sales
+Menu
+Our mission is to help people see data in new ways, discover insights, unlock endless possibilities.
+About Oracle
+Analyst Reports
+Learn what industry analysts are saying about Oracle’s products and services.
+Business Practices
+Learn how to engage with Oracle and do business with us.
+Corporate Responsibility
+Learn about Oracle’s philanthropic efforts in the areas of sustainability, education, giving, volunteering, and more.
+Corporate Security Practices
+Learn about Oracle’s security policies and practices across the various ways Oracle engages with our customers.
+Customer References
+Discover how our customers are delighting their customers with cloud applications and cloud infrastructure.
+Executive Spokespeople
+Learn about our leadership team and Board of Directors.
+Diversity and Inclusion
+Learn how Oracle believes that innovation starts with inclusion, and that to create the future we need people with diverse backgrounds to help us get there.
+Investor Relations
+Learn about Oracle investor relations, and find information for stockholders, potential investors, and financial analysts.
+Oracle’s Response to COVID 19
+Learn about Oracle’s commitment to our community, customers, employees, and partners during the COVID-19 crisis.
+Working @ Oracle
+Work here
+Want to make a difference? You’ve come to the right place.
+Find opportunities
+Growth centric
+Employees develop skills and achieve success alongside managers who invest in them.
+Check our training benefits
+People oriented
+Oracle’s corporate culture values teamwork, quality, and collaboration.
+Review our core values
+Find out about all of our latest earnings customer highlights.
+Read their stories
+A history of possibilities
+Birth of a Silicon Valley startup
+Engineers Larry Ellison, Bob Miner, and Ed Oates found Software Development Laboratories. Their first office is 900-square-feet in Santa Clara, California.
+1977
+Oracle sees the future
+The company changes its name to Oracle Corporation from Relational Software Inc. (formerly SDL).
+1982
+Oracle goes public
+Oracle becomes a publicly traded company on the NASDAQ exchange. Quotation symbol is ORCL.
+1986
+World’s largest database management company
+Oracle ranked as the world’s largest database management company with US$100M in sales and 4,500 end users in 55 countries.
+1987
+Moving on up
+Oracle debuts on the S&P 500; outgrows old headquarters and moves to its current location in Redwood Shores, California.
+1989
+Oracle celebrates 15 years and Oracle7 release
+There’s lots to celebrate with the release of game-changer Oracle7 database and the company’s 15th anniversary.
+1992
+Harnessing the power of the internet
+CEO Larry Ellison introduces a product strategy for delivering Oracle software via the internet.
+1995
+Oracle Database sets the standard
+InformationWeek names Oracle Database one of the most influential products of the 1990s.
+1999
+Oracle saves a billion—using Oracle
+Oracle saves US$1B dollars consolidating its own systems using Oracle E-Business Suite 11i, the first fully integrated enterprise apps suite.
+2000
+Oracle acquires PeopleSoft
+Oracle kicks off a Silicon Valley high-tech acquisition trend by buying a leader in HR and ERP apps.
+2005
+Oracle at 30 continues to grow and innovate
+Oracle turns 30 with revenues of US$18B, 65,000 employees, and 275,000 customers in more than 145 countries.
+2007
+Simply Marvel-ous
+Marvel Entertainment smashes silos and mines data using Oracle applications.
+2008
+Hardware and software, engineered to work together
+Oracle acquires Sun Microsystems, cementing its strategy to engineer hardware and software together. Becomes the steward of Java.
+2010
+Oracle Database plugs into the cloud
+Revolutionary multitenant architecture helps deliver a secure and consolidated database cloud.
+2013
+ORACLE TEAM USA sails to second America’s Cup win
+ORACLE TEAM USA beats challenger Team New Zealand to win the 2013 America’s Cup yacht race, its second consecutive victory.
+2013
+Leadership to the power of three
+Safra Catz and Mark Hurd named Oracle CEOs. Founder Larry Ellison becomes chairman of the board and chief technology officer.
+2014
+Support for startups
+Oracle’s startup program promoting tech entrepreneurship launches, grows to nine centers before becoming a global digital program.
+2016
+Oracle launches the first autonomous database
+The company launches Oracle Autonomous Database, the industry’s first self-patching, self-tuning, self-managing database.
+2018
+CERN explores inner workings of the universe
+Scientific research center is using 10,000 Oracle Cloud cores to perform physics analysis.
+2018
+Barcelona biotech fights heart disease
+ELEM computes full-heart models of diseased hearts using Oracle's high performance cloud.
+2019
+We’re taking on COVID-19
+Oracle is helping government agencies and the medical community better understand and combat the coronavirus.
+2021
+Endless
+possibilities
+Resources for
+Careers
+Developers
+Investors
+Partners
+Startups
+Students and Educators
+Why Oracle
+Analyst Reports
+Gartner MQ for Cloud ERP
+Cloud Economics
+Corporate Responsibility
+Diversity and Inclusion
+Security Practices
+Learn
+What is cloud computing?
+What is CRM?
+What is Docker?
+What is Kubernetes?
+What is Python?
+What is SaaS?
+What’s New
+News
+Oracle CloudWorld
+Oracle Supports Ukraine
+Oracle Red Bull Racing
+Oracle Sustainability
+Employee Experience Platform
+Contact Us
+US Sales: +1.800.633.0738
+How can we help?
+Subscribe to emails
+Events
+Blogs
+Give feedback
+Country/Region
+© 2022 Oracle
+Site Map
+Privacy / Do Not Sell My Info
+Ad Choices
+Careers
+Facebook
+Twitter
+LinkedIn
+YouTube",True,0.210526,substantive_change,"[""customers_and_service"", ""employees_and_workplace"", ""innovation_and_excellence"", ""diversity_equity_and_inclusion"", ""social_impact_and_community"", ""environment_and_sustainability"", ""health_safety_and_wellbeing"", ""leadership_and_accountability"", ""collaboration_and_partnership"", ""purpose_and_identity""]","[{""evidence_excerpts"": [""Customer References"", ""Find out about all of our latest earnings customer highlights."", ""Learn about Oracle’s security policies and practices across the various ways Oracle engages with our customers."", ""Discover how our customers are delighting their customers with cloud applications and cloud infrastructure."", ""Learn about Oracle’s commitment to our community, customers, employees, and partners during the COVID-19 crisis."", ""Oracle turns 30 with revenues of US$18B, 65,000 employees, and 275,000 customers in more than 145 countries.""], ""match_count"": 7, ""matched_phrases"": [""customer"", ""customers""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""customers_and_service"", ""theme_label"": ""Customers and service""}, {""evidence_excerpts"": [""Employee Experience Platform"", ""Learn about Oracle’s commitment to our community, customers, employees, and partners during the COVID-19 crisis."", ""Employees develop skills and achieve success alongside managers who invest in them."", ""Oracle turns 30 with revenues of US$18B, 65,000 employees, and 275,000 customers in more than 145 countries.""], ""match_count"": 4, ""matched_phrases"": [""employee"", ""employees""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""employees_and_workplace"", ""theme_label"": ""Employees and workplace""}, {""evidence_excerpts"": [""Learn how Oracle believes that innovation starts with inclusion, and that to create the future we need people with diverse backgrounds to help us get there."", ""Oracle’s corporate culture values teamwork, quality, and collaboration.""], ""match_count"": 2, ""matched_phrases"": [""innovation"", ""quality""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""innovation_and_excellence"", ""theme_label"": ""Innovation and excellence""}, {""evidence_excerpts"": [""Diversity and Inclusion"", ""Learn how Oracle believes that innovation starts with inclusion, and that to create the future we need people with diverse backgrounds to help us get there.""], ""match_count"": 6, ""matched_phrases"": [""diversity"", ""diverse"", ""inclusion""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""diversity_equity_and_inclusion"", ""theme_label"": ""Diversity, equity, and inclusion""}, {""evidence_excerpts"": [""Learn about Oracle’s commitment to our community, customers, employees, and partners during the COVID-19 crisis."", ""Oracle is helping government agencies and the medical community better understand and combat the coronavirus.""], ""match_count"": 2, ""matched_phrases"": [""community""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""social_impact_and_community"", ""theme_label"": ""Social impact and community""}, {""evidence_excerpts"": [""Learn about Oracle’s philanthropic efforts in the areas of sustainability, education, giving, volunteering, and more."", ""Oracle Sustainability""], ""match_count"": 2, ""matched_phrases"": [""sustainability""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""environment_and_sustainability"", ""theme_label"": ""Environment and sustainability""}, {""evidence_excerpts"": [""Corporate Security Practices"", ""Learn about Oracle’s security policies and practices across the various ways Oracle engages with our customers."", ""Security Practices""], ""match_count"": 3, ""matched_phrases"": [""security""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""health_safety_and_wellbeing"", ""theme_label"": ""Health, safety, and wellbeing""}, {""evidence_excerpts"": [""Learn about our leadership team and Board of Directors."", ""Leadership to the power of three"", ""Oracle kicks off a Silicon Valley high-tech acquisition trend by buying a leader in HR and ERP apps."", ""Corporate Responsibility""], ""match_count"": 5, ""matched_phrases"": [""leadership"", ""leader"", ""responsibility""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}, {""evidence_excerpts"": [""Oracle’s corporate culture values teamwork, quality, and collaboration."", ""Hardware and software, engineered to work together"", ""Oracle acquires Sun Microsystems, cementing its strategy to engineer hardware and software together.""], ""match_count"": 4, ""matched_phrases"": [""collaboration"", ""teamwork"", ""together""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""collaboration_and_partnership"", ""theme_label"": ""Collaboration and partnership""}, {""evidence_excerpts"": [""Our mission is to help people see data in new ways, discover insights, unlock endless possibilities."", ""Review our core values""], ""match_count"": 2, ""matched_phrases"": [""our mission"", ""core values""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""purpose_and_identity"", ""theme_label"": ""Purpose and identity""}]","{""action_or_evidence_count"": 1, ""action_or_evidence_rate_per_100_words"": 0.1147, ""aspiration_count"": 0, ""aspiration_rate_per_100_words"": 0.0, ""average_sentence_length"": 5.3497, ""commitment_count"": 0, ""commitment_rate_per_100_words"": 0.0, ""first_person_plural_count"": 19, ""first_person_plural_rate_per_100_words"": 2.1789, ""quantified_claim_count"": 38, ""sentence_count"": 163, ""stakeholder_count"": 15, ""stakeholder_rate_per_100_words"": 1.7202, ""word_count"": 872}","{""added"": [""Search"", ""Back"", ""Cloud Account Sign in to Cloud""], ""removed"": [""home nav"", ""Sign In"", ""Back Oracle Account""]}",Deterministic evidence-backed baseline; manual review required.,5e33af31e27b3d8ad92e0106acb0a86b217f317e725da43340fb073f47ce1861,6fbe52d687875fddce86cab91ce5d45569666870a38e36f41919267f72a42708,review_required,pending
+ORCL,Oracle,Technology,2023,usable,,https://www.oracle.com/corporate/,https://web.archive.org/web/20230702090658id_/https://www.oracle.com/corporate/,2023-07-02T09:06:58+00:00,"About Oracle | Company Information | Oracle
+Click to view our Accessibility Policy
+Skip to content
+Search
+View Accounts
+Back
+Cloud Account Sign in to Cloud
+Oracle Account
+Sign-In
+Create an Account
+Help
+Sign Out
+Contact Sales
+Menu
+Our mission is to help people see data in new ways, discover insights, unlock endless possibilities.
+About Oracle
+Analyst Reports
+Learn what industry analysts are saying about Oracle’s products and services.
+Business Practices
+Learn how to engage with Oracle and do business with us.
+Corporate Responsibility
+Learn about Oracle’s philanthropic efforts in the areas of sustainability, education, giving, volunteering, and more.
+Corporate Security Practices
+Learn about Oracle’s security policies and practices across the various ways Oracle engages with our customers.
+Customer References
+Discover how our customers are delighting their customers with cloud applications and cloud infrastructure.
+Executive Spokespeople
+Learn about our leadership team and Board of Directors.
+Diversity and Inclusion
+Learn how Oracle believes that innovation starts with inclusion, and that to create the future we need people with diverse backgrounds to help us get there.
+Investor Relations
+Learn about Oracle investor relations, and find information for stockholders, potential investors, and financial analysts.
+Oracle’s Response to COVID 19
+Learn about Oracle’s commitment to our community, customers, employees, and partners during the COVID-19 crisis.
+Working @ Oracle
+Work here
+Want to make a difference? You’ve come to the right place.
+Find opportunities
+Growth centric
+Employees develop skills and achieve success alongside managers who invest in them.
+Check our training benefits
+People oriented
+Oracle’s corporate culture values teamwork, quality, and collaboration.
+Review our core values
+Find out about all of our latest earnings customer highlights.
+Read their stories
+A history of possibilities
+Birth of a Silicon Valley startup
+Engineers Larry Ellison, Bob Miner, and Ed Oates found Software Development Laboratories. Their first office is 900-square-feet in Santa Clara, California.
+1977
+Oracle sees the future
+The company changes its name to Oracle Corporation from Relational Software Inc. (formerly SDL).
+1982
+Oracle goes public
+Oracle becomes a publicly traded company on the NASDAQ exchange. Quotation symbol is ORCL.
+1986
+World’s largest database management company
+Oracle ranked as the world’s largest database management company with US$100M in sales and 4,500 end users in 55 countries.
+1987
+Moving on up
+Oracle debuts on the S&P 500; outgrows old headquarters and moves to its current location in Redwood Shores, California.
+1989
+Oracle celebrates 15 years and Oracle7 release
+There’s lots to celebrate with the release of game-changer Oracle7 database and the company’s 15th anniversary.
+1992
+Harnessing the power of the internet
+CEO Larry Ellison introduces a product strategy for delivering Oracle software via the internet.
+1995
+Oracle Database sets the standard
+InformationWeek names Oracle Database one of the most influential products of the 1990s.
+1999
+Oracle saves a billion—using Oracle
+Oracle saves US$1B dollars consolidating its own systems using Oracle E-Business Suite 11i, the first fully integrated enterprise apps suite.
+2000
+Oracle acquires PeopleSoft
+Oracle kicks off a Silicon Valley high-tech acquisition trend by buying a leader in HR and ERP apps.
+2005
+Oracle at 30 continues to grow and innovate
+Oracle turns 30 with revenues of US$18B, 65,000 employees, and 275,000 customers in more than 145 countries.
+2007
+Simply Marvel-ous
+Marvel Entertainment smashes silos and mines data using Oracle applications.
+2008
+Hardware and software, engineered to work together
+Oracle acquires Sun Microsystems, cementing its strategy to engineer hardware and software together. Becomes the steward of Java.
+2010
+Oracle Database plugs into the cloud
+Revolutionary multitenant architecture helps deliver a secure and consolidated database cloud.
+2013
+ORACLE TEAM USA sails to second America’s Cup win
+ORACLE TEAM USA beats challenger Team New Zealand to win the 2013 America’s Cup yacht race, its second consecutive victory.
+2013
+Oracle launches the first autonomous database
+The company launches Oracle Autonomous Database, the industry’s first self-patching, self-tuning, self-managing database.
+2018
+CERN explores inner workings of the universe
+Scientific research center is using 10,000 Oracle Cloud cores to perform physics analysis.
+2018
+Barcelona biotech fights heart disease
+ELEM computes full-heart models of diseased hearts using Oracle's high performance cloud.
+2019
+We’re taking on COVID-19
+Oracle is helping government agencies and the medical community better understand and combat the coronavirus.
+2021
+Oracle buys EHR pioneer Cerner
+Acquisition fits into broader mission: Build and deploy integrated, mostly automated healthcare information systems and processes.
+2022
+Our Formula 1 partner finishes on top
+Relying on Oracle Cloud to power its race strategy, fan engagement, and more, Oracle Red Bull Racing defends its F1 World Drivers’ Championship and wins the Constructor’s World Championship.
+2022
+Endless
+possibilities
+To move to the beginning and end use function plus left or right arrow. To move by five steps use function plus page up or page down.
+Country/Region",True,0.214567,substantive_change,"[""customers_and_service"", ""employees_and_workplace"", ""innovation_and_excellence"", ""diversity_equity_and_inclusion"", ""social_impact_and_community"", ""environment_and_sustainability"", ""health_safety_and_wellbeing"", ""leadership_and_accountability"", ""collaboration_and_partnership"", ""purpose_and_identity""]","[{""evidence_excerpts"": [""Customer References"", ""Find out about all of our latest earnings customer highlights."", ""Learn about Oracle’s security policies and practices across the various ways Oracle engages with our customers."", ""Discover how our customers are delighting their customers with cloud applications and cloud infrastructure."", ""Learn about Oracle’s commitment to our community, customers, employees, and partners during the COVID-19 crisis."", ""Oracle turns 30 with revenues of US$18B, 65,000 employees, and 275,000 customers in more than 145 countries.""], ""match_count"": 7, ""matched_phrases"": [""customer"", ""customers""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""customers_and_service"", ""theme_label"": ""Customers and service""}, {""evidence_excerpts"": [""Learn about Oracle’s commitment to our community, customers, employees, and partners during the COVID-19 crisis."", ""Employees develop skills and achieve success alongside managers who invest in them."", ""Oracle turns 30 with revenues of US$18B, 65,000 employees, and 275,000 customers in more than 145 countries.""], ""match_count"": 3, ""matched_phrases"": [""employees""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""employees_and_workplace"", ""theme_label"": ""Employees and workplace""}, {""evidence_excerpts"": [""Learn how Oracle believes that innovation starts with inclusion, and that to create the future we need people with diverse backgrounds to help us get there."", ""Oracle’s corporate culture values teamwork, quality, and collaboration.""], ""match_count"": 2, ""matched_phrases"": [""innovation"", ""quality""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""innovation_and_excellence"", ""theme_label"": ""Innovation and excellence""}, {""evidence_excerpts"": [""Diversity and Inclusion"", ""Learn how Oracle believes that innovation starts with inclusion, and that to create the future we need people with diverse backgrounds to help us get there.""], ""match_count"": 4, ""matched_phrases"": [""diversity"", ""diverse"", ""inclusion""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""diversity_equity_and_inclusion"", ""theme_label"": ""Diversity, equity, and inclusion""}, {""evidence_excerpts"": [""Learn about Oracle’s commitment to our community, customers, employees, and partners during the COVID-19 crisis."", ""Oracle is helping government agencies and the medical community better understand and combat the coronavirus.""], ""match_count"": 2, ""matched_phrases"": [""community""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""social_impact_and_community"", ""theme_label"": ""Social impact and community""}, {""evidence_excerpts"": [""Learn about Oracle’s philanthropic efforts in the areas of sustainability, education, giving, volunteering, and more.""], ""match_count"": 1, ""matched_phrases"": [""sustainability""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""environment_and_sustainability"", ""theme_label"": ""Environment and sustainability""}, {""evidence_excerpts"": [""Corporate Security Practices"", ""Learn about Oracle’s security policies and practices across the various ways Oracle engages with our customers.""], ""match_count"": 2, ""matched_phrases"": [""security""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""health_safety_and_wellbeing"", ""theme_label"": ""Health, safety, and wellbeing""}, {""evidence_excerpts"": [""Learn about our leadership team and Board of Directors."", ""Oracle kicks off a Silicon Valley high-tech acquisition trend by buying a leader in HR and ERP apps."", ""Corporate Responsibility""], ""match_count"": 3, ""matched_phrases"": [""leadership"", ""leader"", ""responsibility""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}, {""evidence_excerpts"": [""Oracle’s corporate culture values teamwork, quality, and collaboration."", ""Hardware and software, engineered to work together"", ""Oracle acquires Sun Microsystems, cementing its strategy to engineer hardware and software together.""], ""match_count"": 4, ""matched_phrases"": [""collaboration"", ""teamwork"", ""together""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""collaboration_and_partnership"", ""theme_label"": ""Collaboration and partnership""}, {""evidence_excerpts"": [""Our mission is to help people see data in new ways, discover insights, unlock endless possibilities."", ""Review our core values""], ""match_count"": 2, ""matched_phrases"": [""our mission"", ""core values""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""purpose_and_identity"", ""theme_label"": ""Purpose and identity""}]","{""action_or_evidence_count"": 1, ""action_or_evidence_rate_per_100_words"": 0.1238, ""aspiration_count"": 0, ""aspiration_rate_per_100_words"": 0.0, ""average_sentence_length"": 6.7333, ""commitment_count"": 0, ""commitment_rate_per_100_words"": 0.0, ""first_person_plural_count"": 17, ""first_person_plural_rate_per_100_words"": 2.104, ""quantified_claim_count"": 37, ""sentence_count"": 120, ""stakeholder_count"": 14, ""stakeholder_rate_per_100_words"": 1.7327, ""word_count"": 808}","{""added"": [""Oracle buys EHR pioneer Cerner"", ""Acquisition fits into broader mission: Build and deploy integrated, mostly automated healthcare information systems and processes."", ""2022""], ""removed"": [""Leadership to the power of three"", ""Safra Catz and Mark Hurd named Oracle CEOs."", ""Founder Larry Ellison becomes chairman of the board and chief technology officer.""]}",Deterministic evidence-backed baseline; manual review required.,7997178dc5bbc15ce9d8e63542424e72db3635e34c5ddadf41dfbb6ba211ade1,482f4c2c67fe37c3095d42c4f1b4bc8071a21bae84f91f3726298a53df8f5de5,review_required,pending
+ORCL,Oracle,Technology,2024,usable,,https://www.oracle.com/corporate/,https://web.archive.org/web/20240626001319id_/https://www.oracle.com/corporate/,2024-06-26T00:13:19+00:00,"About Oracle | Company Information | Oracle
+Skip to content
+Accessibility Policy
+Search
+Country
+View Accounts
+Back
+Cloud Account Sign in to Cloud Sign Up for Free Cloud Tier
+Oracle Account
+Sign-In
+Create an Account
+Help
+Sign Out
+Contact Sales
+Menu
+Our mission is to help people see data in new ways, discover insights, unlock endless possibilities.
+About Oracle
+Analyst Reports
+Learn what industry analysts are saying about Oracle’s products and services.
+Business Practices
+Learn how to engage with Oracle and do business with us.
+Corporate Responsibility
+Learn about Oracle’s philanthropic efforts in the areas of sustainability, education, giving, volunteering, and more.
+Corporate Security Practices
+Learn about Oracle’s security policies and practices across the various ways Oracle engages with our customers.
+Customer References
+Discover how our customers are delighting their customers with cloud applications and cloud infrastructure.
+Executive Spokespeople
+Learn about our leadership team and Board of Directors.
+Culture and Inclusion
+Learn how Oracle believes that innovation starts with inclusion, and that to create the future we need people with diverse backgrounds to help us get there.
+Investor Relations
+Learn about Oracle investor relations, and find information for stockholders, potential investors, and financial analysts.
+Oracle’s Response to COVID 19
+Learn about Oracle’s commitment to our community, customers, employees, and partners during the COVID-19 crisis.
+Working @ Oracle
+Work here
+Want to make a difference? You’ve come to the right place.
+Find opportunities
+Growth centric
+Employees develop skills and achieve success alongside managers who invest in them.
+Check our training benefits
+People oriented
+Oracle’s corporate culture values teamwork, quality, and collaboration.
+Review our core values
+Find out about all of our latest earnings customer highlights.
+Read their stories
+A history of possibilities
+Birth of a Silicon Valley startup
+Engineers Larry Ellison, Bob Miner, and Ed Oates found Software Development Laboratories. Their first office is 900-square-feet in Santa Clara, California.
+1977
+Oracle sees the future
+The company changes its name to Oracle Corporation from Relational Software Inc. (formerly SDL).
+1982
+Oracle goes public
+Oracle becomes a publicly traded company on the NASDAQ exchange. Quotation symbol is ORCL.
+1986
+World’s largest database management company
+Oracle ranked as the world’s largest database management company with US$100M in sales and 4,500 end users in 55 countries.
+1987
+Moving on up
+Oracle debuts on the S&P 500; outgrows old headquarters and moves to its current location in Redwood Shores, California.
+1989
+Oracle celebrates 15 years and Oracle7 release
+There’s lots to celebrate with the release of game-changer Oracle7 database and the company’s 15th anniversary.
+1992
+Harnessing the power of the internet
+CEO Larry Ellison introduces a product strategy for delivering Oracle software via the internet.
+1995
+Oracle Database sets the standard
+InformationWeek names Oracle Database one of the most influential products of the 1990s.
+1999
+Oracle saves a billion—using Oracle
+Oracle saves US$1B dollars consolidating its own systems using Oracle E-Business Suite 11i, the first fully integrated enterprise apps suite.
+2000
+Oracle acquires PeopleSoft
+Oracle kicks off a Silicon Valley high-tech acquisition trend by buying a leader in HR and ERP apps.
+2005
+Oracle at 30 continues to grow and innovate
+Oracle turns 30 with revenues of US$18B, 65,000 employees, and 275,000 customers in more than 145 countries.
+2007
+Simply Marvel-ous
+Marvel Entertainment smashes silos and mines data using Oracle applications.
+2008
+Hardware and software, engineered to work together
+Oracle acquires Sun Microsystems, cementing its strategy to engineer hardware and software together. Becomes the steward of Java.
+2010
+Oracle Database plugs into the cloud
+Revolutionary multitenant architecture helps deliver a secure and consolidated database cloud.
+2013
+ORACLE TEAM USA sails to second America’s Cup win
+ORACLE TEAM USA beats challenger Team New Zealand to win the 2013 America’s Cup yacht race, its second consecutive victory.
+2013
+Oracle launches the first autonomous database
+The company launches Oracle Autonomous Database, the industry’s first self-patching, self-tuning, self-managing database.
+2018
+CERN explores inner workings of the universe
+Scientific research center is using 10,000 Oracle Cloud cores to perform physics analysis.
+2018
+Barcelona biotech fights heart disease
+ELEM computes full-heart models of diseased hearts using Oracle's high performance cloud.
+2019
+We’re taking on COVID-19
+Oracle is helping government agencies and the medical community better understand and combat the coronavirus.
+2021
+Oracle buys EHR pioneer Cerner
+Acquisition fits into broader mission: Build and deploy integrated, mostly automated healthcare information systems and processes.
+2022
+Our Formula 1 partner finishes on top
+Relying on Oracle Cloud to power its race strategy, fan engagement, and more, Oracle Red Bull Racing defends its F1 World Drivers’ Championship and wins the Constructor’s World Championship.
+2022
+Endless
+possibilities
+To move to the beginning and end use function plus left or right arrow. To move by five steps use function plus page up or page down.",True,0.011416,minor_edit,"[""customers_and_service"", ""employees_and_workplace"", ""innovation_and_excellence"", ""diversity_equity_and_inclusion"", ""social_impact_and_community"", ""environment_and_sustainability"", ""health_safety_and_wellbeing"", ""leadership_and_accountability"", ""collaboration_and_partnership"", ""purpose_and_identity""]","[{""evidence_excerpts"": [""Customer References"", ""Find out about all of our latest earnings customer highlights."", ""Learn about Oracle’s security policies and practices across the various ways Oracle engages with our customers."", ""Discover how our customers are delighting their customers with cloud applications and cloud infrastructure."", ""Learn about Oracle’s commitment to our community, customers, employees, and partners during the COVID-19 crisis."", ""Oracle turns 30 with revenues of US$18B, 65,000 employees, and 275,000 customers in more than 145 countries.""], ""match_count"": 7, ""matched_phrases"": [""customer"", ""customers""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""customers_and_service"", ""theme_label"": ""Customers and service""}, {""evidence_excerpts"": [""Learn about Oracle’s commitment to our community, customers, employees, and partners during the COVID-19 crisis."", ""Employees develop skills and achieve success alongside managers who invest in them."", ""Oracle turns 30 with revenues of US$18B, 65,000 employees, and 275,000 customers in more than 145 countries.""], ""match_count"": 3, ""matched_phrases"": [""employees""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""employees_and_workplace"", ""theme_label"": ""Employees and workplace""}, {""evidence_excerpts"": [""Learn how Oracle believes that innovation starts with inclusion, and that to create the future we need people with diverse backgrounds to help us get there."", ""Oracle’s corporate culture values teamwork, quality, and collaboration.""], ""match_count"": 2, ""matched_phrases"": [""innovation"", ""quality""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""innovation_and_excellence"", ""theme_label"": ""Innovation and excellence""}, {""evidence_excerpts"": [""Learn how Oracle believes that innovation starts with inclusion, and that to create the future we need people with diverse backgrounds to help us get there."", ""Culture and Inclusion""], ""match_count"": 3, ""matched_phrases"": [""diverse"", ""inclusion""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""diversity_equity_and_inclusion"", ""theme_label"": ""Diversity, equity, and inclusion""}, {""evidence_excerpts"": [""Learn about Oracle’s commitment to our community, customers, employees, and partners during the COVID-19 crisis."", ""Oracle is helping government agencies and the medical community better understand and combat the coronavirus.""], ""match_count"": 2, ""matched_phrases"": [""community""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""social_impact_and_community"", ""theme_label"": ""Social impact and community""}, {""evidence_excerpts"": [""Learn about Oracle’s philanthropic efforts in the areas of sustainability, education, giving, volunteering, and more.""], ""match_count"": 1, ""matched_phrases"": [""sustainability""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""environment_and_sustainability"", ""theme_label"": ""Environment and sustainability""}, {""evidence_excerpts"": [""Corporate Security Practices"", ""Learn about Oracle’s security policies and practices across the various ways Oracle engages with our customers.""], ""match_count"": 2, ""matched_phrases"": [""security""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""health_safety_and_wellbeing"", ""theme_label"": ""Health, safety, and wellbeing""}, {""evidence_excerpts"": [""Learn about our leadership team and Board of Directors."", ""Oracle kicks off a Silicon Valley high-tech acquisition trend by buying a leader in HR and ERP apps."", ""Corporate Responsibility""], ""match_count"": 3, ""matched_phrases"": [""leadership"", ""leader"", ""responsibility""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}, {""evidence_excerpts"": [""Oracle’s corporate culture values teamwork, quality, and collaboration."", ""Hardware and software, engineered to work together"", ""Oracle acquires Sun Microsystems, cementing its strategy to engineer hardware and software together.""], ""match_count"": 4, ""matched_phrases"": [""collaboration"", ""teamwork"", ""together""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""collaboration_and_partnership"", ""theme_label"": ""Collaboration and partnership""}, {""evidence_excerpts"": [""Our mission is to help people see data in new ways, discover insights, unlock endless possibilities."", ""Review our core values""], ""match_count"": 2, ""matched_phrases"": [""our mission"", ""core values""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""purpose_and_identity"", ""theme_label"": ""Purpose and identity""}]","{""action_or_evidence_count"": 1, ""action_or_evidence_rate_per_100_words"": 0.1236, ""aspiration_count"": 0, ""aspiration_rate_per_100_words"": 0.0, ""average_sentence_length"": 6.7417, ""commitment_count"": 0, ""commitment_rate_per_100_words"": 0.0, ""first_person_plural_count"": 16, ""first_person_plural_rate_per_100_words"": 1.9778, ""quantified_claim_count"": 37, ""sentence_count"": 120, ""stakeholder_count"": 14, ""stakeholder_rate_per_100_words"": 1.7305, ""word_count"": 809}","{""added"": [""Accessibility Policy"", ""Country"", ""Cloud Account Sign in to Cloud Sign Up for Free Cloud Tier""], ""removed"": [""Click to view our Accessibility Policy"", ""Cloud Account Sign in to Cloud"", ""Diversity and Inclusion""]}",Deterministic evidence-backed baseline; manual review required.,d180f0f61107247b45b08fe51821685153213ea13ec074b6aa10328fe5d94ba1,b001a465dbc62d0530d2de1d8d33d2f1e4b20ff6e71228fc16d9e02b284450d8,review_required,pending
 OXY,Occidental Petroleum,Energy,2016,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,no_prior,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
 OXY,Occidental Petroleum,Energy,2017,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
 OXY,Occidental Petroleum,Energy,2018,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable

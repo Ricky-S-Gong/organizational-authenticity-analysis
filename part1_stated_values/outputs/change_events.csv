@@ -317,12 +317,12 @@ NVDA,2024,,,indeterminate,
 ORCL,2016,,,no_prior,
 ORCL,2017,,,indeterminate,
 ORCL,2018,,,indeterminate,
-ORCL,2019,,,indeterminate,
-ORCL,2020,,,indeterminate,
-ORCL,2021,,,indeterminate,
-ORCL,2022,,,indeterminate,
-ORCL,2023,,,indeterminate,
-ORCL,2024,,,indeterminate,
+ORCL,2019,True,0.338095,substantive_change,"{""added"": [""Emerging technologies are disrupting old paradigms and unleashing new opportunities."", ""Oracle has embedded innovative technologies in every aspect of our cloud, enabling companies to reimagine their businesses, processes, and experiences."", ""With the introduction of Oracle Autonomous Database, the industry’s only self-driving, self-securing, and self-repairing database, Oracle is again revolutionizing how data is managed.""], ""removed"": [""With 430,000 customers in 175 countries, Oracle provides leading-edge capabilities in software as a service, platform as a service, infrastructure as a service, and data as a service."", ""Learn more about Oracle and who we are."", ""Oracle Fact Sheet""]}"
+ORCL,2020,True,0.859712,substantive_change,"{""added"": [""home nav"", ""View Accounts"", ""Sign In""], ""removed"": [""About Oracle"", ""430,000+ Customers worldwide"", ""25,000+ Partners worldwide""]}"
+ORCL,2021,True,0.129293,substantive_change,"{""added"": [""Click to view our Accessibility Policy"", ""Skip to content"", ""Cloud Account Sign in to Cloud Sign Up for Free Cloud Tier""], ""removed"": [""Cloud Account Sign in to Cloud Sign Up for Free Cloud Tier"", ""Partners"", ""Oracle PartnerNetwork""]}"
+ORCL,2022,True,0.210526,substantive_change,"{""added"": [""Search"", ""Back"", ""Cloud Account Sign in to Cloud""], ""removed"": [""home nav"", ""Sign In"", ""Back Oracle Account""]}"
+ORCL,2023,True,0.214567,substantive_change,"{""added"": [""Oracle buys EHR pioneer Cerner"", ""Acquisition fits into broader mission: Build and deploy integrated, mostly automated healthcare information systems and processes."", ""2022""], ""removed"": [""Leadership to the power of three"", ""Safra Catz and Mark Hurd named Oracle CEOs."", ""Founder Larry Ellison becomes chairman of the board and chief technology officer.""]}"
+ORCL,2024,True,0.011416,minor_edit,"{""added"": [""Accessibility Policy"", ""Country"", ""Cloud Account Sign in to Cloud Sign Up for Free Cloud Tier""], ""removed"": [""Click to view our Accessibility Policy"", ""Cloud Account Sign in to Cloud"", ""Diversity and Inclusion""]}"
 OXY,2016,,,no_prior,
 OXY,2017,,,indeterminate,
 OXY,2018,,,indeterminate,

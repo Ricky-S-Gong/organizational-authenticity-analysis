@@ -6,17 +6,17 @@ The pipeline evaluated all 450 required company-year targets across 50 companies
 
 ## Coverage
 
-- Usable records: 35 of 450 (7.8%)
+- Usable records: 42 of 450 (9.3%)
 - Companies represented: 50
 
 Status breakdown:
 
-- `discovery_incomplete`: 362
+- `discovery_incomplete`: 353
 - `insufficient_substantive_text`: 8
 - `no_cdx_capture`: 24
-- `no_eligible_capture`: 12
+- `no_eligible_capture`: 14
 - `no_eligible_page`: 9
-- `usable`: 35
+- `usable`: 42
 
 ## Method
 
