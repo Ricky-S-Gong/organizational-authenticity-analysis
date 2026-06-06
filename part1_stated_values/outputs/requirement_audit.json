@@ -15,15 +15,15 @@
   },
   "coverage": {
     "target_record_count": 450,
-    "usable_record_count": 30,
-    "usable_rate": 0.0667,
+    "usable_record_count": 35,
+    "usable_rate": 0.0778,
     "status_counts": {
-      "discovery_incomplete": 371,
+      "discovery_incomplete": 362,
       "insufficient_substantive_text": 8,
-      "no_cdx_capture": 22,
-      "no_eligible_capture": 10,
+      "no_cdx_capture": 24,
+      "no_eligible_capture": 12,
       "no_eligible_page": 9,
-      "usable": 30
+      "usable": 35
     },
     "companies_observed": 50,
     "years_observed": [
@@ -165,15 +165,6 @@
       "HD:2022",
       "HD:2023",
       "HD:2024",
-      "IBM:2016",
-      "IBM:2017",
-      "IBM:2018",
-      "IBM:2019",
-      "IBM:2020",
-      "IBM:2021",
-      "IBM:2022",
-      "IBM:2023",
-      "IBM:2024",
       "INTC:2016",
       "INTC:2017",
       "INTC:2018",

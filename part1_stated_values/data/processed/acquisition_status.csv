@@ -179,15 +179,15 @@ HD,Home Depot,Consumer Discretionary,2021,2021-06-30T12:00:00+00:00,discovery_in
 HD,Home Depot,Consumer Discretionary,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 HD,Home Depot,Consumer Discretionary,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 HD,Home Depot,Consumer Discretionary,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-IBM,IBM,Technology,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-IBM,IBM,Technology,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-IBM,IBM,Technology,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-IBM,IBM,Technology,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-IBM,IBM,Technology,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-IBM,IBM,Technology,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-IBM,IBM,Technology,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-IBM,IBM,Technology,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-IBM,IBM,Technology,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
+IBM,IBM,Technology,2016,2016-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,6,0,,,,complete,1
+IBM,IBM,Technology,2017,2017-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+IBM,IBM,Technology,2018,2018-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,1,0,,,,complete,1
+IBM,IBM,Technology,2019,2019-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,3
+IBM,IBM,Technology,2020,2020-06-30T12:00:00+00:00,selected,,1,20,15,2020-11-17T02:56:07+00:00,https://www.ibm.com/about,https://web.archive.org/web/20201117025607id_/https://www.ibm.com/about,complete,1
+IBM,IBM,Technology,2021,2021-06-30T12:00:00+00:00,selected,,1,94,94,2021-06-23T19:10:25+00:00,https://www.ibm.com/about,https://web.archive.org/web/20210623191025id_/https://www.ibm.com/about,complete,1
+IBM,IBM,Technology,2022,2022-06-30T12:00:00+00:00,selected,,1,205,204,2022-06-30T12:36:34+00:00,https://www.ibm.com/about,https://web.archive.org/web/20220630123634id_/https://www.ibm.com/about,complete,2
+IBM,IBM,Technology,2023,2023-06-30T12:00:00+00:00,selected,,1,354,354,2023-06-30T05:39:33+00:00,https://www.ibm.com/about,https://web.archive.org/web/20230630053933id_/https://www.ibm.com/about,complete,1
+IBM,IBM,Technology,2024,2024-06-30T12:00:00+00:00,selected,,1,333,333,2024-06-30T08:39:02+00:00,https://www.ibm.com/about,https://web.archive.org/web/20240630083902id_/https://www.ibm.com/about,complete,1
 INTC,Intel,Technology,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 INTC,Intel,Technology,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 INTC,Intel,Technology,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2

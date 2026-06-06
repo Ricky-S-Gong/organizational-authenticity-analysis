@@ -184,10 +184,10 @@ IBM,2017,,,indeterminate,
 IBM,2018,,,indeterminate,
 IBM,2019,,,indeterminate,
 IBM,2020,,,indeterminate,
-IBM,2021,,,indeterminate,
-IBM,2022,,,indeterminate,
-IBM,2023,,,indeterminate,
-IBM,2024,,,indeterminate,
+IBM,2021,True,0.134541,substantive_change,"{""added"": [""Innovation and transformation"", ""View Smarter architecture with hybrid cloud"", ""The world is going hybrid with IBM""], ""removed"": [""Solutions"", ""View The cloud for smarter business"", ""The cloud for smarter business""]}"
+IBM,2022,True,0.142494,substantive_change,"{""added"": [""\""It is my great privilege to announce the 2021 Class of IBM Fellows, an extraordinary group of scientists, engineers, and developers who have earned our company's pre-eminent technical honor."", ""We recognize these eight new Fellows for their outstanding and sustained technical achievements and leadership in engineering, programming, services, science, and technology.\"""", ""— Dario Gil, SVP and Director of IBM Research""], ""removed"": [""Every year, an elite contingent of IBMers earns the title of IBM Fellow."", ""This year's 12 new IBM Fellows come from Asia, the Americas and Europe."", ""They have worked across multiple business units to assist our clients in their digital transformations and migrations to AI and Cloud.""]}"
+IBM,2023,True,0.861416,substantive_change,"{""added"": [""01 Overview"", ""02 What IBM does"", ""03 Our impact""], ""removed"": [""01 People"", ""02 Solutions"", ""03 Clients""]}"
+IBM,2024,True,0.423208,substantive_change,"{""added"": [""About | IBM"", ""Home about About IBM"", ""Creators, partners and clients putting technology to work in the real world""], ""removed"": [""01 Overview"", ""02 What IBM does"", ""03 Our impact""]}"
 INTC,2016,,,no_prior,
 INTC,2017,,,indeterminate,
 INTC,2018,,,indeterminate,
