@@ -1,0 +1,33 @@
+# Local agent instructions
+AGENT.md
+
+# Private/reference materials kept outside the repository
+Interview.md
+RA_job_posting.pdf
+Ricky_Resume_R260309.pdf
+Research Assistant Recruitment Task - Wharton-TAU Lab 2026.docx
+Research Assistant Recruitment Task - Wharton-TAU Lab 2026.md
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Generated scratch files
+tmp/
+scratch/
