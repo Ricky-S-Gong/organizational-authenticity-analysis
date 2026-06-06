@@ -332,51 +332,51 @@ OXY,Occidental Petroleum,Energy,2021,2021-06-30T12:00:00+00:00,no_cdx_capture,no
 OXY,Occidental Petroleum,Energy,2022,2022-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
 OXY,Occidental Petroleum,Energy,2023,2023-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
 OXY,Occidental Petroleum,Energy,2024,2024-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
-PFE,Pfizer,Healthcare,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-PFE,Pfizer,Healthcare,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-PFE,Pfizer,Healthcare,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-PFE,Pfizer,Healthcare,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-PFE,Pfizer,Healthcare,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-PFE,Pfizer,Healthcare,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-PFE,Pfizer,Healthcare,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-PFE,Pfizer,Healthcare,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-PFE,Pfizer,Healthcare,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-PSX,Phillips 66,Energy,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-PSX,Phillips 66,Energy,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-PSX,Phillips 66,Energy,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-PSX,Phillips 66,Energy,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-PSX,Phillips 66,Energy,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-PSX,Phillips 66,Energy,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-PSX,Phillips 66,Energy,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-PSX,Phillips 66,Energy,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-PSX,Phillips 66,Energy,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-SBUX,Starbucks,Consumer Discretionary,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-SBUX,Starbucks,Consumer Discretionary,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-SBUX,Starbucks,Consumer Discretionary,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-SBUX,Starbucks,Consumer Discretionary,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-SBUX,Starbucks,Consumer Discretionary,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-SBUX,Starbucks,Consumer Discretionary,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-SBUX,Starbucks,Consumer Discretionary,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-SBUX,Starbucks,Consumer Discretionary,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-SBUX,Starbucks,Consumer Discretionary,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-SCHW,Charles Schwab,Financials,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-SCHW,Charles Schwab,Financials,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-SCHW,Charles Schwab,Financials,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-SCHW,Charles Schwab,Financials,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-SCHW,Charles Schwab,Financials,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-SCHW,Charles Schwab,Financials,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-SCHW,Charles Schwab,Financials,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-SCHW,Charles Schwab,Financials,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-SCHW,Charles Schwab,Financials,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-SLB,SLB (Schlumberger),Energy,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-SLB,SLB (Schlumberger),Energy,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-SLB,SLB (Schlumberger),Energy,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-SLB,SLB (Schlumberger),Energy,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-SLB,SLB (Schlumberger),Energy,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-SLB,SLB (Schlumberger),Energy,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-SLB,SLB (Schlumberger),Energy,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-SLB,SLB (Schlumberger),Energy,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-SLB,SLB (Schlumberger),Energy,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
+PFE,Pfizer,Healthcare,2016,2016-06-30T12:00:00+00:00,selected,,1,33,27,2016-07-03T06:14:37+00:00,http://www.pfizer.com:80/about,https://web.archive.org/web/20160703061437id_/http://www.pfizer.com:80/about,complete,1
+PFE,Pfizer,Healthcare,2017,2017-06-30T12:00:00+00:00,selected,,1,14,3,2017-03-31T11:04:00+00:00,http://www.pfizer.com:80/about,https://web.archive.org/web/20170331110400id_/http://www.pfizer.com:80/about,complete,3
+PFE,Pfizer,Healthcare,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,5
+PFE,Pfizer,Healthcare,2019,2019-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,16,0,,,,complete,4
+PFE,Pfizer,Healthcare,2020,2020-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,14,0,,,,complete,1
+PFE,Pfizer,Healthcare,2021,2021-06-30T12:00:00+00:00,selected,,1,17,6,2021-12-16T14:18:30+00:00,https://www.pfizer.com/about,https://web.archive.org/web/20211216141830id_/https://www.pfizer.com/about,complete,1
+PFE,Pfizer,Healthcare,2022,2022-06-30T12:00:00+00:00,selected,,1,54,51,2022-07-02T20:04:38+00:00,https://www.pfizer.com/about#our-people,https://web.archive.org/web/20220702200438id_/https://www.pfizer.com/about#our-people,complete,1
+PFE,Pfizer,Healthcare,2023,2023-06-30T12:00:00+00:00,selected,,1,44,37,2023-07-22T09:43:42+00:00,https://www.pfizer.com/about,https://web.archive.org/web/20230722094342id_/https://www.pfizer.com/about,complete,1
+PFE,Pfizer,Healthcare,2024,2024-06-30T12:00:00+00:00,selected,,1,91,76,2024-07-01T23:50:55+00:00,https://www.pfizer.com/about,https://web.archive.org/web/20240701235055id_/https://www.pfizer.com/about,complete,1
+PSX,Phillips 66,Energy,2016,2016-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,3
+PSX,Phillips 66,Energy,2017,2017-06-30T12:00:00+00:00,selected,,1,15,14,2017-10-01T18:21:30+00:00,http://www.phillips66.com:80/about/,https://web.archive.org/web/20171001182130id_/http://www.phillips66.com:80/about/,complete,2
+PSX,Phillips 66,Energy,2018,2018-06-30T12:00:00+00:00,selected,,1,69,40,2018-07-01T11:33:53+00:00,http://www.phillips66.com/about,https://web.archive.org/web/20180701113353id_/http://www.phillips66.com/about,complete,1
+PSX,Phillips 66,Energy,2019,2019-06-30T12:00:00+00:00,selected,,1,32,9,2019-07-08T22:25:56+00:00,https://www.phillips66.com/about,https://web.archive.org/web/20190708222556id_/https://www.phillips66.com/about,complete,1
+PSX,Phillips 66,Energy,2020,2020-06-30T12:00:00+00:00,selected,,1,11,7,2020-06-04T06:05:44+00:00,https://www.phillips66.com/about,https://web.archive.org/web/20200604060544id_/https://www.phillips66.com/about,complete,2
+PSX,Phillips 66,Energy,2021,2021-06-30T12:00:00+00:00,selected,,1,31,19,2021-06-23T12:01:26+00:00,https://www.phillips66.com/about,https://web.archive.org/web/20210623120126id_/https://www.phillips66.com/about,complete,1
+PSX,Phillips 66,Energy,2022,2022-06-30T12:00:00+00:00,selected,,1,21,5,2022-07-03T04:35:23+00:00,https://www.phillips66.com/about,https://web.archive.org/web/20220703043523id_/https://www.phillips66.com/about,complete,1
+PSX,Phillips 66,Energy,2023,2023-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,7,0,,,,complete,1
+PSX,Phillips 66,Energy,2024,2024-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,7,0,,,,complete,1
+SBUX,Starbucks,Consumer Discretionary,2016,2016-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,3
+SBUX,Starbucks,Consumer Discretionary,2017,2017-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+SBUX,Starbucks,Consumer Discretionary,2018,2018-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+SBUX,Starbucks,Consumer Discretionary,2019,2019-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+SBUX,Starbucks,Consumer Discretionary,2020,2020-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,2
+SBUX,Starbucks,Consumer Discretionary,2021,2021-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+SBUX,Starbucks,Consumer Discretionary,2022,2022-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+SBUX,Starbucks,Consumer Discretionary,2023,2023-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+SBUX,Starbucks,Consumer Discretionary,2024,2024-06-30T12:00:00+00:00,selected,,1,4,2,2024-12-03T15:22:20+00:00,https://about.starbucks.com/mission/,https://web.archive.org/web/20241203152220id_/https://about.starbucks.com/mission/,complete,1
+SCHW,Charles Schwab,Financials,2016,2016-06-30T12:00:00+00:00,selected,,1,73,6,2016-04-21T08:31:28+00:00,https://www.aboutschwab.com/,https://web.archive.org/web/20160421083128id_/https://www.aboutschwab.com/,complete,1
+SCHW,Charles Schwab,Financials,2017,2017-06-30T12:00:00+00:00,selected,,1,59,6,2017-07-01T04:48:06+00:00,https://www.aboutschwab.com/,https://web.archive.org/web/20170701044806id_/https://www.aboutschwab.com/,complete,1
+SCHW,Charles Schwab,Financials,2018,2018-06-30T12:00:00+00:00,selected,,1,62,7,2018-08-15T05:44:22+00:00,https://www.aboutschwab.com/,https://web.archive.org/web/20180815054422id_/https://www.aboutschwab.com/,complete,1
+SCHW,Charles Schwab,Financials,2019,2019-06-30T12:00:00+00:00,selected,,1,90,16,2019-06-22T03:02:28+00:00,https://www.aboutschwab.com/,https://web.archive.org/web/20190622030228id_/https://www.aboutschwab.com/,complete,2
+SCHW,Charles Schwab,Financials,2020,2020-06-30T12:00:00+00:00,selected,,1,101,25,2020-06-28T15:52:22+00:00,https://www.aboutschwab.com/,https://web.archive.org/web/20200628155222id_/https://www.aboutschwab.com/,complete,3
+SCHW,Charles Schwab,Financials,2021,2021-06-30T12:00:00+00:00,selected,,1,89,28,2021-06-29T09:52:05+00:00,https://www.aboutschwab.com/,https://web.archive.org/web/20210629095205id_/https://www.aboutschwab.com/,complete,1
+SCHW,Charles Schwab,Financials,2022,2022-06-30T12:00:00+00:00,selected,,1,83,45,2022-07-02T00:42:33+00:00,https://www.aboutschwab.com/,https://web.archive.org/web/20220702004233id_/https://www.aboutschwab.com/,complete,2
+SCHW,Charles Schwab,Financials,2023,2023-06-30T12:00:00+00:00,selected,,1,114,80,2023-07-03T22:22:14+00:00,https://www.aboutschwab.com/,https://web.archive.org/web/20230703222214id_/https://www.aboutschwab.com/,complete,1
+SCHW,Charles Schwab,Financials,2024,2024-06-30T12:00:00+00:00,selected,,1,142,133,2024-07-01T13:40:33+00:00,https://www.aboutschwab.com/,https://web.archive.org/web/20240701134033id_/https://www.aboutschwab.com/,complete,1
+SLB,SLB (Schlumberger),Energy,2016,2016-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,2,0,,,,complete,1
+SLB,SLB (Schlumberger),Energy,2017,2017-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,3,0,,,,complete,1
+SLB,SLB (Schlumberger),Energy,2018,2018-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,1,0,,,,complete,1
+SLB,SLB (Schlumberger),Energy,2019,2019-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,2,0,,,,complete,1
+SLB,SLB (Schlumberger),Energy,2020,2020-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+SLB,SLB (Schlumberger),Energy,2021,2021-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+SLB,SLB (Schlumberger),Energy,2022,2022-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,3,0,,,,complete,1
+SLB,SLB (Schlumberger),Energy,2023,2023-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,14,0,,,,complete,1
+SLB,SLB (Schlumberger),Energy,2024,2024-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,14,0,,,,complete,1
 TGT,Target,Consumer Discretionary,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 TGT,Target,Consumer Discretionary,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 TGT,Target,Consumer Discretionary,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2

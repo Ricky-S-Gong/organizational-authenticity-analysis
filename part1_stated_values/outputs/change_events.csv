@@ -191,10 +191,10 @@ IBM,2024,True,0.423208,substantive_change,"{""added"": [""About | IBM"", ""Home 
 INTC,2016,,,no_prior,
 INTC,2017,True,0.366412,substantive_change,"{""added"": [""We're #14."", ""See the rankings"", ""We’re #44.""], ""removed"": [""The browser version you are using is not recommended for this site."", ""Please consider upgrading to the latest version of your browser by clicking one of the following links."", ""Safari""]}"
 INTC,2018,True,0.162602,substantive_change,"{""added"": [""We're #15."", ""We’re #45."", ""Show more Show less""], ""removed"": [""We're #14."", ""We’re #46."", ""Show more Show less""]}"
-INTC,2019,,,indeterminate,
-INTC,2020,,,indeterminate,
-INTC,2021,,,indeterminate,
-INTC,2022,,,indeterminate,
+INTC,2019,True,0.04878,minor_edit,"{""added"": [""We're #11."", ""We’re #38."", ""Twitter @WeAreIntel""], ""removed"": [""We're #15."", ""We’re #44."", ""Twitter @JobsatIntel""]}"
+INTC,2020,True,0.843949,substantive_change,"{""added"": [""Our Purpose"", ""We create world-changing technology that enriches the lives of every person on earth."", ""We are inspired to:""], ""removed"": [""Intel Company Overview"", ""Want to Work at Intel?"", ""Find open positions and get to know our culture.""]}"
+INTC,2021,True,0.187291,substantive_change,"{""added"": [""Catalyst for Wonderful"", ""At Intel, we’re setting a new standard for corporate responsibility, enacting meaningful change throughout our entire global network."", ""From advancing climate solutions to diversity and inclusion initiatives, we’re uniting our partners, our customers, and our global technology portfolio to achieve something wonderful.""], ""removed"": []}"
+INTC,2022,True,0.165217,substantive_change,"{""added"": [""We create world-changing technology that improves the life of every person on the planet."", ""Our values—Customer First, Fearless Innovation, Results Driven, One Intel, Inclusion, Quality and Integrity—guide how we make decisions, treat each other, serve our customers to achieve their goals and shape technology as a force for good."", ""2030 Strategy and Goals""], ""removed"": [""We create world-changing technology that enriches the lives of every person on earth."", ""Vision"", ""To be the trusted performance leader that unleashes the potential of data.""]}"
 INTC,2023,,,indeterminate,
 INTC,2024,,,indeterminate,
 JNJ,2016,,,no_prior,
