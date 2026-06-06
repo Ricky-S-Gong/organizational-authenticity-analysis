@@ -45,16 +45,16 @@
       "passed": false,
       "evidence": {
         "status_rows": 450,
-        "discovery_incomplete_rows": 405
+        "discovery_incomplete_rows": 397
       }
     },
     "phase_4_text_extraction": {
       "passed": false,
       "evidence": {
-        "selected_rows": 12,
-        "artifact_rows": 12,
-        "usable_rows": 9,
-        "pending_review_rows": 21,
+        "selected_rows": 20,
+        "artifact_rows": 20,
+        "usable_rows": 14,
+        "pending_review_rows": 29,
         "human_validation_recorded": false
       }
     },
@@ -68,7 +68,7 @@
     "phase_6_theme_and_llm_analysis": {
       "passed": false,
       "evidence": {
-        "theme_observation_rows": 83,
+        "theme_observation_rows": 109,
         "llm_analysis_completed": false,
         "deterministic_baseline_completed": true
       }

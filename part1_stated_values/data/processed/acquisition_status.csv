@@ -287,15 +287,15 @@ MS,Morgan Stanley,Financials,2021,2021-06-30T12:00:00+00:00,discovery_incomplete
 MS,Morgan Stanley,Financials,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 MS,Morgan Stanley,Financials,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 MS,Morgan Stanley,Financials,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MSFT,Microsoft,Technology,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MSFT,Microsoft,Technology,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MSFT,Microsoft,Technology,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MSFT,Microsoft,Technology,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MSFT,Microsoft,Technology,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MSFT,Microsoft,Technology,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MSFT,Microsoft,Technology,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MSFT,Microsoft,Technology,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-MSFT,Microsoft,Technology,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
+MSFT,Microsoft,Technology,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,5
+MSFT,Microsoft,Technology,2017,2017-06-30T12:00:00+00:00,selected,,1,130,130,2017-07-01T04:55:06+00:00,https://www.microsoft.com/en-us/about,https://web.archive.org/web/20170701045506id_/https://www.microsoft.com/en-us/about,complete,1
+MSFT,Microsoft,Technology,2018,2018-06-30T12:00:00+00:00,selected,,1,183,174,2018-06-30T12:10:20+00:00,https://www.microsoft.com/en-us/about,https://web.archive.org/web/20180630121020id_/https://www.microsoft.com/en-us/about,complete,5
+MSFT,Microsoft,Technology,2019,2019-06-30T12:00:00+00:00,selected,,1,287,270,2019-06-30T21:23:49+00:00,https://www.microsoft.com/en-us/about,https://web.archive.org/web/20190630212349id_/https://www.microsoft.com/en-us/about,complete,2
+MSFT,Microsoft,Technology,2020,2020-06-30T12:00:00+00:00,selected,,1,263,246,2020-07-01T21:41:57+00:00,https://www.microsoft.com/en-us/about,https://web.archive.org/web/20200701214157id_/https://www.microsoft.com/en-us/about,complete,1
+MSFT,Microsoft,Technology,2021,2021-06-30T12:00:00+00:00,selected,,1,312,311,2021-06-30T05:12:41+00:00,https://www.microsoft.com/en-us/about,https://web.archive.org/web/20210630051241id_/https://www.microsoft.com/en-us/about,complete,3
+MSFT,Microsoft,Technology,2022,2022-06-30T12:00:00+00:00,selected,,1,281,278,2022-06-30T14:43:36+00:00,https://www.microsoft.com/en-us/about,https://web.archive.org/web/20220630144336id_/https://www.microsoft.com/en-us/about,complete,1
+MSFT,Microsoft,Technology,2023,2023-06-30T12:00:00+00:00,selected,,1,311,310,2023-06-30T17:24:39+00:00,https://www.microsoft.com/en-us/about,https://web.archive.org/web/20230630172439id_/https://www.microsoft.com/en-us/about,complete,2
+MSFT,Microsoft,Technology,2024,2024-06-30T12:00:00+00:00,selected,,1,300,296,2024-07-01T23:01:01+00:00,https://www.microsoft.com/en-us/about,https://web.archive.org/web/20240701230101id_/https://www.microsoft.com/en-us/about,complete,3
 NKE,Nike,Consumer Discretionary,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 NKE,Nike,Consumer Discretionary,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 NKE,Nike,Consumer Discretionary,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2

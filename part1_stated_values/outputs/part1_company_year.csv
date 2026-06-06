@@ -831,14 +831,146 @@ MS,Morgan Stanley,Financials,2022,discovery_incomplete,same-year CDX query missi
 MS,Morgan Stanley,Financials,2023,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
 MS,Morgan Stanley,Financials,2024,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
 MSFT,Microsoft,Technology,2016,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,no_prior,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-MSFT,Microsoft,Technology,2017,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-MSFT,Microsoft,Technology,2018,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-MSFT,Microsoft,Technology,2019,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-MSFT,Microsoft,Technology,2020,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-MSFT,Microsoft,Technology,2021,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-MSFT,Microsoft,Technology,2022,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-MSFT,Microsoft,Technology,2023,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-MSFT,Microsoft,Technology,2024,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
+MSFT,Microsoft,Technology,2017,insufficient_substantive_text,selected capture could not be extracted,https://www.microsoft.com/en-us/about,https://web.archive.org/web/20170701045506id_/https://www.microsoft.com/en-us/about,2017-07-01T04:55:06+00:00,"We believe in what people make possible
+Our mission is to empower every person and every organization on the planet to achieve more.",,,indeterminate,,,,,Unavailable: selected capture could not be extracted,97b54ad0775b17802aa8df371c7f04365fe910f78597d6ec0d7367566e1754df,56a9b5b8e5e9af94b828083cc940f178cad98c70bf3f949b9bd6f770e14c6c14,not_available,pending
+MSFT,Microsoft,Technology,2018,insufficient_substantive_text,selected capture could not be extracted,https://www.microsoft.com/en-us/about,https://web.archive.org/web/20180630121020id_/https://www.microsoft.com/en-us/about,2018-06-30T12:10:20+00:00,"We believe in what people make possible
+Our mission is to empower every person and every organization on the planet to achieve more.",,,indeterminate,,,,,Unavailable: selected capture could not be extracted,e41e5c2f7078d389f4549cfc3ffb78bb030fd4ddaed0a603c88ed61f36c2847a,56a9b5b8e5e9af94b828083cc940f178cad98c70bf3f949b9bd6f770e14c6c14,not_available,pending
+MSFT,Microsoft,Technology,2019,usable,,https://www.microsoft.com/en-us/about,https://web.archive.org/web/20190630212349id_/https://www.microsoft.com/en-us/about,2019-06-30T21:23:49+00:00,"Empowering others
+Our mission is to empower every person and organization on the planet to achieve more.
+Our company
+Stay informed about Microsoft – from company facts and news to our worldwide locations and more.
+Explore the world of Microsoft
+Who we are
+Get to know some of our people, explore engaging stories, and meet the leaders who shape our vision.
+Meet the people of Microsoft
+What we value
+See how we utilize technology to build platforms and resources to help make a lasting positive impact.
+Learn about our values
+Contact us
+Get in touch. We’re here to help.
+Get the support you need
+Featured programs and projects
+Microsoft By the Numbers
+Adding up the stories that make Microsoft, By the Numbers is an interactive look at what drives us, from quantum computing to environmental sustainability.
+Explore By the Numbers
+Microsoft Philanthropies
+We believe technology is a powerful tool for social and economic inclusion, and we’re working to ensure that everyone has access to the opportunities it creates.
+Explore Microsoft Philanthropies
+Story Labs
+At Microsoft, we’re moved and inspired by many things. Microsoft Story Labs features in-depth interviews, features, and stories with those that are on the forefront of innovation.
+Check out Story Labs
+Microsoft AI
+When designed with people at the center, AI can extend your capabilities, free you up for more creative and strategic endeavors, and help you or your organization achieve more.
+Explore Microsoft AI",,,indeterminate,"[""employees_and_workplace"", ""innovation_and_excellence"", ""diversity_equity_and_inclusion"", ""environment_and_sustainability"", ""leadership_and_accountability"", ""purpose_and_identity""]","[{""evidence_excerpts"": [""Get to know some of our people, explore engaging stories, and meet the leaders who shape our vision.""], ""match_count"": 1, ""matched_phrases"": [""our people""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""employees_and_workplace"", ""theme_label"": ""Employees and workplace""}, {""evidence_excerpts"": [""Microsoft Story Labs features in-depth interviews, features, and stories with those that are on the forefront of innovation.""], ""match_count"": 1, ""matched_phrases"": [""innovation""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""innovation_and_excellence"", ""theme_label"": ""Innovation and excellence""}, {""evidence_excerpts"": [""We believe technology is a powerful tool for social and economic inclusion, and we’re working to ensure that everyone has access to the opportunities it creates.""], ""match_count"": 1, ""matched_phrases"": [""inclusion""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""diversity_equity_and_inclusion"", ""theme_label"": ""Diversity, equity, and inclusion""}, {""evidence_excerpts"": [""Adding up the stories that make Microsoft, By the Numbers is an interactive look at what drives us, from quantum computing to environmental sustainability.""], ""match_count"": 2, ""matched_phrases"": [""sustainability"", ""environmental""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""environment_and_sustainability"", ""theme_label"": ""Environment and sustainability""}, {""evidence_excerpts"": [""Get to know some of our people, explore engaging stories, and meet the leaders who shape our vision.""], ""match_count"": 1, ""matched_phrases"": [""leaders""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}, {""evidence_excerpts"": [""Our mission is to empower every person and organization on the planet to achieve more."", ""Learn about our values"", ""Who we are"", ""Get to know some of our people, explore engaging stories, and meet the leaders who shape our vision.""], ""match_count"": 4, ""matched_phrases"": [""our mission"", ""our values"", ""who we are"", ""our vision""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""purpose_and_identity"", ""theme_label"": ""Purpose and identity""}]","{""action_or_evidence_count"": 0, ""action_or_evidence_rate_per_100_words"": 0.0, ""aspiration_count"": 1, ""aspiration_rate_per_100_words"": 0.4167, ""average_sentence_length"": 8.2759, ""commitment_count"": 0, ""commitment_rate_per_100_words"": 0.0, ""first_person_plural_count"": 15, ""first_person_plural_rate_per_100_words"": 6.25, ""quantified_claim_count"": 0, ""sentence_count"": 29, ""stakeholder_count"": 0, ""stakeholder_rate_per_100_words"": 0.0, ""word_count"": 240}",,Deterministic evidence-backed baseline; manual review required.,5e60900e45fa5674449aa01c678705c2d1e9fb15be0e6f9786727753b3be0b0d,8394e22a3ac8e2161266d7bf6a024be64ff27b631b498efaecc2cfecef890446,review_required,pending
+MSFT,Microsoft,Technology,2020,usable,,https://www.microsoft.com/en-us/about,https://web.archive.org/web/20200701214157id_/https://www.microsoft.com/en-us/about,2020-07-01T21:41:57+00:00,"Empowering others
+Our mission is to empower every person and every organization on the planet to achieve more.
+Our company
+Stay informed about Microsoft – from company facts and news to our worldwide locations and more.
+Explore the world of Microsoft
+Who we are
+Get to know some of our people, explore engaging stories, and meet the leaders who shape our vision.
+Meet the people of Microsoft
+What we value
+See how we utilize technology to build platforms and resources to help make a lasting positive impact.
+Learn about our values
+Contact us
+Get in touch. We’re here to help.
+Get the support you need
+Featured programs and projects
+Microsoft By the Numbers
+Adding up the stories that make Microsoft, By the Numbers is an interactive look at what drives us, from quantum computing to environmental sustainability.
+Explore By the Numbers
+Corporate Social Responsibility
+We believe technology is a powerful force for good and are working to foster a sustainable future where everyone has access to the benefits and opportunities created by technology.
+Learn about our approach
+Story Labs
+At Microsoft, we’re moved and inspired by many things. Microsoft Story Labs features in-depth interviews, features, and stories with those that are on the forefront of innovation.
+Check out Story Labs
+Microsoft AI
+When designed with people at the center, AI can extend your capabilities, free you up for more creative and strategic endeavors, and help you or your organization achieve more.
+Explore Microsoft AI",True,0.128571,substantive_change,"[""employees_and_workplace"", ""innovation_and_excellence"", ""environment_and_sustainability"", ""leadership_and_accountability"", ""purpose_and_identity""]","[{""evidence_excerpts"": [""Get to know some of our people, explore engaging stories, and meet the leaders who shape our vision.""], ""match_count"": 1, ""matched_phrases"": [""our people""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""employees_and_workplace"", ""theme_label"": ""Employees and workplace""}, {""evidence_excerpts"": [""Microsoft Story Labs features in-depth interviews, features, and stories with those that are on the forefront of innovation.""], ""match_count"": 1, ""matched_phrases"": [""innovation""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""innovation_and_excellence"", ""theme_label"": ""Innovation and excellence""}, {""evidence_excerpts"": [""Adding up the stories that make Microsoft, By the Numbers is an interactive look at what drives us, from quantum computing to environmental sustainability."", ""We believe technology is a powerful force for good and are working to foster a sustainable future where everyone has access to the benefits and opportunities created by technology.""], ""match_count"": 3, ""matched_phrases"": [""sustainability"", ""sustainable"", ""environmental""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""environment_and_sustainability"", ""theme_label"": ""Environment and sustainability""}, {""evidence_excerpts"": [""Get to know some of our people, explore engaging stories, and meet the leaders who shape our vision."", ""Corporate Social Responsibility""], ""match_count"": 2, ""matched_phrases"": [""leaders"", ""responsibility""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}, {""evidence_excerpts"": [""Our mission is to empower every person and every organization on the planet to achieve more."", ""Learn about our values"", ""Who we are"", ""Get to know some of our people, explore engaging stories, and meet the leaders who shape our vision.""], ""match_count"": 4, ""matched_phrases"": [""our mission"", ""our values"", ""who we are"", ""our vision""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""purpose_and_identity"", ""theme_label"": ""Purpose and identity""}]","{""action_or_evidence_count"": 1, ""action_or_evidence_rate_per_100_words"": 0.4082, ""aspiration_count"": 1, ""aspiration_rate_per_100_words"": 0.4082, ""average_sentence_length"": 8.4483, ""commitment_count"": 0, ""commitment_rate_per_100_words"": 0.0, ""first_person_plural_count"": 15, ""first_person_plural_rate_per_100_words"": 6.1224, ""quantified_claim_count"": 0, ""sentence_count"": 29, ""stakeholder_count"": 0, ""stakeholder_rate_per_100_words"": 0.0, ""word_count"": 245}","{""added"": [""Our mission is to empower every person and every organization on the planet to achieve more."", ""Corporate Social Responsibility"", ""We believe technology is a powerful force for good and are working to foster a sustainable future where everyone has access to the benefits and opportunities created by technology.""], ""removed"": [""Our mission is to empower every person and organization on the planet to achieve more."", ""Microsoft Philanthropies"", ""We believe technology is a powerful tool for social and economic inclusion, and we’re working to ensure that everyone has access to the opportunities it creates.""]}",Deterministic evidence-backed baseline; manual review required.,fed2f38c8e3b2be53d93b5224a937b051d860877d544f872b958e1c781350a03,6bbaada78b69cba9badb2a5e361c837f07254b84dececfba59d3dd0f8ac5da98,review_required,pending
+MSFT,Microsoft,Technology,2021,usable,,https://www.microsoft.com/en-us/about,https://web.archive.org/web/20210630051241id_/https://www.microsoft.com/en-us/about,2021-06-30T05:12:41+00:00,"Empowering others
+Our mission is to empower every person and every organization on the planet to achieve more.
+Our company
+Stay informed about Microsoft – from company facts and news to our worldwide locations and more.
+Explore the world of Microsoft
+Who we are
+Get to know some of our people, explore engaging stories, and meet the leaders who shape our vision.
+Meet the people of Microsoft
+What we value
+See how we utilize technology to build platforms and resources to help make a lasting positive impact.
+Learn about our values
+Contact us
+Get in touch. We’re here to help.
+Get the support you need
+Featured programs and projects
+Sustainability By the Numbers
+Microsoft will be carbon negative by 2030. Get an interactive look at other ways our company is improving our environmental impact.
+Explore By the Numbers
+Corporate Social Responsibility
+We believe technology is a powerful force for good and are working to foster a sustainable future where everyone has access to the benefits and opportunities created by technology.
+Learn about our approach
+Stories
+At Microsoft, we're inspired by people around the world who use technology to do imaginative, innovative, and life-changing things. We share their stories.
+View their stories
+Microsoft AI
+When designed with people at the center, AI can extend your capabilities, free you up for more creative and strategic endeavors, and help you and your organization achieve more.
+Explore Microsoft AI",True,0.238411,substantive_change,"[""employees_and_workplace"", ""innovation_and_excellence"", ""environment_and_sustainability"", ""leadership_and_accountability"", ""purpose_and_identity""]","[{""evidence_excerpts"": [""Get to know some of our people, explore engaging stories, and meet the leaders who shape our vision.""], ""match_count"": 1, ""matched_phrases"": [""our people""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""employees_and_workplace"", ""theme_label"": ""Employees and workplace""}, {""evidence_excerpts"": [""At Microsoft, we're inspired by people around the world who use technology to do imaginative, innovative, and life-changing things.""], ""match_count"": 1, ""matched_phrases"": [""innovative""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""innovation_and_excellence"", ""theme_label"": ""Innovation and excellence""}, {""evidence_excerpts"": [""Sustainability By the Numbers"", ""We believe technology is a powerful force for good and are working to foster a sustainable future where everyone has access to the benefits and opportunities created by technology."", ""Get an interactive look at other ways our company is improving our environmental impact.""], ""match_count"": 3, ""matched_phrases"": [""sustainability"", ""sustainable"", ""environmental""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""environment_and_sustainability"", ""theme_label"": ""Environment and sustainability""}, {""evidence_excerpts"": [""Get to know some of our people, explore engaging stories, and meet the leaders who shape our vision."", ""Corporate Social Responsibility""], ""match_count"": 2, ""matched_phrases"": [""leaders"", ""responsibility""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}, {""evidence_excerpts"": [""Our mission is to empower every person and every organization on the planet to achieve more."", ""Learn about our values"", ""Who we are"", ""Get to know some of our people, explore engaging stories, and meet the leaders who shape our vision.""], ""match_count"": 4, ""matched_phrases"": [""our mission"", ""our values"", ""who we are"", ""our vision""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""purpose_and_identity"", ""theme_label"": ""Purpose and identity""}]","{""action_or_evidence_count"": 1, ""action_or_evidence_rate_per_100_words"": 0.4255, ""aspiration_count"": 1, ""aspiration_rate_per_100_words"": 0.4255, ""average_sentence_length"": 7.8333, ""commitment_count"": 1, ""commitment_rate_per_100_words"": 0.4255, ""first_person_plural_count"": 16, ""first_person_plural_rate_per_100_words"": 6.8085, ""quantified_claim_count"": 1, ""sentence_count"": 30, ""stakeholder_count"": 0, ""stakeholder_rate_per_100_words"": 0.0, ""word_count"": 235}","{""added"": [""Sustainability By the Numbers"", ""Microsoft will be carbon negative by 2030."", ""Get an interactive look at other ways our company is improving our environmental impact.""], ""removed"": [""Microsoft By the Numbers"", ""Adding up the stories that make Microsoft, By the Numbers is an interactive look at what drives us, from quantum computing to environmental sustainability."", ""Story Labs""]}",Deterministic evidence-backed baseline; manual review required.,fddfda7970b0651107e03d2cb2876fdef9ec8092180e93aeb472a155b462e852,2bb17cf57c2cfef7e29710253cfb891b7ec22caf4d32e7a26c3b0350e63ac0bb,review_required,pending
+MSFT,Microsoft,Technology,2022,usable,,https://www.microsoft.com/en-us/about,https://web.archive.org/web/20220630144336id_/https://www.microsoft.com/en-us/about,2022-06-30T14:43:36+00:00,"Empowering others
+Our mission is to empower every person and every organization on the planet to achieve more.
+Our company
+Stay informed about Microsoft – from company facts and news to our worldwide locations and more.
+Explore the world of Microsoft
+Who we are
+Get to know some of our people, explore engaging stories, and meet the leaders who shape our vision.
+Meet the people of Microsoft
+What we value
+See how we utilize technology to build platforms and resources to help make a lasting positive impact.
+Learn about our values
+Contact us
+Get in touch. We’re here to help.
+Get the support you need
+Featured programs and projects
+Sustainability By the Numbers
+Microsoft will be carbon negative by 2030. Get an interactive look at other ways our company is improving our environmental impact.
+Explore By the Numbers
+Corporate Social Responsibility
+We believe technology is a powerful force for good and are working to foster a sustainable future where everyone has access to the benefits and opportunities created by technology.
+Learn about our approach
+Stories
+At Microsoft, we're inspired by people around the world who use technology to do imaginative, innovative, and life-changing things. We share their stories.
+View their stories
+Microsoft AI
+When designed with people at the center, AI can extend your capabilities, free you up for more creative and strategic endeavors, and help you and your organization achieve more.
+Explore Microsoft AI",False,0.0,unchanged_exact,"[""employees_and_workplace"", ""innovation_and_excellence"", ""environment_and_sustainability"", ""leadership_and_accountability"", ""purpose_and_identity""]","[{""evidence_excerpts"": [""Get to know some of our people, explore engaging stories, and meet the leaders who shape our vision.""], ""match_count"": 1, ""matched_phrases"": [""our people""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""employees_and_workplace"", ""theme_label"": ""Employees and workplace""}, {""evidence_excerpts"": [""At Microsoft, we're inspired by people around the world who use technology to do imaginative, innovative, and life-changing things.""], ""match_count"": 1, ""matched_phrases"": [""innovative""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""innovation_and_excellence"", ""theme_label"": ""Innovation and excellence""}, {""evidence_excerpts"": [""Sustainability By the Numbers"", ""We believe technology is a powerful force for good and are working to foster a sustainable future where everyone has access to the benefits and opportunities created by technology."", ""Get an interactive look at other ways our company is improving our environmental impact.""], ""match_count"": 3, ""matched_phrases"": [""sustainability"", ""sustainable"", ""environmental""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""environment_and_sustainability"", ""theme_label"": ""Environment and sustainability""}, {""evidence_excerpts"": [""Get to know some of our people, explore engaging stories, and meet the leaders who shape our vision."", ""Corporate Social Responsibility""], ""match_count"": 2, ""matched_phrases"": [""leaders"", ""responsibility""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}, {""evidence_excerpts"": [""Our mission is to empower every person and every organization on the planet to achieve more."", ""Learn about our values"", ""Who we are"", ""Get to know some of our people, explore engaging stories, and meet the leaders who shape our vision.""], ""match_count"": 4, ""matched_phrases"": [""our mission"", ""our values"", ""who we are"", ""our vision""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""purpose_and_identity"", ""theme_label"": ""Purpose and identity""}]","{""action_or_evidence_count"": 1, ""action_or_evidence_rate_per_100_words"": 0.4255, ""aspiration_count"": 1, ""aspiration_rate_per_100_words"": 0.4255, ""average_sentence_length"": 7.8333, ""commitment_count"": 1, ""commitment_rate_per_100_words"": 0.4255, ""first_person_plural_count"": 16, ""first_person_plural_rate_per_100_words"": 6.8085, ""quantified_claim_count"": 1, ""sentence_count"": 30, ""stakeholder_count"": 0, ""stakeholder_rate_per_100_words"": 0.0, ""word_count"": 235}",,Deterministic evidence-backed baseline; manual review required.,dcd308b31a001e4f91f3b1232c0f6a697e53d1bb3445c410f61678cf8aee36c9,2bb17cf57c2cfef7e29710253cfb891b7ec22caf4d32e7a26c3b0350e63ac0bb,review_required,pending
+MSFT,Microsoft,Technology,2023,usable,,https://www.microsoft.com/en-us/about,https://web.archive.org/web/20230630172439id_/https://www.microsoft.com/en-us/about,2023-06-30T17:24:39+00:00,"Empowering others
+Our mission is to empower every person and every organization on the planet to achieve more.
+Our company
+Stay informed about Microsoft – from company facts and news to our worldwide locations and more.
+Explore the world of Microsoft
+Who we are
+Get to know some of our people, explore engaging stories, and meet the leaders who shape our vision.
+Meet the people of Microsoft
+What we value
+See how we utilize technology to build platforms and resources to help make a lasting positive impact.
+Learn about our values
+Contact us
+Get in touch. We’re here to help.
+Get the support you need
+Featured programs and projects
+Sustainability By the Numbers
+Microsoft will be carbon negative by 2030. Get an interactive look at other ways our company is improving our environmental impact.
+Explore By the Numbers
+Corporate Social Responsibility
+We believe technology is a powerful force for good and are working to foster a sustainable future where everyone has access to the benefits and opportunities created by technology.
+Learn about our approach
+Stories
+At Microsoft, we're inspired by people around the world who use technology to do imaginative, innovative, and life-changing things. We share their stories.
+View their stories
+Microsoft AI
+When designed with people at the center, AI can extend your capabilities, free you up for more creative and strategic endeavors, and help you and your organization achieve more.
+Explore Microsoft AI",False,0.0,unchanged_exact,"[""employees_and_workplace"", ""innovation_and_excellence"", ""environment_and_sustainability"", ""leadership_and_accountability"", ""purpose_and_identity""]","[{""evidence_excerpts"": [""Get to know some of our people, explore engaging stories, and meet the leaders who shape our vision.""], ""match_count"": 1, ""matched_phrases"": [""our people""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""employees_and_workplace"", ""theme_label"": ""Employees and workplace""}, {""evidence_excerpts"": [""At Microsoft, we're inspired by people around the world who use technology to do imaginative, innovative, and life-changing things.""], ""match_count"": 1, ""matched_phrases"": [""innovative""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""innovation_and_excellence"", ""theme_label"": ""Innovation and excellence""}, {""evidence_excerpts"": [""Sustainability By the Numbers"", ""We believe technology is a powerful force for good and are working to foster a sustainable future where everyone has access to the benefits and opportunities created by technology."", ""Get an interactive look at other ways our company is improving our environmental impact.""], ""match_count"": 3, ""matched_phrases"": [""sustainability"", ""sustainable"", ""environmental""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""environment_and_sustainability"", ""theme_label"": ""Environment and sustainability""}, {""evidence_excerpts"": [""Get to know some of our people, explore engaging stories, and meet the leaders who shape our vision."", ""Corporate Social Responsibility""], ""match_count"": 2, ""matched_phrases"": [""leaders"", ""responsibility""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""leadership_and_accountability"", ""theme_label"": ""Leadership and accountability""}, {""evidence_excerpts"": [""Our mission is to empower every person and every organization on the planet to achieve more."", ""Learn about our values"", ""Who we are"", ""Get to know some of our people, explore engaging stories, and meet the leaders who shape our vision.""], ""match_count"": 4, ""matched_phrases"": [""our mission"", ""our values"", ""who we are"", ""our vision""], ""taxonomy_version"": ""1.0.0-keyword-baseline"", ""theme_id"": ""purpose_and_identity"", ""theme_label"": ""Purpose and identity""}]","{""action_or_evidence_count"": 1, ""action_or_evidence_rate_per_100_words"": 0.4255, ""aspiration_count"": 1, ""aspiration_rate_per_100_words"": 0.4255, ""average_sentence_length"": 7.8333, ""commitment_count"": 1, ""commitment_rate_per_100_words"": 0.4255, ""first_person_plural_count"": 16, ""first_person_plural_rate_per_100_words"": 6.8085, ""quantified_claim_count"": 1, ""sentence_count"": 30, ""stakeholder_count"": 0, ""stakeholder_rate_per_100_words"": 0.0, ""word_count"": 235}",,Deterministic evidence-backed baseline; manual review required.,2bf54d4031fc3bdcab2a25c78c8eb26ad2ff22fe1041a419a2dd501973ddf399,2bb17cf57c2cfef7e29710253cfb891b7ec22caf4d32e7a26c3b0350e63ac0bb,review_required,pending
+MSFT,Microsoft,Technology,2024,insufficient_substantive_text,selected capture could not be extracted,https://www.microsoft.com/en-us/about,https://web.archive.org/web/20240701230101id_/https://www.microsoft.com/en-us/about,2024-07-01T23:01:01+00:00,About Microsoft | Mission and Vision | Microsoft,,,indeterminate,,,,,Unavailable: selected capture could not be extracted,f370fcdf2b5d89ab5ed2665064d0e65f177cc9fa26e5f872e497ff3613bfb188,a4284bf64339ff25e5d441ad0a96597c154d11bdf2b3d662328f86546214d0c2,not_available,pending
 NKE,Nike,Consumer Discretionary,2016,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,no_prior,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
 NKE,Nike,Consumer Discretionary,2017,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
 NKE,Nike,Consumer Discretionary,2018,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
