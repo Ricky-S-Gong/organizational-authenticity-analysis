@@ -1,13 +1,57 @@
 ticker,company_name,sector,year,observation_status,gap_reason,source_url,wayback_url,capture_timestamp,page_text_clean,changed_from_prior,change_score,change_magnitude,theme_categories,theme_evidence,linguistic_metrics,linguistic_shift_notes,analyst_notes,raw_content_sha256,clean_text_sha256,extraction_quality,manual_review_status
-AAPL,Apple,Technology,2016,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,no_prior,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-AAPL,Apple,Technology,2017,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-AAPL,Apple,Technology,2018,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-AAPL,Apple,Technology,2019,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-AAPL,Apple,Technology,2020,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-AAPL,Apple,Technology,2021,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-AAPL,Apple,Technology,2022,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-AAPL,Apple,Technology,2023,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
-AAPL,Apple,Technology,2024,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
+AAPL,Apple,Technology,2016,insufficient_substantive_text,selected capture could not be extracted,https://www.apple.com/about/,https://web.archive.org/web/20160628180133id_/https://www.apple.com/about/,2016-06-28T18:01:33+00:00,"Apple Info - Apple
+Contact Us
+Apple Inc.
+1 Infinite Loop
+Cupertino, CA 95014
+408-996-1010
+Apple Store
+Find a store
+Apple.com
+Visit apple.com
+Or call 1-800-My-Apple
+Sales Support
+Find order status online
+Or call 1-800-676-2775
+Contact Apple Support
+Find Authorized Resellers
+Latest Press Releases
+RSS Feed
+View all
+Job Opportunities
+Want to work at Apple?
+Overview Search Jobs
+Apple Corporate Apple Retail Students",,,no_prior,,,,,Unavailable: selected capture could not be extracted,8eda5546000853a359c1e906bf6ba39a6676888a5a1fea409e48764f2e7b20fd,3311a17db0bb9795c7bfafa7db0ba7b1eed55e331388f738184ba28e4317c944,not_available,pending
+AAPL,Apple,Technology,2017,insufficient_substantive_text,selected capture could not be extracted,https://www.apple.com/about/,https://web.archive.org/web/20170517063558id_/https://www.apple.com/about/,2017-05-17T06:35:58+00:00,"Apple Info - Apple
+Contact Us
+Apple Inc.
+1 Infinite Loop
+Cupertino, CA 95014
+408-996-1010
+Apple Store
+Find a store
+Apple.com
+Visit apple.com
+Or call 1-800-My-Apple
+Sales Support
+Find order status online
+Or call 1-800-676-2775
+Contact Apple Support
+Find Authorized Resellers
+Latest Press Releases
+RSS Feed
+View all
+Job Opportunities
+Want to work at Apple?
+Overview Search Jobs
+Apple Corporate Apple Retail Students",,,indeterminate,,,,,Unavailable: selected capture could not be extracted,dd0041dcb301d95be9c80ed7548ce33262157a28fd58e5405ed9dcf255ca4a41,3311a17db0bb9795c7bfafa7db0ba7b1eed55e331388f738184ba28e4317c944,not_available,pending
+AAPL,Apple,Technology,2018,no_eligible_capture,same-year captures exist but none are successful HTML,,,,,,,indeterminate,,,,,Unavailable: same-year captures exist but none are successful HTML,,,not_available,not_applicable
+AAPL,Apple,Technology,2019,no_eligible_capture,same-year captures exist but none are successful HTML,,,,,,,indeterminate,,,,,Unavailable: same-year captures exist but none are successful HTML,,,not_available,not_applicable
+AAPL,Apple,Technology,2020,no_eligible_capture,same-year captures exist but none are successful HTML,,,,,,,indeterminate,,,,,Unavailable: same-year captures exist but none are successful HTML,,,not_available,not_applicable
+AAPL,Apple,Technology,2021,no_eligible_capture,same-year captures exist but none are successful HTML,,,,,,,indeterminate,,,,,Unavailable: same-year captures exist but none are successful HTML,,,not_available,not_applicable
+AAPL,Apple,Technology,2022,no_eligible_capture,same-year captures exist but none are successful HTML,,,,,,,indeterminate,,,,,Unavailable: same-year captures exist but none are successful HTML,,,not_available,not_applicable
+AAPL,Apple,Technology,2023,no_eligible_capture,same-year captures exist but none are successful HTML,,,,,,,indeterminate,,,,,Unavailable: same-year captures exist but none are successful HTML,,,not_available,not_applicable
+AAPL,Apple,Technology,2024,no_eligible_capture,same-year captures exist but none are successful HTML,,,,,,,indeterminate,,,,,Unavailable: same-year captures exist but none are successful HTML,,,not_available,not_applicable
 ABBV,AbbVie,Healthcare,2016,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,no_prior,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
 ABBV,AbbVie,Healthcare,2017,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable
 ABBV,AbbVie,Healthcare,2018,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,,,,,,,indeterminate,,,,,Unavailable: same-year CDX query missing or failed for all relevant candidates,,,not_available,not_applicable

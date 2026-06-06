@@ -1,13 +1,13 @@
 ticker,company_name,sector,year,target_timestamp,acquisition_status,failure_reason,eligible_page_count,capture_count,eligible_capture_count,selected_capture_timestamp,selected_original_url,selected_replay_url,query_status,query_attempt_count
-AAPL,Apple,Technology,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-AAPL,Apple,Technology,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-AAPL,Apple,Technology,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-AAPL,Apple,Technology,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-AAPL,Apple,Technology,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-AAPL,Apple,Technology,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-AAPL,Apple,Technology,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-AAPL,Apple,Technology,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-AAPL,Apple,Technology,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
+AAPL,Apple,Technology,2016,2016-06-30T12:00:00+00:00,selected,,1,152,71,2016-06-28T18:01:33+00:00,https://www.apple.com/about/,https://web.archive.org/web/20160628180133id_/https://www.apple.com/about/,complete,1
+AAPL,Apple,Technology,2017,2017-06-30T12:00:00+00:00,selected,,1,129,27,2017-05-17T06:35:58+00:00,https://www.apple.com/about/,https://web.archive.org/web/20170517063558id_/https://www.apple.com/about/,complete,1
+AAPL,Apple,Technology,2018,2018-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,112,0,,,,complete,1
+AAPL,Apple,Technology,2019,2019-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,78,0,,,,complete,1
+AAPL,Apple,Technology,2020,2020-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,66,0,,,,complete,1
+AAPL,Apple,Technology,2021,2021-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,21,0,,,,complete,4
+AAPL,Apple,Technology,2022,2022-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,27,0,,,,complete,2
+AAPL,Apple,Technology,2023,2023-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,15,0,,,,complete,2
+AAPL,Apple,Technology,2024,2024-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,12,0,,,,complete,2
 ABBV,AbbVie,Healthcare,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 ABBV,AbbVie,Healthcare,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 ABBV,AbbVie,Healthcare,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2

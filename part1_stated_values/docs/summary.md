@@ -11,10 +11,10 @@ The pipeline evaluated all 450 required company-year targets across 50 companies
 
 Status breakdown:
 
-- `discovery_incomplete`: 414
-- `insufficient_substantive_text`: 1
+- `discovery_incomplete`: 405
+- `insufficient_substantive_text`: 3
 - `no_cdx_capture`: 14
-- `no_eligible_capture`: 3
+- `no_eligible_capture`: 10
 - `no_eligible_page`: 9
 - `usable`: 9
 

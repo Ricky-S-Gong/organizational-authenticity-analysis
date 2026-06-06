@@ -45,16 +45,16 @@
       "passed": false,
       "evidence": {
         "status_rows": 450,
-        "discovery_incomplete_rows": 414
+        "discovery_incomplete_rows": 405
       }
     },
     "phase_4_text_extraction": {
       "passed": false,
       "evidence": {
-        "selected_rows": 10,
-        "artifact_rows": 10,
+        "selected_rows": 12,
+        "artifact_rows": 12,
         "usable_rows": 9,
-        "pending_review_rows": 19,
+        "pending_review_rows": 21,
         "human_validation_recorded": false
       }
     },

@@ -1,4 +1,260 @@
 ticker,year,fetch_status,raw_content_sha256,clean_text_sha256,page_text_clean,visible_text_raw,clean_word_count,clean_char_count,alpha_ratio,link_text_ratio,qa_flags
+AAPL,2016,success,8eda5546000853a359c1e906bf6ba39a6676888a5a1fea409e48764f2e7b20fd,3311a17db0bb9795c7bfafa7db0ba7b1eed55e331388f738184ba28e4317c944,"Apple Info - Apple
+Contact Us
+Apple Inc.
+1 Infinite Loop
+Cupertino, CA 95014
+408-996-1010
+Apple Store
+Find a store
+Apple.com
+Visit apple.com
+Or call 1-800-My-Apple
+Sales Support
+Find order status online
+Or call 1-800-676-2775
+Contact Apple Support
+Find Authorized Resellers
+Latest Press Releases
+RSS Feed
+View all
+Job Opportunities
+Want to work at Apple?
+Overview Search Jobs
+Apple Corporate Apple Retail Students","Apple Info - Apple
+Open Menu Close Menu
+Apple
+Shopping Bag
+Apple
+Mac
+iPad
+iPhone
+Watch
+TV
+Music
+Support
+Shopping Bag
+Apple Info
+Open Menu Close Menu
+Contact Us
+Leadership
+Investors
+Jobs
+Diversity
+Environment
+Working with Apple
+Legal
+Contact Us
+Apple Inc.
+1 Infinite Loop
+Cupertino, CA 95014
+408-996-1010
+Apple Store
+Find a store
+Apple.com
+Visit apple.com
+Or call 1-800-My-Apple
+Sales Support
+Find order status online
+Or call 1-800-676-2775
+Contact Apple Support
+Find Authorized Resellers
+Latest Press Releases
+RSS Feed
+View all
+Job Opportunities
+Want to work at Apple?
+Overview Search Jobs
+Apple Corporate Apple Retail Students
+Apple Footer
+Apple
+Apple Info
+Shop and Learn
+Open Menu Close Menu
+Mac
+iPad
+iPhone
+Watch
+TV
+Music
+iTunes
+iPod
+Accessories
+Gift Cards
+Apple Store
+Open Menu Close Menu
+Find a Store
+Genius Bar
+Workshops and Learning
+Youth Programs
+Apple Store App
+Refurbished
+Financing
+Reuse and Recycling
+Order Status
+Shopping Help
+For Education
+Open Menu Close Menu
+Apple and Education
+Shop for College
+For Business
+Open Menu Close Menu
+Apple and Business
+Shop for Business
+Account
+Open Menu Close Menu
+Manage Your Apple ID
+Apple Store Account
+iCloud.com
+Apple Values
+Open Menu Close Menu
+Environment
+Supplier Responsibility
+Accessibility
+Privacy
+Inclusion and Diversity
+Education
+About Apple
+Open Menu Close Menu
+Apple Info
+Newsroom
+Job Opportunities
+Investors
+Events
+Contact Apple
+More ways to shop: Visit an Apple Store , call 1-800-MY-APPLE, or find a reseller .
+United States
+Copyright © 2016 Apple Inc. All rights reserved.
+Privacy Policy Terms of Use Sales and Refunds Legal Site Map",64,413,0.7409200968523002,0.7248641304347826,"[""short_text"", ""high_link_text_ratio"", ""no_main_region""]"
+AAPL,2017,success,dd0041dcb301d95be9c80ed7548ce33262157a28fd58e5405ed9dcf255ca4a41,3311a17db0bb9795c7bfafa7db0ba7b1eed55e331388f738184ba28e4317c944,"Apple Info - Apple
+Contact Us
+Apple Inc.
+1 Infinite Loop
+Cupertino, CA 95014
+408-996-1010
+Apple Store
+Find a store
+Apple.com
+Visit apple.com
+Or call 1-800-My-Apple
+Sales Support
+Find order status online
+Or call 1-800-676-2775
+Contact Apple Support
+Find Authorized Resellers
+Latest Press Releases
+RSS Feed
+View all
+Job Opportunities
+Want to work at Apple?
+Overview Search Jobs
+Apple Corporate Apple Retail Students","Apple Info - Apple
+Open Menu Close Menu
+Apple
+Shopping Bag
+Apple
+Mac
+iPad
+iPhone
+Watch
+TV
+Music
+Support
+Shopping Bag
+Apple Info
+Open Menu Close Menu
+Contact Us
+Leadership
+Investors
+Jobs
+Diversity
+Environment
+Working with Apple
+Legal
+Contact Us
+Apple Inc.
+1 Infinite Loop
+Cupertino, CA 95014
+408-996-1010
+Apple Store
+Find a store
+Apple.com
+Visit apple.com
+Or call 1-800-My-Apple
+Sales Support
+Find order status online
+Or call 1-800-676-2775
+Contact Apple Support
+Find Authorized Resellers
+Latest Press Releases
+RSS Feed
+View all
+Job Opportunities
+Want to work at Apple?
+Overview Search Jobs
+Apple Corporate Apple Retail Students
+Apple Footer
+Apple
+Apple Info
+Shop and Learn
+Open Menu Close Menu
+Mac
+iPad
+iPhone
+Watch
+TV
+Music
+iTunes
+iPod
+Accessories
+Gift Cards
+Apple Store
+Open Menu Close Menu
+Find a Store
+Genius Bar
+Today at Apple
+Apple Camp
+Field Trip
+Apple Store App
+Refurbished and Clearance
+Financing
+Reuse and Recycling
+Order Status
+Shopping Help
+For Education
+Open Menu Close Menu
+Apple and Education
+Shop for College
+For Business
+Open Menu Close Menu
+Apple and Business
+Shop for Business
+Account
+Open Menu Close Menu
+Manage Your Apple ID
+Apple Store Account
+iCloud.com
+Apple Values
+Open Menu Close Menu
+Accessibility
+Education
+Environment
+Inclusion and Diversity
+Privacy
+Supplier Responsibility
+About Apple
+Open Menu Close Menu
+Apple Info
+Newsroom
+Job Opportunities
+Press Info
+Investors
+Events
+Contact Apple
+More ways to shop: Visit an Apple Store , call 1-800-MY-APPLE, or find a reseller .
+United States
+Copyright © 2017 Apple Inc. All rights reserved.
+Privacy Policy Terms of Use Sales and Refunds Legal Site Map",64,413,0.7409200968523002,0.7289156626506024,"[""short_text"", ""high_link_text_ratio"", ""no_main_region""]"
 AXP,2023,cached,b44671f579e73726a9b15e034e2be4a7ee7b3a8fa85e00a5e64793edfcbfee20,1cd83037ce05cccd438cbe4627d482d88cd9fb794dadeba51b6cfa1e25fbb263,"About American Express
 Who We Are
 Our Vision
