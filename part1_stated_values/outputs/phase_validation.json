@@ -42,19 +42,19 @@
       }
     },
     "phase_3_cdx_and_snapshot_selection": {
-      "passed": false,
+      "passed": true,
       "evidence": {
         "status_rows": 450,
-        "discovery_incomplete_rows": 7
+        "discovery_incomplete_rows": 0
       }
     },
     "phase_4_text_extraction": {
       "passed": false,
       "evidence": {
-        "selected_rows": 244,
-        "artifact_rows": 166,
-        "usable_rows": 115,
-        "pending_review_rows": 253,
+        "selected_rows": 248,
+        "artifact_rows": 184,
+        "usable_rows": 126,
+        "pending_review_rows": 257,
         "human_validation_recorded": false
       }
     },
@@ -68,7 +68,7 @@
     "phase_6_theme_and_llm_analysis": {
       "passed": false,
       "evidence": {
-        "theme_observation_rows": 882,
+        "theme_observation_rows": 993,
         "llm_analysis_completed": false,
         "deterministic_baseline_completed": true
       }

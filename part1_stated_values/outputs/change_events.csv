@@ -31,8 +31,8 @@ AMZN,2017,,,indeterminate,
 AMZN,2018,,,indeterminate,
 AMZN,2019,,,indeterminate,
 AMZN,2020,,,indeterminate,
-AMZN,2021,,,indeterminate,
-AMZN,2022,,,indeterminate,
+AMZN,2021,True,0.391144,substantive_change,"{""added"": [""Amazon strives to be Earth’s most customer-centric company, Earth’s best employer, and Earth’s safest place to work."", ""Customer reviews, 1-Click shopping, personalized recommendations, Prime, Fulfillment by Amazon, AWS, Kindle Direct Publishing, Kindle, Career Choice, Fire tablets, Fire TV, Amazon Echo, Alexa, Just Walk Out technology, Amazon Studios, and The Climate Pledge are some of the things pioneered by Amazon."", ""The 16 principles guide our discussions and decisions every day.""], ""removed"": [""Our mission is to be Earth’s most customer-centric company."", ""Customer reviews, 1-Click shopping, personalized recommendations, Prime, Fulfillment by Amazon, AWS, Kindle Direct Publishing, Kindle, Fire tablets, Fire TV, Amazon Echo, and Alexa are some of the products and services pioneered by Amazon."", ""The 14 principles guide our discussions and decisions every day.""]}"
+AMZN,2022,True,0.425087,substantive_change,"{""added"": [""At Amazon, $15 is just the start"", ""All Amazon employees earn at least $15 an hour—and more in areas where the cost of living is higher."", ""We invest in employee career growth—including fully paid college tuition—and offer regular, full-time employees benefits like health care on day one, and paid family leave.""], ""removed"": [""How a door became a desk, and a symbol of Amazon"", ""Today, Amazon offices around the world are filled with door desks, based on Bezos’ early design."", ""Watch now""]}"
 AMZN,2023,True,0.489362,substantive_change,"{""added"": [""Public Policy"", ""We engage with policymakers on a wide range of issues that are important to our customers and employees."", ""Learn more about our views on current policy issues.""], ""removed"": [""Workplace"", ""At Amazon, $15 is just the start"", ""All Amazon employees earn at least $15 an hour—and more in areas where the cost of living is higher.""]}"
 AMZN,2024,True,0.424699,substantive_change,"{""added"": [""Amazon Leadership Principles"", ""Our Reports"", ""Dive deep into Amazon's support of employees and small businesses, and learn more about our efforts to build stronger communities and protect the planet.""], ""removed"": [""Leadership Principles"", ""CEO Andy Jassy’s 2022 Letter to Shareholders"", ""More from Amazon""]}"
 AVGO,2016,,,no_prior,
@@ -259,22 +259,22 @@ META,2020,True,0.039916,minor_edit,"{""added"": [""Our products empower more tha
 META,2021,True,0.027484,minor_edit,"{""added"": [""$5 billion+ raised"", ""200 million+ businesses"", ""Chris Cox""], ""removed"": [""$3 billion+ raised"", ""160 million+ businesses"", ""Offices in 70 cities worldwide""]}"
 META,2022,True,0.763985,substantive_change,"{""added"": [""Company Information, Culture, and Principles | About"", ""Skip to content"", ""$6 billion+ raised""], ""removed"": [""$5 billion+ raised"", ""100 billion+ messages shared every day"", ""Serve Everyone""]}"
 META,2023,True,0.636364,substantive_change,"{""added"": [""Company Information, Culture, and Principles | About Meta"", ""Giving people the power to build community and bring the world closer together"", ""Our products empower more than 3 billion people around the world to share ideas and offer support.""], ""removed"": [""Company Information, Culture, and Principles | About"", ""Give people the power to build community and bring the world closer together."", ""Our products empower more than 3 billion people around the world to share ideas, offer support and make a difference.""]}"
-META,2024,,,indeterminate,
+META,2024,True,0.006061,minor_edit,"{""added"": [""Now, Meta is moving beyond 2D screens toward immersive experiences like augmented, virtual and mixed reality to help build the next evolution in social technology.""], ""removed"": [""Now, Meta is moving beyond 2D screens toward immersive experiences like augmented and virtual reality to help build the next evolution in social technology.""]}"
 MPC,2016,,,no_prior,
 MPC,2017,,,indeterminate,
 MPC,2018,,,indeterminate,
 MPC,2019,,,indeterminate,
-MPC,2020,,,indeterminate,
-MPC,2021,,,indeterminate,
-MPC,2022,,,indeterminate,
-MPC,2023,,,indeterminate,
-MPC,2024,,,indeterminate,
+MPC,2020,True,0.196172,substantive_change,"{""added"": [""We are MPC"", ""About MPC"", ""MPC also owns the general partner and majority limited partner interest in MPLX LP, a midstream company which owns and operates gathering, processing, and fractionation assets, as well as crude oil and light product transportation and logistics infrastructure.""], ""removed"": [""We are Marathon Petroleum"", ""“At Marathon Petroleum, we are proud of the important work we do."", ""It is a privilege to work every day with so many talented people who are dedicated to our values, care about our customers, and make the communities where we operate better places to live.”""]}"
+MPC,2021,True,0.128492,substantive_change,"{""added"": [""Marathon Petroleum Corporation (MPC) is a leading, integrated, downstream energy company headquartered in Findlay, Ohio."", ""The company operates the nation's largest refining system."", ""MPC's marketing system includes branded locations across the United States, including Marathon brand retail outlets.""], ""removed"": [""Marathon Petroleum Corporation is a leading, integrated, downstream energy company headquartered in Findlay, Ohio."", ""The company operates the nation’s largest refining system with more than 3 million barrels per day of crude oil capacity across 16 refineries."", ""Marathon Petroleum's marketing system includes branded locations across the United States, including Marathon branded outlets.""]}"
+MPC,2022,True,0.006289,minor_edit,"{""added"": [""CREATING SHARED VALUE""], ""removed"": [""CREATING SHARED VALUE AT MPC""]}"
+MPC,2023,False,0.0,unchanged_exact,
+MPC,2024,True,0.053892,minor_edit,"{""added"": [""Read the latest news"", ""See our operations"", ""Come make a difference""], ""removed"": [""CREATING SHARED VALUE""]}"
 MRK,2016,,,no_prior,
 MRK,2017,,,indeterminate,
 MRK,2018,,,indeterminate,
 MRK,2019,,,indeterminate,
 MRK,2020,,,indeterminate,
-MRK,2021,,,indeterminate,
+MRK,2021,True,0.319149,substantive_change,"{""added"": [""For 130 years, Merck (known as MSD outside of the U.S."", ""74K"", ""$13.6B""], ""removed"": [""For more than 125 years, Merck (known as MSD outside of the U.S."", ""71K"", ""$9.9B""]}"
 MRK,2022,,,indeterminate,
 MRK,2023,,,indeterminate,
 MRK,2024,,,indeterminate,

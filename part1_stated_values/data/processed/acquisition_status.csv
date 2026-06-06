@@ -31,11 +31,11 @@ AMZN,Amazon,Consumer Discretionary,2017,2017-06-30T12:00:00+00:00,no_cdx_capture
 AMZN,Amazon,Consumer Discretionary,2018,2018-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
 AMZN,Amazon,Consumer Discretionary,2019,2019-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,3
 AMZN,Amazon,Consumer Discretionary,2020,2020-06-30T12:00:00+00:00,selected,,1,4,4,2020-11-24T04:01:48+00:00,https://www.aboutamazon.com/about-us,https://web.archive.org/web/20201124040148id_/https://www.aboutamazon.com/about-us,complete,2
-AMZN,Amazon,Consumer Discretionary,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,5
+AMZN,Amazon,Consumer Discretionary,2021,2021-06-30T12:00:00+00:00,selected,,1,50,43,2021-07-03T22:38:52+00:00,https://www.aboutamazon.com/about-us,https://web.archive.org/web/20210703223852id_/https://www.aboutamazon.com/about-us,complete,1
 AMZN,Amazon,Consumer Discretionary,2022,2022-06-30T12:00:00+00:00,selected,,1,75,65,2022-07-01T19:56:56+00:00,https://www.aboutamazon.com/about-us,https://web.archive.org/web/20220701195656id_/https://www.aboutamazon.com/about-us,complete,1
 AMZN,Amazon,Consumer Discretionary,2023,2023-06-30T12:00:00+00:00,selected,,1,63,60,2023-07-01T06:12:32+00:00,https://www.aboutamazon.com/about-us,https://web.archive.org/web/20230701061232id_/https://www.aboutamazon.com/about-us,complete,1
 AMZN,Amazon,Consumer Discretionary,2024,2024-06-30T12:00:00+00:00,selected,,1,96,85,2024-06-28T04:12:06+00:00,https://www.aboutamazon.com/about-us,https://web.archive.org/web/20240628041206id_/https://www.aboutamazon.com/about-us,complete,2
-AVGO,Broadcom,Technology,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,5
+AVGO,Broadcom,Technology,2016,2016-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
 AVGO,Broadcom,Technology,2017,2017-06-30T12:00:00+00:00,selected,,1,4,4,2017-07-12T08:48:05+00:00,https://www.broadcom.com/company/about-us/,https://web.archive.org/web/20170712084805id_/https://www.broadcom.com/company/about-us/,complete,2
 AVGO,Broadcom,Technology,2018,2018-06-30T12:00:00+00:00,selected,,1,8,7,2018-05-18T23:54:42+00:00,https://www.broadcom.com/company/about-us/,https://web.archive.org/web/20180518235442id_/https://www.broadcom.com/company/about-us/,complete,1
 AVGO,Broadcom,Technology,2019,2019-06-30T12:00:00+00:00,selected,,1,20,19,2019-07-20T02:52:41+00:00,https://www.broadcom.com/company/about-us,https://web.archive.org/web/20190720025241id_/https://www.broadcom.com/company/about-us,complete,1
@@ -71,7 +71,7 @@ BLK,BlackRock,Financials,2021,2021-06-30T12:00:00+00:00,selected,,1,33,31,2021-0
 BLK,BlackRock,Financials,2022,2022-06-30T12:00:00+00:00,selected,,1,45,43,2022-06-29T11:19:55+00:00,https://www.blackrock.com/corporate/about-us,https://web.archive.org/web/20220629111955id_/https://www.blackrock.com/corporate/about-us,complete,2
 BLK,BlackRock,Financials,2023,2023-06-30T12:00:00+00:00,selected,,1,25,25,2023-06-27T23:01:14+00:00,https://www.blackrock.com/corporate/about-us,https://web.archive.org/web/20230627230114id_/https://www.blackrock.com/corporate/about-us,complete,2
 BLK,BlackRock,Financials,2024,2024-06-30T12:00:00+00:00,selected,,1,22,21,2024-07-03T15:08:58+00:00,https://www.blackrock.com/corporate/about-us,https://web.archive.org/web/20240703150858id_/https://www.blackrock.com/corporate/about-us,complete,2
-BMY,Bristol-Myers Squibb,Healthcare,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,5
+BMY,Bristol-Myers Squibb,Healthcare,2016,2016-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
 BMY,Bristol-Myers Squibb,Healthcare,2017,2017-06-30T12:00:00+00:00,selected,,1,10,3,2017-06-06T23:15:06+00:00,https://www.bms.com/about-us.html,https://web.archive.org/web/20170606231506id_/https://www.bms.com/about-us.html,complete,3
 BMY,Bristol-Myers Squibb,Healthcare,2018,2018-06-30T12:00:00+00:00,selected,,1,9,2,2018-11-04T11:01:41+00:00,https://www.bms.com/about-us.html,https://web.archive.org/web/20181104110141id_/https://www.bms.com/about-us.html,complete,2
 BMY,Bristol-Myers Squibb,Healthcare,2019,2019-06-30T12:00:00+00:00,selected,,1,21,14,2019-07-30T18:48:45+00:00,https://www.bms.com/about-us.html,https://web.archive.org/web/20190730184845id_/https://www.bms.com/about-us.html,complete,1
@@ -216,9 +216,9 @@ JPM,JPMorgan Chase,Financials,2022,2022-06-30T12:00:00+00:00,selected,,1,33,30,2
 JPM,JPMorgan Chase,Financials,2023,2023-06-30T12:00:00+00:00,selected,,1,161,158,2023-07-01T13:32:52+00:00,https://www.jpmorganchase.com/about,https://web.archive.org/web/20230701133252id_/https://www.jpmorganchase.com/about,complete,3
 JPM,JPMorgan Chase,Financials,2024,2024-06-30T12:00:00+00:00,selected,,1,180,175,2024-07-03T15:41:38+00:00,https://www.jpmorganchase.com/about,https://web.archive.org/web/20240703154138id_/https://www.jpmorganchase.com/about,complete,3
 LLY,Eli Lilly,Healthcare,2016,2016-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,3,0,,,,complete,1
-LLY,Eli Lilly,Healthcare,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,5
+LLY,Eli Lilly,Healthcare,2017,2017-06-30T12:00:00+00:00,selected,,1,12,10,2017-06-29T01:42:15+00:00,https://www.lilly.com/who-we-are,https://web.archive.org/web/20170629014215id_/https://www.lilly.com/who-we-are,complete,1
 LLY,Eli Lilly,Healthcare,2018,2018-06-30T12:00:00+00:00,selected,,1,7,5,2018-06-23T09:33:14+00:00,https://www.lilly.com/who-we-are,https://web.archive.org/web/20180623093314id_/https://www.lilly.com/who-we-are,complete,4
-LLY,Eli Lilly,Healthcare,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,5
+LLY,Eli Lilly,Healthcare,2019,2019-06-30T12:00:00+00:00,selected,,1,34,17,2019-07-03T15:14:22+00:00,https://www.lilly.com/who-we-are,https://web.archive.org/web/20190703151422id_/https://www.lilly.com/who-we-are,complete,1
 LLY,Eli Lilly,Healthcare,2020,2020-06-30T12:00:00+00:00,selected,,1,6,2,2020-03-10T12:07:59+00:00,https://www.lilly.com/who-we-are,https://web.archive.org/web/20200310120759id_/https://www.lilly.com/who-we-are,complete,4
 LLY,Eli Lilly,Healthcare,2021,2021-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
 LLY,Eli Lilly,Healthcare,2022,2022-06-30T12:00:00+00:00,selected,,1,3,1,2022-01-24T04:39:31+00:00,https://www.lilly.com/who-we-are/,https://web.archive.org/web/20220124043931id_/https://www.lilly.com/who-we-are/,complete,1
@@ -287,7 +287,7 @@ MS,Morgan Stanley,Financials,2021,2021-06-30T12:00:00+00:00,selected,,1,34,30,20
 MS,Morgan Stanley,Financials,2022,2022-06-30T12:00:00+00:00,selected,,1,35,35,2022-07-07T13:15:19+00:00,https://www.morganstanley.com/about-us,https://web.archive.org/web/20220707131519id_/https://www.morganstanley.com/about-us,complete,1
 MS,Morgan Stanley,Financials,2023,2023-06-30T12:00:00+00:00,selected,,1,28,26,2023-07-01T04:05:53+00:00,https://www.morganstanley.com/about-us,https://web.archive.org/web/20230701040553id_/https://www.morganstanley.com/about-us,complete,1
 MS,Morgan Stanley,Financials,2024,2024-06-30T12:00:00+00:00,selected,,1,41,35,2024-07-03T04:46:21+00:00,https://www.morganstanley.com/about-us,https://web.archive.org/web/20240703044621id_/https://www.morganstanley.com/about-us,complete,1
-MSFT,Microsoft,Technology,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,5
+MSFT,Microsoft,Technology,2016,2016-06-30T12:00:00+00:00,selected,,1,101,101,2016-06-29T13:52:34+00:00,https://www.microsoft.com/en-us/about,https://web.archive.org/web/20160629135234id_/https://www.microsoft.com/en-us/about,complete,2
 MSFT,Microsoft,Technology,2017,2017-06-30T12:00:00+00:00,selected,,1,130,130,2017-07-01T04:55:06+00:00,https://www.microsoft.com/en-us/about,https://web.archive.org/web/20170701045506id_/https://www.microsoft.com/en-us/about,complete,1
 MSFT,Microsoft,Technology,2018,2018-06-30T12:00:00+00:00,selected,,1,183,174,2018-06-30T12:10:20+00:00,https://www.microsoft.com/en-us/about,https://web.archive.org/web/20180630121020id_/https://www.microsoft.com/en-us/about,complete,5
 MSFT,Microsoft,Technology,2019,2019-06-30T12:00:00+00:00,selected,,1,287,270,2019-06-30T21:23:49+00:00,https://www.microsoft.com/en-us/about,https://web.archive.org/web/20190630212349id_/https://www.microsoft.com/en-us/about,complete,2
@@ -334,7 +334,7 @@ OXY,Occidental Petroleum,Energy,2023,2023-06-30T12:00:00+00:00,no_cdx_capture,no
 OXY,Occidental Petroleum,Energy,2024,2024-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
 PFE,Pfizer,Healthcare,2016,2016-06-30T12:00:00+00:00,selected,,1,33,27,2016-07-03T06:14:37+00:00,http://www.pfizer.com:80/about,https://web.archive.org/web/20160703061437id_/http://www.pfizer.com:80/about,complete,1
 PFE,Pfizer,Healthcare,2017,2017-06-30T12:00:00+00:00,selected,,1,14,3,2017-03-31T11:04:00+00:00,http://www.pfizer.com:80/about,https://web.archive.org/web/20170331110400id_/http://www.pfizer.com:80/about,complete,3
-PFE,Pfizer,Healthcare,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,5
+PFE,Pfizer,Healthcare,2018,2018-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,12,0,,,,complete,3
 PFE,Pfizer,Healthcare,2019,2019-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,16,0,,,,complete,4
 PFE,Pfizer,Healthcare,2020,2020-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,14,0,,,,complete,1
 PFE,Pfizer,Healthcare,2021,2021-06-30T12:00:00+00:00,selected,,1,17,6,2021-12-16T14:18:30+00:00,https://www.pfizer.com/about,https://web.archive.org/web/20211216141830id_/https://www.pfizer.com/about,complete,1
