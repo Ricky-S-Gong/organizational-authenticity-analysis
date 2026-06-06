@@ -53,15 +53,15 @@ AXP,American Express,Financials,2021,2021-06-30T12:00:00+00:00,no_cdx_capture,no
 AXP,American Express,Financials,2022,2022-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,2
 AXP,American Express,Financials,2023,2023-06-30T12:00:00+00:00,selected,,1,9,9,2023-06-09T19:23:34+00:00,https://www.americanexpress.com/en-us/company/who-we-are/,https://web.archive.org/web/20230609192334id_/https://www.americanexpress.com/en-us/company/who-we-are/,complete,2
 AXP,American Express,Financials,2024,2024-06-30T12:00:00+00:00,selected,,1,44,44,2024-07-18T06:57:11+00:00,https://www.americanexpress.com/en-us/company/who-we-are/,https://web.archive.org/web/20240718065711id_/https://www.americanexpress.com/en-us/company/who-we-are/,complete,2
-BAC,Bank of America,Financials,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-BAC,Bank of America,Financials,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-BAC,Bank of America,Financials,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-BAC,Bank of America,Financials,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-BAC,Bank of America,Financials,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-BAC,Bank of America,Financials,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-BAC,Bank of America,Financials,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-BAC,Bank of America,Financials,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-BAC,Bank of America,Financials,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
+BAC,Bank of America,Financials,2016,2016-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,47,0,,,,complete,1
+BAC,Bank of America,Financials,2017,2017-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,38,0,,,,complete,1
+BAC,Bank of America,Financials,2018,2018-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,31,0,,,,complete,1
+BAC,Bank of America,Financials,2019,2019-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,42,0,,,,complete,3
+BAC,Bank of America,Financials,2020,2020-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,97,0,,,,complete,1
+BAC,Bank of America,Financials,2021,2021-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,65,0,,,,complete,1
+BAC,Bank of America,Financials,2022,2022-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,49,0,,,,complete,1
+BAC,Bank of America,Financials,2023,2023-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,60,0,,,,complete,1
+BAC,Bank of America,Financials,2024,2024-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,50,0,,,,complete,1
 BLK,BlackRock,Financials,2016,2016-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,15,0,,,,complete,2
 BLK,BlackRock,Financials,2017,2017-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,7,0,,,,complete,2
 BLK,BlackRock,Financials,2018,2018-06-30T12:00:00+00:00,selected,,1,8,6,2018-06-28T20:50:37+00:00,https://www.blackrock.com/corporate/about-us,https://web.archive.org/web/20180628205037id_/https://www.blackrock.com/corporate/about-us,complete,2
@@ -152,15 +152,15 @@ GOOGL,Alphabet,Technology,2021,2021-06-30T12:00:00+00:00,selected,,1,347,51,2021
 GOOGL,Alphabet,Technology,2022,2022-06-30T12:00:00+00:00,selected,,1,362,65,2022-06-30T02:01:23+00:00,https://abc.xyz,https://web.archive.org/web/20220630020123id_/https://abc.xyz,complete,1
 GOOGL,Alphabet,Technology,2023,2023-06-30T12:00:00+00:00,selected,,1,346,65,2023-06-29T04:18:21+00:00,https://abc.xyz/,https://web.archive.org/web/20230629041821id_/https://abc.xyz/,complete,1
 GOOGL,Alphabet,Technology,2024,2024-06-30T12:00:00+00:00,selected,,1,334,109,2024-07-02T10:11:28+00:00,https://abc.xyz/,https://web.archive.org/web/20240702101128id_/https://abc.xyz/,complete,1
-GS,Goldman Sachs,Financials,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-GS,Goldman Sachs,Financials,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-GS,Goldman Sachs,Financials,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-GS,Goldman Sachs,Financials,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-GS,Goldman Sachs,Financials,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-GS,Goldman Sachs,Financials,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-GS,Goldman Sachs,Financials,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-GS,Goldman Sachs,Financials,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-GS,Goldman Sachs,Financials,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
+GS,Goldman Sachs,Financials,2016,2016-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+GS,Goldman Sachs,Financials,2017,2017-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+GS,Goldman Sachs,Financials,2018,2018-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,2
+GS,Goldman Sachs,Financials,2019,2019-06-30T12:00:00+00:00,selected,,1,8,5,2019-08-19T06:10:11+00:00,https://www.goldmansachs.com/our-firm/,https://web.archive.org/web/20190819061011id_/https://www.goldmansachs.com/our-firm/,complete,1
+GS,Goldman Sachs,Financials,2020,2020-06-30T12:00:00+00:00,selected,,1,15,15,2020-06-15T21:36:17+00:00,https://www.goldmansachs.com/our-firm/,https://web.archive.org/web/20200615213617id_/https://www.goldmansachs.com/our-firm/,complete,1
+GS,Goldman Sachs,Financials,2021,2021-06-30T12:00:00+00:00,selected,,1,9,8,2021-06-27T08:43:10+00:00,https://www.goldmansachs.com/our-firm/,https://web.archive.org/web/20210627084310id_/https://www.goldmansachs.com/our-firm/,complete,1
+GS,Goldman Sachs,Financials,2022,2022-06-30T12:00:00+00:00,selected,,1,15,12,2022-06-29T12:55:36+00:00,https://www.goldmansachs.com/our-firm/,https://web.archive.org/web/20220629125536id_/https://www.goldmansachs.com/our-firm/,complete,1
+GS,Goldman Sachs,Financials,2023,2023-06-30T12:00:00+00:00,selected,,1,8,7,2023-09-04T14:15:29+00:00,https://www.goldmansachs.com/our-firm/,https://web.archive.org/web/20230904141529id_/https://www.goldmansachs.com/our-firm/,complete,2
+GS,Goldman Sachs,Financials,2024,2024-06-30T12:00:00+00:00,selected,,1,6,2,2024-05-14T23:33:11+00:00,https://www.goldmansachs.com/our-firm/,https://web.archive.org/web/20240514233311id_/https://www.goldmansachs.com/our-firm/,complete,1
 HAL,Halliburton,Energy,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 HAL,Halliburton,Energy,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 HAL,Halliburton,Energy,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
@@ -170,15 +170,15 @@ HAL,Halliburton,Energy,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-
 HAL,Halliburton,Energy,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 HAL,Halliburton,Energy,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
 HAL,Halliburton,Energy,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-HD,Home Depot,Consumer Discretionary,2016,2016-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-HD,Home Depot,Consumer Discretionary,2017,2017-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-HD,Home Depot,Consumer Discretionary,2018,2018-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-HD,Home Depot,Consumer Discretionary,2019,2019-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-HD,Home Depot,Consumer Discretionary,2020,2020-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-HD,Home Depot,Consumer Discretionary,2021,2021-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-HD,Home Depot,Consumer Discretionary,2022,2022-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-HD,Home Depot,Consumer Discretionary,2023,2023-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
-HD,Home Depot,Consumer Discretionary,2024,2024-06-30T12:00:00+00:00,discovery_incomplete,same-year CDX query missing or failed for all relevant candidates,1,0,0,,,,incomplete,2
+HD,Home Depot,Consumer Discretionary,2016,2016-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,3
+HD,Home Depot,Consumer Discretionary,2017,2017-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+HD,Home Depot,Consumer Discretionary,2018,2018-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+HD,Home Depot,Consumer Discretionary,2019,2019-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,2
+HD,Home Depot,Consumer Discretionary,2020,2020-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+HD,Home Depot,Consumer Discretionary,2021,2021-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
+HD,Home Depot,Consumer Discretionary,2022,2022-06-30T12:00:00+00:00,selected,,1,13,13,2022-07-22T13:57:01+00:00,https://corporate.homedepot.com/page/about-us,https://web.archive.org/web/20220722135701id_/https://corporate.homedepot.com/page/about-us,complete,1
+HD,Home Depot,Consumer Discretionary,2023,2023-06-30T12:00:00+00:00,selected,,1,31,30,2023-07-02T02:36:09+00:00,https://corporate.homedepot.com/page/about-us,https://web.archive.org/web/20230702023609id_/https://corporate.homedepot.com/page/about-us,complete,3
+HD,Home Depot,Consumer Discretionary,2024,2024-06-30T12:00:00+00:00,selected,,1,34,34,2024-07-02T22:47:41+00:00,https://corporate.homedepot.com/page/about-us,https://web.archive.org/web/20240702224741id_/https://corporate.homedepot.com/page/about-us,complete,1
 IBM,IBM,Technology,2016,2016-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,6,0,,,,complete,1
 IBM,IBM,Technology,2017,2017-06-30T12:00:00+00:00,no_cdx_capture,no same-year CDX capture,1,0,0,,,,complete,1
 IBM,IBM,Technology,2018,2018-06-30T12:00:00+00:00,no_eligible_capture,same-year captures exist but none are successful HTML,1,1,0,,,,complete,1

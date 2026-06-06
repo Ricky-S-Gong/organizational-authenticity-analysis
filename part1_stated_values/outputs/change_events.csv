@@ -177,8 +177,8 @@ HD,2019,,,indeterminate,
 HD,2020,,,indeterminate,
 HD,2021,,,indeterminate,
 HD,2022,,,indeterminate,
-HD,2023,,,indeterminate,
-HD,2024,,,indeterminate,
+HD,2023,True,0.250923,substantive_change,"{""added"": [""In more than 2,300 stores across North America, we aspire to excel in service – to our customers, associates, communities and shareholders."", ""Today, The Home Depot is the world's largest home improvement retailer with approximately 500,000 orange-blooded associates and more than 2,300 stores in the U.S., Canada and Mexico."", ""June 27, 2023""], ""removed"": [""In 2,300 stores across North America, we aspire to excel in service – to our customers, associates, communities and shareholders."", ""Today, The Home Depot is the world's largest home improvement retailer with approximately 500,000 orange-blooded associates and 2,300 stores in the U.S., Canada and Mexico."", ""July 20, 2022""]}"
+HD,2024,True,0.271375,substantive_change,"{""added"": [""Today, The Home Depot is the world's largest home improvement retailer with approximately 475,000 orange-blooded associates and more than 2,300 stores in the U.S., Canada and Mexico."", ""June 24, 2024"", ""The Home Depot Foundation Invests $9 Million to Provide Housing for More Than 3,400 Veterans Battling Homelessness""], ""removed"": [""Today, The Home Depot is the world's largest home improvement retailer with approximately 500,000 orange-blooded associates and more than 2,300 stores in the U.S., Canada and Mexico."", ""June 27, 2023"", ""30 Years of Giving Back: Celebrating Three Decades with Team Depot""]}"
 IBM,2016,,,no_prior,
 IBM,2017,,,indeterminate,
 IBM,2018,,,indeterminate,
