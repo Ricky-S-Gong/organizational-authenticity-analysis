@@ -59,8 +59,14 @@ def parse_cdx_rows(payload: list[list[str]]) -> list[CdxCapture]:
     return captures
 
 
-def query_cdx(url: str, timeout_seconds: float = 30.0) -> tuple[list[CdxCapture], dict[str, Any]]:
-    params = build_cdx_params(url)
+def query_cdx(
+    url: str,
+    *,
+    start_year: int = 2016,
+    end_year: int = 2024,
+    timeout_seconds: float = 90.0,
+) -> tuple[list[CdxCapture], dict[str, Any]]:
+    params = build_cdx_params(url, start_year=start_year, end_year=end_year)
     with httpx.Client(timeout=timeout_seconds, follow_redirects=True) as client:
         response = client.get(CDX_ENDPOINT, params=params)
         response.raise_for_status()

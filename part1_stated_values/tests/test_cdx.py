@@ -13,6 +13,13 @@ def test_build_cdx_params_preserves_discovery_information() -> None:
     assert "filter" not in params
 
 
+def test_build_cdx_params_can_slice_by_year() -> None:
+    params = build_cdx_params("https://example.com/about", start_year=2020, end_year=2020)
+
+    assert params["from"] == "2020"
+    assert params["to"] == "2020"
+
+
 def test_parse_cdx_rows() -> None:
     captures = parse_cdx_rows(
         [

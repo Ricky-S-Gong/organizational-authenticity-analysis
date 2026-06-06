@@ -56,6 +56,8 @@ STATUS_FIELDS = [
     "selected_capture_timestamp",
     "selected_original_url",
     "selected_replay_url",
+    "query_status",
+    "query_attempt_count",
 ]
 
 
@@ -67,13 +69,42 @@ def load_targets(path: Path) -> list[dict[str, str]]:
         )
 
 
-def load_cached_record(cache_dir: Path, candidate: PageCandidate) -> dict[str, Any] | None:
-    path = candidate_cache_path(cache_dir, candidate)
+def load_cached_record(
+    cache_dir: Path, candidate: PageCandidate, year: int | None = None
+) -> dict[str, Any] | None:
+    path = candidate_cache_path(cache_dir, candidate, year)
     return json.loads(path.read_text(encoding="utf-8")) if path.exists() else None
 
 
 def _parse_captures(record: dict[str, Any]) -> list[CdxCapture]:
     return [CdxCapture.model_validate(capture) for capture in record.get("captures", [])]
+
+
+def _year_record(
+    cache_dir: Path, candidate: PageCandidate, year: int
+) -> dict[str, Any] | None:
+    record = load_cached_record(cache_dir, candidate, year)
+    if record is not None:
+        return record
+
+    legacy = load_cached_record(cache_dir, candidate)
+    if legacy is None or legacy.get("collection_status") != "success":
+        return legacy
+    captures = [
+        capture
+        for capture in _parse_captures(legacy)
+        if capture.year == year
+    ]
+    return {
+        "ticker": candidate.ticker,
+        "candidate_url": candidate.candidate_url,
+        "normalized_url": candidate.normalized_url,
+        "year": year,
+        "collection_status": "success",
+        "attempt_count": legacy.get("attempt_count", ""),
+        "query": legacy.get("query", {}),
+        "captures": [capture.model_dump(mode="json") for capture in captures],
+    }
 
 
 def _candidate_rows(
@@ -149,11 +180,16 @@ def build_annual_outputs(
             for candidate in candidates_by_ticker.get(ticker, [])
             if candidate.valid_from_year <= year <= candidate.valid_to_year
         ]
-        cached = [(candidate, load_cached_record(cache_dir, candidate)) for candidate in relevant]
+        cached = [(candidate, _year_record(cache_dir, candidate, year)) for candidate in relevant]
         successful = [
             (candidate, record)
             for candidate, record in cached
             if record is not None and record.get("collection_status") == "success"
+        ]
+        failed_or_missing = [
+            (candidate, record)
+            for candidate, record in cached
+            if record is None or record.get("collection_status") != "success"
         ]
         captures = [
             (candidate, capture)
@@ -176,9 +212,15 @@ def build_annual_outputs(
         elif not relevant:
             acquisition_status, failure_reason = "no_eligible_page", "no eligible page candidate"
             selected = {}
-        elif not successful:
+        elif failed_or_missing and not successful:
             acquisition_status = "discovery_incomplete"
-            failure_reason = "CDX cache missing or all relevant discovery queries failed"
+            failure_reason = "same-year CDX query missing or failed for all relevant candidates"
+            selected = {}
+        elif failed_or_missing and not captures:
+            acquisition_status = "discovery_incomplete"
+            failure_reason = (
+                "same-year CDX query incomplete and completed queries returned no captures"
+            )
             selected = {}
         elif not captures:
             acquisition_status, failure_reason = "no_cdx_capture", "no same-year CDX capture"
@@ -203,6 +245,16 @@ def build_annual_outputs(
                 "selected_capture_timestamp": selected.get("capture_timestamp", ""),
                 "selected_original_url": selected.get("original_url", ""),
                 "selected_replay_url": selected.get("replay_url", ""),
+                "query_status": (
+                    "complete" if relevant and not failed_or_missing else "incomplete"
+                )
+                if relevant
+                else "not_applicable",
+                "query_attempt_count": sum(
+                    int(record.get("attempt_count") or 0)
+                    for _, record in cached
+                    if record is not None
+                ),
             }
         )
     return all_candidate_rows, status_rows

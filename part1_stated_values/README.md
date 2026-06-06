@@ -66,6 +66,19 @@ uv run --no-sync part1-validate-phases
 All discovery and replay stages are resumable. Rerun them when Wayback is available; successful
 cached results are reused.
 
+For Phase 3 recovery, prefer ticker-sized batches so Wayback timeouts do not invalidate unrelated
+company-years:
+
+```bash
+uv run --no-sync part1-discover --ticker AAPL --retries 5 --timeout-seconds 120
+uv run --no-sync part1-select
+uv run --no-sync part1-process
+uv run --no-sync part1-validate-phases
+```
+
+CDX discovery is cached at the `candidate URL × year` level and logged in
+`data/processed/cdx_query_log.csv`.
+
 ## Phase Tests
 
 Part 1 has eight phases, numbered Phase 0 through Phase 7. Unit tests verify the code within each

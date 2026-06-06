@@ -64,12 +64,13 @@ corresponding review has genuinely occurred.
 When Wayback CDX is available again, rerun:
 
 ```bash
-uv run --no-sync part1-discover
+uv run --no-sync part1-discover --ticker AAPL --retries 5 --timeout-seconds 120
 uv run --no-sync part1-select
 uv run --no-sync part1-process
 uv run --no-sync part1-validate-phases
 ```
 
-Discovery and retrieval use cached successful results, so reruns resume rather than discard prior
-work. A complete research result requires zero `discovery_incomplete` rows and all human and LLM
-gates to be satisfied.
+Repeat `part1-discover --ticker ...` for each unresolved ticker, or omit `--ticker` for a full
+resumable run. Discovery is cached by candidate URL and year, so a temporary failure for one year no
+longer invalidates the entire company. A complete research result requires zero
+`discovery_incomplete` rows and all human and LLM gates to be satisfied.
