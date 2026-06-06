@@ -2,12 +2,7 @@
 AGENT.md
 /docs/
 
-# Private/reference materials kept outside the repository
-Interview.md
-RA_job_posting.pdf
-Ricky_Resume_R260309.pdf
-Research Assistant Recruitment Task - Wharton-TAU Lab 2026.docx
-Research Assistant Recruitment Task - Wharton-TAU Lab 2026.md
+# Temporary document files
 ~$*.docx
 
 # Secrets and local configuration
