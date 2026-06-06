@@ -30,10 +30,10 @@ requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-package-dir = {"" = "src"}
+package-dir = {"" = "part1_stated_values/src"}
 
 [tool.setuptools.packages.find]
-where = ["src"]
+where = ["part1_stated_values/src"]
 
 [tool.pytest.ini_options]
 testpaths = ["part1_stated_values/tests"]

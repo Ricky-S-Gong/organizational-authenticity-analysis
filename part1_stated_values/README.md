@@ -19,6 +19,12 @@ Implemented stages:
 - evidence-backed theme and linguistic baseline
 - final company-year dataset, supporting outputs, review queue, and phase/requirement audits
 
+## Layout
+
+Part 1 is self-contained under this directory. The main Python package lives at
+`part1_stated_values/src/org_auth_part1/`; tests live at `part1_stated_values/tests/`.
+The repository-level `pyproject.toml` exposes the package through `uv` command-line scripts.
+
 ## Setup
 
 ```bash

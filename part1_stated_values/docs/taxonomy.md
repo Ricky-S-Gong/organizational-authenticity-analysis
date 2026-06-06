@@ -4,7 +4,7 @@
 
 Part 1 uses a fixed, auditable multi-label taxonomy to characterize themes in cleaned
 corporate About, mission, purpose, and values pages. The implementation in
-`src/org_auth_part1/analyze.py` is a reproducible keyword-and-phrase baseline. It requires no
+`part1_stated_values/src/org_auth_part1/analyze.py` is a reproducible keyword-and-phrase baseline. It requires no
 external LLM credentials and returns literal source excerpts for every positive assignment.
 
 This baseline supports transparent analysis and QA. It does not infer organizational intent,
