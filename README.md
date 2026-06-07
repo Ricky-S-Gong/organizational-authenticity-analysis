@@ -23,7 +23,7 @@ and implementation should wait until the final Part 1 coverage and gap profile a
 | --- | --- | --- |
 | Part 1: Stated Values | Pipeline implemented; live collection/refresh in progress | Uses Wayback CDX discovery, deterministic annual snapshot selection, visible-text extraction, theme coding, and phase validation. |
 | Part 2: Lived Values | Implemented | Uses SEC EDGAR `DEF 14A` proxy statements, deterministic theme/tone analysis, and enhanced exploratory NLP checks. |
-| Part 3: Authenticity Index | Not started | Planned after final Part 1 outputs are available, using the shared Part 1/2 theme taxonomy. |
+| Part 3: Authenticity Index | In progress | Planning from the shared Part 1/2 theme taxonomy while final Part 1 outputs stabilize. |
 | Part 4: Proposal | Not started | To be selected after Part 3 reveals useful patterns and limitations. |
 
 ## Repository Structure
