@@ -86,7 +86,7 @@ The tone metrics are reported as counts and rates per 100 words. The pipeline al
 sentence length and quantified-claim counts. These indicators are lexical style proxies; they are
 not sentiment scores and should not be read as direct measures of sincerity or behavior.
 
-### Academic Rationale for the Classification Approach
+### References
 
 This Part 2 classifier follows the logic of dictionary-based content analysis: define a transparent
 codebook, apply it consistently to a corpus, keep evidence for positive assignments, and interpret
@@ -120,8 +120,6 @@ categories must be domain-aware and interpreted in context. For this reason, the
 use a generic positive/negative sentiment dictionary. It uses narrow, inspectable word lists, keeps
 matched phrase evidence, normalizes rates by document length, and flags large shifts for excerpt
 audit.
-
-Key references:
 
 - Aguinis, H., & Glavas, A. (2012). "What We Know and Don't Know About Corporate Social
   Responsibility: A Review and Research Agenda." *Journal of Management*, 38(4), 932-968.
