@@ -7,10 +7,15 @@ source. The full run covers 434 of 450 company-years
 (96.44%). The remaining 16 rows are retained as
 documented gaps and are not imputed.
 
-The analysis uses deterministic text mining only: Part 1-compatible theme matching, literal phrase
-evidence, document-length-normalized rates, and descriptive linguistic metrics. I did not use a
-paid API, closed model, or external LLM. This keeps the analysis auditable and appropriate for a
-small RA interview assignment.
+The analysis has two layers. The main evidentiary layer is deterministic: Part 1-compatible theme
+matching, literal phrase evidence, document-length-normalized rates, and descriptive linguistic
+metrics. This layer carries the main claims because it is transparent, reproducible, and easy to
+audit.
+
+A second, exploratory layer adds open-source model-based checks: TF-IDF/NMF topic modeling,
+MiniLM sentence embeddings, spaCy features, and a sampled local FLAN-T5 annotation pass. These
+model outputs are used for triangulation, construct-validity checks, and audit triage; they do not
+replace the deterministic phrase-evidence baseline. I did not use a paid API or closed model.
 
 I treat `language` as the vocabulary and phrase emphasis captured by the theme taxonomy, and `tone`
 as observable disclosure style: collective voice, commitment language, aspirational language,
