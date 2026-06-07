@@ -27,34 +27,24 @@ status fields, hashes, or logs so the final dataset can be traced back to offici
 
 ```mermaid
 flowchart LR
-    A["Company list"] --> B["Target grid"]
-    B --> C["CIK lookup"]
-    C --> D["SEC metadata"]
-    D --> E{"DEF 14A found?"}
-    E -- "No" --> F["Document gap"]
-    E -- "Yes" --> G["Select filing"]
-    G --> H["Download filing"]
-    H --> I["Hash raw file"]
-    I --> J["Extract text"]
-    J --> K["Hash clean text"]
-    K --> L{"Quality screen"}
-    L -- "Usable" --> M["Collected row"]
-    L -- "Low quality" --> N["Flag reason"]
-    F --> O["Coverage tables"]
+    A["Part 1 company list<br>50 firms with sector labels"] --> B["Build Part 2 target grid<br>50 companies x 2016-2024"]
+    B --> C["Resolve ticker to SEC CIK<br>SEC company_tickers.json"]
+    C --> D["Fetch SEC submissions metadata<br>by CIK"]
+    D --> E{"Calendar-year<br>DEF 14A found?"}
+    E -- "Yes" --> G["Select first calendar-year<br>DEF 14A proxy statement"]
+    E -- "No" --> F["Record documented gap<br>missing with gap reason"]
+    G --> H["Download primary filing<br>from SEC Archives"]
+    H --> I["Save raw artifact<br>with raw SHA256 hash"]
+    I --> J["Extract visible filing text<br>HTML parsing and cleanup"]
+    J --> K["Save clean text artifact<br>with clean SHA256 hash"]
+    K --> L{"Extraction<br>quality screen"}
+    L -- "Usable" --> M["Create collected row<br>metadata and text metrics"]
+    L -- "Low quality" --> N["Keep low-quality status<br>and reason"]
+    F --> O["Build collection status tables<br>coverage, missingness, logs"]
     M --> O
     N --> O
-    O --> P["Final dataset"]
+    O --> P["Final collection dataset<br>part2_company_year_compact.csv"]
 ```
-
-Workflow notes:
-
-- `Target grid`: 50 companies by 2016-2024, for 450 target company-years.
-- `CIK lookup`: SEC `company_tickers.json`.
-- `SEC metadata`: SEC submissions API by CIK.
-- `Document gap`: retained as missing with a structured gap reason, not imputed.
-- `Select filing`: first calendar-year `DEF 14A`; `DEFA14A` supplements are excluded.
-- `Hash raw file` and `Hash clean text`: SHA256 hashes support auditability.
-- `Final dataset`: `outputs/part2_company_year_compact.csv`.
 
 ## Selection Rule
 
