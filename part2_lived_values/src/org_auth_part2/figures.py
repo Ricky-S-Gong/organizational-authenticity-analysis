@@ -311,12 +311,12 @@ def _save_sector_heatmap_png(
         for row in theme_sector_rows
     }
     matrix = [[lookup.get((sector, theme_id), 0.0) for theme_id in theme_ids] for sector in sectors]
-    fig, ax = plt.subplots(figsize=(13, 6.8))
+    fig, ax = plt.subplots(figsize=(13, 8.4))
     sns.heatmap(
         matrix,
         annot=True,
         fmt=".1f",
-        cmap="YlGnBu",
+        cmap="YlOrRd",
         xticklabels=[labels[theme_id] for theme_id in theme_ids],
         yticklabels=sectors,
         cbar_kws={"label": "Matches per 10,000 words"},
@@ -325,8 +325,14 @@ def _save_sector_heatmap_png(
     ax.set_title("Part 2 Cross-Sector Theme Heatmap", pad=16, weight="bold")
     ax.set_xlabel("")
     ax.set_ylabel("")
-    ax.tick_params(axis="x", rotation=35)
+    ax.set_xticklabels(
+        [labels[theme_id] for theme_id in theme_ids],
+        rotation=90,
+        ha="center",
+        va="top",
+    )
     fig.tight_layout()
+    fig.subplots_adjust(bottom=0.42)
     path = figure_dir / "sector_theme_heatmap.png"
     fig.savefig(path, dpi=220, bbox_inches="tight")
     plt.close(fig)
