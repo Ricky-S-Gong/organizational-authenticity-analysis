@@ -27,7 +27,6 @@ from org_auth_part2.text_mining import write_csv
 
 DEFAULT_OUTPUT_DIR = PART2_ROOT / "outputs/text_mining/enhanced"
 DEFAULT_LOG = PART2_ROOT / "data/interim/enhanced_text_mining_run_log.jsonl"
-DEFAULT_DOC = PART2_ROOT / "docs/enhanced_text_mining_analysis.md"
 
 DEFAULT_SEED = 42
 TFIDF_MAX_FEATURES = 2500
@@ -702,80 +701,10 @@ def build_manifest(
     }
 
 
-def write_enhanced_doc(path: Path, manifest: dict[str, Any]) -> None:
-    stage_results = manifest["stage_results"]
-    tfidf = stage_results.get("tfidf_nmf", {})
-    embedding = stage_results.get("sentence_embeddings", {})
-    spacy = stage_results.get("spacy_pipeline", {})
-    llm = stage_results.get("local_llm_annotations", {})
-    topic_lines = "\n".join(
-        "- {topic_id}: {topic_label} (total score {total_score:.2f})".format(**row)
-        for row in tfidf.get("dominant_corpus_topics", [])[:5]
-    )
-    text = f"""# Enhanced Part 2 Text Mining Analysis
-
-## Method
-
-This enhancement adds exploratory open-source NLP/modeling layers on top of the existing
-deterministic Part 2 baseline. It uses TF-IDF + NMF topic modeling, sentence-transformer
-embeddings, a spaCy statistical pipeline, and an optional local open-source LLM annotation pass.
-These outputs are interpretive aids, not replacements for the exact phrase evidence used in the
-baseline.
-
-The run covers {manifest["collected_rows"]} collected company-years and records all parameters in
-`../outputs/text_mining/enhanced/enhanced_text_mining_summary.json`. The JSONL progress log is
-`../data/interim/enhanced_text_mining_run_log.jsonl`.
-
-## TF-IDF + NMF
-
-Status: `{tfidf.get("status", "not_run")}`. The NMF layer estimates latent disclosure topics from
-the representative text window of each proxy statement with seed `{manifest["seed"]}`.
-
-{topic_lines}
-
-These topics should be read as recurring language bundles in the proxy corpus. They are useful for
-discovering patterns that the fixed theme dictionary may miss, but topic labels remain researcher
-interpretations of top terms.
-
-## Sentence Embeddings
-
-Status: `{embedding.get("status", "not_run")}`. The embedding layer uses
-`{embedding.get("parameters", {}).get("model_name", "not_run")}` and writes both a manifest and
-adjacent-year semantic-shift table. This layer is best used for finding filings whose overall
-semantic profile changed sharply across adjacent years.
-
-## spaCy Pipeline
-
-Status: `{spacy.get("status", "not_run")}`. The spaCy layer records part-of-speech and named-entity
-features with `{spacy.get("parameters", {}).get("model_name", "not_run")}`. Because proxy
-statements contain legal boilerplate and tables, entity counts are descriptive features rather than
-ground-truth entity extraction.
-
-## Local LLM Annotation
-
-Status: `{llm.get("status", "not_run")}`. The local LLM layer is intentionally optional and sampled.
-When enabled, every annotation records model name, prompt hash, excerpt hash, seed, temperature,
-response hash, `annotation_quality_flag`, and `needs_human_review` status. In the current run,
-the small local FLAN-T5 model generated a mix of one candidate interpretive signal and several
-empty, fragmentary, or boilerplate-like annotations. That result is substantively useful as a
-negative audit finding: for this proxy corpus, the local LLM layer is not reliable enough to carry
-the analysis and should remain a low-weight qualitative aid.
-
-## Reproducibility Notes
-
-All stochastic stages use seed `{manifest["seed"]}`. Model downloads are free/open-source but still
-depend on package/model availability. For audit, rerun from the same `uv.lock`, same input dataset
-hash `{manifest["dataset_sha256"]}`, and the parameters in the enhanced summary JSON.
-"""
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(text, encoding="utf-8")
-
-
 def run_enhanced_text_mining(
     dataset: Path,
     output_dir: Path,
     log_path: Path,
-    analysis_doc: Path,
     seed: int = DEFAULT_SEED,
     enable_llm: bool = False,
     continue_on_model_error: bool = True,
@@ -845,13 +774,11 @@ def run_enhanced_text_mining(
     )
     manifest["elapsed_seconds"] = round(time.time() - start, 3)
     write_json(output_dir / "enhanced_text_mining_summary.json", manifest)
-    write_enhanced_doc(analysis_doc, manifest)
     logger.event(
         "enhanced_text_mining",
         "completed",
         elapsed_seconds=manifest["elapsed_seconds"],
         summary=str(output_dir / "enhanced_text_mining_summary.json"),
-        analysis_doc=str(analysis_doc),
     )
     return manifest
 
@@ -861,7 +788,6 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--dataset", type=Path, default=DEFAULT_DATASET)
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
     parser.add_argument("--log-path", type=Path, default=DEFAULT_LOG)
-    parser.add_argument("--analysis-doc", type=Path, default=DEFAULT_DOC)
     parser.add_argument("--seed", type=int, default=DEFAULT_SEED)
     parser.add_argument("--enable-llm", action="store_true")
     parser.add_argument("--strict-models", action="store_true")
@@ -874,7 +800,6 @@ def main(argv: list[str] | None = None) -> None:
         dataset=args.dataset,
         output_dir=args.output_dir,
         log_path=args.log_path,
-        analysis_doc=args.analysis_doc,
         seed=args.seed,
         enable_llm=args.enable_llm,
         continue_on_model_error=not args.strict_models,
@@ -885,7 +810,6 @@ def main(argv: list[str] | None = None) -> None:
                 "collected_rows": manifest["collected_rows"],
                 "missing_rows": manifest["missing_rows"],
                 "output_dir": str(args.output_dir),
-                "analysis_doc": str(args.analysis_doc),
                 "stage_statuses": {
                     key: value.get("status") for key, value in manifest["stage_results"].items()
                 },

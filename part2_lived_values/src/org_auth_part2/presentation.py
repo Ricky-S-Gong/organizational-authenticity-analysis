@@ -71,6 +71,8 @@ def build_tables(output_dir: Path, table_dir: Path) -> dict[str, Any]:
     theme_sector = read_csv(output_dir / "theme_sector_summary.csv")
     adjacent = read_csv(output_dir / "top_adjacent_theme_shifts.csv")
     missing = read_csv(output_dir / "missing_summary.csv")
+    linguistic_year = read_csv(output_dir / "linguistic_year_summary.csv")
+    sector_linguistic = read_csv(output_dir / "sector_linguistic_summary.csv")
     event = summary["event_window_theme_changes"]
 
     overall_rows = [
@@ -125,6 +127,92 @@ def build_tables(output_dir: Path, table_dir: Path) -> dict[str, Any]:
         event_rows,
         "Descriptive event-window differences in normalized theme emphasis.",
     )
+    event_shift_rows = [
+        [
+            "2020-2021",
+            "COVID-era workforce shock",
+            "Employees/workplace +6.25; health/safety +3.08 vs. pre-2020",
+            "Proxy language becomes more attentive to workforce continuity, safety, "
+            "and employee-facing governance.",
+            "Descriptive coincidence only; proxy templates and workforce disclosure norms "
+            "also changed.",
+        ],
+        [
+            "2020-2021",
+            "Post-2020 DEI attention",
+            "DEI +6.76 vs. pre-2020",
+            "Diversity, equity, and inclusion language becomes more prominent in governance "
+            "disclosures.",
+            "Some DEI matches appear in shareholder proposal or voting mechanics, so excerpt "
+            "review remains necessary.",
+        ],
+        [
+            "2021 onward",
+            "Investor attention to ESG governance",
+            "Environment/sustainability rises from 8.06 pre-2020 to 21.71 post-2021",
+            "Sustainability language continues increasing after the initial 2020-2021 window.",
+            "The evidence supports a timing association, not a causal estimate of ESG pressure.",
+        ],
+    ]
+    write_table_set(
+        table_dir,
+        "event_shift_interpretation",
+        ["Window", "Relevant external event", "Observed text shift", "Interpretation", "Caveat"],
+        event_shift_rows,
+        "External-event windows and coincident text shifts in Part 2 proxy statements.",
+    )
+
+    tone_year_rows = [
+        [
+            row["year"],
+            fmt(row["mean_first_person_plural_rate_per_100_words"], 3),
+            fmt(row["mean_commitment_rate_per_100_words"], 3),
+            fmt(row["mean_action_or_evidence_rate_per_100_words"], 3),
+            fmt(row["mean_stakeholder_rate_per_100_words"], 3),
+            fmt(row["mean_average_sentence_length"], 2),
+        ]
+        for row in linguistic_year
+    ]
+    write_table_set(
+        table_dir,
+        "language_tone_over_time",
+        [
+            "Year",
+            "Collective voice",
+            "Commitment",
+            "Action/evidence",
+            "Stakeholder",
+            "Avg sentence length",
+        ],
+        tone_year_rows,
+        "Language and tone indicators over time in collected proxy statements.",
+    )
+
+    tone_sector_rows = [
+        [
+            row["sector"],
+            fmt(row["mean_first_person_plural_rate_per_100_words"], 3),
+            fmt(row["mean_commitment_rate_per_100_words"], 3),
+            fmt(row["mean_action_or_evidence_rate_per_100_words"], 3),
+            fmt(row["mean_stakeholder_rate_per_100_words"], 3),
+            fmt(row["mean_average_sentence_length"], 2),
+        ]
+        for row in sector_linguistic
+    ]
+    write_table_set(
+        table_dir,
+        "sector_language_tone",
+        [
+            "Sector",
+            "Collective voice",
+            "Commitment",
+            "Action/evidence",
+            "Stakeholder",
+            "Avg sentence length",
+        ],
+        tone_sector_rows,
+        "Language and tone indicators by sector in collected proxy statements.",
+    )
 
     shift_rows = [
         [
@@ -165,13 +253,22 @@ def build_tables(output_dir: Path, table_dir: Path) -> dict[str, Any]:
         for row in theme_sector
         if row["sector"] == "Energy" and row["theme_id"] == "environment_and_sustainability"
     )
+    technology_tone = next(row for row in sector_linguistic if row["sector"] == "Technology")
+    financials_tone = next(row for row in sector_linguistic if row["sector"] == "Financials")
     return {
         "summary": summary,
         "technology_dei": float(technology_dei["mean_matches_per_10k_words"]),
         "energy_environment": float(energy_environment["mean_matches_per_10k_words"]),
+        "tone_first_year": linguistic_year[0],
+        "tone_last_year": linguistic_year[-1],
+        "technology_tone": technology_tone,
+        "financials_tone": financials_tone,
         "overall_rows": overall_rows,
         "sector_rows": sector_rows,
         "event_rows": event_rows,
+        "event_shift_rows": event_shift_rows,
+        "tone_year_rows": tone_year_rows,
+        "tone_sector_rows": tone_sector_rows,
         "shift_rows": shift_rows,
         "missing_rows": missing_rows,
     }
@@ -179,8 +276,32 @@ def build_tables(output_dir: Path, table_dir: Path) -> dict[str, Any]:
 
 def write_docs(payload: dict[str, Any], table_dir: Path) -> None:
     summary = payload["summary"]
-    tables_rel = "../outputs/text_mining/tables"
     figures_rel = "../outputs/text_mining/figures"
+    collective_start = float(
+        payload["tone_first_year"]["mean_first_person_plural_rate_per_100_words"]
+    )
+    collective_end = float(
+        payload["tone_last_year"]["mean_first_person_plural_rate_per_100_words"]
+    )
+    collective_increase = ((collective_end / collective_start) - 1) * 100
+    stakeholder_start = float(payload["tone_first_year"]["mean_stakeholder_rate_per_100_words"])
+    stakeholder_end = float(payload["tone_last_year"]["mean_stakeholder_rate_per_100_words"])
+    commitment_start = float(payload["tone_first_year"]["mean_commitment_rate_per_100_words"])
+    commitment_end = float(payload["tone_last_year"]["mean_commitment_rate_per_100_words"])
+    tone_bullets = "\n".join(
+        [
+            "- Collective voice rises from "
+            f"{collective_start:.3f} to {collective_end:.3f} markers per 100 words, "
+            f"a roughly {collective_increase:.1f}% increase.",
+            "- Stakeholder orientation rises from "
+            f"{stakeholder_start:.3f} in {payload['tone_first_year']['year']} to a "
+            f"2021 peak of 0.324, and remains higher in "
+            f"{payload['tone_last_year']['year']} at {stakeholder_end:.3f}.",
+            "- Commitment language declines from "
+            f"{commitment_start:.3f} to {commitment_end:.3f}, while action/evidence terms "
+            "stay low, around 0.08-0.10 markers per 100 words.",
+        ]
+    )
     analysis = f"""# Part 2 Text Mining Analysis
 
 ## Research Design and Method
@@ -194,6 +315,12 @@ The analysis uses deterministic text mining only: Part 1-compatible theme matchi
 evidence, document-length-normalized rates, and descriptive linguistic metrics. I did not use a
 paid API, closed model, or external LLM. This keeps the analysis auditable and appropriate for a
 small RA interview assignment.
+
+I treat `language` as the vocabulary and phrase emphasis captured by the theme taxonomy, and `tone`
+as observable disclosure style: collective voice, commitment language, aspirational language,
+action/evidence language, stakeholder orientation, sentence length, and quantified claims. These
+are lexical proxies rather than psychological sentiment scores, which is more appropriate for legal
+proxy filings.
 
 ## 1. Overall Disclosure Priorities
 
@@ -238,7 +365,49 @@ pre-2020 period; employee/workplace language rises by 6.25; and environment/sust
 cycle, and growing investor attention to ESG governance. They should not be interpreted as causal
 effects: proxy templates, regulatory expectations, and investor norms changed at the same time.
 
-## 4. Within-Company Shifts
+The event interpretation table makes the external-event claim explicit. It links each external
+context to the text shift it appears to coincide with, while keeping the causal caveat visible.
+
+{(table_dir / "event_shift_interpretation.md").read_text(encoding="utf-8")}
+
+## 4. Language and Tone Over Time
+
+The central language-and-tone finding is that proxy disclosures become more stakeholder-facing and
+more explicitly organizational in voice over time, but not more action-heavy. This is different from
+the theme result. The theme analysis asks *what topics* appear; the tone analysis asks *how the
+filings speak* when they discuss governance, human capital, and corporate priorities.
+
+{tone_bullets}
+
+Substantively, this means the corpus does not simply add more values topics. It increasingly frames
+those topics through an institutional `we/our` voice and a broader stakeholder vocabulary, while
+still preserving the cautious, formal style of proxy disclosure.
+
+![Language and tone over time]({figures_rel}/language_tone_over_time.png)
+
+{(table_dir / "language_tone_over_time.md").read_text(encoding="utf-8")}
+
+The indexed line chart makes the shift easier to read than raw rates alone. Stakeholder orientation
+increases most sharply through 2021, consistent with the COVID-era and post-2020 shift toward
+workforce, DEI, health/safety, and ESG governance language. Collective voice rises more steadily
+across the full window. Commitment language does not show the same increase; by 2024 it is below
+its 2016 level. This contrast is important because it suggests a change in disclosure stance, not
+just a uniform increase in all positive-sounding values language.
+
+![Sector language and tone heatmap]({figures_rel}/sector_tone_heatmap.png)
+
+{(table_dir / "sector_language_tone.md").read_text(encoding="utf-8")}
+
+Sector-level tone also varies. Technology has the strongest collective-voice rate at
+{float(payload["technology_tone"]["mean_first_person_plural_rate_per_100_words"]):.3f} per 100
+words and the highest commitment rate at
+{float(payload["technology_tone"]["mean_commitment_rate_per_100_words"]):.3f}. Financials have the
+highest stakeholder-orientation rate at
+{float(payload["financials_tone"]["mean_stakeholder_rate_per_100_words"]):.3f}. This reinforces the
+theme results: sector differences are not only about which topics appear, but also about how firms
+style their disclosure voice.
+
+## 5. Within-Company Shifts
 
 {(table_dir / "largest_adjacent_theme_shifts.md").read_text(encoding="utf-8")}
 
@@ -255,7 +424,7 @@ substantively connected to diversity/inclusion reporting and board diversity lan
 matches still come from proposal mechanics. The audit is saved in
 `docs/top_shift_excerpt_audit.md` and `outputs/text_mining/top_shift_excerpt_audit.csv`.
 
-## 5. Coverage and Missingness
+## 6. Coverage and Missingness
 
 {(table_dir / "missing_company_years.md").read_text(encoding="utf-8")}
 
@@ -276,33 +445,69 @@ communications, not direct evidence of lived organizational behavior.
 
     final_summary = f"""# Part 2 Summary
 
-Part 2 uses SEC `DEF 14A` proxy statements as the single lived-values disclosure type. The full run
-collected {summary["collected_rows"]} of 450 company-years ({summary["coverage_rate"]:.2%}).
-The 16 missing rows are documented and not imputed.
+## Scope
 
-The text-mining analysis uses deterministic, free, reproducible methods only: Part 1-compatible
-theme matching, phrase evidence, normalized rates per 10,000 words, and descriptive linguistic
-metrics. No paid API, closed model, or external LLM was used.
+Part 2 collects and analyzes lived-values disclosures for the same 50 companies and 2016-2024
+company-year window used in Part 1. The selected disclosure type is SEC `DEF 14A` proxy
+statements.
 
-The main result is that proxy disclosures are dominated by shareholder/performance language
-({summary["top_overall_themes"][0]["mean_matches_per_10k_words"]:.1f} matches per 10,000 words),
-but employee/workplace, DEI, and leadership/accountability language are also pervasive. Cross-sector
-variation is meaningful: technology is strongest on DEI, energy is unusually high on
-environment/sustainability, and financials/healthcare/consumer discretionary remain more
-shareholder/performance heavy.
+## Coverage
 
-The 2020-2021 event window shows descriptive increases in DEI, employee/workplace, sustainability,
-and health/safety language relative to pre-2020 levels. These shifts are plausible in light of
-COVID-era workforce concerns, post-2020 DEI attention, and ESG governance pressure, but they are
-not causal estimates.
+- Target rows: 450
+- Collected proxy statements: {summary["collected_rows"]} of 450 ({summary["coverage_rate"]:.2%})
+- Missing rows: {summary["missing_rows"]}
+- Document type: SEC `DEF 14A`
+- Source: SEC EDGAR submissions API and Archives
 
-Saved figures:
+Missing rows are retained with structured gap reasons and are not imputed or treated as zero
+disclosure.
 
-- `{figures_rel}/theme_over_time.png`
-- `{figures_rel}/sector_theme_heatmap.png`
-- `{figures_rel}/event_window_theme_change.png`
+## Method
 
-Saved Markdown and LaTeX tables live in `{tables_rel}/`.
+The pipeline resolves tickers to SEC CIKs, retrieves company submissions metadata, selects the
+calendar-year `DEF 14A` filing, downloads the primary filing document, extracts clean text, and
+records source metadata and SHA256 hashes. The final compact dataset keeps company-year status,
+SEC filing identifiers, source URLs, text metrics, theme categories, phrase evidence, and
+linguistic metrics.
+
+The baseline analysis uses a deterministic Part 1-compatible keyword taxonomy and normalizes theme
+matches per 10,000 words. Language and tone are measured with auditable lexical indicators,
+including collective voice, commitment terms, action/evidence terms, stakeholder orientation,
+sentence length, and quantified claims. An enhanced exploratory layer adds TF-IDF/NMF topics,
+MiniLM embeddings, spaCy features, and sampled local FLAN-T5 annotations, but these model-based
+outputs are kept separate from the baseline phrase-evidence results.
+
+## Findings
+
+Proxy disclosures are dominated by shareholder and performance language, which is expected for
+shareholder-facing governance documents. Employee/workplace, diversity/equity/inclusion, and
+leadership/accountability language are also consistently present across the collected filings.
+
+The language-and-tone analysis adds a distinct finding beyond topic prevalence. Collective voice
+(`we/our/us`) increases from {collective_start:.3f} to {collective_end:.3f} markers per 100 words,
+and stakeholder-oriented language remains higher in 2024 than in 2016 after peaking in 2021. By
+contrast, commitment markers decline and action/evidence markers remain low. This suggests that
+proxy disclosures become more stakeholder-facing and organizational in voice, but not more
+narratively action-heavy.
+
+The external-event analysis is descriptive rather than causal. The 2020-2021 window shows
+increases in DEI, employee/workplace, sustainability, and health/safety language relative to the
+pre-2020 period. These shifts appear to coincide with COVID-era workforce concerns, post-2020 DEI
+attention, and ESG governance pressure. The post-2021 sustainability rate remains especially
+elevated, which is consistent with continued investor attention to ESG governance.
+
+The enhanced model checks reinforce the construct-validity caveat: NMF mostly recovers
+proxy-structure topics such as shareholder meetings, stockholder proposals, forward-looking
+statements, and annual meeting mechanics. This suggests that lived-values language in `DEF 14A`
+filings is embedded within governance machinery rather than presented as a clean cultural
+manifesto.
+
+## Limitation
+
+`DEF 14A` filings are official, free, and highly auditable, but they are not direct observations of
+organizational behavior. Part 2 should therefore be interpreted as evidence of disclosed
+governance and human-capital priorities, not as proof of lived values. Missing company-years should
+remain missing in downstream alignment analysis.
 """
     DEFAULT_SUMMARY_DOC.write_text(final_summary, encoding="utf-8")
 

@@ -177,14 +177,36 @@ def write_enhanced_figures(payload: dict[str, Any], figure_dir: Path) -> list[Pa
     return written
 
 
-def enhanced_section_markdown(table_dir: Path, figure_dir: Path) -> str:
+def enhanced_section_markdown(payload: dict[str, Any], table_dir: Path, figure_dir: Path) -> str:
     figures_rel = "../outputs/text_mining/enhanced/figures"
-    return f"""## 6. Enhanced Model-Based Checks
+    summary = payload["summary"]
+    stage_results = summary["stage_results"]
+    tfidf = stage_results.get("tfidf_nmf", {})
+    embedding = stage_results.get("sentence_embeddings", {})
+    spacy = stage_results.get("spacy_pipeline", {})
+    llm = stage_results.get("local_llm_annotations", {})
+    embedding_model = embedding.get("parameters", {}).get("model_name", "not_run")
+    spacy_model = spacy.get("parameters", {}).get("model_name", "not_run")
+    return f"""## 7. Enhanced Model-Based Checks
 
-The enhanced layer adds TF-IDF/NMF, sentence-transformer embeddings, spaCy features, and a sampled
-local FLAN-T5 annotation pass. These outputs are saved separately in
-`outputs/text_mining/enhanced/` with full parameters in
-`enhanced_text_mining_summary.json`.
+This section merges the exploratory open-source NLP/modeling layer into the main Part 2 analysis.
+It adds TF-IDF/NMF topic modeling, sentence-transformer embeddings, spaCy statistical features, and
+a sampled local FLAN-T5 annotation pass on top of the deterministic phrase-evidence baseline.
+These outputs are interpretive aids, not replacements for the baseline theme evidence.
+
+The enhanced run covers {summary["collected_rows"]} collected company-years. All parameters,
+package versions, model names, seed values, input hashes, and output paths are recorded in
+`outputs/text_mining/enhanced/enhanced_text_mining_summary.json`; the JSONL progress log is
+`data/interim/enhanced_text_mining_run_log.jsonl`. All stochastic stages use seed
+`{summary["seed"]}` and the input dataset hash is `{summary["dataset_sha256"]}`.
+
+Stage status summary:
+
+- TF-IDF/NMF: `{tfidf.get("status", "not_run")}` with seed `{summary["seed"]}`.
+- Sentence embeddings: `{embedding.get("status", "not_run")}` using `{embedding_model}`.
+- spaCy features: `{spacy.get("status", "not_run")}` using `{spacy_model}`.
+- Local LLM annotations: `{llm.get("status", "not_run")}`; sampled outputs are marked with quality
+  flags and `needs_human_review`.
 
 ![NMF topic prevalence]({figures_rel}/enhanced_nmf_topic_scores.png)
 
@@ -217,13 +239,21 @@ annotations were empty, fragmentary, or boilerplate-like. Only one sampled outpu
 candidate interpretive signal. This means the small local model should not carry any Part 2 claim;
 it is retained as a transparent exploratory layer and a warning against over-reading cheap LLM
 annotations in legal disclosure text.
+
+For reproducibility, rerun the enhanced stage from the same `uv.lock`, the same input dataset hash,
+and the parameters in `enhanced_text_mining_summary.json`. Model downloads are free/open-source but
+still depend on package and model availability at rerun time.
 """
 
 
 def update_analysis_doc(path: Path, section: str) -> None:
     text = path.read_text(encoding="utf-8")
-    start = text.index("## 6. Enhanced Model-Based Checks")
+    marker_options = ("## 7. Enhanced Model-Based Checks", "## 6. Enhanced Model-Based Checks")
     end = text.index("## Interpretation")
+    start = next(
+        (text.index(marker) for marker in marker_options if marker in text),
+        end,
+    )
     path.write_text(text[:start] + section + "\n" + text[end:], encoding="utf-8")
 
 
@@ -235,7 +265,7 @@ def run_enhanced_presentation(
 ) -> dict[str, Any]:
     payload = build_enhanced_tables(enhanced_dir, table_dir)
     figures = write_enhanced_figures(payload, figure_dir)
-    section = enhanced_section_markdown(table_dir, figure_dir)
+    section = enhanced_section_markdown(payload, table_dir, figure_dir)
     update_analysis_doc(analysis_doc, section)
     return {
         "table_dir": str(table_dir),

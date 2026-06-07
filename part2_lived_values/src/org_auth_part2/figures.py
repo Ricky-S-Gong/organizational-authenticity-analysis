@@ -24,6 +24,13 @@ COLORS = (
     "#0891b2",
 )
 
+TONE_FIELDS = (
+    ("mean_first_person_plural_rate_per_100_words", "Collective voice"),
+    ("mean_commitment_rate_per_100_words", "Commitment"),
+    ("mean_action_or_evidence_rate_per_100_words", "Action/evidence"),
+    ("mean_stakeholder_rate_per_100_words", "Stakeholder orientation"),
+)
+
 
 def read_csv(path: Path) -> list[dict[str, str]]:
     with path.open(newline="", encoding="utf-8") as handle:
@@ -243,6 +250,138 @@ def event_window_svg(
     return "\n".join(parts)
 
 
+def language_tone_over_time_svg(
+    linguistic_year_rows: list[dict[str, str]],
+    *,
+    width: int = 1040,
+    height: int = 620,
+) -> str:
+    years = sorted(int(row["year"]) for row in linguistic_year_rows if row["year"].isdigit())
+    rows_by_year = {int(row["year"]): row for row in linguistic_year_rows}
+    indexed: dict[str, dict[int, float]] = {}
+    for field, _label in TONE_FIELDS:
+        base = float(rows_by_year[min(years)][field])
+        indexed[field] = {
+            year: (float(rows_by_year[year][field]) / base) * 100 if base else 0
+            for year in years
+        }
+    max_rate = max(value for series in indexed.values() for value in series.values())
+    min_rate = min(value for series in indexed.values() for value in series.values())
+    left, right, top, bottom = 92, width - 260, 70, height - 90
+    y_low = min(80, min_rate * 0.96)
+    y_high = max_rate * 1.04
+    if y_high <= y_low:
+        y_high = y_low + 1
+    parts = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
+        f'viewBox="0 0 {width} {height}">',
+        '<rect width="100%" height="100%" fill="#ffffff"/>',
+        _text(30, 34, "Part 2 Language and Tone Over Time", size=22),
+        _text(30, 56, "Lexical tone indicators indexed to 2016 = 100", size=13),
+        _axis_line(left, bottom, right, bottom),
+        _axis_line(left, top, left, bottom),
+    ]
+    for tick in range(0, 6):
+        value = y_low + (y_high - y_low) * tick / 5
+        y = _scale(value, (y_low, y_high), (bottom, top))
+        parts.append(
+            _axis_line(left - 5, y, right, y).replace('stroke="#6b7280"', 'stroke="#e5e7eb"')
+        )
+        parts.append(_text(left - 12, y + 4, f"{value:.0f}", size=11, anchor="end"))
+    for year in years:
+        x = _scale(year, (min(years), max(years)), (left, right))
+        parts.append(_axis_line(x, bottom, x, bottom + 5))
+        parts.append(_text(x, bottom + 24, str(year), size=11, anchor="middle"))
+    for idx, (field, label) in enumerate(TONE_FIELDS):
+        color = COLORS[idx % len(COLORS)]
+        points = []
+        for year in years:
+            x = _scale(year, (min(years), max(years)), (left, right))
+            y = _scale(indexed[field][year], (y_low, y_high), (bottom, top))
+            points.append((x, y))
+        path = " ".join(
+            ("M" if idx_point == 0 else "L") + f" {x:.1f} {y:.1f}"
+            for idx_point, (x, y) in enumerate(points)
+        )
+        parts.append(f'<path d="{path}" fill="none" stroke="{color}" stroke-width="2.5"/>')
+        for x, y in points:
+            parts.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="3.2" fill="{color}"/>')
+        legend_y = top + idx * 26
+        parts.append(
+            f'<rect x="{right + 34}" y="{legend_y - 10}" width="14" height="14" '
+            f'fill="{color}"/>'
+        )
+        parts.append(_text(right + 56, legend_y + 2, label, size=12))
+    parts.append(
+        _text(
+            30,
+            height - 24,
+            "Table values preserve raw rates per 100 words; the figure compares relative change.",
+            size=11,
+        )
+    )
+    parts.append("</svg>")
+    return "\n".join(parts)
+
+
+def sector_tone_heatmap_svg(
+    sector_linguistic_rows: list[dict[str, str]],
+    *,
+    width: int = 980,
+    height: int = 560,
+) -> str:
+    field_ranges = {}
+    for field, _label in TONE_FIELDS:
+        values = [float(row[field]) for row in sector_linguistic_rows]
+        field_ranges[field] = (min(values), max(values))
+    left, top = 240, 110
+    cell_w, cell_h = 145, 64
+    parts = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
+        f'viewBox="0 0 {width} {height}">',
+        '<rect width="100%" height="100%" fill="#ffffff"/>',
+        _text(30, 34, "Part 2 Cross-Sector Language and Tone", size=22),
+        _text(30, 56, "Lexical tone indicators per 100 words by sector", size=13),
+    ]
+    for col, (_field, label) in enumerate(TONE_FIELDS):
+        x = left + col * cell_w + cell_w / 2
+        for offset, word in enumerate(label.split()):
+            parts.append(_text(x, top - 42 + offset * 14, word, size=11, anchor="middle"))
+    for row_idx, row in enumerate(sector_linguistic_rows):
+        y = top + row_idx * cell_h
+        parts.append(_text(left - 16, y + cell_h / 2 + 4, row["sector"], size=12, anchor="end"))
+        for col, (field, _label) in enumerate(TONE_FIELDS):
+            value = float(row[field])
+            intensity = _scale(value, field_ranges[field], (0.10, 1.0))
+            red = int(255 - intensity * 105)
+            green = int(247 - intensity * 150)
+            blue = int(237 - intensity * 210)
+            x = left + col * cell_w
+            parts.append(
+                f'<rect x="{x}" y="{y}" width="{cell_w - 4}" height="{cell_h - 4}" '
+                f'rx="0" fill="rgb({red},{green},{blue})" stroke="#ffffff"/>'
+            )
+            parts.append(
+                _text(
+                    x + cell_w / 2 - 2,
+                    y + cell_h / 2 + 4,
+                    f"{value:.3f}",
+                    size=12,
+                    anchor="middle",
+                )
+            )
+    parts.append(
+        _text(
+            30,
+            height - 24,
+            "Darker cells indicate higher within-indicator sector rank; labels show raw rates.",
+            size=11,
+        )
+    )
+    parts.append("</svg>")
+    return "\n".join(parts)
+
+
 def _try_load_plotting():
     try:
         os.environ.setdefault(
@@ -368,6 +507,84 @@ def _save_event_window_png(summary: dict[str, Any], figure_dir: Path) -> Path | 
     return path
 
 
+def _save_language_tone_over_time_png(
+    linguistic_year_rows: list[dict[str, str]],
+    figure_dir: Path,
+) -> Path | None:
+    plt, _sns = _try_load_plotting()
+    if plt is None:
+        return None
+    rows = sorted(linguistic_year_rows, key=lambda row: int(row["year"]))
+    base_row = rows[0]
+    fig, ax = plt.subplots(figsize=(12, 7))
+    for color, (field, label) in zip(COLORS, TONE_FIELDS, strict=False):
+        base = float(base_row[field])
+        ax.plot(
+            [int(row["year"]) for row in rows],
+            [(float(row[field]) / base) * 100 if base else 0 for row in rows],
+            marker="o",
+            linewidth=2.5,
+            label=label,
+            color=color,
+        )
+    ax.set_title("Part 2 Language and Tone Over Time", pad=16, weight="bold")
+    ax.set_ylabel("Index, 2016 = 100")
+    ax.set_xlabel("Filing year")
+    ax.axhline(100, color="#6b7280", linewidth=1, linestyle="--")
+    ax.legend(loc="center left", bbox_to_anchor=(1.02, 0.5), frameon=False)
+    fig.tight_layout()
+    path = figure_dir / "language_tone_over_time.png"
+    fig.savefig(path, dpi=220, bbox_inches="tight")
+    plt.close(fig)
+    return path
+
+
+def _save_sector_tone_heatmap_png(
+    sector_linguistic_rows: list[dict[str, str]],
+    figure_dir: Path,
+) -> Path | None:
+    plt, sns = _try_load_plotting()
+    if plt is None or sns is None:
+        return None
+    rows = sorted(sector_linguistic_rows, key=lambda row: row["sector"])
+    raw_matrix = [[float(row[field]) for field, _label in TONE_FIELDS] for row in rows]
+    color_matrix = []
+    for row in rows:
+        color_row = []
+        for field, _label in TONE_FIELDS:
+            values = [float(item[field]) for item in rows]
+            low, high = min(values), max(values)
+            value = float(row[field])
+            color_row.append((value - low) / (high - low) if high != low else 0.5)
+        color_matrix.append(color_row)
+    fig, ax = plt.subplots(figsize=(10.5, 6.2))
+    sns.heatmap(
+        color_matrix,
+        annot=raw_matrix,
+        fmt=".3f",
+        cmap="YlOrBr",
+        xticklabels=[label for _field, label in TONE_FIELDS],
+        yticklabels=[row["sector"] for row in rows],
+        cbar_kws={"label": "Within-indicator relative intensity"},
+        ax=ax,
+    )
+    ax.set_title("Part 2 Cross-Sector Language and Tone", pad=16, weight="bold")
+    ax.set_xlabel("")
+    ax.set_ylabel("")
+    ax.set_xticklabels(
+        [label for _field, label in TONE_FIELDS],
+        rotation=90,
+        ha="center",
+        va="top",
+    )
+    fig.tight_layout()
+    fig.subplots_adjust(bottom=0.30)
+    path = figure_dir / "sector_tone_heatmap.png"
+    fig.savefig(path, dpi=220, bbox_inches="tight")
+    plt.close(fig)
+    return path
+
+
 def write_figures(
     output_dir: Path = DEFAULT_OUTPUT_DIR,
     figure_dir: Path = DEFAULT_FIGURE_DIR,
@@ -376,10 +593,14 @@ def write_figures(
     summary = json.loads((output_dir / "text_mining_summary.json").read_text(encoding="utf-8"))
     theme_year = read_csv(output_dir / "theme_year_summary.csv")
     theme_sector = read_csv(output_dir / "theme_sector_summary.csv")
+    linguistic_year = read_csv(output_dir / "linguistic_year_summary.csv")
+    sector_linguistic = read_csv(output_dir / "sector_linguistic_summary.csv")
     figures = {
         "theme_over_time.svg": theme_over_time_svg(theme_year, summary),
         "sector_theme_heatmap.svg": sector_heatmap_svg(theme_sector, summary),
         "event_window_theme_change.svg": event_window_svg(summary),
+        "language_tone_over_time.svg": language_tone_over_time_svg(linguistic_year),
+        "sector_tone_heatmap.svg": sector_tone_heatmap_svg(sector_linguistic),
     }
     paths = []
     for name, svg in figures.items():
@@ -390,6 +611,8 @@ def write_figures(
         _save_theme_over_time_png(theme_year, summary, figure_dir),
         _save_sector_heatmap_png(theme_sector, summary, figure_dir),
         _save_event_window_png(summary, figure_dir),
+        _save_language_tone_over_time_png(linguistic_year, figure_dir),
+        _save_sector_tone_heatmap_png(sector_linguistic, figure_dir),
     ):
         if path is not None:
             paths.append(path)

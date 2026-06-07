@@ -12,6 +12,12 @@ evidence, document-length-normalized rates, and descriptive linguistic metrics. 
 paid API, closed model, or external LLM. This keeps the analysis auditable and appropriate for a
 small RA interview assignment.
 
+I treat `language` as the vocabulary and phrase emphasis captured by the theme taxonomy, and `tone`
+as observable disclosure style: collective voice, commitment language, aspirational language,
+action/evidence language, stakeholder orientation, sentence length, and quantified claims. These
+are lexical proxies rather than psychological sentiment scores, which is more appropriate for legal
+proxy filings.
+
 ## 1. Overall Disclosure Priorities
 
 ![Theme emphasis over time](../outputs/text_mining/figures/theme_over_time.png)
@@ -79,7 +85,71 @@ pre-2020 period; employee/workplace language rises by 6.25; and environment/sust
 cycle, and growing investor attention to ESG governance. They should not be interpreted as causal
 effects: proxy templates, regulatory expectations, and investor norms changed at the same time.
 
-## 4. Within-Company Shifts
+The event interpretation table makes the external-event claim explicit. It links each external
+context to the text shift it appears to coincide with, while keeping the causal caveat visible.
+
+| Window | Relevant external event | Observed text shift | Interpretation | Caveat |
+| --- | --- | --- | --- | --- |
+| 2020-2021 | COVID-era workforce shock | Employees/workplace +6.25; health/safety +3.08 vs. pre-2020 | Proxy language becomes more attentive to workforce continuity, safety, and employee-facing governance. | Descriptive coincidence only; proxy templates and workforce disclosure norms also changed. |
+| 2020-2021 | Post-2020 DEI attention | DEI +6.76 vs. pre-2020 | Diversity, equity, and inclusion language becomes more prominent in governance disclosures. | Some DEI matches appear in shareholder proposal or voting mechanics, so excerpt review remains necessary. |
+| 2021 onward | Investor attention to ESG governance | Environment/sustainability rises from 8.06 pre-2020 to 21.71 post-2021 | Sustainability language continues increasing after the initial 2020-2021 window. | The evidence supports a timing association, not a causal estimate of ESG pressure. |
+
+## 4. Language and Tone Over Time
+
+The central language-and-tone finding is that proxy disclosures become more stakeholder-facing and
+more explicitly organizational in voice over time, but not more action-heavy. This is different from
+the theme result. The theme analysis asks *what topics* appear; the tone analysis asks *how the
+filings speak* when they discuss governance, human capital, and corporate priorities.
+
+- Collective voice rises from 1.212 to 1.681 markers per 100 words, a roughly 38.6% increase.
+- Stakeholder orientation rises from 0.190 in 2016 to a 2021 peak of 0.324, and remains higher in 2024 at 0.265.
+- Commitment language declines from 0.355 to 0.306, while action/evidence terms stay low, around 0.08-0.10 markers per 100 words.
+
+Substantively, this means the corpus does not simply add more values topics. It increasingly frames
+those topics through an institutional `we/our` voice and a broader stakeholder vocabulary, while
+still preserving the cautious, formal style of proxy disclosure.
+
+![Language and tone over time](../outputs/text_mining/figures/language_tone_over_time.png)
+
+| Year | Collective voice | Commitment | Action/evidence | Stakeholder | Avg sentence length |
+| --- | --- | --- | --- | --- | --- |
+| 2016 | 1.212 | 0.355 | 0.087 | 0.190 | 9.15 |
+| 2017 | 1.283 | 0.363 | 0.084 | 0.202 | 8.60 |
+| 2018 | 1.347 | 0.359 | 0.094 | 0.232 | 8.89 |
+| 2019 | 1.447 | 0.342 | 0.092 | 0.254 | 8.73 |
+| 2020 | 1.516 | 0.354 | 0.096 | 0.280 | 8.99 |
+| 2021 | 1.629 | 0.355 | 0.101 | 0.324 | 9.99 |
+| 2022 | 1.650 | 0.340 | 0.102 | 0.298 | 10.32 |
+| 2023 | 1.739 | 0.320 | 0.097 | 0.268 | 10.54 |
+| 2024 | 1.681 | 0.306 | 0.101 | 0.265 | 10.31 |
+
+The indexed line chart makes the shift easier to read than raw rates alone. Stakeholder orientation
+increases most sharply through 2021, consistent with the COVID-era and post-2020 shift toward
+workforce, DEI, health/safety, and ESG governance language. Collective voice rises more steadily
+across the full window. Commitment language does not show the same increase; by 2024 it is below
+its 2016 level. This contrast is important because it suggests a change in disclosure stance, not
+just a uniform increase in all positive-sounding values language.
+
+![Sector language and tone heatmap](../outputs/text_mining/figures/sector_tone_heatmap.png)
+
+| Sector | Collective voice | Commitment | Action/evidence | Stakeholder | Avg sentence length |
+| --- | --- | --- | --- | --- | --- |
+| Consumer Discretionary | 1.578 | 0.355 | 0.082 | 0.239 | 10.08 |
+| Energy | 1.373 | 0.334 | 0.101 | 0.250 | 9.59 |
+| Financials | 1.531 | 0.323 | 0.094 | 0.308 | 9.51 |
+| Healthcare | 1.209 | 0.311 | 0.109 | 0.242 | 8.13 |
+| Technology | 1.834 | 0.395 | 0.087 | 0.252 | 10.25 |
+
+Sector-level tone also varies. Technology has the strongest collective-voice rate at
+1.834 per 100
+words and the highest commitment rate at
+0.395. Financials have the
+highest stakeholder-orientation rate at
+0.308. This reinforces the
+theme results: sector differences are not only about which topics appear, but also about how firms
+style their disclosure voice.
+
+## 5. Within-Company Shifts
 
 | Ticker | Years | Theme | Change / 10k words |
 | --- | --- | --- | --- |
@@ -107,7 +177,7 @@ substantively connected to diversity/inclusion reporting and board diversity lan
 matches still come from proposal mechanics. The audit is saved in
 `docs/top_shift_excerpt_audit.md` and `outputs/text_mining/top_shift_excerpt_audit.csv`.
 
-## 5. Coverage and Missingness
+## 6. Coverage and Missingness
 
 | Ticker | Sector | Missing years | Count |
 | --- | --- | --- | --- |
@@ -123,12 +193,26 @@ BlackRock accounts for nine of the sixteen gaps, and Broadcom accounts for three
 company-years should remain missing rather than being assigned zero disclosure emphasis or filled
 with sector means.
 
-## 6. Enhanced Model-Based Checks
+## 7. Enhanced Model-Based Checks
 
-The enhanced layer adds TF-IDF/NMF, sentence-transformer embeddings, spaCy features, and a sampled
-local FLAN-T5 annotation pass. These outputs are saved separately in
-`outputs/text_mining/enhanced/` with full parameters in
-`enhanced_text_mining_summary.json`.
+This section merges the exploratory open-source NLP/modeling layer into the main Part 2 analysis.
+It adds TF-IDF/NMF topic modeling, sentence-transformer embeddings, spaCy statistical features, and
+a sampled local FLAN-T5 annotation pass on top of the deterministic phrase-evidence baseline.
+These outputs are interpretive aids, not replacements for the baseline theme evidence.
+
+The enhanced run covers 434 collected company-years. All parameters,
+package versions, model names, seed values, input hashes, and output paths are recorded in
+`outputs/text_mining/enhanced/enhanced_text_mining_summary.json`; the JSONL progress log is
+`data/interim/enhanced_text_mining_run_log.jsonl`. All stochastic stages use seed
+`42` and the input dataset hash is `1422d669d575a15ae005ef4fb9664f5f7d240c4345aac81a37bc7f79e02e42ee`.
+
+Stage status summary:
+
+- TF-IDF/NMF: `completed` with seed `42`.
+- Sentence embeddings: `completed` using `sentence-transformers/all-MiniLM-L6-v2`.
+- spaCy features: `completed` using `en_core_web_sm`.
+- Local LLM annotations: `completed`; sampled outputs are marked with quality
+  flags and `needs_human_review`.
 
 ![NMF topic prevalence](../outputs/text_mining/enhanced/figures/enhanced_nmf_topic_scores.png)
 
@@ -185,6 +269,10 @@ annotations were empty, fragmentary, or boilerplate-like. Only one sampled outpu
 candidate interpretive signal. This means the small local model should not carry any Part 2 claim;
 it is retained as a transparent exploratory layer and a warning against over-reading cheap LLM
 annotations in legal disclosure text.
+
+For reproducibility, rerun the enhanced stage from the same `uv.lock`, the same input dataset hash,
+and the parameters in `enhanced_text_mining_summary.json`. Model downloads are free/open-source but
+still depend on package and model availability at rerun time.
 
 ## Interpretation
 

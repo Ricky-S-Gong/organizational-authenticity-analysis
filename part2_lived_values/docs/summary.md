@@ -26,9 +26,12 @@ SEC filing identifiers, source URLs, text metrics, theme categories, phrase evid
 linguistic metrics.
 
 The baseline analysis uses a deterministic Part 1-compatible keyword taxonomy and normalizes theme
-matches per 10,000 words. An enhanced exploratory layer adds TF-IDF/NMF topics, MiniLM embeddings,
-spaCy features, and sampled local FLAN-T5 annotations, but these model-based outputs are kept
-separate from the baseline phrase-evidence results.
+matches per 10,000 words. Language and tone are measured with auditable lexical indicators,
+including collective voice, commitment terms, action/evidence terms, stakeholder orientation,
+sentence length, and quantified claims. An enhanced exploratory layer adds TF-IDF/NMF topics,
+MiniLM embeddings, spaCy features, and sampled local FLAN-T5 annotations, but these model-based
+outputs are kept in separate audit files while their interpretation is merged into the main
+text-mining analysis report.
 
 ## Findings
 
@@ -36,10 +39,18 @@ Proxy disclosures are dominated by shareholder and performance language, which i
 shareholder-facing governance documents. Employee/workplace, diversity/equity/inclusion, and
 leadership/accountability language are also consistently present across the collected filings.
 
-The 2020-2021 window shows descriptive increases in DEI, employee/workplace, sustainability, and
-health/safety language relative to the pre-2020 period. These shifts are consistent with broader
-COVID-era workforce concerns, post-2020 DEI attention, and ESG governance pressure, but they are
-not causal estimates.
+The language-and-tone analysis adds a distinct finding beyond topic prevalence. Collective voice
+(`we/our/us`) increases from 1.212 to 1.681 markers per 100 words,
+and stakeholder-oriented language remains higher in 2024 than in 2016 after peaking in 2021. By
+contrast, commitment markers decline and action/evidence markers remain low. This suggests that
+proxy disclosures become more stakeholder-facing and organizational in voice, but not more
+narratively action-heavy.
+
+The external-event analysis is descriptive rather than causal. The 2020-2021 window shows
+increases in DEI, employee/workplace, sustainability, and health/safety language relative to the
+pre-2020 period. These shifts appear to coincide with COVID-era workforce concerns, post-2020 DEI
+attention, and ESG governance pressure. The post-2021 sustainability rate remains especially
+elevated, which is consistent with continued investor attention to ESG governance.
 
 The enhanced model checks reinforce the construct-validity caveat: NMF mostly recovers
 proxy-structure topics such as shareholder meetings, stockholder proposals, forward-looking

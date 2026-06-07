@@ -1,0 +1,5 @@
+| Window | Relevant external event | Observed text shift | Interpretation | Caveat |
+| --- | --- | --- | --- | --- |
+| 2020-2021 | COVID-era workforce shock | Employees/workplace +6.25; health/safety +3.08 vs. pre-2020 | Proxy language becomes more attentive to workforce continuity, safety, and employee-facing governance. | Descriptive coincidence only; proxy templates and workforce disclosure norms also changed. |
+| 2020-2021 | Post-2020 DEI attention | DEI +6.76 vs. pre-2020 | Diversity, equity, and inclusion language becomes more prominent in governance disclosures. | Some DEI matches appear in shareholder proposal or voting mechanics, so excerpt review remains necessary. |
+| 2021 onward | Investor attention to ESG governance | Environment/sustainability rises from 8.06 pre-2020 to 21.71 post-2021 | Sustainability language continues increasing after the initial 2020-2021 window. | The evidence supports a timing association, not a causal estimate of ESG pressure. |
