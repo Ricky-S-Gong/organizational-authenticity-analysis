@@ -5,10 +5,8 @@ company-year window used in Part 1.
 
 ## What I Did
 
-I built a reproducible SEC EDGAR pipeline that collects one `DEF 14A` proxy statement per
-company-year where available, extracts clean text, records source metadata and SHA256 hashes,
-computes deterministic theme and linguistic indicators, and generates reviewer-facing datasets,
-figures, tables, and analysis documents.
+I collected SEC `DEF 14A` proxy statements for the Part 1 company-year panel, extracted text,
+computed theme and language/tone indicators, and generated the Part 2 dataset and analysis.
 
 The final run covers 434 of 450 target company-years. The remaining 16 rows are retained as
 documented missing observations rather than imputed or treated as zero disclosure.
@@ -20,17 +18,14 @@ Proxy statements are not direct observations of behavior, but they are official,
 consistently archived, and highly reproducible. This makes them a stronger fit for an audited
 proof-of-concept than manually collected ESG or sustainability PDFs.
 
-The baseline analysis uses deterministic keyword/phrase matching and lexical metrics so the results
-can be reproduced and audited without paid APIs. I also added an exploratory open-source model
-layer, using TF-IDF/NMF, MiniLM embeddings, spaCy features, and sampled local FLAN-T5 annotations,
-to check whether model-based signals support or complicate the deterministic findings.
+The main analysis uses deterministic keyword/phrase matching and lexical metrics. Open-source
+model checks are included only as exploratory triangulation.
 
 ## Assumptions
 
 - A calendar-year `DEF 14A` filing is a comparable annual disclosure artifact for each company-year.
 - The first calendar-year `DEF 14A` is the main proxy statement for that year; `DEFA14A`
   supplemental filings are excluded for comparability.
-- SEC filing year is used as the analysis year.
 - Missing `DEF 14A` company-years are true collection gaps for this document type and should remain
   missing in downstream analysis.
 - The Part 1-compatible keyword taxonomy is an auditable proxy for disclosed values language, not a
@@ -42,43 +37,18 @@ to check whether model-based signals support or complicate the deterministic fin
 
 - Proxy statements are legal and governance documents, not direct observations of workplace or
   operational behavior.
-- Dictionary matches can capture boilerplate, shareholder proposal mechanics, or voting language;
-  large shifts therefore require excerpt audit before substantive interpretation.
-- The taxonomy is intentionally transparent and reproducible, but it can miss synonyms and
-  context-specific meanings outside the fixed phrase lists.
-- Open-source model checks are exploratory. They help with triangulation and audit triage, but the
-  main claims rely on deterministic phrase evidence.
-- Coverage is high but not complete: 16 of 450 target company-years are missing and should remain
-  missing in Part 3 alignment analysis.
+- Dictionary matches can capture boilerplate or shareholder-proposal mechanics; large shifts require
+  excerpt review.
+- The fixed taxonomy can miss synonyms and context-specific meanings.
+- Coverage is high but incomplete: 16 of 450 company-years are missing.
 
 ## What I Would Do Differently With More Time
 
 - Expand excerpt-level validation with a larger manually reviewed sample across sectors and years.
 - Add a second official disclosure type, such as 10-K human-capital sections, to compare whether
   proxy-statement patterns are document-type specific.
-- Tune the theme taxonomy with an explicit intercoder-style audit set rather than relying only on
-  deterministic rule inspection.
-- Add company-level robustness checks that separate shareholder meeting mechanics from substantive
-  values language.
-- Build a small rendered report or notebook that combines collection coverage, diagnostics,
-  figures, and excerpt audits in one review artifact.
-
-## Folder Contract
-
-All Part 2 work lives under this directory:
-
-- `src/org_auth_part2/`: reusable collection, extraction, analysis, logging, and validation code.
-- `tests/`: Part 2 tests only.
-- `config/`: company-year target grid generated from the Part 1 company manifest.
-- `data/interim/`: SEC ticker/CIK and submissions API caches plus progress/state logs.
-- `data/raw/filings/`: downloaded SEC primary filing documents.
-- `data/processed/`: extracted text, filing metadata, and review queues.
-- `outputs/`: final dataset, coverage report, requirement audit, and run logs.
-- `outputs/part2_company_year_compact.csv`: git-friendly company-year dataset without the full
-  extracted text column.
-- `outputs/part2_company_year.csv`: full local dataset with extracted text. This is intentionally
-  ignored by Git because it is large and reproducible from SEC sources.
-- `docs/`: methodology, codebook, audit notes, and summary.
+- Refine the taxonomy against a larger audit set and separate shareholder-meeting mechanics from
+  substantive values language more explicitly.
 
 ## Deliverables
 
@@ -97,26 +67,11 @@ All Part 2 work lives under this directory:
   counts, and sector-level missingness.
 - [`outputs/requirement_audit.json`](outputs/requirement_audit.json): structural audit showing
   whether the Part 2 data contract is satisfied.
-- [`data/review/manual_review_queue.csv`](data/review/manual_review_queue.csv): missing or
-  review-needed company-years.
 - [`outputs/text_mining/`](outputs/text_mining/): deterministic text-mining CSVs, figures, and
   Markdown/LaTeX tables.
 - [`outputs/text_mining/enhanced/`](outputs/text_mining/enhanced/): exploratory open-source model
   outputs, including NMF topics, MiniLM embedding shifts, spaCy features, and sampled local LLM
   annotations.
-- [`src/org_auth_part2/`](src/org_auth_part2/): reproducible collection, extraction, analysis,
-  presentation, and validation code.
-- [`tests/`](tests/): tests for target construction, EDGAR selection, extraction, analysis,
-  status reporting, enhanced analysis, and validation.
-
-The local audit-only artifacts are:
-
-- `outputs/part2_company_year.csv`: full dataset including extracted text. It is intentionally
-  ignored by Git because it is large and reproducible from SEC.
-- `data/raw/filings/`: downloaded SEC primary filing documents.
-- `data/processed/text/`: full extracted text artifacts.
-- `data/interim/*.jsonl` and state/cache files: useful for run monitoring and audit, but not the
-  lightweight reviewer-facing dataset.
 
 ## Commands
 
@@ -212,15 +167,3 @@ PYTHONPATH=part2_lived_values/src \
 PYTHONPATH=part2_lived_values/src \
   uv run --no-sync ruff check part2_lived_values/src/org_auth_part2 part2_lived_values/tests
 ```
-
-## Live Progress
-
-The runner writes:
-
-- `data/interim/part2_run_progress.jsonl`: event log with run, target, download, and extraction status.
-- `data/interim/part2_run_state.json`: latest completed target and count.
-- `outputs/coverage_report.json`: status counts and coverage rate.
-- `outputs/requirement_audit.json`: structural audit for the Part 2 contract.
-
-The status command reads the JSONL log and state file, so a long run can be monitored while it is
-still active.
