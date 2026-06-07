@@ -1,0 +1,61 @@
+sector,theme_id,theme_label,company_years,presence_rate,mean_matches_per_10k_words,median_matches_per_10k_words
+Consumer Discretionary,collaboration_and_partnership,Collaboration and partnership,88,0.988636,2.729263,2.429399
+Consumer Discretionary,customers_and_service,Customers and service,88,1.0,17.411394,16.868528
+Consumer Discretionary,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",88,1.0,25.190958,22.997572
+Consumer Discretionary,employees_and_workplace,Employees and workplace,88,1.0,22.331522,19.478579
+Consumer Discretionary,environment_and_sustainability,Environment and sustainability,88,1.0,12.149894,10.15231
+Consumer Discretionary,health_safety_and_wellbeing,"Health, safety, and wellbeing",88,1.0,8.990642,7.015206
+Consumer Discretionary,innovation_and_excellence,Innovation and excellence,88,0.988636,3.029194,1.818035
+Consumer Discretionary,integrity_and_ethics,Integrity and ethics,88,1.0,5.893733,5.618385
+Consumer Discretionary,leadership_and_accountability,Leadership and accountability,88,1.0,27.799976,28.218368
+Consumer Discretionary,purpose_and_identity,Purpose and identity,88,0.897727,1.056414,0.776496
+Consumer Discretionary,shareholders_and_performance,Shareholders and performance,88,1.0,53.021271,55.064441
+Consumer Discretionary,social_impact_and_community,Social impact and community,88,0.988636,3.829945,1.916783
+Energy,collaboration_and_partnership,Collaboration and partnership,89,1.0,2.335318,2.14199
+Energy,customers_and_service,Customers and service,89,1.0,12.124877,12.287799
+Energy,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",89,1.0,17.480806,16.735272
+Energy,employees_and_workplace,Employees and workplace,89,1.0,31.323554,31.251469
+Energy,environment_and_sustainability,Environment and sustainability,89,1.0,23.792844,20.78282
+Energy,health_safety_and_wellbeing,"Health, safety, and wellbeing",89,1.0,13.495233,13.80559
+Energy,innovation_and_excellence,Innovation and excellence,89,0.988764,2.781114,2.39988
+Energy,integrity_and_ethics,Integrity and ethics,89,1.0,5.242291,4.632026
+Energy,leadership_and_accountability,Leadership and accountability,89,1.0,19.906867,20.743008
+Energy,purpose_and_identity,Purpose and identity,89,0.651685,0.46561,0.257354
+Energy,shareholders_and_performance,Shareholders and performance,89,1.0,25.694593,9.582293
+Energy,social_impact_and_community,Social impact and community,89,0.966292,2.722998,1.522955
+Financials,collaboration_and_partnership,Collaboration and partnership,81,1.0,3.098145,2.857415
+Financials,customers_and_service,Customers and service,81,0.987654,22.922169,24.975439
+Financials,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",81,1.0,30.755621,31.557404
+Financials,employees_and_workplace,Employees and workplace,81,1.0,30.134212,28.97351
+Financials,environment_and_sustainability,Environment and sustainability,81,0.975309,15.357036,10.525373
+Financials,health_safety_and_wellbeing,"Health, safety, and wellbeing",81,1.0,6.617722,6.045584
+Financials,innovation_and_excellence,Innovation and excellence,81,0.876543,2.752227,2.683234
+Financials,integrity_and_ethics,Integrity and ethics,81,1.0,7.512515,6.753715
+Financials,leadership_and_accountability,Leadership and accountability,81,1.0,28.993971,28.817282
+Financials,purpose_and_identity,Purpose and identity,81,0.716049,0.74754,0.441956
+Financials,shareholders_and_performance,Shareholders and performance,81,1.0,43.930975,50.726989
+Financials,social_impact_and_community,Social impact and community,81,0.962963,5.151982,4.263244
+Healthcare,collaboration_and_partnership,Collaboration and partnership,90,1.0,2.936885,2.643565
+Healthcare,customers_and_service,Customers and service,90,1.0,17.519294,17.05633
+Healthcare,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",90,1.0,23.07858,22.150674
+Healthcare,employees_and_workplace,Employees and workplace,90,1.0,28.689715,25.794705
+Healthcare,environment_and_sustainability,Environment and sustainability,90,1.0,8.389864,7.918825
+Healthcare,health_safety_and_wellbeing,"Health, safety, and wellbeing",90,1.0,13.81322,11.857682
+Healthcare,innovation_and_excellence,Innovation and excellence,90,1.0,6.88678,6.17799
+Healthcare,integrity_and_ethics,Integrity and ethics,90,1.0,7.586952,6.744216
+Healthcare,leadership_and_accountability,Leadership and accountability,90,1.0,22.932742,22.362805
+Healthcare,purpose_and_identity,Purpose and identity,90,0.766667,1.170363,0.727986
+Healthcare,shareholders_and_performance,Shareholders and performance,90,1.0,47.259356,49.768912
+Healthcare,social_impact_and_community,Social impact and community,90,0.955556,2.656055,2.284647
+Technology,collaboration_and_partnership,Collaboration and partnership,86,0.988372,2.964873,2.626628
+Technology,customers_and_service,Customers and service,86,1.0,14.466669,13.255909
+Technology,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",86,1.0,33.299123,31.062126
+Technology,employees_and_workplace,Employees and workplace,86,1.0,28.18516,26.958871
+Technology,environment_and_sustainability,Environment and sustainability,86,0.965116,8.939558,7.382371
+Technology,health_safety_and_wellbeing,"Health, safety, and wellbeing",86,1.0,9.153956,7.773893
+Technology,innovation_and_excellence,Innovation and excellence,86,1.0,3.099193,2.560339
+Technology,integrity_and_ethics,Integrity and ethics,86,1.0,8.639693,7.64248
+Technology,leadership_and_accountability,Leadership and accountability,86,1.0,25.142414,24.809357
+Technology,purpose_and_identity,Purpose and identity,86,0.674419,0.788912,0.282002
+Technology,shareholders_and_performance,Shareholders and performance,86,1.0,18.958574,7.985333
+Technology,social_impact_and_community,Social impact and community,86,0.965116,3.788416,2.591715

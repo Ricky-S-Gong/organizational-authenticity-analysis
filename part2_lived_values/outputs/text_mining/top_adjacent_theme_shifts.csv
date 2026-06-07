@@ -1,0 +1,251 @@
+ticker,company_name,sector,theme_id,theme_label,prior_year,year,prior_rate_per_10k_words,rate_per_10k_words,change_per_10k_words,absolute_change_per_10k_words
+BAC,Bank of America,Financials,shareholders_and_performance,Shareholders and performance,2019,2020,7.405043,72.347133,64.94209,64.94209
+BRK.B,Berkshire Hathaway,Financials,environment_and_sustainability,Environment and sustainability,2018,2019,49.721894,0.0,-49.721894,49.721894
+AAPL,Apple,Technology,shareholders_and_performance,Shareholders and performance,2022,2023,41.441315,86.461038,45.019723,45.019723
+NKE,Nike,Consumer Discretionary,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2020,2021,13.090187,57.855031,44.764844,44.764844
+TMO,Thermo Fisher Scientific,Healthcare,shareholders_and_performance,Shareholders and performance,2018,2019,5.549876,49.881292,44.331416,44.331416
+META,Meta Platforms,Technology,shareholders_and_performance,Shareholders and performance,2020,2021,8.157119,48.790836,40.633717,40.633717
+NKE,Nike,Consumer Discretionary,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2021,2022,57.855031,17.736971,-40.11806,40.11806
+HAL,Halliburton,Energy,shareholders_and_performance,Shareholders and performance,2018,2019,2.678332,41.869413,39.19108,39.19108
+SLB,SLB (Schlumberger),Energy,shareholders_and_performance,Shareholders and performance,2022,2023,5.443119,41.786633,36.343514,36.343514
+VLO,Valero Energy,Energy,environment_and_sustainability,Environment and sustainability,2021,2022,17.115032,52.376016,35.260984,35.260984
+AAPL,Apple,Technology,shareholders_and_performance,Shareholders and performance,2023,2024,86.461038,51.303143,-35.157894,35.157894
+WFC,Wells Fargo,Financials,employees_and_workplace,Employees and workplace,2019,2020,22.473474,57.09614,34.622666,34.622666
+SCHW,Charles Schwab,Financials,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2022,2023,20.505915,54.211642,33.705728,33.705728
+AXP,American Express,Financials,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2020,2021,26.069566,59.690433,33.620867,33.620867
+WFC,Wells Fargo,Financials,shareholders_and_performance,Shareholders and performance,2017,2018,7.937703,41.500551,33.562848,33.562848
+AAPL,Apple,Technology,shareholders_and_performance,Shareholders and performance,2016,2017,55.426275,88.343558,32.917284,32.917284
+AMZN,Amazon,Consumer Discretionary,environment_and_sustainability,Environment and sustainability,2018,2019,4.29861,37.187887,32.889277,32.889277
+MCD,McDonald's,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2021,2023,101.283594,70.132922,-31.150672,31.150672
+TGT,Target,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2020,2021,44.833639,75.837886,31.004248,31.004248
+ORCL,Oracle,Technology,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2017,28.064052,57.860968,29.796916,29.796916
+TJX,TJX Companies,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2016,2017,4.026344,33.530338,29.503994,29.503994
+XOM,ExxonMobil,Energy,environment_and_sustainability,Environment and sustainability,2023,2024,75.595589,46.666034,-28.929555,28.929555
+MCD,McDonald's,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2019,2020,102.487831,73.818991,-28.66884,28.66884
+AMZN,Amazon,Consumer Discretionary,employees_and_workplace,Employees and workplace,2020,2021,31.909613,60.090526,28.180913,28.180913
+TSLA,Tesla,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2023,2024,5.448497,33.133818,27.685321,27.685321
+MSFT,Microsoft,Technology,shareholders_and_performance,Shareholders and performance,2016,2017,72.081263,44.541763,-27.539501,27.539501
+MCD,McDonald's,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2020,2021,73.818991,101.283594,27.464603,27.464603
+COP,ConocoPhillips,Energy,environment_and_sustainability,Environment and sustainability,2022,2023,46.058769,18.836935,-27.221833,27.221833
+AMZN,Amazon,Consumer Discretionary,employees_and_workplace,Employees and workplace,2022,2023,79.496432,52.381712,-27.11472,27.11472
+BRK.B,Berkshire Hathaway,Financials,environment_and_sustainability,Environment and sustainability,2020,2021,0.0,26.490066,26.490066,26.490066
+BRK.B,Berkshire Hathaway,Financials,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2020,2021,16.746411,43.046358,26.299946,26.299946
+WFC,Wells Fargo,Financials,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2020,2021,40.217836,66.471163,26.253328,26.253328
+LLY,Eli Lilly,Healthcare,employees_and_workplace,Employees and workplace,2022,2023,40.20188,66.226238,26.024358,26.024358
+OXY,Occidental Petroleum,Energy,shareholders_and_performance,Shareholders and performance,2019,2020,11.52002,37.444439,25.92442,25.92442
+BRK.B,Berkshire Hathaway,Financials,environment_and_sustainability,Environment and sustainability,2017,2018,24.010598,49.721894,25.711297,25.711297
+BAC,Bank of America,Financials,employees_and_workplace,Employees and workplace,2018,2019,26.33274,51.835302,25.502562,25.502562
+TGT,Target,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2019,2020,70.241944,44.833639,-25.408306,25.408306
+WFC,Wells Fargo,Financials,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2021,2022,66.471163,41.194645,-25.276519,25.276519
+BAC,Bank of America,Financials,environment_and_sustainability,Environment and sustainability,2021,2022,27.124774,51.79519,24.670416,24.670416
+BRK.B,Berkshire Hathaway,Financials,shareholders_and_performance,Shareholders and performance,2017,2018,85.27902,60.677566,-24.601454,24.601454
+LOW,Lowe's,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2019,2020,46.606684,71.106249,24.499565,24.499565
+TSLA,Tesla,Consumer Discretionary,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2023,2024,34.124799,9.698668,-24.426131,24.426131
+AMZN,Amazon,Consumer Discretionary,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2020,2021,32.618716,56.96894,24.350225,24.350225
+OXY,Occidental Petroleum,Energy,environment_and_sustainability,Environment and sustainability,2020,2021,7.093791,31.373044,24.279254,24.279254
+XOM,ExxonMobil,Energy,environment_and_sustainability,Environment and sustainability,2020,2022,31.982021,55.929743,23.947722,23.947722
+TMO,Thermo Fisher Scientific,Healthcare,shareholders_and_performance,Shareholders and performance,2023,2024,37.355308,61.194244,23.838936,23.838936
+ABT,Abbott Laboratories,Healthcare,shareholders_and_performance,Shareholders and performance,2023,2024,71.802332,47.991515,-23.810817,23.810817
+BAC,Bank of America,Financials,environment_and_sustainability,Environment and sustainability,2023,2024,54.074232,30.338202,-23.73603,23.73603
+AAPL,Apple,Technology,shareholders_and_performance,Shareholders and performance,2021,2022,65.167477,41.441315,-23.726162,23.726162
+AMZN,Amazon,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2017,2018,73.709203,96.957539,23.248336,23.248336
+GS,Goldman Sachs,Financials,shareholders_and_performance,Shareholders and performance,2016,2017,89.203643,66.131118,-23.072526,23.072526
+NKE,Nike,Consumer Discretionary,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2022,2023,17.736971,40.757675,23.020704,23.020704
+AMZN,Amazon,Consumer Discretionary,health_safety_and_wellbeing,"Health, safety, and wellbeing",2021,2022,21.8511,44.360637,22.509537,22.509537
+CRM,Salesforce,Technology,employees_and_workplace,Employees and workplace,2019,2020,23.62533,45.529132,21.903802,21.903802
+HAL,Halliburton,Energy,shareholders_and_performance,Shareholders and performance,2021,2022,35.611295,57.388809,21.777514,21.777514
+IBM,IBM,Technology,environment_and_sustainability,Environment and sustainability,2023,2024,16.223174,37.769176,21.546001,21.546001
+LOW,Lowe's,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2018,2019,67.889958,46.606684,-21.283274,21.283274
+AXP,American Express,Financials,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2021,2022,59.690433,38.518386,-21.172047,21.172047
+MSFT,Microsoft,Technology,employees_and_workplace,Employees and workplace,2018,2019,20.784019,41.863037,21.079017,21.079017
+BRK.B,Berkshire Hathaway,Financials,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2021,2022,43.046358,21.976356,-21.070001,21.070001
+MPC,Marathon Petroleum,Energy,shareholders_and_performance,Shareholders and performance,2021,2022,29.315826,50.347965,21.032138,21.032138
+MSFT,Microsoft,Technology,employees_and_workplace,Employees and workplace,2021,2022,51.93509,31.006117,-20.928974,20.928974
+ABT,Abbott Laboratories,Healthcare,shareholders_and_performance,Shareholders and performance,2019,2020,61.643176,82.519126,20.87595,20.87595
+OXY,Occidental Petroleum,Energy,environment_and_sustainability,Environment and sustainability,2021,2022,31.373044,52.101669,20.728624,20.728624
+COP,ConocoPhillips,Energy,environment_and_sustainability,Environment and sustainability,2021,2022,25.372832,46.058769,20.685936,20.685936
+SCHW,Charles Schwab,Financials,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2018,2019,20.328064,40.843893,20.515829,20.515829
+NKE,Nike,Consumer Discretionary,employees_and_workplace,Employees and workplace,2020,2021,32.274081,52.757672,20.48359,20.48359
+OXY,Occidental Petroleum,Energy,environment_and_sustainability,Environment and sustainability,2019,2020,27.087614,7.093791,-19.993824,19.993824
+XOM,ExxonMobil,Energy,environment_and_sustainability,Environment and sustainability,2016,2017,44.238683,24.386703,-19.85198,19.85198
+XOM,ExxonMobil,Energy,environment_and_sustainability,Environment and sustainability,2018,2019,6.798097,26.638405,19.840309,19.840309
+OXY,Occidental Petroleum,Energy,environment_and_sustainability,Environment and sustainability,2017,2018,29.754659,10.028502,-19.726157,19.726157
+XOM,ExxonMobil,Energy,environment_and_sustainability,Environment and sustainability,2022,2023,55.929743,75.595589,19.665846,19.665846
+ABT,Abbott Laboratories,Healthcare,employees_and_workplace,Employees and workplace,2016,2017,17.747563,37.359479,19.611916,19.611916
+OXY,Occidental Petroleum,Energy,employees_and_workplace,Employees and workplace,2019,2020,33.937356,14.456966,-19.48039,19.48039
+AMZN,Amazon,Consumer Discretionary,employees_and_workplace,Employees and workplace,2021,2022,60.090526,79.496432,19.405906,19.405906
+CRM,Salesforce,Technology,employees_and_workplace,Employees and workplace,2016,2017,20.616901,39.936994,19.320093,19.320093
+AAPL,Apple,Technology,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2022,2023,41.616914,60.720729,19.103815,19.103815
+ABT,Abbott Laboratories,Healthcare,employees_and_workplace,Employees and workplace,2017,2018,37.359479,18.328546,-19.030933,19.030933
+BRK.B,Berkshire Hathaway,Financials,shareholders_and_performance,Shareholders and performance,2022,2023,67.44468,86.466406,19.021726,19.021726
+AXP,American Express,Financials,shareholders_and_performance,Shareholders and performance,2021,2022,59.278775,40.309939,-18.968836,18.968836
+AMZN,Amazon,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2020,2021,82.019524,63.212112,-18.807412,18.807412
+NKE,Nike,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2020,2021,44.68719,63.462127,18.774937,18.774937
+AVGO,Broadcom,Technology,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2019,2020,22.874112,41.608097,18.733985,18.733985
+AAPL,Apple,Technology,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2017,23.059023,41.717791,18.658769,18.658769
+ABBV,AbbVie,Healthcare,employees_and_workplace,Employees and workplace,2020,2021,25.895444,44.50385,18.608406,18.608406
+BRK.B,Berkshire Hathaway,Financials,shareholders_and_performance,Shareholders and performance,2023,2024,86.466406,67.913811,-18.552595,18.552595
+AMZN,Amazon,Consumer Discretionary,social_impact_and_community,Social impact and community,2019,2020,3.246562,21.509443,18.262881,18.262881
+UNH,UnitedHealth Group,Healthcare,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2023,2024,38.593929,20.33542,-18.258509,18.258509
+PSX,Phillips 66,Energy,employees_and_workplace,Employees and workplace,2022,2023,44.015894,25.826329,-18.189564,18.189564
+GS,Goldman Sachs,Financials,shareholders_and_performance,Shareholders and performance,2021,2022,74.329808,92.459353,18.129545,18.129545
+MRK,Merck,Healthcare,shareholders_and_performance,Shareholders and performance,2019,2020,51.013421,69.052535,18.039114,18.039114
+GS,Goldman Sachs,Financials,shareholders_and_performance,Shareholders and performance,2022,2023,92.459353,74.4396,-18.019752,18.019752
+ABT,Abbott Laboratories,Healthcare,shareholders_and_performance,Shareholders and performance,2020,2021,82.519126,64.644797,-17.874328,17.874328
+MPC,Marathon Petroleum,Energy,environment_and_sustainability,Environment and sustainability,2021,2022,18.993352,36.740407,17.747054,17.747054
+LOW,Lowe's,Consumer Discretionary,employees_and_workplace,Employees and workplace,2022,2023,37.614763,19.899433,-17.71533,17.71533
+TGT,Target,Consumer Discretionary,leadership_and_accountability,Leadership and accountability,2022,2023,36.023238,53.710377,17.68714,17.68714
+CVX,Chevron,Energy,environment_and_sustainability,Environment and sustainability,2022,2023,41.070866,58.675844,17.604978,17.604978
+XOM,ExxonMobil,Energy,environment_and_sustainability,Environment and sustainability,2017,2018,24.386703,6.798097,-17.588607,17.588607
+PFE,Pfizer,Healthcare,environment_and_sustainability,Environment and sustainability,2019,2020,7.912935,25.366888,17.453954,17.453954
+UNH,UnitedHealth Group,Healthcare,employees_and_workplace,Employees and workplace,2021,2022,40.274104,22.893349,-17.380755,17.380755
+WFC,Wells Fargo,Financials,integrity_and_ethics,Integrity and ethics,2016,2017,5.806545,23.128823,17.322278,17.322278
+AMZN,Amazon,Consumer Discretionary,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2022,2023,56.434327,39.132942,-17.301386,17.301386
+AAPL,Apple,Technology,employees_and_workplace,Employees and workplace,2021,2022,27.012426,44.250896,17.23847,17.23847
+MS,Morgan Stanley,Financials,shareholders_and_performance,Shareholders and performance,2023,2024,67.912057,50.726989,-17.185068,17.185068
+F,Ford Motor,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2016,2017,26.415248,43.519526,17.104278,17.104278
+OXY,Occidental Petroleum,Energy,environment_and_sustainability,Environment and sustainability,2018,2019,10.028502,27.087614,17.059112,17.059112
+NVDA,NVIDIA,Technology,employees_and_workplace,Employees and workplace,2016,2017,35.40369,18.384767,-17.018923,17.018923
+LOW,Lowe's,Consumer Discretionary,employees_and_workplace,Employees and workplace,2019,2020,24.923361,41.934455,17.011094,17.011094
+UNH,UnitedHealth Group,Healthcare,health_safety_and_wellbeing,"Health, safety, and wellbeing",2022,2023,31.680696,48.607489,16.926794,16.926794
+AMZN,Amazon,Consumer Discretionary,customers_and_service,Customers and service,2018,2019,15.283947,32.170474,16.886527,16.886527
+BRK.B,Berkshire Hathaway,Financials,shareholders_and_performance,Shareholders and performance,2016,2017,68.465566,85.27902,16.813454,16.813454
+PSX,Phillips 66,Energy,environment_and_sustainability,Environment and sustainability,2020,2021,22.269831,39.077392,16.807561,16.807561
+NVDA,NVIDIA,Technology,employees_and_workplace,Employees and workplace,2017,2018,18.384767,35.145524,16.760758,16.760758
+OXY,Occidental Petroleum,Energy,health_safety_and_wellbeing,"Health, safety, and wellbeing",2019,2020,24.285447,7.542765,-16.742683,16.742683
+TMO,Thermo Fisher Scientific,Healthcare,shareholders_and_performance,Shareholders and performance,2022,2023,54.039138,37.355308,-16.68383,16.68383
+NVDA,NVIDIA,Technology,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2020,2021,16.680305,33.348089,16.667784,16.667784
+BMY,Bristol-Myers Squibb,Healthcare,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2023,2024,54.911637,38.259816,-16.651821,16.651821
+OXY,Occidental Petroleum,Energy,shareholders_and_performance,Shareholders and performance,2022,2023,42.596635,59.174975,16.578341,16.578341
+AXP,American Express,Financials,shareholders_and_performance,Shareholders and performance,2020,2021,42.854082,59.278775,16.424693,16.424693
+GOOGL,Alphabet,Technology,environment_and_sustainability,Environment and sustainability,2021,2022,15.612505,32.013822,16.401317,16.401317
+NVDA,NVIDIA,Technology,employees_and_workplace,Employees and workplace,2019,2020,20.443925,36.822559,16.378634,16.378634
+INTC,Intel,Technology,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2020,2021,41.295977,57.666609,16.370632,16.370632
+MCD,McDonald's,Consumer Discretionary,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2020,2021,20.737809,37.103891,16.366081,16.366081
+MRK,Merck,Healthcare,shareholders_and_performance,Shareholders and performance,2018,2019,67.365446,51.013421,-16.352025,16.352025
+SCHW,Charles Schwab,Financials,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2019,2020,40.843893,24.504029,-16.339864,16.339864
+MCD,McDonald's,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2016,2017,110.025792,93.839249,-16.186542,16.186542
+AMZN,Amazon,Consumer Discretionary,health_safety_and_wellbeing,"Health, safety, and wellbeing",2022,2023,44.360637,28.214974,-16.145663,16.145663
+PFE,Pfizer,Healthcare,shareholders_and_performance,Shareholders and performance,2020,2021,61.912405,45.779349,-16.133056,16.133056
+BMY,Bristol-Myers Squibb,Healthcare,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2022,2023,38.889634,54.911637,16.022004,16.022004
+OXY,Occidental Petroleum,Energy,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2022,2023,16.897838,32.917269,16.019431,16.019431
+AMZN,Amazon,Consumer Discretionary,environment_and_sustainability,Environment and sustainability,2017,2018,20.199157,4.29861,-15.900546,15.900546
+TMO,Thermo Fisher Scientific,Healthcare,shareholders_and_performance,Shareholders and performance,2020,2021,52.711018,68.593615,15.882597,15.882597
+CRM,Salesforce,Technology,employees_and_workplace,Employees and workplace,2017,2018,39.936994,24.067673,-15.869321,15.869321
+TMO,Thermo Fisher Scientific,Healthcare,employees_and_workplace,Employees and workplace,2023,2024,35.912399,20.079361,-15.833038,15.833038
+WFC,Wells Fargo,Financials,environment_and_sustainability,Environment and sustainability,2022,2023,11.631429,27.406398,15.774969,15.774969
+MSFT,Microsoft,Technology,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2022,2023,42.185193,26.456048,-15.729145,15.729145
+MS,Morgan Stanley,Financials,shareholders_and_performance,Shareholders and performance,2022,2023,52.280836,67.912057,15.631221,15.631221
+GOOGL,Alphabet,Technology,health_safety_and_wellbeing,"Health, safety, and wellbeing",2023,2024,9.560498,25.187167,15.626668,15.626668
+MSFT,Microsoft,Technology,leadership_and_accountability,Leadership and accountability,2017,2018,25.078135,40.702038,15.623903,15.623903
+OXY,Occidental Petroleum,Energy,leadership_and_accountability,Leadership and accountability,2019,2020,27.710318,12.122301,-15.588018,15.588018
+EOG,EOG Resources,Energy,employees_and_workplace,Employees and workplace,2017,2018,28.609575,44.116617,15.507043,15.507043
+JNJ,Johnson & Johnson,Healthcare,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2020,2021,14.86532,30.361111,15.49579,15.49579
+BMY,Bristol-Myers Squibb,Healthcare,shareholders_and_performance,Shareholders and performance,2017,2018,43.536646,59.003864,15.467218,15.467218
+AVGO,Broadcom,Technology,employees_and_workplace,Employees and workplace,2019,2020,34.511818,19.117234,-15.394585,15.394585
+NKE,Nike,Consumer Discretionary,leadership_and_accountability,Leadership and accountability,2020,2021,22.343595,37.720461,15.376866,15.376866
+ORCL,Oracle,Technology,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2023,2024,54.852441,39.502231,-15.35021,15.35021
+MSFT,Microsoft,Technology,employees_and_workplace,Employees and workplace,2020,2021,36.643549,51.93509,15.291541,15.291541
+TJX,TJX Companies,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2022,2023,37.195518,52.474969,15.27945,15.27945
+GOOGL,Alphabet,Technology,employees_and_workplace,Employees and workplace,2018,2019,23.201856,38.388764,15.186907,15.186907
+MSFT,Microsoft,Technology,environment_and_sustainability,Environment and sustainability,2021,2022,11.458988,26.576672,15.117684,15.117684
+TJX,TJX Companies,Consumer Discretionary,health_safety_and_wellbeing,"Health, safety, and wellbeing",2020,2021,6.42108,21.433567,15.012487,15.012487
+JNJ,Johnson & Johnson,Healthcare,shareholders_and_performance,Shareholders and performance,2017,2018,38.391192,53.290515,14.899323,14.899323
+MDT,Medtronic,Healthcare,employees_and_workplace,Employees and workplace,2022,2023,23.787384,38.658117,14.870733,14.870733
+AAPL,Apple,Technology,shareholders_and_performance,Shareholders and performance,2017,2019,88.343558,73.481738,-14.861821,14.861821
+XOM,ExxonMobil,Energy,employees_and_workplace,Employees and workplace,2023,2024,24.244465,39.078061,14.833596,14.833596
+ORCL,Oracle,Technology,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2021,2022,61.191965,46.454434,-14.737532,14.737532
+NVDA,NVIDIA,Technology,employees_and_workplace,Employees and workplace,2018,2019,35.145524,20.443925,-14.701599,14.701599
+WFC,Wells Fargo,Financials,shareholders_and_performance,Shareholders and performance,2022,2023,41.436966,56.117862,14.680896,14.680896
+CRM,Salesforce,Technology,employees_and_workplace,Employees and workplace,2022,2023,45.556284,30.910697,-14.645587,14.645587
+BAC,Bank of America,Financials,environment_and_sustainability,Environment and sustainability,2019,2020,9.447814,24.0604,14.612586,14.612586
+BRK.B,Berkshire Hathaway,Financials,health_safety_and_wellbeing,"Health, safety, and wellbeing",2023,2024,5.764427,20.374143,14.609716,14.609716
+MDT,Medtronic,Healthcare,employees_and_workplace,Employees and workplace,2023,2024,38.658117,24.103009,-14.555109,14.555109
+TMO,Thermo Fisher Scientific,Healthcare,shareholders_and_performance,Shareholders and performance,2021,2022,68.593615,54.039138,-14.554477,14.554477
+LOW,Lowe's,Consumer Discretionary,environment_and_sustainability,Environment and sustainability,2017,2018,18.898863,4.362407,-14.536456,14.536456
+BAC,Bank of America,Financials,leadership_and_accountability,Leadership and accountability,2019,2020,35.110118,49.614204,14.504086,14.504086
+MRK,Merck,Healthcare,leadership_and_accountability,Leadership and accountability,2016,2017,37.516749,23.030174,-14.486575,14.486575
+BRK.B,Berkshire Hathaway,Financials,employees_and_workplace,Employees and workplace,2017,2018,6.623613,21.068599,14.444986,14.444986
+INTC,Intel,Technology,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2022,2023,58.409679,44.100065,-14.309613,14.309613
+JPM,JPMorgan Chase,Financials,customers_and_service,Customers and service,2016,2017,43.155915,28.905795,-14.250119,14.250119
+HD,Home Depot,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2021,2022,62.78937,48.652581,-14.136789,14.136789
+IBM,IBM,Technology,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2020,2021,20.794784,34.919104,14.12432,14.12432
+JPM,JPMorgan Chase,Financials,environment_and_sustainability,Environment and sustainability,2019,2020,8.921299,23.035759,14.11446,14.11446
+ABBV,AbbVie,Healthcare,employees_and_workplace,Employees and workplace,2021,2022,44.50385,30.407836,-14.096014,14.096014
+SLB,SLB (Schlumberger),Energy,employees_and_workplace,Employees and workplace,2017,2018,37.232647,51.302454,14.069808,14.069808
+WFC,Wells Fargo,Financials,shareholders_and_performance,Shareholders and performance,2018,2019,41.500551,27.445482,-14.055069,14.055069
+JPM,JPMorgan Chase,Financials,environment_and_sustainability,Environment and sustainability,2021,2022,10.901591,24.934507,14.032916,14.032916
+JPM,JPMorgan Chase,Financials,shareholders_and_performance,Shareholders and performance,2023,2024,72.593987,58.629776,-13.964211,13.964211
+WFC,Wells Fargo,Financials,leadership_and_accountability,Leadership and accountability,2021,2022,50.570218,36.711698,-13.85852,13.85852
+NVDA,NVIDIA,Technology,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2017,2018,31.188444,17.415863,-13.772581,13.772581
+META,Meta Platforms,Technology,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2017,17.768359,31.487623,13.719263,13.719263
+OXY,Occidental Petroleum,Energy,leadership_and_accountability,Leadership and accountability,2017,2018,28.672672,14.954784,-13.717888,13.717888
+TSLA,Tesla,Consumer Discretionary,employees_and_workplace,Employees and workplace,2018,2019,9.96101,23.651146,13.690136,13.690136
+LLY,Eli Lilly,Healthcare,shareholders_and_performance,Shareholders and performance,2018,2019,47.515544,61.189483,13.673939,13.673939
+INTC,Intel,Technology,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2018,2019,26.905316,40.573078,13.667762,13.667762
+META,Meta Platforms,Technology,leadership_and_accountability,Leadership and accountability,2016,2017,8.23213,21.773356,13.541226,13.541226
+GS,Goldman Sachs,Financials,leadership_and_accountability,Leadership and accountability,2020,2021,40.454911,26.923622,-13.531289,13.531289
+JPM,JPMorgan Chase,Financials,employees_and_workplace,Employees and workplace,2022,2023,43.872108,30.37823,-13.493878,13.493878
+OXY,Occidental Petroleum,Energy,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2019,2020,23.974096,10.505994,-13.468102,13.468102
+SBUX,Starbucks,Consumer Discretionary,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2017,2018,22.545655,35.867532,13.321877,13.321877
+TSLA,Tesla,Consumer Discretionary,employees_and_workplace,Employees and workplace,2022,2023,33.967274,20.646937,-13.320337,13.320337
+JNJ,Johnson & Johnson,Healthcare,health_safety_and_wellbeing,"Health, safety, and wellbeing",2020,2021,21.009653,34.262259,13.252606,13.252606
+JNJ,Johnson & Johnson,Healthcare,shareholders_and_performance,Shareholders and performance,2018,2019,53.290515,40.039411,-13.251104,13.251104
+CRM,Salesforce,Technology,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2017,36.146514,22.945167,-13.201347,13.201347
+AMZN,Amazon,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2022,2023,59.825813,72.868236,13.042423,13.042423
+MS,Morgan Stanley,Financials,environment_and_sustainability,Environment and sustainability,2022,2023,20.418695,33.45223,13.033534,13.033534
+WFC,Wells Fargo,Financials,customers_and_service,Customers and service,2016,2017,21.290666,34.214236,12.92357,12.92357
+BRK.B,Berkshire Hathaway,Financials,environment_and_sustainability,Environment and sustainability,2021,2022,26.490066,39.405881,12.915814,12.915814
+SBUX,Starbucks,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2022,2023,42.074769,54.89031,12.815541,12.815541
+AAPL,Apple,Technology,environment_and_sustainability,Environment and sustainability,2019,2020,3.962251,16.753282,12.791032,12.791032
+AAPL,Apple,Technology,employees_and_workplace,Employees and workplace,2022,2023,44.250896,31.460378,-12.790518,12.790518
+NVDA,NVIDIA,Technology,leadership_and_accountability,Leadership and accountability,2022,2023,14.899387,27.68494,12.785553,12.785553
+OXY,Occidental Petroleum,Energy,leadership_and_accountability,Leadership and accountability,2018,2019,14.954784,27.710318,12.755534,12.755534
+MPC,Marathon Petroleum,Energy,employees_and_workplace,Employees and workplace,2016,2017,23.753764,36.412472,12.658708,12.658708
+LOW,Lowe's,Consumer Discretionary,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2020,2021,11.167328,23.816681,12.649353,12.649353
+BMY,Bristol-Myers Squibb,Healthcare,shareholders_and_performance,Shareholders and performance,2023,2024,55.780492,43.201709,-12.578784,12.578784
+CVX,Chevron,Energy,environment_and_sustainability,Environment and sustainability,2020,2021,35.705177,48.277814,12.572637,12.572637
+WFC,Wells Fargo,Financials,shareholders_and_performance,Shareholders and performance,2019,2020,27.445482,39.954112,12.50863,12.50863
+GOOGL,Alphabet,Technology,environment_and_sustainability,Environment and sustainability,2022,2023,32.013822,19.542783,-12.471039,12.471039
+GS,Goldman Sachs,Financials,leadership_and_accountability,Leadership and accountability,2021,2022,26.923622,39.36552,12.441898,12.441898
+MPC,Marathon Petroleum,Energy,environment_and_sustainability,Environment and sustainability,2019,2020,10.509031,22.945488,12.436457,12.436457
+META,Meta Platforms,Technology,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2018,2019,27.509012,39.922152,12.41314,12.41314
+LLY,Eli Lilly,Healthcare,employees_and_workplace,Employees and workplace,2020,2021,30.309784,42.695052,12.385268,12.385268
+CVX,Chevron,Energy,environment_and_sustainability,Environment and sustainability,2023,2024,58.675844,46.298371,-12.377474,12.377474
+GS,Goldman Sachs,Financials,shareholders_and_performance,Shareholders and performance,2020,2021,86.689096,74.329808,-12.359288,12.359288
+MS,Morgan Stanley,Financials,environment_and_sustainability,Environment and sustainability,2021,2022,8.089549,20.418695,12.329146,12.329146
+HD,Home Depot,Consumer Discretionary,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2020,2021,40.420537,28.117799,-12.302738,12.302738
+JNJ,Johnson & Johnson,Healthcare,shareholders_and_performance,Shareholders and performance,2019,2020,40.039411,52.325927,12.286517,12.286517
+TGT,Target,Consumer Discretionary,environment_and_sustainability,Environment and sustainability,2021,2022,6.251869,18.518988,12.26712,12.26712
+MSFT,Microsoft,Technology,leadership_and_accountability,Leadership and accountability,2018,2019,40.702038,28.43527,-12.266768,12.266768
+MS,Morgan Stanley,Financials,employees_and_workplace,Employees and workplace,2023,2024,27.406646,39.667325,12.260679,12.260679
+PFE,Pfizer,Healthcare,shareholders_and_performance,Shareholders and performance,2019,2020,49.656533,61.912405,12.255873,12.255873
+TMO,Thermo Fisher Scientific,Healthcare,employees_and_workplace,Employees and workplace,2022,2023,23.685239,35.912399,12.22716,12.22716
+BAC,Bank of America,Financials,shareholders_and_performance,Shareholders and performance,2020,2021,72.347133,60.120711,-12.226422,12.226422
+WFC,Wells Fargo,Financials,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2022,2023,41.194645,29.001479,-12.193166,12.193166
+ABT,Abbott Laboratories,Healthcare,shareholders_and_performance,Shareholders and performance,2017,2018,45.81185,57.994802,12.182952,12.182952
+NKE,Nike,Consumer Discretionary,environment_and_sustainability,Environment and sustainability,2020,2021,7.447865,19.624834,12.176969,12.176969
+AMZN,Amazon,Consumer Discretionary,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2017,2018,8.859279,21.015427,12.156148,12.156148
+META,Meta Platforms,Technology,employees_and_workplace,Employees and workplace,2019,2020,23.204751,35.347514,12.142763,12.142763
+JPM,JPMorgan Chase,Financials,environment_and_sustainability,Environment and sustainability,2020,2021,23.035759,10.901591,-12.134168,12.134168
+AMZN,Amazon,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2019,2020,94.150286,82.019524,-12.130762,12.130762
+JNJ,Johnson & Johnson,Healthcare,shareholders_and_performance,Shareholders and performance,2022,2023,46.789842,58.911126,12.121284,12.121284
+MDT,Medtronic,Healthcare,shareholders_and_performance,Shareholders and performance,2017,2018,31.744626,43.862892,12.118266,12.118266
+LOW,Lowe's,Consumer Discretionary,employees_and_workplace,Employees and workplace,2020,2021,41.934455,29.828659,-12.105796,12.105796
+NVDA,NVIDIA,Technology,leadership_and_accountability,Leadership and accountability,2020,2021,9.756405,21.838572,12.082167,12.082167
+BMY,Bristol-Myers Squibb,Healthcare,employees_and_workplace,Employees and workplace,2021,2022,36.974393,49.043085,12.068692,12.068692
+MSFT,Microsoft,Technology,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2021,2022,30.126049,42.185193,12.059144,12.059144
+OXY,Occidental Petroleum,Energy,shareholders_and_performance,Shareholders and performance,2020,2021,37.444439,49.480976,12.036537,12.036537
+F,Ford Motor,Consumer Discretionary,employees_and_workplace,Employees and workplace,2022,2023,26.615702,38.617167,12.001465,12.001465
+AXP,American Express,Financials,shareholders_and_performance,Shareholders and performance,2023,2024,42.639791,54.63237,11.992579,11.992579
+UNH,UnitedHealth Group,Healthcare,employees_and_workplace,Employees and workplace,2020,2021,28.299872,40.274104,11.974233,11.974233
+MRK,Merck,Healthcare,employees_and_workplace,Employees and workplace,2023,2024,17.248598,29.18834,11.939742,11.939742
+NKE,Nike,Consumer Discretionary,leadership_and_accountability,Leadership and accountability,2021,2022,37.720461,25.822943,-11.897518,11.897518
+MPC,Marathon Petroleum,Energy,shareholders_and_performance,Shareholders and performance,2020,2021,41.212769,29.315826,-11.896943,11.896943
+F,Ford Motor,Consumer Discretionary,employees_and_workplace,Employees and workplace,2018,2019,33.236588,21.355077,-11.881512,11.881512
+NKE,Nike,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2022,2023,51.645887,63.487916,11.84203,11.84203
+SCHW,Charles Schwab,Financials,customers_and_service,Customers and service,2018,2019,14.855123,26.693253,11.838129,11.838129
+JPM,JPMorgan Chase,Financials,shareholders_and_performance,Shareholders and performance,2022,2023,60.758135,72.593987,11.835852,11.835852
+WFC,Wells Fargo,Financials,integrity_and_ethics,Integrity and ethics,2017,2018,23.128823,11.293593,-11.835231,11.835231
+NKE,Nike,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2021,2022,63.462127,51.645887,-11.81624,11.81624
+WFC,Wells Fargo,Financials,customers_and_service,Customers and service,2022,2023,25.32259,37.121893,11.799303,11.799303

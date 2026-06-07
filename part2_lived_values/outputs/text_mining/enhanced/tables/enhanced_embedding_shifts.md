@@ -1,0 +1,12 @@
+| Ticker | Years | Sector | Semantic distance | Cosine similarity |
+| --- | --- | --- | --- | --- |
+| TGT | 2021-2022 | Consumer Discretionary | 0.168 | 0.832 |
+| VLO | 2021-2022 | Energy | 0.149 | 0.851 |
+| JPM | 2022-2023 | Financials | 0.143 | 0.857 |
+| XOM | 2020-2022 | Energy | 0.142 | 0.858 |
+| TGT | 2022-2023 | Consumer Discretionary | 0.138 | 0.862 |
+| SLB | 2022-2023 | Energy | 0.138 | 0.862 |
+| JNJ | 2022-2023 | Healthcare | 0.135 | 0.865 |
+| MPC | 2022-2023 | Energy | 0.135 | 0.865 |
+| TMO | 2018-2019 | Healthcare | 0.135 | 0.865 |
+| TMO | 2016-2017 | Healthcare | 0.133 | 0.867 |

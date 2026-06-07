@@ -1,0 +1,7 @@
+ticker,company_name,sector,missing_years,missing_count,gap_reasons
+AAPL,Apple,Technology,2018,1,no_def14a_filing_for_calendar_year
+AVGO,Broadcom,Technology,"2016,2017,2018",3,no_def14a_filing_for_calendar_year
+BLK,BlackRock,Financials,"2016,2017,2018,2019,2020,2021,2022,2023,2024",9,no_def14a_filing_for_calendar_year
+MCD,McDonald's,Consumer Discretionary,2022,1,no_def14a_filing_for_calendar_year
+SBUX,Starbucks,Consumer Discretionary,2024,1,no_def14a_filing_for_calendar_year
+XOM,ExxonMobil,Energy,2021,1,no_def14a_filing_for_calendar_year

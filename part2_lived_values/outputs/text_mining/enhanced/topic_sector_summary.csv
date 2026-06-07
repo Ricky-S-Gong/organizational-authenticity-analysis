@@ -1,0 +1,41 @@
+sector,topic_id,document_count,mean_topic_score,total_topic_score
+Consumer Discretionary,nmf_topic_1,88,0.03123996,2.74911619
+Consumer Discretionary,nmf_topic_2,88,0.07552172,6.64591162
+Consumer Discretionary,nmf_topic_3,88,0.04489188,3.95048555
+Consumer Discretionary,nmf_topic_4,88,0.06219403,5.47307484
+Consumer Discretionary,nmf_topic_5,88,0.02188963,1.92628703
+Consumer Discretionary,nmf_topic_6,88,0.01563997,1.3763171
+Consumer Discretionary,nmf_topic_7,88,0.01796967,1.58133126
+Consumer Discretionary,nmf_topic_8,88,0.0116476,1.02498849
+Energy,nmf_topic_1,89,0.07429541,6.61229112
+Energy,nmf_topic_2,89,0.06210951,5.52774637
+Energy,nmf_topic_3,89,0.03089368,2.74953722
+Energy,nmf_topic_4,89,0.03378228,3.00662301
+Energy,nmf_topic_5,89,0.01392195,1.23905337
+Energy,nmf_topic_6,89,0.01280076,1.1392672
+Energy,nmf_topic_7,89,0.01600816,1.4247261
+Energy,nmf_topic_8,89,0.03372506,3.00153055
+Financials,nmf_topic_1,81,0.04792478,3.8819072
+Financials,nmf_topic_2,81,0.08739457,7.07895977
+Financials,nmf_topic_3,81,0.01412754,1.1443307
+Financials,nmf_topic_4,81,0.02170153,1.75782378
+Financials,nmf_topic_5,81,0.05019621,4.06589318
+Financials,nmf_topic_6,81,0.01122327,0.90908449
+Financials,nmf_topic_7,81,0.0680047,5.50838086
+Financials,nmf_topic_8,81,0.01134491,0.91893774
+Healthcare,nmf_topic_1,90,0.02884583,2.59612453
+Healthcare,nmf_topic_2,90,0.0568647,5.11782263
+Healthcare,nmf_topic_3,90,0.01213398,1.09205844
+Healthcare,nmf_topic_4,90,0.06361952,5.72575685
+Healthcare,nmf_topic_5,90,0.00575731,0.51815787
+Healthcare,nmf_topic_6,90,0.09152322,8.23708967
+Healthcare,nmf_topic_7,90,0.00929339,0.8364055
+Healthcare,nmf_topic_8,90,0.06328372,5.69553453
+Technology,nmf_topic_1,86,0.03869276,3.32757721
+Technology,nmf_topic_2,86,0.0724869,6.23387306
+Technology,nmf_topic_3,86,0.08535209,7.34028014
+Technology,nmf_topic_4,86,0.02407579,2.07051772
+Technology,nmf_topic_5,86,0.00143864,0.12372317
+Technology,nmf_topic_6,86,0.00470021,0.40421827
+Technology,nmf_topic_7,86,0.05468503,4.70291243
+Technology,nmf_topic_8,86,0.00203205,0.17475642

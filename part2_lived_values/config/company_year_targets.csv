@@ -1,0 +1,451 @@
+ticker,company_name,sector,year
+MSFT,Microsoft,Technology,2016
+MSFT,Microsoft,Technology,2017
+MSFT,Microsoft,Technology,2018
+MSFT,Microsoft,Technology,2019
+MSFT,Microsoft,Technology,2020
+MSFT,Microsoft,Technology,2021
+MSFT,Microsoft,Technology,2022
+MSFT,Microsoft,Technology,2023
+MSFT,Microsoft,Technology,2024
+AAPL,Apple,Technology,2016
+AAPL,Apple,Technology,2017
+AAPL,Apple,Technology,2018
+AAPL,Apple,Technology,2019
+AAPL,Apple,Technology,2020
+AAPL,Apple,Technology,2021
+AAPL,Apple,Technology,2022
+AAPL,Apple,Technology,2023
+AAPL,Apple,Technology,2024
+NVDA,NVIDIA,Technology,2016
+NVDA,NVIDIA,Technology,2017
+NVDA,NVIDIA,Technology,2018
+NVDA,NVIDIA,Technology,2019
+NVDA,NVIDIA,Technology,2020
+NVDA,NVIDIA,Technology,2021
+NVDA,NVIDIA,Technology,2022
+NVDA,NVIDIA,Technology,2023
+NVDA,NVIDIA,Technology,2024
+GOOGL,Alphabet,Technology,2016
+GOOGL,Alphabet,Technology,2017
+GOOGL,Alphabet,Technology,2018
+GOOGL,Alphabet,Technology,2019
+GOOGL,Alphabet,Technology,2020
+GOOGL,Alphabet,Technology,2021
+GOOGL,Alphabet,Technology,2022
+GOOGL,Alphabet,Technology,2023
+GOOGL,Alphabet,Technology,2024
+META,Meta Platforms,Technology,2016
+META,Meta Platforms,Technology,2017
+META,Meta Platforms,Technology,2018
+META,Meta Platforms,Technology,2019
+META,Meta Platforms,Technology,2020
+META,Meta Platforms,Technology,2021
+META,Meta Platforms,Technology,2022
+META,Meta Platforms,Technology,2023
+META,Meta Platforms,Technology,2024
+AVGO,Broadcom,Technology,2016
+AVGO,Broadcom,Technology,2017
+AVGO,Broadcom,Technology,2018
+AVGO,Broadcom,Technology,2019
+AVGO,Broadcom,Technology,2020
+AVGO,Broadcom,Technology,2021
+AVGO,Broadcom,Technology,2022
+AVGO,Broadcom,Technology,2023
+AVGO,Broadcom,Technology,2024
+CRM,Salesforce,Technology,2016
+CRM,Salesforce,Technology,2017
+CRM,Salesforce,Technology,2018
+CRM,Salesforce,Technology,2019
+CRM,Salesforce,Technology,2020
+CRM,Salesforce,Technology,2021
+CRM,Salesforce,Technology,2022
+CRM,Salesforce,Technology,2023
+CRM,Salesforce,Technology,2024
+ORCL,Oracle,Technology,2016
+ORCL,Oracle,Technology,2017
+ORCL,Oracle,Technology,2018
+ORCL,Oracle,Technology,2019
+ORCL,Oracle,Technology,2020
+ORCL,Oracle,Technology,2021
+ORCL,Oracle,Technology,2022
+ORCL,Oracle,Technology,2023
+ORCL,Oracle,Technology,2024
+IBM,IBM,Technology,2016
+IBM,IBM,Technology,2017
+IBM,IBM,Technology,2018
+IBM,IBM,Technology,2019
+IBM,IBM,Technology,2020
+IBM,IBM,Technology,2021
+IBM,IBM,Technology,2022
+IBM,IBM,Technology,2023
+IBM,IBM,Technology,2024
+INTC,Intel,Technology,2016
+INTC,Intel,Technology,2017
+INTC,Intel,Technology,2018
+INTC,Intel,Technology,2019
+INTC,Intel,Technology,2020
+INTC,Intel,Technology,2021
+INTC,Intel,Technology,2022
+INTC,Intel,Technology,2023
+INTC,Intel,Technology,2024
+BRK.B,Berkshire Hathaway,Financials,2016
+BRK.B,Berkshire Hathaway,Financials,2017
+BRK.B,Berkshire Hathaway,Financials,2018
+BRK.B,Berkshire Hathaway,Financials,2019
+BRK.B,Berkshire Hathaway,Financials,2020
+BRK.B,Berkshire Hathaway,Financials,2021
+BRK.B,Berkshire Hathaway,Financials,2022
+BRK.B,Berkshire Hathaway,Financials,2023
+BRK.B,Berkshire Hathaway,Financials,2024
+JPM,JPMorgan Chase,Financials,2016
+JPM,JPMorgan Chase,Financials,2017
+JPM,JPMorgan Chase,Financials,2018
+JPM,JPMorgan Chase,Financials,2019
+JPM,JPMorgan Chase,Financials,2020
+JPM,JPMorgan Chase,Financials,2021
+JPM,JPMorgan Chase,Financials,2022
+JPM,JPMorgan Chase,Financials,2023
+JPM,JPMorgan Chase,Financials,2024
+BAC,Bank of America,Financials,2016
+BAC,Bank of America,Financials,2017
+BAC,Bank of America,Financials,2018
+BAC,Bank of America,Financials,2019
+BAC,Bank of America,Financials,2020
+BAC,Bank of America,Financials,2021
+BAC,Bank of America,Financials,2022
+BAC,Bank of America,Financials,2023
+BAC,Bank of America,Financials,2024
+WFC,Wells Fargo,Financials,2016
+WFC,Wells Fargo,Financials,2017
+WFC,Wells Fargo,Financials,2018
+WFC,Wells Fargo,Financials,2019
+WFC,Wells Fargo,Financials,2020
+WFC,Wells Fargo,Financials,2021
+WFC,Wells Fargo,Financials,2022
+WFC,Wells Fargo,Financials,2023
+WFC,Wells Fargo,Financials,2024
+GS,Goldman Sachs,Financials,2016
+GS,Goldman Sachs,Financials,2017
+GS,Goldman Sachs,Financials,2018
+GS,Goldman Sachs,Financials,2019
+GS,Goldman Sachs,Financials,2020
+GS,Goldman Sachs,Financials,2021
+GS,Goldman Sachs,Financials,2022
+GS,Goldman Sachs,Financials,2023
+GS,Goldman Sachs,Financials,2024
+MS,Morgan Stanley,Financials,2016
+MS,Morgan Stanley,Financials,2017
+MS,Morgan Stanley,Financials,2018
+MS,Morgan Stanley,Financials,2019
+MS,Morgan Stanley,Financials,2020
+MS,Morgan Stanley,Financials,2021
+MS,Morgan Stanley,Financials,2022
+MS,Morgan Stanley,Financials,2023
+MS,Morgan Stanley,Financials,2024
+BLK,BlackRock,Financials,2016
+BLK,BlackRock,Financials,2017
+BLK,BlackRock,Financials,2018
+BLK,BlackRock,Financials,2019
+BLK,BlackRock,Financials,2020
+BLK,BlackRock,Financials,2021
+BLK,BlackRock,Financials,2022
+BLK,BlackRock,Financials,2023
+BLK,BlackRock,Financials,2024
+SCHW,Charles Schwab,Financials,2016
+SCHW,Charles Schwab,Financials,2017
+SCHW,Charles Schwab,Financials,2018
+SCHW,Charles Schwab,Financials,2019
+SCHW,Charles Schwab,Financials,2020
+SCHW,Charles Schwab,Financials,2021
+SCHW,Charles Schwab,Financials,2022
+SCHW,Charles Schwab,Financials,2023
+SCHW,Charles Schwab,Financials,2024
+AXP,American Express,Financials,2016
+AXP,American Express,Financials,2017
+AXP,American Express,Financials,2018
+AXP,American Express,Financials,2019
+AXP,American Express,Financials,2020
+AXP,American Express,Financials,2021
+AXP,American Express,Financials,2022
+AXP,American Express,Financials,2023
+AXP,American Express,Financials,2024
+C,Citigroup,Financials,2016
+C,Citigroup,Financials,2017
+C,Citigroup,Financials,2018
+C,Citigroup,Financials,2019
+C,Citigroup,Financials,2020
+C,Citigroup,Financials,2021
+C,Citigroup,Financials,2022
+C,Citigroup,Financials,2023
+C,Citigroup,Financials,2024
+LLY,Eli Lilly,Healthcare,2016
+LLY,Eli Lilly,Healthcare,2017
+LLY,Eli Lilly,Healthcare,2018
+LLY,Eli Lilly,Healthcare,2019
+LLY,Eli Lilly,Healthcare,2020
+LLY,Eli Lilly,Healthcare,2021
+LLY,Eli Lilly,Healthcare,2022
+LLY,Eli Lilly,Healthcare,2023
+LLY,Eli Lilly,Healthcare,2024
+UNH,UnitedHealth Group,Healthcare,2016
+UNH,UnitedHealth Group,Healthcare,2017
+UNH,UnitedHealth Group,Healthcare,2018
+UNH,UnitedHealth Group,Healthcare,2019
+UNH,UnitedHealth Group,Healthcare,2020
+UNH,UnitedHealth Group,Healthcare,2021
+UNH,UnitedHealth Group,Healthcare,2022
+UNH,UnitedHealth Group,Healthcare,2023
+UNH,UnitedHealth Group,Healthcare,2024
+JNJ,Johnson & Johnson,Healthcare,2016
+JNJ,Johnson & Johnson,Healthcare,2017
+JNJ,Johnson & Johnson,Healthcare,2018
+JNJ,Johnson & Johnson,Healthcare,2019
+JNJ,Johnson & Johnson,Healthcare,2020
+JNJ,Johnson & Johnson,Healthcare,2021
+JNJ,Johnson & Johnson,Healthcare,2022
+JNJ,Johnson & Johnson,Healthcare,2023
+JNJ,Johnson & Johnson,Healthcare,2024
+ABBV,AbbVie,Healthcare,2016
+ABBV,AbbVie,Healthcare,2017
+ABBV,AbbVie,Healthcare,2018
+ABBV,AbbVie,Healthcare,2019
+ABBV,AbbVie,Healthcare,2020
+ABBV,AbbVie,Healthcare,2021
+ABBV,AbbVie,Healthcare,2022
+ABBV,AbbVie,Healthcare,2023
+ABBV,AbbVie,Healthcare,2024
+MRK,Merck,Healthcare,2016
+MRK,Merck,Healthcare,2017
+MRK,Merck,Healthcare,2018
+MRK,Merck,Healthcare,2019
+MRK,Merck,Healthcare,2020
+MRK,Merck,Healthcare,2021
+MRK,Merck,Healthcare,2022
+MRK,Merck,Healthcare,2023
+MRK,Merck,Healthcare,2024
+TMO,Thermo Fisher Scientific,Healthcare,2016
+TMO,Thermo Fisher Scientific,Healthcare,2017
+TMO,Thermo Fisher Scientific,Healthcare,2018
+TMO,Thermo Fisher Scientific,Healthcare,2019
+TMO,Thermo Fisher Scientific,Healthcare,2020
+TMO,Thermo Fisher Scientific,Healthcare,2021
+TMO,Thermo Fisher Scientific,Healthcare,2022
+TMO,Thermo Fisher Scientific,Healthcare,2023
+TMO,Thermo Fisher Scientific,Healthcare,2024
+ABT,Abbott Laboratories,Healthcare,2016
+ABT,Abbott Laboratories,Healthcare,2017
+ABT,Abbott Laboratories,Healthcare,2018
+ABT,Abbott Laboratories,Healthcare,2019
+ABT,Abbott Laboratories,Healthcare,2020
+ABT,Abbott Laboratories,Healthcare,2021
+ABT,Abbott Laboratories,Healthcare,2022
+ABT,Abbott Laboratories,Healthcare,2023
+ABT,Abbott Laboratories,Healthcare,2024
+PFE,Pfizer,Healthcare,2016
+PFE,Pfizer,Healthcare,2017
+PFE,Pfizer,Healthcare,2018
+PFE,Pfizer,Healthcare,2019
+PFE,Pfizer,Healthcare,2020
+PFE,Pfizer,Healthcare,2021
+PFE,Pfizer,Healthcare,2022
+PFE,Pfizer,Healthcare,2023
+PFE,Pfizer,Healthcare,2024
+MDT,Medtronic,Healthcare,2016
+MDT,Medtronic,Healthcare,2017
+MDT,Medtronic,Healthcare,2018
+MDT,Medtronic,Healthcare,2019
+MDT,Medtronic,Healthcare,2020
+MDT,Medtronic,Healthcare,2021
+MDT,Medtronic,Healthcare,2022
+MDT,Medtronic,Healthcare,2023
+MDT,Medtronic,Healthcare,2024
+BMY,Bristol-Myers Squibb,Healthcare,2016
+BMY,Bristol-Myers Squibb,Healthcare,2017
+BMY,Bristol-Myers Squibb,Healthcare,2018
+BMY,Bristol-Myers Squibb,Healthcare,2019
+BMY,Bristol-Myers Squibb,Healthcare,2020
+BMY,Bristol-Myers Squibb,Healthcare,2021
+BMY,Bristol-Myers Squibb,Healthcare,2022
+BMY,Bristol-Myers Squibb,Healthcare,2023
+BMY,Bristol-Myers Squibb,Healthcare,2024
+AMZN,Amazon,Consumer Discretionary,2016
+AMZN,Amazon,Consumer Discretionary,2017
+AMZN,Amazon,Consumer Discretionary,2018
+AMZN,Amazon,Consumer Discretionary,2019
+AMZN,Amazon,Consumer Discretionary,2020
+AMZN,Amazon,Consumer Discretionary,2021
+AMZN,Amazon,Consumer Discretionary,2022
+AMZN,Amazon,Consumer Discretionary,2023
+AMZN,Amazon,Consumer Discretionary,2024
+TSLA,Tesla,Consumer Discretionary,2016
+TSLA,Tesla,Consumer Discretionary,2017
+TSLA,Tesla,Consumer Discretionary,2018
+TSLA,Tesla,Consumer Discretionary,2019
+TSLA,Tesla,Consumer Discretionary,2020
+TSLA,Tesla,Consumer Discretionary,2021
+TSLA,Tesla,Consumer Discretionary,2022
+TSLA,Tesla,Consumer Discretionary,2023
+TSLA,Tesla,Consumer Discretionary,2024
+HD,Home Depot,Consumer Discretionary,2016
+HD,Home Depot,Consumer Discretionary,2017
+HD,Home Depot,Consumer Discretionary,2018
+HD,Home Depot,Consumer Discretionary,2019
+HD,Home Depot,Consumer Discretionary,2020
+HD,Home Depot,Consumer Discretionary,2021
+HD,Home Depot,Consumer Discretionary,2022
+HD,Home Depot,Consumer Discretionary,2023
+HD,Home Depot,Consumer Discretionary,2024
+MCD,McDonald's,Consumer Discretionary,2016
+MCD,McDonald's,Consumer Discretionary,2017
+MCD,McDonald's,Consumer Discretionary,2018
+MCD,McDonald's,Consumer Discretionary,2019
+MCD,McDonald's,Consumer Discretionary,2020
+MCD,McDonald's,Consumer Discretionary,2021
+MCD,McDonald's,Consumer Discretionary,2022
+MCD,McDonald's,Consumer Discretionary,2023
+MCD,McDonald's,Consumer Discretionary,2024
+NKE,Nike,Consumer Discretionary,2016
+NKE,Nike,Consumer Discretionary,2017
+NKE,Nike,Consumer Discretionary,2018
+NKE,Nike,Consumer Discretionary,2019
+NKE,Nike,Consumer Discretionary,2020
+NKE,Nike,Consumer Discretionary,2021
+NKE,Nike,Consumer Discretionary,2022
+NKE,Nike,Consumer Discretionary,2023
+NKE,Nike,Consumer Discretionary,2024
+SBUX,Starbucks,Consumer Discretionary,2016
+SBUX,Starbucks,Consumer Discretionary,2017
+SBUX,Starbucks,Consumer Discretionary,2018
+SBUX,Starbucks,Consumer Discretionary,2019
+SBUX,Starbucks,Consumer Discretionary,2020
+SBUX,Starbucks,Consumer Discretionary,2021
+SBUX,Starbucks,Consumer Discretionary,2022
+SBUX,Starbucks,Consumer Discretionary,2023
+SBUX,Starbucks,Consumer Discretionary,2024
+TGT,Target,Consumer Discretionary,2016
+TGT,Target,Consumer Discretionary,2017
+TGT,Target,Consumer Discretionary,2018
+TGT,Target,Consumer Discretionary,2019
+TGT,Target,Consumer Discretionary,2020
+TGT,Target,Consumer Discretionary,2021
+TGT,Target,Consumer Discretionary,2022
+TGT,Target,Consumer Discretionary,2023
+TGT,Target,Consumer Discretionary,2024
+LOW,Lowe's,Consumer Discretionary,2016
+LOW,Lowe's,Consumer Discretionary,2017
+LOW,Lowe's,Consumer Discretionary,2018
+LOW,Lowe's,Consumer Discretionary,2019
+LOW,Lowe's,Consumer Discretionary,2020
+LOW,Lowe's,Consumer Discretionary,2021
+LOW,Lowe's,Consumer Discretionary,2022
+LOW,Lowe's,Consumer Discretionary,2023
+LOW,Lowe's,Consumer Discretionary,2024
+TJX,TJX Companies,Consumer Discretionary,2016
+TJX,TJX Companies,Consumer Discretionary,2017
+TJX,TJX Companies,Consumer Discretionary,2018
+TJX,TJX Companies,Consumer Discretionary,2019
+TJX,TJX Companies,Consumer Discretionary,2020
+TJX,TJX Companies,Consumer Discretionary,2021
+TJX,TJX Companies,Consumer Discretionary,2022
+TJX,TJX Companies,Consumer Discretionary,2023
+TJX,TJX Companies,Consumer Discretionary,2024
+F,Ford Motor,Consumer Discretionary,2016
+F,Ford Motor,Consumer Discretionary,2017
+F,Ford Motor,Consumer Discretionary,2018
+F,Ford Motor,Consumer Discretionary,2019
+F,Ford Motor,Consumer Discretionary,2020
+F,Ford Motor,Consumer Discretionary,2021
+F,Ford Motor,Consumer Discretionary,2022
+F,Ford Motor,Consumer Discretionary,2023
+F,Ford Motor,Consumer Discretionary,2024
+XOM,ExxonMobil,Energy,2016
+XOM,ExxonMobil,Energy,2017
+XOM,ExxonMobil,Energy,2018
+XOM,ExxonMobil,Energy,2019
+XOM,ExxonMobil,Energy,2020
+XOM,ExxonMobil,Energy,2021
+XOM,ExxonMobil,Energy,2022
+XOM,ExxonMobil,Energy,2023
+XOM,ExxonMobil,Energy,2024
+CVX,Chevron,Energy,2016
+CVX,Chevron,Energy,2017
+CVX,Chevron,Energy,2018
+CVX,Chevron,Energy,2019
+CVX,Chevron,Energy,2020
+CVX,Chevron,Energy,2021
+CVX,Chevron,Energy,2022
+CVX,Chevron,Energy,2023
+CVX,Chevron,Energy,2024
+COP,ConocoPhillips,Energy,2016
+COP,ConocoPhillips,Energy,2017
+COP,ConocoPhillips,Energy,2018
+COP,ConocoPhillips,Energy,2019
+COP,ConocoPhillips,Energy,2020
+COP,ConocoPhillips,Energy,2021
+COP,ConocoPhillips,Energy,2022
+COP,ConocoPhillips,Energy,2023
+COP,ConocoPhillips,Energy,2024
+EOG,EOG Resources,Energy,2016
+EOG,EOG Resources,Energy,2017
+EOG,EOG Resources,Energy,2018
+EOG,EOG Resources,Energy,2019
+EOG,EOG Resources,Energy,2020
+EOG,EOG Resources,Energy,2021
+EOG,EOG Resources,Energy,2022
+EOG,EOG Resources,Energy,2023
+EOG,EOG Resources,Energy,2024
+SLB,SLB (Schlumberger),Energy,2016
+SLB,SLB (Schlumberger),Energy,2017
+SLB,SLB (Schlumberger),Energy,2018
+SLB,SLB (Schlumberger),Energy,2019
+SLB,SLB (Schlumberger),Energy,2020
+SLB,SLB (Schlumberger),Energy,2021
+SLB,SLB (Schlumberger),Energy,2022
+SLB,SLB (Schlumberger),Energy,2023
+SLB,SLB (Schlumberger),Energy,2024
+MPC,Marathon Petroleum,Energy,2016
+MPC,Marathon Petroleum,Energy,2017
+MPC,Marathon Petroleum,Energy,2018
+MPC,Marathon Petroleum,Energy,2019
+MPC,Marathon Petroleum,Energy,2020
+MPC,Marathon Petroleum,Energy,2021
+MPC,Marathon Petroleum,Energy,2022
+MPC,Marathon Petroleum,Energy,2023
+MPC,Marathon Petroleum,Energy,2024
+PSX,Phillips 66,Energy,2016
+PSX,Phillips 66,Energy,2017
+PSX,Phillips 66,Energy,2018
+PSX,Phillips 66,Energy,2019
+PSX,Phillips 66,Energy,2020
+PSX,Phillips 66,Energy,2021
+PSX,Phillips 66,Energy,2022
+PSX,Phillips 66,Energy,2023
+PSX,Phillips 66,Energy,2024
+VLO,Valero Energy,Energy,2016
+VLO,Valero Energy,Energy,2017
+VLO,Valero Energy,Energy,2018
+VLO,Valero Energy,Energy,2019
+VLO,Valero Energy,Energy,2020
+VLO,Valero Energy,Energy,2021
+VLO,Valero Energy,Energy,2022
+VLO,Valero Energy,Energy,2023
+VLO,Valero Energy,Energy,2024
+OXY,Occidental Petroleum,Energy,2016
+OXY,Occidental Petroleum,Energy,2017
+OXY,Occidental Petroleum,Energy,2018
+OXY,Occidental Petroleum,Energy,2019
+OXY,Occidental Petroleum,Energy,2020
+OXY,Occidental Petroleum,Energy,2021
+OXY,Occidental Petroleum,Energy,2022
+OXY,Occidental Petroleum,Energy,2023
+OXY,Occidental Petroleum,Energy,2024
+HAL,Halliburton,Energy,2016
+HAL,Halliburton,Energy,2017
+HAL,Halliburton,Energy,2018
+HAL,Halliburton,Energy,2019
+HAL,Halliburton,Energy,2020
+HAL,Halliburton,Energy,2021
+HAL,Halliburton,Energy,2022
+HAL,Halliburton,Energy,2023
+HAL,Halliburton,Energy,2024

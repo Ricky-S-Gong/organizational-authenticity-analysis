@@ -1,0 +1,6 @@
+sector,company_years,mean_word_count,median_word_count,mean_first_person_plural_rate_per_100_words,mean_commitment_rate_per_100_words,mean_aspiration_rate_per_100_words,mean_action_or_evidence_rate_per_100_words,mean_stakeholder_rate_per_100_words,mean_average_sentence_length,mean_quantified_claim_count
+Consumer Discretionary,88,49161.886364,43934.5,1.577882,0.354697,0.021648,0.081849,0.239276,10.081568,2999.340909
+Energy,89,51231.022472,48615,1.372896,0.333965,0.016169,0.101478,0.250224,9.588966,3372.707865
+Financials,81,56677.098765,60265,1.530912,0.323456,0.017772,0.094288,0.307557,9.506358,3167.962963
+Healthcare,90,51142.766667,47663.5,1.209408,0.311139,0.017919,0.109263,0.241641,8.128578,3710.077778
+Technology,86,55121.604651,51985.0,1.833797,0.395469,0.024381,0.087302,0.252079,10.249221,3128.732558

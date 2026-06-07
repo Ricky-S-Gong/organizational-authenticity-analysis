@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="620" viewBox="0 0 1040 620">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="30.0" y="34.0" font-size="22" font-family="Arial, sans-serif" text-anchor="start" fill="#111827">Part 2 Theme Emphasis Over Time</text>
+<text x="30.0" y="56.0" font-size="13" font-family="Arial, sans-serif" text-anchor="start" fill="#111827">Mean matches per 10,000 words among collected DEF 14A filings</text>
+<line x1="92.0" y1="530.0" x2="780.0" y2="530.0" stroke="#6b7280" stroke-width="1"/>
+<line x1="92.0" y1="70.0" x2="92.0" y2="530.0" stroke="#6b7280" stroke-width="1"/>
+<line x1="87.0" y1="530.0" x2="780.0" y2="530.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="80.0" y="534.0" font-size="11" font-family="Arial, sans-serif" text-anchor="end" fill="#111827">0</text>
+<line x1="87.0" y1="438.0" x2="780.0" y2="438.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="80.0" y="442.0" font-size="11" font-family="Arial, sans-serif" text-anchor="end" fill="#111827">9</text>
+<line x1="87.0" y1="346.0" x2="780.0" y2="346.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="80.0" y="350.0" font-size="11" font-family="Arial, sans-serif" text-anchor="end" fill="#111827">18</text>
+<line x1="87.0" y1="254.0" x2="780.0" y2="254.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="80.0" y="258.0" font-size="11" font-family="Arial, sans-serif" text-anchor="end" fill="#111827">27</text>
+<line x1="87.0" y1="162.0" x2="780.0" y2="162.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="80.0" y="166.0" font-size="11" font-family="Arial, sans-serif" text-anchor="end" fill="#111827">37</text>
+<line x1="87.0" y1="70.0" x2="780.0" y2="70.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="80.0" y="74.0" font-size="11" font-family="Arial, sans-serif" text-anchor="end" fill="#111827">46</text>
+<line x1="92.0" y1="530.0" x2="92.0" y2="535.0" stroke="#6b7280" stroke-width="1"/>
+<text x="92.0" y="554.0" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#111827">2016</text>
+<line x1="178.0" y1="530.0" x2="178.0" y2="535.0" stroke="#6b7280" stroke-width="1"/>
+<text x="178.0" y="554.0" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#111827">2017</text>
+<line x1="264.0" y1="530.0" x2="264.0" y2="535.0" stroke="#6b7280" stroke-width="1"/>
+<text x="264.0" y="554.0" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#111827">2018</text>
+<line x1="350.0" y1="530.0" x2="350.0" y2="535.0" stroke="#6b7280" stroke-width="1"/>
+<text x="350.0" y="554.0" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#111827">2019</text>
+<line x1="436.0" y1="530.0" x2="436.0" y2="535.0" stroke="#6b7280" stroke-width="1"/>
+<text x="436.0" y="554.0" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#111827">2020</text>
+<line x1="522.0" y1="530.0" x2="522.0" y2="535.0" stroke="#6b7280" stroke-width="1"/>
+<text x="522.0" y="554.0" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#111827">2021</text>
+<line x1="608.0" y1="530.0" x2="608.0" y2="535.0" stroke="#6b7280" stroke-width="1"/>
+<text x="608.0" y="554.0" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#111827">2022</text>
+<line x1="694.0" y1="530.0" x2="694.0" y2="535.0" stroke="#6b7280" stroke-width="1"/>
+<text x="694.0" y="554.0" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#111827">2023</text>
+<line x1="780.0" y1="530.0" x2="780.0" y2="535.0" stroke="#6b7280" stroke-width="1"/>
+<text x="780.0" y="554.0" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#111827">2024</text>
+<path d="M 92.0 186.7 L 178.0 183.6 L 264.0 173.1 L 350.0 160.3 L 436.0 136.7 L 522.0 131.9 L 608.0 147.6 L 694.0 104.1 L 780.0 127.7" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="92.0" cy="186.7" r="3.2" fill="#2563eb"/>
+<circle cx="178.0" cy="183.6" r="3.2" fill="#2563eb"/>
+<circle cx="264.0" cy="173.1" r="3.2" fill="#2563eb"/>
+<circle cx="350.0" cy="160.3" r="3.2" fill="#2563eb"/>
+<circle cx="436.0" cy="136.7" r="3.2" fill="#2563eb"/>
+<circle cx="522.0" cy="131.9" r="3.2" fill="#2563eb"/>
+<circle cx="608.0" cy="147.6" r="3.2" fill="#2563eb"/>
+<circle cx="694.0" cy="104.1" r="3.2" fill="#2563eb"/>
+<circle cx="780.0" cy="127.7" r="3.2" fill="#2563eb"/>
+<rect x="814" y="60" width="14" height="14" fill="#2563eb"/>
+<text x="836.0" y="72.0" font-size="12" font-family="Arial, sans-serif" text-anchor="start" fill="#111827">Shareholders and performance</text>
+<path d="M 92.0 302.5 L 178.0 292.9 L 264.0 269.2 L 350.0 244.0 L 436.0 228.1 L 522.0 199.9 L 608.0 209.4 L 694.0 242.3 L 780.0 238.0" fill="none" stroke="#dc2626" stroke-width="2.5"/>
+<circle cx="92.0" cy="302.5" r="3.2" fill="#dc2626"/>
+<circle cx="178.0" cy="292.9" r="3.2" fill="#dc2626"/>
+<circle cx="264.0" cy="269.2" r="3.2" fill="#dc2626"/>
+<circle cx="350.0" cy="244.0" r="3.2" fill="#dc2626"/>
+<circle cx="436.0" cy="228.1" r="3.2" fill="#dc2626"/>
+<circle cx="522.0" cy="199.9" r="3.2" fill="#dc2626"/>
+<circle cx="608.0" cy="209.4" r="3.2" fill="#dc2626"/>
+<circle cx="694.0" cy="242.3" r="3.2" fill="#dc2626"/>
+<circle cx="780.0" cy="238.0" r="3.2" fill="#dc2626"/>
+<rect x="814" y="86" width="14" height="14" fill="#dc2626"/>
+<text x="836.0" y="98.0" font-size="12" font-family="Arial, sans-serif" text-anchor="start" fill="#111827">Employees and workplace</text>
+<path d="M 92.0 332.6 L 178.0 317.8 L 264.0 314.9 L 350.0 288.7 L 436.0 284.9 L 522.0 204.9 L 608.0 226.8 L 694.0 217.8 L 780.0 245.6" fill="none" stroke="#16a34a" stroke-width="2.5"/>
+<circle cx="92.0" cy="332.6" r="3.2" fill="#16a34a"/>
+<circle cx="178.0" cy="317.8" r="3.2" fill="#16a34a"/>
+<circle cx="264.0" cy="314.9" r="3.2" fill="#16a34a"/>
+<circle cx="350.0" cy="288.7" r="3.2" fill="#16a34a"/>
+<circle cx="436.0" cy="284.9" r="3.2" fill="#16a34a"/>
+<circle cx="522.0" cy="204.9" r="3.2" fill="#16a34a"/>
+<circle cx="608.0" cy="226.8" r="3.2" fill="#16a34a"/>
+<circle cx="694.0" cy="217.8" r="3.2" fill="#16a34a"/>
+<circle cx="780.0" cy="245.6" r="3.2" fill="#16a34a"/>
+<rect x="814" y="112" width="14" height="14" fill="#16a34a"/>
+<text x="836.0" y="124.0" font-size="12" font-family="Arial, sans-serif" text-anchor="start" fill="#111827">Diversity, equity, and inclusion</text>
+<path d="M 92.0 300.2 L 178.0 304.9 L 264.0 284.8 L 350.0 280.9 L 436.0 275.8 L 522.0 275.7 L 608.0 275.8 L 694.0 262.3 L 780.0 259.0" fill="none" stroke="#9333ea" stroke-width="2.5"/>
+<circle cx="92.0" cy="300.2" r="3.2" fill="#9333ea"/>
+<circle cx="178.0" cy="304.9" r="3.2" fill="#9333ea"/>
+<circle cx="264.0" cy="284.8" r="3.2" fill="#9333ea"/>
+<circle cx="350.0" cy="280.9" r="3.2" fill="#9333ea"/>
+<circle cx="436.0" cy="275.8" r="3.2" fill="#9333ea"/>
+<circle cx="522.0" cy="275.7" r="3.2" fill="#9333ea"/>
+<circle cx="608.0" cy="275.8" r="3.2" fill="#9333ea"/>
+<circle cx="694.0" cy="262.3" r="3.2" fill="#9333ea"/>
+<circle cx="780.0" cy="259.0" r="3.2" fill="#9333ea"/>
+<rect x="814" y="138" width="14" height="14" fill="#9333ea"/>
+<text x="836.0" y="150.0" font-size="12" font-family="Arial, sans-serif" text-anchor="start" fill="#111827">Leadership and accountability</text>
+<path d="M 92.0 377.8 L 178.0 378.5 L 264.0 370.0 L 350.0 364.9 L 436.0 354.5 L 522.0 351.1 L 608.0 356.9 L 694.0 348.5 L 780.0 347.9" fill="none" stroke="#ea580c" stroke-width="2.5"/>
+<circle cx="92.0" cy="377.8" r="3.2" fill="#ea580c"/>
+<circle cx="178.0" cy="378.5" r="3.2" fill="#ea580c"/>
+<circle cx="264.0" cy="370.0" r="3.2" fill="#ea580c"/>
+<circle cx="350.0" cy="364.9" r="3.2" fill="#ea580c"/>
+<circle cx="436.0" cy="354.5" r="3.2" fill="#ea580c"/>
+<circle cx="522.0" cy="351.1" r="3.2" fill="#ea580c"/>
+<circle cx="608.0" cy="356.9" r="3.2" fill="#ea580c"/>
+<circle cx="694.0" cy="348.5" r="3.2" fill="#ea580c"/>
+<circle cx="780.0" cy="347.9" r="3.2" fill="#ea580c"/>
+<rect x="814" y="164" width="14" height="14" fill="#ea580c"/>
+<text x="836.0" y="176.0" font-size="12" font-family="Arial, sans-serif" text-anchor="start" fill="#111827">Customers and service</text>
+<path d="M 92.0 457.2 L 178.0 456.5 L 264.0 449.3 L 350.0 433.2 L 436.0 410.4 L 522.0 387.9 L 608.0 323.6 L 694.0 304.2 L 780.0 307.3" fill="none" stroke="#0891b2" stroke-width="2.5"/>
+<circle cx="92.0" cy="457.2" r="3.2" fill="#0891b2"/>
+<circle cx="178.0" cy="456.5" r="3.2" fill="#0891b2"/>
+<circle cx="264.0" cy="449.3" r="3.2" fill="#0891b2"/>
+<circle cx="350.0" cy="433.2" r="3.2" fill="#0891b2"/>
+<circle cx="436.0" cy="410.4" r="3.2" fill="#0891b2"/>
+<circle cx="522.0" cy="387.9" r="3.2" fill="#0891b2"/>
+<circle cx="608.0" cy="323.6" r="3.2" fill="#0891b2"/>
+<circle cx="694.0" cy="304.2" r="3.2" fill="#0891b2"/>
+<circle cx="780.0" cy="307.3" r="3.2" fill="#0891b2"/>
+<rect x="814" y="190" width="14" height="14" fill="#0891b2"/>
+<text x="836.0" y="202.0" font-size="12" font-family="Arial, sans-serif" text-anchor="start" fill="#111827">Environment and sustainability</text>
+<text x="30.0" y="596.0" font-size="11" font-family="Arial, sans-serif" text-anchor="start" fill="#111827">Generated from outputs/text_mining/theme_year_summary.csv</text>
+</svg>

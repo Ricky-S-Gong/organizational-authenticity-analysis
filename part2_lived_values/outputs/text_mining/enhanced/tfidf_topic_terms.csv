@@ -1,0 +1,97 @@
+topic_id,rank,term,weight
+nmf_topic_1,1,stockholders,0.29448324
+nmf_topic_1,2,awards,0.27412602
+nmf_topic_1,3,2016,0.26753945
+nmf_topic_1,4,2017,0.25655421
+nmf_topic_1,5,proposal,0.25296065
+nmf_topic_1,6,meeting stockholders,0.2489486
+nmf_topic_1,7,stockholder,0.24217684
+nmf_topic_1,8,summary,0.2413716
+nmf_topic_1,9,stock,0.2337707
+nmf_topic_1,10,approval,0.22860171
+nmf_topic_1,11,2018,0.21985462
+nmf_topic_1,12,transaction,0.21836113
+nmf_topic_2,1,strategy,0.21448403
+nmf_topic_2,2,shareholders,0.20248723
+nmf_topic_2,3,company,0.20090716
+nmf_topic_2,4,billion,0.19644467
+nmf_topic_2,5,commitment,0.19555297
+nmf_topic_2,6,new,0.18823149
+nmf_topic_2,7,strong,0.18795322
+nmf_topic_2,8,long,0.18231434
+nmf_topic_2,9,years,0.17732641
+nmf_topic_2,10,growth,0.17589036
+nmf_topic_2,11,work,0.17273609
+nmf_topic_2,12,team,0.16919411
+nmf_topic_3,1,stockholders,0.39147726
+nmf_topic_3,2,meeting stockholders,0.31636466
+nmf_topic_3,3,stockholder,0.29630281
+nmf_topic_3,4,proxy materials,0.29053729
+nmf_topic_3,5,california,0.24393878
+nmf_topic_3,6,internet,0.23897006
+nmf_topic_3,7,stockholder proposal,0.2370722
+nmf_topic_3,8,pacific time,0.22873328
+nmf_topic_3,9,printed,0.22610456
+nmf_topic_3,10,proposal regarding,0.22319214
+nmf_topic_3,11,00 pacific,0.22085397
+nmf_topic_3,12,pacific,0.21497536
+nmf_topic_4,1,2023,0.33410585
+nmf_topic_4,2,2022,0.30080708
+nmf_topic_4,3,shareholders,0.26508976
+nmf_topic_4,4,shareholder,0.25976835
+nmf_topic_4,5,virtual,0.24478885
+nmf_topic_4,6,proposal,0.24222028
+nmf_topic_4,7,shareholder proposal,0.24125328
+nmf_topic_4,8,2024,0.24041591
+nmf_topic_4,9,meeting shareholders,0.23349618
+nmf_topic_4,10,www virtualshareholdermeeting,0.21397459
+nmf_topic_4,11,virtualshareholdermeeting,0.20990779
+nmf_topic_4,12,virtualshareholdermeeting com,0.20989721
+nmf_topic_5,1,class stock,0.43508192
+nmf_topic_5,2,berkshire,0.40046678
+nmf_topic_5,3,berkshire hathaway,0.36488601
+nmf_topic_5,4,hathaway,0.36488601
+nmf_topic_5,5,omaha,0.34490659
+nmf_topic_5,6,nebraska,0.3342989
+nmf_topic_5,7,omaha nebraska,0.3342989
+nmf_topic_5,8,street omaha,0.30272195
+nmf_topic_5,9,resignation,0.27288629
+nmf_topic_5,10,shall,0.27002381
+nmf_topic_5,11,decide,0.25761285
+nmf_topic_5,12,stock class,0.25439572
+nmf_topic_6,1,abbott,0.35728575
+nmf_topic_6,2,abbvie,0.29268402
+nmf_topic_6,3,item proxy,0.27899048
+nmf_topic_6,4,abbott laboratories,0.23434239
+nmf_topic_6,5,laboratories,0.23431262
+nmf_topic_6,6,vote approval,0.2221042
+nmf_topic_6,7,item,0.2157947
+nmf_topic_6,8,compensation item,0.21267964
+nmf_topic_6,9,park,0.21223255
+nmf_topic_6,10,illinois,0.21031095
+nmf_topic_6,11,pay advisory,0.19726515
+nmf_topic_6,12,abbott park,0.18739711
+nmf_topic_7,1,forward looking,0.36417851
+nmf_topic_7,2,looking statements,0.36188045
+nmf_topic_7,3,statements,0.33668805
+nmf_topic_7,4,looking,0.33495324
+nmf_topic_7,5,forward,0.23443881
+nmf_topic_7,6,differ,0.20886594
+nmf_topic_7,7,actual results,0.2008757
+nmf_topic_7,8,uncertainties,0.19528291
+nmf_topic_7,9,goldman,0.19516886
+nmf_topic_7,10,goldman sachs,0.19516886
+nmf_topic_7,11,sachs,0.19516886
+nmf_topic_7,12,risks uncertainties,0.19179448
+nmf_topic_8,1,annual general,0.34184596
+nmf_topic_8,2,general meeting,0.34123269
+nmf_topic_8,3,irish,0.28026378
+nmf_topic_8,4,medtronic,0.2218636
+nmf_topic_8,5,irish statutory,0.22160297
+nmf_topic_8,6,statutory financial,0.22160297
+nmf_topic_8,7,statutory,0.22042682
+nmf_topic_8,8,irish law,0.19365744
+nmf_topic_8,9,general,0.16920506
+nmf_topic_8,10,financial statements,0.16788978
+nmf_topic_8,11,ordinary,0.15799737
+nmf_topic_8,12,statements,0.13904912

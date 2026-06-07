@@ -20,10 +20,20 @@ build/
 .venv/
 
 # Local Part 1 artifacts
-/part1_stated_values/data/raw/*
-!/part1_stated_values/data/raw/.gitkeep
-/part1_stated_values/data/interim/*
-!/part1_stated_values/data/interim/.gitkeep
+/part1_stated_values/data/raw/
+/part1_stated_values/data/interim/
+/part1_stated_values/src/*.egg-info/
+/part1_stated_values/outputs/*.log
+
+# Local Part 2 heavy/regenerable artifacts
+/part2_lived_values/data/raw/*
+!/part2_lived_values/data/raw/.gitkeep
+/part2_lived_values/data/interim/*
+!/part2_lived_values/data/interim/.gitkeep
+/part2_lived_values/data/processed/text/*
+!/part2_lived_values/data/processed/text/.gitkeep
+/part2_lived_values/outputs/part2_company_year.csv
+/part2_lived_values/src/*.egg-info/
 
 # Notebooks
 .ipynb_checkpoints/

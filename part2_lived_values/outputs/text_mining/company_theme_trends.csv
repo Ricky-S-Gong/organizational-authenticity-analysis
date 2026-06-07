@@ -1,0 +1,589 @@
+ticker,company_name,sector,theme_id,theme_label,first_year,last_year,first_rate_per_10k_words,last_rate_per_10k_words,change_per_10k_words,observed_years
+AAPL,Apple,Technology,collaboration_and_partnership,Collaboration and partnership,2016,2024,0.846203,4.329379,3.483177,8
+AAPL,Apple,Technology,customers_and_service,Customers and service,2016,2024,7.615824,13.204606,5.588782,8
+AAPL,Apple,Technology,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,23.059023,61.693653,38.63463,8
+AAPL,Apple,Technology,employees_and_workplace,Employees and workplace,2016,2024,21.789719,34.418564,12.628846,8
+AAPL,Apple,Technology,environment_and_sustainability,Environment and sustainability,2016,2024,12.269939,14.070482,1.800544,8
+AAPL,Apple,Technology,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,5.077216,12.5552,7.477984,8
+AAPL,Apple,Technology,innovation_and_excellence,Innovation and excellence,2016,2024,2.115507,6.494069,4.378562,8
+AAPL,Apple,Technology,integrity_and_ethics,Integrity and ethics,2016,2024,2.750159,13.204606,10.454448,8
+AAPL,Apple,Technology,leadership_and_accountability,Leadership and accountability,2016,2024,15.443199,30.738592,15.295393,8
+AAPL,Apple,Technology,purpose_and_identity,Purpose and identity,2016,2024,0.423101,4.545848,4.122747,8
+AAPL,Apple,Technology,shareholders_and_performance,Shareholders and performance,2016,2024,55.426275,51.303143,-4.123131,8
+AAPL,Apple,Technology,social_impact_and_community,Social impact and community,2016,2024,0.634652,8.875227,8.240575,8
+ABBV,AbbVie,Healthcare,collaboration_and_partnership,Collaboration and partnership,2016,2024,2.531788,3.464933,0.933145,9
+ABBV,AbbVie,Healthcare,customers_and_service,Customers and service,2016,2024,18.003826,29.961478,11.957652,9
+ABBV,AbbVie,Healthcare,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,17.159896,25.885087,8.72519,9
+ABBV,AbbVie,Healthcare,employees_and_workplace,Employees and workplace,2016,2024,19.410375,24.458349,5.047975,9
+ABBV,AbbVie,Healthcare,environment_and_sustainability,Environment and sustainability,2016,2024,3.094408,15.694108,12.5997,9
+ABBV,AbbVie,Healthcare,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,13.22156,14.267371,1.045811,9
+ABBV,AbbVie,Healthcare,innovation_and_excellence,Innovation and excellence,2016,2024,1.687859,9.171881,7.484022,9
+ABBV,AbbVie,Healthcare,integrity_and_ethics,Integrity and ethics,2016,2024,14.065489,13.859731,-0.205758,9
+ABBV,AbbVie,Healthcare,leadership_and_accountability,Leadership and accountability,2016,2024,18.847755,22.216334,3.368579,9
+ABBV,AbbVie,Healthcare,purpose_and_identity,Purpose and identity,2016,2024,0.0,0.815278,0.815278,9
+ABBV,AbbVie,Healthcare,shareholders_and_performance,Shareholders and performance,2016,2024,4.219647,9.375701,5.156054,9
+ABBV,AbbVie,Healthcare,social_impact_and_community,Social impact and community,2016,2024,2.531788,2.649655,0.117867,9
+ABT,Abbott Laboratories,Healthcare,collaboration_and_partnership,Collaboration and partnership,2016,2024,0.902418,1.856025,0.953607,9
+ABT,Abbott Laboratories,Healthcare,customers_and_service,Customers and service,2016,2024,17.747563,16.439083,-1.308481,9
+ABT,Abbott Laboratories,Healthcare,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,28.576585,34.469044,5.892459,9
+ABT,Abbott Laboratories,Healthcare,employees_and_workplace,Employees and workplace,2016,2024,17.747563,18.029962,0.282398,9
+ABT,Abbott Laboratories,Healthcare,environment_and_sustainability,Environment and sustainability,2016,2024,4.512092,13.787618,9.275525,9
+ABT,Abbott Laboratories,Healthcare,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,5.414511,6.893809,1.479298,9
+ABT,Abbott Laboratories,Healthcare,innovation_and_excellence,Innovation and excellence,2016,2024,1.504031,7.424102,5.920071,9
+ABT,Abbott Laboratories,Healthcare,integrity_and_ethics,Integrity and ethics,2016,2024,9.625797,8.484688,-1.141109,9
+ABT,Abbott Laboratories,Healthcare,leadership_and_accountability,Leadership and accountability,2016,2024,26.170136,21.211719,-4.958416,9
+ABT,Abbott Laboratories,Healthcare,purpose_and_identity,Purpose and identity,2016,2024,0.0,0.265146,0.265146,9
+ABT,Abbott Laboratories,Healthcare,shareholders_and_performance,Shareholders and performance,2016,2024,47.527373,47.991515,0.464142,9
+ABT,Abbott Laboratories,Healthcare,social_impact_and_community,Social impact and community,2016,2024,0.300806,0.795439,0.494633,9
+AMZN,Amazon,Consumer Discretionary,collaboration_and_partnership,Collaboration and partnership,2016,2024,0.517759,4.942611,4.424852,9
+AMZN,Amazon,Consumer Discretionary,customers_and_service,Customers and service,2016,2024,17.086052,34.323686,17.237635,9
+AMZN,Amazon,Consumer Discretionary,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,9.837424,36.520402,26.682978,9
+AMZN,Amazon,Consumer Discretionary,employees_and_workplace,Employees and workplace,2016,2024,9.319664,44.620792,35.301127,9
+AMZN,Amazon,Consumer Discretionary,environment_and_sustainability,Environment and sustainability,2016,2024,20.192606,44.071613,23.879007,9
+AMZN,Amazon,Consumer Discretionary,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,10.355183,34.323686,23.968503,9
+AMZN,Amazon,Consumer Discretionary,innovation_and_excellence,Innovation and excellence,2016,2024,4.142073,6.178263,2.03619,9
+AMZN,Amazon,Consumer Discretionary,integrity_and_ethics,Integrity and ethics,2016,2024,6.21311,11.120874,4.907765,9
+AMZN,Amazon,Consumer Discretionary,leadership_and_accountability,Leadership and accountability,2016,2024,46.080563,44.346202,-1.734361,9
+AMZN,Amazon,Consumer Discretionary,purpose_and_identity,Purpose and identity,2016,2024,1.035518,0.274589,-0.760929,9
+AMZN,Amazon,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2016,2024,71.96852,72.217036,0.248515,9
+AMZN,Amazon,Consumer Discretionary,social_impact_and_community,Social impact and community,2016,2024,1.553277,21.006096,19.452818,9
+AVGO,Broadcom,Technology,collaboration_and_partnership,Collaboration and partnership,2019,2024,2.207151,2.301496,0.094345,6
+AVGO,Broadcom,Technology,customers_and_service,Customers and service,2019,2024,9.430555,7.479862,-1.950693,6
+AVGO,Broadcom,Technology,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2019,2024,22.874112,35.960875,13.086762,6
+AVGO,Broadcom,Technology,employees_and_workplace,Employees and workplace,2019,2024,34.511818,22.151899,-12.35992,6
+AVGO,Broadcom,Technology,environment_and_sustainability,Environment and sustainability,2019,2024,1.605201,8.918297,7.313096,6
+AVGO,Broadcom,Technology,health_safety_and_wellbeing,"Health, safety, and wellbeing",2019,2024,3.009752,3.452244,0.442492,6
+AVGO,Broadcom,Technology,innovation_and_excellence,Innovation and excellence,2019,2024,2.407801,5.178366,2.770565,6
+AVGO,Broadcom,Technology,integrity_and_ethics,Integrity and ethics,2019,2024,4.414302,5.75374,1.339438,6
+AVGO,Broadcom,Technology,leadership_and_accountability,Leadership and accountability,2019,2024,14.647458,25.028769,10.381311,6
+AVGO,Broadcom,Technology,purpose_and_identity,Purpose and identity,2019,2024,0.0,0.287687,0.287687,6
+AVGO,Broadcom,Technology,shareholders_and_performance,Shareholders and performance,2019,2024,4.013002,4.027618,0.014616,6
+AVGO,Broadcom,Technology,social_impact_and_community,Social impact and community,2019,2024,0.0,0.287687,0.287687,6
+AXP,American Express,Financials,collaboration_and_partnership,Collaboration and partnership,2016,2024,2.378084,3.12998,0.751896,9
+AXP,American Express,Financials,customers_and_service,Customers and service,2016,2024,18.707591,18.21079,-0.496801,9
+AXP,American Express,Financials,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,19.817363,22.336672,2.519309,9
+AXP,American Express,Financials,employees_and_workplace,Employees and workplace,2016,2024,25.841842,18.353062,-7.48878,9
+AXP,American Express,Financials,environment_and_sustainability,Environment and sustainability,2016,2024,5.548862,14.653995,9.105133,9
+AXP,American Express,Financials,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,8.71964,8.820851,0.101212,9
+AXP,American Express,Financials,innovation_and_excellence,Innovation and excellence,2016,2024,7.29279,2.845436,-4.447354,9
+AXP,American Express,Financials,integrity_and_ethics,Integrity and ethics,2016,2024,5.86594,5.264056,-0.601883,9
+AXP,American Express,Financials,leadership_and_accountability,Leadership and accountability,2016,2024,25.524764,26.604826,1.080062,9
+AXP,American Express,Financials,purpose_and_identity,Purpose and identity,2016,2024,0.0,0.569087,0.569087,9
+AXP,American Express,Financials,shareholders_and_performance,Shareholders and performance,2016,2024,42.964043,54.63237,11.668326,9
+AXP,American Express,Financials,social_impact_and_community,Social impact and community,2016,2024,3.487856,3.556795,0.068939,9
+BAC,Bank of America,Financials,collaboration_and_partnership,Collaboration and partnership,2016,2024,3.221946,3.217688,-0.004258,9
+BAC,Bank of America,Financials,customers_and_service,Customers and service,2016,2024,26.005707,25.166918,-0.83879,9
+BAC,Bank of America,Financials,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,24.164595,35.624404,11.459808,9
+BAC,Bank of America,Financials,employees_and_workplace,Employees and workplace,2016,2024,20.022093,31.947046,11.924953,9
+BAC,Bank of America,Financials,environment_and_sustainability,Environment and sustainability,2016,2024,10.126116,30.338202,20.212086,9
+BAC,Bank of America,Financials,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,4.60278,5.975706,1.372926,9
+BAC,Bank of America,Financials,innovation_and_excellence,Innovation and excellence,2016,2024,1.841112,3.447523,1.606411,9
+BAC,Bank of America,Financials,integrity_and_ethics,Integrity and ethics,2016,2024,4.60278,5.171284,0.568504,9
+BAC,Bank of America,Financials,leadership_and_accountability,Leadership and accountability,2016,2024,34.520851,36.658661,2.13781,9
+BAC,Bank of America,Financials,purpose_and_identity,Purpose and identity,2016,2024,0.230139,1.149174,0.919035,9
+BAC,Bank of America,Financials,shareholders_and_performance,Shareholders and performance,2016,2024,3.221946,58.722808,55.500862,9
+BAC,Bank of America,Financials,social_impact_and_community,Social impact and community,2016,2024,2.531529,6.780128,4.248599,9
+BMY,Bristol-Myers Squibb,Healthcare,collaboration_and_partnership,Collaboration and partnership,2016,2024,2.086028,5.579557,3.493529,9
+BMY,Bristol-Myers Squibb,Healthcare,customers_and_service,Customers and service,2016,2024,17.105428,36.187409,19.081981,9
+BMY,Bristol-Myers Squibb,Healthcare,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,12.724769,38.259816,25.535047,9
+BMY,Bristol-Myers Squibb,Healthcare,employees_and_workplace,Employees and workplace,2016,2024,36.088281,42.404629,6.316349,9
+BMY,Bristol-Myers Squibb,Healthcare,environment_and_sustainability,Environment and sustainability,2016,2024,2.711836,16.579254,13.867417,9
+BMY,Bristol-Myers Squibb,Healthcare,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,4.380658,15.94159,11.560932,9
+BMY,Bristol-Myers Squibb,Healthcare,innovation_and_excellence,Innovation and excellence,2016,2024,4.797864,13.072104,8.27424,9
+BMY,Bristol-Myers Squibb,Healthcare,integrity_and_ethics,Integrity and ethics,2016,2024,7.926906,8.449043,0.522137,9
+BMY,Bristol-Myers Squibb,Healthcare,leadership_and_accountability,Leadership and accountability,2016,2024,18.357045,25.028296,6.671252,9
+BMY,Bristol-Myers Squibb,Healthcare,purpose_and_identity,Purpose and identity,2016,2024,0.625808,5.260725,4.634916,9
+BMY,Bristol-Myers Squibb,Healthcare,shareholders_and_performance,Shareholders and performance,2016,2024,53.819517,43.201709,-10.617808,9
+BMY,Bristol-Myers Squibb,Healthcare,social_impact_and_community,Social impact and community,2016,2024,0.417206,3.985398,3.568192,9
+BRK.B,Berkshire Hathaway,Financials,collaboration_and_partnership,Collaboration and partnership,2016,2024,3.02054,2.469593,-0.550947,9
+BRK.B,Berkshire Hathaway,Financials,customers_and_service,Customers and service,2016,2024,0.0,6.173983,6.173983,9
+BRK.B,Berkshire Hathaway,Financials,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,4.027386,33.339507,29.312121,9
+BRK.B,Berkshire Hathaway,Financials,employees_and_workplace,Employees and workplace,2016,2024,8.054772,28.400321,20.345549,9
+BRK.B,Berkshire Hathaway,Financials,environment_and_sustainability,Environment and sustainability,2016,2024,20.136931,43.21788,23.080949,9
+BRK.B,Berkshire Hathaway,Financials,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,4.027386,20.374143,16.346757,9
+BRK.B,Berkshire Hathaway,Financials,innovation_and_excellence,Innovation and excellence,2016,2024,0.0,0.0,0.0,9
+BRK.B,Berkshire Hathaway,Financials,integrity_and_ethics,Integrity and ethics,2016,2024,10.068466,8.643576,-1.42489,9
+BRK.B,Berkshire Hathaway,Financials,leadership_and_accountability,Leadership and accountability,2016,2024,18.123238,13.582762,-4.540476,9
+BRK.B,Berkshire Hathaway,Financials,purpose_and_identity,Purpose and identity,2016,2024,0.0,0.0,0.0,9
+BRK.B,Berkshire Hathaway,Financials,shareholders_and_performance,Shareholders and performance,2016,2024,68.465566,67.913811,-0.551755,9
+BRK.B,Berkshire Hathaway,Financials,social_impact_and_community,Social impact and community,2016,2024,0.0,2.469593,2.469593,9
+C,Citigroup,Financials,collaboration_and_partnership,Collaboration and partnership,2016,2024,1.105,1.908534,0.803534,9
+C,Citigroup,Financials,customers_and_service,Customers and service,2016,2024,18.907769,26.480903,7.573133,9
+C,Citigroup,Financials,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,20.994991,36.619987,15.624996,9
+C,Citigroup,Financials,employees_and_workplace,Employees and workplace,2016,2024,26.642766,29.462986,2.82022,9
+C,Citigroup,Financials,environment_and_sustainability,Environment and sustainability,2016,2024,3.192221,20.993869,17.801648,9
+C,Citigroup,Financials,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,1.841666,2.743517,0.901851,9
+C,Citigroup,Financials,innovation_and_excellence,Innovation and excellence,2016,2024,1.964444,3.93635,1.971907,9
+C,Citigroup,Financials,integrity_and_ethics,Integrity and ethics,2016,2024,10.067773,8.946251,-1.121522,9
+C,Citigroup,Financials,leadership_and_accountability,Leadership and accountability,2016,2024,16.452215,27.79302,11.340805,9
+C,Citigroup,Financials,purpose_and_identity,Purpose and identity,2016,2024,0.0,0.7157,0.7157,9
+C,Citigroup,Financials,shareholders_and_performance,Shareholders and performance,2016,2024,11.049995,6.441301,-4.608694,9
+C,Citigroup,Financials,social_impact_and_community,Social impact and community,2016,2024,1.473333,2.743517,1.270184,9
+COP,ConocoPhillips,Energy,collaboration_and_partnership,Collaboration and partnership,2016,2024,2.811182,3.564402,0.753219,9
+COP,ConocoPhillips,Energy,customers_and_service,Customers and service,2016,2024,14.055911,11.976389,-2.079522,9
+COP,ConocoPhillips,Energy,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,12.494143,21.814138,9.319994,9
+COP,ConocoPhillips,Energy,employees_and_workplace,Employees and workplace,2016,2024,36.076839,44.626308,8.549469,9
+COP,ConocoPhillips,Energy,environment_and_sustainability,Environment and sustainability,2016,2024,14.055911,28.372637,14.316726,9
+COP,ConocoPhillips,Energy,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,10.307668,11.120933,0.813265,9
+COP,ConocoPhillips,Energy,innovation_and_excellence,Innovation and excellence,2016,2024,2.030298,2.708945,0.678647,9
+COP,ConocoPhillips,Energy,integrity_and_ethics,Integrity and ethics,2016,2024,8.902077,11.976389,3.074312,9
+COP,ConocoPhillips,Energy,leadership_and_accountability,Leadership and accountability,2016,2024,16.242386,20.816105,4.573719,9
+COP,ConocoPhillips,Energy,purpose_and_identity,Purpose and identity,2016,2024,0.46853,0.142576,-0.325954,9
+COP,ConocoPhillips,Energy,shareholders_and_performance,Shareholders and performance,2016,2024,9.058254,9.124868,0.066614,9
+COP,ConocoPhillips,Energy,social_impact_and_community,Social impact and community,2016,2024,2.186475,1.425761,-0.760714,9
+CRM,Salesforce,Technology,collaboration_and_partnership,Collaboration and partnership,2016,2024,2.409768,3.071517,0.66175,9
+CRM,Salesforce,Technology,customers_and_service,Customers and service,2016,2024,8.300311,19.903431,11.603121,9
+CRM,Salesforce,Technology,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,36.146514,35.506739,-0.639775,9
+CRM,Salesforce,Technology,employees_and_workplace,Employees and workplace,2016,2024,20.616901,30.960893,10.343993,9
+CRM,Salesforce,Technology,environment_and_sustainability,Environment and sustainability,2016,2024,1.606512,12.654651,11.048139,9
+CRM,Salesforce,Technology,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,6.961551,9.828855,2.867304,9
+CRM,Salesforce,Technology,innovation_and_excellence,Innovation and excellence,2016,2024,1.33876,5.651592,4.312832,9
+CRM,Salesforce,Technology,integrity_and_ethics,Integrity and ethics,2016,2024,5.355039,8.108805,2.753766,9
+CRM,Salesforce,Technology,leadership_and_accountability,Leadership and accountability,2016,2024,20.349149,19.411989,-0.93716,9
+CRM,Salesforce,Technology,purpose_and_identity,Purpose and identity,2016,2024,0.0,2.088632,2.088632,9
+CRM,Salesforce,Technology,shareholders_and_performance,Shareholders and performance,2016,2024,4.551783,7.494502,2.942719,9
+CRM,Salesforce,Technology,social_impact_and_community,Social impact and community,2016,2024,2.409768,4.422985,2.013217,9
+CVX,Chevron,Energy,collaboration_and_partnership,Collaboration and partnership,2016,2024,1.569637,3.73374,2.164103,9
+CVX,Chevron,Energy,customers_and_service,Customers and service,2016,2024,13.969769,14.934958,0.965189,9
+CVX,Chevron,Energy,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,15.853333,22.999836,7.146503,9
+CVX,Chevron,Energy,employees_and_workplace,Employees and workplace,2016,2024,35.159868,34.649103,-0.510764,9
+CVX,Chevron,Energy,environment_and_sustainability,Environment and sustainability,2016,2024,30.293993,46.298371,16.004378,9
+CVX,Chevron,Energy,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,12.400132,17.025852,4.625721,9
+CVX,Chevron,Energy,innovation_and_excellence,Innovation and excellence,2016,2024,4.708911,4.331138,-0.377773,9
+CVX,Chevron,Energy,integrity_and_ethics,Integrity and ethics,2016,2024,5.96462,7.467479,1.502859,9
+CVX,Chevron,Energy,leadership_and_accountability,Leadership and accountability,2016,2024,20.719208,21.655689,0.936482,9
+CVX,Chevron,Energy,purpose_and_identity,Purpose and identity,2016,2024,0.627855,0.298699,-0.329156,9
+CVX,Chevron,Energy,shareholders_and_performance,Shareholders and performance,2016,2024,7.377294,6.123333,-1.253961,9
+CVX,Chevron,Energy,social_impact_and_community,Social impact and community,2016,2024,5.179802,4.779187,-0.400615,9
+EOG,EOG Resources,Energy,collaboration_and_partnership,Collaboration and partnership,2016,2024,0.597997,0.70492,0.106924,9
+EOG,EOG Resources,Energy,customers_and_service,Customers and service,2016,2024,7.474959,8.224071,0.749112,9
+EOG,EOG Resources,Energy,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,10.464942,12.688566,2.223624,9
+EOG,EOG Resources,Energy,employees_and_workplace,Employees and workplace,2016,2024,32.590821,31.251469,-1.339352,9
+EOG,EOG Resources,Energy,environment_and_sustainability,Environment and sustainability,2016,2024,7.474959,17.857982,10.383023,9
+EOG,EOG Resources,Energy,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,6.876962,7.989097,1.112135,9
+EOG,EOG Resources,Energy,innovation_and_excellence,Innovation and excellence,2016,2024,0.0,2.819681,2.819681,9
+EOG,EOG Resources,Energy,integrity_and_ethics,Integrity and ethics,2016,2024,4.783974,4.464496,-0.319478,9
+EOG,EOG Resources,Energy,leadership_and_accountability,Leadership and accountability,2016,2024,19.733891,16.683115,-3.050777,9
+EOG,EOG Resources,Energy,purpose_and_identity,Purpose and identity,2016,2024,0.0,0.0,0.0,9
+EOG,EOG Resources,Energy,shareholders_and_performance,Shareholders and performance,2016,2024,6.278965,4.934442,-1.344523,9
+EOG,EOG Resources,Energy,social_impact_and_community,Social impact and community,2016,2024,0.0,0.939894,0.939894,9
+F,Ford Motor,Consumer Discretionary,collaboration_and_partnership,Collaboration and partnership,2016,2024,3.115645,1.644791,-1.470854,9
+F,Ford Motor,Consumer Discretionary,customers_and_service,Customers and service,2016,2024,11.10795,21.87572,10.767769,9
+F,Ford Motor,Consumer Discretionary,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,11.785264,20.559887,8.774622,9
+F,Ford Motor,Consumer Discretionary,employees_and_workplace,Employees and workplace,2016,2024,15.713686,37.336754,21.623069,9
+F,Ford Motor,Consumer Discretionary,environment_and_sustainability,Environment and sustainability,2016,2024,5.553975,18.750617,13.196642,9
+F,Ford Motor,Consumer Discretionary,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,6.908603,5.42781,-1.480793,9
+F,Ford Motor,Consumer Discretionary,innovation_and_excellence,Innovation and excellence,2016,2024,8.940545,8.552913,-0.387632,9
+F,Ford Motor,Consumer Discretionary,integrity_and_ethics,Integrity and ethics,2016,2024,9.076008,6.908122,-2.167886,9
+F,Ford Motor,Consumer Discretionary,leadership_and_accountability,Leadership and accountability,2016,2024,15.171835,23.027073,7.855239,9
+F,Ford Motor,Consumer Discretionary,purpose_and_identity,Purpose and identity,2016,2024,0.0,0.328958,0.328958,9
+F,Ford Motor,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2016,2024,26.415248,34.376131,7.960883,9
+F,Ford Motor,Consumer Discretionary,social_impact_and_community,Social impact and community,2016,2024,1.083702,1.315833,0.23213,9
+GOOGL,Alphabet,Technology,collaboration_and_partnership,Collaboration and partnership,2016,2024,3.576751,5.037433,1.460682,9
+GOOGL,Alphabet,Technology,customers_and_service,Customers and service,2016,2024,9.538003,8.511525,-1.026478,9
+GOOGL,Alphabet,Technology,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,25.832091,24.492348,-1.339743,9
+GOOGL,Alphabet,Technology,employees_and_workplace,Employees and workplace,2016,2024,25.037258,24.666053,-0.371205,9
+GOOGL,Alphabet,Technology,environment_and_sustainability,Environment and sustainability,2016,2024,2.384501,21.53937,19.154869,9
+GOOGL,Alphabet,Technology,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,2.781918,25.187167,22.405249,9
+GOOGL,Alphabet,Technology,innovation_and_excellence,Innovation and excellence,2016,2024,1.987084,3.995206,2.008122,9
+GOOGL,Alphabet,Technology,integrity_and_ethics,Integrity and ethics,2016,2024,10.134128,18.760097,8.625968,9
+GOOGL,Alphabet,Technology,leadership_and_accountability,Leadership and accountability,2016,2024,37.15847,26.750508,-10.407962,9
+GOOGL,Alphabet,Technology,purpose_and_identity,Purpose and identity,2016,2024,0.198708,0.173705,-0.025004,9
+GOOGL,Alphabet,Technology,shareholders_and_performance,Shareholders and performance,2016,2024,8.743169,9.727457,0.984288,9
+GOOGL,Alphabet,Technology,social_impact_and_community,Social impact and community,2016,2024,0.198708,3.300387,3.101679,9
+GS,Goldman Sachs,Financials,collaboration_and_partnership,Collaboration and partnership,2016,2024,2.089078,6.567301,4.478222,9
+GS,Goldman Sachs,Financials,customers_and_service,Customers and service,2016,2024,21.517506,29.267318,7.749811,9
+GS,Goldman Sachs,Financials,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,27.575834,30.980527,3.404693,9
+GS,Goldman Sachs,Financials,employees_and_workplace,Employees and workplace,2016,2024,25.695663,26.697504,1.001841,9
+GS,Goldman Sachs,Financials,environment_and_sustainability,Environment and sustainability,2016,2024,5.849419,36.120153,30.270734,9
+GS,Goldman Sachs,Financials,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,3.969249,6.281766,2.312517,9
+GS,Goldman Sachs,Financials,innovation_and_excellence,Innovation and excellence,2016,2024,1.462355,4.996859,3.534504,9
+GS,Goldman Sachs,Financials,integrity_and_ethics,Integrity and ethics,2016,2024,2.506894,6.710068,4.203174,9
+GS,Goldman Sachs,Financials,leadership_and_accountability,Leadership and accountability,2016,2024,28.202557,36.405688,8.203131,9
+GS,Goldman Sachs,Financials,purpose_and_identity,Purpose and identity,2016,2024,0.0,2.855348,2.855348,9
+GS,Goldman Sachs,Financials,shareholders_and_performance,Shareholders and performance,2016,2024,89.203643,79.521444,-9.6822,9
+GS,Goldman Sachs,Financials,social_impact_and_community,Social impact and community,2016,2024,4.595972,5.282394,0.686422,9
+HAL,Halliburton,Energy,collaboration_and_partnership,Collaboration and partnership,2016,2024,0.527051,2.646603,2.119552,9
+HAL,Halliburton,Energy,customers_and_service,Customers and service,2016,2024,10.804543,12.287799,1.483256,9
+HAL,Halliburton,Energy,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,15.548001,18.52622,2.978219,9
+HAL,Halliburton,Energy,employees_and_workplace,Employees and workplace,2016,2024,20.81851,19.660479,-1.158031,9
+HAL,Halliburton,Energy,environment_and_sustainability,Environment and sustainability,2016,2024,10.013967,25.331771,15.317804,9
+HAL,Halliburton,Energy,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,23.190239,26.844115,3.653876,9
+HAL,Halliburton,Energy,innovation_and_excellence,Innovation and excellence,2016,2024,1.317627,2.835646,1.518019,9
+HAL,Halliburton,Energy,integrity_and_ethics,Integrity and ethics,2016,2024,3.689356,3.024689,-0.664667,9
+HAL,Halliburton,Energy,leadership_and_accountability,Leadership and accountability,2016,2024,18.710306,22.118038,3.407732,9
+HAL,Halliburton,Energy,purpose_and_identity,Purpose and identity,2016,2024,0.527051,0.0,-0.527051,9
+HAL,Halliburton,Energy,shareholders_and_performance,Shareholders and performance,2016,2024,1.581153,40.833302,39.252149,9
+HAL,Halliburton,Energy,social_impact_and_community,Social impact and community,2016,2024,0.263525,1.323301,1.059776,9
+HD,Home Depot,Consumer Discretionary,collaboration_and_partnership,Collaboration and partnership,2016,2024,1.034474,2.563164,1.52869,9
+HD,Home Depot,Consumer Discretionary,customers_and_service,Customers and service,2016,2024,14.999871,23.068473,8.068602,9
+HD,Home Depot,Consumer Discretionary,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,31.810071,32.039546,0.229475,9
+HD,Home Depot,Consumer Discretionary,employees_and_workplace,Employees and workplace,2016,2024,10.08612,11.900403,1.814283,9
+HD,Home Depot,Consumer Discretionary,environment_and_sustainability,Environment and sustainability,2016,2024,1.551711,12.449652,10.897941,9
+HD,Home Depot,Consumer Discretionary,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,9.827501,6.041743,-3.785759,9
+HD,Home Depot,Consumer Discretionary,innovation_and_excellence,Innovation and excellence,2016,2024,0.775855,1.281582,0.505726,9
+HD,Home Depot,Consumer Discretionary,integrity_and_ethics,Integrity and ethics,2016,2024,2.844803,8.971073,6.12627,9
+HD,Home Depot,Consumer Discretionary,leadership_and_accountability,Leadership and accountability,2016,2024,21.206714,24.899304,3.692591,9
+HD,Home Depot,Consumer Discretionary,purpose_and_identity,Purpose and identity,2016,2024,0.775855,3.478579,2.702724,9
+HD,Home Depot,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2016,2024,48.103034,51.62944,3.526406,9
+HD,Home Depot,Consumer Discretionary,social_impact_and_community,Social impact and community,2016,2024,1.034474,4.027829,2.993355,9
+IBM,IBM,Technology,collaboration_and_partnership,Collaboration and partnership,2016,2024,3.484852,3.006502,-0.47835,9
+IBM,IBM,Technology,customers_and_service,Customers and service,2016,2024,33.323895,21.60923,-11.714665,9
+IBM,IBM,Technology,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,14.15721,21.60923,7.45202,9
+IBM,IBM,Technology,employees_and_workplace,Employees and workplace,2016,2024,21.780324,16.535759,-5.244565,9
+IBM,IBM,Technology,environment_and_sustainability,Environment and sustainability,2016,2024,1.742426,37.769176,36.02675,9
+IBM,IBM,Technology,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,9.147736,6.764629,-2.383107,9
+IBM,IBM,Technology,innovation_and_excellence,Innovation and excellence,2016,2024,2.613639,5.073471,2.459833,9
+IBM,IBM,Technology,integrity_and_ethics,Integrity and ethics,2016,2024,5.227278,16.347852,11.120575,9
+IBM,IBM,Technology,leadership_and_accountability,Leadership and accountability,2016,2024,24.611766,34.011049,9.399283,9
+IBM,IBM,Technology,purpose_and_identity,Purpose and identity,2016,2024,0.0,0.375813,0.375813,9
+IBM,IBM,Technology,shareholders_and_performance,Shareholders and performance,2016,2024,6.534097,9.583224,3.049127,9
+IBM,IBM,Technology,social_impact_and_community,Social impact and community,2016,2024,0.65341,4.321846,3.668436,9
+INTC,Intel,Technology,collaboration_and_partnership,Collaboration and partnership,2016,2024,1.905896,2.868314,0.962418,9
+INTC,Intel,Technology,customers_and_service,Customers and service,2016,2024,14.294223,15.247354,0.953132,9
+INTC,Intel,Technology,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,26.682549,38.193868,11.511319,9
+INTC,Intel,Technology,employees_and_workplace,Employees and workplace,2016,2024,22.870756,37.590012,14.719256,9
+INTC,Intel,Technology,environment_and_sustainability,Environment and sustainability,2016,2024,6.908874,12.37904,5.470166,9
+INTC,Intel,Technology,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,2.858845,13.13386,10.275015,9
+INTC,Intel,Technology,innovation_and_excellence,Innovation and excellence,2016,2024,3.811793,5.887592,2.0758,9
+INTC,Intel,Technology,integrity_and_ethics,Integrity and ethics,2016,2024,4.526504,6.642412,2.115908,9
+INTC,Intel,Technology,leadership_and_accountability,Leadership and accountability,2016,2024,27.873734,39.703507,11.829773,9
+INTC,Intel,Technology,purpose_and_identity,Purpose and identity,2016,2024,0.0,1.962531,1.962531,9
+INTC,Intel,Technology,shareholders_and_performance,Shareholders and performance,2016,2024,11.673615,4.076025,-7.59759,9
+INTC,Intel,Technology,social_impact_and_community,Social impact and community,2016,2024,2.38237,1.811567,-0.570804,9
+JNJ,Johnson & Johnson,Healthcare,collaboration_and_partnership,Collaboration and partnership,2016,2024,2.046757,2.241315,0.194558,9
+JNJ,Johnson & Johnson,Healthcare,customers_and_service,Customers and service,2016,2024,20.922405,29.137094,8.214689,9
+JNJ,Johnson & Johnson,Healthcare,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,13.417629,24.654464,11.236835,9
+JNJ,Johnson & Johnson,Healthcare,employees_and_workplace,Employees and workplace,2016,2024,25.925589,43.145312,17.219723,9
+JNJ,Johnson & Johnson,Healthcare,environment_and_sustainability,Environment and sustainability,2016,2024,9.77895,10.45947,0.680519,9
+JNJ,Johnson & Johnson,Healthcare,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,21.149823,30.631304,9.481481,9
+JNJ,Johnson & Johnson,Healthcare,innovation_and_excellence,Innovation and excellence,2016,2024,8.187028,18.490848,10.30382,9
+JNJ,Johnson & Johnson,Healthcare,integrity_and_ethics,Integrity and ethics,2016,2024,3.411262,5.790064,2.378802,9
+JNJ,Johnson & Johnson,Healthcare,leadership_and_accountability,Leadership and accountability,2016,2024,25.698172,28.950318,3.252146,9
+JNJ,Johnson & Johnson,Healthcare,purpose_and_identity,Purpose and identity,2016,2024,0.0,0.933881,0.933881,9
+JNJ,Johnson & Johnson,Healthcare,shareholders_and_performance,Shareholders and performance,2016,2024,45.483489,47.814718,2.331228,9
+JNJ,Johnson & Johnson,Healthcare,social_impact_and_community,Social impact and community,2016,2024,3.638679,3.922301,0.283622,9
+JPM,JPMorgan Chase,Financials,collaboration_and_partnership,Collaboration and partnership,2016,2024,2.950832,2.635046,-0.315786,9
+JPM,JPMorgan Chase,Financials,customers_and_service,Customers and service,2016,2024,43.155915,38.076416,-5.079498,9
+JPM,JPMorgan Chase,Financials,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,26.92634,34.519104,7.592764,9
+JPM,JPMorgan Chase,Financials,employees_and_workplace,Employees and workplace,2016,2024,27.479621,39.789196,12.309575,9
+JPM,JPMorgan Chase,Financials,environment_and_sustainability,Environment and sustainability,2016,2024,4.426248,24.110672,19.684424,9
+JPM,JPMorgan Chase,Financials,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,4.610675,7.641634,3.030959,9
+JPM,JPMorgan Chase,Financials,innovation_and_excellence,Innovation and excellence,2016,2024,5.348383,3.952569,-1.395813,9
+JPM,JPMorgan Chase,Financials,integrity_and_ethics,Integrity and ethics,2016,2024,7.561506,4.611331,-2.950176,9
+JPM,JPMorgan Chase,Financials,leadership_and_accountability,Leadership and accountability,2016,2024,44.815757,31.752306,-13.063452,9
+JPM,JPMorgan Chase,Financials,purpose_and_identity,Purpose and identity,2016,2024,0.184427,0.527009,0.342582,9
+JPM,JPMorgan Chase,Financials,shareholders_and_performance,Shareholders and performance,2016,2024,57.910073,58.629776,0.719703,9
+JPM,JPMorgan Chase,Financials,social_impact_and_community,Social impact and community,2016,2024,3.68854,7.773386,4.084846,9
+LLY,Eli Lilly,Healthcare,collaboration_and_partnership,Collaboration and partnership,2016,2024,3.534023,4.524314,0.990291,9
+LLY,Eli Lilly,Healthcare,customers_and_service,Customers and service,2016,2024,20.882863,18.4592,-2.423663,9
+LLY,Eli Lilly,Healthcare,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,24.416886,38.547152,14.130266,9
+LLY,Eli Lilly,Healthcare,employees_and_workplace,Employees and workplace,2016,2024,32.770031,62.797474,30.027442,9
+LLY,Eli Lilly,Healthcare,environment_and_sustainability,Environment and sustainability,2016,2024,0.963824,13.210996,12.247171,9
+LLY,Eli Lilly,Healthcare,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,11.887168,16.649474,4.762306,9
+LLY,Eli Lilly,Healthcare,innovation_and_excellence,Innovation and excellence,2016,2024,3.534023,10.67738,7.143357,9
+LLY,Eli Lilly,Healthcare,integrity_and_ethics,Integrity and ethics,2016,2024,9.31697,10.858353,1.541383,9
+LLY,Eli Lilly,Healthcare,leadership_and_accountability,Leadership and accountability,2016,2024,18.312665,25.698102,7.385437,9
+LLY,Eli Lilly,Healthcare,purpose_and_identity,Purpose and identity,2016,2024,1.285099,2.533616,1.248516,9
+LLY,Eli Lilly,Healthcare,shareholders_and_performance,Shareholders and performance,2016,2024,47.227398,58.635105,11.407707,9
+LLY,Eli Lilly,Healthcare,social_impact_and_community,Social impact and community,2016,2024,2.891473,3.076533,0.18506,9
+LOW,Lowe's,Consumer Discretionary,collaboration_and_partnership,Collaboration and partnership,2016,2024,2.240311,3.864427,1.624116,9
+LOW,Lowe's,Consumer Discretionary,customers_and_service,Customers and service,2016,2024,12.695094,12.502557,-0.192536,9
+LOW,Lowe's,Consumer Discretionary,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,11.450477,22.277284,10.826807,9
+LOW,Lowe's,Consumer Discretionary,employees_and_workplace,Employees and workplace,2016,2024,27.132651,24.323157,-2.809494,9
+LOW,Lowe's,Consumer Discretionary,environment_and_sustainability,Environment and sustainability,2016,2024,12.695094,24.777795,12.082702,9
+LOW,Lowe's,Consumer Discretionary,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,7.218779,10.229365,3.010586,9
+LOW,Lowe's,Consumer Discretionary,innovation_and_excellence,Innovation and excellence,2016,2024,1.49354,4.091746,2.598206,9
+LOW,Lowe's,Consumer Discretionary,integrity_and_ethics,Integrity and ethics,2016,2024,3.733851,3.182469,-0.551382,9
+LOW,Lowe's,Consumer Discretionary,leadership_and_accountability,Leadership and accountability,2016,2024,27.132651,33.870564,6.737913,9
+LOW,Lowe's,Consumer Discretionary,purpose_and_identity,Purpose and identity,2016,2024,0.248923,0.227319,-0.021604,9
+LOW,Lowe's,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2016,2024,67.20932,55.238572,-11.970748,9
+LOW,Lowe's,Consumer Discretionary,social_impact_and_community,Social impact and community,2016,2024,0.497847,3.637108,3.139261,9
+MCD,McDonald's,Consumer Discretionary,collaboration_and_partnership,Collaboration and partnership,2016,2024,1.097514,7.729435,6.631921,8
+MCD,McDonald's,Consumer Discretionary,customers_and_service,Customers and service,2016,2024,16.73709,18.550645,1.813554,8
+MCD,McDonald's,Consumer Discretionary,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,20.029633,25.421254,5.391621,8
+MCD,McDonald's,Consumer Discretionary,employees_and_workplace,Employees and workplace,2016,2024,8.505735,16.145932,7.640197,8
+MCD,McDonald's,Consumer Discretionary,environment_and_sustainability,Environment and sustainability,2016,2024,6.859463,13.741219,6.881755,8
+MCD,McDonald's,Consumer Discretionary,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,8.231356,12.710627,4.479271,8
+MCD,McDonald's,Consumer Discretionary,innovation_and_excellence,Innovation and excellence,2016,2024,1.371893,5.668253,4.29636,8
+MCD,McDonald's,Consumer Discretionary,integrity_and_ethics,Integrity and ethics,2016,2024,4.664435,6.698844,2.034409,8
+MCD,McDonald's,Consumer Discretionary,leadership_and_accountability,Leadership and accountability,2016,2024,27.163475,37.273055,10.10958,8
+MCD,McDonald's,Consumer Discretionary,purpose_and_identity,Purpose and identity,2016,2024,1.097514,4.809426,3.711912,8
+MCD,McDonald's,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2016,2024,110.025792,65.614318,-44.411473,8
+MCD,McDonald's,Consumer Discretionary,social_impact_and_community,Social impact and community,2016,2024,1.371893,8.760027,7.388134,8
+MDT,Medtronic,Healthcare,collaboration_and_partnership,Collaboration and partnership,2016,2024,5.465946,1.902869,-3.563077,9
+MDT,Medtronic,Healthcare,customers_and_service,Customers and service,2016,2024,7.425436,13.320084,5.894647,9
+MDT,Medtronic,Healthcare,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,8.353616,23.891579,15.537963,9
+MDT,Medtronic,Healthcare,employees_and_workplace,Employees and workplace,2016,2024,11.756941,24.103009,12.346068,9
+MDT,Medtronic,Healthcare,environment_and_sustainability,Environment and sustainability,2016,2024,0.618786,9.725775,9.106989,9
+MDT,Medtronic,Healthcare,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,5.981601,12.685794,6.704193,9
+MDT,Medtronic,Healthcare,innovation_and_excellence,Innovation and excellence,2016,2024,5.672208,17.548682,11.876473,9
+MDT,Medtronic,Healthcare,integrity_and_ethics,Integrity and ethics,2016,2024,4.022111,4.862888,0.840776,9
+MDT,Medtronic,Healthcare,leadership_and_accountability,Leadership and accountability,2016,2024,13.407038,19.240121,5.833083,9
+MDT,Medtronic,Healthcare,purpose_and_identity,Purpose and identity,2016,2024,0.103131,0.42286,0.319729,9
+MDT,Medtronic,Healthcare,shareholders_and_performance,Shareholders and performance,2016,2024,40.633637,44.188849,3.555212,9
+MDT,Medtronic,Healthcare,social_impact_and_community,Social impact and community,2016,2024,0.515655,1.902869,1.387214,9
+META,Meta Platforms,Technology,collaboration_and_partnership,Collaboration and partnership,2016,2024,4.31983,5.699777,1.379947,9
+META,Meta Platforms,Technology,customers_and_service,Customers and service,2016,2024,7.824599,8.808747,0.984148,9
+META,Meta Platforms,Technology,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,17.768359,21.115084,3.346724,9
+META,Meta Platforms,Technology,employees_and_workplace,Employees and workplace,2016,2024,23.39229,21.503705,-1.888585,9
+META,Meta Platforms,Technology,environment_and_sustainability,Environment and sustainability,2016,2024,3.586274,14.638064,11.05179,9
+META,Meta Platforms,Technology,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,5.379412,31.219234,25.839823,9
+META,Meta Platforms,Technology,innovation_and_excellence,Innovation and excellence,2016,2024,1.059581,1.424944,0.365363,9
+META,Meta Platforms,Technology,integrity_and_ethics,Integrity and ethics,2016,2024,10.758823,11.270014,0.511191,9
+META,Meta Platforms,Technology,leadership_and_accountability,Leadership and accountability,2016,2024,8.23213,25.130836,16.898706,9
+META,Meta Platforms,Technology,purpose_and_identity,Purpose and identity,2016,2024,0.978075,2.202187,1.224112,9
+META,Meta Platforms,Technology,shareholders_and_performance,Shareholders and performance,2016,2024,1.711631,44.043733,42.332102,9
+META,Meta Platforms,Technology,social_impact_and_community,Social impact and community,2016,2024,0.489037,11.917716,11.428679,9
+MPC,Marathon Petroleum,Energy,collaboration_and_partnership,Collaboration and partnership,2016,2024,3.680161,4.926982,1.246822,9
+MPC,Marathon Petroleum,Energy,customers_and_service,Customers and service,2016,2024,17.898963,17.934215,0.035252,9
+MPC,Marathon Petroleum,Energy,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,12.880562,23.452435,10.571873,9
+MPC,Marathon Petroleum,Energy,employees_and_workplace,Employees and workplace,2016,2024,23.753764,28.379417,4.625653,9
+MPC,Marathon Petroleum,Energy,environment_and_sustainability,Environment and sustainability,2016,2024,16.895283,40.401253,23.505971,9
+MPC,Marathon Petroleum,Energy,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,18.066243,12.021836,-6.044407,9
+MPC,Marathon Petroleum,Energy,innovation_and_excellence,Innovation and excellence,2016,2024,1.84008,2.364951,0.524871,9
+MPC,Marathon Petroleum,Energy,integrity_and_ethics,Integrity and ethics,2016,2024,4.851121,5.321141,0.47002,9
+MPC,Marathon Petroleum,Energy,leadership_and_accountability,Leadership and accountability,2016,2024,19.069923,23.649514,4.579591,9
+MPC,Marathon Petroleum,Energy,purpose_and_identity,Purpose and identity,2016,2024,0.33456,1.379555,1.044995,9
+MPC,Marathon Petroleum,Energy,shareholders_and_performance,Shareholders and performance,2016,2024,48.511208,50.649376,2.138168,9
+MPC,Marathon Petroleum,Energy,social_impact_and_community,Social impact and community,2016,2024,1.00368,5.715299,4.711619,9
+MRK,Merck,Healthcare,collaboration_and_partnership,Collaboration and partnership,2016,2024,1.339884,3.55499,2.215106,9
+MRK,Merck,Healthcare,customers_and_service,Customers and service,2016,2024,18.53506,21.891255,3.356194,9
+MRK,Merck,Healthcare,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,12.728897,24.697826,11.968929,9
+MRK,Merck,Healthcare,employees_and_workplace,Employees and workplace,2016,2024,24.11791,29.18834,5.07043,9
+MRK,Merck,Healthcare,environment_and_sustainability,Environment and sustainability,2016,2024,5.582849,15.155484,9.572635,9
+MRK,Merck,Healthcare,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,8.485931,18.710474,10.224543,9
+MRK,Merck,Healthcare,innovation_and_excellence,Innovation and excellence,2016,2024,5.359536,9.168132,3.808597,9
+MRK,Merck,Healthcare,integrity_and_ethics,Integrity and ethics,2016,2024,3.573024,11.226284,7.653261,9
+MRK,Merck,Healthcare,leadership_and_accountability,Leadership and accountability,2016,2024,37.516749,24.323616,-13.193132,9
+MRK,Merck,Healthcare,purpose_and_identity,Purpose and identity,2016,2024,1.11657,2.058152,0.941582,9
+MRK,Merck,Healthcare,shareholders_and_performance,Shareholders and performance,2016,2024,76.373381,58.563784,-17.809597,9
+MRK,Merck,Healthcare,social_impact_and_community,Social impact and community,2016,2024,2.679768,2.058152,-0.621616,9
+MS,Morgan Stanley,Financials,collaboration_and_partnership,Collaboration and partnership,2016,2024,2.159633,4.276403,2.11677,9
+MS,Morgan Stanley,Financials,customers_and_service,Customers and service,2016,2024,21.416359,18.137848,-3.278512,9
+MS,Morgan Stanley,Financials,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,33.834248,32.294217,-1.540032,9
+MS,Morgan Stanley,Financials,employees_and_workplace,Employees and workplace,2016,2024,25.375686,39.667325,14.291639,9
+MS,Morgan Stanley,Financials,environment_and_sustainability,Environment and sustainability,2016,2024,2.87951,23.004099,20.124589,9
+MS,Morgan Stanley,Financials,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,3.419419,5.161176,1.741757,9
+MS,Morgan Stanley,Financials,innovation_and_excellence,Innovation and excellence,2016,2024,0.179969,2.654319,2.47435,9
+MS,Morgan Stanley,Financials,integrity_and_ethics,Integrity and ethics,2016,2024,8.99847,6.340874,-2.657597,9
+MS,Morgan Stanley,Financials,leadership_and_accountability,Leadership and accountability,2016,2024,21.05642,35.538384,14.481964,9
+MS,Morgan Stanley,Financials,purpose_and_identity,Purpose and identity,2016,2024,0.359939,0.294924,-0.065014,9
+MS,Morgan Stanley,Financials,shareholders_and_performance,Shareholders and performance,2016,2024,52.191128,50.726989,-1.464139,9
+MS,Morgan Stanley,Financials,social_impact_and_community,Social impact and community,2016,2024,1.259786,2.801781,1.541996,9
+MSFT,Microsoft,Technology,collaboration_and_partnership,Collaboration and partnership,2016,2024,3.326828,7.483306,4.156479,9
+MSFT,Microsoft,Technology,customers_and_service,Customers and service,2016,2024,11.754791,24.176836,12.422046,9
+MSFT,Microsoft,Technology,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,18.186657,23.601197,5.41454,9
+MSFT,Microsoft,Technology,employees_and_workplace,Employees and workplace,2016,2024,21.957062,23.025558,1.068497,9
+MSFT,Microsoft,Technology,environment_and_sustainability,Environment and sustainability,2016,2024,3.770405,21.490521,17.720117,9
+MSFT,Microsoft,Technology,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,7.319021,15.350372,8.031352,9
+MSFT,Microsoft,Technology,innovation_and_excellence,Innovation and excellence,2016,2024,4.657559,9.593983,4.936424,9
+MSFT,Microsoft,Technology,integrity_and_ethics,Integrity and ethics,2016,2024,7.540809,16.69353,9.152721,9
+MSFT,Microsoft,Technology,leadership_and_accountability,Leadership and accountability,2016,2024,35.264372,33.38706,-1.877312,9
+MSFT,Microsoft,Technology,purpose_and_identity,Purpose and identity,2016,2024,1.55252,1.726917,0.174397,9
+MSFT,Microsoft,Technology,shareholders_and_performance,Shareholders and performance,2016,2024,72.081263,49.88871,-22.192554,9
+MSFT,Microsoft,Technology,social_impact_and_community,Social impact and community,2016,2024,2.217885,1.918797,-0.299088,9
+NKE,Nike,Consumer Discretionary,collaboration_and_partnership,Collaboration and partnership,2016,2024,1.522719,8.75544,7.232721,9
+NKE,Nike,Consumer Discretionary,customers_and_service,Customers and service,2016,2024,7.004507,11.588082,4.583575,9
+NKE,Nike,Consumer Discretionary,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,14.313558,36.566837,22.253279,9
+NKE,Nike,Consumer Discretionary,employees_and_workplace,Employees and workplace,2016,2024,33.195273,36.051812,2.856538,9
+NKE,Nike,Consumer Discretionary,environment_and_sustainability,Environment and sustainability,2016,2024,3.654526,18.283419,14.628893,9
+NKE,Nike,Consumer Discretionary,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,2.131807,9.785492,7.653685,9
+NKE,Nike,Consumer Discretionary,innovation_and_excellence,Innovation and excellence,2016,2024,1.522719,2.317616,0.794897,9
+NKE,Nike,Consumer Discretionary,integrity_and_ethics,Integrity and ethics,2016,2024,7.004507,7.725388,0.720881,9
+NKE,Nike,Consumer Discretionary,leadership_and_accountability,Leadership and accountability,2016,2024,16.749909,34.249221,17.499312,9
+NKE,Nike,Consumer Discretionary,purpose_and_identity,Purpose and identity,2016,2024,0.304544,1.030052,0.725508,9
+NKE,Nike,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2016,2024,50.249726,71.073571,20.823846,9
+NKE,Nike,Consumer Discretionary,social_impact_and_community,Social impact and community,2016,2024,1.218175,3.090155,1.87198,9
+NVDA,NVIDIA,Technology,collaboration_and_partnership,Collaboration and partnership,2016,2024,0.734516,0.487805,-0.246712,9
+NVDA,NVIDIA,Technology,customers_and_service,Customers and service,2016,2024,16.159361,8.536585,-7.622775,9
+NVDA,NVIDIA,Technology,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,20.125749,38.04878,17.923031,9
+NVDA,NVIDIA,Technology,employees_and_workplace,Employees and workplace,2016,2024,35.40369,25.609756,-9.793934,9
+NVDA,NVIDIA,Technology,environment_and_sustainability,Environment and sustainability,2016,2024,0.0,10.243902,10.243902,9
+NVDA,NVIDIA,Technology,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,1.175226,11.219512,10.044286,9
+NVDA,NVIDIA,Technology,innovation_and_excellence,Innovation and excellence,2016,2024,1.32213,2.682927,1.360797,9
+NVDA,NVIDIA,Technology,integrity_and_ethics,Integrity and ethics,2016,2024,4.700905,11.707317,7.006412,9
+NVDA,NVIDIA,Technology,leadership_and_accountability,Leadership and accountability,2016,2024,10.870843,25.853659,14.982816,9
+NVDA,NVIDIA,Technology,purpose_and_identity,Purpose and identity,2016,2024,0.0,0.243902,0.243902,9
+NVDA,NVIDIA,Technology,shareholders_and_performance,Shareholders and performance,2016,2024,1.028323,8.780488,7.752165,9
+NVDA,NVIDIA,Technology,social_impact_and_community,Social impact and community,2016,2024,1.32213,6.097561,4.775431,9
+ORCL,Oracle,Technology,collaboration_and_partnership,Collaboration and partnership,2016,2024,0.943329,2.251422,1.308093,9
+ORCL,Oracle,Technology,customers_and_service,Customers and service,2016,2024,10.376624,8.59634,-1.780284,9
+ORCL,Oracle,Technology,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,28.064052,39.502231,11.438179,9
+ORCL,Oracle,Technology,employees_and_workplace,Employees and workplace,2016,2024,20.281584,30.087191,9.805608,9
+ORCL,Oracle,Technology,environment_and_sustainability,Environment and sustainability,2016,2024,2.122491,11.666462,9.543971,9
+ORCL,Oracle,Technology,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,7.074971,5.321544,-1.753427,9
+ORCL,Oracle,Technology,innovation_and_excellence,Innovation and excellence,2016,2024,0.471665,1.842073,1.370408,9
+ORCL,Oracle,Technology,integrity_and_ethics,Integrity and ethics,2016,2024,7.782468,6.958942,-0.823526,9
+ORCL,Oracle,Technology,leadership_and_accountability,Leadership and accountability,2016,2024,23.347405,21.286176,-2.061228,9
+ORCL,Oracle,Technology,purpose_and_identity,Purpose and identity,2016,2024,0.0,0.0,0.0,9
+ORCL,Oracle,Technology,shareholders_and_performance,Shareholders and performance,2016,2024,4.480815,7.368292,2.887477,9
+ORCL,Oracle,Technology,social_impact_and_community,Social impact and community,2016,2024,0.235832,0.818699,0.582867,9
+OXY,Occidental Petroleum,Energy,collaboration_and_partnership,Collaboration and partnership,2016,2024,0.841114,2.473207,1.632093,9
+OXY,Occidental Petroleum,Energy,customers_and_service,Customers and service,2016,2024,5.887795,5.358615,-0.52918,9
+OXY,Occidental Petroleum,Energy,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,17.943758,27.205276,9.261519,9
+OXY,Occidental Petroleum,Energy,employees_and_workplace,Employees and workplace,2016,2024,21.868954,27.205276,5.336322,9
+OXY,Occidental Petroleum,Energy,environment_and_sustainability,Environment and sustainability,2016,2024,23.831553,42.86892,19.037367,9
+OXY,Occidental Petroleum,Energy,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,12.897076,16.281946,3.38487,9
+OXY,Occidental Petroleum,Energy,innovation_and_excellence,Innovation and excellence,2016,2024,0.560742,4.534213,3.97347,9
+OXY,Occidental Petroleum,Energy,integrity_and_ethics,Integrity and ethics,2016,2024,1.401856,4.328112,2.926256,9
+OXY,Occidental Petroleum,Energy,leadership_and_accountability,Leadership and accountability,2016,2024,25.233409,22.258862,-2.974547,9
+OXY,Occidental Petroleum,Energy,purpose_and_identity,Purpose and identity,2016,2024,0.0,0.206101,0.206101,9
+OXY,Occidental Petroleum,Energy,shareholders_and_performance,Shareholders and performance,2016,2024,10.093364,58.326463,48.2331,9
+OXY,Occidental Petroleum,Energy,social_impact_and_community,Social impact and community,2016,2024,1.682227,2.061006,0.378779,9
+PFE,Pfizer,Healthcare,collaboration_and_partnership,Collaboration and partnership,2016,2024,1.955671,3.032754,1.077082,9
+PFE,Pfizer,Healthcare,customers_and_service,Customers and service,2016,2024,15.645372,20.850182,5.20481,9
+PFE,Pfizer,Healthcare,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,15.482399,19.333805,3.851406,9
+PFE,Pfizer,Healthcare,employees_and_workplace,Employees and workplace,2016,2024,18.252934,27.421148,9.168215,9
+PFE,Pfizer,Healthcare,environment_and_sustainability,Environment and sustainability,2016,2024,5.867014,13.647392,7.780377,9
+PFE,Pfizer,Healthcare,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,7.007823,8.845532,1.837709,9
+PFE,Pfizer,Healthcare,innovation_and_excellence,Innovation and excellence,2016,2024,6.029987,7.329155,1.299168,9
+PFE,Pfizer,Healthcare,integrity_and_ethics,Integrity and ethics,2016,2024,5.215124,5.560049,0.344925,9
+PFE,Pfizer,Healthcare,leadership_and_accountability,Leadership and accountability,2016,2024,29.986962,26.157501,-3.829461,9
+PFE,Pfizer,Healthcare,purpose_and_identity,Purpose and identity,2016,2024,0.488918,1.010918,0.522,9
+PFE,Pfizer,Healthcare,shareholders_and_performance,Shareholders and performance,2016,2024,60.95176,36.140315,-24.811445,9
+PFE,Pfizer,Healthcare,social_impact_and_community,Social impact and community,2016,2024,2.770535,1.390012,-1.380522,9
+PSX,Phillips 66,Energy,collaboration_and_partnership,Collaboration and partnership,2016,2024,3.30442,1.738224,-1.566196,9
+PSX,Phillips 66,Energy,customers_and_service,Customers and service,2016,2024,14.319152,11.298453,-3.020699,9
+PSX,Phillips 66,Energy,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,15.145257,23.24874,8.103483,9
+PSX,Phillips 66,Energy,employees_and_workplace,Employees and workplace,2016,2024,33.594933,26.073353,-7.52158,9
+PSX,Phillips 66,Energy,environment_and_sustainability,Environment and sustainability,2016,2024,6.058103,31.505302,25.447199,9
+PSX,Phillips 66,Energy,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,16.797467,16.730402,-0.067065,9
+PSX,Phillips 66,Energy,innovation_and_excellence,Innovation and excellence,2016,2024,6.608839,6.30106,-0.307779,9
+PSX,Phillips 66,Energy,integrity_and_ethics,Integrity and ethics,2016,2024,6.884208,4.997393,-1.886815,9
+PSX,Phillips 66,Energy,leadership_and_accountability,Leadership and accountability,2016,2024,18.174308,23.466018,5.29171,9
+PSX,Phillips 66,Energy,purpose_and_identity,Purpose and identity,2016,2024,0.275368,1.738224,1.462855,9
+PSX,Phillips 66,Energy,shareholders_and_performance,Shareholders and performance,2016,2024,53.972188,58.882322,4.910134,9
+PSX,Phillips 66,Energy,social_impact_and_community,Social impact and community,2016,2024,1.376842,2.172779,0.795938,9
+SBUX,Starbucks,Consumer Discretionary,collaboration_and_partnership,Collaboration and partnership,2016,2023,1.624846,3.804279,2.179433,8
+SBUX,Starbucks,Consumer Discretionary,customers_and_service,Customers and service,2016,2023,11.373924,21.55758,10.183657,8
+SBUX,Starbucks,Consumer Discretionary,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2023,22.515726,36.774696,14.25897,8
+SBUX,Starbucks,Consumer Discretionary,employees_and_workplace,Employees and workplace,2016,2023,15.78422,19.746019,3.961799,8
+SBUX,Starbucks,Consumer Discretionary,environment_and_sustainability,Environment and sustainability,2016,2023,1.856967,18.115614,16.258647,8
+SBUX,Starbucks,Consumer Discretionary,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2023,5.10666,11.050524,5.943865,8
+SBUX,Starbucks,Consumer Discretionary,innovation_and_excellence,Innovation and excellence,2016,2023,3.017572,2.717342,-0.300229,8
+SBUX,Starbucks,Consumer Discretionary,integrity_and_ethics,Integrity and ethics,2016,2023,3.017572,4.347747,1.330176,8
+SBUX,Starbucks,Consumer Discretionary,leadership_and_accountability,Leadership and accountability,2016,2023,29.943595,33.332729,3.389135,8
+SBUX,Starbucks,Consumer Discretionary,purpose_and_identity,Purpose and identity,2016,2023,1.160604,2.717342,1.556738,8
+SBUX,Starbucks,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2016,2023,60.815673,54.89031,-5.925363,8
+SBUX,Starbucks,Consumer Discretionary,social_impact_and_community,Social impact and community,2016,2023,0.928484,8.333182,7.404699,8
+SCHW,Charles Schwab,Financials,collaboration_and_partnership,Collaboration and partnership,2016,2024,1.265943,2.360383,1.09444,9
+SCHW,Charles Schwab,Financials,customers_and_service,Customers and service,2016,2024,18.672659,25.964217,7.291558,9
+SCHW,Charles Schwab,Financials,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,31.332088,53.81674,22.484651,9
+SCHW,Charles Schwab,Financials,employees_and_workplace,Employees and workplace,2016,2024,24.369402,34.461597,10.092194,9
+SCHW,Charles Schwab,Financials,environment_and_sustainability,Environment and sustainability,2016,2024,1.898914,6.609073,4.710159,9
+SCHW,Charles Schwab,Financials,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,4.114315,5.192843,1.078529,9
+SCHW,Charles Schwab,Financials,innovation_and_excellence,Innovation and excellence,2016,2024,0.632971,1.41623,0.783259,9
+SCHW,Charles Schwab,Financials,integrity_and_ethics,Integrity and ethics,2016,2024,6.329715,7.08115,0.751435,9
+SCHW,Charles Schwab,Financials,leadership_and_accountability,Leadership and accountability,2016,2024,14.558344,17.230798,2.672454,9
+SCHW,Charles Schwab,Financials,purpose_and_identity,Purpose and identity,2016,2024,0.0,0.472077,0.472077,9
+SCHW,Charles Schwab,Financials,shareholders_and_performance,Shareholders and performance,2016,2024,4.747286,8.025303,3.278017,9
+SCHW,Charles Schwab,Financials,social_impact_and_community,Social impact and community,2016,2024,0.632971,4.720767,4.087795,9
+SLB,SLB (Schlumberger),Energy,collaboration_and_partnership,Collaboration and partnership,2016,2024,2.866206,4.63237,1.766164,9
+SLB,SLB (Schlumberger),Energy,customers_and_service,Customers and service,2016,2024,12.420224,16.728003,4.307779,9
+SLB,SLB (Schlumberger),Energy,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,17.579394,29.595697,12.016303,9
+SLB,SLB (Schlumberger),Energy,employees_and_workplace,Employees and workplace,2016,2024,37.260672,37.05896,-0.201712,9
+SLB,SLB (Schlumberger),Energy,environment_and_sustainability,Environment and sustainability,2016,2024,0.955402,20.588311,19.632909,9
+SLB,SLB (Schlumberger),Energy,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,6.878893,4.63237,-2.246523,9
+SLB,SLB (Schlumberger),Energy,innovation_and_excellence,Innovation and excellence,2016,2024,1.337563,6.176493,4.838931,9
+SLB,SLB (Schlumberger),Energy,integrity_and_ethics,Integrity and ethics,2016,2024,3.821607,3.602954,-0.218653,9
+SLB,SLB (Schlumberger),Energy,leadership_and_accountability,Leadership and accountability,2016,2024,17.197233,21.87508,4.677847,9
+SLB,SLB (Schlumberger),Energy,purpose_and_identity,Purpose and identity,2016,2024,0.19108,0.257354,0.066274,9
+SLB,SLB (Schlumberger),Energy,shareholders_and_performance,Shareholders and performance,2016,2024,2.484045,40.661914,38.177869,9
+SLB,SLB (Schlumberger),Energy,social_impact_and_community,Social impact and community,2016,2024,0.573241,0.772062,0.198821,9
+TGT,Target,Consumer Discretionary,collaboration_and_partnership,Collaboration and partnership,2016,2024,0.510947,3.120449,2.609502,9
+TGT,Target,Consumer Discretionary,customers_and_service,Customers and service,2016,2024,13.79557,21.011026,7.215455,9
+TGT,Target,Consumer Discretionary,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,13.284623,19.346786,6.062163,9
+TGT,Target,Consumer Discretionary,employees_and_workplace,Employees and workplace,2016,2024,6.131364,7.489078,1.357714,9
+TGT,Target,Consumer Discretionary,environment_and_sustainability,Environment and sustainability,2016,2024,4.34305,30.996463,26.653414,9
+TGT,Target,Consumer Discretionary,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,6.131364,18.722696,12.591332,9
+TGT,Target,Consumer Discretionary,innovation_and_excellence,Innovation and excellence,2016,2024,0.766421,1.24818,0.481759,9
+TGT,Target,Consumer Discretionary,integrity_and_ethics,Integrity and ethics,2016,2024,3.832103,10.817558,6.985455,9
+TGT,Target,Consumer Discretionary,leadership_and_accountability,Leadership and accountability,2016,2024,28.868508,50.551279,21.682772,9
+TGT,Target,Consumer Discretionary,purpose_and_identity,Purpose and identity,2016,2024,0.255474,0.83212,0.576646,9
+TGT,Target,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2016,2024,63.101959,65.321406,2.219447,9
+TGT,Target,Consumer Discretionary,social_impact_and_community,Social impact and community,2016,2024,2.043788,5.824839,3.781051,9
+TJX,TJX Companies,Consumer Discretionary,collaboration_and_partnership,Collaboration and partnership,2016,2024,2.013172,4.277256,2.264084,9
+TJX,TJX Companies,Consumer Discretionary,customers_and_service,Customers and service,2016,2024,19.268931,21.161163,1.892232,9
+TJX,TJX Companies,Consumer Discretionary,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,32.498346,18.0095,-14.488846,9
+TJX,TJX Companies,Consumer Discretionary,employees_and_workplace,Employees and workplace,2016,2024,10.928647,13.282006,2.353359,9
+TJX,TJX Companies,Consumer Discretionary,environment_and_sustainability,Environment and sustainability,2016,2024,3.163556,10.130344,6.966788,9
+TJX,TJX Companies,Consumer Discretionary,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,6.614708,7.2038,0.589092,9
+TJX,TJX Companies,Consumer Discretionary,innovation_and_excellence,Innovation and excellence,2016,2024,1.725576,3.376781,1.651205,9
+TJX,TJX Companies,Consumer Discretionary,integrity_and_ethics,Integrity and ethics,2016,2024,9.203072,7.428919,-1.774153,9
+TJX,TJX Companies,Consumer Discretionary,leadership_and_accountability,Leadership and accountability,2016,2024,18.693739,26.564013,7.870273,9
+TJX,TJX Companies,Consumer Discretionary,purpose_and_identity,Purpose and identity,2016,2024,0.575192,1.125594,0.550402,9
+TJX,TJX Companies,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2016,2024,4.026344,43.2228,39.196456,9
+TJX,TJX Companies,Consumer Discretionary,social_impact_and_community,Social impact and community,2016,2024,0.287596,1.125594,0.837998,9
+TMO,Thermo Fisher Scientific,Healthcare,collaboration_and_partnership,Collaboration and partnership,2016,2024,0.850702,2.62944,1.778738,9
+TMO,Thermo Fisher Scientific,Healthcare,customers_and_service,Customers and service,2016,2024,7.656316,16.493761,8.837445,9
+TMO,Thermo Fisher Scientific,Healthcare,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,24.386786,22.230721,-2.156064,9
+TMO,Thermo Fisher Scientific,Healthcare,employees_and_workplace,Employees and workplace,2016,2024,20.983978,20.079361,-0.904617,9
+TMO,Thermo Fisher Scientific,Healthcare,environment_and_sustainability,Environment and sustainability,2016,2024,0.850702,11.712961,10.862259,9
+TMO,Thermo Fisher Scientific,Healthcare,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,5.387778,7.64928,2.261502,9
+TMO,Thermo Fisher Scientific,Healthcare,innovation_and_excellence,Innovation and excellence,2016,2024,1.134269,6.69312,5.558851,9
+TMO,Thermo Fisher Scientific,Healthcare,integrity_and_ethics,Integrity and ethics,2016,2024,3.969942,7.888321,3.918379,9
+TMO,Thermo Fisher Scientific,Healthcare,leadership_and_accountability,Leadership and accountability,2016,2024,15.5962,28.923842,13.327642,9
+TMO,Thermo Fisher Scientific,Healthcare,purpose_and_identity,Purpose and identity,2016,2024,0.0,4.06368,4.06368,9
+TMO,Thermo Fisher Scientific,Healthcare,shareholders_and_performance,Shareholders and performance,2016,2024,3.402807,61.194244,57.791437,9
+TMO,Thermo Fisher Scientific,Healthcare,social_impact_and_community,Social impact and community,2016,2024,0.0,4.54176,4.54176,9
+TSLA,Tesla,Consumer Discretionary,collaboration_and_partnership,Collaboration and partnership,2016,2024,1.49148,2.731462,1.239982,9
+TSLA,Tesla,Consumer Discretionary,customers_and_service,Customers and service,2016,2024,15.660539,3.364844,-12.295695,9
+TSLA,Tesla,Consumer Discretionary,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,25.355159,9.698668,-15.65649,9
+TSLA,Tesla,Consumer Discretionary,employees_and_workplace,Employees and workplace,2016,2024,13.796189,10.529983,-3.266207,9
+TSLA,Tesla,Consumer Discretionary,environment_and_sustainability,Environment and sustainability,2016,2024,2.23722,4.077399,1.840179,9
+TSLA,Tesla,Consumer Discretionary,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,1.86435,2.216838,0.352489,9
+TSLA,Tesla,Consumer Discretionary,innovation_and_excellence,Innovation and excellence,2016,2024,0.37287,1.702215,1.329345,9
+TSLA,Tesla,Consumer Discretionary,integrity_and_ethics,Integrity and ethics,2016,2024,7.08453,2.493943,-4.590586,9
+TSLA,Tesla,Consumer Discretionary,leadership_and_accountability,Leadership and accountability,2016,2024,15.660539,8.669422,-6.991117,9
+TSLA,Tesla,Consumer Discretionary,purpose_and_identity,Purpose and identity,2016,2024,0.0,0.712555,0.712555,9
+TSLA,Tesla,Consumer Discretionary,shareholders_and_performance,Shareholders and performance,2016,2024,3.35583,33.133818,29.777988,9
+TSLA,Tesla,Consumer Discretionary,social_impact_and_community,Social impact and community,2016,2024,0.74574,1.029246,0.283506,9
+UNH,UnitedHealth Group,Healthcare,collaboration_and_partnership,Collaboration and partnership,2016,2024,6.482174,3.655806,-2.826368,9
+UNH,UnitedHealth Group,Healthcare,customers_and_service,Customers and service,2016,2024,13.462977,14.623224,1.160247,9
+UNH,UnitedHealth Group,Healthcare,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,23.435552,20.33542,-3.100132,9
+UNH,UnitedHealth Group,Healthcare,employees_and_workplace,Employees and workplace,2016,2024,20.44378,23.077275,2.633495,9
+UNH,UnitedHealth Group,Healthcare,environment_and_sustainability,Environment and sustainability,2016,2024,3.98903,16.222639,12.233608,9
+UNH,UnitedHealth Group,Healthcare,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,15.208178,41.584792,26.376614,9
+UNH,UnitedHealth Group,Healthcare,innovation_and_excellence,Innovation and excellence,2016,2024,1.994515,10.281954,8.287439,9
+UNH,UnitedHealth Group,Healthcare,integrity_and_ethics,Integrity and ethics,2016,2024,6.23286,12.338345,6.105485,9
+UNH,UnitedHealth Group,Healthcare,leadership_and_accountability,Leadership and accountability,2016,2024,22.438295,20.792396,-1.645899,9
+UNH,UnitedHealth Group,Healthcare,purpose_and_identity,Purpose and identity,2016,2024,0.249314,2.741854,2.49254,9
+UNH,UnitedHealth Group,Healthcare,shareholders_and_performance,Shareholders and performance,2016,2024,42.882074,53.009185,10.127111,9
+UNH,UnitedHealth Group,Healthcare,social_impact_and_community,Social impact and community,2016,2024,1.745201,3.427318,1.682117,9
+VLO,Valero Energy,Energy,collaboration_and_partnership,Collaboration and partnership,2016,2024,2.691623,1.525204,-1.166419,9
+VLO,Valero Energy,Energy,customers_and_service,Customers and service,2016,2024,13.044018,17.234805,4.190787,9
+VLO,Valero Energy,Energy,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,11.180587,19.675132,8.494544,9
+VLO,Valero Energy,Energy,employees_and_workplace,Employees and workplace,2016,2024,26.295085,20.742774,-5.55231,9
+VLO,Valero Energy,Energy,environment_and_sustainability,Environment and sustainability,2016,2024,2.277527,55.364905,53.087378,9
+VLO,Valero Energy,Energy,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,7.039629,15.862122,8.822493,9
+VLO,Valero Energy,Energy,innovation_and_excellence,Innovation and excellence,2016,2024,0.828192,3.355449,2.527257,9
+VLO,Valero Energy,Energy,integrity_and_ethics,Integrity and ethics,2016,2024,3.93391,6.710898,2.776987,9
+VLO,Valero Energy,Energy,leadership_and_accountability,Leadership and accountability,2016,2024,9.317156,24.403264,15.086108,9
+VLO,Valero Energy,Energy,purpose_and_identity,Purpose and identity,2016,2024,0.0,0.15252,0.15252,9
+VLO,Valero Energy,Energy,shareholders_and_performance,Shareholders and performance,2016,2024,2.898671,5.490734,2.592064,9
+VLO,Valero Energy,Energy,social_impact_and_community,Social impact and community,2016,2024,0.828192,1.372684,0.544492,9
+WFC,Wells Fargo,Financials,collaboration_and_partnership,Collaboration and partnership,2016,2024,2.903273,2.640787,-0.262486,9
+WFC,Wells Fargo,Financials,customers_and_service,Customers and service,2016,2024,21.290666,34.33023,13.039564,9
+WFC,Wells Fargo,Financials,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,19.193858,31.557404,12.363546,9
+WFC,Wells Fargo,Financials,employees_and_workplace,Employees and workplace,2016,2024,11.935676,52.815739,40.880063,9
+WFC,Wells Fargo,Financials,environment_and_sustainability,Environment and sustainability,2016,2024,2.580687,29.576814,26.996127,9
+WFC,Wells Fargo,Financials,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,8.871111,9.506833,0.635722,9
+WFC,Wells Fargo,Financials,innovation_and_excellence,Innovation and excellence,2016,2024,1.935515,6.734007,4.798492,9
+WFC,Wells Fargo,Financials,integrity_and_ethics,Integrity and ethics,2016,2024,5.806545,7.526243,1.719698,9
+WFC,Wells Fargo,Financials,leadership_and_accountability,Leadership and accountability,2016,2024,28.064969,41.988513,13.923544,9
+WFC,Wells Fargo,Financials,purpose_and_identity,Purpose and identity,2016,2024,0.806465,0.0,-0.806465,9
+WFC,Wells Fargo,Financials,shareholders_and_performance,Shareholders and performance,2016,2024,9.032404,56.380801,47.348398,9
+WFC,Wells Fargo,Financials,social_impact_and_community,Social impact and community,2016,2024,5.161374,12.14762,6.986246,9
+XOM,ExxonMobil,Energy,collaboration_and_partnership,Collaboration and partnership,2016,2024,1.028807,3.035189,2.006383,8
+XOM,ExxonMobil,Energy,customers_and_service,Customers and service,2016,2024,10.545267,10.433463,-0.111805,8
+XOM,ExxonMobil,Energy,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",2016,2024,21.604938,14.417149,-7.187789,8
+XOM,ExxonMobil,Energy,employees_and_workplace,Employees and workplace,2016,2024,31.378601,39.078061,7.69946,8
+XOM,ExxonMobil,Energy,environment_and_sustainability,Environment and sustainability,2016,2024,44.238683,46.666034,2.427351,8
+XOM,ExxonMobil,Energy,health_safety_and_wellbeing,"Health, safety, and wellbeing",2016,2024,14.660494,20.677227,6.016733,8
+XOM,ExxonMobil,Energy,innovation_and_excellence,Innovation and excellence,2016,2024,2.572016,3.793987,1.22197,8
+XOM,ExxonMobil,Energy,integrity_and_ethics,Integrity and ethics,2016,2024,7.201646,3.983686,-3.21796,8
+XOM,ExxonMobil,Energy,leadership_and_accountability,Leadership and accountability,2016,2024,24.94856,21.625723,-3.322836,8
+XOM,ExxonMobil,Energy,purpose_and_identity,Purpose and identity,2016,2024,0.0,0.379399,0.379399,8
+XOM,ExxonMobil,Energy,shareholders_and_performance,Shareholders and performance,2016,2024,63.271605,55.392203,-7.879402,8
+XOM,ExxonMobil,Energy,social_impact_and_community,Social impact and community,2016,2024,4.62963,11.002561,6.372931,8

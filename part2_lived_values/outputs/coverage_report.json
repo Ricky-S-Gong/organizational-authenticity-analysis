@@ -1,0 +1,32 @@
+{
+  "collected_rows": 434,
+  "coverage_rate": 0.9644,
+  "document_type": "DEF 14A proxy statement",
+  "sector_status_counts": {
+    "Consumer Discretionary": {
+      "collected": 88,
+      "missing": 2
+    },
+    "Energy": {
+      "collected": 89,
+      "missing": 1
+    },
+    "Financials": {
+      "collected": 81,
+      "missing": 9
+    },
+    "Healthcare": {
+      "collected": 90
+    },
+    "Technology": {
+      "collected": 86,
+      "missing": 4
+    }
+  },
+  "source": "SEC EDGAR submissions API and Archives",
+  "status_counts": {
+    "collected": 434,
+    "missing": 16
+  },
+  "target_rows": 450
+}

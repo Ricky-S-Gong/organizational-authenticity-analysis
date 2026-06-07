@@ -1,0 +1,167 @@
+{
+  "collected_rows": 434,
+  "created_at_utc": "2026-06-07T00:00:38+00:00",
+  "dataset": "/Users/ricky/Desktop/Research/organizational-authenticity-analysis/part2_lived_values/outputs/part2_company_year.csv",
+  "dataset_sha256": "1422d669d575a15ae005ef4fb9664f5f7d240c4345aac81a37bc7f79e02e42ee",
+  "elapsed_seconds": 134.092,
+  "log_path": "/Users/ricky/Desktop/Research/organizational-authenticity-analysis/part2_lived_values/data/interim/enhanced_text_mining_run_log.jsonl",
+  "method": "Enhanced exploratory text mining using free/open-source models; kept separate from deterministic phrase-evidence baseline.",
+  "missing_rows": 16,
+  "output_dir": "/Users/ricky/Desktop/Research/organizational-authenticity-analysis/part2_lived_values/outputs/text_mining/enhanced",
+  "package_versions": {
+    "en-core-web-sm": "3.8.0",
+    "scikit-learn": "1.9.0",
+    "sentence-transformers": "5.5.1",
+    "spacy": "3.8.14",
+    "torch": "2.12.0",
+    "transformers": "5.10.2"
+  },
+  "platform": "macOS-26.2-arm64-arm-64bit",
+  "python": "3.12.12 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 20:07:49) [Clang 20.1.8 ]",
+  "seed": 42,
+  "stage_results": {
+    "local_llm_annotations": {
+      "document_count": 8,
+      "files": {
+        "llm_annotations": "/Users/ricky/Desktop/Research/organizational-authenticity-analysis/part2_lived_values/outputs/text_mining/enhanced/llm_annotations.csv"
+      },
+      "parameters": {
+        "do_sample": true,
+        "input_selection": "largest documents by word_count, value-term excerpt windows",
+        "max_new_tokens": 90,
+        "model_name": "google/flan-t5-small",
+        "prompt_version": "part2-enhanced-llm-v1",
+        "sample_size": 8,
+        "seed": 42,
+        "temperature": 0.1
+      },
+      "status": "completed"
+    },
+    "sentence_embeddings": {
+      "document_count": 434,
+      "embedding_dim": 384,
+      "embedding_file_sha256": "55d8f1f2d7157bf2edeca022301dacf7419772161202980e6e63c64ba4b21769",
+      "files": {
+        "document_embeddings": "/Users/ricky/Desktop/Research/organizational-authenticity-analysis/part2_lived_values/outputs/text_mining/enhanced/document_embeddings.npy",
+        "embedding_adjacent_year_shifts": "/Users/ricky/Desktop/Research/organizational-authenticity-analysis/part2_lived_values/outputs/text_mining/enhanced/embedding_adjacent_year_shifts.csv",
+        "embedding_manifest": "/Users/ricky/Desktop/Research/organizational-authenticity-analysis/part2_lived_values/outputs/text_mining/enhanced/embedding_manifest.csv",
+        "embedding_similarity_top_pairs": "/Users/ricky/Desktop/Research/organizational-authenticity-analysis/part2_lived_values/outputs/text_mining/enhanced/embedding_similarity_top_pairs.csv"
+      },
+      "max_adjacent_semantic_shift": {
+        "company_name": "Target",
+        "cosine_similarity": 0.83211815,
+        "doc_id_current": "TGT-2022",
+        "doc_id_prior": "TGT-2021",
+        "prior_year": 2021,
+        "sector": "Consumer Discretionary",
+        "semantic_distance": 0.16788185,
+        "ticker": "TGT",
+        "year": 2022
+      },
+      "parameters": {
+        "batch_size": 16,
+        "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+        "normalize_embeddings": true,
+        "representative_text_max_chars": 9000,
+        "seed": 42
+      },
+      "status": "completed"
+    },
+    "spacy_pipeline": {
+      "document_count": 434,
+      "files": {
+        "spacy_features": "/Users/ricky/Desktop/Research/organizational-authenticity-analysis/part2_lived_values/outputs/text_mining/enhanced/spacy_features.csv",
+        "spacy_top_org_entities": "/Users/ricky/Desktop/Research/organizational-authenticity-analysis/part2_lived_values/outputs/text_mining/enhanced/spacy_top_org_entities.csv"
+      },
+      "parameters": {
+        "components": [
+          "tok2vec",
+          "tagger",
+          "parser",
+          "attribute_ruler",
+          "lemmatizer",
+          "ner"
+        ],
+        "model_name": "en_core_web_sm",
+        "representative_text_max_chars": 9000
+      },
+      "spacy_model_version": "3.8.0",
+      "spacy_version": "3.8.14",
+      "status": "completed"
+    },
+    "tfidf_nmf": {
+      "document_count": 434,
+      "dominant_corpus_topics": [
+        {
+          "topic_id": "nmf_topic_2",
+          "topic_label": "strategy / shareholders / company / billion",
+          "total_score": 30.604313
+        },
+        {
+          "topic_id": "nmf_topic_1",
+          "topic_label": "stockholders / awards / 2016 / 2017",
+          "total_score": 19.167016
+        },
+        {
+          "topic_id": "nmf_topic_4",
+          "topic_label": "2023 / 2022 / shareholders / shareholder",
+          "total_score": 18.033796
+        },
+        {
+          "topic_id": "nmf_topic_3",
+          "topic_label": "stockholders / meeting stockholders / stockholder / proxy materials",
+          "total_score": 16.276692
+        },
+        {
+          "topic_id": "nmf_topic_7",
+          "topic_label": "forward looking / looking statements / statements / looking",
+          "total_score": 14.053756
+        },
+        {
+          "topic_id": "nmf_topic_6",
+          "topic_label": "abbott / abbvie / item proxy / abbott laboratories",
+          "total_score": 12.065977
+        },
+        {
+          "topic_id": "nmf_topic_8",
+          "topic_label": "annual general / general meeting / irish / medtronic",
+          "total_score": 10.815748
+        },
+        {
+          "topic_id": "nmf_topic_5",
+          "topic_label": "class stock / berkshire / berkshire hathaway / hathaway",
+          "total_score": 7.873115
+        }
+      ],
+      "files": {
+        "document_topic_scores": "/Users/ricky/Desktop/Research/organizational-authenticity-analysis/part2_lived_values/outputs/text_mining/enhanced/document_topic_scores.csv",
+        "nmf_topics": "/Users/ricky/Desktop/Research/organizational-authenticity-analysis/part2_lived_values/outputs/text_mining/enhanced/nmf_topics.csv",
+        "tfidf_topic_terms": "/Users/ricky/Desktop/Research/organizational-authenticity-analysis/part2_lived_values/outputs/text_mining/enhanced/tfidf_topic_terms.csv",
+        "topic_sector_summary": "/Users/ricky/Desktop/Research/organizational-authenticity-analysis/part2_lived_values/outputs/text_mining/enhanced/topic_sector_summary.csv",
+        "topic_year_summary": "/Users/ricky/Desktop/Research/organizational-authenticity-analysis/part2_lived_values/outputs/text_mining/enhanced/topic_year_summary.csv"
+      },
+      "n_iter": 246,
+      "n_topics": 8,
+      "parameters": {
+        "max_df": 0.85,
+        "max_features": 2500,
+        "min_df": 5,
+        "ngram_range": [
+          1,
+          2
+        ],
+        "nmf_init": "nndsvda",
+        "nmf_max_iter": 400,
+        "nmf_n_components": 8,
+        "nmf_random_state": 42,
+        "nmf_solver": "cd",
+        "norm": "l2",
+        "stop_words": "english",
+        "sublinear_tf": true
+      },
+      "reconstruction_error": 17.10187,
+      "status": "completed",
+      "vocabulary_size": 2500
+    }
+  }
+}

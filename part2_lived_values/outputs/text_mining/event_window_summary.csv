@@ -1,0 +1,37 @@
+event_window,years,theme_id,theme_label,company_years,mean_matches_per_10k_words,presence_rate
+pre_2020,"2016,2017,2018,2019",customers_and_service,Customers and service,192,15.63097,0.994792
+pre_2020,"2016,2017,2018,2019",employees_and_workplace,Employees and workplace,192,25.151357,1.0
+pre_2020,"2016,2017,2018,2019",innovation_and_excellence,Innovation and excellence,192,2.923211,0.96875
+pre_2020,"2016,2017,2018,2019",integrity_and_ethics,Integrity and ethics,192,6.506765,1.0
+pre_2020,"2016,2017,2018,2019",diversity_equity_and_inclusion,"Diversity, equity, and inclusion",192,21.535818,1.0
+pre_2020,"2016,2017,2018,2019",social_impact_and_community,Social impact and community,192,2.100441,0.942708
+pre_2020,"2016,2017,2018,2019",environment_and_sustainability,Environment and sustainability,192,8.055978,0.979167
+pre_2020,"2016,2017,2018,2019",health_safety_and_wellbeing,"Health, safety, and wellbeing",192,8.181406,1.0
+pre_2020,"2016,2017,2018,2019",shareholders_and_performance,Shareholders and performance,192,35.206804,1.0
+pre_2020,"2016,2017,2018,2019",leadership_and_accountability,Leadership and accountability,192,23.594846,1.0
+pre_2020,"2016,2017,2018,2019",collaboration_and_partnership,Collaboration and partnership,192,2.215059,0.989583
+pre_2020,"2016,2017,2018,2019",purpose_and_identity,Purpose and identity,192,0.56199,0.645833
+covid_dei_governance_window,"2020,2021",customers_and_service,Customers and service,97,17.613857,1.0
+covid_dei_governance_window,"2020,2021",employees_and_workplace,Employees and workplace,97,31.402481,1.0
+covid_dei_governance_window,"2020,2021",innovation_and_excellence,Innovation and excellence,97,3.752037,0.969072
+covid_dei_governance_window,"2020,2021",integrity_and_ethics,Integrity and ethics,97,6.779474,1.0
+covid_dei_governance_window,"2020,2021",diversity_equity_and_inclusion,"Diversity, equity, and inclusion",97,28.299315,1.0
+covid_dei_governance_window,"2020,2021",social_impact_and_community,Social impact and community,97,4.965518,0.969072
+covid_dei_governance_window,"2020,2021",environment_and_sustainability,Environment and sustainability,97,12.993112,0.989691
+covid_dei_governance_window,"2020,2021",health_safety_and_wellbeing,"Health, safety, and wellbeing",97,11.256921,1.0
+covid_dei_governance_window,"2020,2021",shareholders_and_performance,Shareholders and performance,97,39.338228,1.0
+covid_dei_governance_window,"2020,2021",leadership_and_accountability,Leadership and accountability,97,25.275131,1.0
+covid_dei_governance_window,"2020,2021",collaboration_and_partnership,Collaboration and partnership,97,3.119005,1.0
+covid_dei_governance_window,"2020,2021",purpose_and_identity,Purpose and identity,97,1.002917,0.773196
+post_2021,"2022,2023,2024",customers_and_service,Customers and service,145,17.787532,1.0
+post_2021,"2022,2023,2024",employees_and_workplace,Employees and workplace,145,29.825782,1.0
+post_2021,"2022,2023,2024",innovation_and_excellence,Innovation and excellence,145,4.814863,0.97931
+post_2021,"2022,2023,2024",integrity_and_ethics,Integrity and ethics,145,7.6735,1.0
+post_2021,"2022,2023,2024",diversity_equity_and_inclusion,"Diversity, equity, and inclusion",145,29.825432,1.0
+post_2021,"2022,2023,2024",social_impact_and_community,Social impact and community,145,4.666216,1.0
+post_2021,"2022,2023,2024",environment_and_sustainability,Environment and sustainability,145,21.706785,1.0
+post_2021,"2022,2023,2024",health_safety_and_wellbeing,"Health, safety, and wellbeing",145,13.07563,1.0
+post_2021,"2022,2023,2024",shareholders_and_performance,Shareholders and performance,145,40.133548,1.0
+post_2021,"2022,2023,2024",leadership_and_accountability,Leadership and accountability,145,26.282187,1.0
+post_2021,"2022,2023,2024",collaboration_and_partnership,Collaboration and partnership,145,3.38229,1.0
+post_2021,"2022,2023,2024",purpose_and_identity,Purpose and identity,145,1.123782,0.848276

@@ -1,0 +1,1182 @@
+{
+  "collected_rows": 434,
+  "coverage_rate": 0.964444,
+  "document_type": "SEC DEF 14A proxy statement",
+  "event_window_summary": [
+    {
+      "company_years": 192,
+      "event_window": "pre_2020",
+      "mean_matches_per_10k_words": 15.63097,
+      "presence_rate": 0.994792,
+      "theme_id": "customers_and_service",
+      "theme_label": "Customers and service",
+      "years": "2016,2017,2018,2019"
+    },
+    {
+      "company_years": 192,
+      "event_window": "pre_2020",
+      "mean_matches_per_10k_words": 25.151357,
+      "presence_rate": 1.0,
+      "theme_id": "employees_and_workplace",
+      "theme_label": "Employees and workplace",
+      "years": "2016,2017,2018,2019"
+    },
+    {
+      "company_years": 192,
+      "event_window": "pre_2020",
+      "mean_matches_per_10k_words": 2.923211,
+      "presence_rate": 0.96875,
+      "theme_id": "innovation_and_excellence",
+      "theme_label": "Innovation and excellence",
+      "years": "2016,2017,2018,2019"
+    },
+    {
+      "company_years": 192,
+      "event_window": "pre_2020",
+      "mean_matches_per_10k_words": 6.506765,
+      "presence_rate": 1.0,
+      "theme_id": "integrity_and_ethics",
+      "theme_label": "Integrity and ethics",
+      "years": "2016,2017,2018,2019"
+    },
+    {
+      "company_years": 192,
+      "event_window": "pre_2020",
+      "mean_matches_per_10k_words": 21.535818,
+      "presence_rate": 1.0,
+      "theme_id": "diversity_equity_and_inclusion",
+      "theme_label": "Diversity, equity, and inclusion",
+      "years": "2016,2017,2018,2019"
+    },
+    {
+      "company_years": 192,
+      "event_window": "pre_2020",
+      "mean_matches_per_10k_words": 2.100441,
+      "presence_rate": 0.942708,
+      "theme_id": "social_impact_and_community",
+      "theme_label": "Social impact and community",
+      "years": "2016,2017,2018,2019"
+    },
+    {
+      "company_years": 192,
+      "event_window": "pre_2020",
+      "mean_matches_per_10k_words": 8.055978,
+      "presence_rate": 0.979167,
+      "theme_id": "environment_and_sustainability",
+      "theme_label": "Environment and sustainability",
+      "years": "2016,2017,2018,2019"
+    },
+    {
+      "company_years": 192,
+      "event_window": "pre_2020",
+      "mean_matches_per_10k_words": 8.181406,
+      "presence_rate": 1.0,
+      "theme_id": "health_safety_and_wellbeing",
+      "theme_label": "Health, safety, and wellbeing",
+      "years": "2016,2017,2018,2019"
+    },
+    {
+      "company_years": 192,
+      "event_window": "pre_2020",
+      "mean_matches_per_10k_words": 35.206804,
+      "presence_rate": 1.0,
+      "theme_id": "shareholders_and_performance",
+      "theme_label": "Shareholders and performance",
+      "years": "2016,2017,2018,2019"
+    },
+    {
+      "company_years": 192,
+      "event_window": "pre_2020",
+      "mean_matches_per_10k_words": 23.594846,
+      "presence_rate": 1.0,
+      "theme_id": "leadership_and_accountability",
+      "theme_label": "Leadership and accountability",
+      "years": "2016,2017,2018,2019"
+    },
+    {
+      "company_years": 192,
+      "event_window": "pre_2020",
+      "mean_matches_per_10k_words": 2.215059,
+      "presence_rate": 0.989583,
+      "theme_id": "collaboration_and_partnership",
+      "theme_label": "Collaboration and partnership",
+      "years": "2016,2017,2018,2019"
+    },
+    {
+      "company_years": 192,
+      "event_window": "pre_2020",
+      "mean_matches_per_10k_words": 0.56199,
+      "presence_rate": 0.645833,
+      "theme_id": "purpose_and_identity",
+      "theme_label": "Purpose and identity",
+      "years": "2016,2017,2018,2019"
+    },
+    {
+      "company_years": 97,
+      "event_window": "covid_dei_governance_window",
+      "mean_matches_per_10k_words": 17.613857,
+      "presence_rate": 1.0,
+      "theme_id": "customers_and_service",
+      "theme_label": "Customers and service",
+      "years": "2020,2021"
+    },
+    {
+      "company_years": 97,
+      "event_window": "covid_dei_governance_window",
+      "mean_matches_per_10k_words": 31.402481,
+      "presence_rate": 1.0,
+      "theme_id": "employees_and_workplace",
+      "theme_label": "Employees and workplace",
+      "years": "2020,2021"
+    },
+    {
+      "company_years": 97,
+      "event_window": "covid_dei_governance_window",
+      "mean_matches_per_10k_words": 3.752037,
+      "presence_rate": 0.969072,
+      "theme_id": "innovation_and_excellence",
+      "theme_label": "Innovation and excellence",
+      "years": "2020,2021"
+    },
+    {
+      "company_years": 97,
+      "event_window": "covid_dei_governance_window",
+      "mean_matches_per_10k_words": 6.779474,
+      "presence_rate": 1.0,
+      "theme_id": "integrity_and_ethics",
+      "theme_label": "Integrity and ethics",
+      "years": "2020,2021"
+    },
+    {
+      "company_years": 97,
+      "event_window": "covid_dei_governance_window",
+      "mean_matches_per_10k_words": 28.299315,
+      "presence_rate": 1.0,
+      "theme_id": "diversity_equity_and_inclusion",
+      "theme_label": "Diversity, equity, and inclusion",
+      "years": "2020,2021"
+    },
+    {
+      "company_years": 97,
+      "event_window": "covid_dei_governance_window",
+      "mean_matches_per_10k_words": 4.965518,
+      "presence_rate": 0.969072,
+      "theme_id": "social_impact_and_community",
+      "theme_label": "Social impact and community",
+      "years": "2020,2021"
+    },
+    {
+      "company_years": 97,
+      "event_window": "covid_dei_governance_window",
+      "mean_matches_per_10k_words": 12.993112,
+      "presence_rate": 0.989691,
+      "theme_id": "environment_and_sustainability",
+      "theme_label": "Environment and sustainability",
+      "years": "2020,2021"
+    },
+    {
+      "company_years": 97,
+      "event_window": "covid_dei_governance_window",
+      "mean_matches_per_10k_words": 11.256921,
+      "presence_rate": 1.0,
+      "theme_id": "health_safety_and_wellbeing",
+      "theme_label": "Health, safety, and wellbeing",
+      "years": "2020,2021"
+    },
+    {
+      "company_years": 97,
+      "event_window": "covid_dei_governance_window",
+      "mean_matches_per_10k_words": 39.338228,
+      "presence_rate": 1.0,
+      "theme_id": "shareholders_and_performance",
+      "theme_label": "Shareholders and performance",
+      "years": "2020,2021"
+    },
+    {
+      "company_years": 97,
+      "event_window": "covid_dei_governance_window",
+      "mean_matches_per_10k_words": 25.275131,
+      "presence_rate": 1.0,
+      "theme_id": "leadership_and_accountability",
+      "theme_label": "Leadership and accountability",
+      "years": "2020,2021"
+    },
+    {
+      "company_years": 97,
+      "event_window": "covid_dei_governance_window",
+      "mean_matches_per_10k_words": 3.119005,
+      "presence_rate": 1.0,
+      "theme_id": "collaboration_and_partnership",
+      "theme_label": "Collaboration and partnership",
+      "years": "2020,2021"
+    },
+    {
+      "company_years": 97,
+      "event_window": "covid_dei_governance_window",
+      "mean_matches_per_10k_words": 1.002917,
+      "presence_rate": 0.773196,
+      "theme_id": "purpose_and_identity",
+      "theme_label": "Purpose and identity",
+      "years": "2020,2021"
+    },
+    {
+      "company_years": 145,
+      "event_window": "post_2021",
+      "mean_matches_per_10k_words": 17.787532,
+      "presence_rate": 1.0,
+      "theme_id": "customers_and_service",
+      "theme_label": "Customers and service",
+      "years": "2022,2023,2024"
+    },
+    {
+      "company_years": 145,
+      "event_window": "post_2021",
+      "mean_matches_per_10k_words": 29.825782,
+      "presence_rate": 1.0,
+      "theme_id": "employees_and_workplace",
+      "theme_label": "Employees and workplace",
+      "years": "2022,2023,2024"
+    },
+    {
+      "company_years": 145,
+      "event_window": "post_2021",
+      "mean_matches_per_10k_words": 4.814863,
+      "presence_rate": 0.97931,
+      "theme_id": "innovation_and_excellence",
+      "theme_label": "Innovation and excellence",
+      "years": "2022,2023,2024"
+    },
+    {
+      "company_years": 145,
+      "event_window": "post_2021",
+      "mean_matches_per_10k_words": 7.6735,
+      "presence_rate": 1.0,
+      "theme_id": "integrity_and_ethics",
+      "theme_label": "Integrity and ethics",
+      "years": "2022,2023,2024"
+    },
+    {
+      "company_years": 145,
+      "event_window": "post_2021",
+      "mean_matches_per_10k_words": 29.825432,
+      "presence_rate": 1.0,
+      "theme_id": "diversity_equity_and_inclusion",
+      "theme_label": "Diversity, equity, and inclusion",
+      "years": "2022,2023,2024"
+    },
+    {
+      "company_years": 145,
+      "event_window": "post_2021",
+      "mean_matches_per_10k_words": 4.666216,
+      "presence_rate": 1.0,
+      "theme_id": "social_impact_and_community",
+      "theme_label": "Social impact and community",
+      "years": "2022,2023,2024"
+    },
+    {
+      "company_years": 145,
+      "event_window": "post_2021",
+      "mean_matches_per_10k_words": 21.706785,
+      "presence_rate": 1.0,
+      "theme_id": "environment_and_sustainability",
+      "theme_label": "Environment and sustainability",
+      "years": "2022,2023,2024"
+    },
+    {
+      "company_years": 145,
+      "event_window": "post_2021",
+      "mean_matches_per_10k_words": 13.07563,
+      "presence_rate": 1.0,
+      "theme_id": "health_safety_and_wellbeing",
+      "theme_label": "Health, safety, and wellbeing",
+      "years": "2022,2023,2024"
+    },
+    {
+      "company_years": 145,
+      "event_window": "post_2021",
+      "mean_matches_per_10k_words": 40.133548,
+      "presence_rate": 1.0,
+      "theme_id": "shareholders_and_performance",
+      "theme_label": "Shareholders and performance",
+      "years": "2022,2023,2024"
+    },
+    {
+      "company_years": 145,
+      "event_window": "post_2021",
+      "mean_matches_per_10k_words": 26.282187,
+      "presence_rate": 1.0,
+      "theme_id": "leadership_and_accountability",
+      "theme_label": "Leadership and accountability",
+      "years": "2022,2023,2024"
+    },
+    {
+      "company_years": 145,
+      "event_window": "post_2021",
+      "mean_matches_per_10k_words": 3.38229,
+      "presence_rate": 1.0,
+      "theme_id": "collaboration_and_partnership",
+      "theme_label": "Collaboration and partnership",
+      "years": "2022,2023,2024"
+    },
+    {
+      "company_years": 145,
+      "event_window": "post_2021",
+      "mean_matches_per_10k_words": 1.123782,
+      "presence_rate": 0.848276,
+      "theme_id": "purpose_and_identity",
+      "theme_label": "Purpose and identity",
+      "years": "2022,2023,2024"
+    }
+  ],
+  "event_window_theme_changes": [
+    {
+      "covid_dei_governance_window_rate": 28.299315,
+      "post_2021_rate": 29.825432,
+      "post_minus_pre": 8.289614,
+      "pre_2020_rate": 21.535818,
+      "theme_id": "diversity_equity_and_inclusion",
+      "theme_label": "Diversity, equity, and inclusion",
+      "window_minus_pre": 6.763497
+    },
+    {
+      "covid_dei_governance_window_rate": 31.402481,
+      "post_2021_rate": 29.825782,
+      "post_minus_pre": 4.674425,
+      "pre_2020_rate": 25.151357,
+      "theme_id": "employees_and_workplace",
+      "theme_label": "Employees and workplace",
+      "window_minus_pre": 6.251124
+    },
+    {
+      "covid_dei_governance_window_rate": 12.993112,
+      "post_2021_rate": 21.706785,
+      "post_minus_pre": 13.650807,
+      "pre_2020_rate": 8.055978,
+      "theme_id": "environment_and_sustainability",
+      "theme_label": "Environment and sustainability",
+      "window_minus_pre": 4.937134
+    },
+    {
+      "covid_dei_governance_window_rate": 39.338228,
+      "post_2021_rate": 40.133548,
+      "post_minus_pre": 4.926744,
+      "pre_2020_rate": 35.206804,
+      "theme_id": "shareholders_and_performance",
+      "theme_label": "Shareholders and performance",
+      "window_minus_pre": 4.131424
+    },
+    {
+      "covid_dei_governance_window_rate": 11.256921,
+      "post_2021_rate": 13.07563,
+      "post_minus_pre": 4.894224,
+      "pre_2020_rate": 8.181406,
+      "theme_id": "health_safety_and_wellbeing",
+      "theme_label": "Health, safety, and wellbeing",
+      "window_minus_pre": 3.075515
+    },
+    {
+      "covid_dei_governance_window_rate": 4.965518,
+      "post_2021_rate": 4.666216,
+      "post_minus_pre": 2.565775,
+      "pre_2020_rate": 2.100441,
+      "theme_id": "social_impact_and_community",
+      "theme_label": "Social impact and community",
+      "window_minus_pre": 2.865077
+    },
+    {
+      "covid_dei_governance_window_rate": 17.613857,
+      "post_2021_rate": 17.787532,
+      "post_minus_pre": 2.156562,
+      "pre_2020_rate": 15.63097,
+      "theme_id": "customers_and_service",
+      "theme_label": "Customers and service",
+      "window_minus_pre": 1.982887
+    },
+    {
+      "covid_dei_governance_window_rate": 25.275131,
+      "post_2021_rate": 26.282187,
+      "post_minus_pre": 2.687341,
+      "pre_2020_rate": 23.594846,
+      "theme_id": "leadership_and_accountability",
+      "theme_label": "Leadership and accountability",
+      "window_minus_pre": 1.680285
+    },
+    {
+      "covid_dei_governance_window_rate": 3.119005,
+      "post_2021_rate": 3.38229,
+      "post_minus_pre": 1.167231,
+      "pre_2020_rate": 2.215059,
+      "theme_id": "collaboration_and_partnership",
+      "theme_label": "Collaboration and partnership",
+      "window_minus_pre": 0.903946
+    },
+    {
+      "covid_dei_governance_window_rate": 3.752037,
+      "post_2021_rate": 4.814863,
+      "post_minus_pre": 1.891652,
+      "pre_2020_rate": 2.923211,
+      "theme_id": "innovation_and_excellence",
+      "theme_label": "Innovation and excellence",
+      "window_minus_pre": 0.828826
+    },
+    {
+      "covid_dei_governance_window_rate": 1.002917,
+      "post_2021_rate": 1.123782,
+      "post_minus_pre": 0.561792,
+      "pre_2020_rate": 0.56199,
+      "theme_id": "purpose_and_identity",
+      "theme_label": "Purpose and identity",
+      "window_minus_pre": 0.440927
+    },
+    {
+      "covid_dei_governance_window_rate": 6.779474,
+      "post_2021_rate": 7.6735,
+      "post_minus_pre": 1.166735,
+      "pre_2020_rate": 6.506765,
+      "theme_id": "integrity_and_ethics",
+      "theme_label": "Integrity and ethics",
+      "window_minus_pre": 0.272709
+    }
+  ],
+  "largest_company_theme_increases": [
+    {
+      "change_per_10k_words": 57.791437,
+      "company_name": "Thermo Fisher Scientific",
+      "first_rate_per_10k_words": 3.402807,
+      "first_year": 2016,
+      "last_rate_per_10k_words": 61.194244,
+      "last_year": 2024,
+      "observed_years": 9,
+      "sector": "Healthcare",
+      "theme_id": "shareholders_and_performance",
+      "theme_label": "Shareholders and performance",
+      "ticker": "TMO"
+    },
+    {
+      "change_per_10k_words": 55.500862,
+      "company_name": "Bank of America",
+      "first_rate_per_10k_words": 3.221946,
+      "first_year": 2016,
+      "last_rate_per_10k_words": 58.722808,
+      "last_year": 2024,
+      "observed_years": 9,
+      "sector": "Financials",
+      "theme_id": "shareholders_and_performance",
+      "theme_label": "Shareholders and performance",
+      "ticker": "BAC"
+    },
+    {
+      "change_per_10k_words": 53.087378,
+      "company_name": "Valero Energy",
+      "first_rate_per_10k_words": 2.277527,
+      "first_year": 2016,
+      "last_rate_per_10k_words": 55.364905,
+      "last_year": 2024,
+      "observed_years": 9,
+      "sector": "Energy",
+      "theme_id": "environment_and_sustainability",
+      "theme_label": "Environment and sustainability",
+      "ticker": "VLO"
+    },
+    {
+      "change_per_10k_words": 48.2331,
+      "company_name": "Occidental Petroleum",
+      "first_rate_per_10k_words": 10.093364,
+      "first_year": 2016,
+      "last_rate_per_10k_words": 58.326463,
+      "last_year": 2024,
+      "observed_years": 9,
+      "sector": "Energy",
+      "theme_id": "shareholders_and_performance",
+      "theme_label": "Shareholders and performance",
+      "ticker": "OXY"
+    },
+    {
+      "change_per_10k_words": 47.348398,
+      "company_name": "Wells Fargo",
+      "first_rate_per_10k_words": 9.032404,
+      "first_year": 2016,
+      "last_rate_per_10k_words": 56.380801,
+      "last_year": 2024,
+      "observed_years": 9,
+      "sector": "Financials",
+      "theme_id": "shareholders_and_performance",
+      "theme_label": "Shareholders and performance",
+      "ticker": "WFC"
+    },
+    {
+      "change_per_10k_words": 42.332102,
+      "company_name": "Meta Platforms",
+      "first_rate_per_10k_words": 1.711631,
+      "first_year": 2016,
+      "last_rate_per_10k_words": 44.043733,
+      "last_year": 2024,
+      "observed_years": 9,
+      "sector": "Technology",
+      "theme_id": "shareholders_and_performance",
+      "theme_label": "Shareholders and performance",
+      "ticker": "META"
+    },
+    {
+      "change_per_10k_words": 40.880063,
+      "company_name": "Wells Fargo",
+      "first_rate_per_10k_words": 11.935676,
+      "first_year": 2016,
+      "last_rate_per_10k_words": 52.815739,
+      "last_year": 2024,
+      "observed_years": 9,
+      "sector": "Financials",
+      "theme_id": "employees_and_workplace",
+      "theme_label": "Employees and workplace",
+      "ticker": "WFC"
+    },
+    {
+      "change_per_10k_words": 39.252149,
+      "company_name": "Halliburton",
+      "first_rate_per_10k_words": 1.581153,
+      "first_year": 2016,
+      "last_rate_per_10k_words": 40.833302,
+      "last_year": 2024,
+      "observed_years": 9,
+      "sector": "Energy",
+      "theme_id": "shareholders_and_performance",
+      "theme_label": "Shareholders and performance",
+      "ticker": "HAL"
+    },
+    {
+      "change_per_10k_words": 39.196456,
+      "company_name": "TJX Companies",
+      "first_rate_per_10k_words": 4.026344,
+      "first_year": 2016,
+      "last_rate_per_10k_words": 43.2228,
+      "last_year": 2024,
+      "observed_years": 9,
+      "sector": "Consumer Discretionary",
+      "theme_id": "shareholders_and_performance",
+      "theme_label": "Shareholders and performance",
+      "ticker": "TJX"
+    },
+    {
+      "change_per_10k_words": 38.63463,
+      "company_name": "Apple",
+      "first_rate_per_10k_words": 23.059023,
+      "first_year": 2016,
+      "last_rate_per_10k_words": 61.693653,
+      "last_year": 2024,
+      "observed_years": 8,
+      "sector": "Technology",
+      "theme_id": "diversity_equity_and_inclusion",
+      "theme_label": "Diversity, equity, and inclusion",
+      "ticker": "AAPL"
+    }
+  ],
+  "linguistic_year_summary": [
+    {
+      "company_years": 48,
+      "mean_action_or_evidence_rate_per_100_words": 0.087135,
+      "mean_aspiration_rate_per_100_words": 0.015144,
+      "mean_average_sentence_length": 9.14625,
+      "mean_commitment_rate_per_100_words": 0.355298,
+      "mean_first_person_plural_rate_per_100_words": 1.212302,
+      "mean_quantified_claim_count": 3012.333333,
+      "mean_stakeholder_rate_per_100_words": 0.190231,
+      "mean_word_count": 47417.208333,
+      "median_word_count": 43266.5,
+      "year": 2016
+    },
+    {
+      "company_years": 48,
+      "mean_action_or_evidence_rate_per_100_words": 0.084002,
+      "mean_aspiration_rate_per_100_words": 0.014363,
+      "mean_average_sentence_length": 8.597312,
+      "mean_commitment_rate_per_100_words": 0.362606,
+      "mean_first_person_plural_rate_per_100_words": 1.28349,
+      "mean_quantified_claim_count": 3000.0,
+      "mean_stakeholder_rate_per_100_words": 0.20231,
+      "mean_word_count": 47744.5,
+      "median_word_count": 47037.0,
+      "year": 2017
+    },
+    {
+      "company_years": 47,
+      "mean_action_or_evidence_rate_per_100_words": 0.094153,
+      "mean_aspiration_rate_per_100_words": 0.018043,
+      "mean_average_sentence_length": 8.885851,
+      "mean_commitment_rate_per_100_words": 0.35897,
+      "mean_first_person_plural_rate_per_100_words": 1.346826,
+      "mean_quantified_claim_count": 3093.021277,
+      "mean_stakeholder_rate_per_100_words": 0.231604,
+      "mean_word_count": 47584.574468,
+      "median_word_count": 44441,
+      "year": 2018
+    },
+    {
+      "company_years": 49,
+      "mean_action_or_evidence_rate_per_100_words": 0.092084,
+      "mean_aspiration_rate_per_100_words": 0.018453,
+      "mean_average_sentence_length": 8.730755,
+      "mean_commitment_rate_per_100_words": 0.342027,
+      "mean_first_person_plural_rate_per_100_words": 1.446961,
+      "mean_quantified_claim_count": 3091.612245,
+      "mean_stakeholder_rate_per_100_words": 0.254484,
+      "mean_word_count": 48364.081633,
+      "median_word_count": 44321,
+      "year": 2019
+    },
+    {
+      "company_years": 49,
+      "mean_action_or_evidence_rate_per_100_words": 0.096027,
+      "mean_aspiration_rate_per_100_words": 0.018765,
+      "mean_average_sentence_length": 8.987673,
+      "mean_commitment_rate_per_100_words": 0.354008,
+      "mean_first_person_plural_rate_per_100_words": 1.516324,
+      "mean_quantified_claim_count": 3218.591837,
+      "mean_stakeholder_rate_per_100_words": 0.28032,
+      "mean_word_count": 51461.428571,
+      "median_word_count": 48104,
+      "year": 2020
+    },
+    {
+      "company_years": 48,
+      "mean_action_or_evidence_rate_per_100_words": 0.101152,
+      "mean_aspiration_rate_per_100_words": 0.019469,
+      "mean_average_sentence_length": 9.988729,
+      "mean_commitment_rate_per_100_words": 0.354844,
+      "mean_first_person_plural_rate_per_100_words": 1.629017,
+      "mean_quantified_claim_count": 3370.5625,
+      "mean_stakeholder_rate_per_100_words": 0.323858,
+      "mean_word_count": 55199.4375,
+      "median_word_count": 52838.5,
+      "year": 2021
+    },
+    {
+      "company_years": 48,
+      "mean_action_or_evidence_rate_per_100_words": 0.102448,
+      "mean_aspiration_rate_per_100_words": 0.022167,
+      "mean_average_sentence_length": 10.317604,
+      "mean_commitment_rate_per_100_words": 0.339963,
+      "mean_first_person_plural_rate_per_100_words": 1.649933,
+      "mean_quantified_claim_count": 3449.708333,
+      "mean_stakeholder_rate_per_100_words": 0.298231,
+      "mean_word_count": 57742.291667,
+      "median_word_count": 56880.0,
+      "year": 2022
+    },
+    {
+      "company_years": 49,
+      "mean_action_or_evidence_rate_per_100_words": 0.097069,
+      "mean_aspiration_rate_per_100_words": 0.024973,
+      "mean_average_sentence_length": 10.539082,
+      "mean_commitment_rate_per_100_words": 0.319898,
+      "mean_first_person_plural_rate_per_100_words": 1.739498,
+      "mean_quantified_claim_count": 3545.836735,
+      "mean_stakeholder_rate_per_100_words": 0.268463,
+      "mean_word_count": 57595.285714,
+      "median_word_count": 55201,
+      "year": 2023
+    },
+    {
+      "company_years": 48,
+      "mean_action_or_evidence_rate_per_100_words": 0.100558,
+      "mean_aspiration_rate_per_100_words": 0.024642,
+      "mean_average_sentence_length": 10.311833,
+      "mean_commitment_rate_per_100_words": 0.305969,
+      "mean_first_person_plural_rate_per_100_words": 1.6807,
+      "mean_quantified_claim_count": 3737.770833,
+      "mean_stakeholder_rate_per_100_words": 0.264937,
+      "mean_word_count": 60018.75,
+      "median_word_count": 53332.0,
+      "year": 2024
+    }
+  ],
+  "method": "Deterministic theme and linguistic analysis; no paid or external LLM used.",
+  "missing_rows": 16,
+  "sector_leading_themes": [
+    {
+      "leading_themes": [
+        {
+          "company_years": 88,
+          "mean_matches_per_10k_words": 53.021271,
+          "median_matches_per_10k_words": 55.064441,
+          "presence_rate": 1.0,
+          "sector": "Consumer Discretionary",
+          "theme_id": "shareholders_and_performance",
+          "theme_label": "Shareholders and performance"
+        },
+        {
+          "company_years": 88,
+          "mean_matches_per_10k_words": 27.799976,
+          "median_matches_per_10k_words": 28.218368,
+          "presence_rate": 1.0,
+          "sector": "Consumer Discretionary",
+          "theme_id": "leadership_and_accountability",
+          "theme_label": "Leadership and accountability"
+        },
+        {
+          "company_years": 88,
+          "mean_matches_per_10k_words": 25.190958,
+          "median_matches_per_10k_words": 22.997572,
+          "presence_rate": 1.0,
+          "sector": "Consumer Discretionary",
+          "theme_id": "diversity_equity_and_inclusion",
+          "theme_label": "Diversity, equity, and inclusion"
+        },
+        {
+          "company_years": 88,
+          "mean_matches_per_10k_words": 22.331522,
+          "median_matches_per_10k_words": 19.478579,
+          "presence_rate": 1.0,
+          "sector": "Consumer Discretionary",
+          "theme_id": "employees_and_workplace",
+          "theme_label": "Employees and workplace"
+        }
+      ],
+      "sector": "Consumer Discretionary"
+    },
+    {
+      "leading_themes": [
+        {
+          "company_years": 89,
+          "mean_matches_per_10k_words": 31.323554,
+          "median_matches_per_10k_words": 31.251469,
+          "presence_rate": 1.0,
+          "sector": "Energy",
+          "theme_id": "employees_and_workplace",
+          "theme_label": "Employees and workplace"
+        },
+        {
+          "company_years": 89,
+          "mean_matches_per_10k_words": 25.694593,
+          "median_matches_per_10k_words": 9.582293,
+          "presence_rate": 1.0,
+          "sector": "Energy",
+          "theme_id": "shareholders_and_performance",
+          "theme_label": "Shareholders and performance"
+        },
+        {
+          "company_years": 89,
+          "mean_matches_per_10k_words": 23.792844,
+          "median_matches_per_10k_words": 20.78282,
+          "presence_rate": 1.0,
+          "sector": "Energy",
+          "theme_id": "environment_and_sustainability",
+          "theme_label": "Environment and sustainability"
+        },
+        {
+          "company_years": 89,
+          "mean_matches_per_10k_words": 19.906867,
+          "median_matches_per_10k_words": 20.743008,
+          "presence_rate": 1.0,
+          "sector": "Energy",
+          "theme_id": "leadership_and_accountability",
+          "theme_label": "Leadership and accountability"
+        }
+      ],
+      "sector": "Energy"
+    },
+    {
+      "leading_themes": [
+        {
+          "company_years": 81,
+          "mean_matches_per_10k_words": 43.930975,
+          "median_matches_per_10k_words": 50.726989,
+          "presence_rate": 1.0,
+          "sector": "Financials",
+          "theme_id": "shareholders_and_performance",
+          "theme_label": "Shareholders and performance"
+        },
+        {
+          "company_years": 81,
+          "mean_matches_per_10k_words": 30.755621,
+          "median_matches_per_10k_words": 31.557404,
+          "presence_rate": 1.0,
+          "sector": "Financials",
+          "theme_id": "diversity_equity_and_inclusion",
+          "theme_label": "Diversity, equity, and inclusion"
+        },
+        {
+          "company_years": 81,
+          "mean_matches_per_10k_words": 30.134212,
+          "median_matches_per_10k_words": 28.97351,
+          "presence_rate": 1.0,
+          "sector": "Financials",
+          "theme_id": "employees_and_workplace",
+          "theme_label": "Employees and workplace"
+        },
+        {
+          "company_years": 81,
+          "mean_matches_per_10k_words": 28.993971,
+          "median_matches_per_10k_words": 28.817282,
+          "presence_rate": 1.0,
+          "sector": "Financials",
+          "theme_id": "leadership_and_accountability",
+          "theme_label": "Leadership and accountability"
+        }
+      ],
+      "sector": "Financials"
+    },
+    {
+      "leading_themes": [
+        {
+          "company_years": 90,
+          "mean_matches_per_10k_words": 47.259356,
+          "median_matches_per_10k_words": 49.768912,
+          "presence_rate": 1.0,
+          "sector": "Healthcare",
+          "theme_id": "shareholders_and_performance",
+          "theme_label": "Shareholders and performance"
+        },
+        {
+          "company_years": 90,
+          "mean_matches_per_10k_words": 28.689715,
+          "median_matches_per_10k_words": 25.794705,
+          "presence_rate": 1.0,
+          "sector": "Healthcare",
+          "theme_id": "employees_and_workplace",
+          "theme_label": "Employees and workplace"
+        },
+        {
+          "company_years": 90,
+          "mean_matches_per_10k_words": 23.07858,
+          "median_matches_per_10k_words": 22.150674,
+          "presence_rate": 1.0,
+          "sector": "Healthcare",
+          "theme_id": "diversity_equity_and_inclusion",
+          "theme_label": "Diversity, equity, and inclusion"
+        },
+        {
+          "company_years": 90,
+          "mean_matches_per_10k_words": 22.932742,
+          "median_matches_per_10k_words": 22.362805,
+          "presence_rate": 1.0,
+          "sector": "Healthcare",
+          "theme_id": "leadership_and_accountability",
+          "theme_label": "Leadership and accountability"
+        }
+      ],
+      "sector": "Healthcare"
+    },
+    {
+      "leading_themes": [
+        {
+          "company_years": 86,
+          "mean_matches_per_10k_words": 33.299123,
+          "median_matches_per_10k_words": 31.062126,
+          "presence_rate": 1.0,
+          "sector": "Technology",
+          "theme_id": "diversity_equity_and_inclusion",
+          "theme_label": "Diversity, equity, and inclusion"
+        },
+        {
+          "company_years": 86,
+          "mean_matches_per_10k_words": 28.18516,
+          "median_matches_per_10k_words": 26.958871,
+          "presence_rate": 1.0,
+          "sector": "Technology",
+          "theme_id": "employees_and_workplace",
+          "theme_label": "Employees and workplace"
+        },
+        {
+          "company_years": 86,
+          "mean_matches_per_10k_words": 25.142414,
+          "median_matches_per_10k_words": 24.809357,
+          "presence_rate": 1.0,
+          "sector": "Technology",
+          "theme_id": "leadership_and_accountability",
+          "theme_label": "Leadership and accountability"
+        },
+        {
+          "company_years": 86,
+          "mean_matches_per_10k_words": 18.958574,
+          "median_matches_per_10k_words": 7.985333,
+          "presence_rate": 1.0,
+          "sector": "Technology",
+          "theme_id": "shareholders_and_performance",
+          "theme_label": "Shareholders and performance"
+        }
+      ],
+      "sector": "Technology"
+    }
+  ],
+  "theme_sector_rows": 60,
+  "theme_year_rows": 108,
+  "top_adjacent_theme_shifts": [
+    {
+      "absolute_change_per_10k_words": 64.94209,
+      "change_per_10k_words": 64.94209,
+      "company_name": "Bank of America",
+      "prior_rate_per_10k_words": 7.405043,
+      "prior_year": 2019,
+      "rate_per_10k_words": 72.347133,
+      "sector": "Financials",
+      "theme_id": "shareholders_and_performance",
+      "theme_label": "Shareholders and performance",
+      "ticker": "BAC",
+      "year": 2020
+    },
+    {
+      "absolute_change_per_10k_words": 49.721894,
+      "change_per_10k_words": -49.721894,
+      "company_name": "Berkshire Hathaway",
+      "prior_rate_per_10k_words": 49.721894,
+      "prior_year": 2018,
+      "rate_per_10k_words": 0.0,
+      "sector": "Financials",
+      "theme_id": "environment_and_sustainability",
+      "theme_label": "Environment and sustainability",
+      "ticker": "BRK.B",
+      "year": 2019
+    },
+    {
+      "absolute_change_per_10k_words": 45.019723,
+      "change_per_10k_words": 45.019723,
+      "company_name": "Apple",
+      "prior_rate_per_10k_words": 41.441315,
+      "prior_year": 2022,
+      "rate_per_10k_words": 86.461038,
+      "sector": "Technology",
+      "theme_id": "shareholders_and_performance",
+      "theme_label": "Shareholders and performance",
+      "ticker": "AAPL",
+      "year": 2023
+    },
+    {
+      "absolute_change_per_10k_words": 44.764844,
+      "change_per_10k_words": 44.764844,
+      "company_name": "Nike",
+      "prior_rate_per_10k_words": 13.090187,
+      "prior_year": 2020,
+      "rate_per_10k_words": 57.855031,
+      "sector": "Consumer Discretionary",
+      "theme_id": "diversity_equity_and_inclusion",
+      "theme_label": "Diversity, equity, and inclusion",
+      "ticker": "NKE",
+      "year": 2021
+    },
+    {
+      "absolute_change_per_10k_words": 44.331416,
+      "change_per_10k_words": 44.331416,
+      "company_name": "Thermo Fisher Scientific",
+      "prior_rate_per_10k_words": 5.549876,
+      "prior_year": 2018,
+      "rate_per_10k_words": 49.881292,
+      "sector": "Healthcare",
+      "theme_id": "shareholders_and_performance",
+      "theme_label": "Shareholders and performance",
+      "ticker": "TMO",
+      "year": 2019
+    },
+    {
+      "absolute_change_per_10k_words": 40.633717,
+      "change_per_10k_words": 40.633717,
+      "company_name": "Meta Platforms",
+      "prior_rate_per_10k_words": 8.157119,
+      "prior_year": 2020,
+      "rate_per_10k_words": 48.790836,
+      "sector": "Technology",
+      "theme_id": "shareholders_and_performance",
+      "theme_label": "Shareholders and performance",
+      "ticker": "META",
+      "year": 2021
+    },
+    {
+      "absolute_change_per_10k_words": 40.11806,
+      "change_per_10k_words": -40.11806,
+      "company_name": "Nike",
+      "prior_rate_per_10k_words": 57.855031,
+      "prior_year": 2021,
+      "rate_per_10k_words": 17.736971,
+      "sector": "Consumer Discretionary",
+      "theme_id": "diversity_equity_and_inclusion",
+      "theme_label": "Diversity, equity, and inclusion",
+      "ticker": "NKE",
+      "year": 2022
+    },
+    {
+      "absolute_change_per_10k_words": 39.19108,
+      "change_per_10k_words": 39.19108,
+      "company_name": "Halliburton",
+      "prior_rate_per_10k_words": 2.678332,
+      "prior_year": 2018,
+      "rate_per_10k_words": 41.869413,
+      "sector": "Energy",
+      "theme_id": "shareholders_and_performance",
+      "theme_label": "Shareholders and performance",
+      "ticker": "HAL",
+      "year": 2019
+    },
+    {
+      "absolute_change_per_10k_words": 36.343514,
+      "change_per_10k_words": 36.343514,
+      "company_name": "SLB (Schlumberger)",
+      "prior_rate_per_10k_words": 5.443119,
+      "prior_year": 2022,
+      "rate_per_10k_words": 41.786633,
+      "sector": "Energy",
+      "theme_id": "shareholders_and_performance",
+      "theme_label": "Shareholders and performance",
+      "ticker": "SLB",
+      "year": 2023
+    },
+    {
+      "absolute_change_per_10k_words": 35.260984,
+      "change_per_10k_words": 35.260984,
+      "company_name": "Valero Energy",
+      "prior_rate_per_10k_words": 17.115032,
+      "prior_year": 2021,
+      "rate_per_10k_words": 52.376016,
+      "sector": "Energy",
+      "theme_id": "environment_and_sustainability",
+      "theme_label": "Environment and sustainability",
+      "ticker": "VLO",
+      "year": 2022
+    }
+  ],
+  "top_overall_themes": [
+    {
+      "mean_matches_per_10k_words": 37.776219,
+      "presence_rate": 1.0,
+      "theme_id": "shareholders_and_performance",
+      "theme_label": "Shareholders and performance"
+    },
+    {
+      "mean_matches_per_10k_words": 28.110229,
+      "presence_rate": 1.0,
+      "theme_id": "employees_and_workplace",
+      "theme_label": "Employees and workplace"
+    },
+    {
+      "mean_matches_per_10k_words": 25.817046,
+      "presence_rate": 1.0,
+      "theme_id": "diversity_equity_and_inclusion",
+      "theme_label": "Diversity, equity, and inclusion"
+    },
+    {
+      "mean_matches_per_10k_words": 24.868238,
+      "presence_rate": 1.0,
+      "theme_id": "leadership_and_accountability",
+      "theme_label": "Leadership and accountability"
+    },
+    {
+      "mean_matches_per_10k_words": 16.79466,
+      "presence_rate": 0.997696,
+      "theme_id": "customers_and_service",
+      "theme_label": "Customers and service"
+    },
+    {
+      "mean_matches_per_10k_words": 13.720192,
+      "presence_rate": 0.988479,
+      "theme_id": "environment_and_sustainability",
+      "theme_label": "Environment and sustainability"
+    },
+    {
+      "mean_matches_per_10k_words": 10.503958,
+      "presence_rate": 1.0,
+      "theme_id": "health_safety_and_wellbeing",
+      "theme_label": "Health, safety, and wellbeing"
+    },
+    {
+      "mean_matches_per_10k_words": 6.957524,
+      "presence_rate": 1.0,
+      "theme_id": "integrity_and_ethics",
+      "theme_label": "Integrity and ethics"
+    }
+  ],
+  "top_sector_theme_rates": [
+    {
+      "company_years": 88,
+      "mean_matches_per_10k_words": 53.021271,
+      "median_matches_per_10k_words": 55.064441,
+      "presence_rate": 1.0,
+      "sector": "Consumer Discretionary",
+      "theme_id": "shareholders_and_performance",
+      "theme_label": "Shareholders and performance"
+    },
+    {
+      "company_years": 90,
+      "mean_matches_per_10k_words": 47.259356,
+      "median_matches_per_10k_words": 49.768912,
+      "presence_rate": 1.0,
+      "sector": "Healthcare",
+      "theme_id": "shareholders_and_performance",
+      "theme_label": "Shareholders and performance"
+    },
+    {
+      "company_years": 81,
+      "mean_matches_per_10k_words": 43.930975,
+      "median_matches_per_10k_words": 50.726989,
+      "presence_rate": 1.0,
+      "sector": "Financials",
+      "theme_id": "shareholders_and_performance",
+      "theme_label": "Shareholders and performance"
+    },
+    {
+      "company_years": 86,
+      "mean_matches_per_10k_words": 33.299123,
+      "median_matches_per_10k_words": 31.062126,
+      "presence_rate": 1.0,
+      "sector": "Technology",
+      "theme_id": "diversity_equity_and_inclusion",
+      "theme_label": "Diversity, equity, and inclusion"
+    },
+    {
+      "company_years": 89,
+      "mean_matches_per_10k_words": 31.323554,
+      "median_matches_per_10k_words": 31.251469,
+      "presence_rate": 1.0,
+      "sector": "Energy",
+      "theme_id": "employees_and_workplace",
+      "theme_label": "Employees and workplace"
+    },
+    {
+      "company_years": 81,
+      "mean_matches_per_10k_words": 30.755621,
+      "median_matches_per_10k_words": 31.557404,
+      "presence_rate": 1.0,
+      "sector": "Financials",
+      "theme_id": "diversity_equity_and_inclusion",
+      "theme_label": "Diversity, equity, and inclusion"
+    },
+    {
+      "company_years": 81,
+      "mean_matches_per_10k_words": 30.134212,
+      "median_matches_per_10k_words": 28.97351,
+      "presence_rate": 1.0,
+      "sector": "Financials",
+      "theme_id": "employees_and_workplace",
+      "theme_label": "Employees and workplace"
+    },
+    {
+      "company_years": 81,
+      "mean_matches_per_10k_words": 28.993971,
+      "median_matches_per_10k_words": 28.817282,
+      "presence_rate": 1.0,
+      "sector": "Financials",
+      "theme_id": "leadership_and_accountability",
+      "theme_label": "Leadership and accountability"
+    },
+    {
+      "company_years": 90,
+      "mean_matches_per_10k_words": 28.689715,
+      "median_matches_per_10k_words": 25.794705,
+      "presence_rate": 1.0,
+      "sector": "Healthcare",
+      "theme_id": "employees_and_workplace",
+      "theme_label": "Employees and workplace"
+    },
+    {
+      "company_years": 86,
+      "mean_matches_per_10k_words": 28.18516,
+      "median_matches_per_10k_words": 26.958871,
+      "presence_rate": 1.0,
+      "sector": "Technology",
+      "theme_id": "employees_and_workplace",
+      "theme_label": "Employees and workplace"
+    }
+  ],
+  "word_count": {
+    "max": 252612,
+    "median": 49783.0,
+    "min": 9932
+  }
+}

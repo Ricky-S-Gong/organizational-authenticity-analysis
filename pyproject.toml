@@ -5,8 +5,15 @@ description = "Research pipeline for organizational authenticity and corporate v
 readme = "README.md"
 requires-python = ">=3.12,<3.13"
 dependencies = [
+    "en-core-web-sm",
     "httpx>=0.28.1",
+    "matplotlib>=3.10.9",
     "pydantic>=2.12.5",
+    "scikit-learn>=1.9.0",
+    "seaborn>=0.13.2",
+    "sentence-transformers>=5.5.1",
+    "spacy>=3.8.14",
+    "transformers>=5.10.2",
 ]
 
 [dependency-groups]
@@ -16,13 +23,11 @@ dev = [
 ]
 
 [project.scripts]
-part1-build-targets = "org_auth_part1.targets:main"
-part1-query-cdx = "org_auth_part1.cdx:main"
-part1-validate-registry = "org_auth_part1.registry:main"
+part1-run = "org_auth_part1.run:main"
+part1-run-status = "org_auth_part1.status:main"
 part1-discover = "org_auth_part1.discover:main"
 part1-select = "org_auth_part1.acquire:main"
 part1-process = "org_auth_part1.pipeline:main"
-part1-validate = "org_auth_part1.validate:main"
 part1-validate-phases = "org_auth_part1.phase_validation:main"
 
 [build-system]
@@ -44,3 +49,6 @@ target-version = "py312"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.uv.sources]
+en-core-web-sm = { url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl" }

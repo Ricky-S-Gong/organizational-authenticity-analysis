@@ -1,0 +1,109 @@
+year,theme_id,theme_label,company_years,presence_rate,mean_matches_per_10k_words,median_matches_per_10k_words,total_matches
+2016,collaboration_and_partnership,Collaboration and partnership,48,1.0,2.185932,2.066392,542
+2016,customers_and_service,Customers and service,48,0.979167,15.133316,14.306687,3471
+2016,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",48,1.0,19.628065,18.690258,4387
+2016,employees_and_workplace,Employees and workplace,48,1.0,22.613252,22.413909,5279
+2016,environment_and_sustainability,Environment and sustainability,48,0.979167,7.233404,4.16604,1527
+2016,health_safety_and_wellbeing,"Health, safety, and wellbeing",48,1.0,7.991297,6.935077,1762
+2016,innovation_and_excellence,Innovation and excellence,48,0.958333,2.62229,1.840596,650
+2016,integrity_and_ethics,Integrity and ethics,48,1.0,6.167751,5.836242,1431
+2016,leadership_and_accountability,Leadership and accountability,48,1.0,22.850398,20.887814,4986
+2016,purpose_and_identity,Purpose and identity,48,0.583333,0.343339,0.214424,80
+2016,shareholders_and_performance,Shareholders and performance,48,1.0,34.132007,41.757856,7206
+2016,social_impact_and_community,Social impact and community,48,0.9375,1.653226,1.290958,389
+2017,collaboration_and_partnership,Collaboration and partnership,48,0.979167,1.904838,1.772088,446
+2017,customers_and_service,Customers and service,48,1.0,15.064324,15.359028,3636
+2017,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",48,1.0,21.091452,19.223424,4883
+2017,employees_and_workplace,Employees and workplace,48,1.0,23.573707,23.038592,5668
+2017,environment_and_sustainability,Environment and sustainability,48,0.979167,7.309882,4.124686,1584
+2017,health_safety_and_wellbeing,"Health, safety, and wellbeing",48,1.0,7.533442,6.194416,1709
+2017,innovation_and_excellence,Innovation and excellence,48,0.979167,2.8122,1.731583,683
+2017,integrity_and_ethics,Integrity and ethics,48,1.0,6.73828,5.839565,1533
+2017,leadership_and_accountability,Leadership and accountability,48,1.0,22.378459,20.346383,5100
+2017,purpose_and_identity,Purpose and identity,48,0.645833,0.46154,0.277413,109
+2017,shareholders_and_performance,Shareholders and performance,48,1.0,34.437103,37.767893,7425
+2017,social_impact_and_community,Social impact and community,48,0.9375,1.775765,1.502734,416
+2018,collaboration_and_partnership,Collaboration and partnership,47,0.978723,2.348449,2.217787,531
+2018,customers_and_service,Customers and service,47,1.0,15.904649,14.448446,3718
+2018,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",47,1.0,21.380746,20.328064,4824
+2018,employees_and_workplace,Employees and workplace,47,1.0,25.931231,26.380874,5928
+2018,environment_and_sustainability,Environment and sustainability,47,0.978723,8.018867,6.160518,1674
+2018,health_safety_and_wellbeing,"Health, safety, and wellbeing",47,1.0,8.281943,7.16435,1783
+2018,innovation_and_excellence,Innovation and excellence,47,0.957447,2.947387,1.775433,688
+2018,integrity_and_ethics,Integrity and ethics,47,1.0,6.4293,5.651846,1418
+2018,leadership_and_accountability,Leadership and accountability,47,1.0,24.379543,22.093814,5372
+2018,purpose_and_identity,Purpose and identity,47,0.680851,0.641562,0.275334,145
+2018,shareholders_and_performance,Shareholders and performance,47,1.0,35.480398,42.548775,7378
+2018,social_impact_and_community,Social impact and community,47,0.93617,2.139101,1.575122,505
+2019,collaboration_and_partnership,Collaboration and partnership,49,1.0,2.419535,2.433748,599
+2019,customers_and_service,Customers and service,49,1.0,16.41104,15.617399,4061
+2019,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",49,1.0,23.988675,22.874112,5753
+2019,employees_and_workplace,Employees and workplace,49,1.0,28.435074,26.929392,6829
+2019,environment_and_sustainability,Environment and sustainability,49,0.979592,9.628231,7.641365,2249
+2019,health_safety_and_wellbeing,"Health, safety, and wellbeing",49,1.0,8.905942,7.227775,2023
+2019,innovation_and_excellence,Innovation and excellence,49,0.979592,3.303548,2.824008,836
+2019,integrity_and_ethics,Integrity and ethics,49,1.0,6.686372,5.902839,1560
+2019,leadership_and_accountability,Leadership and accountability,49,1.0,24.762995,23.204751,5947
+2019,purpose_and_identity,Purpose and identity,49,0.673469,0.798253,0.270416,210
+2019,shareholders_and_performance,Shareholders and performance,49,1.0,36.751232,41.897978,7837
+2019,social_impact_and_community,Social impact and community,49,0.959184,2.819495,2.061165,717
+2020,collaboration_and_partnership,Collaboration and partnership,49,1.0,2.843886,2.42668,714
+2020,customers_and_service,Customers and service,49,1.0,17.443135,16.837666,4473
+2020,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",49,1.0,24.363716,22.243472,6230
+2020,employees_and_workplace,Employees and workplace,49,1.0,30.017366,29.609384,7682
+2020,environment_and_sustainability,Environment and sustainability,49,0.979592,11.886174,9.34409,2964
+2020,health_safety_and_wellbeing,"Health, safety, and wellbeing",49,1.0,10.052869,8.570816,2446
+2020,innovation_and_excellence,Innovation and excellence,49,0.979592,3.777397,3.169389,942
+2020,integrity_and_ethics,Integrity and ethics,49,1.0,6.816527,6.108087,1697
+2020,leadership_and_accountability,Leadership and accountability,49,1.0,25.268627,23.331539,6380
+2020,purpose_and_identity,Purpose and identity,49,0.714286,0.898287,0.625328,217
+2020,shareholders_and_performance,Shareholders and performance,49,1.0,39.102694,44.62877,9182
+2020,social_impact_and_community,Social impact and community,49,0.979592,4.11906,2.32978,1026
+2021,collaboration_and_partnership,Collaboration and partnership,48,1.0,3.399856,3.25998,913
+2021,customers_and_service,Customers and service,48,1.0,17.788135,17.91527,4919
+2021,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",48,1.0,32.316906,30.48449,8564
+2021,employees_and_workplace,Employees and workplace,48,1.0,32.816453,30.65386,9006
+2021,environment_and_sustainability,Environment and sustainability,48,1.0,14.123111,11.469634,3745
+2021,health_safety_and_wellbeing,"Health, safety, and wellbeing",48,1.0,12.486057,11.630395,3224
+2021,innovation_and_excellence,Innovation and excellence,48,0.958333,3.72615,3.34313,1013
+2021,integrity_and_ethics,Integrity and ethics,48,1.0,6.74165,6.513983,1773
+2021,leadership_and_accountability,Leadership and accountability,48,1.0,25.28177,22.749848,6754
+2021,purpose_and_identity,Purpose and identity,48,0.833333,1.109727,0.833472,296
+2021,shareholders_and_performance,Shareholders and performance,48,1.0,39.57867,46.258768,9839
+2021,social_impact_and_community,Social impact and community,48,0.958333,5.82961,4.476772,1574
+2022,collaboration_and_partnership,Collaboration and partnership,48,1.0,3.484231,3.14925,999
+2022,customers_and_service,Customers and service,48,1.0,17.208748,16.327609,4929
+2022,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",48,1.0,30.140442,29.533968,8582
+2022,employees_and_workplace,Employees and workplace,48,1.0,31.877152,30.706977,9153
+2022,environment_and_sustainability,Environment and sustainability,48,1.0,20.521803,15.607804,5677
+2022,health_safety_and_wellbeing,"Health, safety, and wellbeing",48,1.0,12.949174,10.622167,3651
+2022,innovation_and_excellence,Innovation and excellence,48,0.958333,4.200353,3.274546,1204
+2022,integrity_and_ethics,Integrity and ethics,48,1.0,7.177823,6.467109,2020
+2022,leadership_and_accountability,Leadership and accountability,48,1.0,25.27594,24.688707,7100
+2022,purpose_and_identity,Purpose and identity,48,0.791667,0.956278,0.627588,272
+2022,shareholders_and_performance,Shareholders and performance,48,1.0,38.018313,45.668562,9924
+2022,social_impact_and_community,Social impact and community,48,1.0,5.094861,3.740689,1541
+2023,collaboration_and_partnership,Collaboration and partnership,49,1.0,3.191724,2.995037,926
+2023,customers_and_service,Customers and service,49,1.0,18.042231,17.115295,5325
+2023,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",49,1.0,31.036031,28.831638,8735
+2023,employees_and_workplace,Employees and workplace,49,1.0,28.599611,27.406646,8340
+2023,environment_and_sustainability,Environment and sustainability,49,1.0,22.443118,18.115614,6511
+2023,health_safety_and_wellbeing,"Health, safety, and wellbeing",49,1.0,13.040155,10.602062,3668
+2023,innovation_and_excellence,Innovation and excellence,49,1.0,4.800697,4.00808,1378
+2023,integrity_and_ethics,Integrity and ethics,49,1.0,7.792606,7.31548,2216
+2023,leadership_and_accountability,Leadership and accountability,49,1.0,26.617777,23.96056,7646
+2023,purpose_and_identity,Purpose and identity,49,0.857143,1.211772,0.742446,342
+2023,shareholders_and_performance,Shareholders and performance,49,1.0,42.343602,50.980998,11422
+2023,social_impact_and_community,Social impact and community,49,1.0,4.71161,3.95971,1406
+2024,collaboration_and_partnership,Collaboration and partnership,48,1.0,3.474886,3.053353,998
+2024,customers_and_service,Customers and service,48,1.0,18.10631,17.58451,5206
+2024,diversity_equity_and_inclusion,"Diversity, equity, and inclusion",48,1.0,28.274601,25.05954,7767
+2024,employees_and_workplace,Employees and workplace,48,1.0,29.026128,27.900283,8196
+2024,environment_and_sustainability,Environment and sustainability,48,1.0,22.140092,18.0707,6130
+2024,health_safety_and_wellbeing,"Health, safety, and wellbeing",48,1.0,13.238301,11.170223,3575
+2024,innovation_and_excellence,Innovation and excellence,48,0.979167,5.443833,4.432675,1495
+2024,integrity_and_ethics,Integrity and ethics,48,1.0,8.04759,7.255034,2205
+2024,leadership_and_accountability,Leadership and accountability,48,1.0,26.945852,25.079802,7587
+2024,purpose_and_identity,Purpose and identity,48,0.895833,1.201464,0.640821,343
+2024,shareholders_and_performance,Shareholders and performance,48,1.0,39.992687,47.903117,11258
+2024,social_impact_and_community,Social impact and community,48,1.0,4.191232,3.195271,1238

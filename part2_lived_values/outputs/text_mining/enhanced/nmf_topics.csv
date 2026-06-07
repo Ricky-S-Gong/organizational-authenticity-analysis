@@ -1,0 +1,9 @@
+topic_id,topic_label,top_terms,reconstruction_error,n_iter
+nmf_topic_1,stockholders / awards / 2016 / 2017,stockholders; awards; 2016; 2017; proposal; meeting stockholders; stockholder; summary; stock; approval; 2018; transaction,17.10187,246
+nmf_topic_2,strategy / shareholders / company / billion,strategy; shareholders; company; billion; commitment; new; strong; long; years; growth; work; team,17.10187,246
+nmf_topic_3,stockholders / meeting stockholders / stockholder / proxy materials,stockholders; meeting stockholders; stockholder; proxy materials; california; internet; stockholder proposal; pacific time; printed; proposal regarding; 00 pacific; pacific,17.10187,246
+nmf_topic_4,2023 / 2022 / shareholders / shareholder,2023; 2022; shareholders; shareholder; virtual; proposal; shareholder proposal; 2024; meeting shareholders; www virtualshareholdermeeting; virtualshareholdermeeting; virtualshareholdermeeting com,17.10187,246
+nmf_topic_5,class stock / berkshire / berkshire hathaway / hathaway,class stock; berkshire; berkshire hathaway; hathaway; omaha; nebraska; omaha nebraska; street omaha; resignation; shall; decide; stock class,17.10187,246
+nmf_topic_6,abbott / abbvie / item proxy / abbott laboratories,abbott; abbvie; item proxy; abbott laboratories; laboratories; vote approval; item; compensation item; park; illinois; pay advisory; abbott park,17.10187,246
+nmf_topic_7,forward looking / looking statements / statements / looking,forward looking; looking statements; statements; looking; forward; differ; actual results; uncertainties; goldman; goldman sachs; sachs; risks uncertainties,17.10187,246
+nmf_topic_8,annual general / general meeting / irish / medtronic,annual general; general meeting; irish; medtronic; irish statutory; statutory financial; statutory; irish law; general; financial statements; ordinary; statements,17.10187,246

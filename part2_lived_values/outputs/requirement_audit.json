@@ -1,0 +1,12 @@
+{
+  "all_rows_have_status_or_gap": true,
+  "collected_rows": 434,
+  "document_type": "DEF 14A",
+  "free_reproducible_source": true,
+  "manual_review_required_rows": 16,
+  "one_document_type": true,
+  "same_50_company_grid": true,
+  "successful_rows_have_source_hash_and_text_metrics": true,
+  "target_rows": 450,
+  "year_window": true
+}
