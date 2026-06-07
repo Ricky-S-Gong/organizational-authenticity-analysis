@@ -1,14 +1,67 @@
 # Part 2: Lived Values
 
-Part 2 collects and analyzes one auditable disclosure type for the same 50 companies and
-2016-2024 window used in Part 1.
+Part 2 collects and analyzes lived-values disclosure for the same 50 companies and 2016-2024
+company-year window used in Part 1.
 
-## Design Choice
+## What I Did
+
+I built a reproducible SEC EDGAR pipeline that collects one `DEF 14A` proxy statement per
+company-year where available, extracts clean text, records source metadata and SHA256 hashes,
+computes deterministic theme and linguistic indicators, and generates reviewer-facing datasets,
+figures, tables, and analysis documents.
+
+The final run covers 434 of 450 target company-years. The remaining 16 rows are retained as
+documented missing observations rather than imputed or treated as zero disclosure.
+
+## Why This Design
 
 This pipeline uses SEC EDGAR `DEF 14A` proxy statements as the lived-values disclosure source.
 Proxy statements are not direct observations of behavior, but they are official, free,
 consistently archived, and highly reproducible. This makes them a stronger fit for an audited
 proof-of-concept than manually collected ESG or sustainability PDFs.
+
+The baseline analysis uses deterministic keyword/phrase matching and lexical metrics so the results
+can be reproduced and audited without paid APIs. I also added an exploratory open-source model
+layer, using TF-IDF/NMF, MiniLM embeddings, spaCy features, and sampled local FLAN-T5 annotations,
+to check whether model-based signals support or complicate the deterministic findings.
+
+## Assumptions
+
+- A calendar-year `DEF 14A` filing is a comparable annual disclosure artifact for each company-year.
+- The first calendar-year `DEF 14A` is the main proxy statement for that year; `DEFA14A`
+  supplemental filings are excluded for comparability.
+- SEC filing year is used as the analysis year.
+- Missing `DEF 14A` company-years are true collection gaps for this document type and should remain
+  missing in downstream analysis.
+- The Part 1-compatible keyword taxonomy is an auditable proxy for disclosed values language, not a
+  complete model of organizational culture.
+- Theme and tone rates should be normalized by document length because proxy statements vary
+  substantially in size.
+
+## Known Limitations
+
+- Proxy statements are legal and governance documents, not direct observations of workplace or
+  operational behavior.
+- Dictionary matches can capture boilerplate, shareholder proposal mechanics, or voting language;
+  large shifts therefore require excerpt audit before substantive interpretation.
+- The taxonomy is intentionally transparent and reproducible, but it can miss synonyms and
+  context-specific meanings outside the fixed phrase lists.
+- Open-source model checks are exploratory. They help with triangulation and audit triage, but the
+  main claims rely on deterministic phrase evidence.
+- Coverage is high but not complete: 16 of 450 target company-years are missing and should remain
+  missing in Part 3 alignment analysis.
+
+## What I Would Do Differently With More Time
+
+- Expand excerpt-level validation with a larger manually reviewed sample across sectors and years.
+- Add a second official disclosure type, such as 10-K human-capital sections, to compare whether
+  proxy-statement patterns are document-type specific.
+- Tune the theme taxonomy with an explicit intercoder-style audit set rather than relying only on
+  deterministic rule inspection.
+- Add company-level robustness checks that separate shareholder meeting mechanics from substantive
+  values language.
+- Build a small rendered report or notebook that combines collection coverage, diagnostics,
+  figures, and excerpt audits in one review artifact.
 
 ## Folder Contract
 
@@ -171,22 +224,3 @@ The runner writes:
 
 The status command reads the JSONL log and state file, so a long run can be monitored while it is
 still active.
-
-## Success Evidence
-
-A successful collected row must have:
-
-- SEC CIK
-- accession number
-- filing date
-- SEC archive URL
-- local raw filing artifact
-- raw filing byte size
-- raw content SHA256
-- clean text SHA256
-- extracted word and sentence counts
-- extraction quality marked `usable`
-- theme and linguistic metrics computed with the Part 1-compatible taxonomy
-
-Rows that fail any of these checks are not silently dropped; they remain in the dataset with a
-controlled status and gap reason.
