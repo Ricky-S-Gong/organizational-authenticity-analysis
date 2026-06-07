@@ -58,29 +58,41 @@
 <circle cx="780.0" cy="501.0" r="3.2" fill="#dc2626"/>
 <rect x="814" y="86" width="14" height="14" fill="#dc2626"/>
 <text x="836.0" y="98.0" font-size="12" font-family="Arial, sans-serif" text-anchor="start" fill="#111827">Commitment</text>
-<path d="M 92.0 435.2 L 178.0 452.2 L 264.0 397.0 L 350.0 408.3 L 436.0 386.8 L 522.0 359.0 L 608.0 351.9 L 694.0 381.2 L 780.0 362.2" fill="none" stroke="#16a34a" stroke-width="2.5"/>
+<path d="M 92.0 435.2 L 178.0 459.7 L 264.0 344.5 L 350.0 331.6 L 436.0 321.9 L 522.0 299.8 L 608.0 215.4 L 694.0 127.6 L 780.0 137.9" fill="none" stroke="#16a34a" stroke-width="2.5"/>
 <circle cx="92.0" cy="435.2" r="3.2" fill="#16a34a"/>
-<circle cx="178.0" cy="452.2" r="3.2" fill="#16a34a"/>
-<circle cx="264.0" cy="397.0" r="3.2" fill="#16a34a"/>
-<circle cx="350.0" cy="408.3" r="3.2" fill="#16a34a"/>
-<circle cx="436.0" cy="386.8" r="3.2" fill="#16a34a"/>
-<circle cx="522.0" cy="359.0" r="3.2" fill="#16a34a"/>
-<circle cx="608.0" cy="351.9" r="3.2" fill="#16a34a"/>
-<circle cx="694.0" cy="381.2" r="3.2" fill="#16a34a"/>
-<circle cx="780.0" cy="362.2" r="3.2" fill="#16a34a"/>
+<circle cx="178.0" cy="459.7" r="3.2" fill="#16a34a"/>
+<circle cx="264.0" cy="344.5" r="3.2" fill="#16a34a"/>
+<circle cx="350.0" cy="331.6" r="3.2" fill="#16a34a"/>
+<circle cx="436.0" cy="321.9" r="3.2" fill="#16a34a"/>
+<circle cx="522.0" cy="299.8" r="3.2" fill="#16a34a"/>
+<circle cx="608.0" cy="215.4" r="3.2" fill="#16a34a"/>
+<circle cx="694.0" cy="127.6" r="3.2" fill="#16a34a"/>
+<circle cx="780.0" cy="137.9" r="3.2" fill="#16a34a"/>
 <rect x="814" y="112" width="14" height="14" fill="#16a34a"/>
-<text x="836.0" y="124.0" font-size="12" font-family="Arial, sans-serif" text-anchor="start" fill="#111827">Action/evidence</text>
-<path d="M 92.0 435.2 L 178.0 405.1 L 264.0 332.1 L 350.0 275.1 L 436.0 210.8 L 522.0 102.3 L 608.0 166.1 L 694.0 240.3 L 780.0 249.1" fill="none" stroke="#9333ea" stroke-width="2.5"/>
+<text x="836.0" y="124.0" font-size="12" font-family="Arial, sans-serif" text-anchor="start" fill="#111827">Aspirational</text>
+<path d="M 92.0 435.2 L 178.0 452.2 L 264.0 397.0 L 350.0 408.3 L 436.0 386.8 L 522.0 359.0 L 608.0 351.9 L 694.0 381.2 L 780.0 362.2" fill="none" stroke="#9333ea" stroke-width="2.5"/>
 <circle cx="92.0" cy="435.2" r="3.2" fill="#9333ea"/>
-<circle cx="178.0" cy="405.1" r="3.2" fill="#9333ea"/>
-<circle cx="264.0" cy="332.1" r="3.2" fill="#9333ea"/>
-<circle cx="350.0" cy="275.1" r="3.2" fill="#9333ea"/>
-<circle cx="436.0" cy="210.8" r="3.2" fill="#9333ea"/>
-<circle cx="522.0" cy="102.3" r="3.2" fill="#9333ea"/>
-<circle cx="608.0" cy="166.1" r="3.2" fill="#9333ea"/>
-<circle cx="694.0" cy="240.3" r="3.2" fill="#9333ea"/>
-<circle cx="780.0" cy="249.1" r="3.2" fill="#9333ea"/>
+<circle cx="178.0" cy="452.2" r="3.2" fill="#9333ea"/>
+<circle cx="264.0" cy="397.0" r="3.2" fill="#9333ea"/>
+<circle cx="350.0" cy="408.3" r="3.2" fill="#9333ea"/>
+<circle cx="436.0" cy="386.8" r="3.2" fill="#9333ea"/>
+<circle cx="522.0" cy="359.0" r="3.2" fill="#9333ea"/>
+<circle cx="608.0" cy="351.9" r="3.2" fill="#9333ea"/>
+<circle cx="694.0" cy="381.2" r="3.2" fill="#9333ea"/>
+<circle cx="780.0" cy="362.2" r="3.2" fill="#9333ea"/>
 <rect x="814" y="138" width="14" height="14" fill="#9333ea"/>
-<text x="836.0" y="150.0" font-size="12" font-family="Arial, sans-serif" text-anchor="start" fill="#111827">Stakeholder orientation</text>
+<text x="836.0" y="150.0" font-size="12" font-family="Arial, sans-serif" text-anchor="start" fill="#111827">Action/evidence</text>
+<path d="M 92.0 435.2 L 178.0 405.1 L 264.0 332.1 L 350.0 275.1 L 436.0 210.8 L 522.0 102.3 L 608.0 166.1 L 694.0 240.3 L 780.0 249.1" fill="none" stroke="#ea580c" stroke-width="2.5"/>
+<circle cx="92.0" cy="435.2" r="3.2" fill="#ea580c"/>
+<circle cx="178.0" cy="405.1" r="3.2" fill="#ea580c"/>
+<circle cx="264.0" cy="332.1" r="3.2" fill="#ea580c"/>
+<circle cx="350.0" cy="275.1" r="3.2" fill="#ea580c"/>
+<circle cx="436.0" cy="210.8" r="3.2" fill="#ea580c"/>
+<circle cx="522.0" cy="102.3" r="3.2" fill="#ea580c"/>
+<circle cx="608.0" cy="166.1" r="3.2" fill="#ea580c"/>
+<circle cx="694.0" cy="240.3" r="3.2" fill="#ea580c"/>
+<circle cx="780.0" cy="249.1" r="3.2" fill="#ea580c"/>
+<rect x="814" y="164" width="14" height="14" fill="#ea580c"/>
+<text x="836.0" y="176.0" font-size="12" font-family="Arial, sans-serif" text-anchor="start" fill="#111827">Stakeholder orientation</text>
 <text x="30.0" y="596.0" font-size="11" font-family="Arial, sans-serif" text-anchor="start" fill="#111827">Table values preserve raw rates per 100 words; the figure compares relative change.</text>
 </svg>

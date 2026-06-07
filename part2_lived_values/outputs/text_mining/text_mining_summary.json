@@ -689,7 +689,7 @@
       "year": 2024
     }
   ],
-  "method": "Deterministic theme and linguistic analysis; no paid or external LLM used.",
+  "method": "Deterministic theme and linguistic analysis plus open-source exploratory model checks; no paid API or closed LLM used.",
   "missing_rows": 16,
   "sector_leading_themes": [
     {
@@ -1080,6 +1080,30 @@
       "presence_rate": 1.0,
       "theme_id": "integrity_and_ethics",
       "theme_label": "Integrity and ethics"
+    },
+    {
+      "mean_matches_per_10k_words": 3.740459,
+      "presence_rate": 0.97235,
+      "theme_id": "innovation_and_excellence",
+      "theme_label": "Innovation and excellence"
+    },
+    {
+      "mean_matches_per_10k_words": 3.598021,
+      "presence_rate": 0.967742,
+      "theme_id": "social_impact_and_community",
+      "theme_label": "Social impact and community"
+    },
+    {
+      "mean_matches_per_10k_words": 2.807067,
+      "presence_rate": 0.995392,
+      "theme_id": "collaboration_and_partnership",
+      "theme_label": "Collaboration and partnership"
+    },
+    {
+      "mean_matches_per_10k_words": 0.848234,
+      "presence_rate": 0.741935,
+      "theme_id": "purpose_and_identity",
+      "theme_label": "Purpose and identity"
     }
   ],
   "top_sector_theme_rates": [

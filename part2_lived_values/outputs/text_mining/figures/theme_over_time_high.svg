@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760">
 <rect width="100%" height="100%" fill="#ffffff"/>
-<text x="640.0" y="34.0" font-size="22" font-family="Arial, sans-serif" text-anchor="middle" fill="#111827">Part 2 Theme Emphasis Over Time</text>
-<text x="640.0" y="70.0" font-size="13" font-family="Arial, sans-serif" text-anchor="middle" fill="#111827">All taxonomy themes; mean matches per 10,000 words among collected DEF 14A filings</text>
+<text x="640.0" y="34.0" font-size="22" font-family="Arial, sans-serif" text-anchor="middle" fill="#111827">Part 2 Theme Emphasis Over Time: Higher-Intensity Themes</text>
+<text x="640.0" y="70.0" font-size="13" font-family="Arial, sans-serif" text-anchor="middle" fill="#111827">Themes with overall mean &gt;= 10 matches per 10,000 words</text>
 <line x1="92.0" y1="670.0" x2="910.0" y2="670.0" stroke="#6b7280" stroke-width="1"/>
 <line x1="92.0" y1="92.0" x2="92.0" y2="670.0" stroke="#6b7280" stroke-width="1"/>
 <line x1="87.0" y1="670.0" x2="910.0" y2="670.0" stroke="#e5e7eb" stroke-width="1"/>
@@ -118,65 +118,5 @@
 <circle cx="910.0" cy="502.7" r="3.2" fill="#db2777"/>
 <rect x="944" y="226" width="14" height="14" fill="#db2777"/>
 <text x="966.0" y="238.0" font-size="11" font-family="Arial, sans-serif" text-anchor="start" fill="#111827">Health, safety, and wellbeing</text>
-<path d="M 92.0 592.0 L 194.2 584.8 L 296.5 588.7 L 398.8 585.5 L 501.0 583.8 L 603.2 584.8 L 705.5 579.3 L 807.8 571.5 L 910.0 568.3" fill="none" stroke="#65a30d" stroke-width="2.5"/>
-<circle cx="92.0" cy="592.0" r="3.2" fill="#65a30d"/>
-<circle cx="194.2" cy="584.8" r="3.2" fill="#65a30d"/>
-<circle cx="296.5" cy="588.7" r="3.2" fill="#65a30d"/>
-<circle cx="398.8" cy="585.5" r="3.2" fill="#65a30d"/>
-<circle cx="501.0" cy="583.8" r="3.2" fill="#65a30d"/>
-<circle cx="603.2" cy="584.8" r="3.2" fill="#65a30d"/>
-<circle cx="705.5" cy="579.3" r="3.2" fill="#65a30d"/>
-<circle cx="807.8" cy="571.5" r="3.2" fill="#65a30d"/>
-<circle cx="910.0" cy="568.3" r="3.2" fill="#65a30d"/>
-<rect x="944" y="250" width="14" height="14" fill="#65a30d"/>
-<text x="966.0" y="262.0" font-size="11" font-family="Arial, sans-serif" text-anchor="start" fill="#111827">Integrity and ethics</text>
-<path d="M 92.0 636.9 L 194.2 634.5 L 296.5 632.7 L 398.8 628.2 L 501.0 622.3 L 603.2 622.9 L 705.5 616.9 L 807.8 609.3 L 910.0 601.2" fill="none" stroke="#7c3aed" stroke-width="2.5"/>
-<circle cx="92.0" cy="636.9" r="3.2" fill="#7c3aed"/>
-<circle cx="194.2" cy="634.5" r="3.2" fill="#7c3aed"/>
-<circle cx="296.5" cy="632.7" r="3.2" fill="#7c3aed"/>
-<circle cx="398.8" cy="628.2" r="3.2" fill="#7c3aed"/>
-<circle cx="501.0" cy="622.3" r="3.2" fill="#7c3aed"/>
-<circle cx="603.2" cy="622.9" r="3.2" fill="#7c3aed"/>
-<circle cx="705.5" cy="616.9" r="3.2" fill="#7c3aed"/>
-<circle cx="807.8" cy="609.3" r="3.2" fill="#7c3aed"/>
-<circle cx="910.0" cy="601.2" r="3.2" fill="#7c3aed"/>
-<rect x="944" y="274" width="14" height="14" fill="#7c3aed"/>
-<text x="966.0" y="286.0" font-size="11" font-family="Arial, sans-serif" text-anchor="start" fill="#111827">Innovation and excellence</text>
-<path d="M 92.0 649.1 L 194.2 647.6 L 296.5 643.0 L 398.8 634.4 L 501.0 617.9 L 603.2 596.3 L 705.5 605.6 L 807.8 610.4 L 910.0 617.0" fill="none" stroke="#ca8a04" stroke-width="2.5"/>
-<circle cx="92.0" cy="649.1" r="3.2" fill="#ca8a04"/>
-<circle cx="194.2" cy="647.6" r="3.2" fill="#ca8a04"/>
-<circle cx="296.5" cy="643.0" r="3.2" fill="#ca8a04"/>
-<circle cx="398.8" cy="634.4" r="3.2" fill="#ca8a04"/>
-<circle cx="501.0" cy="617.9" r="3.2" fill="#ca8a04"/>
-<circle cx="603.2" cy="596.3" r="3.2" fill="#ca8a04"/>
-<circle cx="705.5" cy="605.6" r="3.2" fill="#ca8a04"/>
-<circle cx="807.8" cy="610.4" r="3.2" fill="#ca8a04"/>
-<circle cx="910.0" cy="617.0" r="3.2" fill="#ca8a04"/>
-<rect x="944" y="298" width="14" height="14" fill="#ca8a04"/>
-<text x="966.0" y="310.0" font-size="11" font-family="Arial, sans-serif" text-anchor="start" fill="#111827">Social impact and community</text>
-<path d="M 92.0 642.4 L 194.2 645.9 L 296.5 640.3 L 398.8 639.4 L 501.0 634.1 L 603.2 627.0 L 705.5 626.0 L 807.8 629.7 L 910.0 626.1" fill="none" stroke="#0f766e" stroke-width="2.5"/>
-<circle cx="92.0" cy="642.4" r="3.2" fill="#0f766e"/>
-<circle cx="194.2" cy="645.9" r="3.2" fill="#0f766e"/>
-<circle cx="296.5" cy="640.3" r="3.2" fill="#0f766e"/>
-<circle cx="398.8" cy="639.4" r="3.2" fill="#0f766e"/>
-<circle cx="501.0" cy="634.1" r="3.2" fill="#0f766e"/>
-<circle cx="603.2" cy="627.0" r="3.2" fill="#0f766e"/>
-<circle cx="705.5" cy="626.0" r="3.2" fill="#0f766e"/>
-<circle cx="807.8" cy="629.7" r="3.2" fill="#0f766e"/>
-<circle cx="910.0" cy="626.1" r="3.2" fill="#0f766e"/>
-<rect x="944" y="322" width="14" height="14" fill="#0f766e"/>
-<text x="966.0" y="334.0" font-size="11" font-family="Arial, sans-serif" text-anchor="start" fill="#111827">Collaboration and partnership</text>
-<path d="M 92.0 665.7 L 194.2 664.2 L 296.5 661.9 L 398.8 659.9 L 501.0 658.6 L 603.2 656.0 L 705.5 657.9 L 807.8 654.7 L 910.0 654.8" fill="none" stroke="#475569" stroke-width="2.5"/>
-<circle cx="92.0" cy="665.7" r="3.2" fill="#475569"/>
-<circle cx="194.2" cy="664.2" r="3.2" fill="#475569"/>
-<circle cx="296.5" cy="661.9" r="3.2" fill="#475569"/>
-<circle cx="398.8" cy="659.9" r="3.2" fill="#475569"/>
-<circle cx="501.0" cy="658.6" r="3.2" fill="#475569"/>
-<circle cx="603.2" cy="656.0" r="3.2" fill="#475569"/>
-<circle cx="705.5" cy="657.9" r="3.2" fill="#475569"/>
-<circle cx="807.8" cy="654.7" r="3.2" fill="#475569"/>
-<circle cx="910.0" cy="654.8" r="3.2" fill="#475569"/>
-<rect x="944" y="346" width="14" height="14" fill="#475569"/>
-<text x="966.0" y="358.0" font-size="11" font-family="Arial, sans-serif" text-anchor="start" fill="#111827">Purpose and identity</text>
 <text x="30.0" y="736.0" font-size="11" font-family="Arial, sans-serif" text-anchor="start" fill="#111827">Generated from outputs/text_mining/theme_year_summary.csv</text>
 </svg>

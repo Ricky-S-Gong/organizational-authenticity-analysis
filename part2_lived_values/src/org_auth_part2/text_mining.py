@@ -352,7 +352,10 @@ def build_summary_payload(
         )
     event_window_changes.sort(key=lambda row: row["window_minus_pre"], reverse=True)
     return {
-        "method": "Deterministic theme and linguistic analysis; no paid or external LLM used.",
+        "method": (
+            "Deterministic theme and linguistic analysis plus open-source exploratory "
+            "model checks; no paid API or closed LLM used."
+        ),
         "document_type": "SEC DEF 14A proxy statement",
         "collected_rows": len(collected),
         "missing_rows": len(missing),
@@ -362,7 +365,7 @@ def build_summary_payload(
             "median": _median([row["word_count"] for row in collected]),
             "max": max(row["word_count"] for row in collected),
         },
-        "top_overall_themes": overall_theme_totals[:8],
+        "top_overall_themes": overall_theme_totals,
         "sector_leading_themes": sector_leaders,
         "event_window_theme_changes": event_window_changes,
         "top_sector_theme_rates": _top_theme_rows(theme_sector, "mean_matches_per_10k_words", 10),
@@ -383,7 +386,7 @@ def write_analysis_doc(path: Path, payload: dict[str, Any], missing: list[dict[s
     top_themes = "\n".join(
         "- {theme_label}: {mean_matches_per_10k_words:.2f} matches per 10k words; "
         "presence {presence_rate:.1%}".format(**row)
-        for row in payload["top_overall_themes"][:6]
+        for row in payload["top_overall_themes"]
     )
     top_shifts = "\n".join(
         (

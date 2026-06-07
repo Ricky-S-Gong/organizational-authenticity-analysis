@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="620" viewBox="0 0 1040 620">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="520.0" y="34.0" font-size="22" font-family="Arial, sans-serif" text-anchor="middle" fill="#111827">Part 2 Disclosure Style Over Time</text>
+<text x="520.0" y="56.0" font-size="13" font-family="Arial, sans-serif" text-anchor="middle" fill="#111827">Sentence length and quantified claims indexed to 2016 = 100</text>
+<line x1="92.0" y1="530.0" x2="780.0" y2="530.0" stroke="#6b7280" stroke-width="1"/>
+<line x1="92.0" y1="70.0" x2="92.0" y2="530.0" stroke="#6b7280" stroke-width="1"/>
+<line x1="87.0" y1="530.0" x2="780.0" y2="530.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="80.0" y="534.0" font-size="11" font-family="Arial, sans-serif" text-anchor="end" fill="#111827">80</text>
+<line x1="87.0" y1="438.0" x2="780.0" y2="438.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="80.0" y="442.0" font-size="11" font-family="Arial, sans-serif" text-anchor="end" fill="#111827">90</text>
+<line x1="87.0" y1="346.0" x2="780.0" y2="346.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="80.0" y="350.0" font-size="11" font-family="Arial, sans-serif" text-anchor="end" fill="#111827">100</text>
+<line x1="87.0" y1="254.0" x2="780.0" y2="254.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="80.0" y="258.0" font-size="11" font-family="Arial, sans-serif" text-anchor="end" fill="#111827">109</text>
+<line x1="87.0" y1="162.0" x2="780.0" y2="162.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="80.0" y="166.0" font-size="11" font-family="Arial, sans-serif" text-anchor="end" fill="#111827">119</text>
+<line x1="87.0" y1="70.0" x2="780.0" y2="70.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="80.0" y="74.0" font-size="11" font-family="Arial, sans-serif" text-anchor="end" fill="#111827">129</text>
+<line x1="92.0" y1="530.0" x2="92.0" y2="535.0" stroke="#6b7280" stroke-width="1"/>
+<text x="92.0" y="554.0" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#111827">2016</text>
+<line x1="178.0" y1="530.0" x2="178.0" y2="535.0" stroke="#6b7280" stroke-width="1"/>
+<text x="178.0" y="554.0" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#111827">2017</text>
+<line x1="264.0" y1="530.0" x2="264.0" y2="535.0" stroke="#6b7280" stroke-width="1"/>
+<text x="264.0" y="554.0" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#111827">2018</text>
+<line x1="350.0" y1="530.0" x2="350.0" y2="535.0" stroke="#6b7280" stroke-width="1"/>
+<text x="350.0" y="554.0" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#111827">2019</text>
+<line x1="436.0" y1="530.0" x2="436.0" y2="535.0" stroke="#6b7280" stroke-width="1"/>
+<text x="436.0" y="554.0" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#111827">2020</text>
+<line x1="522.0" y1="530.0" x2="522.0" y2="535.0" stroke="#6b7280" stroke-width="1"/>
+<text x="522.0" y="554.0" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#111827">2021</text>
+<line x1="608.0" y1="530.0" x2="608.0" y2="535.0" stroke="#6b7280" stroke-width="1"/>
+<text x="608.0" y="554.0" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#111827">2022</text>
+<line x1="694.0" y1="530.0" x2="694.0" y2="535.0" stroke="#6b7280" stroke-width="1"/>
+<text x="694.0" y="554.0" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#111827">2023</text>
+<line x1="780.0" y1="530.0" x2="780.0" y2="535.0" stroke="#6b7280" stroke-width="1"/>
+<text x="780.0" y="554.0" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#111827">2024</text>
+<path d="M 92.0 342.4 L 178.0 398.7 L 264.0 369.1 L 350.0 385.0 L 436.0 358.7 L 522.0 256.0 L 608.0 222.3 L 694.0 199.6 L 780.0 222.9" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="92.0" cy="342.4" r="3.2" fill="#2563eb"/>
+<circle cx="178.0" cy="398.7" r="3.2" fill="#2563eb"/>
+<circle cx="264.0" cy="369.1" r="3.2" fill="#2563eb"/>
+<circle cx="350.0" cy="385.0" r="3.2" fill="#2563eb"/>
+<circle cx="436.0" cy="358.7" r="3.2" fill="#2563eb"/>
+<circle cx="522.0" cy="256.0" r="3.2" fill="#2563eb"/>
+<circle cx="608.0" cy="222.3" r="3.2" fill="#2563eb"/>
+<circle cx="694.0" cy="199.6" r="3.2" fill="#2563eb"/>
+<circle cx="780.0" cy="222.9" r="3.2" fill="#2563eb"/>
+<rect x="814" y="60" width="14" height="14" fill="#2563eb"/>
+<text x="836.0" y="72.0" font-size="12" font-family="Arial, sans-serif" text-anchor="start" fill="#111827">Avg sentence length</text>
+<path d="M 92.0 342.4 L 178.0 346.3 L 264.0 317.3 L 350.0 317.7 L 436.0 278.2 L 522.0 230.9 L 608.0 206.2 L 694.0 176.3 L 780.0 116.6" fill="none" stroke="#dc2626" stroke-width="2.5"/>
+<circle cx="92.0" cy="342.4" r="3.2" fill="#dc2626"/>
+<circle cx="178.0" cy="346.3" r="3.2" fill="#dc2626"/>
+<circle cx="264.0" cy="317.3" r="3.2" fill="#dc2626"/>
+<circle cx="350.0" cy="317.7" r="3.2" fill="#dc2626"/>
+<circle cx="436.0" cy="278.2" r="3.2" fill="#dc2626"/>
+<circle cx="522.0" cy="230.9" r="3.2" fill="#dc2626"/>
+<circle cx="608.0" cy="206.2" r="3.2" fill="#dc2626"/>
+<circle cx="694.0" cy="176.3" r="3.2" fill="#dc2626"/>
+<circle cx="780.0" cy="116.6" r="3.2" fill="#dc2626"/>
+<rect x="814" y="86" width="14" height="14" fill="#dc2626"/>
+<text x="836.0" y="98.0" font-size="12" font-family="Arial, sans-serif" text-anchor="start" fill="#111827">Quantified claims</text>
+<text x="30.0" y="596.0" font-size="11" font-family="Arial, sans-serif" text-anchor="start" fill="#111827">Table values preserve raw sentence-length and quantified-claim measures.</text>
+</svg>

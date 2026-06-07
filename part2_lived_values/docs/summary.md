@@ -20,8 +20,7 @@ statement from EDGAR.
 The successful rows contain SEC filing metadata, accession numbers, archive URLs, raw-content
 hashes, clean-text hashes, extracted proxy text, word/sentence counts, deterministic theme
 evidence, and linguistic metrics. The collection source is the free SEC EDGAR submissions API and
-Archives. There were no download or extraction failures among selected filings, and no rows remain
-pending manual review.
+Archives.
 
 Coverage by sector is:
 

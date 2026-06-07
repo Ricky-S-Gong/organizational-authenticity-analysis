@@ -3,6 +3,7 @@ from org_auth_part2.figures import (
     language_tone_over_time_svg,
     sector_heatmap_svg,
     sector_tone_heatmap_svg,
+    split_theme_ids_by_intensity,
     theme_over_time_svg,
 )
 
@@ -30,6 +31,37 @@ def test_theme_over_time_svg_contains_svg_and_title() -> None:
     svg = theme_over_time_svg(rows, summary)
     assert svg.startswith("<svg")
     assert "Part 2 Theme Emphasis Over Time" in svg
+
+
+def test_theme_over_time_svg_includes_more_than_six_themes() -> None:
+    themes = [
+        {"theme_id": f"theme_{idx}", "theme_label": f"Theme {idx}"}
+        for idx in range(1, 8)
+    ]
+    rows = [
+        {
+            "year": str(year),
+            "theme_id": theme["theme_id"],
+            "theme_label": theme["theme_label"],
+            "mean_matches_per_10k_words": str(idx + year - 2019),
+        }
+        for idx, theme in enumerate(themes, start=1)
+        for year in (2020, 2021)
+    ]
+    svg = theme_over_time_svg(rows, {"top_overall_themes": themes})
+    assert "Theme 7" in svg
+
+
+def test_split_theme_ids_by_intensity_uses_mean_threshold() -> None:
+    summary = {
+        "top_overall_themes": [
+            {"theme_id": "high", "mean_matches_per_10k_words": 10.0},
+            {"theme_id": "low", "mean_matches_per_10k_words": 9.99},
+        ]
+    }
+    high, low = split_theme_ids_by_intensity(summary)
+    assert high == ["high"]
+    assert low == ["low"]
 
 
 def test_sector_heatmap_svg_contains_sector_label() -> None:
@@ -71,6 +103,7 @@ def test_language_tone_over_time_svg_contains_index_note() -> None:
             "year": "2020",
             "mean_first_person_plural_rate_per_100_words": "1.0",
             "mean_commitment_rate_per_100_words": "0.5",
+            "mean_aspiration_rate_per_100_words": "0.1",
             "mean_action_or_evidence_rate_per_100_words": "0.2",
             "mean_stakeholder_rate_per_100_words": "0.3",
         },
@@ -78,6 +111,7 @@ def test_language_tone_over_time_svg_contains_index_note() -> None:
             "year": "2021",
             "mean_first_person_plural_rate_per_100_words": "1.2",
             "mean_commitment_rate_per_100_words": "0.4",
+            "mean_aspiration_rate_per_100_words": "0.2",
             "mean_action_or_evidence_rate_per_100_words": "0.3",
             "mean_stakeholder_rate_per_100_words": "0.6",
         },
@@ -93,6 +127,7 @@ def test_sector_tone_heatmap_svg_contains_raw_rate_note() -> None:
             "sector": "Technology",
             "mean_first_person_plural_rate_per_100_words": "1.8",
             "mean_commitment_rate_per_100_words": "0.4",
+            "mean_aspiration_rate_per_100_words": "0.1",
             "mean_action_or_evidence_rate_per_100_words": "0.1",
             "mean_stakeholder_rate_per_100_words": "0.25",
         },
@@ -100,6 +135,7 @@ def test_sector_tone_heatmap_svg_contains_raw_rate_note() -> None:
             "sector": "Energy",
             "mean_first_person_plural_rate_per_100_words": "1.3",
             "mean_commitment_rate_per_100_words": "0.3",
+            "mean_aspiration_rate_per_100_words": "0.2",
             "mean_action_or_evidence_rate_per_100_words": "0.2",
             "mean_stakeholder_rate_per_100_words": "0.30",
         },

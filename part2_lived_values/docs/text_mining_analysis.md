@@ -25,7 +25,9 @@ proxy filings.
 
 ## 1. Overall Disclosure Priorities
 
-![Theme emphasis over time](../outputs/text_mining/figures/theme_over_time.png)
+![Higher-intensity theme emphasis over time](../outputs/text_mining/figures/theme_over_time_high.png)
+
+![Lower-intensity theme emphasis over time](../outputs/text_mining/figures/theme_over_time_low.png)
 
 | Theme | Mean matches / 10k words | Presence |
 | --- | --- | --- |
@@ -37,6 +39,10 @@ proxy filings.
 | Environment and sustainability | 13.72 | 98.8% |
 | Health, safety, and wellbeing | 10.50 | 100.0% |
 | Integrity and ethics | 6.96 | 100.0% |
+| Innovation and excellence | 3.74 | 97.2% |
+| Social impact and community | 3.60 | 96.8% |
+| Collaboration and partnership | 2.81 | 99.5% |
+| Purpose and identity | 0.85 | 74.2% |
 
 The strongest overall signal is not surprising: proxy statements are shareholder-facing governance
 documents, so `Shareholders and performance` is the top normalized theme at
@@ -46,6 +52,10 @@ and workplace` and `Diversity, equity, and inclusion` appear in every collected 
 rank second and third by normalized intensity. This suggests that by 2016-2024, proxy statements
 were no longer only compensation and voting documents; they had become a venue for communicating
 human-capital and governance identity claims.
+
+The two line charts split the same 12-theme taxonomy by overall intensity. This avoids visually
+compressing lower-frequency themes such as purpose/identity, collaboration/partnership, and social
+impact/community against the much larger shareholder, workforce, DEI, and leadership series.
 
 ## 2. Cross-Sector Comparison
 
@@ -114,36 +124,46 @@ Substantively, this means the corpus does not simply add more values topics. It 
 those topics through an institutional `we/our` voice and a broader stakeholder vocabulary, while
 still preserving the cautious, formal style of proxy disclosure.
 
-![Language and tone over time](../outputs/text_mining/figures/language_tone_over_time.png)
+![Lexical tone rates over time](../outputs/text_mining/figures/language_tone_over_time.png)
 
-| Year | Collective voice | Commitment | Action/evidence | Stakeholder | Avg sentence length |
-| --- | --- | --- | --- | --- | --- |
-| 2016 | 1.212 | 0.355 | 0.087 | 0.190 | 9.15 |
-| 2017 | 1.283 | 0.363 | 0.084 | 0.202 | 8.60 |
-| 2018 | 1.347 | 0.359 | 0.094 | 0.232 | 8.89 |
-| 2019 | 1.447 | 0.342 | 0.092 | 0.254 | 8.73 |
-| 2020 | 1.516 | 0.354 | 0.096 | 0.280 | 8.99 |
-| 2021 | 1.629 | 0.355 | 0.101 | 0.324 | 9.99 |
-| 2022 | 1.650 | 0.340 | 0.102 | 0.298 | 10.32 |
-| 2023 | 1.739 | 0.320 | 0.097 | 0.268 | 10.54 |
-| 2024 | 1.681 | 0.306 | 0.101 | 0.265 | 10.31 |
+![Disclosure style over time](../outputs/text_mining/figures/language_style_over_time.png)
 
-The indexed line chart makes the shift easier to read than raw rates alone. Stakeholder orientation
-increases most sharply through 2021, consistent with the COVID-era and post-2020 shift toward
-workforce, DEI, health/safety, and ESG governance language. Collective voice rises more steadily
-across the full window. Commitment language does not show the same increase; by 2024 it is below
-its 2016 level. This contrast is important because it suggests a change in disclosure stance, not
-just a uniform increase in all positive-sounding values language.
+![Document length over time](../outputs/text_mining/figures/document_length_over_time.png)
+
+| Year | Mean words | Median words | Collective voice | Commitment | Aspirational | Action/evidence | Stakeholder | Avg sentence length | Quantified claims |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2016 | 47417 | 43266 | 1.212 | 0.355 | 0.015 | 0.087 | 0.190 | 9.15 | 3012 |
+| 2017 | 47744 | 47037 | 1.283 | 0.363 | 0.014 | 0.084 | 0.202 | 8.60 | 3000 |
+| 2018 | 47585 | 44441 | 1.347 | 0.359 | 0.018 | 0.094 | 0.232 | 8.89 | 3093 |
+| 2019 | 48364 | 44321 | 1.447 | 0.342 | 0.018 | 0.092 | 0.254 | 8.73 | 3092 |
+| 2020 | 51461 | 48104 | 1.516 | 0.354 | 0.019 | 0.096 | 0.280 | 8.99 | 3219 |
+| 2021 | 55199 | 52838 | 1.629 | 0.355 | 0.019 | 0.101 | 0.324 | 9.99 | 3371 |
+| 2022 | 57742 | 56880 | 1.650 | 0.340 | 0.022 | 0.102 | 0.298 | 10.32 | 3450 |
+| 2023 | 57595 | 55201 | 1.739 | 0.320 | 0.025 | 0.097 | 0.268 | 10.54 | 3546 |
+| 2024 | 60019 | 53332 | 1.681 | 0.306 | 0.025 | 0.101 | 0.265 | 10.31 | 3738 |
+
+The first indexed line chart shows all lexical tone rates used in the analysis: collective voice,
+commitment, aspirational language, action/evidence language, and stakeholder orientation. The
+second chart separates disclosure style indicators whose raw units are different: sentence length
+and quantified claims. The third chart tracks document length as context for interpretation, not
+as tone itself. This split preserves full coverage without forcing heterogeneous measures onto one
+raw y-axis.
+
+Stakeholder orientation increases most sharply through 2021, consistent with the COVID-era and
+post-2020 shift toward workforce, DEI, health/safety, and ESG governance language. Collective voice
+rises more steadily across the full window. Commitment language does not show the same increase;
+by 2024 it is below its 2016 level. This contrast is important because it suggests a change in
+disclosure stance, not just a uniform increase in all positive-sounding values language.
 
 ![Sector language and tone heatmap](../outputs/text_mining/figures/sector_tone_heatmap.png)
 
-| Sector | Collective voice | Commitment | Action/evidence | Stakeholder | Avg sentence length |
-| --- | --- | --- | --- | --- | --- |
-| Consumer Discretionary | 1.578 | 0.355 | 0.082 | 0.239 | 10.08 |
-| Energy | 1.373 | 0.334 | 0.101 | 0.250 | 9.59 |
-| Financials | 1.531 | 0.323 | 0.094 | 0.308 | 9.51 |
-| Healthcare | 1.209 | 0.311 | 0.109 | 0.242 | 8.13 |
-| Technology | 1.834 | 0.395 | 0.087 | 0.252 | 10.25 |
+| Sector | Collective voice | Commitment | Aspirational | Action/evidence | Stakeholder | Avg sentence length |
+| --- | --- | --- | --- | --- | --- | --- |
+| Consumer Discretionary | 1.578 | 0.355 | 0.022 | 0.082 | 0.239 | 10.08 |
+| Energy | 1.373 | 0.334 | 0.016 | 0.101 | 0.250 | 9.59 |
+| Financials | 1.531 | 0.323 | 0.018 | 0.094 | 0.308 | 9.51 |
+| Healthcare | 1.209 | 0.311 | 0.018 | 0.109 | 0.242 | 8.13 |
+| Technology | 1.834 | 0.395 | 0.024 | 0.087 | 0.252 | 10.25 |
 
 Sector-level tone also varies. Technology has the strongest collective-voice rate at
 1.834 per 100

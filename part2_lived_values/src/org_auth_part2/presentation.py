@@ -165,11 +165,15 @@ def build_tables(output_dir: Path, table_dir: Path) -> dict[str, Any]:
     tone_year_rows = [
         [
             row["year"],
+            fmt(row["mean_word_count"], 0),
+            fmt(row["median_word_count"], 0),
             fmt(row["mean_first_person_plural_rate_per_100_words"], 3),
             fmt(row["mean_commitment_rate_per_100_words"], 3),
+            fmt(row["mean_aspiration_rate_per_100_words"], 3),
             fmt(row["mean_action_or_evidence_rate_per_100_words"], 3),
             fmt(row["mean_stakeholder_rate_per_100_words"], 3),
             fmt(row["mean_average_sentence_length"], 2),
+            fmt(row["mean_quantified_claim_count"], 0),
         ]
         for row in linguistic_year
     ]
@@ -178,14 +182,18 @@ def build_tables(output_dir: Path, table_dir: Path) -> dict[str, Any]:
         "language_tone_over_time",
         [
             "Year",
+            "Mean words",
+            "Median words",
             "Collective voice",
             "Commitment",
+            "Aspirational",
             "Action/evidence",
             "Stakeholder",
             "Avg sentence length",
+            "Quantified claims",
         ],
         tone_year_rows,
-        "Language and tone indicators over time in collected proxy statements.",
+        "Full language, tone, style, and document-length indicators over time.",
     )
 
     tone_sector_rows = [
@@ -193,6 +201,7 @@ def build_tables(output_dir: Path, table_dir: Path) -> dict[str, Any]:
             row["sector"],
             fmt(row["mean_first_person_plural_rate_per_100_words"], 3),
             fmt(row["mean_commitment_rate_per_100_words"], 3),
+            fmt(row["mean_aspiration_rate_per_100_words"], 3),
             fmt(row["mean_action_or_evidence_rate_per_100_words"], 3),
             fmt(row["mean_stakeholder_rate_per_100_words"], 3),
             fmt(row["mean_average_sentence_length"], 2),
@@ -206,6 +215,7 @@ def build_tables(output_dir: Path, table_dir: Path) -> dict[str, Any]:
             "Sector",
             "Collective voice",
             "Commitment",
+            "Aspirational",
             "Action/evidence",
             "Stakeholder",
             "Avg sentence length",
@@ -329,7 +339,9 @@ proxy filings.
 
 ## 1. Overall Disclosure Priorities
 
-![Theme emphasis over time]({figures_rel}/theme_over_time.png)
+![Higher-intensity theme emphasis over time]({figures_rel}/theme_over_time_high.png)
+
+![Lower-intensity theme emphasis over time]({figures_rel}/theme_over_time_low.png)
 
 {(table_dir / "overall_theme_emphasis.md").read_text(encoding="utf-8")}
 
@@ -341,6 +353,10 @@ and workplace` and `Diversity, equity, and inclusion` appear in every collected 
 rank second and third by normalized intensity. This suggests that by 2016-2024, proxy statements
 were no longer only compensation and voting documents; they had become a venue for communicating
 human-capital and governance identity claims.
+
+The two line charts split the same 12-theme taxonomy by overall intensity. This avoids visually
+compressing lower-frequency themes such as purpose/identity, collaboration/partnership, and social
+impact/community against the much larger shareholder, workforce, DEI, and leadership series.
 
 ## 2. Cross-Sector Comparison
 
@@ -388,16 +404,26 @@ Substantively, this means the corpus does not simply add more values topics. It 
 those topics through an institutional `we/our` voice and a broader stakeholder vocabulary, while
 still preserving the cautious, formal style of proxy disclosure.
 
-![Language and tone over time]({figures_rel}/language_tone_over_time.png)
+![Lexical tone rates over time]({figures_rel}/language_tone_over_time.png)
+
+![Disclosure style over time]({figures_rel}/language_style_over_time.png)
+
+![Document length over time]({figures_rel}/document_length_over_time.png)
 
 {(table_dir / "language_tone_over_time.md").read_text(encoding="utf-8")}
 
-The indexed line chart makes the shift easier to read than raw rates alone. Stakeholder orientation
-increases most sharply through 2021, consistent with the COVID-era and post-2020 shift toward
-workforce, DEI, health/safety, and ESG governance language. Collective voice rises more steadily
-across the full window. Commitment language does not show the same increase; by 2024 it is below
-its 2016 level. This contrast is important because it suggests a change in disclosure stance, not
-just a uniform increase in all positive-sounding values language.
+The first indexed line chart shows all lexical tone rates used in the analysis: collective voice,
+commitment, aspirational language, action/evidence language, and stakeholder orientation. The
+second chart separates disclosure style indicators whose raw units are different: sentence length
+and quantified claims. The third chart tracks document length as context for interpretation, not
+as tone itself. This split preserves full coverage without forcing heterogeneous measures onto one
+raw y-axis.
+
+Stakeholder orientation increases most sharply through 2021, consistent with the COVID-era and
+post-2020 shift toward workforce, DEI, health/safety, and ESG governance language. Collective voice
+rises more steadily across the full window. Commitment language does not show the same increase;
+by 2024 it is below its 2016 level. This contrast is important because it suggests a change in
+disclosure stance, not just a uniform increase in all positive-sounding values language.
 
 ![Sector language and tone heatmap]({figures_rel}/sector_tone_heatmap.png)
 
@@ -458,14 +484,34 @@ statements.
 
 ## Coverage
 
-- Target rows: 450
-- Collected proxy statements: {summary["collected_rows"]} of 450 ({summary["coverage_rate"]:.2%})
-- Missing rows: {summary["missing_rows"]}
-- Document type: SEC `DEF 14A`
-- Source: SEC EDGAR submissions API and Archives
+The collection target is a balanced 50-company by 9-year panel, for 450 target company-years. For
+each company-year, the pipeline attempted to collect one calendar-year SEC `DEF 14A` proxy
+statement from EDGAR.
 
-Missing rows are retained with structured gap reasons and are not imputed or treated as zero
-disclosure.
+| Collection status | Count | Share |
+| --- | --- | --- |
+| Collected | {summary["collected_rows"]} | {summary["coverage_rate"]:.2%} |
+| Missing | {summary["missing_rows"]} | {(1 - summary["coverage_rate"]):.2%} |
+
+The successful rows contain SEC filing metadata, accession numbers, archive URLs, raw-content
+hashes, clean-text hashes, extracted proxy text, word/sentence counts, deterministic theme
+evidence, and linguistic metrics. The collection source is the free SEC EDGAR submissions API and
+Archives.
+
+Coverage by sector is:
+
+| Sector | Collected | Missing |
+| --- | --- | --- |
+| Consumer Discretionary | 88 | 2 |
+| Energy | 89 | 1 |
+| Financials | 81 | 9 |
+| Healthcare | 90 | 0 |
+| Technology | 86 | 4 |
+
+All 16 missing rows have the same structured gap reason:
+`no_def14a_filing_for_calendar_year`. The missing company-years are Apple 2018; Broadcom
+2016-2018; BlackRock 2016-2024; McDonald's 2022; Starbucks 2024; and ExxonMobil 2021. Missing
+rows are retained with these gap reasons and are not imputed or treated as zero disclosure.
 
 ## Method
 
@@ -480,7 +526,8 @@ matches per 10,000 words. Language and tone are measured with auditable lexical 
 including collective voice, commitment terms, action/evidence terms, stakeholder orientation,
 sentence length, and quantified claims. An enhanced exploratory layer adds TF-IDF/NMF topics,
 MiniLM embeddings, spaCy features, and sampled local FLAN-T5 annotations, but these model-based
-outputs are kept separate from the baseline phrase-evidence results.
+outputs are kept in separate audit files while their interpretation is merged into the main
+text-mining analysis report.
 
 ## Findings
 

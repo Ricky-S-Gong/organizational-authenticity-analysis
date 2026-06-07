@@ -22,13 +22,30 @@ COLORS = (
     "#9333ea",
     "#ea580c",
     "#0891b2",
+    "#db2777",
+    "#65a30d",
+    "#7c3aed",
+    "#ca8a04",
+    "#0f766e",
+    "#475569",
 )
 
 TONE_FIELDS = (
     ("mean_first_person_plural_rate_per_100_words", "Collective voice"),
     ("mean_commitment_rate_per_100_words", "Commitment"),
+    ("mean_aspiration_rate_per_100_words", "Aspirational"),
     ("mean_action_or_evidence_rate_per_100_words", "Action/evidence"),
     ("mean_stakeholder_rate_per_100_words", "Stakeholder orientation"),
+)
+
+STYLE_FIELDS = (
+    ("mean_average_sentence_length", "Avg sentence length"),
+    ("mean_quantified_claim_count", "Quantified claims"),
+)
+
+DOCUMENT_LENGTH_FIELDS = (
+    ("mean_word_count", "Mean word count"),
+    ("median_word_count", "Median word count"),
 )
 
 
@@ -64,10 +81,15 @@ def theme_over_time_svg(
     theme_year_rows: list[dict[str, str]],
     summary: dict[str, Any],
     *,
-    width: int = 1040,
-    height: int = 620,
+    width: int = 1280,
+    height: int = 760,
+    theme_ids: list[str] | None = None,
+    title: str = "Part 2 Theme Emphasis Over Time",
+    subtitle: str = (
+        "All taxonomy themes; mean matches per 10,000 words among collected DEF 14A filings"
+    ),
 ) -> str:
-    top_theme_ids = [row["theme_id"] for row in summary["top_overall_themes"][:6]]
+    top_theme_ids = theme_ids or [row["theme_id"] for row in summary["top_overall_themes"]]
     rows = [
         row
         for row in theme_year_rows
@@ -75,14 +97,14 @@ def theme_over_time_svg(
     ]
     years = sorted({int(row["year"]) for row in rows})
     max_rate = max(float(row["mean_matches_per_10k_words"]) for row in rows)
-    left, right, top, bottom = 92, width - 260, 70, height - 90
+    left, right, top, bottom = 92, width - 370, 92, height - 90
     y_max = max_rate * 1.08
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
         f'viewBox="0 0 {width} {height}">',
         '<rect width="100%" height="100%" fill="#ffffff"/>',
-        _text(30, 34, "Part 2 Theme Emphasis Over Time", size=22),
-        _text(30, 56, "Mean matches per 10,000 words among collected DEF 14A filings", size=13),
+        _text(width / 2, 34, title, size=22, anchor="middle"),
+        _text(width / 2, 70, subtitle, size=13, anchor="middle"),
         _axis_line(left, bottom, right, bottom),
         _axis_line(left, top, left, bottom),
     ]
@@ -116,12 +138,12 @@ def theme_over_time_svg(
         for x, y in points:
             parts.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="3.2" fill="{color}"/>')
         label = series[0]["theme_label"]
-        legend_y = top + idx * 26
+        legend_y = top + idx * 24
         parts.append(
             f'<rect x="{right + 34}" y="{legend_y - 10}" width="14" height="14" '
             f'fill="{color}"/>'
         )
-        parts.append(_text(right + 56, legend_y + 2, label, size=12))
+        parts.append(_text(right + 56, legend_y + 2, label, size=11))
     parts.append(
         _text(
             30,
@@ -134,14 +156,32 @@ def theme_over_time_svg(
     return "\n".join(parts)
 
 
+def split_theme_ids_by_intensity(
+    summary: dict[str, Any],
+    *,
+    threshold: float = 10.0,
+) -> tuple[list[str], list[str]]:
+    high = [
+        row["theme_id"]
+        for row in summary["top_overall_themes"]
+        if float(row["mean_matches_per_10k_words"]) >= threshold
+    ]
+    low = [
+        row["theme_id"]
+        for row in summary["top_overall_themes"]
+        if float(row["mean_matches_per_10k_words"]) < threshold
+    ]
+    return high, low
+
+
 def sector_heatmap_svg(
     theme_sector_rows: list[dict[str, str]],
     summary: dict[str, Any],
     *,
-    width: int = 1120,
-    height: int = 620,
+    width: int = 1480,
+    height: int = 700,
 ) -> str:
-    theme_ids = [row["theme_id"] for row in summary["top_overall_themes"][:8]]
+    theme_ids = [row["theme_id"] for row in summary["top_overall_themes"]]
     sectors = sorted({row["sector"] for row in theme_sector_rows})
     lookup = {
         (row["sector"], row["theme_id"]): float(row["mean_matches_per_10k_words"])
@@ -156,13 +196,13 @@ def sector_heatmap_svg(
         lookup.get((sector, theme_id), 0) for sector in sectors for theme_id in theme_ids
     )
     left, top = 230, 115
-    cell_w, cell_h = 100, 68
+    cell_w, cell_h = 92, 68
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
         f'viewBox="0 0 {width} {height}">',
         '<rect width="100%" height="100%" fill="#ffffff"/>',
         _text(30, 34, "Part 2 Cross-Sector Theme Heatmap", size=22),
-        _text(30, 56, "Mean matches per 10,000 words by sector and theme", size=13),
+        _text(30, 56, "All taxonomy themes; mean matches per 10,000 words by sector", size=13),
     ]
     for col, theme_id in enumerate(theme_ids):
         x = left + col * cell_w + cell_w / 2
@@ -324,6 +364,101 @@ def language_tone_over_time_svg(
     return "\n".join(parts)
 
 
+def _indexed_line_svg(
+    rows: list[dict[str, str]],
+    fields: tuple[tuple[str, str], ...],
+    *,
+    title: str,
+    subtitle: str,
+    footer: str,
+    width: int = 1040,
+    height: int = 620,
+) -> str:
+    years = sorted(int(row["year"]) for row in rows if row["year"].isdigit())
+    rows_by_year = {int(row["year"]): row for row in rows}
+    indexed: dict[str, dict[int, float]] = {}
+    for field, _label in fields:
+        base = float(rows_by_year[min(years)][field])
+        indexed[field] = {
+            year: (float(rows_by_year[year][field]) / base) * 100 if base else 0
+            for year in years
+        }
+    max_rate = max(value for series in indexed.values() for value in series.values())
+    min_rate = min(value for series in indexed.values() for value in series.values())
+    left, right, top, bottom = 92, width - 260, 70, height - 90
+    y_low = min(80, min_rate * 0.96)
+    y_high = max_rate * 1.04
+    if y_high <= y_low:
+        y_high = y_low + 1
+    parts = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
+        f'viewBox="0 0 {width} {height}">',
+        '<rect width="100%" height="100%" fill="#ffffff"/>',
+        _text(width / 2, 34, title, size=22, anchor="middle"),
+        _text(width / 2, 56, subtitle, size=13, anchor="middle"),
+        _axis_line(left, bottom, right, bottom),
+        _axis_line(left, top, left, bottom),
+    ]
+    for tick in range(0, 6):
+        value = y_low + (y_high - y_low) * tick / 5
+        y = _scale(value, (y_low, y_high), (bottom, top))
+        parts.append(
+            _axis_line(left - 5, y, right, y).replace('stroke="#6b7280"', 'stroke="#e5e7eb"')
+        )
+        parts.append(_text(left - 12, y + 4, f"{value:.0f}", size=11, anchor="end"))
+    for year in years:
+        x = _scale(year, (min(years), max(years)), (left, right))
+        parts.append(_axis_line(x, bottom, x, bottom + 5))
+        parts.append(_text(x, bottom + 24, str(year), size=11, anchor="middle"))
+    for idx, (field, label) in enumerate(fields):
+        color = COLORS[idx % len(COLORS)]
+        points = []
+        for year in years:
+            x = _scale(year, (min(years), max(years)), (left, right))
+            y = _scale(indexed[field][year], (y_low, y_high), (bottom, top))
+            points.append((x, y))
+        path = " ".join(
+            ("M" if idx_point == 0 else "L") + f" {x:.1f} {y:.1f}"
+            for idx_point, (x, y) in enumerate(points)
+        )
+        parts.append(f'<path d="{path}" fill="none" stroke="{color}" stroke-width="2.5"/>')
+        for x, y in points:
+            parts.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="3.2" fill="{color}"/>')
+        legend_y = top + idx * 26
+        parts.append(
+            f'<rect x="{right + 34}" y="{legend_y - 10}" width="14" height="14" '
+            f'fill="{color}"/>'
+        )
+        parts.append(_text(right + 56, legend_y + 2, label, size=12))
+    parts.append(_text(30, height - 24, footer, size=11))
+    parts.append("</svg>")
+    return "\n".join(parts)
+
+
+def language_style_over_time_svg(
+    linguistic_year_rows: list[dict[str, str]],
+) -> str:
+    return _indexed_line_svg(
+        linguistic_year_rows,
+        STYLE_FIELDS,
+        title="Part 2 Disclosure Style Over Time",
+        subtitle="Sentence length and quantified claims indexed to 2016 = 100",
+        footer="Table values preserve raw sentence-length and quantified-claim measures.",
+    )
+
+
+def document_length_over_time_svg(
+    linguistic_year_rows: list[dict[str, str]],
+) -> str:
+    return _indexed_line_svg(
+        linguistic_year_rows,
+        DOCUMENT_LENGTH_FIELDS,
+        title="Part 2 Document Length Over Time",
+        subtitle="Mean and median proxy-statement word counts indexed to 2016 = 100",
+        footer="Document length is tracked as disclosure context, not as tone itself.",
+    )
+
+
 def sector_tone_heatmap_svg(
     sector_linguistic_rows: list[dict[str, str]],
     *,
@@ -400,14 +535,21 @@ def _save_theme_over_time_png(
     theme_year_rows: list[dict[str, str]],
     summary: dict[str, Any],
     figure_dir: Path,
+    *,
+    theme_ids: list[str] | None = None,
+    filename: str = "theme_over_time.png",
+    title: str = "Part 2 Theme Emphasis Over Time",
+    subtitle: str = (
+        "All taxonomy themes; mean matches per 10,000 words among collected DEF 14A filings"
+    ),
 ) -> Path | None:
     plt, _sns = _try_load_plotting()
     if plt is None:
         return None
-    top_theme_ids = [row["theme_id"] for row in summary["top_overall_themes"][:6]]
+    top_theme_ids = theme_ids or [row["theme_id"] for row in summary["top_overall_themes"]]
     rows = [row for row in theme_year_rows if row["theme_id"] in top_theme_ids]
-    fig, ax = plt.subplots(figsize=(12, 7))
-    for color, theme_id in zip(COLORS, top_theme_ids, strict=False):
+    fig, ax = plt.subplots(figsize=(13.5, 7.6))
+    for idx, theme_id in enumerate(top_theme_ids):
         series = sorted(
             [row for row in rows if row["theme_id"] == theme_id],
             key=lambda row: int(row["year"]),
@@ -416,16 +558,18 @@ def _save_theme_over_time_png(
             [int(row["year"]) for row in series],
             [float(row["mean_matches_per_10k_words"]) for row in series],
             marker="o",
-            linewidth=2.5,
+            linewidth=2.2,
             label=series[0]["theme_label"],
-            color=color,
+            color=COLORS[idx % len(COLORS)],
         )
-    ax.set_title("Part 2 Theme Emphasis Over Time", pad=16, weight="bold")
+    fig.suptitle(title, y=0.985, weight="bold", fontsize=20)
+    fig.text(0.5, 0.915, subtitle, ha="center", fontsize=12)
     ax.set_ylabel("Mean matches per 10,000 words")
     ax.set_xlabel("Filing year")
-    ax.legend(loc="center left", bbox_to_anchor=(1.02, 0.5), frameon=False)
-    fig.tight_layout()
-    path = figure_dir / "theme_over_time.png"
+    ax.legend(loc="center left", bbox_to_anchor=(1.02, 0.5), frameon=False, fontsize=9)
+    fig.tight_layout(rect=(0, 0, 1, 0.92))
+    ax.set_position((0.07, 0.11, 0.74, 0.765))
+    path = figure_dir / filename
     fig.savefig(path, dpi=220, bbox_inches="tight")
     plt.close(fig)
     return path
@@ -439,7 +583,7 @@ def _save_sector_heatmap_png(
     plt, sns = _try_load_plotting()
     if plt is None or sns is None:
         return None
-    theme_ids = [row["theme_id"] for row in summary["top_overall_themes"][:8]]
+    theme_ids = [row["theme_id"] for row in summary["top_overall_themes"]]
     sectors = sorted({row["sector"] for row in theme_sector_rows})
     labels = {
         row["theme_id"]: row["theme_label"].replace(" and ", " & ")
@@ -450,7 +594,7 @@ def _save_sector_heatmap_png(
         for row in theme_sector_rows
     }
     matrix = [[lookup.get((sector, theme_id), 0.0) for theme_id in theme_ids] for sector in sectors]
-    fig, ax = plt.subplots(figsize=(13, 8.4))
+    fig, ax = plt.subplots(figsize=(17, 8.8))
     sns.heatmap(
         matrix,
         annot=True,
@@ -471,7 +615,7 @@ def _save_sector_heatmap_png(
         va="top",
     )
     fig.tight_layout()
-    fig.subplots_adjust(bottom=0.42)
+    fig.subplots_adjust(bottom=0.46)
     path = figure_dir / "sector_theme_heatmap.png"
     fig.savefig(path, dpi=220, bbox_inches="tight")
     plt.close(fig)
@@ -527,16 +671,95 @@ def _save_language_tone_over_time_png(
             label=label,
             color=color,
         )
-    ax.set_title("Part 2 Language and Tone Over Time", pad=16, weight="bold")
+    fig.suptitle("Part 2 Language and Tone Over Time", y=0.985, weight="bold", fontsize=20)
+    fig.text(
+        0.5,
+        0.915,
+        "Lexical tone indicators indexed to 2016 = 100",
+        ha="center",
+        fontsize=12,
+    )
     ax.set_ylabel("Index, 2016 = 100")
     ax.set_xlabel("Filing year")
     ax.axhline(100, color="#6b7280", linewidth=1, linestyle="--")
     ax.legend(loc="center left", bbox_to_anchor=(1.02, 0.5), frameon=False)
-    fig.tight_layout()
+    fig.tight_layout(rect=(0, 0, 1, 0.92))
+    ax.set_position((0.07, 0.11, 0.74, 0.765))
     path = figure_dir / "language_tone_over_time.png"
     fig.savefig(path, dpi=220, bbox_inches="tight")
     plt.close(fig)
     return path
+
+
+def _save_indexed_fields_png(
+    rows: list[dict[str, str]],
+    figure_dir: Path,
+    fields: tuple[tuple[str, str], ...],
+    *,
+    filename: str,
+    title: str,
+    subtitle: str,
+    footer: str,
+) -> Path | None:
+    plt, _sns = _try_load_plotting()
+    if plt is None:
+        return None
+    sorted_rows = sorted(rows, key=lambda row: int(row["year"]))
+    base_row = sorted_rows[0]
+    fig, ax = plt.subplots(figsize=(12, 7))
+    for idx, (field, label) in enumerate(fields):
+        base = float(base_row[field])
+        ax.plot(
+            [int(row["year"]) for row in sorted_rows],
+            [(float(row[field]) / base) * 100 if base else 0 for row in sorted_rows],
+            marker="o",
+            linewidth=2.5,
+            label=label,
+            color=COLORS[idx % len(COLORS)],
+        )
+    fig.suptitle(title, y=0.985, weight="bold", fontsize=20)
+    fig.text(0.5, 0.915, subtitle, ha="center", fontsize=12)
+    ax.set_ylabel("Index, 2016 = 100")
+    ax.set_xlabel("Filing year")
+    ax.axhline(100, color="#6b7280", linewidth=1, linestyle="--")
+    ax.legend(loc="center left", bbox_to_anchor=(1.02, 0.5), frameon=False)
+    ax.text(0, -0.18, footer, transform=ax.transAxes, fontsize=10, color="#374151")
+    fig.tight_layout(rect=(0, 0, 1, 0.92))
+    ax.set_position((0.07, 0.11, 0.74, 0.765))
+    path = figure_dir / filename
+    fig.savefig(path, dpi=220, bbox_inches="tight")
+    plt.close(fig)
+    return path
+
+
+def _save_language_style_over_time_png(
+    linguistic_year_rows: list[dict[str, str]],
+    figure_dir: Path,
+) -> Path | None:
+    return _save_indexed_fields_png(
+        linguistic_year_rows,
+        figure_dir,
+        STYLE_FIELDS,
+        filename="language_style_over_time.png",
+        title="Part 2 Disclosure Style Over Time",
+        subtitle="Sentence length and quantified claims indexed to 2016 = 100",
+        footer="Table values preserve raw sentence-length and quantified-claim measures.",
+    )
+
+
+def _save_document_length_over_time_png(
+    linguistic_year_rows: list[dict[str, str]],
+    figure_dir: Path,
+) -> Path | None:
+    return _save_indexed_fields_png(
+        linguistic_year_rows,
+        figure_dir,
+        DOCUMENT_LENGTH_FIELDS,
+        filename="document_length_over_time.png",
+        title="Part 2 Document Length Over Time",
+        subtitle="Mean and median proxy-statement word counts indexed to 2016 = 100",
+        footer="Document length is tracked as disclosure context, not as tone itself.",
+    )
 
 
 def _save_sector_tone_heatmap_png(
@@ -595,11 +818,28 @@ def write_figures(
     theme_sector = read_csv(output_dir / "theme_sector_summary.csv")
     linguistic_year = read_csv(output_dir / "linguistic_year_summary.csv")
     sector_linguistic = read_csv(output_dir / "sector_linguistic_summary.csv")
+    high_theme_ids, low_theme_ids = split_theme_ids_by_intensity(summary)
     figures = {
         "theme_over_time.svg": theme_over_time_svg(theme_year, summary),
+        "theme_over_time_high.svg": theme_over_time_svg(
+            theme_year,
+            summary,
+            theme_ids=high_theme_ids,
+            title="Part 2 Theme Emphasis Over Time: Higher-Intensity Themes",
+            subtitle="Themes with overall mean >= 10 matches per 10,000 words",
+        ),
+        "theme_over_time_low.svg": theme_over_time_svg(
+            theme_year,
+            summary,
+            theme_ids=low_theme_ids,
+            title="Part 2 Theme Emphasis Over Time: Lower-Intensity Themes",
+            subtitle="Themes with overall mean < 10 matches per 10,000 words",
+        ),
         "sector_theme_heatmap.svg": sector_heatmap_svg(theme_sector, summary),
         "event_window_theme_change.svg": event_window_svg(summary),
         "language_tone_over_time.svg": language_tone_over_time_svg(linguistic_year),
+        "language_style_over_time.svg": language_style_over_time_svg(linguistic_year),
+        "document_length_over_time.svg": document_length_over_time_svg(linguistic_year),
         "sector_tone_heatmap.svg": sector_tone_heatmap_svg(sector_linguistic),
     }
     paths = []
@@ -609,9 +849,29 @@ def write_figures(
         paths.append(path)
     for path in (
         _save_theme_over_time_png(theme_year, summary, figure_dir),
+        _save_theme_over_time_png(
+            theme_year,
+            summary,
+            figure_dir,
+            theme_ids=high_theme_ids,
+            filename="theme_over_time_high.png",
+            title="Part 2 Theme Emphasis Over Time: Higher-Intensity Themes",
+            subtitle="Themes with overall mean >= 10 matches per 10,000 words",
+        ),
+        _save_theme_over_time_png(
+            theme_year,
+            summary,
+            figure_dir,
+            theme_ids=low_theme_ids,
+            filename="theme_over_time_low.png",
+            title="Part 2 Theme Emphasis Over Time: Lower-Intensity Themes",
+            subtitle="Themes with overall mean < 10 matches per 10,000 words",
+        ),
         _save_sector_heatmap_png(theme_sector, summary, figure_dir),
         _save_event_window_png(summary, figure_dir),
         _save_language_tone_over_time_png(linguistic_year, figure_dir),
+        _save_language_style_over_time_png(linguistic_year, figure_dir),
+        _save_document_length_over_time_png(linguistic_year, figure_dir),
         _save_sector_tone_heatmap_png(sector_linguistic, figure_dir),
     ):
         if path is not None:
