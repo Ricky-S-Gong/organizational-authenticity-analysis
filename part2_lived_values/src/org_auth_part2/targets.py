@@ -17,6 +17,8 @@ TARGET_YEARS = tuple(range(2016, 2025))
 
 
 def load_companies(path: Path = DEFAULT_COMPANIES) -> list[Company]:
+    """Load the Part 1 company universe as the fixed Part 2 sampling frame."""
+
     with path.open(newline="", encoding="utf-8") as handle:
         rows = list(csv.DictReader(handle))
     companies: list[Company] = []
@@ -40,6 +42,8 @@ def build_targets(
     companies: list[Company],
     years: tuple[int, ...] = TARGET_YEARS,
 ) -> list[CompanyYear]:
+    """Expand company metadata into the balanced company-year collection grid."""
+
     return [
         CompanyYear(
             ticker=company.ticker,
@@ -53,6 +57,8 @@ def build_targets(
 
 
 def write_targets(targets: list[CompanyYear], path: Path = DEFAULT_OUTPUT) -> None:
+    """Persist the auditable target grid before any SEC collection is attempted."""
+
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=["ticker", "company_name", "sector", "year"])

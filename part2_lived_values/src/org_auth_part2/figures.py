@@ -50,11 +50,15 @@ DOCUMENT_LENGTH_FIELDS = (
 
 
 def read_csv(path: Path) -> list[dict[str, str]]:
+    """Read a saved analysis CSV into dictionaries for plotting."""
+
     with path.open(newline="", encoding="utf-8") as handle:
         return list(csv.DictReader(handle))
 
 
 def _scale(value: float, domain: tuple[float, float], range_: tuple[float, float]) -> float:
+    """Linearly map a data value into SVG coordinate space."""
+
     low, high = domain
     start, end = range_
     if high == low:
@@ -63,6 +67,8 @@ def _scale(value: float, domain: tuple[float, float], range_: tuple[float, float
 
 
 def _text(x: float, y: float, value: str, *, size: int = 12, anchor: str = "start") -> str:
+    """Return an escaped SVG text element."""
+
     return (
         f'<text x="{x:.1f}" y="{y:.1f}" font-size="{size}" '
         f'font-family="Arial, sans-serif" text-anchor="{anchor}" fill="#111827">'
@@ -71,6 +77,8 @@ def _text(x: float, y: float, value: str, *, size: int = 12, anchor: str = "star
 
 
 def _axis_line(x1: float, y1: float, x2: float, y2: float) -> str:
+    """Return a standard SVG axis or grid line."""
+
     return (
         f'<line x1="{x1:.1f}" y1="{y1:.1f}" x2="{x2:.1f}" y2="{y2:.1f}" '
         'stroke="#6b7280" stroke-width="1"/>'
@@ -89,11 +97,11 @@ def theme_over_time_svg(
         "All taxonomy themes; mean matches per 10,000 words among collected DEF 14A filings"
     ),
 ) -> str:
+    """Build a multi-series SVG line chart for normalized theme rates."""
+
     top_theme_ids = theme_ids or [row["theme_id"] for row in summary["top_overall_themes"]]
     rows = [
-        row
-        for row in theme_year_rows
-        if row["theme_id"] in top_theme_ids and row["year"].isdigit()
+        row for row in theme_year_rows if row["theme_id"] in top_theme_ids and row["year"].isdigit()
     ]
     years = sorted({int(row["year"]) for row in rows})
     max_rate = max(float(row["mean_matches_per_10k_words"]) for row in rows)
@@ -140,8 +148,7 @@ def theme_over_time_svg(
         label = series[0]["theme_label"]
         legend_y = top + idx * 24
         parts.append(
-            f'<rect x="{right + 34}" y="{legend_y - 10}" width="14" height="14" '
-            f'fill="{color}"/>'
+            f'<rect x="{right + 34}" y="{legend_y - 10}" width="14" height="14" fill="{color}"/>'
         )
         parts.append(_text(right + 56, legend_y + 2, label, size=11))
     parts.append(
@@ -161,6 +168,8 @@ def split_theme_ids_by_intensity(
     *,
     threshold: float = 10.0,
 ) -> tuple[list[str], list[str]]:
+    """Split themes into readable high- and low-intensity line charts."""
+
     high = [
         row["theme_id"]
         for row in summary["top_overall_themes"]
@@ -181,6 +190,8 @@ def sector_heatmap_svg(
     width: int = 1480,
     height: int = 700,
 ) -> str:
+    """Build a warm SVG heatmap of sector-level theme emphasis."""
+
     theme_ids = [row["theme_id"] for row in summary["top_overall_themes"]]
     sectors = sorted({row["sector"] for row in theme_sector_rows})
     lookup = {
@@ -250,6 +261,8 @@ def event_window_svg(
     width: int = 980,
     height: int = 560,
 ) -> str:
+    """Build an SVG bar chart for the 2020-2021 event-window comparison."""
+
     rows = summary["event_window_theme_changes"][:8]
     max_abs = max(abs(float(row["window_minus_pre"])) for row in rows)
     left, right, top, bottom = 300, width - 70, 70, height - 70
@@ -272,8 +285,7 @@ def event_window_svg(
         color = "#2563eb" if value >= 0 else "#dc2626"
         parts.append(_text(left - 18, y + 19, row["theme_label"], size=12, anchor="end"))
         parts.append(
-            f'<rect x="{x:.1f}" y="{y}" width="{bar_w:.1f}" height="{bar_h}" '
-            f'fill="{color}"/>'
+            f'<rect x="{x:.1f}" y="{y}" width="{bar_w:.1f}" height="{bar_h}" fill="{color}"/>'
         )
         label_x = x + bar_w + 8 if value >= 0 else x - 8
         anchor = "start" if value >= 0 else "end"
@@ -296,14 +308,15 @@ def language_tone_over_time_svg(
     width: int = 1040,
     height: int = 620,
 ) -> str:
+    """Build an indexed SVG line chart for lexical tone indicators."""
+
     years = sorted(int(row["year"]) for row in linguistic_year_rows if row["year"].isdigit())
     rows_by_year = {int(row["year"]): row for row in linguistic_year_rows}
     indexed: dict[str, dict[int, float]] = {}
     for field, _label in TONE_FIELDS:
         base = float(rows_by_year[min(years)][field])
         indexed[field] = {
-            year: (float(rows_by_year[year][field]) / base) * 100 if base else 0
-            for year in years
+            year: (float(rows_by_year[year][field]) / base) * 100 if base else 0 for year in years
         }
     max_rate = max(value for series in indexed.values() for value in series.values())
     min_rate = min(value for series in indexed.values() for value in series.values())
@@ -348,8 +361,7 @@ def language_tone_over_time_svg(
             parts.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="3.2" fill="{color}"/>')
         legend_y = top + idx * 26
         parts.append(
-            f'<rect x="{right + 34}" y="{legend_y - 10}" width="14" height="14" '
-            f'fill="{color}"/>'
+            f'<rect x="{right + 34}" y="{legend_y - 10}" width="14" height="14" fill="{color}"/>'
         )
         parts.append(_text(right + 56, legend_y + 2, label, size=12))
     parts.append(
@@ -374,14 +386,15 @@ def _indexed_line_svg(
     width: int = 1040,
     height: int = 620,
 ) -> str:
+    """Build a reusable indexed line chart for measures with different raw units."""
+
     years = sorted(int(row["year"]) for row in rows if row["year"].isdigit())
     rows_by_year = {int(row["year"]): row for row in rows}
     indexed: dict[str, dict[int, float]] = {}
     for field, _label in fields:
         base = float(rows_by_year[min(years)][field])
         indexed[field] = {
-            year: (float(rows_by_year[year][field]) / base) * 100 if base else 0
-            for year in years
+            year: (float(rows_by_year[year][field]) / base) * 100 if base else 0 for year in years
         }
     max_rate = max(value for series in indexed.values() for value in series.values())
     min_rate = min(value for series in indexed.values() for value in series.values())
@@ -426,8 +439,7 @@ def _indexed_line_svg(
             parts.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="3.2" fill="{color}"/>')
         legend_y = top + idx * 26
         parts.append(
-            f'<rect x="{right + 34}" y="{legend_y - 10}" width="14" height="14" '
-            f'fill="{color}"/>'
+            f'<rect x="{right + 34}" y="{legend_y - 10}" width="14" height="14" fill="{color}"/>'
         )
         parts.append(_text(right + 56, legend_y + 2, label, size=12))
     parts.append(_text(30, height - 24, footer, size=11))
@@ -438,6 +450,8 @@ def _indexed_line_svg(
 def language_style_over_time_svg(
     linguistic_year_rows: list[dict[str, str]],
 ) -> str:
+    """Build the disclosure-style SVG using indexed sentence/number measures."""
+
     return _indexed_line_svg(
         linguistic_year_rows,
         STYLE_FIELDS,
@@ -450,6 +464,8 @@ def language_style_over_time_svg(
 def document_length_over_time_svg(
     linguistic_year_rows: list[dict[str, str]],
 ) -> str:
+    """Build the document-length SVG as interpretation context."""
+
     return _indexed_line_svg(
         linguistic_year_rows,
         DOCUMENT_LENGTH_FIELDS,
@@ -465,6 +481,8 @@ def sector_tone_heatmap_svg(
     width: int = 980,
     height: int = 560,
 ) -> str:
+    """Build a sector tone heatmap with per-indicator color scaling."""
+
     field_ranges = {}
     for field, _label in TONE_FIELDS:
         values = [float(row[field]) for row in sector_linguistic_rows]
@@ -518,6 +536,8 @@ def sector_tone_heatmap_svg(
 
 
 def _try_load_plotting():
+    """Import optional plotting dependencies and return graceful fallbacks."""
+
     try:
         os.environ.setdefault(
             "MPLCONFIGDIR",
@@ -543,6 +563,8 @@ def _save_theme_over_time_png(
         "All taxonomy themes; mean matches per 10,000 words among collected DEF 14A filings"
     ),
 ) -> Path | None:
+    """Save a PNG version of the theme-over-time line chart when plotting is available."""
+
     plt, _sns = _try_load_plotting()
     if plt is None:
         return None
@@ -580,14 +602,15 @@ def _save_sector_heatmap_png(
     summary: dict[str, Any],
     figure_dir: Path,
 ) -> Path | None:
+    """Save the cross-sector theme heatmap as a publication-friendly PNG."""
+
     plt, sns = _try_load_plotting()
     if plt is None or sns is None:
         return None
     theme_ids = [row["theme_id"] for row in summary["top_overall_themes"]]
     sectors = sorted({row["sector"] for row in theme_sector_rows})
     labels = {
-        row["theme_id"]: row["theme_label"].replace(" and ", " & ")
-        for row in theme_sector_rows
+        row["theme_id"]: row["theme_label"].replace(" and ", " & ") for row in theme_sector_rows
     }
     lookup = {
         (row["sector"], row["theme_id"]): float(row["mean_matches_per_10k_words"])
@@ -623,6 +646,8 @@ def _save_sector_heatmap_png(
 
 
 def _save_event_window_png(summary: dict[str, Any], figure_dir: Path) -> Path | None:
+    """Save the event-window comparison as a horizontal bar chart."""
+
     plt, _sns = _try_load_plotting()
     if plt is None:
         return None
@@ -655,6 +680,8 @@ def _save_language_tone_over_time_png(
     linguistic_year_rows: list[dict[str, str]],
     figure_dir: Path,
 ) -> Path | None:
+    """Save indexed lexical tone indicators as a PNG line chart."""
+
     plt, _sns = _try_load_plotting()
     if plt is None:
         return None
@@ -701,6 +728,8 @@ def _save_indexed_fields_png(
     subtitle: str,
     footer: str,
 ) -> Path | None:
+    """Save a generic indexed-fields PNG line chart."""
+
     plt, _sns = _try_load_plotting()
     if plt is None:
         return None
@@ -736,6 +765,8 @@ def _save_language_style_over_time_png(
     linguistic_year_rows: list[dict[str, str]],
     figure_dir: Path,
 ) -> Path | None:
+    """Save sentence-length and quantified-claim trends as a PNG."""
+
     return _save_indexed_fields_png(
         linguistic_year_rows,
         figure_dir,
@@ -751,6 +782,8 @@ def _save_document_length_over_time_png(
     linguistic_year_rows: list[dict[str, str]],
     figure_dir: Path,
 ) -> Path | None:
+    """Save mean and median document-length trends as a PNG."""
+
     return _save_indexed_fields_png(
         linguistic_year_rows,
         figure_dir,
@@ -766,6 +799,8 @@ def _save_sector_tone_heatmap_png(
     sector_linguistic_rows: list[dict[str, str]],
     figure_dir: Path,
 ) -> Path | None:
+    """Save the sector-level language/tone heatmap as a PNG."""
+
     plt, sns = _try_load_plotting()
     if plt is None or sns is None:
         return None
@@ -812,6 +847,8 @@ def write_figures(
     output_dir: Path = DEFAULT_OUTPUT_DIR,
     figure_dir: Path = DEFAULT_FIGURE_DIR,
 ) -> list[Path]:
+    """Write all SVG figures and optional PNG counterparts."""
+
     figure_dir.mkdir(parents=True, exist_ok=True)
     summary = json.loads((output_dir / "text_mining_summary.json").read_text(encoding="utf-8"))
     theme_year = read_csv(output_dir / "theme_year_summary.csv")

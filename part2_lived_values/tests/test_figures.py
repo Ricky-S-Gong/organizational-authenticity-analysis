@@ -34,10 +34,7 @@ def test_theme_over_time_svg_contains_svg_and_title() -> None:
 
 
 def test_theme_over_time_svg_includes_more_than_six_themes() -> None:
-    themes = [
-        {"theme_id": f"theme_{idx}", "theme_label": f"Theme {idx}"}
-        for idx in range(1, 8)
-    ]
+    themes = [{"theme_id": f"theme_{idx}", "theme_label": f"Theme {idx}"} for idx in range(1, 8)]
     rows = [
         {
             "year": str(year),

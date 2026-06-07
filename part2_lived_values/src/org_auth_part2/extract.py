@@ -11,24 +11,36 @@ _BLANK_LINE_RE = re.compile(r"\n{3,}")
 
 
 class VisibleTextParser(HTMLParser):
+    """Extract visible filing text without requiring a browser renderer."""
+
     def __init__(self) -> None:
         super().__init__(convert_charrefs=True)
         self._hidden_depth = 0
         self._chunks: list[str] = []
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
-        if tag.lower() in {"script", "style", "noscript", "ix:header", "head"}:
+        tag_name = tag.lower()
+        if tag_name in {"script", "style", "noscript", "ix:header", "head"}:
             self._hidden_depth += 1
-        if tag.lower() in {"p", "div", "br", "tr", "table", "section", "article", "h1", "h2", "h3"}:
+        if tag_name in {
+            "p",
+            "div",
+            "br",
+            "tr",
+            "table",
+            "section",
+            "article",
+            "h1",
+            "h2",
+            "h3",
+        }:
             self._chunks.append("\n")
 
     def handle_endtag(self, tag: str) -> None:
-        if (
-            tag.lower() in {"script", "style", "noscript", "ix:header", "head"}
-            and self._hidden_depth
-        ):
+        tag_name = tag.lower()
+        if tag_name in {"script", "style", "noscript", "ix:header", "head"} and self._hidden_depth:
             self._hidden_depth -= 1
-        if tag.lower() in {"p", "div", "tr", "table", "section", "article", "h1", "h2", "h3"}:
+        if tag_name in {"p", "div", "tr", "table", "section", "article", "h1", "h2", "h3"}:
             self._chunks.append("\n")
 
     def handle_data(self, data: str) -> None:
@@ -40,6 +52,8 @@ class VisibleTextParser(HTMLParser):
 
 
 def clean_text(text: str) -> str:
+    """Normalize whitespace while preserving paragraph-like line breaks."""
+
     text = html.unescape(text)
     text = text.replace("\xa0", " ")
     text = _SPACE_RE.sub(" ", text)
@@ -50,6 +64,8 @@ def clean_text(text: str) -> str:
 
 
 def extract_visible_text(content: bytes, content_type: str = "") -> str:
+    """Extract clean text from either HTML filings or plain-text artifacts."""
+
     decoded = content.decode("utf-8", errors="replace")
     if "html" not in content_type.lower() and not re.search(
         r"<html|<body|<document",
@@ -63,6 +79,8 @@ def extract_visible_text(content: bytes, content_type: str = "") -> str:
 
 
 def extraction_quality(text: str, minimum_words: int = 1000) -> str:
+    """Classify extraction quality using conservative, auditable thresholds."""
+
     words = len(re.findall(r"\b[\w'-]+\b", text))
     if words == 0:
         return "empty"

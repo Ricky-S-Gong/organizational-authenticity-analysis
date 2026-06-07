@@ -62,14 +62,20 @@ LLM_SIGNAL_TERMS = (
 
 
 def utc_now() -> str:
+    """Return an ISO UTC timestamp for logs and manifests."""
+
     return datetime.now(UTC).isoformat(timespec="seconds")
 
 
 def stable_hash(text: str) -> str:
+    """Hash text inputs so model outputs can be tied to exact excerpts/prompts."""
+
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
 
 
 def file_sha256(path: Path) -> str:
+    """Compute a streaming SHA256 hash for potentially large model artifacts."""
+
     digest = hashlib.sha256()
     with path.open("rb") as handle:
         for chunk in iter(lambda: handle.read(1024 * 1024), b""):
@@ -78,6 +84,8 @@ def file_sha256(path: Path) -> str:
 
 
 def package_version(name: str) -> str:
+    """Return an installed package version, or a stable missing marker."""
+
     try:
         return importlib.metadata.version(name)
     except importlib.metadata.PackageNotFoundError:
@@ -85,15 +93,21 @@ def package_version(name: str) -> str:
 
 
 def dataset_sha256(path: Path) -> str:
+    """Hash the input dataset used for the enhanced run manifest."""
+
     return file_sha256(path) if path.exists() else ""
 
 
 class JsonlLogger:
+    """Append-only logger for enhanced model stages and their parameters."""
+
     def __init__(self, path: Path) -> None:
         self.path = path
         self.path.parent.mkdir(parents=True, exist_ok=True)
 
     def event(self, stage: str, status: str, **payload: Any) -> None:
+        """Write one JSONL event with deterministic key ordering."""
+
         record = {
             "timestamp_utc": utc_now(),
             "stage": stage,
@@ -105,6 +119,8 @@ class JsonlLogger:
 
 
 def set_reproducible_seed(seed: int) -> None:
+    """Seed available random libraries used by open-source model stages."""
+
     random.seed(seed)
     try:
         import numpy as np
@@ -121,6 +137,8 @@ def set_reproducible_seed(seed: int) -> None:
 
 
 def read_documents(path: Path) -> tuple[list[dict[str, Any]], list[dict[str, str]]]:
+    """Load collected documents and preserve non-collected rows for manifests."""
+
     csv.field_size_limit(sys.maxsize)
     documents: list[dict[str, Any]] = []
     missing: list[dict[str, str]] = []
@@ -155,6 +173,8 @@ def representative_text(text: str, max_chars: int = 9000) -> str:
 
 
 def llm_value_excerpt(text: str, max_chars: int = 1800) -> str:
+    """Select value-relevant local context for the small LLM annotation pass."""
+
     compact = " ".join(text.split())
     lowered = compact.lower()
     segments: list[str] = []
@@ -183,6 +203,8 @@ def llm_value_excerpt(text: str, max_chars: int = 1800) -> str:
 
 
 def llm_annotation_quality(annotation: str) -> str:
+    """Flag local LLM responses that are too weak for interpretive use."""
+
     cleaned = annotation.strip()
     lower = cleaned.lower()
     if len(cleaned) < 20:
@@ -201,11 +223,15 @@ def llm_annotation_quality(annotation: str) -> str:
 
 
 def write_json(path: Path, payload: dict[str, Any]) -> None:
+    """Write a stable JSON manifest or summary artifact."""
+
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, indent=2, sort_keys=True), encoding="utf-8")
 
 
 def log_payload(payload: dict[str, Any]) -> dict[str, Any]:
+    """Remove redundant status fields before embedding payloads in log events."""
+
     return {key: value for key, value in payload.items() if key != "status"}
 
 
@@ -215,6 +241,8 @@ def tfidf_nmf_analysis(
     seed: int,
     logger: JsonlLogger,
 ) -> dict[str, Any]:
+    """Run TF-IDF plus NMF topic modeling as an exploratory topic check."""
+
     from sklearn.decomposition import NMF
     from sklearn.feature_extraction.text import TfidfVectorizer
 
@@ -235,6 +263,8 @@ def tfidf_nmf_analysis(
     }
     logger.event(stage, "started", document_count=len(documents), parameters=params)
     texts = [doc["representative_text"] for doc in documents]
+    # NMF consumes non-negative TF-IDF features and produces interpretable term
+    # groups. It is used here for triangulation, not as the baseline taxonomy.
     vectorizer = TfidfVectorizer(
         max_features=TFIDF_MAX_FEATURES,
         min_df=params["min_df"],
@@ -363,6 +393,8 @@ def summarize_topic_scores_by_group(
     topic_ids: list[str],
     group_field: str,
 ) -> list[dict[str, Any]]:
+    """Aggregate NMF topic scores by sector or year."""
+
     grouped: dict[Any, list[int]] = defaultdict(list)
     for index, doc in enumerate(documents):
         grouped[doc[group_field]].append(index)
@@ -389,6 +421,8 @@ def embedding_analysis(
     logger: JsonlLogger,
     model_name: str = SENTENCE_MODEL,
 ) -> dict[str, Any]:
+    """Embed documents and rank semantic similarity/shift candidates."""
+
     import numpy as np
     from sentence_transformers import SentenceTransformer
     from sklearn.metrics.pairwise import cosine_similarity
@@ -403,6 +437,8 @@ def embedding_analysis(
     }
     logger.event(stage, "started", document_count=len(documents), parameters=params)
     model = SentenceTransformer(model_name)
+    # Normalized embeddings make cosine similarity directly comparable across
+    # documents and stable for adjacent-year semantic-distance ranking.
     embeddings = model.encode(
         [doc["representative_text"] for doc in documents],
         batch_size=params["batch_size"],
@@ -442,6 +478,8 @@ def embedding_analysis(
             same_ticker = documents[i]["ticker"] == documents[j]["ticker"]
             same_sector = documents[i]["sector"] == documents[j]["sector"]
             if same_ticker or same_sector:
+                # Limit the pair table to analytically useful comparisons:
+                # within-company continuity and same-sector similarity.
                 pair_rows.append(
                     {
                         "doc_id_a": documents[i]["doc_id"],
@@ -511,6 +549,8 @@ def spacy_analysis(
     logger: JsonlLogger,
     model_name: str = SPACY_MODEL,
 ) -> dict[str, Any]:
+    """Run spaCy features to add statistical linguistic diagnostics."""
+
     import spacy
 
     stage = "spacy_pipeline"
@@ -560,8 +600,7 @@ def spacy_analysis(
         )
     write_csv(output_dir / "spacy_features.csv", rows)
     top_orgs = [
-        {"entity_text": entity, "count": count}
-        for entity, count in entity_counter.most_common(100)
+        {"entity_text": entity, "count": count} for entity, count in entity_counter.most_common(100)
     ]
     write_csv(output_dir / "spacy_top_org_entities.csv", top_orgs)
     result = {
@@ -588,6 +627,8 @@ def llm_annotation_analysis(
     sample_size: int = 8,
     temperature: float = 0.1,
 ) -> dict[str, Any]:
+    """Generate sampled local LLM annotations with prompt and response hashes."""
+
     from transformers import AutoModelForSeq2SeqLM, AutoTokenizer, set_seed
 
     stage = "local_llm_annotations"
@@ -615,6 +656,8 @@ def llm_annotation_analysis(
     for doc in selected:
         excerpt = llm_value_excerpt(doc["text"])
         prompt = prompt_template.format(text=excerpt)
+        # The model is intentionally small and local. Hashing prompt, excerpt,
+        # and response keeps the weak annotation layer auditable.
         inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=512)
         generated = model.generate(
             **inputs,
@@ -656,6 +699,8 @@ def llm_annotation_analysis(
 
 
 def stage_error_result(stage: str, error: Exception, logger: JsonlLogger) -> dict[str, Any]:
+    """Convert model-stage failures into manifest entries instead of hard exits."""
+
     result = {
         "status": "failed",
         "error_type": type(error).__name__,
@@ -674,6 +719,8 @@ def build_manifest(
     missing: list[dict[str, str]],
     stage_results: dict[str, Any],
 ) -> dict[str, Any]:
+    """Build the enhanced-run manifest with inputs, versions, and stage results."""
+
     return {
         "method": (
             "Enhanced exploratory text mining using free/open-source models; "
@@ -709,6 +756,8 @@ def run_enhanced_text_mining(
     enable_llm: bool = False,
     continue_on_model_error: bool = True,
 ) -> dict[str, Any]:
+    """Run all enhanced open-source checks and write an auditable manifest."""
+
     start = time.time()
     output_dir.mkdir(parents=True, exist_ok=True)
     logger = JsonlLogger(log_path)
@@ -724,6 +773,8 @@ def run_enhanced_text_mining(
     documents, missing = read_documents(dataset)
     stage_results: dict[str, Any] = {}
 
+    # The enhanced layers are exploratory. By default, a missing model or package
+    # is recorded as a failed stage so other successful checks remain usable.
     for stage_name, func in [
         ("tfidf_nmf", lambda: tfidf_nmf_analysis(documents, output_dir, seed, logger)),
         ("sentence_embeddings", lambda: embedding_analysis(documents, output_dir, seed, logger)),

@@ -59,4 +59,3 @@ def test_select_def14a_returns_none_for_missing_year() -> None:
         )
         is None
     )
-

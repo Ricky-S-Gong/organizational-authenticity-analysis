@@ -12,6 +12,8 @@ import httpx
 from org_auth_part2.models import FilingMetadata
 
 SEC_HEADERS = {
+    # SEC fair-access guidance requires an identifying User-Agent. The contact
+    # string is intentionally centralized so collection runs are easy to audit.
     "User-Agent": "organizational-authenticity-research/0.1 contact@example.com",
     "Accept-Encoding": "gzip, deflate",
 }
@@ -22,6 +24,8 @@ ARCHIVE_BASE = "https://www.sec.gov/Archives/edgar/data"
 
 
 class EdgarClient:
+    """Small EDGAR client with explicit throttling and reusable HTTP session."""
+
     def __init__(self, *, timeout_seconds: float = 30, sleep_seconds: float = 0.15) -> None:
         self.timeout_seconds = timeout_seconds
         self.sleep_seconds = sleep_seconds
@@ -35,12 +39,16 @@ class EdgarClient:
         self._client.close()
 
     def get_json(self, url: str) -> dict[str, Any]:
+        """Fetch JSON while respecting the configured inter-request delay."""
+
         time.sleep(self.sleep_seconds)
         response = self._client.get(url)
         response.raise_for_status()
         return response.json()
 
     def get_bytes(self, url: str) -> tuple[bytes, str]:
+        """Fetch a filing artifact and return bytes plus content type."""
+
         time.sleep(self.sleep_seconds)
         response = self._client.get(url)
         response.raise_for_status()
@@ -48,10 +56,14 @@ class EdgarClient:
 
 
 def normalize_ticker(ticker: str) -> str:
+    """Normalize local tickers to SEC's ticker style, including class shares."""
+
     return ticker.upper().replace(".", "-")
 
 
 def load_ticker_cik_map(client: EdgarClient, cache_path: Path | None = None) -> dict[str, str]:
+    """Load SEC ticker-to-CIK metadata, using a cache for reproducible reruns."""
+
     if cache_path and cache_path.exists():
         import json
 
@@ -72,6 +84,8 @@ def load_ticker_cik_map(client: EdgarClient, cache_path: Path | None = None) -> 
 
 
 def _columnar_rows(recent: dict[str, list[Any]]) -> list[dict[str, Any]]:
+    """Convert SEC's column-oriented filing arrays into row dictionaries."""
+
     keys = list(recent)
     if not keys:
         return []
@@ -84,6 +98,8 @@ def load_submissions(
     cik: str,
     cache_path: Path | None = None,
 ) -> dict[str, Any]:
+    """Load a company's SEC submissions JSON with optional local caching."""
+
     if cache_path and cache_path.exists():
         import json
 
@@ -103,6 +119,8 @@ def load_submission_file(
     name: str,
     cache_dir: Path | None = None,
 ) -> dict[str, Any]:
+    """Load older paginated submission files referenced by the main payload."""
+
     cache_path = cache_dir / name if cache_dir else None
     if cache_path and cache_path.exists():
         import json
@@ -119,6 +137,8 @@ def load_submission_file(
 
 
 def filing_document_url(cik: str, accession_number: str, primary_document: str) -> str:
+    """Build the direct SEC Archives URL for the selected primary filing."""
+
     cik_int = str(int(cik))
     accession_compact = accession_number.replace("-", "")
     return f"{ARCHIVE_BASE}/{cik_int}/{accession_compact}/{primary_document}"
@@ -130,6 +150,8 @@ def submission_rows(
     submissions: dict[str, Any],
     cache_dir: Path | None = None,
 ) -> list[dict[str, Any]]:
+    """Return all recent and historical filing rows available for a CIK."""
+
     rows = _columnar_rows(submissions.get("filings", {}).get("recent", {}))
     for file_info in submissions.get("filings", {}).get("files", []):
         name = file_info.get("name")
@@ -149,6 +171,13 @@ def select_def14a_for_year_from_rows(
     rows: list[dict[str, Any]],
     include_supplements: bool = False,
 ) -> FilingMetadata | None:
+    """Select the first calendar-year DEF 14A filing for a company-year.
+
+    `DEFA14A` supplements are excluded by default because the assignment asks
+    for one comparable document type; including supplements is retained only as
+    an explicit option for sensitivity checks.
+    """
+
     forms = {"DEF 14A"}
     if include_supplements:
         forms.add("DEFA14A")
@@ -162,6 +191,8 @@ def select_def14a_for_year_from_rows(
     ]
     if not candidates:
         return None
+    # Sort so true DEF 14A filings beat supplements, then choose the earliest
+    # filing date in the calendar year for a deterministic selection rule.
     candidates.sort(
         key=lambda row: (
             row.get("form") != "DEF 14A",
@@ -195,6 +226,8 @@ def select_def14a_for_year(
     submissions: dict[str, Any],
     include_supplements: bool = False,
 ) -> FilingMetadata | None:
+    """Backward-compatible selector for callers that only need recent filings."""
+
     rows = _columnar_rows(submissions.get("filings", {}).get("recent", {}))
     return select_def14a_for_year_from_rows(
         ticker=ticker,
@@ -204,5 +237,9 @@ def select_def14a_for_year(
         rows=rows,
         include_supplements=include_supplements,
     )
+
+
 def metadata_dict(metadata: FilingMetadata) -> dict[str, Any]:
+    """Serialize filing metadata for logs and candidate tables."""
+
     return asdict(metadata)

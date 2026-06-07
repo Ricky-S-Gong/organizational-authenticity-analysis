@@ -37,18 +37,26 @@ LINGUISTIC_RATE_FIELDS = (
 
 
 def _mean(values: list[float]) -> float:
+    """Return a rounded mean, using zero for empty groups."""
+
     return round(sum(values) / len(values), 6) if values else 0.0
 
 
 def _median(values: list[float]) -> float:
+    """Return a rounded median, using zero for empty groups."""
+
     return round(statistics.median(values), 6) if values else 0.0
 
 
 def _pct(numerator: int, denominator: int) -> float:
+    """Return a proportion with a safe zero-denominator fallback."""
+
     return round(numerator / denominator, 6) if denominator else 0.0
 
 
 def read_dataset(path: Path) -> tuple[list[dict[str, Any]], list[dict[str, str]]]:
+    """Load collected rows for analysis while preserving missing rows separately."""
+
     csv.field_size_limit(sys.maxsize)
     collected: list[dict[str, Any]] = []
     missing: list[dict[str, str]] = []
@@ -81,11 +89,15 @@ def read_dataset(path: Path) -> tuple[list[dict[str, Any]], list[dict[str, str]]
 
 
 def theme_rate(row: dict[str, Any], theme_id: str) -> float:
+    """Normalize theme matches per 10,000 words for document-length comparability."""
+
     count = row["theme_counts"].get(theme_id, 0)
     return (count / row["word_count"]) * 10_000 if row["word_count"] else 0.0
 
 
 def theme_year_summary(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Aggregate normalized theme emphasis by filing year."""
+
     grouped: dict[tuple[int, str], list[dict[str, Any]]] = defaultdict(list)
     for row in rows:
         for theme_id in THEME_LABELS:
@@ -110,6 +122,8 @@ def theme_year_summary(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 
 def theme_sector_summary(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Aggregate normalized theme emphasis by sector."""
+
     grouped: dict[tuple[str, str], list[dict[str, Any]]] = defaultdict(list)
     for row in rows:
         for theme_id in THEME_LABELS:
@@ -135,6 +149,8 @@ def theme_sector_summary(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 
 def linguistic_year_summary(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Aggregate language and tone indicators by filing year."""
+
     grouped: dict[int, list[dict[str, Any]]] = defaultdict(list)
     for row in rows:
         grouped[row["year"]].append(row)
@@ -155,6 +171,8 @@ def linguistic_year_summary(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 
 def sector_linguistic_summary(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Aggregate language and tone indicators by sector."""
+
     grouped: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for row in rows:
         grouped[row["sector"]].append(row)
@@ -175,6 +193,8 @@ def sector_linguistic_summary(rows: list[dict[str, Any]]) -> list[dict[str, Any]
 
 
 def company_theme_trends(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Measure first-to-last observed theme change within each company."""
+
     grouped: dict[tuple[str, str], list[dict[str, Any]]] = defaultdict(list)
     for row in rows:
         for theme_id in THEME_LABELS:
@@ -205,6 +225,8 @@ def company_theme_trends(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 
 def adjacent_theme_shifts(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Rank adjacent-year company theme shifts for qualitative audit targeting."""
+
     grouped: dict[tuple[str, str], list[dict[str, Any]]] = defaultdict(list)
     for row in rows:
         for theme_id in THEME_LABELS:
@@ -235,6 +257,8 @@ def adjacent_theme_shifts(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 
 def event_window_summary(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Summarize theme emphasis over predefined external-event windows."""
+
     output: list[dict[str, Any]] = []
     for window_name, years in EVENT_WINDOWS.items():
         group = [row for row in rows if row["year"] in years]
@@ -258,6 +282,8 @@ def event_window_summary(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 
 def missing_summary(missing: list[dict[str, str]]) -> list[dict[str, Any]]:
+    """Condense missing company-year rows into company-level gap summaries."""
+
     grouped: dict[tuple[str, str, str], list[dict[str, str]]] = defaultdict(list)
     for row in missing:
         grouped[(row["ticker"], row["company_name"], row["sector"])].append(row)
@@ -277,6 +303,8 @@ def missing_summary(missing: list[dict[str, str]]) -> list[dict[str, Any]]:
 
 
 def write_csv(path: Path, rows: list[dict[str, Any]]) -> None:
+    """Write CSV outputs with headers derived from the first record."""
+
     path.parent.mkdir(parents=True, exist_ok=True)
     if not rows:
         path.write_text("", encoding="utf-8")
@@ -288,6 +316,8 @@ def write_csv(path: Path, rows: list[dict[str, Any]]) -> None:
 
 
 def _top_theme_rows(rows: list[dict[str, Any]], key: str, limit: int = 5) -> list[dict[str, Any]]:
+    """Return the highest-ranked rows for narrative summaries."""
+
     return sorted(rows, key=lambda row: row[key], reverse=True)[:limit]
 
 
@@ -302,6 +332,8 @@ def build_summary_payload(
     adjacent_shifts: list[dict[str, Any]],
     event_windows: list[dict[str, Any]],
 ) -> dict[str, Any]:
+    """Build the compact JSON payload that powers docs, tables, and figures."""
+
     overall_theme_totals = []
     for theme_id, label in THEME_LABELS.items():
         rates = [theme_rate(row, theme_id) for row in collected]
@@ -383,6 +415,8 @@ def build_summary_payload(
 
 
 def write_analysis_doc(path: Path, payload: dict[str, Any], missing: list[dict[str, Any]]) -> None:
+    """Write a concise baseline analysis document from computed summaries."""
+
     top_themes = "\n".join(
         "- {theme_label}: {mean_matches_per_10k_words:.2f} matches per 10k words; "
         "presence {presence_rate:.1%}".format(**row)
@@ -487,13 +521,13 @@ def write_final_summary_doc(
     payload: dict[str, Any],
     missing: list[dict[str, Any]],
 ) -> None:
+    """Write the Part 2 summary used as the high-level deliverable."""
+
     top_theme_text = "; ".join(
         "{theme_label} ({mean_matches_per_10k_words:.1f}/10k)".format(**row)
         for row in payload["top_overall_themes"][:4]
     )
-    missing_text = "; ".join(
-        "{ticker}: {missing_years}".format(**row) for row in missing
-    )
+    missing_text = "; ".join("{ticker}: {missing_years}".format(**row) for row in missing)
     sector_text = "\n".join(
         "- {sector}: {theme_label}".format(
             sector=row["sector"],
@@ -547,6 +581,8 @@ rather than being treated as zero disclosure emphasis.
 
 
 def run_text_mining(dataset: Path, output_dir: Path, analysis_doc: Path) -> dict[str, Any]:
+    """Run deterministic text mining and write all baseline analysis outputs."""
+
     collected, missing = read_dataset(dataset)
     theme_year = theme_year_summary(collected)
     theme_sector = theme_sector_summary(collected)

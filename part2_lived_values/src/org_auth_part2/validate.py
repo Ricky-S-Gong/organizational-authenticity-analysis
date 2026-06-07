@@ -17,6 +17,8 @@ DEFAULT_ENHANCED_SUMMARY = (
 
 
 def _read_csv_rows(path: Path) -> list[dict[str, str]]:
+    """Read CSV rows when a validation input exists."""
+
     if not path.exists():
         return []
     with path.open(newline="", encoding="utf-8") as handle:
@@ -28,6 +30,8 @@ def _enhanced_join_check(
     collected_rows: list[dict[str, str]],
     enhanced_summary: Path,
 ) -> dict[str, object]:
+    """Check whether enhanced outputs can be joined back to collected rows."""
+
     if not enhanced_summary.exists():
         return {"exists": False}
     payload = json.loads(enhanced_summary.read_text(encoding="utf-8"))
@@ -55,6 +59,8 @@ def _enhanced_join_check(
             (row["ticker"], row["year"], row["accession_number"], row["clean_text_sha256"])
             for row in rows
         }
+        # The join-key check prevents model outputs from drifting away from the
+        # exact company-year filings collected in the baseline dataset.
         checks[name] = {
             "exists": (output_dir / filename).exists(),
             "row_count": len(rows),
@@ -80,6 +86,8 @@ def validate_outputs(
     audit: Path = DEFAULT_AUDIT,
     enhanced_summary: Path = DEFAULT_ENHANCED_SUMMARY,
 ) -> dict[str, object]:
+    """Validate Part 2 deliverables against coverage and evidence requirements."""
+
     csv.field_size_limit(sys.maxsize)
     rows = []
     if dataset.exists():

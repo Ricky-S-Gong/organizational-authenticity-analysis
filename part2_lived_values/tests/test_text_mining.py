@@ -60,4 +60,3 @@ def test_event_window_summary_has_expected_windows() -> None:
     windows = {row["event_window"] for row in event_window_summary(rows)}
     assert "covid_dei_governance_window" in windows
     assert "pre_2020" in windows
-

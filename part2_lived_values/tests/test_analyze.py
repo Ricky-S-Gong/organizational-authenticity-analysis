@@ -26,4 +26,3 @@ def test_analysis_json_is_parseable() -> None:
     assert "purpose_and_identity" in json.loads(categories)
     assert json.loads(evidence)
     assert json.loads(metrics)["word_count"] == 6
-

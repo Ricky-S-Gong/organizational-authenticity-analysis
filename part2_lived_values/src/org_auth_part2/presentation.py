@@ -17,15 +17,21 @@ DEFAULT_SUMMARY_DOC = PART2_ROOT / "docs/summary.md"
 
 
 def read_csv(path: Path) -> list[dict[str, str]]:
+    """Read an analysis CSV for table/doc generation."""
+
     with path.open(newline="", encoding="utf-8") as handle:
         return list(csv.DictReader(handle))
 
 
 def fmt(value: str | float, digits: int = 2) -> str:
+    """Format numeric table values consistently across Markdown and LaTeX."""
+
     return f"{float(value):.{digits}f}"
 
 
 def markdown_table(headers: list[str], rows: list[list[str]]) -> str:
+    """Render a compact GitHub-compatible Markdown table."""
+
     header = "| " + " | ".join(headers) + " |"
     sep = "| " + " | ".join("---" for _ in headers) + " |"
     body = ["| " + " | ".join(row) + " |" for row in rows]
@@ -33,6 +39,8 @@ def markdown_table(headers: list[str], rows: list[list[str]]) -> str:
 
 
 def latex_table(headers: list[str], rows: list[list[str]], caption: str, label: str) -> str:
+    """Render a simple LaTeX table for manuscript or report reuse."""
+
     cols = "l" * len(headers)
     lines = [
         "\\begin{table}[htbp]",
@@ -58,6 +66,8 @@ def write_table_set(
     rows: list[list[str]],
     caption: str,
 ) -> None:
+    """Write paired Markdown and LaTeX versions of one table."""
+
     table_dir.mkdir(parents=True, exist_ok=True)
     (table_dir / f"{name}.md").write_text(markdown_table(headers, rows), encoding="utf-8")
     (table_dir / f"{name}.tex").write_text(
@@ -67,6 +77,8 @@ def write_table_set(
 
 
 def build_tables(output_dir: Path, table_dir: Path) -> dict[str, Any]:
+    """Build all research-facing Part 2 tables from saved text-mining outputs."""
+
     summary = json.loads((output_dir / "text_mining_summary.json").read_text(encoding="utf-8"))
     theme_sector = read_csv(output_dir / "theme_sector_summary.csv")
     adjacent = read_csv(output_dir / "top_adjacent_theme_shifts.csv")
@@ -128,6 +140,8 @@ def build_tables(output_dir: Path, table_dir: Path) -> dict[str, Any]:
         "Descriptive event-window differences in normalized theme emphasis.",
     )
     event_shift_rows = [
+        # These rows make the external-event interpretation explicit while
+        # keeping the descriptive, non-causal caveat visible in the table.
         [
             "2020-2021",
             "COVID-era workforce shock",
@@ -285,14 +299,14 @@ def build_tables(output_dir: Path, table_dir: Path) -> dict[str, Any]:
 
 
 def write_docs(payload: dict[str, Any], table_dir: Path) -> None:
+    """Write the main analysis and final summary documents from table outputs."""
+
     summary = payload["summary"]
     figures_rel = "../outputs/text_mining/figures"
     collective_start = float(
         payload["tone_first_year"]["mean_first_person_plural_rate_per_100_words"]
     )
-    collective_end = float(
-        payload["tone_last_year"]["mean_first_person_plural_rate_per_100_words"]
-    )
+    collective_end = float(payload["tone_last_year"]["mean_first_person_plural_rate_per_100_words"])
     collective_increase = ((collective_end / collective_start) - 1) * 100
     stakeholder_start = float(payload["tone_first_year"]["mean_stakeholder_rate_per_100_words"])
     stakeholder_end = float(payload["tone_last_year"]["mean_stakeholder_rate_per_100_words"])
@@ -565,6 +579,8 @@ remain missing in downstream alignment analysis.
 
 
 def build_presentation(output_dir: Path, table_dir: Path) -> dict[str, Any]:
+    """Generate tables plus Markdown deliverables for Part 2 analysis."""
+
     payload = build_tables(output_dir, table_dir)
     write_docs(payload, table_dir)
     return {

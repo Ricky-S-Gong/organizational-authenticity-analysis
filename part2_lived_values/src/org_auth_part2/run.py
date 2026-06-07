@@ -80,11 +80,15 @@ FIELDNAMES = [
 
 
 class ProgressLogger:
+    """Append-only JSONL logger for real-time monitoring and rerun audits."""
+
     def __init__(self, path: Path) -> None:
         self.path = path
         self.path.parent.mkdir(parents=True, exist_ok=True)
 
     def event(self, stage: str, status: str, **payload: Any) -> None:
+        """Record one structured progress event without mutating prior events."""
+
         row = {
             "timestamp": datetime.now(UTC).isoformat(),
             "stage": stage,
@@ -96,20 +100,28 @@ class ProgressLogger:
 
 
 def _sha256_bytes(content: bytes) -> str:
+    """Hash raw filing bytes so stored artifacts can be integrity-checked."""
+
     return hashlib.sha256(content).hexdigest()
 
 
 def _sha256_text(text: str) -> str:
+    """Hash extracted text separately from raw HTML for extraction auditability."""
+
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
 
 
 def _safe_name(ticker: str, year: int, accession: str, suffix: str) -> str:
+    """Create deterministic artifact filenames from company-year filing IDs."""
+
     safe_ticker = normalize_ticker(ticker).lower()
     safe_accession = accession.replace("-", "")
     return f"{safe_ticker}_{year}_{safe_accession}{suffix}"
 
 
 def read_targets(path: Path) -> list[CompanyYear]:
+    """Read the persisted company-year grid used by the collection run."""
+
     with path.open(newline="", encoding="utf-8") as handle:
         rows = list(csv.DictReader(handle))
     return [
@@ -124,6 +136,8 @@ def read_targets(path: Path) -> list[CompanyYear]:
 
 
 def write_results(results: list[CollectionResult], path: Path) -> None:
+    """Write the full dataset, including extracted text for analysis reruns."""
+
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=FIELDNAMES)
@@ -133,6 +147,8 @@ def write_results(results: list[CollectionResult], path: Path) -> None:
 
 
 def write_compact_results(results: list[CollectionResult], path: Path) -> None:
+    """Write a shareable dataset variant that excludes the large text column."""
+
     compact_fields = [field for field in FIELDNAMES if field != "page_text_clean"]
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="", encoding="utf-8") as handle:
@@ -144,6 +160,8 @@ def write_compact_results(results: list[CollectionResult], path: Path) -> None:
 
 
 def write_candidates(path: Path, metadata_rows: list[dict[str, Any]]) -> None:
+    """Persist selected filing metadata for transparent selection review."""
+
     if not metadata_rows:
         return
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -165,9 +183,13 @@ def collect_one(
     logger: ProgressLogger,
     minimum_words: int,
 ) -> tuple[CollectionResult, dict[str, Any] | None]:
+    """Collect and analyze one company-year while preserving every failure mode."""
+
     normalized = normalize_ticker(target.ticker)
     cik = ticker_cik.get(normalized, "")
     if not cik:
+        # Missing CIKs are panel gaps, not exceptions: downstream code needs the
+        # row so coverage denominators remain anchored to the original 450 targets.
         logger.event("company_year", "missing_cik", ticker=target.ticker, year=target.year)
         return (
             CollectionResult(
@@ -214,6 +236,8 @@ def collect_one(
         rows=rows,
     )
     if metadata is None:
+        # A missing calendar-year DEF 14A remains in the dataset with a controlled
+        # reason instead of being imputed or treated as zero disclosure emphasis.
         logger.event(
             "company_year",
             "missing_def14a",
@@ -266,6 +290,9 @@ def collect_one(
 
     raw_dir.mkdir(parents=True, exist_ok=True)
     text_dir.mkdir(parents=True, exist_ok=True)
+
+    # Store both raw and clean artifacts. The raw hash supports source integrity;
+    # the clean-text hash supports reproducible text-mining reruns.
     raw_suffix = Path(metadata.primary_document).suffix or ".html"
     raw_path = raw_dir / _safe_name(
         target.ticker,
@@ -282,6 +309,10 @@ def collect_one(
     text_hash = _sha256_text(clean_text)
     metrics = linguistic_metrics(clean_text)
     theme_categories, theme_evidence, metrics_json = analysis_json(clean_text)
+
+    # Low-quality extractions are retained for review rather than promoted to
+    # successful observations. This protects descriptive results from tiny or
+    # index-only artifacts while keeping the audit trail complete.
     status = "collected" if quality == "usable" else "needs_review"
     gap_reason = "" if quality == "usable" else quality
     logger.event(
@@ -332,6 +363,8 @@ def collect_one(
 
 
 def write_manual_review(results: list[CollectionResult], path: Path) -> None:
+    """Write a queue of non-collected rows that require manual inspection."""
+
     path.parent.mkdir(parents=True, exist_ok=True)
     rows = [
         {
@@ -364,6 +397,8 @@ def write_manual_review(results: list[CollectionResult], path: Path) -> None:
 
 
 def write_download_log(results: list[CollectionResult], path: Path) -> None:
+    """Write source and raw-artifact fields needed to audit downloads."""
+
     path.parent.mkdir(parents=True, exist_ok=True)
     fieldnames = [
         "ticker",
@@ -383,6 +418,8 @@ def write_download_log(results: list[CollectionResult], path: Path) -> None:
 
 
 def write_extraction_log(results: list[CollectionResult], path: Path) -> None:
+    """Write text extraction hashes, quality labels, and size diagnostics."""
+
     path.parent.mkdir(parents=True, exist_ok=True)
     fieldnames = [
         "ticker",
@@ -404,6 +441,8 @@ def write_extraction_log(results: list[CollectionResult], path: Path) -> None:
 
 
 def coverage_report(results: list[CollectionResult]) -> dict[str, Any]:
+    """Summarize collection coverage overall and by sector."""
+
     by_status: dict[str, int] = {}
     by_sector: dict[str, dict[str, int]] = {}
     for result in results:
@@ -423,6 +462,8 @@ def coverage_report(results: list[CollectionResult]) -> dict[str, Any]:
 
 
 def requirement_audit(results: list[CollectionResult]) -> dict[str, Any]:
+    """Check whether generated outputs satisfy the Part 2 research contract."""
+
     target_rows = len(results)
     collected = [row for row in results if row.collection_status == "collected"]
     successful_have_evidence = all(
@@ -457,11 +498,15 @@ def requirement_audit(results: list[CollectionResult]) -> dict[str, Any]:
 
 
 def write_json(path: Path, payload: dict[str, Any]) -> None:
+    """Write stable, sorted JSON for human-readable audit artifacts."""
+
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, indent=2, sort_keys=True), encoding="utf-8")
 
 
 def run_pipeline(args: argparse.Namespace) -> list[CollectionResult]:
+    """Run collection end to end and write all Part 2 collection artifacts."""
+
     logger = ProgressLogger(args.progress_log)
     logger.event("run", "started", limit=args.limit, ticker=args.ticker)
     if not args.targets.exists():
@@ -470,14 +515,14 @@ def run_pipeline(args: argparse.Namespace) -> list[CollectionResult]:
     targets = read_targets(args.targets)
     if args.ticker:
         requested = {
-            normalize_ticker(ticker.strip())
-            for ticker in args.ticker.split(",")
-            if ticker.strip()
+            normalize_ticker(ticker.strip()) for ticker in args.ticker.split(",") if ticker.strip()
         }
         targets = [target for target in targets if normalize_ticker(target.ticker) in requested]
     if args.limit:
         targets = targets[: args.limit]
 
+    # Keep a single HTTP client for the run so headers, timeouts, and throttling
+    # are consistent across ticker lookup, metadata, and document downloads.
     client = EdgarClient(timeout_seconds=args.timeout_seconds, sleep_seconds=args.sleep_seconds)
     results: list[CollectionResult] = []
     candidate_rows: list[dict[str, Any]] = []

@@ -16,6 +16,8 @@ TAXONOMY_VERSION = "1.0.0-keyword-baseline"
 
 @dataclass(frozen=True)
 class ThemeDefinition:
+    """Keyword theme definition shared with the Part 1-compatible taxonomy."""
+
     theme_id: str
     label: str
     phrases: tuple[str, ...]
@@ -23,6 +25,8 @@ class ThemeDefinition:
 
 @dataclass(frozen=True)
 class ThemeEvidence:
+    """Matched theme evidence saved with phrase counts and excerpt support."""
+
     theme_id: str
     theme_label: str
     taxonomy_version: str
@@ -213,19 +217,27 @@ _LINGUISTIC_LEXICONS: dict[str, tuple[str, ...]] = {
 
 
 def split_sentences(text: str) -> list[str]:
+    """Split filing text into rough sentences for compact evidence excerpts."""
+
     return [sentence.strip() for sentence in _SENTENCE_RE.split(text) if sentence.strip()]
 
 
 def word_count(text: str) -> int:
+    """Count word-like tokens consistently across collection and analysis."""
+
     return len(_WORD_RE.findall(text))
 
 
 def _phrase_pattern(phrase: str) -> re.Pattern[str]:
+    """Compile phrase matching with word boundaries and flexible whitespace."""
+
     escaped = re.escape(phrase).replace(r"\ ", r"\s+")
     return re.compile(rf"(?<!\w){escaped}(?!\w)", re.IGNORECASE)
 
 
 def assign_themes(text: str) -> list[ThemeEvidence]:
+    """Assign deterministic themes and retain literal evidence for audit review."""
+
     sentences = split_sentences(text)
     assigned: list[ThemeEvidence] = []
     for theme in THEME_TAXONOMY:
@@ -239,6 +251,8 @@ def assign_themes(text: str) -> list[ThemeEvidence]:
                 continue
             matched_phrases.append(phrase)
             match_count += len(phrase_matches)
+            # Keep a bounded set of excerpts so CSV/JSON outputs remain readable
+            # while still showing where the literal phrase evidence came from.
             for sentence in sentences:
                 if pattern.search(sentence) and sentence not in excerpts:
                     excerpts.append(sentence[:500])
@@ -259,6 +273,8 @@ def assign_themes(text: str) -> list[ThemeEvidence]:
 
 
 def linguistic_metrics(text: str) -> dict[str, Any]:
+    """Compute descriptive language and tone proxies from observable lexicons."""
+
     words = [word.lower() for word in _WORD_RE.findall(text)]
     sentences = split_sentences(text)
     metrics: dict[str, Any] = {
@@ -275,6 +291,8 @@ def linguistic_metrics(text: str) -> dict[str, Any]:
 
 
 def analysis_json(text: str) -> tuple[str, str, str]:
+    """Serialize theme assignments and linguistic metrics for dataset storage."""
+
     themes = assign_themes(text)
     categories = json.dumps([theme.theme_id for theme in themes], ensure_ascii=True)
     evidence = json.dumps([asdict(theme) for theme in themes], ensure_ascii=True)

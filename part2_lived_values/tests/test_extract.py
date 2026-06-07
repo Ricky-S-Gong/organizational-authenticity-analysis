@@ -15,4 +15,3 @@ def test_extract_visible_text_removes_script_and_style() -> None:
 def test_extraction_quality_codes_short_text() -> None:
     assert extraction_quality("") == "empty"
     assert extraction_quality("short text", minimum_words=10) == "insufficient_text"
-

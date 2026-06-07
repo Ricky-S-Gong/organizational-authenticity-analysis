@@ -13,6 +13,8 @@ def summarize(
     progress_log: Path = DEFAULT_PROGRESS_LOG,
     state_file: Path = DEFAULT_STATE,
 ) -> dict[str, object]:
+    """Summarize append-only progress events plus the latest checkpoint state."""
+
     counts: dict[str, int] = {}
     latest: dict[str, object] = {}
     if progress_log.exists():

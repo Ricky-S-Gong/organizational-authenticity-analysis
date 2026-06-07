@@ -19,16 +19,22 @@ DEFAULT_ANALYSIS_DOC = PART2_ROOT / "docs/text_mining_analysis.md"
 
 
 def read_csv(path: Path) -> list[dict[str, str]]:
+    """Read an enhanced-output CSV for tables or figures."""
+
     with path.open(newline="", encoding="utf-8") as handle:
         return list(csv.DictReader(handle))
 
 
 def short_terms(value: str, limit: int = 7) -> str:
+    """Trim long NMF term lists for display tables."""
+
     terms = [term.strip() for term in value.split(";") if term.strip()]
     return "; ".join(terms[:limit])
 
 
 def build_enhanced_tables(enhanced_dir: Path, table_dir: Path) -> dict[str, Any]:
+    """Create Markdown/LaTeX tables summarizing enhanced model checks."""
+
     topics = read_csv(enhanced_dir / "nmf_topics.csv")
     shifts = read_csv(enhanced_dir / "embedding_adjacent_year_shifts.csv")
     llm_rows = read_csv(enhanced_dir / "llm_annotations.csv")
@@ -97,6 +103,8 @@ def build_enhanced_tables(enhanced_dir: Path, table_dir: Path) -> dict[str, Any]
 
 
 def _set_plot_style() -> None:
+    """Apply a consistent matplotlib/seaborn style for enhanced figures."""
+
     import matplotlib.pyplot as plt
     import seaborn as sns
 
@@ -115,6 +123,8 @@ def _set_plot_style() -> None:
 
 
 def write_enhanced_figures(payload: dict[str, Any], figure_dir: Path) -> list[Path]:
+    """Create PNG figures for NMF, embedding shifts, and LLM quality flags."""
+
     import matplotlib.pyplot as plt
     import seaborn as sns
 
@@ -178,6 +188,8 @@ def write_enhanced_figures(payload: dict[str, Any], figure_dir: Path) -> list[Pa
 
 
 def enhanced_section_markdown(payload: dict[str, Any], table_dir: Path, figure_dir: Path) -> str:
+    """Render the enhanced-checks section inserted into the main analysis doc."""
+
     figures_rel = "../outputs/text_mining/enhanced/figures"
     summary = payload["summary"]
     stage_results = summary["stage_results"]
@@ -247,6 +259,8 @@ still depend on package and model availability at rerun time.
 
 
 def update_analysis_doc(path: Path, section: str) -> None:
+    """Replace or insert the enhanced-checks section in the main analysis doc."""
+
     text = path.read_text(encoding="utf-8")
     marker_options = ("## 7. Enhanced Model-Based Checks", "## 6. Enhanced Model-Based Checks")
     end = text.index("## Interpretation")
@@ -263,6 +277,8 @@ def run_enhanced_presentation(
     figure_dir: Path = DEFAULT_FIGURE_DIR,
     analysis_doc: Path = DEFAULT_ANALYSIS_DOC,
 ) -> dict[str, Any]:
+    """Build enhanced tables, figures, and merged analysis documentation."""
+
     payload = build_enhanced_tables(enhanced_dir, table_dir)
     figures = write_enhanced_figures(payload, figure_dir)
     section = enhanced_section_markdown(payload, table_dir, figure_dir)
