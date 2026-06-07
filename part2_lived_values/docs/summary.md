@@ -8,14 +8,35 @@ statements.
 
 ## Coverage
 
-- Target rows: 450
-- Collected proxy statements: 434 of 450 (96.44%)
-- Missing rows: 16
-- Document type: SEC `DEF 14A`
-- Source: SEC EDGAR submissions API and Archives
+The collection target is a balanced 50-company by 9-year panel, for 450 target company-years. For
+each company-year, the pipeline attempted to collect one calendar-year SEC `DEF 14A` proxy
+statement from EDGAR.
 
-Missing rows are retained with structured gap reasons and are not imputed or treated as zero
-disclosure.
+| Collection status | Count | Share |
+| --- | --- | --- |
+| Collected | 434 | 96.44% |
+| Missing | 16 | 3.56% |
+
+The successful rows contain SEC filing metadata, accession numbers, archive URLs, raw-content
+hashes, clean-text hashes, extracted proxy text, word/sentence counts, deterministic theme
+evidence, and linguistic metrics. The collection source is the free SEC EDGAR submissions API and
+Archives. There were no download or extraction failures among selected filings, and no rows remain
+pending manual review.
+
+Coverage by sector is:
+
+| Sector | Collected | Missing |
+| --- | --- | --- |
+| Consumer Discretionary | 88 | 2 |
+| Energy | 89 | 1 |
+| Financials | 81 | 9 |
+| Healthcare | 90 | 0 |
+| Technology | 86 | 4 |
+
+All 16 missing rows have the same structured gap reason:
+`no_def14a_filing_for_calendar_year`. The missing company-years are Apple 2018; Broadcom
+2016-2018; BlackRock 2016-2024; McDonald's 2022; Starbucks 2024; and ExxonMobil 2021. Missing
+rows are retained with these gap reasons and are not imputed or treated as zero disclosure.
 
 ## Method
 
