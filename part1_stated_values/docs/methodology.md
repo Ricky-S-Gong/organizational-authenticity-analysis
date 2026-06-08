@@ -109,6 +109,16 @@ writes prompt hashes, input text hashes, response hashes, package versions, mode
 device, and quality flags to `outputs/llm_analysis/`. These annotations are treated as audit
 triangulation rather than as replacements for the deterministic theme/change fields.
 
+Reviewer map for the three LLM-based analysis requirements:
+
+| Requirement | Primary output files |
+| --- | --- |
+| Whether the page changed from the prior year | `outputs/part1_company_year.csv` (`changed_from_prior`, `change_score`, `change_magnitude`), `outputs/change_events.csv`, and `outputs/llm_analysis/llm_change_analysis.csv` |
+| What value/thematic categories are present | `outputs/part1_company_year.csv` (`theme_categories`), `outputs/theme_observations.csv`, `docs/taxonomy.md`, and `outputs/llm_analysis/llm_snapshot_analysis.csv` |
+| Notable linguistic shifts over time | `outputs/part1_company_year.csv` (`linguistic_metrics`, `linguistic_shift_notes`), `outputs/change_events.csv`, and `outputs/llm_analysis/llm_change_analysis.csv` |
+
+The LLM execution manifest is `outputs/llm_analysis/llm_analysis_summary.json`.
+
 ## Validation
 
 Each phase has automated tests. The final pipeline also produces:

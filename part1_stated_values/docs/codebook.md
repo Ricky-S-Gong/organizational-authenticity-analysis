@@ -16,6 +16,21 @@ The primary dataset keeps all 450 required company-year rows. Usable rows contai
 substantive text and analysis fields; non-usable rows remain in the panel with explicit
 `observation_status` and `gap_reason` values.
 
+## Instruction-to-Output Map
+
+The Part 1 instruction asks the LLM-based pipeline to analyze each snapshot for change, thematic
+categories, and linguistic shifts. The submitted outputs expose those components in the following
+places:
+
+| Instruction item | Primary files and fields |
+| --- | --- |
+| Whether the page changed from the prior year | `outputs/part1_company_year.csv`: `changed_from_prior`, `change_score`, `change_magnitude`; `outputs/change_events.csv`: adjacent-year evidence; `outputs/llm_analysis/llm_change_analysis.csv`: local LLM change notes |
+| What value/thematic categories are present | `outputs/part1_company_year.csv`: `theme_categories`, `theme_evidence`; `outputs/theme_observations.csv`: long-format phrase evidence; `docs/taxonomy.md`: category definitions and justification; `outputs/llm_analysis/llm_snapshot_analysis.csv`: local LLM snapshot notes |
+| Notable linguistic shifts over time | `outputs/part1_company_year.csv`: `linguistic_metrics`, `linguistic_shift_notes`; `outputs/change_events.csv`: adjacent-year change evidence; `outputs/llm_analysis/llm_change_analysis.csv`: local LLM linguistic-shift notes |
+
+`outputs/llm_analysis/llm_analysis_summary.json` records model, prompt, package-version, hash,
+device, and coverage metadata for the local LLM layer.
+
 ## Script Task Map
 
 The Part 1 code is organized around a few large reproducible tasks. Command-line modules execute

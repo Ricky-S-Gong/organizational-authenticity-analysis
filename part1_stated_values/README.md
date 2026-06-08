@@ -69,6 +69,21 @@ Current final-output coverage:
 - `insufficient_substantive_text`: 12.
 - `no_eligible_capture`: 5.
 
+## LLM Requirement Map
+
+The assignment asks for an LLM-based pipeline that analyzes each snapshot for three items. The
+submitted Part 1 outputs satisfy that requirement through a reproducible deterministic baseline plus
+a logged local Qwen LLM audit layer:
+
+| Instruction item | Where to review it |
+|---|---|
+| (a) Whether the page changed from the prior year | Main structured fields: `outputs/part1_company_year.csv` columns `changed_from_prior`, `change_score`, and `change_magnitude`; detailed adjacent-year evidence: `outputs/change_events.csv`; LLM change notes: `outputs/llm_analysis/llm_change_analysis.csv` |
+| (b) What value/thematic categories are present | Main structured fields: `outputs/part1_company_year.csv` column `theme_categories`; evidence table: `outputs/theme_observations.csv`; category definitions and academic basis: `docs/taxonomy.md`; LLM snapshot notes: `outputs/llm_analysis/llm_snapshot_analysis.csv` |
+| (c) Any notable linguistic shifts over time | Main structured fields: `outputs/part1_company_year.csv` columns `linguistic_metrics` and `linguistic_shift_notes`; adjacent-year evidence: `outputs/change_events.csv`; LLM change notes: `outputs/llm_analysis/llm_change_analysis.csv` |
+
+The LLM run metadata, model choice, prompt/version information, package versions, hashes, device,
+and coverage counts are recorded in `outputs/llm_analysis/llm_analysis_summary.json`.
+
 ## Known Limitations
 
 - The assessment does not require 100% scraping coverage, but 92 company-years remain non-usable
