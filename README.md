@@ -19,10 +19,10 @@ Parts 1, 2, and 3 are complete and validated. Part 4 has not started yet.
 
 | Part | Status | Current evidence |
 | --- | --- | --- |
-| [Part 1: Stated Values](part1_stated_values/) | Complete | 450/450 company-years processed; 358 usable archived stated-values pages; Phase 0-7 validation passes. |
-| [Part 2: Lived Values](part2_lived_values/) | Complete | 450/450 company-years processed; 434 SEC `DEF 14A` filings collected; validation passes. |
-| [Part 3: Authenticity Index](part3_authenticity/) | Complete | 450-row authenticity panel; 328 scored company-years; semantic robustness, scatter diagnostics, qualitative audit notes, figures, validity, and sensitivity outputs generated. |
-| [Part 4: Proposal](part4_proposal/) | Not started | To be selected after Part 3 results expose interpretable patterns and limitations. |
+| [Part&nbsp;1:&nbsp;Stated&nbsp;Values](part1_stated_values/) | Complete | 450/450 company-years processed; 358 usable archived stated-values pages; Phase 0-7 validation passes. |
+| [Part&nbsp;2:&nbsp;Lived&nbsp;Values](part2_lived_values/) | Complete | 450/450 company-years processed; 434 SEC `DEF 14A` filings collected; validation passes. |
+| [Part&nbsp;3:&nbsp;Authenticity&nbsp;Index](part3_authenticity/) | Complete | 450-row authenticity panel; 328 scored company-years; semantic robustness, scatter diagnostics, qualitative audit notes, figures, validity, and sensitivity outputs generated. |
+| [Part&nbsp;4:&nbsp;Proposal](part4_proposal/) | Not started | To be selected after Part 3 results expose interpretable patterns and limitations. |
 
 ## Repository Structure
 
@@ -57,16 +57,6 @@ source, hash, theme, and metric fields.
 ### Part 3: Organizational Authenticity Index
 
 - [Part 3 deliverables](part3_authenticity/README.md#deliverables)
-- [Final authenticity index](part3_authenticity/outputs/part3_authenticity_index.csv)
-- [Methodology](part3_authenticity/docs/methodology.md)
-- [Codebook](part3_authenticity/docs/codebook.md)
-- [Nontechnical summary](part3_authenticity/docs/summary.md)
-- [Results snapshot](part3_authenticity/docs/results_snapshot.md)
-- [Qualitative case-audit notes](part3_authenticity/docs/case_audit_notes.md)
-- [Semantic similarity output](part3_authenticity/outputs/semantic_similarity.csv)
-- [Sensitivity summary](part3_authenticity/outputs/sensitivity_summary.csv)
-- [Requirement audit](part3_authenticity/outputs/requirement_audit.json)
-- [Figures](part3_authenticity/outputs/figures/)
 
 ### Part 4: Proposal
 
