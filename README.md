@@ -5,26 +5,18 @@ authenticity and corporate value alignment. The project studies a fixed sample o
 firms across Technology, Financials, Healthcare, Consumer Discretionary, and Energy from 2016
 through 2024.
 
-The research pipeline is organized around four parts:
-
-1. **Stated values:** archived corporate About, mission, purpose, and values pages.
-2. **Lived values:** one auditable disclosure source, implemented here as SEC `DEF 14A` proxy
-   statements.
-3. **Organizational authenticity index:** an alignment measure using the Part 1 and Part 2 outputs.
-4. **Additional analysis:** a short exploratory extension using the index or source data.
-
-## Project Status
+## Pipeline Overview
 
 Parts 1, 2, 3, and 4 are complete and validated. A root-level LaTeX manuscript synthesizes the
 pipeline and findings as an academic-style report, while the part directories retain the
 assignment-specific code, outputs, README files, summaries, and validation audits.
 
-| Part | Status | Current evidence |
-| --- | --- | --- |
-| [Part&nbsp;1:&nbsp;Stated&nbsp;Values](part1_stated_values/) | Complete | 450/450 company-years processed; 358 usable archived stated-values pages; Phase 0-7 validation passes. |
-| [Part&nbsp;2:&nbsp;Lived&nbsp;Values](part2_lived_values/) | Complete | 450/450 company-years processed; 434 SEC `DEF 14A` filings collected; validation passes. |
-| [Part&nbsp;3:&nbsp;Authenticity&nbsp;Index](part3_authenticity/) | Complete | 450-row authenticity panel; 328 scored company-years; semantic robustness, scatter diagnostics, qualitative audit notes, figures, validity, and sensitivity outputs generated. |
-| [Part&nbsp;4:&nbsp;Proposal](part4_proposal/) | Complete | Proxy-genre sensitivity, section-level proxy parsing, theme-level semantic comparison, figures, tests, and validation generated. |
+| Part | Description |
+| --- | --- |
+| [Part&nbsp;1:&nbsp;Stated&nbsp;Values](part1_stated_values/) | Collects archived corporate About, mission, purpose, and values pages through the Wayback Machine. |
+| [Part&nbsp;2:&nbsp;Lived&nbsp;Values](part2_lived_values/) | Uses SEC `DEF 14A` proxy statements as the auditable lived-values disclosure source. |
+| [Part&nbsp;3:&nbsp;Authenticity&nbsp;Index](part3_authenticity/) | Constructs an alignment measure from Part 1 stated-values evidence and Part 2 proxy-disclosure evidence. |
+| [Part&nbsp;4:&nbsp;Proposal](part4_proposal/) | Implements exploratory measurement diagnostics for proxy genre, proxy sections, and theme-level semantic comparability. |
 
 ## Assessment Compliance Checklist
 
