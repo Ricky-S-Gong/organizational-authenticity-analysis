@@ -50,10 +50,6 @@ written summary.
 
 - [Part 2 deliverables](part2_lived_values/README.md#deliverables)
 
-The full Part 2 extracted-text dataset and raw SEC filings are reproducible local artifacts. They
-may be omitted from Git in smaller submissions because of size, while the compact dataset retains
-source, hash, theme, and metric fields.
-
 ### Part 3: Organizational Authenticity Index
 
 - [Part 3 deliverables](part3_authenticity/README.md#deliverables)
@@ -61,6 +57,12 @@ source, hash, theme, and metric fields.
 ### Part 4: Proposal
 
 - Not started yet; deliverables will be listed in the Part 4 README once the proposal direction is selected.
+
+### Notes
+
+Some raw, full-text, cache, model, and intermediate artifacts are reproducible local files and may
+be omitted from Git because of size. The committed compact outputs retain source links, hashes,
+theme evidence, metrics, and audit files needed to verify the submitted results.
 
 ## Setup
 

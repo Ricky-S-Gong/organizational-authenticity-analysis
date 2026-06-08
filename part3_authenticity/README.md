@@ -25,11 +25,15 @@ to mention nearly all themes, so a presence/absence score would overstate alignm
 The primary score is:
 
 $$
-\text{authenticity\_index}=100 \times \sum_i \min(s_i,d_i)
+A=100 \times \sum_{i=1}^{12}\min(s_i,d_i)
 $$
 
-where $s_i$ is the stated-values share for theme $i$ and $d_i$ is the proxy-disclosure share for
-theme $i$.
+where:
+
+- $A$ is the primary `authenticity_index`.
+- $s_i$ is the stated-values share for theme $i$.
+- $d_i$ is the proxy-disclosure share for theme $i$.
+- $\min(s_i,d_i)$ is the theme-level overlap for theme $i$.
 
 A high score means a larger share of the company's stated-values emphasis is mirrored in official
 proxy disclosure emphasis. A low score is an audit signal that the two communication channels

@@ -180,19 +180,25 @@ for visualization only.
 
 These metrics use the same Part 1 and Part 2 theme-share vectors as the primary index:
 
-- `cosine_alignment`:
+`cosine_alignment` is computed as:
 
-  $$
-  \text{cosine}=100 \times \frac{s \cdot d}{\lVert s\rVert_2\lVert d\rVert_2}
-  $$
+$$
+C=100 \times \frac{s \cdot d}{\lVert s\rVert_2\lVert d\rVert_2}
+$$
 
-- `l1_alignment`:
+where $C$ is `cosine_alignment`, $s$ is the 12-theme stated-values share vector, and $d$ is the
+12-theme proxy-disclosure share vector.
 
-  $$
-  L_1=100 \times \left(1-\frac{1}{2}\sum_{i=1}^{12}|s_i-d_i|\right)
-  $$
+`l1_alignment` is computed as:
 
-- `jaccard_theme_overlap`: binary theme-set overlap.
+$$
+L_1=100 \times \left(1-\frac{1}{2}\sum_{i=1}^{12}|s_i-d_i|\right)
+$$
+
+where $L_1$ is `l1_alignment`, $s_i$ is the stated-values share for theme $i$, and $d_i$ is the
+proxy-disclosure share for theme $i$.
+
+`jaccard_theme_overlap` is binary theme-set overlap.
 
 The primary score and L1 alignment are mathematically equivalent for probability distributions, so
 their correlation is $1.0$. Cosine alignment is included as a common vector-similarity check. Jaccard
@@ -241,18 +247,23 @@ long-document truncation, and generic corporate language can all influence the r
 For visualization only, the summary compares three standards on a common 0-100 scale:
 
 - Keyword: the primary authenticity index $A$.
-- Semantic: a rescaled embedding score:
+- Semantic: a rescaled embedding score.
 
-  $$
-  S_{0-100}=\frac{S+100}{2}
-  $$
+$$
+S_{0-100}=\frac{S+100}{2}
+$$
 
-  where $S$ is the raw semantic cosine score scaled from $-100$ to $100$.
-- Hybrid: an equal-weight descriptive blend:
+where $S_{0-100}$ is the rescaled semantic score and $S$ is the raw semantic cosine score scaled
+from $-100$ to $100$.
 
-  $$
-  H=\frac{A+S_{0-100}}{2}
-  $$
+- Hybrid: an equal-weight descriptive blend.
+
+$$
+H=\frac{A+S_{0-100}}{2}
+$$
+
+where $H$ is the descriptive hybrid score, $A$ is the primary authenticity index, and $S_{0-100}$
+is the rescaled semantic score.
 
 The hybrid score is not used as the main index because its weighting choice is less theoretically
 anchored than the transparent keyword-taxonomy overlap. It is included to help readers see how the
@@ -264,11 +275,15 @@ were given equal descriptive weight.
 The output also includes two within-sector diagnostics:
 
 - `sector_percentile`: within-sector percentile rank among scored rows.
-- `sector_z_score`:
+- `sector_z_score`: within-sector standardized score.
 
-  $$
-  z=\frac{A-\mu_{\text{sector}}}{\sigma_{\text{sector}}}
-  $$
+$$
+z=\frac{A-\mu_{\mathrm{sector}}}{\sigma_{\mathrm{sector}}}
+$$
+
+where $z$ is `sector_z_score`, $A$ is the primary authenticity index, $\mu_{\mathrm{sector}}$ is
+the sector mean among scored rows, and $\sigma_{\mathrm{sector}}$ is the sector standard deviation
+among scored rows.
 
 These fields are not alternative similarity metrics. They help compare companies against peers in
 the same sector, where vocabulary and disclosure conventions may be more comparable.
