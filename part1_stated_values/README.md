@@ -71,7 +71,8 @@ Current final-output coverage:
 
 ## Known Limitations
 
-- Coverage is below the desired 90% target because 92 company-years remain non-usable.
+- The assessment does not require 100% scraping coverage, but 92 company-years remain non-usable
+  and are documented as explicit gaps.
 - The hardest remaining gaps are confirmed no-CDX years, no-eligible-capture years, replay
   failures, and thin/error-like archived pages, not ordinary parsing failures.
 - Some companies changed page architecture over time; generated historical URL candidates reduce
