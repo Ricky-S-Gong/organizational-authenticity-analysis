@@ -77,9 +77,7 @@ written summary.
 
 ### Manuscript
 
-- [`manuscript.tex`](manuscript.tex): root-level LaTeX paper/report synthesizing Parts 1-4 into an
-  academic-style manuscript.
-- [`manuscript.pdf`](manuscript.pdf): compiled PDF version of the manuscript.
+- [Manuscript PDF](manuscript.pdf)
 
 ### Notes
 
