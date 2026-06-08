@@ -1,5 +1,77 @@
 # Part 3 Codebook
 
+## Script Task Map
+
+The Part 3 code is organized around a few large reproducible tasks. Command-line modules execute
+the workflow, while support modules hold reusable scoring, semantic-similarity, summary, figure,
+and validation logic.
+
+<table>
+  <thead>
+    <tr>
+      <th>Large task</th>
+      <th>Script/module</th>
+      <th>Executes which task</th>
+      <th>Function of the script/module</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Shared configuration</td>
+      <td><code>src/org_auth_part3/constants.py</code></td>
+      <td>Defines the Part 3 file contract.</td>
+      <td>Stores input paths, output paths, required final-index columns, the shared taxonomy version, theme labels, and semantic-embedding configuration used across Part 3 modules.</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Index construction</td>
+      <td><code>src/org_auth_part3/index.py</code></td>
+      <td>Builds <code>outputs/part3_authenticity_index.csv</code>.</td>
+      <td>Merges the finalized Part 1 and Part 2 company-year panels, parses shared taxonomy evidence into 12-theme vectors, applies score-status rules, computes the primary alignment index and theme-vector robustness scores, adds source provenance, and appends semantic/context fields.</td>
+    </tr>
+    <tr>
+      <td><code>src/org_auth_part3/semantic.py</code></td>
+      <td>Builds <code>outputs/semantic_similarity.csv</code>.</td>
+      <td>Reads comparable Part 1 and Part 2 clean-text windows, classifies semantic-comparison eligibility, embeds available text with <code>sentence-transformers/all-MiniLM-L6-v2</code>, and writes supplementary whole-text similarity scores.</td>
+    </tr>
+    <tr>
+      <td>Summary tables</td>
+      <td><code>src/org_auth_part3/summaries.py</code></td>
+      <td>Builds distribution, sector, year, company, and sensitivity summaries.</td>
+      <td>Aggregates scored rows into <code>distribution_summary.csv</code>, <code>sector_summary.csv</code>, <code>year_summary.csv</code>, <code>company_summary.csv</code>, and <code>sensitivity_summary.csv</code>, including robustness correlations and missingness counts.</td>
+    </tr>
+    <tr>
+      <td>Validity and audit</td>
+      <td><code>src/org_auth_part3/validity.py</code></td>
+      <td>Builds <code>outputs/validity_case_audit.csv</code>.</td>
+      <td>Selects high- and low-alignment scored company-years for face-validity review, formats top-theme and theme-gap evidence, and retains source URLs for human inspection.</td>
+    </tr>
+    <tr>
+      <td>Figures</td>
+      <td><code>src/org_auth_part3/figures.py</code></td>
+      <td>Builds PNG and SVG figures under <code>outputs/figures/</code>.</td>
+      <td>Creates the primary score distribution, sector and year plots, keyword/semantic/hybrid comparison plots, and keyword-semantic quadrant scatter plot used in the written summary.</td>
+    </tr>
+    <tr>
+      <td>Generated presentation tables</td>
+      <td><code>src/org_auth_part3/presentation.py</code></td>
+      <td>Builds <code>docs/results_snapshot.md</code>.</td>
+      <td>Converts saved CSV summaries into Markdown tables, including keyword/semantic/hybrid summaries and representative quadrant cases, so the documentation stays synchronized with generated outputs.</td>
+    </tr>
+    <tr>
+      <td>Validation</td>
+      <td><code>src/org_auth_part3/validate.py</code></td>
+      <td>Builds <code>outputs/requirement_audit.json</code>.</td>
+      <td>Checks the final panel row count, unique keys, required columns, score completeness for scored rows, source traceability, semantic-status fields, taxonomy version, and existence of supporting outputs.</td>
+    </tr>
+    <tr>
+      <td>Quality assurance</td>
+      <td><code>tests/</code></td>
+      <td>Runs Part 3 unit tests.</td>
+      <td>Tests theme-evidence parsing, vector normalization, scoring bounds, score-status rules, semantic helper behavior, and validation audit expectations.</td>
+    </tr>
+  </tbody>
+</table>
+
 ## Primary Dataset
 
 Primary output: `outputs/part3_authenticity_index.csv`
