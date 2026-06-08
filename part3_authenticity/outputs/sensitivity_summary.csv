@@ -1,0 +1,6 @@
+comparison_metric,company_years,pearson_correlation,spearman_correlation
+cosine_alignment,328,0.918894,0.905912
+l1_alignment,328,1.0,1.0
+jaccard_theme_overlap,328,0.777823,0.756922
+semantic_text_similarity,328,0.136493,0.121644
+part2_word_count,328,-0.04625,0.045907

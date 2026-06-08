@@ -1,0 +1,2 @@
+metric,target_company_years,scored_company_years,missing_company_years,mean,median,std,min,p10,p25,p75,p90,max
+authenticity_index,450,328,122,41.977573,44.826058,17.544878,0.0,15.536537,30.81313,55.144853,62.38855,82.116295

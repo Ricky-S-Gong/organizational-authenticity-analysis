@@ -1,0 +1,6 @@
+sector,target_company_years,scored_company_years,missing_company_years,mean,median,min,max
+Consumer Discretionary,90,59,31,36.314588,41.985019,0.513699,64.494591
+Energy,90,62,28,47.026333,46.02937,1.565996,82.116295
+Financials,90,74,16,37.078649,37.582795,0.598802,72.495791
+Healthcare,90,73,17,46.736668,49.974606,6.26703,72.75885
+Technology,90,60,30,42.580898,45.16014,0.0,66.093233

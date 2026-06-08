@@ -1,0 +1,51 @@
+ticker,company_name,sector,target_years,scored_years,missing_years,mean_authenticity_index,median_authenticity_index
+AAPL,Apple,Technology,9,6,3,47.918051,49.080772
+ABBV,AbbVie,Healthcare,9,9,0,65.308793,64.323308
+ABT,Abbott Laboratories,Healthcare,9,9,0,31.281602,34.607352
+AMZN,Amazon,Consumer Discretionary,9,7,2,52.800953,53.253743
+AVGO,Broadcom,Technology,9,0,9,,
+AXP,American Express,Financials,9,6,3,28.311162,27.386944
+BAC,Bank of America,Financials,9,9,0,50.716262,64.139484
+BLK,BlackRock,Financials,9,0,9,,
+BMY,Bristol-Myers Squibb,Healthcare,9,8,1,59.689643,61.521604
+BRK.B,Berkshire Hathaway,Financials,9,9,0,49.831026,50.13624
+C,Citigroup,Financials,9,9,0,41.183271,33.956969
+COP,ConocoPhillips,Energy,9,8,1,23.724599,27.810374
+CRM,Salesforce,Technology,9,4,5,37.311115,39.862528
+CVX,Chevron,Energy,9,8,1,54.287593,61.396794
+EOG,EOG Resources,Energy,9,3,6,45.407179,46.229117
+F,Ford Motor,Consumer Discretionary,9,5,4,35.770428,31.441441
+GOOGL,Alphabet,Technology,9,9,0,45.853167,45.790251
+GS,Goldman Sachs,Financials,9,9,0,19.393512,10.064935
+HAL,Halliburton,Energy,9,4,5,46.083482,46.02937
+HD,Home Depot,Consumer Discretionary,9,9,0,49.475401,50.288512
+IBM,IBM,Technology,9,5,4,58.947582,58.139422
+INTC,Intel,Technology,9,9,0,41.411774,47.868852
+JNJ,Johnson & Johnson,Healthcare,9,9,0,54.650342,56.895956
+JPM,JPMorgan Chase,Financials,9,5,4,57.071434,58.174003
+LLY,Eli Lilly,Healthcare,9,6,3,35.862253,42.90758
+LOW,Lowe's,Consumer Discretionary,9,5,4,13.469187,10.206422
+MCD,McDonald's,Consumer Discretionary,9,4,5,52.107651,51.996841
+MDT,Medtronic,Healthcare,9,4,5,41.675229,41.836613
+META,Meta Platforms,Technology,9,6,3,52.222172,52.478162
+MPC,Marathon Petroleum,Energy,9,9,0,58.993769,73.487773
+MRK,Merck,Healthcare,9,5,4,55.721609,55.907359
+MS,Morgan Stanley,Financials,9,9,0,24.137421,24.696803
+MSFT,Microsoft,Technology,9,9,0,30.093182,32.210999
+NKE,Nike,Consumer Discretionary,9,3,6,45.245257,47.366489
+NVDA,NVIDIA,Technology,9,4,5,20.842825,26.218684
+ORCL,Oracle,Technology,9,8,1,46.304468,47.720191
+OXY,Occidental Petroleum,Energy,9,7,2,41.320264,38.405797
+PFE,Pfizer,Healthcare,9,8,1,49.267335,51.868946
+PSX,Phillips 66,Energy,9,7,2,41.729749,36.314022
+SBUX,Starbucks,Consumer Discretionary,9,6,3,41.672834,41.342751
+SCHW,Charles Schwab,Financials,9,9,0,38.620676,33.119896
+SLB,SLB (Schlumberger),Energy,9,7,2,52.624255,55.9497
+TGT,Target,Consumer Discretionary,9,6,3,16.686623,15.644242
+TJX,TJX Companies,Consumer Discretionary,9,5,4,49.368938,47.906198
+TMO,Thermo Fisher Scientific,Healthcare,9,8,1,27.833141,25.53908
+TSLA,Tesla,Consumer Discretionary,9,9,0,15.589945,14.391892
+UNH,UnitedHealth Group,Healthcare,9,7,2,42.258095,40.37444
+VLO,Valero Energy,Energy,9,5,4,67.469085,65.449645
+WFC,Wells Fargo,Financials,9,9,0,30.406261,45.884124
+XOM,ExxonMobil,Energy,9,4,5,38.2426,32.770145

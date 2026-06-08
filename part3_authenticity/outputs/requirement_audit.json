@@ -1,0 +1,26 @@
+{
+  "checks": {
+    "expected_row_count": true,
+    "index_exists": true,
+    "required_columns_present": true,
+    "scored_rows_have_scores": true,
+    "scored_rows_have_semantic_status": true,
+    "scored_rows_traceable": true,
+    "summary_outputs_exist": true,
+    "taxonomy_version_recorded": true,
+    "unique_company_year_keys": true
+  },
+  "index_rows": 450,
+  "issues": {
+    "duplicate_company_year_keys": [],
+    "missing_required_columns": []
+  },
+  "passed": true,
+  "score_status_counts": {
+    "insufficient_stated_theme_signal": 14,
+    "missing_part1": 92,
+    "missing_part2": 16,
+    "scored": 328
+  },
+  "scored_rows": 328
+}
