@@ -3,6 +3,7 @@
 import argparse
 import csv
 import json
+import re
 from datetime import datetime
 from pathlib import Path
 from typing import Any
@@ -17,7 +18,6 @@ from org_auth_part1.discover import (
     load_page_candidates,
 )
 from org_auth_part1.models import CdxCapture
-from org_auth_part1.select import rank_annual_captures
 
 DEFAULT_TARGETS = Path("part1_stated_values/data/processed/target_company_years.csv")
 DEFAULT_CANDIDATE_OUTPUT = Path("part1_stated_values/data/processed/annual_snapshot_candidates.csv")
@@ -60,6 +60,153 @@ STATUS_FIELDS = [
     "query_attempt_count",
 ]
 
+REDIRECT_STATUS_CODES = {301, 302, 303, 307, 308}
+HTML_MIME_TYPES = {"text/html", "application/xhtml+xml"}
+ASSET_OR_DOCUMENT_URL = re.compile(
+    r"(?:/media/|/images?/|/assets?/|/static/|/~/media/|"
+    r"\.(?:ashx|css|gif|ico|jpe?g|js|pdf|png|svg|webp)(?:[?#]|$))",
+    re.IGNORECASE,
+)
+PRIMARY_STATED_VALUE_TERMS = (
+    "mission",
+    "values",
+    "purpose",
+    "vision",
+    "who-we-are",
+    "who_we_are",
+    "company-overview",
+    "company_overview",
+    "overview",
+    "about-us",
+    "about_us",
+    "aboutus",
+    "about/",
+)
+SECONDARY_STATED_VALUE_TERMS = (
+    "default.aspx",
+    "backgrounder",
+    "factsheet",
+    "fact-sheet",
+    "company-information",
+)
+LOW_VALUE_SUBPAGE_TERMS = (
+    "awards",
+    "board",
+    "management",
+    "officer",
+    "executive",
+    "governance",
+    "corpgov",
+    "history",
+    "foundation",
+    "research",
+    "/rd/",
+    "refiner",
+    "where-we-operate",
+    "investor",
+    "shareholder",
+    "stockholder",
+    "media",
+    "press",
+    "news",
+    "privacy",
+    "terms",
+)
+
+
+def is_likely_asset_or_document_url(url: str) -> bool:
+    """Reject captures that are clearly files/assets rather than narrative pages."""
+    return bool(ASSET_OR_DOCUMENT_URL.search(url))
+
+
+def stated_values_capture_priority(
+    candidate: PageCandidate, capture: CdxCapture
+) -> tuple[int, int]:
+    """Prefer broad stated-values pages over narrow historical subpages.
+
+    CDX often returns many technically valid captures for the same company-year. The
+    first score favors pages that are likely to state organizational identity directly
+    (mission, values, purpose, about). The second score penalizes pages that are
+    usually narrower governance, investor, media, or history subpages.
+    """
+    text = f"{candidate.page_type} {candidate.candidate_url} {capture.original_url}".lower()
+    if any(term in text for term in PRIMARY_STATED_VALUE_TERMS):
+        positive = 0
+    elif any(term in text for term in SECONDARY_STATED_VALUE_TERMS):
+        positive = 1
+    else:
+        positive = 2
+
+    negative = sum(term in text for term in LOW_VALUE_SUBPAGE_TERMS)
+    return positive, negative
+
+
+def rank_annual_captures(
+    captures: list[CdxCapture], target_timestamp: datetime
+) -> list[CdxCapture]:
+    """Return eligible same-year captures ranked nearest to the target timestamp."""
+    eligible = [
+        capture
+        for capture in captures
+        if capture.year == target_timestamp.year
+        and capture.is_html_success()
+        and not is_likely_asset_or_document_url(capture.original_url)
+    ]
+    return sorted(
+        eligible,
+        key=lambda capture: (
+            abs(capture.timestamp - target_timestamp),
+            capture.timestamp,
+            capture.original_url,
+        ),
+    )
+
+
+def is_replayable_capture(capture: CdxCapture) -> bool:
+    """Return whether a capture is worth replaying when no direct 200 HTML capture exists.
+
+    Redirect and WARC revisit rows can still replay into valid historical HTML through
+    Wayback, so they are kept as recovery candidates. Asset/document URLs are excluded
+    because they are outside the stated-values page scope.
+    """
+    if capture.is_html_success():
+        return not is_likely_asset_or_document_url(capture.original_url)
+    if is_likely_asset_or_document_url(capture.original_url):
+        return False
+    if capture.status_code in REDIRECT_STATUS_CODES and capture.mime_type in HTML_MIME_TYPES:
+        return True
+    return capture.mime_type == "warc/revisit"
+
+
+def rank_replayable_captures(
+    captures: list[CdxCapture], target_timestamp: datetime
+) -> list[CdxCapture]:
+    """Rank same-year captures that may replay to substantive HTML."""
+    successful = rank_annual_captures(captures, target_timestamp)
+    if successful:
+        return successful
+    fallback = [
+        capture
+        for capture in captures
+        if capture.year == target_timestamp.year and is_replayable_capture(capture)
+    ]
+    return sorted(
+        fallback,
+        key=lambda capture: (
+            abs(capture.timestamp - target_timestamp),
+            capture.status_code not in REDIRECT_STATUS_CODES,
+            capture.timestamp,
+            capture.original_url,
+        ),
+    )
+
+
+def select_annual_capture(
+    captures: list[CdxCapture], target_timestamp: datetime
+) -> CdxCapture | None:
+    ranked = rank_replayable_captures(captures, target_timestamp)
+    return ranked[0] if ranked else None
+
 
 def load_targets(path: Path) -> list[dict[str, str]]:
     with path.open(newline="", encoding="utf-8") as file:
@@ -80,9 +227,8 @@ def _parse_captures(record: dict[str, Any]) -> list[CdxCapture]:
     return [CdxCapture.model_validate(capture) for capture in record.get("captures", [])]
 
 
-def _year_record(
-    cache_dir: Path, candidate: PageCandidate, year: int
-) -> dict[str, Any] | None:
+def _year_record(cache_dir: Path, candidate: PageCandidate, year: int) -> dict[str, Any] | None:
+    """Load the per-year CDX cache, with read-only support for older aggregate caches."""
     record = load_cached_record(cache_dir, candidate, year)
     if record is not None:
         return record
@@ -90,11 +236,7 @@ def _year_record(
     legacy = load_cached_record(cache_dir, candidate)
     if legacy is None or legacy.get("collection_status") != "success":
         return legacy
-    captures = [
-        capture
-        for capture in _parse_captures(legacy)
-        if capture.year == year
-    ]
+    captures = [capture for capture in _parse_captures(legacy) if capture.year == year]
     return {
         "ticker": candidate.ticker,
         "candidate_url": candidate.candidate_url,
@@ -113,25 +255,42 @@ def _candidate_rows(
     target_timestamp: datetime,
     candidates: list[tuple[PageCandidate, CdxCapture]],
 ) -> list[dict[str, Any]]:
+    """Create an auditable ranked candidate table for one company-year.
+
+    Every same-year capture is kept in the output with its rank, eligibility, and
+    rejection reason. This lets a reviewer reconstruct why the selected replay URL
+    was chosen without re-running CDX discovery.
+    """
     ranked = sorted(
         candidates,
         key=lambda pair: (
             not pair[1].is_html_success(),
+            stated_values_capture_priority(pair[0], pair[1]),
             abs(pair[1].timestamp - target_timestamp),
             pair[1].timestamp,
             pair[1].original_url,
             pair[0].normalized_url,
         ),
     )
+    selected_rank = next(
+        (
+            rank
+            for rank, (_candidate, capture) in enumerate(ranked, start=1)
+            if is_replayable_capture(capture)
+        ),
+        None,
+    )
     rows = []
     for rank, (candidate, capture) in enumerate(ranked, start=1):
-        eligible = capture.is_html_success()
-        if capture.status_code != 200:
-            rejection_reason = f"status_code_{capture.status_code}"
-        elif not eligible:
-            rejection_reason = f"non_html_mime_type_{capture.mime_type}"
-        else:
+        eligible = is_replayable_capture(capture)
+        if eligible:
             rejection_reason = ""
+        elif is_likely_asset_or_document_url(capture.original_url):
+            rejection_reason = "asset_or_document_url"
+        elif capture.status_code != 200:
+            rejection_reason = f"status_code_{capture.status_code}"
+        else:
+            rejection_reason = f"non_html_mime_type_{capture.mime_type}"
         rows.append(
             {
                 "ticker": ticker,
@@ -152,7 +311,7 @@ def _candidate_rows(
                 "rank": rank,
                 "eligible": eligible,
                 "rejection_reason": rejection_reason,
-                "selected": eligible and rank == 1,
+                "selected": selected_rank is not None and rank == selected_rank,
             }
         )
     return rows
@@ -163,6 +322,12 @@ def build_annual_outputs(
     targets_path: Path,
     cache_dir: Path,
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    """Build candidate-level and company-year acquisition outputs from cached CDX data.
+
+    This step is intentionally offline: it reads only the deterministic target grid,
+    approved/generated candidate registry, and CDX cache files. Network access happens
+    in discovery, not during annual selection, which keeps selection reproducible.
+    """
     page_candidates = load_page_candidates(candidates_path)
     candidates_by_ticker: dict[str, list[PageCandidate]] = {}
     for candidate in page_candidates:
@@ -200,7 +365,7 @@ def build_annual_outputs(
         eligible = [
             (candidate, capture)
             for candidate, capture in captures
-            if rank_annual_captures([capture], target_timestamp)
+            if rank_replayable_captures([capture], target_timestamp)
         ]
         rows = _candidate_rows(ticker, year, target_timestamp, captures)
         all_candidate_rows.extend(rows)
@@ -245,9 +410,7 @@ def build_annual_outputs(
                 "selected_capture_timestamp": selected.get("capture_timestamp", ""),
                 "selected_original_url": selected.get("original_url", ""),
                 "selected_replay_url": selected.get("replay_url", ""),
-                "query_status": (
-                    "complete" if relevant and not failed_or_missing else "incomplete"
-                )
+                "query_status": ("complete" if relevant and not failed_or_missing else "incomplete")
                 if relevant
                 else "not_applicable",
                 "query_attempt_count": sum(

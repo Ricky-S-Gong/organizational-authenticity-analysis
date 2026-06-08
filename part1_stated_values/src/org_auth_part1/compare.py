@@ -93,9 +93,7 @@ def compare_texts(
         None, prior_normalized, current_normalized, autojunk=False
     ).ratio()
     word_delta_ratio = (
-        (len(current_tokens) - len(prior_tokens)) / len(prior_tokens)
-        if prior_tokens
-        else 0.0
+        (len(current_tokens) - len(prior_tokens)) / len(prior_tokens) if prior_tokens else 0.0
     )
     combined_similarity = min(jaccard, edit_similarity)
 

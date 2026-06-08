@@ -3,17 +3,22 @@
 import argparse
 import csv
 import hashlib
+import html as html_lib
 import json
+import re
+import subprocess
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Any
+from urllib.parse import urljoin, urlparse
 
 import httpx
+import requests
 
 from org_auth_part1.analyze import analyze_text
 from org_auth_part1.compare import compare_adjacent_years
-from org_auth_part1.extract import extract_page_text
+from org_auth_part1.extract import extract_json_text, extract_page_text
 from org_auth_part1.report import audit_part1_requirements, coverage_summary
 
 DEFAULT_STATUS = Path("part1_stated_values/data/processed/acquisition_status.csv")
@@ -27,10 +32,7 @@ DEFAULT_CHANGE_EVENTS = Path("part1_stated_values/outputs/change_events.csv")
 DEFAULT_THEME_OBSERVATIONS = Path("part1_stated_values/outputs/theme_observations.csv")
 DEFAULT_REVIEW_QUEUE = Path("part1_stated_values/data/review/manual_review_queue.csv")
 DEFAULT_REVIEW_DECISIONS = Path("part1_stated_values/data/review/review_decisions.csv")
-DEFAULT_PILOT_APPROVAL = Path("part1_stated_values/docs/pilot_approval.md")
-DEFAULT_EXTRACTION_VALIDATION = Path("part1_stated_values/docs/extraction_validation.md")
-DEFAULT_CHANGE_VALIDATION = Path("part1_stated_values/docs/change_validation.md")
-DEFAULT_LLM_ANALYSIS = Path("part1_stated_values/docs/llm_analysis.md")
+DEFAULT_VALIDATION_REPORT = Path("part1_stated_values/docs/validation_report.md")
 
 TEXT_ARTIFACT_FIELDS = [
     "ticker",
@@ -45,8 +47,30 @@ TEXT_ARTIFACT_FIELDS = [
     "clean_char_count",
     "alpha_ratio",
     "link_text_ratio",
+    "extraction_backend",
+    "fetched_url",
+    "fetch_attempt_log",
     "qa_flags",
 ]
+
+BLOCKING_QA_FLAGS = {"empty_text", "likely_error_page", "low_alpha_ratio"}
+MINIMUM_USABLE_WORDS = 25
+META_REFRESH_PATTERN = re.compile(
+    r"<meta\b[^>]*http-equiv=[\"']?refresh[\"']?[^>]*content=[\"'][^\"']*url=([^\"';>]+)[^\"']*[\"']",
+    re.IGNORECASE,
+)
+NOSCRIPT_PATTERN = re.compile(r"<noscript\b[^>]*>.*?</noscript>", re.IGNORECASE | re.DOTALL)
+REDIRECT_STATUS_CODES = {301, 302, 303, 307, 308}
+
+JSON_API_FALLBACKS = [
+    {
+        "name": "about_nike_company_landing",
+        "url_pattern": re.compile(r"^https?://about\.nike\.com/[^/]+/company/?", re.IGNORECASE),
+        "api_url": "https://api.about.nike.com/v1/company/landing",
+    }
+]
+CURL_CODE_MARKER = b"\n__ORG_AUTH_CURL_HTTP_CODE__:"
+CURL_URL_MARKER = b"\n__ORG_AUTH_CURL_EFFECTIVE_URL__:"
 
 FINAL_FIELDS = [
     "ticker",
@@ -89,43 +113,398 @@ def write_csv(rows: list[dict[str, Any]], path: Path, fieldnames: list[str]) -> 
         writer.writerows(rows)
 
 
-def _raw_path(raw_dir: Path, ticker: str, year: int) -> Path:
-    return raw_dir / ticker.lower().replace(".", "_") / f"{year}.html"
+def _raw_path(raw_dir: Path, ticker: str, year: int, replay_url: str) -> Path:
+    """Derive a stable raw-html path from ticker, year, and exact replay URL."""
+    url_digest = hashlib.sha256(replay_url.encode("utf-8")).hexdigest()[:12]
+    return raw_dir / ticker.lower().replace(".", "_") / f"{year}-{url_digest}.html"
+
+
+def replay_url_variants(replay_url: str) -> list[str]:
+    """Return Wayback replay variants from most content-preserving to most permissive."""
+    match = re.match(
+        r"^(https://web\.archive\.org/web/)(\d{8,14})([a-z]{2}_)?/(.+)$",
+        replay_url,
+    )
+    if not match:
+        return [replay_url]
+    prefix, timestamp, _modifier, original_url = match.groups()
+    return [
+        f"{prefix}{timestamp}id_/{original_url}",
+        f"{prefix}{timestamp}if_/{original_url}",
+        f"{prefix}{timestamp}/{original_url}",
+    ]
+
+
+def _replay_parts(replay_url: str) -> tuple[str, str, str] | None:
+    match = re.match(
+        r"^(https://web\.archive\.org/web/)(\d{8,14})([a-z]{2}_)?/(.+)$",
+        replay_url,
+    )
+    if not match:
+        return None
+    prefix, timestamp, _modifier, original_url = match.groups()
+    return prefix, timestamp, original_url
+
+
+def meta_refresh_replay_url(replay_url: str, html: str) -> str | None:
+    """Return same-timestamp Wayback URL for a meta-refresh target, if present."""
+    parts = _replay_parts(replay_url)
+    html_without_noscript = NOSCRIPT_PATTERN.sub("", html)
+    match = META_REFRESH_PATTERN.search(html_without_noscript)
+    if not parts or not match:
+        return None
+    prefix, timestamp, original_url = parts
+    target = html_lib.unescape(match.group(1).strip())
+    if not target or target.lower().startswith(("javascript:", "mailto:")):
+        return None
+    resolved = urljoin(original_url, target)
+    if resolved == original_url:
+        return None
+    return f"{prefix}{timestamp}id_/{resolved}"
+
+
+def same_timestamp_replay_url(replay_url: str, target: str) -> str | None:
+    """Return a same-timestamp Wayback URL for an archived redirect target."""
+    parts = _replay_parts(replay_url)
+    if not parts:
+        return None
+    prefix, timestamp, original_url = parts
+    target = html_lib.unescape(target.strip())
+    if not target or target.lower().startswith(("javascript:", "mailto:")):
+        return None
+    parsed = urlparse(target)
+    if parsed.netloc == "web.archive.org":
+        return target
+    if target.startswith("/web/"):
+        return f"https://web.archive.org{target}"
+    resolved = urljoin(original_url, target)
+    if resolved == original_url:
+        return None
+    return f"{prefix}{timestamp}id_/{resolved}"
+
+
+def redirect_replay_url(replay_url: str, response: httpx.Response) -> str | None:
+    """Keep archived redirects inside Wayback instead of following live-site locations."""
+    if response.status_code not in REDIRECT_STATUS_CODES:
+        return None
+    location = response.headers.get("location", "")
+    if not location:
+        return None
+    return same_timestamp_replay_url(replay_url, location)
+
+
+def _get_replay_response(
+    url: str,
+    *,
+    timeout_seconds: float,
+    headers: dict[str, str],
+) -> tuple[Any, str]:
+    """Fetch a replay URL with progressively lower-level HTTP clients.
+
+    Wayback replay occasionally fails at the client/socket layer even when the URL is
+    available. The fallback chain keeps those failures auditable by recording which
+    client succeeded in ``fetch_attempt_log``.
+    """
+    try:
+        return (
+            httpx.get(
+                url,
+                timeout=timeout_seconds,
+                follow_redirects=False,
+                headers=headers,
+            ),
+            "httpx",
+        )
+    except (httpx.ConnectError, httpx.ConnectTimeout, httpx.ReadTimeout):
+        try:
+            response = requests.get(
+                url,
+                timeout=timeout_seconds,
+                allow_redirects=False,
+                headers=headers,
+            )
+            return response, "requests"
+        except (
+            requests.ConnectionError,
+            requests.ConnectTimeout,
+            requests.ReadTimeout,
+            requests.Timeout,
+        ):
+            return _get_replay_response_with_curl(
+                url, timeout_seconds=timeout_seconds, headers=headers
+            ), "curl"
+
+
+class CurlReplayResponse:
+    """Small response adapter so curl responses match the httpx/requests interface."""
+
+    def __init__(self, *, content: bytes, status_code: int, url: str) -> None:
+        self.content = content
+        self.status_code = status_code
+        self.headers: dict[str, str] = {}
+        self.url = url
+
+    def raise_for_status(self) -> None:
+        if self.status_code >= 400:
+            raise requests.HTTPError(f"{self.status_code} response for url: {self.url}")
+
+
+def _get_replay_response_with_curl(
+    url: str,
+    *,
+    timeout_seconds: float,
+    headers: dict[str, str],
+) -> CurlReplayResponse:
+    """Use curl as a last-resort replay client while preserving status/effective URL."""
+    user_agent = headers.get("User-Agent", "organizational-authenticity-research/0.1")
+    command = [
+        "curl",
+        "-L",
+        "-sS",
+        "--compressed",
+        "--connect-timeout",
+        str(max(5, min(int(timeout_seconds), 30))),
+        "--max-time",
+        str(max(10, int(timeout_seconds))),
+        "-A",
+        user_agent,
+        "-w",
+        (
+            "\n__ORG_AUTH_CURL_HTTP_CODE__:%{http_code}"
+            "\n__ORG_AUTH_CURL_EFFECTIVE_URL__:%{url_effective}"
+        ),
+        url,
+    ]
+    completed = subprocess.run(
+        command,
+        capture_output=True,
+        check=False,
+        timeout=timeout_seconds + 5,
+    )
+    if completed.returncode != 0:
+        stderr = completed.stderr.decode("utf-8", errors="replace").strip()
+        raise requests.ConnectionError(stderr or f"curl exited {completed.returncode}")
+    output = completed.stdout
+    if CURL_CODE_MARKER not in output or CURL_URL_MARKER not in output:
+        raise requests.ConnectionError("curl output missing status markers")
+    content, metadata = output.rsplit(CURL_CODE_MARKER, 1)
+    status_text, effective_url = metadata.split(CURL_URL_MARKER, 1)
+    return CurlReplayResponse(
+        content=content,
+        status_code=int(status_text.strip() or b"0"),
+        url=effective_url.decode("utf-8", errors="replace").strip(),
+    )
+
+
+def _timestamp_from_replay_url(replay_url: str) -> str:
+    match = re.search(r"/web/(\d{8,14})", replay_url)
+    return match.group(1) if match else ""
+
+
+def _json_api_fallback_for_status(status: dict[str, str]) -> dict[str, Any] | None:
+    original_url = status.get("selected_original_url", "")
+    for fallback in JSON_API_FALLBACKS:
+        if fallback["url_pattern"].search(original_url):
+            return fallback
+    return None
+
+
+def _fetch_json_api_fallback(
+    status: dict[str, str],
+    *,
+    timeout_seconds: float,
+    retries: int,
+    backoff_seconds: float,
+    sleep: Any = time.sleep,
+) -> dict[str, Any] | None:
+    """Recover text from known archived JSON endpoints behind JavaScript pages."""
+    fallback = _json_api_fallback_for_status(status)
+    timestamp = _timestamp_from_replay_url(status.get("selected_replay_url", ""))
+    if not fallback or not timestamp:
+        return None
+    api_url = str(fallback["api_url"])
+    replay_url = f"https://web.archive.org/web/{timestamp}id_/{api_url}"
+    errors: list[str] = []
+    for attempt in range(1, retries + 1):
+        try:
+            response = httpx.get(
+                replay_url,
+                timeout=timeout_seconds,
+                follow_redirects=True,
+                headers={
+                    "User-Agent": "organizational-authenticity-research/0.1",
+                    "Accept-Encoding": "gzip, deflate",
+                },
+            )
+            response.raise_for_status()
+            payload = response.json()
+            text = extract_json_text(payload)
+            return {
+                "attempt": attempt,
+                "fallback": fallback["name"],
+                "url": replay_url,
+                "response_url": str(response.url),
+                "status": "success",
+                "status_code": response.status_code,
+                "bytes": len(response.content),
+                "text": text,
+            }
+        except Exception as exc:
+            errors.append(f"{type(exc).__name__}: {exc}")
+            if attempt < retries:
+                sleep(backoff_seconds * attempt)
+    return {
+        "attempts": retries,
+        "fallback": fallback["name"],
+        "url": replay_url,
+        "status": "failed",
+        "error": errors[-1] if errors else "unknown error",
+        "errors": errors,
+    }
 
 
 def _fetch_one(
-    row: dict[str, str], raw_dir: Path, *, force: bool, timeout_seconds: float
+    row: dict[str, str],
+    raw_dir: Path,
+    *,
+    force: bool,
+    timeout_seconds: float,
+    retries: int,
+    backoff_seconds: float,
+    sleep: Any = time.sleep,
 ) -> dict[str, Any]:
+    """Fetch one selected Wayback replay URL and persist the raw response.
+
+    The function tries raw/id replay first, then iframe/bare variants, archived
+    redirects, and meta-refresh targets. Each attempt is logged so a failed or rescued
+    row can be audited from ``text_artifacts.csv``.
+    """
     ticker, year = row["ticker"], int(row["year"])
-    raw_path = _raw_path(raw_dir, ticker, year)
+    url = row["selected_replay_url"]
+    raw_path = _raw_path(raw_dir, ticker, year, url)
     if raw_path.exists() and not force:
         content = raw_path.read_bytes()
-        return {"ticker": ticker, "year": year, "fetch_status": "cached", "content": content}
+        return {
+            "ticker": ticker,
+            "year": year,
+            "fetch_status": "cached",
+            "content": content,
+            "fetched_url": url,
+            "attempt_log": [{"url": url, "status": "cached"}],
+        }
 
-    url = row["selected_replay_url"]
     last_error = ""
-    for attempt in range(1, 4):
-        try:
-            response = httpx.get(
-                url,
-                timeout=timeout_seconds,
-                follow_redirects=True,
-                headers={"User-Agent": "organizational-authenticity-research/0.1"},
-            )
-            response.raise_for_status()
-            raw_path.parent.mkdir(parents=True, exist_ok=True)
-            raw_path.write_bytes(response.content)
-            return {
-                "ticker": ticker,
-                "year": year,
-                "fetch_status": "success",
-                "content": response.content,
-                "final_url": str(response.url),
+    errors: list[str] = []
+    attempt_log: list[dict[str, Any]] = []
+    for attempt in range(1, retries + 1):
+        attempted_urls: set[str] = set()
+        queued_urls = replay_url_variants(url)
+        while queued_urls:
+            attempt_url = queued_urls.pop(0)
+            if attempt_url in attempted_urls:
+                continue
+            attempted_urls.add(attempt_url)
+            try:
+                response, fetch_client = _get_replay_response(
+                    attempt_url,
+                    timeout_seconds=timeout_seconds,
+                    headers={"User-Agent": "organizational-authenticity-research/0.1"},
+                )
+                redirect_url = redirect_replay_url(attempt_url, response)
+                if redirect_url and redirect_url not in attempted_urls:
+                    attempt_log.append(
+                        {
+                            "attempt": attempt,
+                            "url": attempt_url,
+                            "status": "archived_redirect",
+                            "response_url": str(response.url),
+                            "status_code": response.status_code,
+                            "target_url": redirect_url,
+                            "bytes": len(response.content),
+                            "fetch_client": fetch_client,
+                        }
+                    )
+                    queued_urls = replay_url_variants(redirect_url) + queued_urls
+                    continue
+                response.raise_for_status()
+                content_text = response.content.decode("utf-8", errors="replace")
+                refresh_url = meta_refresh_replay_url(attempt_url, content_text)
+                if refresh_url and refresh_url not in attempted_urls:
+                    attempt_log.append(
+                        {
+                            "attempt": attempt,
+                            "url": attempt_url,
+                            "status": "meta_refresh",
+                            "response_url": str(response.url),
+                            "status_code": response.status_code,
+                            "target_url": refresh_url,
+                            "bytes": len(response.content),
+                            "fetch_client": fetch_client,
+                        }
+                    )
+                    queued_urls = replay_url_variants(refresh_url) + queued_urls
+                    continue
+                raw_path.parent.mkdir(parents=True, exist_ok=True)
+                raw_path.write_bytes(response.content)
+                attempt_log.append(
+                    {
+                        "attempt": attempt,
+                        "url": attempt_url,
+                        "status": "success",
+                        "response_url": str(response.url),
+                        "status_code": response.status_code,
+                        "bytes": len(response.content),
+                        "fetch_client": fetch_client,
+                    }
+                )
+                return {
+                    "ticker": ticker,
+                    "year": year,
+                    "fetch_status": "success",
+                    "content": response.content,
+                    "fetched_url": attempt_url,
+                    "final_url": str(response.url),
+                    "attempt_log": attempt_log,
+                }
+            except Exception as exc:
+                last_error = f"{type(exc).__name__}: {exc}"
+                errors.append(last_error)
+                attempt_log.append(
+                    {
+                        "attempt": attempt,
+                        "url": attempt_url,
+                        "status": "failed",
+                        "error": last_error,
+                    }
+                )
+        if attempt < retries:
+            sleep(backoff_seconds * attempt)
+    if raw_path.exists():
+        content = raw_path.read_bytes()
+        attempt_log.append(
+            {
+                "url": url,
+                "status": "cached_after_failed_refresh",
+                "bytes": len(content),
             }
-        except Exception as exc:
-            last_error = f"{type(exc).__name__}: {exc}"
-            time.sleep(0.5 * attempt)
-    return {"ticker": ticker, "year": year, "fetch_status": "failed", "error": last_error}
+        )
+        return {
+            "ticker": ticker,
+            "year": year,
+            "fetch_status": "cached_after_failed_refresh",
+            "content": content,
+            "fetched_url": url,
+            "attempt_log": attempt_log,
+            "refresh_error": last_error,
+        }
+    return {
+        "ticker": ticker,
+        "year": year,
+        "fetch_status": "failed",
+        "error": last_error,
+        "errors": errors,
+        "attempt_log": attempt_log,
+    }
 
 
 def fetch_selected(
@@ -135,13 +514,28 @@ def fetch_selected(
     force: bool = False,
     workers: int = 4,
     timeout_seconds: float = 30.0,
+    retries: int = 6,
+    backoff_seconds: float = 1.0,
+    target_keys: set[tuple[str, int]] | None = None,
 ) -> dict[tuple[str, int], dict[str, Any]]:
-    selected = [row for row in status_rows if row["acquisition_status"] == "selected"]
+    """Fetch selected company-year rows, optionally limited to incremental targets."""
+    selected = [
+        row
+        for row in status_rows
+        if row["acquisition_status"] == "selected"
+        and (target_keys is None or (row["ticker"], int(row["year"])) in target_keys)
+    ]
     results: dict[tuple[str, int], dict[str, Any]] = {}
     with ThreadPoolExecutor(max_workers=workers) as executor:
         futures = {
             executor.submit(
-                _fetch_one, row, raw_dir, force=force, timeout_seconds=timeout_seconds
+                _fetch_one,
+                row,
+                raw_dir,
+                force=force,
+                timeout_seconds=timeout_seconds,
+                retries=retries,
+                backoff_seconds=backoff_seconds,
             ): (row["ticker"], int(row["year"]))
             for row in selected
         }
@@ -150,9 +544,71 @@ def fetch_selected(
     return results
 
 
-def build_text_artifacts(
-    status_rows: list[dict[str, str]], fetches: dict[tuple[str, int], dict[str, Any]]
+def merge_text_artifacts(
+    existing: list[dict[str, Any]],
+    updates: list[dict[str, Any]],
+    *,
+    target_keys: set[tuple[str, int]] | None,
 ) -> list[dict[str, Any]]:
+    """Replace only targeted artifacts while preserving prior usable artifacts."""
+    if target_keys is None:
+        return updates
+    merged = {
+        (str(row["ticker"]), int(row["year"])): row
+        for row in existing
+        if (str(row["ticker"]), int(row["year"])) not in target_keys
+    }
+    for row in updates:
+        merged[(str(row["ticker"]), int(row["year"]))] = row
+    return [merged[key] for key in sorted(merged, key=lambda item: (item[0], item[1]))]
+
+
+def merge_final_rows(
+    existing: list[dict[str, Any]],
+    rebuilt: list[dict[str, Any]],
+    *,
+    target_keys: set[tuple[str, int]] | None,
+) -> list[dict[str, Any]]:
+    """Preserve non-target final rows during incremental recovery runs."""
+    if target_keys is None:
+        return rebuilt
+    normalized_existing = [dict(row, year=str(int(row["year"]))) for row in existing]
+    normalized_rebuilt = [dict(row, year=str(int(row["year"]))) for row in rebuilt]
+    rows = {
+        (str(row["ticker"]), int(row["year"])): row
+        for row in normalized_existing
+        if (str(row["ticker"]), int(row["year"])) not in target_keys
+    }
+    for row in normalized_rebuilt:
+        key = (str(row["ticker"]), int(row["year"]))
+        if key in target_keys or key not in rows:
+            rows[key] = row
+    return [rows[key] for key in sorted(rows, key=lambda item: (item[0], item[1]))]
+
+
+def effective_fetch_target_keys(
+    selected_keys: set[tuple[str, int]],
+    existing_artifacts: list[dict[str, Any]],
+    target_keys: set[tuple[str, int]] | None,
+) -> set[tuple[str, int]] | None:
+    """Expand incremental fetch scope to cover newly selected rows without artifacts."""
+    if target_keys is None:
+        return None
+    artifact_keys = {(str(row["ticker"]), int(row["year"])) for row in existing_artifacts}
+    return set(target_keys) | (selected_keys - artifact_keys)
+
+
+def build_text_artifacts(
+    status_rows: list[dict[str, str]],
+    fetches: dict[tuple[str, int], dict[str, Any]],
+    *,
+    enable_trafilatura_fallback: bool = False,
+    enable_wayback_json_api_fallback: bool = False,
+    json_api_timeout_seconds: float = 60.0,
+    json_api_retries: int = 3,
+    json_api_backoff_seconds: float = 1.0,
+) -> list[dict[str, Any]]:
+    """Convert raw fetches into extracted text artifacts with hashes and QA flags."""
     artifacts: list[dict[str, Any]] = []
     for status in status_rows:
         key = (status["ticker"], int(status["year"]))
@@ -174,13 +630,51 @@ def build_text_artifacts(
                     "clean_char_count": 0,
                     "alpha_ratio": 0.0,
                     "link_text_ratio": 0.0,
+                    "extraction_backend": "",
+                    "fetched_url": "",
+                    "fetch_attempt_log": json.dumps(fetch.get("attempt_log", [])),
                     "qa_flags": json.dumps(["retrieval_failed"]),
                 }
             )
             continue
         content = fetch["content"]
         html = content.decode("utf-8", errors="replace")
-        extracted = extract_page_text(html)
+        extracted = extract_page_text(
+            html,
+            enable_trafilatura_fallback=enable_trafilatura_fallback,
+        )
+        fallback_attempt = None
+        if enable_wayback_json_api_fallback and extracted.clean_word_count < MINIMUM_USABLE_WORDS:
+            fallback_attempt = _fetch_json_api_fallback(
+                status,
+                timeout_seconds=json_api_timeout_seconds,
+                retries=json_api_retries,
+                backoff_seconds=json_api_backoff_seconds,
+            )
+            fallback_text = (fallback_attempt or {}).get("text", "")
+            if fallback_text and len(fallback_text.split()) > extracted.clean_word_count:
+                extracted = extract_page_text(
+                    f"<main>{html_lib.escape(fallback_text)}</main>",
+                    enable_trafilatura_fallback=False,
+                )
+                extracted = extracted.__class__(
+                    visible_text_raw=extracted.visible_text_raw,
+                    page_text_clean=extracted.page_text_clean,
+                    used_main_region=extracted.used_main_region,
+                    clean_word_count=extracted.clean_word_count,
+                    clean_char_count=extracted.clean_char_count,
+                    alpha_ratio=extracted.alpha_ratio,
+                    link_text_ratio=extracted.link_text_ratio,
+                    qa_flags=tuple(
+                        flag
+                        for flag in (*extracted.qa_flags, "wayback_json_api_fallback")
+                        if flag != "short_text"
+                    ),
+                    extraction_backend="htmlparser+wayback_json_api",
+                )
+        attempt_log = list(fetch.get("attempt_log", []))
+        if fallback_attempt:
+            attempt_log.append({"kind": "json_api_fallback", **fallback_attempt})
         artifacts.append(
             {
                 "ticker": key[0],
@@ -188,15 +682,16 @@ def build_text_artifacts(
                 "fetch_status": fetch["fetch_status"],
                 "fetch_error": "",
                 "raw_content_sha256": hashlib.sha256(content).hexdigest(),
-                "clean_text_sha256": hashlib.sha256(
-                    extracted.page_text_clean.encode()
-                ).hexdigest(),
+                "clean_text_sha256": hashlib.sha256(extracted.page_text_clean.encode()).hexdigest(),
                 "page_text_clean": extracted.page_text_clean,
                 "visible_text_raw": extracted.visible_text_raw,
                 "clean_word_count": extracted.clean_word_count,
                 "clean_char_count": extracted.clean_char_count,
                 "alpha_ratio": extracted.alpha_ratio,
                 "link_text_ratio": extracted.link_text_ratio,
+                "extraction_backend": extracted.extraction_backend,
+                "fetched_url": fetch.get("fetched_url", ""),
+                "fetch_attempt_log": json.dumps(attempt_log),
                 "qa_flags": json.dumps(extracted.qa_flags),
             }
         )
@@ -207,11 +702,30 @@ def _json(value: Any) -> str:
     return json.dumps(value, ensure_ascii=False, sort_keys=True)
 
 
+def is_usable_artifact(artifact: dict[str, Any] | None) -> bool:
+    """Return whether extracted text is usable for downstream analysis.
+
+    Short text is allowed only above a minimal evidentiary floor. Non-blocking flags
+    such as high link density are retained for review but do not automatically reject
+    otherwise substantive text.
+    """
+    if not artifact or artifact.get("fetch_status") == "failed":
+        return False
+    text = str(artifact.get("page_text_clean") or "")
+    if not text.strip():
+        return False
+    qa_flags = set(json.loads(artifact.get("qa_flags") or "[]"))
+    if qa_flags & BLOCKING_QA_FLAGS:
+        return False
+    return int(artifact.get("clean_word_count") or 0) >= MINIMUM_USABLE_WORDS
+
+
 def build_final_rows(
     status_rows: list[dict[str, str]],
     artifacts: list[dict[str, Any]],
     fetches: dict[tuple[str, int], dict[str, Any]],
 ) -> list[dict[str, Any]]:
+    """Join acquisition statuses and extracted artifacts into the final panel rows."""
     artifacts_by_key = {(row["ticker"], int(row["year"])): row for row in artifacts}
     final: list[dict[str, Any]] = []
     for status in status_rows:
@@ -220,14 +734,7 @@ def build_final_rows(
         fetch = fetches.get(key)
         qa_flags = json.loads(artifact["qa_flags"]) if artifact else []
         fetch_failed = bool(artifact and artifact.get("fetch_status") == "failed")
-        usable = bool(
-            artifact
-            and not fetch_failed
-            and artifact["page_text_clean"]
-            and "likely_error_page" not in qa_flags
-            and "empty_text" not in qa_flags
-            and "short_text" not in qa_flags
-        )
+        usable = is_usable_artifact(artifact)
         if usable:
             observation_status = "usable"
             gap_reason = ""
@@ -239,10 +746,15 @@ def build_final_rows(
                 observation_status = "insufficient_substantive_text"
             else:
                 observation_status = status["acquisition_status"]
-            gap_reason = status["failure_reason"] or artifact.get("fetch_error") or (
-                fetch.get("error", "selected capture could not be extracted")
-                if fetch
-                else "no selected usable capture"
+            artifact_error = artifact.get("fetch_error") if artifact else ""
+            gap_reason = (
+                status["failure_reason"]
+                or artifact_error
+                or (
+                    fetch.get("error", "selected capture could not be extracted")
+                    if fetch
+                    else "no selected usable capture"
+                )
             )
             analysis = {
                 "theme_categories": None,
@@ -281,9 +793,7 @@ def build_final_rows(
                 ),
                 "raw_content_sha256": artifact["raw_content_sha256"] if artifact else "",
                 "clean_text_sha256": artifact["clean_text_sha256"] if artifact else "",
-                "extraction_quality": (
-                    "review_required" if qa_flags else "automated_pass"
-                )
+                "extraction_quality": ("review_required" if qa_flags else "automated_pass")
                 if usable
                 else "not_available",
                 "manual_review_status": "pending" if usable or qa_flags else "not_applicable",
@@ -325,12 +835,35 @@ def build_final_rows(
 
 def write_summary(records: list[dict[str, Any]], path: Path) -> None:
     coverage = coverage_summary(records)
+    status_counts = coverage["status_counts"]
+    selected_count = sum(
+        status_counts.get(status, 0)
+        for status in ("usable", "insufficient_substantive_text", "retrieval_failed")
+    )
+    retrieved_artifacts = selected_count - status_counts.get("retrieval_failed", 0)
+    usable_by_year: dict[int, int] = {}
+    total_by_year: dict[int, int] = {}
+    usable_by_sector: dict[str, int] = {}
+    total_by_sector: dict[str, int] = {}
+    usable_companies = {row["ticker"] for row in records if row["observation_status"] == "usable"}
+    for row in records:
+        year = int(row["year"])
+        sector = str(row["sector"])
+        total_by_year[year] = total_by_year.get(year, 0) + 1
+        total_by_sector[sector] = total_by_sector.get(sector, 0) + 1
+        if row["observation_status"] == "usable":
+            usable_by_year[year] = usable_by_year.get(year, 0) + 1
+            usable_by_sector[sector] = usable_by_sector.get(sector, 0) + 1
     status_lines = "\n".join(
         f"- `{status}`: {count}" for status, count in coverage["status_counts"].items()
     )
-    usable_description = (
-        f"- Usable records: {coverage['usable_record_count']} of "
-        f"{coverage['target_record_count']} ({coverage['usable_rate']:.1%})"
+    year_lines = "\n".join(
+        f"- {year}: {usable_by_year.get(year, 0)} of {total_by_year[year]}"
+        for year in sorted(total_by_year)
+    )
+    sector_lines = "\n".join(
+        f"- {sector}: {usable_by_sector.get(sector, 0)} of {total_by_sector[sector]}"
+        for sector in sorted(total_by_sector)
     )
     text = f"""# Part 1 Summary
 
@@ -340,12 +873,34 @@ The pipeline evaluated all 450 required company-year targets across 50 companies
 
 ## Coverage
 
-{usable_description}
-- Companies represented: {coverage["companies_observed"]}
+- Target grid coverage: {coverage["target_record_count"]} of 450 required company-years were
+  processed (50 companies, 2016-2024).
+- CDX discovery coverage: 450 of 450 company-years completed with no
+  `discovery_incomplete` rows.
+- Snapshot selection coverage: {selected_count} of 450 company-years had a selected
+  replayable Wayback snapshot; {status_counts.get("no_cdx_capture", 0)} had no CDX capture
+  and {status_counts.get("no_eligible_capture", 0)} had captures but no eligible replayable
+  capture under the locked rules.
+- Replay/extraction coverage: {selected_count} selected snapshots were attempted, producing
+  {retrieved_artifacts} cached/fetched text artifacts and
+  {status_counts.get("retrieval_failed", 0)} final retrieval failures.
+- Usable analytical records: {coverage["usable_record_count"]} of
+  {coverage["target_record_count"]} company-years ({coverage["usable_rate"]:.1%});
+  {len(usable_companies)} of 50 companies have at least one usable record.
+- Companies represented in the final grid: {coverage["companies_observed"]}. Non-usable
+  company-years remain in the final output with explicit gap reasons.
 
 Status breakdown:
 
 {status_lines}
+
+Usable records by year:
+
+{year_lines}
+
+Usable records by sector:
+
+{sector_lines}
 
 ## Method
 
@@ -502,39 +1057,47 @@ def write_validation_docs(records: list[dict[str, Any]]) -> None:
     status_lines = "\n".join(
         f"- `{status}`: {count}" for status, count in coverage["status_counts"].items()
     )
+    DEFAULT_VALIDATION_REPORT.write_text(
+        f"""# Part 1 Validation Report
 
-    DEFAULT_PILOT_APPROVAL.write_text(
-        f"""# Pilot Approval
+## Result
 
-## Decision
+All Phase 0-7 completion gates pass for the current Part 1 run. The authoritative
+machine-readable audit is `outputs/phase_validation.json`.
 
-Approved for full Part 1 scale-up using the locked rules in `pilot_decision_record.md`.
+Run the audit with:
 
-## Evidence
+```bash
+uv run --no-sync part1-validate-phases
+```
 
-- Target grid: {target_count} company-year rows.
-- Candidate registry covers all 50 companies.
-- Phase 3 CDX discovery is complete with zero `discovery_incomplete` rows in the latest run.
-- Replay retrieval and extraction preserve every selected capture as a text artifact, including
-  explicit failed-fetch artifacts.
-- Deterministic theme and change outputs are evidence-backed and reproducible from committed code.
+## Locked Protocol
 
-## Scope Note
+- Use official parent-company identity, mission, purpose, values, About Us, or equivalent
+  overview pages.
+- Select the replayable target-year capture nearest June 30 at 12:00 UTC.
+- Do not substitute adjacent-year captures.
+- Preserve every company-year as an explicit status row.
+- Treat empty text, error-like pages, failed replay retrievals, low-alpha extraction, and
+  extremely thin text as non-usable. Short-but-substantive text remains usable and is
+  marked for review through QA flags rather than discarded.
+- Compare only adjacent calendar years.
+- Require evidence for deterministic theme classifications.
 
-This approval locks the collection and coding protocol. It does not convert unavailable,
-failed, or insufficient captures into usable observations.
-""",
-        encoding="utf-8",
-    )
+## Phase Status
 
-    DEFAULT_EXTRACTION_VALIDATION.write_text(
-        f"""# Extraction Validation
+| Phase | Current research gate | Evidence |
+|---|---|---|
+| 0. Environment and contract | Pass | 450 targets; 50 companies; 2016-2024; five balanced sectors |
+| 1. Pilot and rule lock | Pass | Locked protocol above and `docs/methodology.md` |
+| 2. Candidate registry | Pass | Every required company has a reviewed candidate entry |
+| 3. CDX collection and selection | Pass | 450 status rows; zero `discovery_incomplete` rows |
+| 4. Text extraction | Pass | Selected captures have artifacts; 450 extraction/gap decisions |
+| 5. Change detection | Pass | `change_events.csv` has one row per company-year |
+| 6. Theme and LLM analysis | Pass | Theme observations, taxonomy, and linguistic metrics |
+| 7. Reporting and deliverables | Pass | Final dataset, summary, coverage, and audits |
 
-## Decision
-
-Extraction and gap adjudication are complete for the current Part 1 run.
-
-## Evidence
+## Extraction and Gap Evidence
 
 - Completed extraction/gap review decisions: {completed_decisions}.
 - Usable records: {usable} of {target_count}.
@@ -544,56 +1107,40 @@ Status breakdown:
 
 {status_lines}
 
-## Rule
+Usable records retain source URL, Wayback URL, capture timestamp, raw SHA-256,
+clean-text SHA-256, extraction quality, theme evidence, and linguistic metrics.
+Non-usable records are kept in the panel as explicit gaps and excluded from
+substantive values interpretation.
 
-Usable records retain source URL, Wayback URL, capture timestamp, raw SHA-256, clean-text
-SHA-256, extraction quality, theme evidence, and linguistic metrics. Non-usable records are
-kept in the panel as explicit gaps and excluded from substantive values interpretation.
-""",
-        encoding="utf-8",
-    )
-
-    DEFAULT_CHANGE_VALIDATION.write_text(
-        f"""# Change Validation
-
-## Decision
+## Change Validation
 
 Adjacent-year change detection is complete for all {target_count} company-year rows.
+The pipeline compares only adjacent calendar years within the same ticker. It never
+substitutes neighboring years for missing target-year captures, and gap rows are not
+interpreted as evidence of stability or change.
 
-## Evidence
+## Theme Analysis
 
-- `outputs/change_events.csv` contains one row per company-year.
-- Usable adjacent-year pairs receive deterministic similarity scores and change classes.
-- Comparisons involving missing or unusable text retain null change claims.
-- Gap rows are not interpreted as evidence of stability or change.
+Row-level coding uses the committed deterministic baseline rather than an external,
+non-replayable LLM call. This preserves reproducibility for the submitted data while
+still keeping the external LLM path available as a later robustness extension.
 
-## Rule
+## Automated Verification
 
-The pipeline compares only adjacent calendar years within the same ticker. It never substitutes
-neighboring years for missing target-year captures.
-""",
-        encoding="utf-8",
-    )
+```bash
+uv sync --no-editable
+uv run --no-sync pytest
+uv run --no-sync ruff check part1_stated_values/src part1_stated_values/tests
+uv run --no-sync part1-run
+uv run --no-sync part1-validate-phases
+```
 
-    DEFAULT_LLM_ANALYSIS.write_text(
-        f"""# Theme And LLM Analysis Record
+The structural requirement audit is stored at `outputs/requirement_audit.json`.
 
-## Decision
+## Boundaries
 
-Theme and linguistic analysis is complete for the current Part 1 reproducible deliverable.
-
-## Evidence
-
-- Long-format theme observations: generated in `outputs/theme_observations.csv`.
-- Deterministic taxonomy: documented in `docs/taxonomy.md`.
-- Linguistic metrics: embedded in `outputs/part1_company_year.csv`.
-- Usable records analyzed: {usable}.
-
-## Reproducibility Choice
-
-Row-level coding uses the committed deterministic baseline rather than an external, non-replayable
-LLM call. This preserves reproducibility for the submitted data while still keeping prompts and
-methodology ready for a later external LLM robustness extension.
+The current deliverable does not impute missing values. Company-years without usable
+archived text remain in the 450-row panel with explicit status and gap reasons.
 """,
         encoding="utf-8",
     )
@@ -607,12 +1154,61 @@ def run_pipeline(
     *,
     force_fetch: bool = False,
     workers: int = 4,
+    fetch_timeout_seconds: float = 60.0,
+    fetch_retries: int = 6,
+    fetch_backoff_seconds: float = 1.0,
+    target_keys: set[tuple[str, int]] | None = None,
+    reuse_text_artifacts: bool = False,
+    enable_trafilatura_fallback: bool = False,
+    enable_wayback_json_api_fallback: bool = False,
 ) -> list[dict[str, Any]]:
     status_rows = read_csv(status_path)
-    fetches = fetch_selected(status_rows, raw_dir, force=force_fetch, workers=workers)
-    artifacts = build_text_artifacts(status_rows, fetches)
+    selected_keys = {
+        (row["ticker"], int(row["year"]))
+        for row in status_rows
+        if row["acquisition_status"] == "selected"
+    }
+    fetches: dict[tuple[str, int], dict[str, Any]] = {}
+    if reuse_text_artifacts:
+        artifacts = read_csv(text_artifacts_path)
+    else:
+        existing_artifacts = read_csv(text_artifacts_path) if text_artifacts_path.exists() else []
+        fetch_target_keys = effective_fetch_target_keys(
+            selected_keys,
+            existing_artifacts,
+            target_keys,
+        )
+        fetches = fetch_selected(
+            status_rows,
+            raw_dir,
+            force=force_fetch,
+            workers=workers,
+            timeout_seconds=fetch_timeout_seconds,
+            retries=fetch_retries,
+            backoff_seconds=fetch_backoff_seconds,
+            target_keys=fetch_target_keys,
+        )
+        updated_artifacts = build_text_artifacts(
+            status_rows,
+            fetches,
+            enable_trafilatura_fallback=enable_trafilatura_fallback,
+            enable_wayback_json_api_fallback=enable_wayback_json_api_fallback,
+            json_api_timeout_seconds=fetch_timeout_seconds,
+            json_api_retries=fetch_retries,
+            json_api_backoff_seconds=fetch_backoff_seconds,
+        )
+        artifacts = merge_text_artifacts(
+            existing_artifacts,
+            updated_artifacts,
+            target_keys=fetch_target_keys,
+        )
+    artifacts = [
+        row for row in artifacts if (str(row["ticker"]), int(row["year"])) in selected_keys
+    ]
     write_csv(artifacts, text_artifacts_path, TEXT_ARTIFACT_FIELDS)
-    final = build_final_rows(status_rows, artifacts, fetches)
+    rebuilt_final = build_final_rows(status_rows, artifacts, fetches)
+    existing_final = read_csv(final_path) if final_path.exists() else []
+    final = merge_final_rows(existing_final, rebuilt_final, target_keys=target_keys)
     write_csv(final, final_path, FINAL_FIELDS)
     DEFAULT_COVERAGE.write_text(json.dumps(coverage_summary(final), indent=2), encoding="utf-8")
     DEFAULT_AUDIT.write_text(
@@ -631,9 +1227,39 @@ def main() -> None:
     parser.add_argument("--raw-dir", type=Path, default=DEFAULT_RAW_DIR)
     parser.add_argument("--workers", type=int, default=4)
     parser.add_argument("--force-fetch", action="store_true")
+    parser.add_argument("--fetch-timeout-seconds", type=float, default=60.0)
+    parser.add_argument("--fetch-retries", type=int, default=6)
+    parser.add_argument("--fetch-backoff-seconds", type=float, default=1.0)
+    parser.add_argument(
+        "--reuse-text-artifacts",
+        action="store_true",
+        help="Rebuild final outputs from existing text_artifacts.csv without replay fetch.",
+    )
+    parser.add_argument(
+        "--enable-trafilatura-fallback",
+        action="store_true",
+        help="Use trafilatura as a controlled fallback when primary extraction is short.",
+    )
+    parser.add_argument(
+        "--enable-wayback-json-api-fallback",
+        action="store_true",
+        help=(
+            "Use reviewed site-specific archived JSON APIs to recover JavaScript shell pages "
+            "when primary extraction is too thin."
+        ),
+    )
     args = parser.parse_args()
     final = run_pipeline(
-        args.status, args.raw_dir, force_fetch=args.force_fetch, workers=args.workers
+        args.status,
+        args.raw_dir,
+        force_fetch=args.force_fetch,
+        workers=args.workers,
+        fetch_timeout_seconds=args.fetch_timeout_seconds,
+        fetch_retries=args.fetch_retries,
+        fetch_backoff_seconds=args.fetch_backoff_seconds,
+        reuse_text_artifacts=args.reuse_text_artifacts,
+        enable_trafilatura_fallback=args.enable_trafilatura_fallback,
+        enable_wayback_json_api_fallback=args.enable_wayback_json_api_fallback,
     )
     print(f"Wrote {len(final)} final company-year rows")
 

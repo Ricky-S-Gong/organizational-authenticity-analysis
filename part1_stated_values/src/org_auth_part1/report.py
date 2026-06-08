@@ -93,22 +93,14 @@ def audit_part1_requirements(
     actual_keys = {(record.get("ticker"), record.get("year")) for record in records}
     companies = {record.get("ticker") for record in records if record.get("ticker")}
     missing_fields = sorted(
-        {
-            field
-            for field in REQUIRED_FINAL_FIELDS
-            if any(field not in record for record in records)
-        }
+        {field for field in REQUIRED_FINAL_FIELDS if any(field not in record for record in records)}
     )
     duplicate_keys = _duplicate_keys(records)
     missing_failure_reasons = _missing_failure_reasons(records)
     untraceable_usable = _untraceable_usable_records(records)
     themes_without_evidence = _themes_without_evidence(records)
     years_outside_scope = sorted(
-        {
-            record.get("year")
-            for record in records
-            if record.get("year") not in set(expected_years)
-        },
+        {record.get("year") for record in records if record.get("year") not in set(expected_years)},
         key=str,
     )
     invalid_missing_change = [

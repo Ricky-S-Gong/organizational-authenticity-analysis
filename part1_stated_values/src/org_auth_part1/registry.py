@@ -12,6 +12,7 @@ DEFAULT_COMPANIES = Path("part1_stated_values/config/companies.csv")
 
 
 def load_candidates(path: Path) -> list[PageCandidate]:
+    """Load the reviewed/generated page-candidate registry as typed records."""
     with path.open(newline="", encoding="utf-8") as file:
         candidates = [PageCandidate.model_validate(row) for row in csv.DictReader(file)]
     return candidates
@@ -20,6 +21,7 @@ def load_candidates(path: Path) -> list[PageCandidate]:
 def validate_registry(
     candidates: list[PageCandidate], companies_path: Path = DEFAULT_COMPANIES
 ) -> dict[str, int]:
+    """Ensure every target company has at least one eligible candidate page."""
     companies = load_companies(companies_path)
     required_tickers = {company.ticker for company in companies}
     represented_tickers = {candidate.ticker for candidate in candidates}

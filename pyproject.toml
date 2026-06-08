@@ -5,14 +5,18 @@ description = "Research pipeline for organizational authenticity and corporate v
 readme = "README.md"
 requires-python = ">=3.12,<3.13"
 dependencies = [
+    "beautifulsoup4>=4.14.3",
     "en-core-web-sm",
     "httpx>=0.28.1",
+    "lxml>=6.1.1",
     "matplotlib>=3.10.9",
     "pydantic>=2.12.5",
+    "requests>=2.34.2",
     "scikit-learn>=1.9.0",
     "seaborn>=0.13.2",
     "sentence-transformers>=5.5.1",
     "spacy>=3.8.14",
+    "trafilatura>=2.0.0",
     "transformers>=5.10.2",
 ]
 
@@ -28,6 +32,7 @@ part1-run-status = "org_auth_part1.status:main"
 part1-discover = "org_auth_part1.discover:main"
 part1-select = "org_auth_part1.acquire:main"
 part1-process = "org_auth_part1.pipeline:main"
+part1-llm-analysis = "org_auth_part1.llm_analysis:main"
 part1-validate-phases = "org_auth_part1.phase_validation:main"
 
 [build-system]

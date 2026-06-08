@@ -1,0 +1,51 @@
+{
+  "coverage": {
+    "change_quality_counts": {
+      "candidate_interpretive_signal": 137,
+      "medium_unstructured": 162,
+      "not_applicable": 151
+    },
+    "change_status_counts": {
+      "completed": 299,
+      "skipped_no_prior": 50,
+      "skipped_nonusable_pair": 101
+    },
+    "snapshot_quality_counts": {
+      "candidate_interpretive_signal": 358,
+      "not_applicable": 92
+    },
+    "snapshot_status_counts": {
+      "completed": 358,
+      "skipped_nonusable": 92
+    }
+  },
+  "elapsed_seconds": 3597.705,
+  "input": {
+    "final_dataset": "part1_stated_values/outputs/part1_company_year.csv",
+    "final_dataset_sha256": "54f24f5116047422dd71996ab8209d6598275e1fac54393afa1c64c0bccf3359",
+    "rows": 450,
+    "usable_rows": 358
+  },
+  "interpretation_policy": "Local LLM annotations are an auditable exploratory layer. The deterministic theme/change baseline remains the primary structured dataset.",
+  "model": {
+    "batch_size": 8,
+    "local_files_only": true,
+    "max_input_tokens": 768,
+    "max_new_tokens": 80,
+    "model_family": "causal-chat",
+    "model_name": "Qwen/Qwen3-1.7B",
+    "prompt_version": "part1-local-llm-v1",
+    "seed": 42,
+    "torch_device": "mps",
+    "torch_version": "2.12.0",
+    "transformers_version": "5.10.2"
+  },
+  "outputs": {
+    "change_analysis": "part1_stated_values/outputs/llm_analysis/llm_change_analysis.csv",
+    "change_analysis_sha256": "7acf367bc9064121da6760fa8acaebde9bc78bc23f3125df9d463d7294ec8bb8",
+    "run_log": "part1_stated_values/data/interim/part1_llm_analysis_run_log.jsonl",
+    "snapshot_analysis": "part1_stated_values/outputs/llm_analysis/llm_snapshot_analysis.csv",
+    "snapshot_analysis_sha256": "77f2040bddeedb78efbb497b7360e0e3d2d16241a88296637dd4e4dd2a8116a2"
+  },
+  "run_completed_at_utc": "2026-06-08T04:35:27+00:00"
+}

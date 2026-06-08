@@ -4,11 +4,28 @@ from __future__ import annotations
 
 import re
 from dataclasses import dataclass
+from html import unescape
 from html.parser import HTMLParser
+from typing import Any
+
+import trafilatura
 
 _INVISIBLE_TAGS = {"script", "style", "noscript", "template", "svg", "canvas"}
-_BOILERPLATE_TAGS = {"nav", "footer", "header", "aside", "form"}
-_VOID_TAGS = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "source"}
+_BOILERPLATE_TAGS = {"nav", "footer", "header", "aside"}
+_VOID_TAGS = {
+    "area",
+    "base",
+    "br",
+    "col",
+    "embed",
+    "hr",
+    "img",
+    "input",
+    "link",
+    "meta",
+    "source",
+    "wbr",
+}
 _BLOCK_TAGS = {
     "article",
     "blockquote",
@@ -40,6 +57,24 @@ _ERROR_PAGE_HINTS = re.compile(
     re.IGNORECASE,
 )
 _WHITESPACE = re.compile(r"[ \t\f\v]+")
+_HTML_TAGS = re.compile(r"<[^>]+>")
+_SKIP_JSON_TEXT_KEYS = {
+    "asset_id",
+    "caption",
+    "created_at",
+    "height",
+    "href",
+    "id",
+    "provider",
+    "ratio",
+    "slug",
+    "src",
+    "src_widths",
+    "updated_at",
+    "url",
+    "video_id",
+    "width",
+}
 
 
 @dataclass(frozen=True)
@@ -54,9 +89,12 @@ class ExtractionResult:
     alpha_ratio: float
     link_text_ratio: float
     qa_flags: tuple[str, ...]
+    extraction_backend: str
 
 
 class _VisibleTextParser(HTMLParser):
+    """HTMLParser-based extractor that separates visible, cleaned, and main text."""
+
     def __init__(self) -> None:
         super().__init__(convert_charrefs=True)
         self._stack: list[tuple[str, bool, bool, bool]] = []
@@ -69,6 +107,10 @@ class _VisibleTextParser(HTMLParser):
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         tag = tag.lower()
+        if tag == "body":
+            self._stack = []
+            self.clean_parts = []
+            self.main_parts = []
         attributes = {key.lower(): value or "" for key, value in attrs}
         attr_text = f"{attributes.get('id', '')} {attributes.get('class', '')}"
         hidden = (
@@ -96,10 +138,13 @@ class _VisibleTextParser(HTMLParser):
             self.handle_endtag(tag)
 
     def handle_endtag(self, tag: str) -> None:
-        if tag.lower() in _BLOCK_TAGS:
+        tag = tag.lower()
+        if tag in _BLOCK_TAGS:
             self._add_separator()
-        if self._stack:
-            self._stack.pop()
+        for index in range(len(self._stack) - 1, -1, -1):
+            if self._stack[index][0] == tag:
+                del self._stack[index:]
+                return
 
     def handle_data(self, data: str) -> None:
         text = _WHITESPACE.sub(" ", data).strip()
@@ -132,7 +177,74 @@ def _normalize_parts(parts: list[str]) -> str:
     return text.strip()
 
 
-def extract_page_text(html: str, *, minimum_words: int = 75) -> ExtractionResult:
+def _word_count(text: str) -> int:
+    return len(re.findall(r"\b[\w'-]+\b", text))
+
+
+def _clean_json_string(value: str) -> str:
+    text = _HTML_TAGS.sub(" ", unescape(value))
+    text = re.sub(r"https?://\S+", " ", text)
+    text = _WHITESPACE.sub(" ", text).strip()
+    return text
+
+
+def extract_json_text(payload: Any, *, minimum_words: int = 3) -> str:
+    """Extract readable narrative strings from archived JSON API payloads."""
+    parts: list[str] = []
+    seen: set[str] = set()
+
+    def visit(value: Any, key: str = "") -> None:
+        if isinstance(value, dict):
+            for child_key, child_value in value.items():
+                visit(child_value, str(child_key).lower())
+            return
+        if isinstance(value, list):
+            for item in value:
+                visit(item, key)
+            return
+        if not isinstance(value, str) or key in _SKIP_JSON_TEXT_KEYS:
+            return
+        text = _clean_json_string(value)
+        if _word_count(text) < minimum_words:
+            return
+        normalized = text.casefold()
+        if normalized in seen:
+            return
+        seen.add(normalized)
+        parts.append(text)
+
+    visit(payload)
+    return "\n".join(parts)
+
+
+def _trafilatura_fallback_text(html: str) -> str:
+    """Use trafilatura only as an optional fallback when the local parser is too thin."""
+    extracted = trafilatura.extract(
+        html,
+        include_comments=False,
+        include_tables=False,
+        favor_precision=True,
+    )
+    if extracted and _word_count(extracted) >= 25:
+        return extracted.strip()
+    recall_extracted = trafilatura.extract(
+        html,
+        include_comments=False,
+        include_tables=False,
+        favor_precision=False,
+        favor_recall=True,
+    )
+    if recall_extracted and _word_count(recall_extracted) > _word_count(extracted or ""):
+        return recall_extracted.strip()
+    return extracted.strip() if extracted else ""
+
+
+def extract_page_text(
+    html: str,
+    *,
+    minimum_words: int = 75,
+    enable_trafilatura_fallback: bool = False,
+) -> ExtractionResult:
     """Extract substantive text and emit review-oriented QA flags.
 
     When a page contains a semantic ``main`` or ``article`` region, that region is
@@ -147,6 +259,12 @@ def extract_page_text(html: str, *, minimum_words: int = 75) -> ExtractionResult
     main_text = _normalize_parts(parser.main_parts)
     broad_clean_text = _normalize_parts(parser.clean_parts)
     clean_text = main_text if main_text else broad_clean_text
+    fallback_used = False
+    if enable_trafilatura_fallback and _word_count(clean_text) < minimum_words:
+        fallback_text = _trafilatura_fallback_text(html)
+        if _word_count(fallback_text) > _word_count(clean_text):
+            clean_text = fallback_text
+            fallback_used = True
 
     words = re.findall(r"\b[\w'-]+\b", clean_text)
     alpha_chars = sum(character.isalpha() for character in clean_text)
@@ -166,6 +284,8 @@ def extract_page_text(html: str, *, minimum_words: int = 75) -> ExtractionResult
         flags.append("likely_error_page")
     if not parser.has_main_region:
         flags.append("no_main_region")
+    if fallback_used:
+        flags.append("trafilatura_fallback")
 
     return ExtractionResult(
         visible_text_raw=visible_text,
@@ -176,4 +296,5 @@ def extract_page_text(html: str, *, minimum_words: int = 75) -> ExtractionResult
         alpha_ratio=alpha_ratio,
         link_text_ratio=link_text_ratio,
         qa_flags=tuple(flags),
+        extraction_backend="htmlparser+trafilatura" if fallback_used else "htmlparser",
     )

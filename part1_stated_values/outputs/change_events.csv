@@ -1,35 +1,35 @@
 ticker,year,changed_from_prior,change_score,change_magnitude,linguistic_shift_notes
 AAPL,2016,,,no_prior,
-AAPL,2017,,,indeterminate,
-AAPL,2018,,,indeterminate,
+AAPL,2017,False,0.0,unchanged_exact,
+AAPL,2018,True,0.931507,substantive_change,"{""added"": [""About Apple"", ""Apple Leadership"", ""Investors""], ""removed"": [""Apple Info - Apple"", ""Contact Us"", ""Apple Inc.""]}"
 AAPL,2019,,,indeterminate,
 AAPL,2020,,,indeterminate,
-AAPL,2021,,,indeterminate,
-AAPL,2022,,,indeterminate,
-AAPL,2023,,,indeterminate,
+AAPL,2021,True,0.174342,substantive_change,"{""added"": [""Career Opportunities"", ""Ethics & Compliance"", ""Racial Equity and Justice""], ""removed"": [""Job Opportunities"", ""Field Trip"", ""Personal Setup""]}"
+AAPL,2022,True,0.148266,substantive_change,"{""added"": [""MacBook Air (M1)"", ""MacBook Air (M2)"", ""MacBook Pro 14” and 16”""], ""removed"": [""Services"", ""Apple Music"", ""Apple TV+""]}"
+AAPL,2023,True,0.083333,minor_edit,"{""added"": [""Certified Refurbished"", ""Group Reservations"", ""Apple Trade In""], ""removed"": [""Refurbished and Clearance"", ""Apple Trade In"", ""MacBook Air (M1)""]}"
 AAPL,2024,,,indeterminate,
 ABBV,2016,,,no_prior,
 ABBV,2017,,,indeterminate,
-ABBV,2018,,,indeterminate,
-ABBV,2019,,,indeterminate,
-ABBV,2020,,,indeterminate,
-ABBV,2021,,,indeterminate,
-ABBV,2022,,,indeterminate,
+ABBV,2018,True,0.095588,minor_edit,"{""added"": [""®"", ""At AbbVie, we combine advanced science, expertise and passion to"", ""solve serious health issues and have a remarkable impact on people’s""], ""removed"": [""At AbbVie, we combine advanced science, expertise and passion to solve serious health issues and have a remarkable impact on people’s lives."", ""Skip to the next section"", ""~29,000 employees Our employees are scientists, researchers, communicators, manufacturing specialists and regulatory experts located around the globe.""]}"
+ABBV,2019,True,0.085409,minor_edit,"{""added"": [""~30,000 employees"", ""175+"", ""30+ million""], ""removed"": [""~29,000 employees"", ""170+"", ""28 million""]}"
+ABBV,2020,True,0.108696,substantive_change,"{""added"": [""~47,000 employees"", ""We’re a company that takes on the toughest health challenges, but"", ""we’re really just getting started.""], ""removed"": [""~30,000 employees"", ""We’re a company that takes on the toughest health challenges."", ""But we""]}"
+ABBV,2021,True,0.639084,substantive_change,"{""added"": [""We’re a company that takes on the toughest health challenges."", ""But we do more than treat diseases—we aim to make a remarkable impact on people’s lives."", ""We are AbbVie, a highly focused research-driven biopharmaceutical company.""], ""removed"": [""At AbbVie, we combine advanced science, expertise and passion to"", ""solve serious health issues and have a remarkable impact on people’s"", ""lives.""]}"
+ABBV,2022,True,0.615466,substantive_change,"{""added"": [""The pursuit of scientific breakthroughs is more important than ever."", ""It takes unwavering commitment and confidence to bring solutions from the petri dish to patients."", ""And it requires a continued investment in innovation to address the known and unknown challenges of tomorrow.""], ""removed"": [""We are AbbVie, a highly focused research-driven biopharmaceutical company."", ""What we do"", ""Our ~48,000 employees are scientists, researchers, communicators, manufacturing specialists and regulatory experts located around the globe.""]}"
 ABBV,2023,,,indeterminate,
 ABBV,2024,True,0.081897,minor_edit,"{""added"": [""75+"", ""~50M"", ""~50K+""], ""removed"": [""60+"", ""62MM+"", ""50,000""]}"
 ABT,2016,,,no_prior,
-ABT,2017,,,indeterminate,
-ABT,2018,,,indeterminate,
-ABT,2019,,,indeterminate,
-ABT,2020,,,indeterminate,
-ABT,2021,,,indeterminate,
-ABT,2022,,,indeterminate,
-ABT,2023,,,indeterminate,
+ABT,2017,True,0.406015,substantive_change,"{""added"": [""ABOUT ABBOTT"", ""ABBOTT IS IN THE BUSINESS OF LIFE."", ""We all have our own unique idea of what it means to live fully, but there’s one thing we share: We each want to live the best life we can.""], ""removed"": [""WHO WE ARE"", ""FULFILLING THE PROMISE OF HUMAN POTENTIAL"", ""Our promise to you—and ourselves—is to nurture human health so you can achieve your full potential and live a healthier, happier and better life.""]}"
+ABT,2018,True,0.333333,substantive_change,"{""added"": [""WHO WE ARE"", ""CREATING POSSIBILITIES"", ""Every day and around the world, we’re discovering new ways to make life better – creating more possibilities for more people through the power of health.""], ""removed"": [""ABOUT ABBOTT"", ""ABBOTT IS IN THE BUSINESS OF LIFE."", ""Please be aware that the website you have requested is intended for the residents of a particular country or countries, as noted on that site.""]}"
+ABT,2019,True,0.246073,substantive_change,"{""added"": [""CREATING"", ""LIFE-CHANGING TECHNOLOGY"", ""From removing the regular pain of fingersticks as people manage their diabetes to connecting patients to doctors with real-time information monitoring their hearts, from easing chronic pain and movement disorders to testing half the world’s blood donations to ensure a healthy supply, our purpose is to make the world a better place by bringing life-changing health technologies to the people who need them.""], ""removed"": [""CREATING POSSIBILITIES"", ""Every day and around the world, we’re discovering new ways to make life better – creating more possibilities for more people through the power of health."", ""Citizenship""]}"
+ABT,2020,False,0.0,unchanged_exact,
+ABT,2021,True,0.000236,minor_edit,"{""added"": [""Do you wish to continue and exit this website??""], ""removed"": [""Do you wish to continue and exit this website?""]}"
+ABT,2022,False,0.0,unchanged_exact,
+ABT,2023,False,0.0,unchanged_exact,
 ABT,2024,,,indeterminate,
 AMZN,2016,,,no_prior,
 AMZN,2017,,,indeterminate,
 AMZN,2018,,,indeterminate,
-AMZN,2019,,,indeterminate,
+AMZN,2019,True,0.721605,substantive_change,"{""added"": [""Amazon pledges to upskill 100,000 U.S."", ""employees by 2025 through programs like Amazon Technical Academy."", ""How Amazon delivers products safer and faster.""], ""removed"": [""The raising of the LGBTQ Pride flag and the lighting of the Seattle Spheres kicks off a month of events at Amazon facilities around the world."", ""The director of the Amazon Literary Partnership never stops walking in the shoes of the community he supports."", ""Amazon’s Prime Air planes work on customers’ behalf to fulfill our two-day delivery promise to Prime members.""]}"
 AMZN,2020,,,indeterminate,
 AMZN,2021,True,0.391144,substantive_change,"{""added"": [""Amazon strives to be Earth’s most customer-centric company, Earth’s best employer, and Earth’s safest place to work."", ""Customer reviews, 1-Click shopping, personalized recommendations, Prime, Fulfillment by Amazon, AWS, Kindle Direct Publishing, Kindle, Career Choice, Fire tablets, Fire TV, Amazon Echo, Alexa, Just Walk Out technology, Amazon Studios, and The Climate Pledge are some of the things pioneered by Amazon."", ""The 16 principles guide our discussions and decisions every day.""], ""removed"": [""Our mission is to be Earth’s most customer-centric company."", ""Customer reviews, 1-Click shopping, personalized recommendations, Prime, Fulfillment by Amazon, AWS, Kindle Direct Publishing, Kindle, Fire tablets, Fire TV, Amazon Echo, and Alexa are some of the products and services pioneered by Amazon."", ""The 14 principles guide our discussions and decisions every day.""]}"
 AMZN,2022,True,0.425087,substantive_change,"{""added"": [""At Amazon, $15 is just the start"", ""All Amazon employees earn at least $15 an hour—and more in areas where the cost of living is higher."", ""We invest in employee career growth—including fully paid college tuition—and offer regular, full-time employees benefits like health care on day one, and paid family leave.""], ""removed"": [""How a door became a desk, and a symbol of Amazon"", ""Today, Amazon offices around the world are filled with door desks, based on Bezos’ early design."", ""Watch now""]}"
@@ -45,28 +45,28 @@ AVGO,2022,,,indeterminate,
 AVGO,2023,,,indeterminate,
 AVGO,2024,,,indeterminate,
 AXP,2016,,,no_prior,
-AXP,2017,,,indeterminate,
-AXP,2018,,,indeterminate,
-AXP,2019,,,indeterminate,
+AXP,2017,True,0.445545,substantive_change,"{""added"": [""Jun 28, 2017"", ""American Express Plans to Increase Quarterly Dividend by 9 Percent and Buy Back up to $4.4 Billion of Common Shares Through Q2 2018"", ""Jun 27, 2017""], ""removed"": [""© 2016 American Express Company.""]}"
+AXP,2018,True,0.368852,substantive_change,"{""added"": [""Jun 28, 2018"", ""American Express Plans to Increase Quarterly Dividend by 11 Percent and Buy Back up to $3.4 Billion of Common Shares Through Q2 2019"", ""Jun 27, 2018""], ""removed"": [""Jun 28, 2017"", ""American Express Plans to Increase Quarterly Dividend by 9 Percent and Buy Back up to $4.4 Billion of Common Shares Through Q2 2018"", ""Jun 27, 2017""]}"
+AXP,2019,True,0.901786,substantive_change,"{""added"": [""Our Vision"", ""Provide the world’s best customer experience every day."", ""Our Mission""], ""removed"": [""About American Express"", ""PRESS RELEASES"", ""Jun 28, 2018""]}"
 AXP,2020,,,indeterminate,
 AXP,2021,,,indeterminate,
 AXP,2022,,,indeterminate,
 AXP,2023,,,indeterminate,
 AXP,2024,True,0.00232,minor_edit,"{""added"": [], ""removed"": [""About American Express"", ""​"", ""​""]}"
 BAC,2016,,,no_prior,
-BAC,2017,,,indeterminate,
-BAC,2018,,,indeterminate,
-BAC,2019,,,indeterminate,
-BAC,2020,,,indeterminate,
+BAC,2017,True,0.331897,substantive_change,"{""added"": [""Who we are + Show Who we are Dropdown Show Who we are Dropdown"", ""We’re focused on serving our clients to help them live their financial lives."", ""Our strategy""], ""removed"": [""Our story + Show Our story Dropdown Show Our story Dropdown"", ""Over 200 years of helping people around the world connect with what matters most to them."", ""Who we are""]}"
+BAC,2018,True,0.080191,minor_edit,"{""added"": [""Responsible growth"", ""See how we're bringing our approach to responsible growth to life.."", ""learn More about Responsible growth""], ""removed"": [""Report center"", ""Get fact sheets, reports and financial updates, and learn about our lending, investing and giving..."", ""learn More about Report center""]}"
+BAC,2019,True,0.052897,minor_edit,"{""added"": [""Skip to Content"", ""Modern Slavery Act Statement"", ""Hunger relief""], ""removed"": [""Skip to Content"", ""Student Leaders"", ""Inspiring tomorrow's leaders""]}"
+BAC,2020,True,0.074026,minor_edit,"{""added"": [""We're here for you"", ""Latest updates about our response to coronavirus..."", ""learn More about We're here for you""], ""removed"": [""About Bank of America - Service, Commitment & Philanthropy"", ""Empowering people with disabilities"", ""Through advocacy, employment, and volunteering, we're proud to support people with disabilities...""]}"
 BAC,2021,,,indeterminate,
-BAC,2022,,,indeterminate,
-BAC,2023,,,indeterminate,
-BAC,2024,,,indeterminate,
+BAC,2022,True,0.815385,substantive_change,"{""added"": [""Learn more"", ""Learn more"", ""We're committed to strengthening our communities.""], ""removed"": [""See how"", ""Learn more"", ""Fueling economic growth through jobs and skills development""]}"
+BAC,2023,True,0.80226,substantive_change,"{""added"": [""We believe in the power"", ""of the arts"", ""to help economies thrive, educate and enrich societies, and create greater cultural understanding""], ""removed"": [""Learn more"", ""Asian American entrepreneurs: lessons in resilience and recovery"", ""Why many Asian American business owners value the power of family — and the positive impact it has on communities.""]}"
+BAC,2024,True,0.812721,substantive_change,"{""added"": [""Being a great place to work has its rewards."", ""And awards."", ""*""], ""removed"": [""We believe in the power"", ""of the arts"", ""to help economies thrive, educate and enrich societies, and create greater cultural understanding""]}"
 BLK,2016,,,no_prior,
-BLK,2017,,,indeterminate,
+BLK,2017,True,0.655786,substantive_change,"{""added"": [""* Based on $5.1 trillion in AUM as of 12/31/16"", ""We work only for our clients."", ""Our promise is to give them insight into what to do with their money, providing products and services that can help them build a better financial future.""], ""removed"": [""Who We Are | BlackRock"", ""Skip Masthead"", ""BlackRock""]}"
 BLK,2018,,,indeterminate,
-BLK,2019,,,indeterminate,
-BLK,2020,,,indeterminate,
+BLK,2019,True,0.839323,substantive_change,"{""added"": [""Skip to content"", ""What if you invest in your financial health the same way you invest in your physical health?"", ""We believe your relationship with money is one of the greatest influences on your well-being.""], ""removed"": [""About BlackRock"", ""Who we are"", ""BlackRock is trusted to manage more money than any other investment firm*.""]}"
+BLK,2020,True,0.938272,substantive_change,"{""added"": [""BlackRock offers a range of solutions for institutions, financial professionals and individuals from all walks of life."", ""From shop assistants in your local stores to national organizations and non-profits, BlackRock has helped people take control of their financial security for more than 30 years."", ""Explore our site for more information on BlackRock's missions and principles, social impact activities and corporate sustainability.""], ""removed"": [""About Us | BlackRock"", ""Skip to content"", ""Global Site Directory Global Site Directory""]}"
 BLK,2021,,,indeterminate,
 BLK,2022,True,0.677419,substantive_change,"{""added"": [""To view this video please enable JavaScript, and consider upgrading to a"", ""web browser that supports HTML5 video."", ""Transcript""], ""removed"": [""16,000 people"", ""of different backgrounds, races and nationalities 1"", ""82 languages""]}"
 BLK,2023,True,0.269136,substantive_change,"{""added"": [""Our focus"", ""Our investment approach is informed by three principles: we start by understanding the client’s investment objectives; we seek the best risk-adjusted returns within the scope of the mandate they give us; and we underpin our work with research, data, and analytics."", ""We apply those same principles to sustainability and the low-carbon transition.""], ""removed"": [""Explore our purpose Explore our purpose"", ""We are committed to advancing..."", ""We advance sustainable investing because our conviction is it delivers better outcomes for our investors.""]}"
@@ -81,21 +81,21 @@ BMY,2022,True,0.075758,minor_edit,"{""added"": [""Committed to creating a better
 BMY,2023,True,0.318471,substantive_change,"{""added"": [""Committed to creating a better future for cancer patients >"", ""Global Inclusion & Diversity >"", ""Survivorship Today >""], ""removed"": [""Committed to creating a better future for cancer patients"", ""Bristol Myers Squibb is committed to patient care and is constantly working to shape the future of cancer care and improve the lives of cancer patients."", ""Learn more >""]}"
 BMY,2024,True,0.022727,minor_edit,"{""added"": [""Explore about us"", ""Global inclusion and diversity >"", ""Sustainability at BMS >""], ""removed"": [""Quick links"", ""Global Inclusion & Diversity >"", ""Sustainability >""]}"
 BRK.B,2016,,,no_prior,
-BRK.B,2017,,,indeterminate,
-BRK.B,2018,,,indeterminate,
-BRK.B,2019,,,indeterminate,
-BRK.B,2020,,,indeterminate,
-BRK.B,2021,,,indeterminate,
-BRK.B,2022,,,indeterminate,
-BRK.B,2023,,,indeterminate,
-BRK.B,2024,,,indeterminate,
+BRK.B,2017,True,0.056738,minor_edit,"{""added"": [""Updated May 5, 2017"", ""Updated May 5, 2017"", ""Updated February 25, 2017""], ""removed"": [""Updated May 6, 2016"", ""Updated May 6, 2016"", ""Updated February 27, 2016""]}"
+BRK.B,2018,True,0.049645,minor_edit,"{""added"": [""Updated June 20, 2018"", ""Updated May 5, 2018"", ""Updated February 24, 2018""], ""removed"": [""Updated May 5, 2017"", ""Updated May 5, 2017"", ""Updated February 25, 2017""]}"
+BRK.B,2019,True,0.082759,minor_edit,"{""added"": [""Updated July 1, 2019"", ""Updated May 6, 2019"", ""Updated February 23, 2019""], ""removed"": [""Updated June 20, 2018"", ""Updated May 5, 2018"", ""Updated February 24, 2018""]}"
+BRK.B,2020,True,0.168513,substantive_change,"{""added"": [""Updated May 2, 2020"", ""Updated May 2, 2020"", ""Annual Meeting Information""], ""removed"": [""Updated July 1, 2019"", ""Updated May 6, 2019"", ""Updated February 23, 2019""]}"
+BRK.B,2021,True,0.171975,substantive_change,"{""added"": [""News Releases from Berkshire Hathaway and from Warren Buffett"", ""Updated June 23, 2021"", ""Updated May 1, 2021""], ""removed"": [""News Releases"", ""Updated May 2, 2020"", ""Updated May 2, 2020""]}"
+BRK.B,2022,True,0.204969,substantive_change,"{""added"": [""Updated June 14, 2022"", ""Updated April 30, 2022"", ""Updated March 22, 2022""], ""removed"": [""Updated June 23, 2021"", ""Updated May 1, 2021"", ""Updated May 15, 2021""]}"
+BRK.B,2023,True,0.131579,substantive_change,"{""added"": [""Updated June 21, 2023"", ""Updated May 6, 2023"", ""Updated February 28, 2023""], ""removed"": [""Updated June 14, 2022"", ""Updated April 30, 2022"", ""Updated March 22, 2022""]}"
+BRK.B,2024,True,0.081633,minor_edit,"{""added"": [""Updated June 28, 2024"", ""Updated May 4, 2024"", ""Updated June 17, 2024""], ""removed"": [""Updated June 21, 2023"", ""Updated May 6, 2023"", ""Updated February 28, 2023""]}"
 C,2016,,,no_prior,
-C,2017,,,indeterminate,
-C,2018,,,indeterminate,
+C,2017,True,0.498498,substantive_change,"{""added"": [""While we're a global bank, our mission is simple: We responsibly provide financial services that enable growth and economic progress"", ""Michael Corbat, Chief Executive Officer of Citi, said: \""The momentum we saw across many of our businesses towards the end of last year carried into the first quarter, resulting in significantly better overall performance than a year ago."", ""Revenues increased in both our consumer and institutional lines of business, most notably in areas where we have been investing, such as Equities, U.S.""], ""removed"": [""Please be advised that this site is not optimized for use with Microsoft Internet Explorer 6."", ""About Citi"", ""Structure""]}"
+C,2018,True,0.902676,substantive_change,"{""added"": [""Citi works tirelessly to provide consumers, corporations, governments and institutions with a broad range of financial services and products."", ""We strive to create the best outcomes for our clients and customers with financial ingenuity that leads to solutions that are simple, creative and responsible.""], ""removed"": [""Citi, the leading global bank, has approximately 200 million customer accounts and does business in more than 160 countries and jurisdictions."", ""Citi provides consumers, corporations, governments and institutions with a broad range of financial products and services, including consumer banking and credit, corporate and investment banking, securities brokerage, transaction services, and wealth management."", ""Michael Corbat, Chief Executive Officer of Citi, said: \""The momentum we saw across many of our businesses towards the end of last year carried into the first quarter, resulting in significantly better overall performance than a year ago.""]}"
 C,2019,,,indeterminate,
-C,2020,,,indeterminate,
-C,2021,,,indeterminate,
-C,2022,,,indeterminate,
+C,2020,False,0.0,unchanged_exact,
+C,2021,False,0.0,unchanged_exact,
+C,2022,True,0.621212,substantive_change,"{""added"": [""Our distinct global network of people, data and relationships creates a mindset that allows Citi to spot opportunities, manage risks and connect dots for our clients in ways that others simply cannot.""], ""removed"": [""Citi works tirelessly to provide consumers, corporations, governments and institutions with a broad range of financial services and products."", ""We strive to create the best outcomes for our clients and customers with financial ingenuity that leads to solutions that are simple, creative and responsible.""]}"
 C,2023,,,indeterminate,
 C,2024,True,0.313433,substantive_change,"{""added"": [""Citi | About Us"", ""Recent news"", ""Citi Enhances the Citi Premier Card with New Benefits to Make Travel Adventures More Rewarding""], ""removed"": [""Delivering the Full Value of Our Franchise"", ""Related Articles"", ""Second Quarter 2023 Results and Key Metrics""]}"
 COP,2016,,,no_prior,
@@ -115,20 +115,20 @@ CRM,2020,,,indeterminate,
 CRM,2021,,,indeterminate,
 CRM,2022,True,0.027248,minor_edit,"{""added"": [""We are committed to bringing the full power of Salesforce to accelerate the world’s journey to net zero."", ""LEARN ABOUT OUR CLIMATE ACTION PROGRAMS"", ""Today, more than 15,000 companies worldwide have joined us in our Pledge 1% movement.""], ""removed"": [""Explore our values"", ""Explore our values"", ""Today, more than 12,000 companies worldwide have joined us in our Pledge 1% movement.""]}"
 CRM,2023,True,0.174129,substantive_change,"{""added"": [""You could say we've always been the customer company."", ""From the day we opened our doors, focus on our customers drove our every decision."", ""It fueled our growth and powered our customers' success.""], ""removed"": [""From the start, Salesforce has sought to change the world for the better through technology that builds stronger relationships."", ""Between companies and their customers."", ""Between employees and far-flung teams.""]}"
-CRM,2024,,,indeterminate,
+CRM,2024,True,0.796791,substantive_change,"{""added"": [""Explore Einstein 1"", ""Customer success."", ""Learn the fun way.""], ""removed"": [""You could say we've always been the customer company."", ""From the day we opened our doors, focus on our customers drove our every decision."", ""It fueled our growth and powered our customers' success.""]}"
 CVX,2016,,,no_prior,
-CVX,2017,,,indeterminate,
+CVX,2017,True,0.065173,minor_edit,"{""added"": [""In the months that followed the creation of ChevronTexaco, the new company found itself looking for resources in ever-more-difficult environments - deeper, more remote and increasingly complex fields, and underground reservoirs with more challenging characteristics."", ""\""The era of easy oil is over,\"" said then Chevron CEO David J."", ""O'Reilly.""], ""removed"": [""In the months that followed the creation of ChevronTexaco, the new company found itself looking for resources in ever-more-difficult environments – deeper, more remote and increasingly complex fields, and underground reservoirs with more challenging characteristics."", ""“The era of easy oil is over,” said then Chevron CEO David J."", ""O’Reilly.""]}"
 CVX,2018,,,indeterminate,
-CVX,2019,,,indeterminate,
-CVX,2020,,,indeterminate,
+CVX,2019,True,0.001034,minor_edit,"{""added"": [""And with approximately 2.2 million net acres of resources, Chevron is one of the basin’s largest net acreage holders.""], ""removed"": [""And with approximately 2 million net acres of resources, Chevron is the basin’s largest net acreage holder.""]}"
+CVX,2020,True,0.00258,minor_edit,"{""added"": [""For the latest figures, view the 2019 Supplement to the Annual Report ."", ""history see where we've been and where we're going""], ""removed"": [""history"", ""see where we've been and where we're going""]}"
 CVX,2021,,,indeterminate,
 CVX,2022,,,indeterminate,
 CVX,2023,,,indeterminate,
 CVX,2024,False,0.0,unchanged_exact,
 EOG,2016,,,no_prior,
 EOG,2017,,,indeterminate,
-EOG,2018,,,indeterminate,
-EOG,2019,,,indeterminate,
+EOG,2018,True,0.475827,substantive_change,"{""added"": [""Overview : EOG Resources, Inc."", ""Events & Presentations"", ""As of December 31, 2017, EOG’s total estimated net proved reserves were 2,527 million barrels of oil equivalent (MMBoe) comprised of 52 percent crude oil and condensate,""], ""removed"": [""Fact Sheet : EOG Resources, Inc."", ""Presentations and Events"", ""Stock Information""]}"
+EOG,2019,True,0.690566,substantive_change,"{""added"": [""Industry Links"", ""American Gas Association (AGA)"", ""American Exploration & Production Council (AXPC)""], ""removed"": [""Overview : EOG Resources, Inc."", ""Overview"", ""EOG Resources, Inc.""]}"
 EOG,2020,,,indeterminate,
 EOG,2021,,,indeterminate,
 EOG,2022,,,indeterminate,
@@ -150,16 +150,16 @@ GOOGL,2019,False,0.0,unchanged_exact,
 GOOGL,2020,False,0.0,unchanged_exact,
 GOOGL,2021,False,0.0,unchanged_exact,
 GOOGL,2022,False,0.0,unchanged_exact,
-GOOGL,2023,,,indeterminate,
-GOOGL,2024,,,indeterminate,
+GOOGL,2023,True,0.005,minor_edit,"{""added"": [""We do not intend to become one”"", ""As part of that, we also said that you could expect us to make “smaller bets in areas that might seem very speculative or even strange when compared to our current businesses.” From the start, we’ve always strived to do more, and to do important and meaningful things with the resources we have."", ""Alphabet will also include our X lab, which incubates new efforts like Wing, our drone delivery effort.""], ""removed"": [""Alphabet"", ""We do not intend to become one.” As part of that, we also said that you could expect us to make “smaller bets in areas that might seem very speculative or even strange when compared to our current businesses.” From the start, we’ve always strived to do more, and to do important and meaningful things with the resources we have."", ""more""]}"
+GOOGL,2024,False,0.0,unchanged_exact,
 GS,2016,,,no_prior,
-GS,2017,,,indeterminate,
-GS,2018,,,indeterminate,
+GS,2017,True,0.483333,substantive_change,"{""added"": [""Progress is when a Cincinnati-based company provides innovative ways to help Americans plan for the future.""], ""removed"": [""Stories of Progress"", ""Goldman Sachs is Committed to Progress"", ""Each of these stories illustrates why Goldman Sachs believes \""Progress is Everyone’s Business.\"" Goldman Sachs commits people, capital and ideas to help our clients, shareholders and the communities we serve to grow.""]}"
+GS,2018,True,0.483333,substantive_change,"{""added"": [""Stories of Progress"", ""Goldman Sachs is Committed to Progress"", ""Each of these stories illustrates why Goldman Sachs believes \""Progress is Everyone’s Business.\"" Goldman Sachs commits people, capital and ideas to help our clients, shareholders and the communities we serve to grow.""], ""removed"": [""Progress is when a Cincinnati-based company provides innovative ways to help Americans plan for the future.""]}"
 GS,2019,,,indeterminate,
-GS,2020,,,indeterminate,
-GS,2021,,,indeterminate,
-GS,2022,,,indeterminate,
-GS,2023,,,indeterminate,
+GS,2020,False,0.0,unchanged_exact,
+GS,2021,False,0.0,unchanged_exact,
+GS,2022,False,0.0,unchanged_exact,
+GS,2023,False,0.0,unchanged_exact,
 GS,2024,,,indeterminate,
 HAL,2016,,,no_prior,
 HAL,2017,,,indeterminate,
@@ -171,10 +171,10 @@ HAL,2022,True,0.095217,minor_edit,"{""added"": [""Founded in 1919, Halliburton i
 HAL,2023,True,0.075758,minor_edit,"{""added"": [""About Halliburton"", ""Halliburton is one of the world's leading providers of products and services to the energy industry."", ""Founded in 1919, we create innovative technologies, products, and services that help our customers maximize their value throughout the life cycle of an asset and advance a sustainable energy future.""], ""removed"": [""About Us"", ""Founded in 1919, Halliburton is one of the world's largest providers of products and services to the energy industry."", ""With more than 40,000 employees, representing 130 nationalities in more than 70 countries, the company helps its customers maximize value throughout the lifecycle of the reservoir – from locating hydrocarbons and managing geological data, to drilling and formation evaluation, well construction and completion, and optimizing production throughout the life of the asset.""]}"
 HAL,2024,True,0.571765,substantive_change,"{""added"": [""Founded in 1919, Halliburton is one of the world's leading providers of products and services to the energy industry."", ""We create innovative technologies, products, and services that help our customers maximize their value throughout the life cycle of an asset and advance a sustainable energy future."", ""0.02""], ""removed"": [""Halliburton is one of the world's leading providers of products and services to the energy industry."", ""Founded in 1919, we create innovative technologies, products, and services that help our customers maximize their value throughout the life cycle of an asset and advance a sustainable energy future."", ""Collaborating and engineering solutions to maximize asset value""]}"
 HD,2016,,,no_prior,
-HD,2017,,,indeterminate,
-HD,2018,,,indeterminate,
-HD,2019,,,indeterminate,
-HD,2020,,,indeterminate,
+HD,2017,True,0.249882,substantive_change,"{""added"": [""HOME DEPOT CELEBRATES FALCONS IN HOMETOWN"", ""HOME DEPOT CELEBRATES FALCONS IN HOMETOWN"", ""Read Story""], ""removed"": [""Company"", ""CEO Craig Menear Talks Innovation: Follow the Consumer"", ""CEO Craig Menear Talks Innovation: Follow the Consumer""]}"
+HD,2018,True,0.269896,substantive_change,"{""added"": [""Infographic: The Home Depot Announces Second Quarter 2018 Results; Updates Fiscal Year 2018 Guidance"", ""Infographic: The Home Depot Announces Second Quarter 2018 Results; Updates Fiscal Year 2018 Guidance"", ""From Store to Store Support Center – Internships that Grow Home Depot Careers""], ""removed"": [""HOME DEPOT CELEBRATES FALCONS IN HOMETOWN"", ""HOME DEPOT CELEBRATES FALCONS IN HOMETOWN"", ""Hofmann Honored by NRF Foundation""]}"
+HD,2019,True,0.23279,substantive_change,"{""added"": [""Go Behind the Scenes with “Give Me An H” - The Home Depot's Podcast Series Takes You Into Uncharted Territory"", ""Go Behind the Scenes with “Give Me An H” - The Home Depot's Podcast Series Takes You Into Uncharted Territory"", ""Read Story""], ""removed"": [""Go Behind the Scenes with “Give Me An H” - The Home Depot's Podcast Series Takes You Into Uncharted Territory"", ""Go Behind the Scenes with “Give Me An H” - The Home Depot's Podcast Series Takes You Into Uncharted Territory"", ""Read Story""]}"
+HD,2020,True,0.082031,minor_edit,"{""added"": [""Foundation"", ""Company"", ""Memorial Day Mystery: The Case of The Home Depot’s American Flag Disposal Box""], ""removed"": [""Community"", ""Go Behind the Scenes with “Give Me An H” - The Home Depot's Podcast Series Takes You Into Uncharted Territory"", ""Go Behind the Scenes with “Give Me An H” - The Home Depot's Podcast Series Takes You Into Uncharted Territory""]}"
 HD,2021,,,indeterminate,
 HD,2022,,,indeterminate,
 HD,2023,True,0.250923,substantive_change,"{""added"": [""In more than 2,300 stores across North America, we aspire to excel in service – to our customers, associates, communities and shareholders."", ""Today, The Home Depot is the world's largest home improvement retailer with approximately 500,000 orange-blooded associates and more than 2,300 stores in the U.S., Canada and Mexico."", ""June 27, 2023""], ""removed"": [""In 2,300 stores across North America, we aspire to excel in service – to our customers, associates, communities and shareholders."", ""Today, The Home Depot is the world's largest home improvement retailer with approximately 500,000 orange-blooded associates and 2,300 stores in the U.S., Canada and Mexico."", ""July 20, 2022""]}"
@@ -195,8 +195,8 @@ INTC,2019,True,0.04878,minor_edit,"{""added"": [""We're #11."", ""We’re #38.""
 INTC,2020,True,0.843949,substantive_change,"{""added"": [""Our Purpose"", ""We create world-changing technology that enriches the lives of every person on earth."", ""We are inspired to:""], ""removed"": [""Intel Company Overview"", ""Want to Work at Intel?"", ""Find open positions and get to know our culture.""]}"
 INTC,2021,True,0.187291,substantive_change,"{""added"": [""Catalyst for Wonderful"", ""At Intel, we’re setting a new standard for corporate responsibility, enacting meaningful change throughout our entire global network."", ""From advancing climate solutions to diversity and inclusion initiatives, we’re uniting our partners, our customers, and our global technology portfolio to achieve something wonderful.""], ""removed"": []}"
 INTC,2022,True,0.165217,substantive_change,"{""added"": [""We create world-changing technology that improves the life of every person on the planet."", ""Our values—Customer First, Fearless Innovation, Results Driven, One Intel, Inclusion, Quality and Integrity—guide how we make decisions, treat each other, serve our customers to achieve their goals and shape technology as a force for good."", ""2030 Strategy and Goals""], ""removed"": [""We create world-changing technology that enriches the lives of every person on earth."", ""Vision"", ""To be the trusted performance leader that unleashes the potential of data.""]}"
-INTC,2023,,,indeterminate,
-INTC,2024,,,indeterminate,
+INTC,2023,True,0.892449,substantive_change,"{""added"": [""Intel Shapes the Future of Technology"", ""Intel’s more than 121,000 employees are shaping the future with computing and connectivity technologies."", ""We are in an era of sustained, long‑term demand""], ""removed"": [""Our Purpose"", ""We create world-changing technology that improves the life of every person on the planet."", ""We are inspired to:""]}"
+INTC,2024,True,0.170732,substantive_change,"{""added"": [""Intel’s more than 120,300 employees are shaping the future with computing and connectivity technologies."", ""$54B"", ""total revenue in 2023""], ""removed"": [""Intel’s more than 121,000 employees are shaping the future with computing and connectivity technologies."", ""$63B"", ""total revenue in 2022""]}"
 JNJ,2016,,,no_prior,
 JNJ,2017,,,indeterminate,
 JNJ,2018,True,0.253112,substantive_change,"{""added"": [""The Values That Guide Our Decision-Making Are Spelled Out in Our Credo"", ""Diversity Is a Core Part of Our Culture"", ""We’ve Championed Women at Work, at Home and Across the World—Since 1886""], ""removed"": [""Strategic Framework"", ""Johnson & Johnson Receives 8 Prix Galien USA Award Nominations"", ""4 Johnson & Johnson Innovations That Could Help Revolutionize Your Health""]}"
@@ -205,7 +205,7 @@ JNJ,2020,True,0.065844,minor_edit,"{""added"": [""How We’re Mobilizing Our Res
 JNJ,2021,True,0.103448,substantive_change,"{""added"": [""About Johnson & Johnson | Johnson & Johnson Skip to content"", ""✕"", ""Internet Explorer is no longer supported by this website.""], ""removed"": [""About Johnson & Johnson | Johnson & Johnson"", ""How We’re Mobilizing Our Resources to Help Find Solutions for COVID-19"", ""2019 Health for Humanity Report""]}"
 JNJ,2022,True,0.034884,minor_edit,"{""added"": [""ON NOW 2021 Health for Humanity Report"", ""2021 Health for Humanity Report"", ""2021 Health for Humanity Report""], ""removed"": [""Johnson & Johnson COVID-19 Vaccinations Resume Following CDC and FDA Decision"", ""Learn More"", ""2020 Health for Humanity Report""]}"
 JNJ,2023,True,0.082397,minor_edit,"{""added"": [""About Johnson & Johnson | Johnson & Johnson"", ""jobs.jnj.com/en/jobs/"", ""Skip to content""], ""removed"": [""About Johnson & Johnson | Johnson & Johnson Skip to content"", ""That’s why for more than 130 years, we have aimed to keep people well at every age and every stage of life."", ""Today, as the world’s largest and most broadly based healthcare company, we are committed to using our reach and size for good.""]}"
-JNJ,2024,,,indeterminate,
+JNJ,2024,True,0.739819,substantive_change,"{""added"": [""Discover J&J"", ""At Johnson & Johnson, we believe health is everything."", ""Our strength in healthcare innovation empowers us to build a world where complex diseases are prevented, treated and cured, treatments are smarter and less invasive and solutions are personal.""], ""removed"": [""About Johnson & Johnson | Johnson & Johnson"", ""jobs.jnj.com/en/jobs/"", ""Skip to content""]}"
 JPM,2016,,,no_prior,
 JPM,2017,,,indeterminate,
 JPM,2018,,,indeterminate,
@@ -216,10 +216,10 @@ JPM,2022,False,0.0,unchanged_exact,
 JPM,2023,False,0.0,unchanged_exact,
 JPM,2024,True,0.809181,substantive_change,"{""added"": [""These four principles are fundamental to our success and guide our efforts within the firm and around the world."", ""See how we do business"", ""Our leadership""], ""removed"": [""Who We Are"", ""In a fast-moving and increasingly complex global economy, our success depends on how faithfully we adhere to our core principles: delivering exceptional client service; acting with integrity and responsibility; and supporting the growth of our employees."", ""Built on Principle""]}"
 LLY,2016,,,no_prior,
-LLY,2017,,,indeterminate,
-LLY,2018,,,indeterminate,
-LLY,2019,,,indeterminate,
-LLY,2020,,,indeterminate,
+LLY,2017,True,0.637832,substantive_change,"{""added"": [""We were founded in 1876 by Colonel Eli Lilly, a man committed to creating high-quality medicines that met real needs in an era of unreliable elixirs peddled by questionable characters."", ""His charge to the generations of employees who have followed was this: “Take what you find here and make it better and better.”"", ""More than 140 years later, we remain committed to his vision through every aspect of our business and the people we serve starting with those who take our medicines, and extending to health care professionals, employees and the communities in which we live.""], ""removed"": [""Across the globe, Lilly employees work to discover and bring life-changing medicines to those who need them, improve the understanding and management of disease, and give back to communities through philanthropy and volunteerism."", ""We were founded in 1876 by Colonel Eli Lilly, a man committed to creating high-quality medicines that meet real needs."", ""More than a century later, we are passionate about building on this precedent in our continued pursuit to make life better for individuals, communities, and the world around us.""]}"
+LLY,2018,False,0.0,unchanged_exact,
+LLY,2019,True,0.125874,substantive_change,"{""added"": [""Lilly was founded in 1876 by Colonel Eli Lilly, a man committed to creating high-quality medicines that met real needs in an era of unreliable elixirs peddled by questionable characters."", ""Our Purpose"", ""Lilly unites caring with discovery to create medicines that make life better for people around the world.""], ""removed"": [""We were founded in 1876 by Colonel Eli Lilly, a man committed to creating high-quality medicines that met real needs in an era of unreliable elixirs peddled by questionable characters."", ""Our promise"", ""Lilly unites caring with discovery to make life better for people around the world.""]}"
+LLY,2020,False,0.0,unchanged_exact,
 LLY,2021,,,indeterminate,
 LLY,2022,,,indeterminate,
 LLY,2023,,,indeterminate,
@@ -229,10 +229,10 @@ LOW,2017,,,indeterminate,
 LOW,2018,,,indeterminate,
 LOW,2019,,,indeterminate,
 LOW,2020,,,indeterminate,
-LOW,2021,,,indeterminate,
-LOW,2022,,,indeterminate,
+LOW,2021,True,0.079646,minor_edit,"{""added"": [""20M"", ""~$90B"", ""Sales in 2020""], ""removed"": [""~18m"", ""$72.1B"", ""Sales in 2019""]}"
+LOW,2022,True,0.328358,substantive_change,"{""added"": [""19M+"", ""Customer transactions"", ""$96.3B""], ""removed"": [""20M"", ""Customers Served"", ""~$90B""]}"
 LOW,2023,,,indeterminate,
-LOW,2024,,,indeterminate,
+LOW,2024,True,0.849635,substantive_change,"{""added"": [""More Than Home Improvement"", ""The people we serve are at the heart of everything we do."", ""Our associates have deep home improvement experience and training, and can give you the expert advice you need to do your project right.""], ""removed"": [""Our business"", ""Our team proudly serves approximately 19 million customer transactions per week in the United States."", ""Lowe’s operates or services nearly 1,700 home improvement and hardware stores and employs approximately 300,000 associates.""]}"
 MCD,2016,,,no_prior,
 MCD,2017,,,indeterminate,
 MCD,2018,,,indeterminate,
@@ -261,9 +261,9 @@ META,2022,True,0.763985,substantive_change,"{""added"": [""Company Information, 
 META,2023,True,0.636364,substantive_change,"{""added"": [""Company Information, Culture, and Principles | About Meta"", ""Giving people the power to build community and bring the world closer together"", ""Our products empower more than 3 billion people around the world to share ideas and offer support.""], ""removed"": [""Company Information, Culture, and Principles | About"", ""Give people the power to build community and bring the world closer together."", ""Our products empower more than 3 billion people around the world to share ideas, offer support and make a difference.""]}"
 META,2024,True,0.006061,minor_edit,"{""added"": [""Now, Meta is moving beyond 2D screens toward immersive experiences like augmented, virtual and mixed reality to help build the next evolution in social technology.""], ""removed"": [""Now, Meta is moving beyond 2D screens toward immersive experiences like augmented and virtual reality to help build the next evolution in social technology.""]}"
 MPC,2016,,,no_prior,
-MPC,2017,,,indeterminate,
-MPC,2018,,,indeterminate,
-MPC,2019,,,indeterminate,
+MPC,2017,True,0.763713,substantive_change,"{""added"": [""Supplier Diversity"", ""Supplier Relations >"", ""Supplier Diversity""], ""removed"": [""Corporate Officers"", ""Corporate Profile >"", ""Corporate Officers""]}"
+MPC,2018,True,0.767932,substantive_change,"{""added"": [""Corporate Officers"", ""Corporate Profile >"", ""Corporate Officers""], ""removed"": [""Supplier Diversity"", ""Supplier Relations >"", ""Supplier Diversity""]}"
+MPC,2019,True,0.89899,substantive_change,"{""added"": [""We are Marathon Petroleum"", ""“At Marathon Petroleum, we are proud of the important work we do."", ""It is a privilege to work every day with so many talented people who are dedicated to our values, care about our customers, and make the communities where we operate better places to live.”""], ""removed"": [""Corporate Officers"", ""Home >"", ""About MPC >""]}"
 MPC,2020,True,0.196172,substantive_change,"{""added"": [""We are MPC"", ""About MPC"", ""MPC also owns the general partner and majority limited partner interest in MPLX LP, a midstream company which owns and operates gathering, processing, and fractionation assets, as well as crude oil and light product transportation and logistics infrastructure.""], ""removed"": [""We are Marathon Petroleum"", ""“At Marathon Petroleum, we are proud of the important work we do."", ""It is a privilege to work every day with so many talented people who are dedicated to our values, care about our customers, and make the communities where we operate better places to live.”""]}"
 MPC,2021,True,0.128492,substantive_change,"{""added"": [""Marathon Petroleum Corporation (MPC) is a leading, integrated, downstream energy company headquartered in Findlay, Ohio."", ""The company operates the nation's largest refining system."", ""MPC's marketing system includes branded locations across the United States, including Marathon brand retail outlets.""], ""removed"": [""Marathon Petroleum Corporation is a leading, integrated, downstream energy company headquartered in Findlay, Ohio."", ""The company operates the nation’s largest refining system with more than 3 million barrels per day of crude oil capacity across 16 refineries."", ""Marathon Petroleum's marketing system includes branded locations across the United States, including Marathon branded outlets.""]}"
 MPC,2022,True,0.006289,minor_edit,"{""added"": [""CREATING SHARED VALUE""], ""removed"": [""CREATING SHARED VALUE AT MPC""]}"
@@ -275,9 +275,9 @@ MRK,2018,,,indeterminate,
 MRK,2019,,,indeterminate,
 MRK,2020,,,indeterminate,
 MRK,2021,True,0.319149,substantive_change,"{""added"": [""For 130 years, Merck (known as MSD outside of the U.S."", ""74K"", ""$13.6B""], ""removed"": [""For more than 125 years, Merck (known as MSD outside of the U.S."", ""71K"", ""$9.9B""]}"
-MRK,2022,,,indeterminate,
-MRK,2023,,,indeterminate,
-MRK,2024,,,indeterminate,
+MRK,2022,True,0.620098,substantive_change,"{""added"": [""We aspire to be the premier research-intensive biopharmaceutical company"", ""Our purpose: We use the power of leading-edge science to save and improve lives around the world"", ""For more than 130 years, we have brought hope to humanity through the development of important medicines and vaccines.""], ""removed"": [""We invent for a more hopeful future."", ""We aspire to be the premier research-intensive biopharmaceutical company in the world"", ""For 130 years, Merck (known as MSD outside of the U.S.""]}"
+MRK,2023,False,0.0,unchanged_exact,
+MRK,2024,True,0.590909,substantive_change,"{""added"": [""Who we are"", ""We aspire to be the premier research-intensive biopharmaceutical company."", ""We’re at the forefront of research to deliver innovative health solutions that advance the prevention and treatment of diseases in people and animals.""], ""removed"": [""About our company"", ""We aspire to be the premier research-intensive biopharmaceutical company"", ""For more than 130 years, we have brought hope to humanity through the development of important medicines and vaccines.""]}"
 MS,2016,,,no_prior,
 MS,2017,False,0.0,unchanged_exact,
 MS,2018,False,0.0,unchanged_exact,
@@ -288,14 +288,14 @@ MS,2022,False,0.0,unchanged_exact,
 MS,2023,False,0.0,unchanged_exact,
 MS,2024,True,0.252101,substantive_change,"{""added"": [""Ideas"", ""The Latest on Markets and the Economy"", ""At Morgan Stanley, we lead with exceptional ideas.""], ""removed"": [""Technology"", ""Reducing our Carbon Footprint"", ""New fuel-cell system and six-acre solar panel field at Morgan Stanley's Westchester campus help reduce the firm's carbon footprint.""]}"
 MSFT,2016,,,no_prior,
-MSFT,2017,,,indeterminate,
-MSFT,2018,,,indeterminate,
+MSFT,2017,True,0.805556,substantive_change,"{""added"": [""Our mission is to empower every person and every organization on the planet to achieve more.""], ""removed"": [""About Microsoft"", ""Our company"", ""Find out all about Microsoft—company facts, news, how to contact us, and more.""]}"
+MSFT,2018,True,0.798077,substantive_change,"{""added"": [""Innovating from the ocean floor module"", ""We’re supporting more than 1,000 researchers at Microsoft labs around the world to achieve scientific breakthroughs."", ""Learn about our researchAdvancing a future for everyone""], ""removed"": [""Our mission is to empower every person and every organization on the planet to achieve more.""]}"
 MSFT,2019,,,indeterminate,
 MSFT,2020,True,0.128571,substantive_change,"{""added"": [""Our mission is to empower every person and every organization on the planet to achieve more."", ""Corporate Social Responsibility"", ""We believe technology is a powerful force for good and are working to foster a sustainable future where everyone has access to the benefits and opportunities created by technology.""], ""removed"": [""Our mission is to empower every person and organization on the planet to achieve more."", ""Microsoft Philanthropies"", ""We believe technology is a powerful tool for social and economic inclusion, and we’re working to ensure that everyone has access to the opportunities it creates.""]}"
 MSFT,2021,True,0.238411,substantive_change,"{""added"": [""Sustainability By the Numbers"", ""Microsoft will be carbon negative by 2030."", ""Get an interactive look at other ways our company is improving our environmental impact.""], ""removed"": [""Microsoft By the Numbers"", ""Adding up the stories that make Microsoft, By the Numbers is an interactive look at what drives us, from quantum computing to environmental sustainability."", ""Story Labs""]}"
 MSFT,2022,False,0.0,unchanged_exact,
 MSFT,2023,False,0.0,unchanged_exact,
-MSFT,2024,,,indeterminate,
+MSFT,2024,True,0.300752,substantive_change,"{""added"": [], ""removed"": [""Our company"", ""Stay informed about Microsoft – from company facts and news to our worldwide locations and more."", ""Explore the world of Microsoft""]}"
 NKE,2016,,,no_prior,
 NKE,2017,,,indeterminate,
 NKE,2018,,,indeterminate,
@@ -303,20 +303,20 @@ NKE,2019,,,indeterminate,
 NKE,2020,,,indeterminate,
 NKE,2021,,,indeterminate,
 NKE,2022,,,indeterminate,
-NKE,2023,,,indeterminate,
-NKE,2024,,,indeterminate,
+NKE,2023,True,0.250811,substantive_change,"{""added"": [""Company Hero Loop 032323"", ""A montage of film clips that affirm NIKE, Inc."", ""is a growth company and the biggest champion for athletes and sport.""], ""removed"": [""Company Video Loop - V3"", ""As Chief Operating Officer for NIKE, Inc., Andy Campion leads global technology and digital transformation, consumer demand and supply management, manufacturing, distribution and logistics, sustainability, workplace design and connectivity, and procurement."", ""From 2015 through 2020, Andy served as Nike’s EVP and Chief Financial Officer, a role that also included leading the company’s strategy function.""]}"
+NKE,2024,True,0.024291,minor_edit,"{""added"": [""As EVP & Chief Financial Officer, Matthew Friend leads the company’s Finance, Demand & Supply Management, Procurement, and Global Places & Services organizations to drive end-to-end value creation for NIKE, Inc."", ""Matt joined Nike in 2009 working in Corporate Strategy and Development before becoming Chief Financial Officer of Emerging Markets."", ""Matt is a board member for United Airlines Holdings, Inc.""], ""removed"": [""Matt Friend serves as EVP & Chief Financial Officer at NIKE, Inc."", ""He joined Nike in 2009 working in Corporate Strategy and Development before becoming Chief Financial Officer of Emerging Markets."", ""Matt holds a bachelor’s degree in business administration from the University of California, Berkeley, where he was a pitcher for the baseball team.""]}"
 NVDA,2016,,,no_prior,
 NVDA,2017,,,indeterminate,
-NVDA,2018,,,indeterminate,
-NVDA,2019,,,indeterminate,
-NVDA,2020,,,indeterminate,
+NVDA,2018,True,0.979789,substantive_change,"{""added"": [""In 1999 sparked the growth of the PC gaming market, redefined modern computer graphics, and revolutionized parallel computing."", ""More recently, GPU deep learning ignited modern AI — the next era of computing — with the GPU acting as the brain of computers, robots, and self-driving cars that can perceive and understand the world.""], ""removed"": [""Privacy Policy"", ""NVIDIA Privacy Policy/Your California Privacy Rights"", ""This policy was last updated on June 15, 2016.""]}"
+NVDA,2019,False,0.0,unchanged_exact,
+NVDA,2020,False,0.0,unchanged_exact,
 NVDA,2021,,,indeterminate,
-NVDA,2022,,,indeterminate,
-NVDA,2023,,,indeterminate,
+NVDA,2022,True,0.966102,substantive_change,"{""added"": [""Taking on the world's greatest challenges"", ""Taking on the world's greatest challenges"", ""Read our Story""], ""removed"": [""NVIDIA'S Invention of the GPU"", ""In 1999 sparked the growth of the PC gaming market, redefined modern computer graphics, and revolutionized parallel computing."", ""More recently, GPU deep learning ignited modern AI — the next era of computing — with the GPU acting as the brain of computers, robots, and self-driving cars that can perceive and understand the world.""]}"
+NVDA,2023,True,0.964664,substantive_change,"{""added"": [""About Us: Company Leadership, History, Jobs, News | NVIDIA"", ""Nvidia - NVIDIA Corp Brochure"", ""Our Body of Work""], ""removed"": [""Taking on the world's greatest challenges"", ""Taking on the world's greatest challenges"", ""See our body of work""]}"
 NVDA,2024,True,0.701837,substantive_change,"{""added"": [""Our work in AI and digital twins is transforming the world's largest industries and profoundly impacting society."", ""The iPhone Moment for AI"", ""Accelerated computing and AI have fully arrived.""], ""removed"": [""Our work in AI and the metaverse is transforming the world's largest industries and profoundly impacting society."", ""Powering the Metaverse"", ""The metaverse—the 3D internet—promises a world where virtual collaboration is effortless and industrial giants can experience the efficiencies of digital twins.""]}"
 ORCL,2016,,,no_prior,
 ORCL,2017,,,indeterminate,
-ORCL,2018,,,indeterminate,
+ORCL,2018,True,0.325359,substantive_change,"{""added"": [""430,000+ Customers worldwide"", ""138,000+ Employees around the globe"", ""US$37.7B FY17 GAAP revenue""], ""removed"": [""About Oracle"", ""420,000+ Customers worldwide"", ""130,000+ Employees around the globe""]}"
 ORCL,2019,True,0.338095,substantive_change,"{""added"": [""Emerging technologies are disrupting old paradigms and unleashing new opportunities."", ""Oracle has embedded innovative technologies in every aspect of our cloud, enabling companies to reimagine their businesses, processes, and experiences."", ""With the introduction of Oracle Autonomous Database, the industry’s only self-driving, self-securing, and self-repairing database, Oracle is again revolutionizing how data is managed.""], ""removed"": [""With 430,000 customers in 175 countries, Oracle provides leading-edge capabilities in software as a service, platform as a service, infrastructure as a service, and data as a service."", ""Learn more about Oracle and who we are."", ""Oracle Fact Sheet""]}"
 ORCL,2020,True,0.859712,substantive_change,"{""added"": [""home nav"", ""View Accounts"", ""Sign In""], ""removed"": [""About Oracle"", ""430,000+ Customers worldwide"", ""25,000+ Partners worldwide""]}"
 ORCL,2021,True,0.129293,substantive_change,"{""added"": [""Click to view our Accessibility Policy"", ""Skip to content"", ""Cloud Account Sign in to Cloud Sign Up for Free Cloud Tier""], ""removed"": [""Cloud Account Sign in to Cloud Sign Up for Free Cloud Tier"", ""Partners"", ""Oracle PartnerNetwork""]}"
@@ -324,18 +324,18 @@ ORCL,2022,True,0.210526,substantive_change,"{""added"": [""Search"", ""Back"", "
 ORCL,2023,True,0.214567,substantive_change,"{""added"": [""Oracle buys EHR pioneer Cerner"", ""Acquisition fits into broader mission: Build and deploy integrated, mostly automated healthcare information systems and processes."", ""2022""], ""removed"": [""Leadership to the power of three"", ""Safra Catz and Mark Hurd named Oracle CEOs."", ""Founder Larry Ellison becomes chairman of the board and chief technology officer.""]}"
 ORCL,2024,True,0.011416,minor_edit,"{""added"": [""Accessibility Policy"", ""Country"", ""Cloud Account Sign in to Cloud Sign Up for Free Cloud Tier""], ""removed"": [""Click to view our Accessibility Policy"", ""Cloud Account Sign in to Cloud"", ""Diversity and Inclusion""]}"
 OXY,2016,,,no_prior,
-OXY,2017,,,indeterminate,
+OXY,2017,True,0.948235,substantive_change,"{""added"": [""OxyChem Manufacturing Sites"", ""Headquartered in Dallas, OxyChem and its subsidiaries and affiliates operate chemical manufacturing plants in 12 U.S."", ""states as well as in Canada and Chile.""], ""removed"": [""Occidental Petroleum Corporation is one of the largest U.S."", ""oil and gas companies based on equity market capitalization."", ""Occidental’s success is a direct outcome of the company’s leadership and ongoing commitment to enhance stockholder value.""]}"
 OXY,2018,,,indeterminate,
 OXY,2019,,,indeterminate,
 OXY,2020,,,indeterminate,
 OXY,2021,,,indeterminate,
-OXY,2022,,,indeterminate,
-OXY,2023,,,indeterminate,
-OXY,2024,,,indeterminate,
+OXY,2022,False,0.0,unchanged_exact,
+OXY,2023,True,0.005575,minor_edit,"{""added"": [""Explore Operations"", ""Explore Operations""], ""removed"": []}"
+OXY,2024,True,0.193182,substantive_change,"{""added"": [""Our experienced teams, located in the United States, Middle East and Africa, are committed to safe and efficient operations and products, and to reducing our carbon footprint and helping others do the same."", ""Our experienced teams, located in the United States, Middle East and Africa, are committed to safe and efficient operations and products, and to reducing our carbon footprint and helping others do the same.""], ""removed"": [""Our experienced teams, located in the United States, Middle East, Africa and Latin America, are committed to safe and efficient operations and products, and to reducing our carbon footprint and helping others do the same."", ""Our experienced teams, located in the United States, Middle East, Africa and Latin America, are committed to safe and efficient operations and products, and to reducing our carbon footprint and helping others do the same."", ""Our culture of curiosity, global responsibility, optimism and action starts with our CEO and senior management.""]}"
 PFE,2016,,,no_prior,
-PFE,2017,,,indeterminate,
+PFE,2017,True,0.049342,minor_edit,"{""added"": [""For more than 150 years, we have worked to make a difference for all who rely on us."", ""We routinely post information that may be important to investors on our website at www.pfizer.com."", ""In addition, to learn more, please visit us on www.pfizer.com and follow us on Twitter at @Pfizer and @PfizerNews, LinkedIn, YouTube and like us on Facebook at Facebook.com/Pfizer.""], ""removed"": [""For more than 150 years, Pfizer has worked to make a difference for all who rely on us."", ""To learn more, please visit us at www.pfizer.com.""]}"
 PFE,2018,,,indeterminate,
-PFE,2019,,,indeterminate,
+PFE,2019,True,0.596026,substantive_change,"{""added"": [""Pfizer’s Core Values of Social Responsibility and Philanthropy"", ""Our purpose is grounded in our commitment to fund programs that provide public benefit, advance medical care and improve patient outcomes."", ""Our belief is that all people deserve to live healthy lives.""], ""removed"": [""Our Purpose"", ""How to Access Medicines During an Emergency"", ""During times of natural disasters like Hurricanes Harvey and Irma, many families are forced to evacuate to safety in a hurry with little more than they can carry.""]}"
 PFE,2020,,,indeterminate,
 PFE,2021,,,indeterminate,
 PFE,2022,True,0.096208,minor_edit,"{""added"": [""A network of external suppliers is essential to enable manufacture of medicines and vaccines that deliver breakthroughs that change patients’ lives."", ""Pfizer’s supply chain supports the research, development and manufacturing process by providing flexibility and access to technologies necessary to meet our commitment to patients We are committed to using suppliers that demonstrate strong performance in Environment, Health, and Safety (EHS) management."", ""We advance medical innovation and distribute medicines that might not otherwise be available to underserved communities.""], ""removed"": [""Providing a reliable supply of safe and effective medicines requires a foundation of compliance and the effective management of quality and EHS performance across our supply chain."", ""We advance medical innovation and grant access to medicines that would not otherwise be available to underserved communities."", ""Learn More""]}"
@@ -343,20 +343,20 @@ PFE,2023,True,0.269676,substantive_change,"{""added"": [""Home About"", ""Explor
 PFE,2024,True,0.121333,substantive_change,"{""added"": [""Chris Boshoff, FRCP, FMedSci, Ph.D"", ""Chief Oncology Officer, Executive Vice President"", ""Alexandre de Germay""], ""removed"": [""Home About"", ""Seng H Cheng, Ph.D."", ""Senior Vice President & Chief Scientific Officer, Rare Disease""]}"
 PSX,2016,,,no_prior,
 PSX,2017,,,indeterminate,
-PSX,2018,,,indeterminate,
-PSX,2019,,,indeterminate,
-PSX,2020,,,indeterminate,
+PSX,2018,True,0.057143,minor_edit,"{""added"": [""We Are the Makers and Movers"", ""Watch now""], ""removed"": []}"
+PSX,2019,False,0.0,unchanged_exact,
+PSX,2020,False,0.0,unchanged_exact,
 PSX,2021,,,indeterminate,
 PSX,2022,True,0.301471,substantive_change,"{""added"": [""With nearly 150 years of experience, we are well-positioned to help fulfill global energy needs."", ""At Phillips 66, we know that now, more than ever, is the time to try new things."", ""Trying New Things""], ""removed"": [""With more than 140 years of experience, we are well-positioned to help fulfill global energy needs."", ""We do the work that makes the world work."", ""Our vision is to provide energy and improve lives, and we back that up with core company values of safety, honor and commitment.""]}"
 PSX,2023,,,indeterminate,
 PSX,2024,,,indeterminate,
 SBUX,2016,,,no_prior,
-SBUX,2017,,,indeterminate,
-SBUX,2018,,,indeterminate,
-SBUX,2019,,,indeterminate,
-SBUX,2020,,,indeterminate,
-SBUX,2021,,,indeterminate,
-SBUX,2022,,,indeterminate,
+SBUX,2017,True,0.904762,substantive_change,"{""added"": [""Mission Statement | Starbucks Coffee Company"", ""OUR MISSION"", ""To inspire and nurture the human spirit – one person, one cup and one neighborhood at a time.""], ""removed"": [""Server Error | Starbucks Coffee Company"", ""We’re sorry — something has gone wrong on our end."", ""What could have caused this?""]}"
+SBUX,2018,False,0.0,unchanged_exact,
+SBUX,2019,False,0.0,unchanged_exact,
+SBUX,2020,False,0.0,unchanged_exact,
+SBUX,2021,False,0.0,unchanged_exact,
+SBUX,2022,True,0.857143,substantive_change,"{""added"": [""Our Heritage"", ""Our story begins in 1971 along the cobblestone streets of Seattle’s historic Pike Place Market."", ""It was here where Starbucks opened its first store, offering fresh-roasted coffee beans, tea and spices from around the world for our customers to take home.""], ""removed"": [""Mission Statement | Starbucks Coffee Company"", ""OUR MISSION"", ""To inspire and nurture the human spirit – one person, one cup and one neighborhood at a time.""]}"
 SBUX,2023,,,indeterminate,
 SBUX,2024,,,indeterminate,
 SCHW,2016,,,no_prior,
@@ -369,57 +369,57 @@ SCHW,2022,True,0.487337,substantive_change,"{""added"": [""Learn more about what
 SCHW,2023,True,0.56338,substantive_change,"{""added"": [""One combined company dedicated to serving investors across every phase of their financial journeys."", ""View the Client Information Hub to learn more"", ""June 30, 2023""], ""removed"": [""Coming together with a single goal: to serve you."", ""We're making history, but it is your tomorrow we care about most."", ""Learn more about what the new Schwab means >""]}"
 SCHW,2024,True,0.87788,substantive_change,"{""added"": [""We are champions of investors and those who serve them."", ""Investing is an act of optimism and can be transformative when investors actively engage."", ""Watch our story unfold""], ""removed"": [""Schwab offers a better, more modern way to build and manage wealth"", ""One combined company dedicated to serving investors across every phase of their financial journeys."", ""View the Client Information Hub to learn more""]}"
 SLB,2016,,,no_prior,
-SLB,2017,,,indeterminate,
-SLB,2018,,,indeterminate,
-SLB,2019,,,indeterminate,
+SLB,2017,True,0.286408,substantive_change,"{""added"": [""Our approach to sustainability is rooted in a long-standing culture of global social and environmental stewardship."", ""For 90 years, Schlumberger technological innovations have provided value for oil and gas operators by helping them increase production and recovery from nonrenewable resources—efficiently and with lower environmental impact."", ""We strive to be a unifying voice for social and environmental stewardship in the communities where we and our customers live and work.""], ""removed"": [""Executive Management"", ""Driven to create value for our customers, our shareholders and our employees"", ""Sustainable development at Schlumberger is rooted in a long standing culture of  environmental and social stewardship in the countries where we operate.""]}"
+SLB,2018,True,0.031746,minor_edit,"{""added"": [""$30.44 billion revenue from continuing operations (FY17)""], ""removed"": [""$27.81 billion revenue from continuing operations (FY16)""]}"
+SLB,2019,True,0.031746,minor_edit,"{""added"": [""$27.81 billion revenue from continuing operations (FY16)""], ""removed"": [""$30.44 billion revenue from continuing operations (FY17)""]}"
 SLB,2020,,,indeterminate,
 SLB,2021,,,indeterminate,
 SLB,2022,,,indeterminate,
-SLB,2023,,,indeterminate,
-SLB,2024,,,indeterminate,
+SLB,2023,True,0.504478,substantive_change,"{""added"": [""Who We Are | SLB"", ""We are SLB"", ""Subscribe for News""], ""removed"": [""Who We Are | Schlumberger"", ""Who We Are"", ""Contact Corporate Communication""]}"
+SLB,2024,True,0.368,substantive_change,"{""added"": [""Topic Page"", ""Published: 01/01/0001"", ""A global technology company driving energy innovation for a balanced planet""], ""removed"": [""Our story begins with what it truly means to be a technology innovator."", ""It stems from a common sense of purpose that unites the people of SLB."", ""With a global footprint in more than 100 countries and employees representing almost twice as many nationalities, we work each day on innovating oil and gas, delivering digital at scale, decarbonizing industries, and developing and scaling new energy systems that accelerate the energy transition.""]}"
 TGT,2016,,,no_prior,
-TGT,2017,,,indeterminate,
-TGT,2018,,,indeterminate,
+TGT,2017,False,0.0,unchanged_exact,
+TGT,2018,False,0.0,unchanged_exact,
 TGT,2019,,,indeterminate,
-TGT,2020,,,indeterminate,
-TGT,2021,,,indeterminate,
-TGT,2022,,,indeterminate,
-TGT,2023,,,indeterminate,
+TGT,2020,True,0.9375,substantive_change,"{""added"": [""stats block"", ""$75.4"", ""billion in total revenue, 2018""], ""removed"": [""a mind for design, a passion for innovation"", ""Good design goes beyond the surface."", ""When design really works, it satisfies a need, simplifies your life and makes you feel great.""]}"
+TGT,2021,True,0.169014,substantive_change,"{""added"": [""$93.6"", ""billion in total revenue, 2020"", ""1,909""], ""removed"": [""$75.4"", ""billion in total revenue, 2018"", ""1,871""]}"
+TGT,2022,True,0.253333,substantive_change,"{""added"": [""1,934"", ""51"", ""supply chain facilities""], ""removed"": [""1,909"", ""44"", ""distribution centers""]}"
+TGT,2023,True,0.15493,substantive_change,"{""added"": [""$109"", ""billion in total revenue, 2022"", ""1,954""], ""removed"": [""$93.6"", ""billion in total revenue, 2020"", ""1,934""]}"
 TGT,2024,,,indeterminate,
 TJX,2016,,,no_prior,
 TJX,2017,,,indeterminate,
 TJX,2018,True,0.204082,substantive_change,"{""added"": [""Company | TJX.com"", ""The TJX Companies, Inc., the leading off-price retailer of apparel and home fashions in the U.S."", ""and worldwide, is ranked 85 among Fortune 500 companies.""], ""removed"": [""Deliver Off Price Value | TJX.com"", ""The TJX Companies, Inc."", ""is the leading off-price retailer of apparel and home fashions in the U.S.""]}"
-TJX,2019,,,indeterminate,
-TJX,2020,,,indeterminate,
-TJX,2021,,,indeterminate,
-TJX,2022,,,indeterminate,
+TJX,2019,True,0.268371,substantive_change,"{""added"": [""The TJX Companies, Inc., the leading off-price apparel and home fashions retailer in the U.S."", ""At the end of 2018,1 the Company had $39 billion in revenues, more than 4,300 stores in 9 countries, 3 e-commerce sites, and approximately 270,000 Associates."", ""Maxx and Marshalls (combined, Marmaxx), HomeGoods, Sierra, and Homesense, as well as tjmaxx.com and sierra.com, in the U.S.; Winners, HomeSense, and Marshalls (combined, TJX Canada) in Canada; and T.K.""], ""removed"": [""Company | TJX.com"", ""Company"", ""The TJX Companies, Inc., the leading off-price retailer of apparel and home fashions in the U.S.""]}"
+TJX,2020,True,0.367742,substantive_change,"{""added"": [""and worldwide, was ranked 85 in the 2019 Fortune 500 company listings."", ""At the end of 2019, the Company had nearly $42 billion in annual sales, more than 4,500 stores in nine countries, four e-commerce sites, and approximately 286,000 Associates."", ""Maxx and Marshalls (combined, Marmaxx), HomeGoods, Sierra, and Homesense, as well as tjmaxx.com, marshalls.com, and sierra.com, in the U.S.; Winners, HomeSense, and Marshalls (combined, TJX Canada) in Canada; and T.K.""], ""removed"": [""and worldwide, is ranked 85 among Fortune 500 companies."", ""At the end of 2018,1 the Company had $39 billion in revenues, more than 4,300 stores in 9 countries, 3 e-commerce sites, and approximately 270,000 Associates."", ""Maxx and Marshalls (combined, Marmaxx), HomeGoods, Sierra, and Homesense, as well as tjmaxx.com and sierra.com, in the U.S.; Winners, HomeSense, and Marshalls (combined, TJX Canada) in Canada; and T.K.""]}"
+TJX,2021,True,0.710526,substantive_change,"{""added"": [""and worldwide, was ranked 80 in the 2020 Fortune 500 company listings."", ""At the end of 2020, the Company had more than 4,500 stores in nine countries, four e-commerce sites, and approximately 320,000 Associates.""], ""removed"": [""and worldwide, was ranked 85 in the 2019 Fortune 500 company listings."", ""At the end of 2019, the Company had nearly $42 billion in annual sales, more than 4,500 stores in nine countries, four e-commerce sites, and approximately 286,000 Associates."", ""Delivering Value Across the Globe""]}"
+TJX,2022,True,0.253165,substantive_change,"{""added"": [""and worldwide, was ranked 75 in the 2022 Fortune 500 company listings."", ""At the end of fiscal 2022, the Company had nearly 4,700 stores across"", ""nine countries and three continents, and five distinctive branded e-commerce sites.""], ""removed"": [""and worldwide, was ranked 80 in the 2020 Fortune 500 company listings."", ""At the end of 2020, the Company had more than 4,500 stores in nine countries, four e-commerce sites, and approximately 320,000 Associates."", ""Maxx and Marshalls (combined, Marmaxx), HomeGoods, Sierra, and Homesense, as well as tjmaxx.com, marshalls.com, and sierra.com, in the U.S.; Winners, HomeSense, and Marshalls (combined, TJX Canada) in Canada; and T.K.""]}"
 TJX,2023,,,indeterminate,
 TJX,2024,,,indeterminate,
 TMO,2016,,,no_prior,
-TMO,2017,,,indeterminate,
-TMO,2018,,,indeterminate,
-TMO,2019,,,indeterminate,
+TMO,2017,True,0.896104,substantive_change,"{""added"": [""Home"", ""Improving Patient Education and Access:"", ""How Can We Better Leverage Advances in""], ""removed"": [""Shaping discovery."", ""Improving life."", ""As a brand of Thermo Fisher Scientific, Life Technologies believes in the power of science to transform lives.""]}"
+TMO,2018,True,0.809859,substantive_change,"{""added"": [""Thermo Fisher recognizes recipients"", ""of 2017 Nobel prize in Chemistry"", ""Read More""], ""removed"": [""TiEcon 2017 Recap:"", ""Building a digital health infrastructure"", ""is key to precision medicine""]}"
+TMO,2019,True,0.893443,substantive_change,"{""added"": [""The World Leader in Serving Science"", ""Thermo Fisher Scientific is the world leader in serving science, with revenues of more than $20 billion and approximately 70,000 employees globally."", ""Our mission is to enable our customers to make the world healthier, cleaner and safer.""], ""removed"": [""Home"", ""Thermo Fisher recognizes recipients"", ""of 2017 Nobel prize in Chemistry""]}"
 TMO,2020,,,indeterminate,
-TMO,2021,,,indeterminate,
-TMO,2022,,,indeterminate,
-TMO,2023,,,indeterminate,
+TMO,2021,True,0.912924,substantive_change,"{""added"": [""\""We champion science because we're scientists too.\"""", ""Whether they are improving life for patients, protecting our global climate or keeping people safe, our customers look to Thermo Fisher Scientific for innovative solutions."", ""Products and services sold under the following Thermo Fisher brands enable customers to push science and technology a step beyond.""], ""removed"": [""Step ahead."", ""Step beyond."", ""To serve science, Thermo Fisher Scientific needs to stay ahead of it.""]}"
+TMO,2022,True,0.140969,substantive_change,"{""added"": [""The Fisher Scientific channel offers customers convenient access to a complete portfolio of laboratory equipment, chemicals, supplies and services used in scientific research, healthcare, safety, and education markets."", ""A global network of direct sales professionals, industry-specific catalogs, e-commerce capabilities and supply-chain management services enables the Fisher Scientific channel to offer a broad mix of products manufactured by Thermo Fisher Scientific and third parties."", ""Learn more""], ""removed"": [""The Fisher Scientific channel oers customers convenient access to a complete portfolio of laboratory equipment, chemicals, supplies and services used in scientific research, healthcare, safety, and education markets."", ""A global network of direct sales professionals, industry-specific catalogs, e-commerce capabilities and supply-chain management services enables the Fisher Scientific channel to oer a broad mix of products manufactured by Thermo Fisher Scientific and third parties."", ""End-to-end drug development services""]}"
+TMO,2023,False,0.0,unchanged_exact,
 TMO,2024,,,indeterminate,
 TSLA,2016,,,no_prior,
-TSLA,2017,,,indeterminate,
-TSLA,2018,,,indeterminate,
+TSLA,2017,True,0.070175,minor_edit,"{""added"": [""Tesla was founded in 2003 by a group of engineers in Silicon Valley who wanted to prove that electric cars could be better than gasoline-powered cars."", ""Each new generation would be increasingly affordable, helping the company work towards its mission: to accelerate the world’s transition to sustainable energy."", ""For long distance journeys, Tesla’s Supercharger network provides convenient access to high speed charging, replenishing half a charge in as little as 20 minutes.""], ""removed"": [""Tesla Motors was founded in 2003 by a group of engineers in Silicon Valley who wanted to prove that electric cars could be better than gasoline-powered cars."", ""Each new generation would be increasingly affordable, helping the company work towards its mission: to accelerate the world’s transition to sustainable transport."", ""Now with more than 50,000 vehicles on the road worldwide, Tesla is preparing to launch Model X, a crossover vehicle that enters volume production in 2015.""]}"
+TSLA,2018,True,0.737991,substantive_change,"{""added"": [""Tesla was founded in 2003 by a group of engineers who wanted to prove that people didn’t need to compromise to drive electric – that electric vehicles can be better, quicker and more fun to drive than gasoline cars."", ""Today, Tesla builds not only all-electric vehicles but also infinitely scalable clean energy generation and storage products."", ""Tesla believes the faster the world stops relying on fossil fuels and moves towards a zero-emission future, the better.""], ""removed"": [""Tesla was founded in 2003 by a group of engineers in Silicon Valley who wanted to prove that electric cars could be better than gasoline-powered cars."", ""With instant torque, incredible power, and zero emissions, Tesla’s products would be cars without compromise."", ""Each new generation would be increasingly affordable, helping the company work towards its mission: to accelerate the world’s transition to sustainable energy.""]}"
 TSLA,2019,,,indeterminate,
-TSLA,2020,,,indeterminate,
+TSLA,2020,True,0.058824,minor_edit,"{""added"": [""In 2019, Tesla unveiled Model Y, a mid-size SUV, with seating for up to seven, and Cybertruck, which will have better utility than a traditional truck and more performance than a sports car."", ""Tesla vehicles are produced at its factory in Fremont, California, and Gigafactory Shanghai."", ""The result is that Tesla’s safety rate continues to improve while production ramps.""], ""removed"": [""All Tesla vehicles are produced at its factory in Fremont, California, where the vast majority of the vehicle’s components are also made."", ""The result is that Tesla’s safety rate continues to improve while Model 3 production ramps.""]}"
 TSLA,2021,,,indeterminate,
-TSLA,2022,,,indeterminate,
-TSLA,2023,,,indeterminate,
-TSLA,2024,,,indeterminate,
+TSLA,2022,True,0.956229,substantive_change,"{""added"": [""Exiting the Fossil Fuel Era"", ""In 2021, Tesla customers helped accelerate the world's transition to sustainable energy by avoiding 8.4 million metric tons of CO2e emissions"", ""In 2021, Tesla customers helped accelerate the world's transition to sustainable energy by avoiding 8.4 million metric tons of CO2e emissions""], ""removed"": [""Tesla’s mission is to accelerate the world’s transition to sustainable energy."", ""Tesla was founded in 2003 by a group of engineers who wanted to prove that people didn’t need to compromise to drive electric – that electric vehicles can be better, quicker and more fun to drive than gasoline cars."", ""Today, Tesla builds not only all-electric vehicles but also infinitely scalable clean energy generation and storage products.""]}"
+TSLA,2023,True,0.90566,substantive_change,"{""added"": [""About Us"", ""Accelerating the World's Transition to Sustainable Energy"", ""Accelerating the World's Transition to Sustainable Energy""], ""removed"": [""Exiting the Fossil Fuel Era"", ""In 2021, Tesla customers helped accelerate the world's transition to sustainable energy by avoiding 8.4 million metric tons of CO2e emissions"", ""In 2021, Tesla customers helped accelerate the world's transition to sustainable energy by avoiding 8.4 million metric tons of CO2e emissions""]}"
+TSLA,2024,True,0.932021,substantive_change,"{""added"": [""Impact Report 2023"", ""A Sustainable Future is Within Reach"", ""A Sustainable Future is Within Reach""], ""removed"": [""About Us"", ""Accelerating the World's Transition to Sustainable Energy"", ""Accelerating the World's Transition to Sustainable Energy""]}"
 UNH,2016,,,no_prior,
-UNH,2017,,,indeterminate,
+UNH,2017,True,0.927517,substantive_change,"{""added"": [""About UnitedHealth Group"", ""Helping people live healthier lives and helping make the health system work better for everyone."", ""UnitedHealth Group is a distinctively diversified health and well-being company headquartered in the United States, and a leader worldwide in helping people live healthier lives and helping make the health system work better for everyone.""], ""removed"": [""UnitedHealth Group - Our History"", ""About"", ""2015""]}"
 UNH,2018,,,indeterminate,
-UNH,2019,,,indeterminate,
-UNH,2020,,,indeterminate,
+UNH,2019,True,0.252809,substantive_change,"{""added"": [""About Us"", ""At UnitedHealth Group, we are working to help people live healthier lives and help make the health system work better for everyone."", ""UnitedHealth Group serves clients and consumers through two distinct platforms :""], ""removed"": [""About UnitedHealth Group"", ""Helping people live healthier lives and helping make the health system work better for everyone."", ""UnitedHealth Group serves clients and consumers through two distinct platforms:""]}"
+UNH,2020,True,0.878524,substantive_change,"{""added"": [""Who We Are"", ""DIVERSE."", ""DEDICATED.""], ""removed"": [""About Us"", ""At UnitedHealth Group, we are working to help people live healthier lives and help make the health system work better for everyone."", ""UnitedHealth Group is a distinctively diversified health and well-being company headquartered in the United States, and a leader worldwide in helping people live healthier lives and helping make the health system work better for everyone.""]}"
 UNH,2021,,,indeterminate,
-UNH,2022,,,indeterminate,
+UNH,2022,True,0.565217,substantive_change,"{""added"": [""We are a health and well-being company made up of team members around the world helping to build a modern, high-performing health system."", ""Our Mission"", ""Helping People Live Healthier Lives and Helping Make the Health System Work Better for Everyone""], ""removed"": [""We are individuals and teams around the world working to change the face of health care."", ""Our Mission & Values"", ""We Are Connected By Values Of Compassion, Integrity, Innovation, Performance And Relationships.""]}"
 UNH,2023,,,indeterminate,
 UNH,2024,,,indeterminate,
 VLO,2016,,,no_prior,
@@ -428,14 +428,14 @@ VLO,2018,,,indeterminate,
 VLO,2019,,,indeterminate,
 VLO,2020,,,indeterminate,
 VLO,2021,,,indeterminate,
-VLO,2022,,,indeterminate,
+VLO,2022,True,0.018868,minor_edit,"{""added"": [""We are guided by five principles, in Safety, Environment, Community, Employees and Governance."", ""Valero, through its subsidiaries, owns 15 petroleum refineries in the United States, Canada and the United Kingdom, and 12 ethanol process plants in the U.S."", ""Learn more about our Code of Business Conduct & Ethics, our industrial equipment and surplus material, our supplier partners and customer service for property owners.""], ""removed"": [""We are guided by five principles, in Safety, Environment, Community, Employees, and Governance."", ""Valero, through its subsidiaries, owns 15 petroleum refineries in the United States, Canada and the United Kingdom, and 13 ethanol process plants in the U.S."", ""Learn more about our Code of Business Conduct & Ethics, our industrial equipment and surplus material, our supplier partners, and customer service for property owners.""]}"
 VLO,2023,,,indeterminate,
-VLO,2024,,,indeterminate,
+VLO,2024,True,0.444444,substantive_change,"{""added"": [""Valero | Who We Are"", ""- Fortune 500 Company"", ""- Headquartered in San Antonio, Texas""], ""removed"": []}"
 WFC,2016,,,no_prior,
 WFC,2017,False,0.0,unchanged_exact,
-WFC,2018,,,indeterminate,
-WFC,2019,,,indeterminate,
-WFC,2020,,,indeterminate,
+WFC,2018,True,0.9125,substantive_change,"{""added"": [""Vision, Values and Goals"", ""Our enduring vision is to help our customers succeed financially."", ""That is supported by our five values, which articulate what’s most important to us.""], ""removed"": [""Vision and Values"", ""We believe in our vision and values just as strongly today as we did the first time we put them on paper more than 20 years ago."", ""Staying true to them will guide us toward continued growth and success for decades to come.""]}"
+WFC,2019,True,0.015762,minor_edit,"{""added"": [""Vision, Values & Goals"", ""Our Vision, Values & Goals""], ""removed"": [""Vision, Values and Goals"", ""Our Vision, Values, and Goals""]}"
+WFC,2020,True,0.935693,substantive_change,"{""added"": [""About Wells Fargo"", ""Skip to content"", ""Navegó a una página que no está disponible en español en este momento.""], ""removed"": [""Vision, Values & Goals"", ""Our enduring vision is to help our customers succeed financially."", ""That is supported by our five values, which articulate what’s most important to us.""]}"
 WFC,2021,True,0.119617,substantive_change,"{""added"": [""We’re building stronger communities by focusing on housing affordability, small business growth, financial health and sustainability."", ""Press Room and Contacts"", ""Press Room and Contacts""], ""removed"": [""We’re supporting communities through grants, financial education, environmental stewardship, and volunteerism."", ""Media Contacts (PDF)"", ""Multimedia Resources""]}"
 WFC,2022,True,0.111111,substantive_change,"{""added"": [""Explore our stories of how we’re helping customers succeed and communities thrive."", ""We create custom-designed art that honors the vibrancy and unique character of our local communities."", ""Teamworks for Employees""], ""removed"": [""Explore a journal of how we help customers succeed and communities thrive."", ""We are dedicated to creating unique, custom-designed works of art that commemorate the rich legacy of our communities."", ""Jobs Outside of the U.S.""]}"
 WFC,2023,True,0.092308,minor_edit,"{""added"": [""Learn More"", ""Dividends and Stock Price"", ""Dividends and Stock Price""], ""removed"": [""Read the Report"", ""Who We Are"", ""Community Mural Program""]}"
@@ -444,8 +444,8 @@ XOM,2016,,,no_prior,
 XOM,2017,,,indeterminate,
 XOM,2018,,,indeterminate,
 XOM,2019,,,indeterminate,
-XOM,2020,,,indeterminate,
-XOM,2021,,,indeterminate,
+XOM,2020,False,0.0,unchanged_exact,
+XOM,2021,True,0.029703,minor_edit,"{""added"": [], ""removed"": [""Explore all business divisions""]}"
 XOM,2022,,,indeterminate,
 XOM,2023,,,indeterminate,
-XOM,2024,,,indeterminate,
+XOM,2024,True,0.837475,substantive_change,"{""added"": [""selected item"", ""Who we are"", ""Fueling the world safely and responsibly""], ""removed"": [""Article Sept."", ""4, 2018"", ""To that end, we must continuously achieve superior financial and operating results while adhering to high ethical standards.""]}"

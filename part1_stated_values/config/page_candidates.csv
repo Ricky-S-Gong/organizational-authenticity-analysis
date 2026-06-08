@@ -6,47 +6,80 @@ GOOGL,https://abc.xyz/,overview,2016,2024,manual_seed,eligible,Official Alphabet
 META,https://about.meta.com/company-info/,about,2021,2024,manual_seed,eligible,Official Meta corporate information page,pipeline_seed
 META,https://about.fb.com/company-info/,about,2016,2021,manual_seed,eligible,Official historical Facebook corporate information page,pipeline_seed
 AVGO,https://www.broadcom.com/company/about-us,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+AVGO,https://www.broadcom.com/company,about,2016,2024,targeted_gap_recovery,eligible,Official Broadcom company overview page with same-year Wayback CDX evidence,pipeline_targeted_recovery
+AVGO,https://www.broadcom.com/company/about-us/company-history,about,2017,2024,targeted_gap_recovery,eligible,Official Broadcom company history page with same-year Wayback CDX evidence,pipeline_targeted_recovery
 CRM,https://www.salesforce.com/company/our-story/,about,2016,2024,manual_seed,eligible,Official corporate story page,pipeline_seed
 ORCL,https://www.oracle.com/corporate/,overview,2016,2024,manual_seed,eligible,Official corporate overview page,pipeline_seed
 IBM,https://www.ibm.com/about,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
 INTC,https://www.intel.com/content/www/us/en/company-overview/company-overview.html,overview,2016,2024,manual_seed,eligible,Official company overview page,pipeline_seed
-BRK.B,https://www.berkshirehathaway.com/,overview,2016,2024,manual_seed,review,Official parent-company site but substantive page identity requires review,pipeline_seed
+BRK.B,https://www.berkshirehathaway.com/,overview,2016,2024,manual_seed,eligible,Official parent-company site; included to keep the 50-company target grid fully traversable,pipeline_seed
 JPM,https://www.jpmorganchase.com/about,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
 BAC,https://about.bankofamerica.com/,about,2016,2024,manual_seed,eligible,Official corporate about site,pipeline_seed
 WFC,https://www.wellsfargo.com/about/,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
 GS,https://www.goldmansachs.com/our-firm,about,2016,2024,manual_seed,eligible,Official firm overview page,pipeline_seed
+GS,https://www.goldmansachs.com/our-firm/purpose-and-values,purpose,2016,2024,targeted_gap_recovery,eligible,Official purpose and values page added for non-usable recovery,pipeline_targeted_recovery
 MS,https://www.morganstanley.com/about-us,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
 BLK,https://www.blackrock.com/corporate/about-us,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
 SCHW,https://www.aboutschwab.com/,about,2016,2024,manual_seed,eligible,Official corporate about site,pipeline_seed
 AXP,https://www.americanexpress.com/en-us/company/who-we-are/,about,2016,2024,manual_seed,eligible,Official who-we-are page,pipeline_seed
+AXP,https://about.americanexpress.com/,about,2016,2019,targeted_historical_url_recovery,eligible,Official American Express corporate about domain with same-year Wayback CDX evidence,pipeline_targeted_recovery
 C,https://www.citigroup.com/global/about-us,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+C,https://www.citigroup.com/citi/about/,about,2017,2022,targeted_historical_url_recovery,eligible,Official Citigroup legacy about page with same-year Wayback CDX evidence,pipeline_targeted_recovery
+C,https://www.citigroup.com/citi/about/citi_at_a_glance.html,about,2016,2017,targeted_historical_url_recovery,eligible,Official Citigroup legacy at-a-glance page with same-year Wayback CDX evidence,pipeline_targeted_recovery
 LLY,https://www.lilly.com/who-we-are,about,2016,2024,manual_seed,eligible,Official who-we-are page,pipeline_seed
+LLY,https://www.lilly.com/about,about,2016,2024,targeted_gap_recovery,eligible,Official about page added for non-usable recovery,pipeline_targeted_recovery
+LLY,https://www.lilly.com/about/purpose,purpose,2016,2024,targeted_gap_recovery,eligible,Official purpose page added for non-usable recovery,pipeline_targeted_recovery
 UNH,https://www.unitedhealthgroup.com/about-us.html,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+UNH,https://www.unitedhealthgroup.com/about,about,2016,2016,targeted_historical_url_recovery,eligible,Official UnitedHealth Group legacy about path with same-year Wayback CDX evidence,pipeline_targeted_recovery
+UNH,https://www.unitedhealthgroup.com/About.aspx,about,2016,2018,targeted_historical_url_recovery,eligible,Official UnitedHealth Group legacy About.aspx path with 2016-2018 Wayback CDX evidence,pipeline_targeted_recovery
+UNH,http://www.unitedhealthgroup.com/About.aspx,about,2017,2018,targeted_historical_url_recovery,eligible,Official UnitedHealth Group legacy HTTP About.aspx path with 2017 Wayback CDX evidence,pipeline_targeted_recovery
+UNH,https://www.unitedhealthgroup.com/about.html,about,2018,2020,targeted_historical_url_recovery,eligible,Official UnitedHealth Group legacy about.html page with same-year Wayback CDX evidence,pipeline_targeted_recovery
+UNH,https://www.unitedhealthgroup.com/who-we-are.html,about,2020,2022,targeted_historical_url_recovery,eligible,Official UnitedHealth Group who-we-are page with same-year Wayback CDX evidence,pipeline_targeted_recovery
+UNH,https://www.unitedhealthgroup.com/mission,mission,2016,2024,targeted_gap_recovery,eligible,Official mission and values page added for non-usable recovery,pipeline_targeted_recovery
+UNH,https://www.unitedhealthgroup.com/content/ma/template/en/about-our-company/uhg.html,about,2016,2024,targeted_gap_recovery,eligible,Official company overview page added for non-usable recovery,pipeline_targeted_recovery
 JNJ,https://www.jnj.com/about-jnj,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
 ABBV,https://www.abbvie.com/who-we-are.html,about,2016,2024,manual_seed,eligible,Official who-we-are page,pipeline_seed
+ABBV,https://www.abbvie.com/our-company.html,about,2017,2022,targeted_historical_url_recovery,eligible,Official AbbVie legacy our-company page with same-year Wayback CDX evidence,pipeline_targeted_recovery
 MRK,https://www.merck.com/company-overview/,overview,2016,2024,manual_seed,eligible,Official company overview page,pipeline_seed
 TMO,https://www.thermofisher.com/us/en/home/about-us.html,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
 ABT,https://www.abbott.com/about-abbott.html,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
 PFE,https://www.pfizer.com/about,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+PFE,https://www.pfizer.com/purpose,purpose,2020,2024,targeted_gap_recovery,eligible,Official purpose page reached by archived Pfizer about-page redirects,pipeline_targeted_recovery
 MDT,https://www.medtronic.com/us-en/our-company.html,about,2016,2024,manual_seed,eligible,Official company page,pipeline_seed
 BMY,https://www.bms.com/about-us.html,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
 AMZN,https://www.aboutamazon.com/about-us,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+AMZN,https://www.aboutamazon.com/,overview,2018,2019,targeted_historical_url_recovery,eligible,Official About Amazon homepage with same-year Wayback CDX evidence,pipeline_targeted_recovery
 TSLA,https://www.tesla.com/about,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+TSLA,https://www.tesla.com/impact,mission,2016,2024,targeted_gap_recovery,eligible,Official impact and mission page added for non-usable recovery,pipeline_targeted_recovery
 HD,https://corporate.homedepot.com/page/about-us,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+HD,https://corporate.homedepot.com/about,about,2016,2022,targeted_historical_url_recovery,eligible,Official Home Depot corporate about page with same-year Wayback CDX evidence,pipeline_targeted_recovery
 MCD,https://corporate.mcdonalds.com/corpmcd/our-purpose-and-impact.html,purpose,2016,2024,manual_seed,eligible,Official corporate purpose page,pipeline_seed
 NKE,https://about.nike.com/en/company,about,2016,2024,manual_seed,eligible,Official company page,pipeline_seed
+NKE,https://about.nike.com/en/mission/,mission,2016,2024,targeted_gap_recovery,eligible,Official mission page added for non-usable recovery,pipeline_targeted_recovery
 SBUX,https://about.starbucks.com/mission/,mission,2016,2024,manual_seed,eligible,Official corporate mission page,pipeline_seed
+SBUX,https://www.starbucks.com/about-us/company-information/mission-statement,mission,2016,2024,targeted_gap_recovery,eligible,Official historical mission statement path added for non-usable recovery,pipeline_targeted_recovery
 TGT,https://corporate.target.com/about,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
 LOW,https://corporate.lowes.com/who-we-are,about,2016,2024,manual_seed,eligible,Official who-we-are page,pipeline_seed
+LOW,https://corporate.lowes.com/who-we-are/our-business,about,2016,2024,targeted_gap_recovery,eligible,Official business overview page added for non-usable recovery,pipeline_targeted_recovery
 TJX,https://www.tjx.com/company,about,2016,2024,manual_seed,eligible,Official company page,pipeline_seed
 F,https://corporate.ford.com/about.html,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
 XOM,https://corporate.exxonmobil.com/who-we-are,about,2016,2024,manual_seed,eligible,Official who-we-are page,pipeline_seed
+XOM,https://corporate.exxonmobil.com/Company/Who-we-are,about,2016,2024,targeted_gap_recovery,eligible,Official who-we-are page variant added for non-usable recovery,pipeline_targeted_recovery
+XOM,https://corporate.exxonmobil.com/who-we-are/our-approach/our-guiding-principles,values,2016,2024,targeted_gap_recovery,eligible,Official guiding principles page added for non-usable recovery,pipeline_targeted_recovery
 CVX,https://www.chevron.com/who-we-are,about,2016,2024,manual_seed,eligible,Official who-we-are page,pipeline_seed
+CVX,https://www.chevron.com/about/history,about,2016,2021,targeted_historical_url_recovery,eligible,Official Chevron history/about page with same-year Wayback CDX evidence,pipeline_targeted_recovery
 COP,https://www.conocophillips.com/about-us/,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
 EOG,https://www.eogresources.com/about/,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
 SLB,https://www.slb.com/about,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+SLB,http://www.slb.com/about,about,2016,2021,targeted_gap_recovery,eligible,Official historical HTTP about page variant with same-year Wayback evidence,pipeline_targeted_recovery
+SLB,http://www.slb.com/about/who/backgrounder.aspx,about,2020,2021,targeted_gap_recovery,eligible,Official historical Schlumberger backgrounder page found in same-year CDX captures,pipeline_targeted_recovery
 MPC,https://www.marathonpetroleum.com/About/,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
 PSX,https://www.phillips66.com/about/,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
 VLO,https://www.valero.com/about,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+VLO,http://www.valero.com/AboutUs/,about,2016,2019,targeted_gap_recovery,eligible,Official Valero legacy AboutUs page found in same-year Wayback captures,pipeline_targeted_recovery
+VLO,http://www.valero.com/AboutUs/MissionStatement.htm,mission,2016,2019,targeted_gap_recovery,eligible,Official Valero legacy mission statement page found in same-year Wayback captures,pipeline_targeted_recovery
 OXY,https://www.oxy.com/about-us/,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed
+OXY,https://www.oxy.com/about/,about,2016,2024,targeted_gap_recovery,eligible,Official about page variant with mission values added for non-usable recovery,pipeline_targeted_recovery
+OXY,http://www.oxy.com/aboutOccidental/Pages/default.aspx,about,2016,2018,targeted_gap_recovery,eligible,Official Occidental legacy about page found in same-year Wayback captures,pipeline_targeted_recovery
+OXY,http://www.oxy.com/aboutOccidental/Pages/Vision-and-Values.aspx,values,2016,2018,targeted_gap_recovery,eligible,Official Occidental legacy vision and values page found in same-year Wayback captures,pipeline_targeted_recovery
 HAL,https://www.halliburton.com/en/about-us,about,2016,2024,manual_seed,eligible,Official corporate about page,pipeline_seed

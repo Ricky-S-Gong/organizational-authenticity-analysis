@@ -38,9 +38,7 @@ def audit_final_dataset(path: Path) -> dict[str, object]:
     missing_columns = sorted(REQUIRED_FINAL_COLUMNS - columns)
     keys = {(row["ticker"], int(row["year"])) for row in rows}
     missing_gap_reasons = sum(
-        1
-        for row in rows
-        if row.get("observation_status") != "usable" and not row.get("gap_reason")
+        1 for row in rows if row.get("observation_status") != "usable" and not row.get("gap_reason")
     )
     return {
         "passed": (
@@ -66,9 +64,7 @@ def build_requirement_audit(
     if final_dataset and final_dataset.exists():
         audit["final_dataset"] = audit_final_dataset(final_dataset)
     audit["passed"] = all(
-        section.get("passed", False)
-        for section in audit.values()
-        if isinstance(section, dict)
+        section.get("passed", False) for section in audit.values() if isinstance(section, dict)
     )
     return audit
 

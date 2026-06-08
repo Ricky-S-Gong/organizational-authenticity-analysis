@@ -1,24 +1,24 @@
 {
   "target_record_count": 450,
-  "usable_record_count": 155,
-  "usable_rate": 0.3444,
+  "usable_record_count": 358,
+  "usable_rate": 0.7956,
   "status_counts": {
-    "insufficient_substantive_text": 93,
-    "no_cdx_capture": 144,
-    "no_eligible_capture": 49,
-    "no_eligible_page": 9,
-    "usable": 155
+    "insufficient_substantive_text": 12,
+    "no_cdx_capture": 60,
+    "no_eligible_capture": 5,
+    "retrieval_failed": 15,
+    "usable": 358
   },
   "companies_observed": 50,
   "years_observed": [
-    2016,
-    2017,
-    2018,
-    2019,
-    2020,
-    2021,
-    2022,
-    2023,
-    2024
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
   ]
 }

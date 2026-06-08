@@ -4,8 +4,10 @@
 
 Part 1 uses a fixed, auditable multi-label taxonomy to characterize themes in cleaned
 corporate About, mission, purpose, and values pages. The implementation in
-`part1_stated_values/src/org_auth_part1/analyze.py` is a reproducible keyword-and-phrase baseline. It requires no
-external LLM credentials and returns literal source excerpts for every positive assignment.
+`part1_stated_values/src/org_auth_part1/analyze.py` is a reproducible keyword-and-phrase baseline.
+It does not rely on model inference and returns literal source excerpts for every positive
+assignment. The separate local Qwen LLM layer is documented in `docs/codebook.md` and is treated as
+audit triangulation rather than as the authoritative taxonomy assignment.
 
 This baseline supports transparent analysis and QA. It does not infer organizational intent,
 judge authenticity, or replace human review. A theme that is not assigned means no configured

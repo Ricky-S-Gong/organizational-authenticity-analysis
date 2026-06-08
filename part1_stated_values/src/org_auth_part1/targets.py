@@ -13,10 +13,12 @@ TARGET_YEARS = range(2016, 2025)
 
 
 def parse_domains(raw_value: str) -> list[str]:
+    """Parse semicolon-delimited historical domains from the company manifest."""
     return [domain.strip() for domain in raw_value.split(";") if domain.strip()]
 
 
 def load_companies(path: Path) -> list[Company]:
+    """Load and validate the 50-company balanced sector manifest."""
     with path.open(newline="", encoding="utf-8") as file:
         rows = csv.DictReader(file)
         companies = [
@@ -34,6 +36,7 @@ def load_companies(path: Path) -> list[Company]:
 
 
 def validate_company_manifest(companies: list[Company]) -> None:
+    """Validate the take-home requirement: 50 firms across five equal sectors."""
     if len(companies) != 50:
         raise ValueError(f"expected 50 companies, found {len(companies)}")
 
@@ -49,6 +52,7 @@ def validate_company_manifest(companies: list[Company]) -> None:
 
 
 def build_targets(companies: list[Company]) -> list[CompanyYearTarget]:
+    """Create the deterministic 2016-2024 company-year target grid."""
     return [
         CompanyYearTarget(
             ticker=company.ticker,

@@ -16,9 +16,7 @@ def test_theme_classification_is_multilabel_and_evidence_backed() -> None:
     evidence = classify_themes(text)
     by_id = {item.theme_id: item for item in evidence}
 
-    assert {"purpose_and_identity", "customers_and_service", "integrity_and_ethics"} <= set(
-        by_id
-    )
+    assert {"purpose_and_identity", "customers_and_service", "integrity_and_ethics"} <= set(by_id)
     assert "customer" in by_id["customers_and_service"].matched_phrases
     assert by_id["customers_and_service"].evidence_excerpts == (
         "Our mission is to earn customer trust through integrity.",

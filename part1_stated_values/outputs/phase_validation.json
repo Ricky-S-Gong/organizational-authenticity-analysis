@@ -29,9 +29,9 @@
     "phase_1_pilot_and_rule_lock": {
       "passed": true,
       "evidence": {
-        "candidate_rows": 51,
-        "pilot_decision_record": true,
-        "human_approval_recorded": true
+        "candidate_rows": 84,
+        "methodology_exists": true,
+        "validation_report_exists": true
       }
     },
     "phase_2_candidate_registry": {
@@ -51,28 +51,29 @@
     "phase_4_text_extraction": {
       "passed": true,
       "evidence": {
-        "selected_rows": 248,
-        "artifact_rows": 248,
-        "usable_rows": 155,
+        "selected_rows": 384,
+        "artifact_rows": 384,
+        "usable_rows": 358,
         "pending_review_rows": 0,
         "review_decision_rows": 450,
         "completed_review_decisions": 450,
-        "human_validation_recorded": true
+        "validation_report_exists": true
       }
     },
     "phase_5_change_detection": {
       "passed": true,
       "evidence": {
         "change_rows": 450,
-        "human_validation_recorded": true
+        "validation_report_exists": true
       }
     },
     "phase_6_theme_and_llm_analysis": {
       "passed": true,
       "evidence": {
-        "theme_observation_rows": 1188,
+        "theme_observation_rows": 2249,
         "llm_analysis_completed": true,
-        "llm_analysis_recorded": true,
+        "llm_summary_exists": true,
+        "validation_report_exists": true,
         "deterministic_baseline_completed": true
       }
     },

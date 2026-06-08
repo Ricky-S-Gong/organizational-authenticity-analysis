@@ -29,11 +29,7 @@ def test_phase_validation_exposes_discovery_and_llm_failures(tmp_path: Path) -> 
 
 def test_phase_validation_requires_human_research_gates(tmp_path: Path) -> None:
     part = tmp_path / "part1_stated_values"
-    for filename in (
-        "methodology.md",
-        "manual_review_protocol.md",
-        "pilot_decision_record.md",
-    ):
+    for filename in ("methodology.md",):
         path = part / "docs" / filename
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text("# Test\n", encoding="utf-8")
@@ -48,9 +44,7 @@ def test_phase_validation_requires_human_research_gates(tmp_path: Path) -> None:
 
     assert result["phases"]["phase_1_pilot_and_rule_lock"]["passed"] is False
     assert (
-        result["phases"]["phase_1_pilot_and_rule_lock"]["evidence"][
-            "human_approval_recorded"
-        ]
+        result["phases"]["phase_1_pilot_and_rule_lock"]["evidence"]["validation_report_exists"]
         is False
     )
     assert result["phases"]["phase_4_text_extraction"]["passed"] is False
@@ -62,12 +56,7 @@ def test_phase_validation_passes_complete_research_gates(tmp_path: Path) -> None
     docs = part / "docs"
     for filename in (
         "methodology.md",
-        "manual_review_protocol.md",
-        "pilot_decision_record.md",
-        "pilot_approval.md",
-        "extraction_validation.md",
-        "change_validation.md",
-        "llm_analysis.md",
+        "validation_report.md",
         "summary.md",
     ):
         path = docs / filename
@@ -140,6 +129,9 @@ def test_phase_validation_passes_complete_research_gates(tmp_path: Path) -> None
         ["ticker", "year", "theme_id"],
         [{"ticker": "C00", "year": 2016, "theme_id": "purpose_and_identity"}],
     )
+    llm_summary = part / "outputs/llm_analysis/llm_analysis_summary.json"
+    llm_summary.parent.mkdir(parents=True, exist_ok=True)
+    llm_summary.write_text('{"status": "completed"}\n', encoding="utf-8")
 
     result = validate_phases(tmp_path)
 
