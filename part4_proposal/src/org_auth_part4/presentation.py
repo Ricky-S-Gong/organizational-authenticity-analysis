@@ -360,6 +360,108 @@ def write_codebook_doc() -> None:
 
     text = """# Part 4 Codebook
 
+## Script Task Map
+
+The Part 4 code is organized around reproducible diagnostic tasks. Command-line modules write the
+analysis outputs, while shared modules hold constants, reusable parsing logic, figure generation,
+documentation, and validation checks.
+
+<table>
+  <thead>
+    <tr>
+      <th>Large task</th>
+      <th>Script/module</th>
+      <th>Executes which task</th>
+      <th>Function of the script/module</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Shared configuration</td>
+      <td><code>src/org_auth_part4/constants.py</code></td>
+      <td>Defines the Part 4 file and taxonomy contract.</td>
+      <td>
+        Stores input paths, output paths, figure paths, proxy-genre dictionaries, shared 12-theme
+        dictionaries, section-family patterns, and required validation columns.
+      </td>
+    </tr>
+    <tr>
+      <td>Whole-document genre diagnostics</td>
+      <td><code>src/org_auth_part4/analysis.py</code></td>
+      <td>Builds the 450-row diagnostic panel and supporting summaries.</td>
+      <td>
+        Merges Part 3 scores with Part 2 proxy text, counts genre phrase families, normalizes rates,
+        computes <code>proxy_genre_pressure</code>, assigns terciles/quadrants, runs descriptive
+        correlations/regression, and writes case-audit targets.
+      </td>
+    </tr>
+    <tr>
+      <td>Section-level proxy parsing</td>
+      <td><code>src/org_auth_part4/sections.py</code></td>
+      <td>
+        Builds <code>outputs/section_diagnostics.csv</code> and
+        <code>outputs/section_summary.csv</code>.
+      </td>
+      <td>
+        Detects heading-like proxy spans, classifies them into section families, falls back to fixed
+        chunks when headings are sparse, and counts genre/theme evidence within each parsed section.
+      </td>
+    </tr>
+    <tr>
+      <td>Theme-level semantic comparison</td>
+      <td><code>src/org_auth_part4/theme_semantic.py</code></td>
+      <td>
+        Builds <code>outputs/theme_level_semantic_similarity.csv</code> and
+        <code>outputs/theme_level_semantic_summary.csv</code>.
+      </td>
+      <td>
+        Parses upstream Part 1/Part 2 theme evidence, emits all 12 themes for every company-year,
+        compares same-theme local excerpts with MiniLM embeddings or TF-IDF fallback, and records
+        explicit missing-evidence statuses.
+      </td>
+    </tr>
+    <tr>
+      <td>Figures</td>
+      <td><code>src/org_auth_part4/figures.py</code></td>
+      <td>Builds diagnostic figures under <code>outputs/figures/</code>.</td>
+      <td>
+        Creates genre-pressure plots, keyword-semantic quadrant summaries, section-family plots,
+        row-normalized heatmaps, and theme-level bubble plots used in the summary and manuscript.
+      </td>
+    </tr>
+    <tr>
+      <td>Documentation</td>
+      <td><code>src/org_auth_part4/presentation.py</code></td>
+      <td>
+        Builds <code>docs/summary.md</code>, <code>docs/methodology.md</code>, and
+        <code>docs/codebook.md</code>.
+      </td>
+      <td>
+        Writes synchronized Markdown documentation so the research questions, formulas, outputs,
+        codebook, and interpretation rules remain aligned with generated analysis files.
+      </td>
+    </tr>
+    <tr>
+      <td>Validation</td>
+      <td><code>src/org_auth_part4/validate.py</code></td>
+      <td>Builds <code>outputs/requirement_audit.json</code>.</td>
+      <td>
+        Checks row counts, unique company-year keys, required columns, retained Part 3 scores,
+        computed genre rows, section outputs, theme-semantic outputs, figures, and documentation.
+      </td>
+    </tr>
+    <tr>
+      <td>Quality assurance</td>
+      <td><code>tests/</code></td>
+      <td>Runs Part 4 unit tests.</td>
+      <td>
+        Tests phrase counting, rate normalization, composite z-scores, 450-row merge preservation,
+        OAI/SS case-audit buckets, section parsing, and theme-semantic helper behavior.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ## Primary Output
 
 Primary dataset: `outputs/part4_genre_diagnostics.csv`
