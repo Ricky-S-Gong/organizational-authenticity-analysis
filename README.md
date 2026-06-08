@@ -82,14 +82,15 @@ cd organizational-authenticity-analysis
 uv sync
 ```
 
-Run repository-level checks:
+Run the default root checks. The root `pytest` configuration currently points to the Part 1 test
+suite, while `ruff check .` scans the repository:
 
 ```bash
 uv run --no-sync pytest
 uv run --no-sync ruff check .
 ```
 
-Run a focused Part 2 check when working only on the lived-values pipeline:
+Run focused checks when working on a specific later part:
 
 ```bash
 PYTHONPATH=part2_lived_values/src \
@@ -97,6 +98,15 @@ PYTHONPATH=part2_lived_values/src \
 
 PYTHONPATH=part2_lived_values/src \
   uv run --no-sync ruff check part2_lived_values/src/org_auth_part2 part2_lived_values/tests
+
+PYTHONPATH=part3_authenticity/src \
+  uv run --no-sync python -m org_auth_part3.validate
+
+PYTHONPATH=part3_authenticity/src \
+  uv run --no-sync pytest part3_authenticity/tests
+
+PYTHONPATH=part3_authenticity/src \
+  uv run --no-sync ruff check part3_authenticity/src/org_auth_part3 part3_authenticity/tests
 ```
 
 ## Part-Level Commands
