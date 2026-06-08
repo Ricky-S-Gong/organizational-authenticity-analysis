@@ -1,0 +1,5 @@
+quadrant,company_years,mean_proxy_genre_pressure,mean_authenticity_index,mean_semantic_0_100,mean_keyword_minus_semantic
+both_high,98,0.003847,55.548141,64.075263,-8.527122
+both_low,98,0.014465,28.699026,52.487222,-23.788196
+keyword_high_only,66,-0.100942,56.794758,53.928658,2.8661
+semantic_high_only,66,0.123701,26.726779,63.479137,-36.752358

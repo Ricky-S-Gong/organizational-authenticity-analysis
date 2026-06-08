@@ -1,0 +1,5 @@
+group,company_years,diagnostic_company_years,scored_company_years,mean_proxy_genre_pressure,median_proxy_genre_pressure,mean_authenticity_index,median_authenticity_index
+overall,450,434,328,-0.0,-0.13142,41.977573,44.826058
+tercile_high,145,145,113,0.756519,0.600035,39.704528,42.139738
+tercile_low,145,145,115,-0.62218,-0.596863,44.188017,47.696477
+tercile_medium,144,144,100,-0.135272,-0.13142,42.004102,41.966288

@@ -1,0 +1,16 @@
+term,coefficient,company_years,r_squared,model
+intercept,92.996702,328,0.096428,authenticity_index ~ proxy_genre_pressure + log(word_count) + sector FE + year FE
+proxy_genre_pressure,-2.764441,328,0.096428,authenticity_index ~ proxy_genre_pressure + log(word_count) + sector FE + year FE
+log_part2_word_count,-5.559432,328,0.096428,authenticity_index ~ proxy_genre_pressure + log(word_count) + sector FE + year FE
+sector_Energy,11.046154,328,0.096428,authenticity_index ~ proxy_genre_pressure + log(word_count) + sector FE + year FE
+sector_Financials,1.979102,328,0.096428,authenticity_index ~ proxy_genre_pressure + log(word_count) + sector FE + year FE
+sector_Healthcare,10.817321,328,0.096428,authenticity_index ~ proxy_genre_pressure + log(word_count) + sector FE + year FE
+sector_Technology,7.608242,328,0.096428,authenticity_index ~ proxy_genre_pressure + log(word_count) + sector FE + year FE
+year_2017,-1.784829,328,0.096428,authenticity_index ~ proxy_genre_pressure + log(word_count) + sector FE + year FE
+year_2018,-0.764574,328,0.096428,authenticity_index ~ proxy_genre_pressure + log(word_count) + sector FE + year FE
+year_2019,2.497171,328,0.096428,authenticity_index ~ proxy_genre_pressure + log(word_count) + sector FE + year FE
+year_2020,4.28523,328,0.096428,authenticity_index ~ proxy_genre_pressure + log(word_count) + sector FE + year FE
+year_2021,4.256388,328,0.096428,authenticity_index ~ proxy_genre_pressure + log(word_count) + sector FE + year FE
+year_2022,4.323401,328,0.096428,authenticity_index ~ proxy_genre_pressure + log(word_count) + sector FE + year FE
+year_2023,5.123333,328,0.096428,authenticity_index ~ proxy_genre_pressure + log(word_count) + sector FE + year FE
+year_2024,4.656099,328,0.096428,authenticity_index ~ proxy_genre_pressure + log(word_count) + sector FE + year FE

@@ -1,0 +1,451 @@
+ticker,company_name,sector,year,score_status,genre_status,genre_gap_reason,part2_collection_status,authenticity_index,semantic_text_similarity,semantic_0_100,part2_word_count,keyword_minus_semantic,shareholder_mechanics_count,shareholder_mechanics_rate,governance_boilerplate_count,governance_boilerplate_rate,legal_procedural_count,legal_procedural_rate,proxy_genre_pressure,genre_pressure_tercile,keyword_semantic_quadrant
+AAPL,Apple,Technology,2016,insufficient_stated_theme_signal,computed,,collected,,8.420028,54.210014,47270,,681,14.4066,1309,27.691982,188,3.977153,0.566565,high,
+AAPL,Apple,Technology,2017,insufficient_stated_theme_signal,computed,,collected,,7.665107,53.832554,32600,,669,20.521472,1256,38.527607,89,2.730061,1.335238,high,
+AAPL,Apple,Technology,2018,missing_part2,missing_proxy,no_def14a_filing_for_calendar_year,missing,,,,0,,0,0.0,0,0.0,0,0.0,,,
+AAPL,Apple,Technology,2019,scored,computed,,collected,39.487327,13.59989,56.799945,27762,-17.312618,519,18.694619,1081,38.938117,87,3.13378,1.303387,high,both_low
+AAPL,Apple,Technology,2020,scored,computed,,collected,46.270396,18.07705,59.038525,29248,-12.768129,560,19.146608,1045,35.728939,82,2.803611,1.070395,high,both_high
+AAPL,Apple,Technology,2021,scored,computed,,collected,49.190939,22.523573,61.261786,29616,-12.070847,548,18.503512,1169,39.471907,86,2.903836,1.228516,high,both_high
+AAPL,Apple,Technology,2022,scored,computed,,collected,52.057095,19.169987,59.584993,56948,-7.527898,753,13.222589,1610,28.271405,180,3.160778,0.179089,high,both_high
+AAPL,Apple,Technology,2023,scored,computed,,collected,48.970605,30.390629,65.195314,45454,-16.224709,911,20.042241,1852,40.744489,104,2.288027,1.24025,high,both_high
+AAPL,Apple,Technology,2024,scored,computed,,collected,51.531943,22.003057,61.001528,46196,-9.469585,725,15.693999,1635,35.392675,102,2.207983,0.470738,high,both_high
+ABBV,AbbVie,Healthcare,2016,scored,computed,,collected,57.303922,-2.497255,48.751373,35548,8.552549,467,13.137167,1219,34.291662,90,2.531788,0.254708,high,keyword_high_only
+ABBV,AbbVie,Healthcare,2017,scored,computed,,collected,62.374863,2.730256,51.365128,36274,11.009735,468,12.901803,1290,35.562662,89,2.453548,0.266701,high,keyword_high_only
+ABBV,AbbVie,Healthcare,2018,scored,computed,,collected,64.323308,2.267738,51.133869,39427,13.189439,551,13.975195,1429,36.244198,100,2.536333,0.446302,high,keyword_high_only
+ABBV,AbbVie,Healthcare,2019,scored,computed,,collected,70.863913,1.550116,50.775058,38813,20.088855,488,12.573107,1316,33.906165,98,2.524927,0.171942,high,keyword_high_only
+ABBV,AbbVie,Healthcare,2020,scored,computed,,collected,72.75885,1.91543,50.957715,39003,21.801135,520,13.332308,1317,33.766633,97,2.486988,0.232883,high,keyword_high_only
+ABBV,AbbVie,Healthcare,2021,scored,computed,,collected,62.751532,2.176662,51.088331,65837,11.663201,576,8.74888,1620,24.606224,241,3.660556,-0.31163,medium,keyword_high_only
+ABBV,AbbVie,Healthcare,2022,scored,computed,,collected,62.559012,4.440861,52.22043,43081,10.338582,570,13.230891,1361,31.591653,92,2.135512,-0.014184,medium,keyword_high_only
+ABBV,AbbVie,Healthcare,2023,scored,computed,,collected,66.453538,7.702867,53.851433,47796,12.602105,596,12.469663,1410,29.500377,112,2.343292,-0.129221,medium,keyword_high_only
+ABBV,AbbVie,Healthcare,2024,scored,computed,,collected,68.390203,7.239705,53.619853,49063,14.77035,669,13.63553,1497,30.511791,123,2.506981,0.105936,medium,keyword_high_only
+ABT,Abbott Laboratories,Healthcare,2016,scored,computed,,collected,34.607352,22.820208,61.410104,33244,-26.802752,255,7.670557,914,27.493683,92,2.767417,-0.596863,low,semantic_high_only
+ABT,Abbott Laboratories,Healthcare,2017,scored,computed,,collected,24.681344,23.135168,61.567584,59155,-36.88624,382,6.457611,1456,24.613304,233,3.938805,-0.458586,low,semantic_high_only
+ABT,Abbott Laboratories,Healthcare,2018,scored,computed,,collected,35.618729,12.730332,56.365166,36555,-20.746437,322,8.808645,1053,28.805909,93,2.544112,-0.486737,low,both_low
+ABT,Abbott Laboratories,Healthcare,2019,scored,computed,,collected,36.487051,5.149379,52.574689,31147,-16.087638,288,9.246476,1026,32.940572,84,2.696889,-0.173781,medium,both_low
+ABT,Abbott Laboratories,Healthcare,2020,scored,computed,,collected,31.202435,4.952677,52.476338,34901,-21.273903,420,12.034039,1096,31.403112,89,2.55007,-0.005174,medium,both_low
+ABT,Abbott Laboratories,Healthcare,2021,scored,computed,,collected,33.695652,5.147512,52.573756,43623,-18.878104,453,10.38443,1121,25.697453,112,2.567453,-0.468295,low,both_low
+ABT,Abbott Laboratories,Healthcare,2022,scored,computed,,collected,36.316269,8.633177,54.316589,41224,-18.00032,446,10.81894,1255,30.443431,90,2.183194,-0.315135,medium,both_low
+ABT,Abbott Laboratories,Healthcare,2023,scored,computed,,collected,35.194241,6.53895,53.269475,42617,-18.075234,430,10.08987,1453,34.094375,89,2.088368,-0.240236,medium,both_low
+ABT,Abbott Laboratories,Healthcare,2024,scored,computed,,collected,13.731343,18.882899,59.441449,37715,-45.710106,235,6.230943,1124,29.802466,89,2.359804,-0.778092,low,semantic_high_only
+AMZN,Amazon,Consumer Discretionary,2016,missing_part1,computed,,collected,,,,19314,,321,16.620068,637,32.981257,64,3.313658,0.839469,high,
+AMZN,Amazon,Consumer Discretionary,2017,missing_part1,computed,,collected,,,,28219,,453,16.053014,957,33.913321,78,2.764095,0.631084,high,
+AMZN,Amazon,Consumer Discretionary,2018,scored,computed,,collected,33.993994,11.718394,55.859197,20937,-21.865203,426,20.346755,858,40.980083,67,3.200076,1.608947,high,both_low
+AMZN,Amazon,Consumer Discretionary,2019,scored,computed,,collected,50.681604,24.194948,62.097474,33882,-11.41587,591,17.44289,1042,30.753793,82,2.420164,0.496499,high,both_high
+AMZN,Amazon,Consumer Discretionary,2020,scored,computed,,collected,47.878788,16.25275,58.126375,42307,-10.247587,615,14.536602,1178,27.844092,84,1.985487,-0.119044,medium,both_high
+AMZN,Amazon,Consumer Discretionary,2021,scored,computed,,collected,61.56128,13.12813,56.564065,51256,4.997215,542,10.574372,1215,23.704542,81,1.580303,-0.900508,low,keyword_high_only
+AMZN,Amazon,Consumer Discretionary,2022,scored,computed,,collected,53.253743,15.795776,57.897888,73714,-4.644145,813,11.029113,1478,20.050465,93,1.261633,-1.151895,low,both_high
+AMZN,Amazon,Consumer Discretionary,2023,scored,computed,,collected,64.494591,21.931511,60.965756,81517,3.528835,960,11.776685,1887,23.148546,105,1.288075,-0.903598,low,both_high
+AMZN,Amazon,Consumer Discretionary,2024,scored,computed,,collected,57.742671,20.40039,60.200195,72836,-2.457524,885,12.150585,1889,25.934977,89,1.221923,-0.744284,low,both_high
+AVGO,Broadcom,Technology,2016,missing_part2,missing_proxy,no_def14a_filing_for_calendar_year,missing,,,,0,,0,0.0,0,0.0,0,0.0,,,
+AVGO,Broadcom,Technology,2017,missing_part2,missing_proxy,no_def14a_filing_for_calendar_year,missing,,,,0,,0,0.0,0,0.0,0,0.0,,,
+AVGO,Broadcom,Technology,2018,missing_part2,missing_proxy,no_def14a_filing_for_calendar_year,missing,,,,0,,0,0.0,0,0.0,0,0.0,,,
+AVGO,Broadcom,Technology,2019,missing_part1,computed,,collected,,,,49838,,297,5.959308,1474,29.575826,205,4.113327,-0.196093,medium,
+AVGO,Broadcom,Technology,2020,missing_part1,computed,,collected,,,,35570,,249,7.000281,1363,38.318808,118,3.317402,0.080623,medium,
+AVGO,Broadcom,Technology,2021,missing_part1,computed,,collected,,,,55546,,348,6.265078,1489,26.806611,192,3.456595,-0.538252,low,
+AVGO,Broadcom,Technology,2022,missing_part1,computed,,collected,,,,35359,,292,8.258152,1380,39.028253,103,2.912978,0.108434,medium,
+AVGO,Broadcom,Technology,2023,missing_part1,computed,,collected,,,,51416,,351,6.826669,1459,28.376381,166,3.228567,-0.478549,low,
+AVGO,Broadcom,Technology,2024,missing_part1,computed,,collected,,,,34760,,253,7.278481,1347,38.751438,99,2.848101,-0.034021,medium,
+AXP,American Express,Financials,2016,scored,computed,,collected,15.648855,17.010692,58.505346,63076,-42.856491,490,7.768406,1919,30.423616,177,2.806139,-0.42261,low,semantic_high_only
+AXP,American Express,Financials,2017,scored,computed,,collected,13.761468,30.889157,65.444579,43422,-51.683111,403,9.28101,1350,31.090231,101,2.32601,-0.396515,low,semantic_high_only
+AXP,American Express,Financials,2018,scored,computed,,collected,18.54067,30.058273,65.029136,49883,-46.488466,539,10.805284,1308,26.221358,141,2.826614,-0.30422,medium,semantic_high_only
+AXP,American Express,Financials,2019,scored,computed,,collected,36.233218,3.822743,51.911372,48469,-15.678154,409,8.438383,1203,24.819988,111,2.290124,-0.820766,low,both_low
+AXP,American Express,Financials,2020,missing_part1,computed,,collected,,,,56004,,363,6.48168,1473,26.301693,179,3.1962,-0.633313,low,
+AXP,American Express,Financials,2021,missing_part1,computed,,collected,,,,48584,,386,7.945002,1362,28.033921,105,2.161205,-0.755027,low,
+AXP,American Express,Financials,2022,missing_part1,computed,,collected,,,,44654,,395,8.845792,1539,34.464998,96,2.149863,-0.333069,medium,
+AXP,American Express,Financials,2023,scored,computed,,collected,46.750392,28.748099,64.374049,51595,-17.623657,455,8.818684,1580,30.623122,114,2.209516,-0.511467,low,both_high
+AXP,American Express,Financials,2024,scored,computed,,collected,38.932371,2.857766,51.428883,70288,-12.496512,577,8.209083,1917,27.273503,191,2.717391,-0.56805,low,both_low
+BAC,Bank of America,Financials,2016,scored,computed,,collected,69.556707,2.976595,51.488298,43452,18.068409,456,10.494339,1473,33.899475,99,2.278376,-0.139279,medium,keyword_high_only
+BAC,Bank of America,Financials,2017,scored,computed,,collected,72.495791,10.236646,55.118323,52061,17.377468,574,11.025528,1928,37.03348,103,1.978448,-0.028303,medium,keyword_high_only
+BAC,Bank of America,Financials,2018,scored,computed,,collected,71.69163,6.460557,53.230278,52786,18.461352,508,9.623764,2018,38.229834,96,1.818664,-0.174394,medium,keyword_high_only
+BAC,Bank of America,Financials,2019,scored,computed,,collected,65.194272,6.070299,53.03515,78325,12.159122,616,7.864666,2337,29.837217,180,2.298117,-0.622718,low,keyword_high_only
+BAC,Bank of America,Financials,2020,scored,computed,,collected,64.139484,1.462134,50.731067,60265,13.408417,577,9.57438,2048,33.983241,102,1.692525,-0.44189,low,keyword_high_only
+BAC,Bank of America,Financials,2021,scored,computed,,collected,6.389906,-3.695923,48.152039,85162,-41.762133,682,8.008267,2438,28.627792,175,2.054907,-0.755583,low,both_low
+BAC,Bank of America,Financials,2022,scored,computed,,collected,9.990917,-1.074465,49.462767,70856,-39.47185,599,8.453765,2070,29.214181,95,1.340747,-0.931348,low,both_low
+BAC,Bank of America,Financials,2023,scored,computed,,collected,47.696477,-3.884688,48.057656,93760,-0.361179,826,8.809727,2655,28.31698,182,1.941126,-0.725807,low,keyword_high_only
+BAC,Bank of America,Financials,2024,scored,computed,,collected,49.291176,13.778593,56.889297,87019,-7.598121,778,8.940576,2715,31.200083,189,2.171939,-0.482183,low,keyword_high_only
+BLK,BlackRock,Financials,2016,missing_part2,missing_proxy,no_def14a_filing_for_calendar_year,missing,,,,0,,0,0.0,0,0.0,0,0.0,,,
+BLK,BlackRock,Financials,2017,missing_part2,missing_proxy,no_def14a_filing_for_calendar_year,missing,,,,0,,0,0.0,0,0.0,0,0.0,,,
+BLK,BlackRock,Financials,2018,missing_part2,missing_proxy,no_def14a_filing_for_calendar_year,missing,,,,0,,0,0.0,0,0.0,0,0.0,,,
+BLK,BlackRock,Financials,2019,missing_part2,missing_proxy,no_def14a_filing_for_calendar_year,missing,,,,0,,0,0.0,0,0.0,0,0.0,,,
+BLK,BlackRock,Financials,2020,missing_part2,missing_proxy,no_def14a_filing_for_calendar_year,missing,,,,0,,0,0.0,0,0.0,0,0.0,,,
+BLK,BlackRock,Financials,2021,missing_part2,missing_proxy,no_def14a_filing_for_calendar_year,missing,,,,0,,0,0.0,0,0.0,0,0.0,,,
+BLK,BlackRock,Financials,2022,missing_part2,missing_proxy,no_def14a_filing_for_calendar_year,missing,,,,0,,0,0.0,0,0.0,0,0.0,,,
+BLK,BlackRock,Financials,2023,missing_part2,missing_proxy,no_def14a_filing_for_calendar_year,missing,,,,0,,0,0.0,0,0.0,0,0.0,,,
+BLK,BlackRock,Financials,2024,missing_part2,missing_proxy,no_def14a_filing_for_calendar_year,missing,,,,0,,0,0.0,0,0.0,0,0.0,,,
+BMY,Bristol-Myers Squibb,Healthcare,2016,missing_part1,computed,,collected,,,,47938,,347,7.238516,1524,31.791063,98,2.044307,-0.680105,low,
+BMY,Bristol-Myers Squibb,Healthcare,2017,scored,computed,,collected,49.6633,20.328114,60.164057,70745,-10.500757,451,6.375009,1993,28.171602,202,2.855325,-0.670113,low,both_high
+BMY,Bristol-Myers Squibb,Healthcare,2018,scored,computed,,collected,53.83616,19.870091,59.935046,47624,-6.098886,354,7.433227,1671,35.087351,93,1.952797,-0.522945,low,both_high
+BMY,Bristol-Myers Squibb,Healthcare,2019,scored,computed,,collected,54.407775,17.190222,58.595111,44321,-4.187336,338,7.626182,1567,35.3557,84,1.895264,-0.508913,low,both_high
+BMY,Bristol-Myers Squibb,Healthcare,2020,scored,computed,,collected,59.412385,12.937958,56.468979,54584,2.943406,315,5.770922,1708,31.291221,110,2.015243,-0.873673,low,keyword_high_only
+BMY,Bristol-Myers Squibb,Healthcare,2021,scored,computed,,collected,63.630824,7.923953,53.961976,76269,9.668848,439,5.755943,2138,28.032359,193,2.530517,-0.859104,low,keyword_high_only
+BMY,Bristol-Myers Squibb,Healthcare,2022,scored,computed,,collected,64.743148,12.688105,56.344053,52199,8.399095,353,6.762582,1688,32.337784,99,1.896588,-0.755709,low,keyword_high_only
+BMY,Bristol-Myers Squibb,Healthcare,2023,scored,computed,,collected,64.640199,12.59296,56.29648,57547,8.343719,379,6.585921,1778,30.896485,109,1.894104,-0.849352,low,keyword_high_only
+BMY,Bristol-Myers Squibb,Healthcare,2024,scored,computed,,collected,67.18335,13.667725,56.833863,62729,10.349487,433,6.902708,1811,28.87022,117,1.865166,-0.929327,low,keyword_high_only
+BRK.B,Berkshire Hathaway,Financials,2016,scored,computed,,collected,52.592593,50.280182,75.140091,9932,-22.547498,106,10.672573,451,45.40878,68,6.846557,2.091489,high,both_high
+BRK.B,Berkshire Hathaway,Financials,2017,scored,computed,,collected,54.040404,51.810613,75.905306,12078,-21.864902,169,13.992383,553,45.785726,71,5.878457,2.123588,high,both_high
+BRK.B,Berkshire Hathaway,Financials,2018,scored,computed,,collected,34.862385,51.924888,75.962444,11866,-41.100059,115,9.691556,495,41.715827,73,6.152031,1.550385,high,semantic_high_only
+BRK.B,Berkshire Hathaway,Financials,2019,scored,computed,,collected,46.153846,50.014993,75.007497,10263,-28.853651,88,8.574491,481,46.867388,77,7.50268,2.173798,high,both_high
+BRK.B,Berkshire Hathaway,Financials,2020,scored,computed,,collected,47.513812,51.656195,75.828097,12540,-28.314285,152,12.121212,611,48.724083,82,6.539075,2.307621,high,both_high
+BRK.B,Berkshire Hathaway,Financials,2021,scored,computed,,collected,48.770492,46.914093,73.457047,12080,-24.686555,134,11.092715,505,41.804636,75,6.208609,1.725546,high,both_high
+BRK.B,Berkshire Hathaway,Financials,2022,scored,computed,,collected,55.769231,53.720116,76.860058,13196,-21.090827,160,12.124886,539,40.845711,76,5.759321,1.627769,high,both_high
+BRK.B,Berkshire Hathaway,Financials,2023,scored,computed,,collected,58.640227,63.804745,81.902372,15613,-23.262145,240,15.371806,664,42.528662,79,5.059886,1.814314,high,both_high
+BRK.B,Berkshire Hathaway,Financials,2024,scored,computed,,collected,50.13624,57.467658,78.733829,16197,-28.597589,192,11.854047,558,34.450824,76,4.692227,0.892318,high,both_high
+C,Citigroup,Financials,2016,scored,computed,,collected,56.319357,24.814714,62.407357,81448,-6.088,612,7.513997,2382,29.245654,262,3.216776,-0.3644,medium,both_high
+C,Citigroup,Financials,2017,scored,computed,,collected,63.335689,29.647319,64.82366,61156,-1.487971,672,10.988292,2040,33.357316,156,2.550854,-0.017197,medium,both_high
+C,Citigroup,Financials,2018,scored,computed,,collected,33.956969,13.202451,56.601225,80335,-22.644256,789,9.821373,2371,29.51391,245,3.049729,-0.162124,medium,both_low
+C,Citigroup,Financials,2019,scored,computed,,collected,33.109405,14.392023,57.196011,74125,-24.086606,748,10.091062,2363,31.878583,228,3.075885,-0.002811,medium,both_low
+C,Citigroup,Financials,2020,scored,computed,,collected,30.831826,13.889906,56.944953,79958,-26.113127,735,9.192326,2479,31.003777,238,2.976563,-0.179417,medium,both_low
+C,Citigroup,Financials,2021,scored,computed,,collected,32.20339,13.527934,56.763967,84483,-24.560577,835,9.883645,2565,30.361138,251,2.971012,-0.140021,medium,both_low
+C,Citigroup,Financials,2022,scored,computed,,collected,15.205479,7.532741,53.766371,79054,-38.560892,714,9.031801,2390,30.232499,233,2.947352,-0.246519,medium,both_low
+C,Citigroup,Financials,2023,scored,computed,,collected,58.928571,23.358962,61.679481,80814,-2.75091,740,9.156829,2658,32.890341,241,2.982157,-0.084667,medium,both_high
+C,Citigroup,Financials,2024,scored,computed,,collected,46.758754,23.600508,61.800254,83834,-15.0415,756,9.017821,2704,32.254217,268,3.196794,-0.055934,medium,both_high
+COP,ConocoPhillips,Energy,2016,missing_part1,computed,,collected,,,,64030,,655,10.22958,1802,28.143058,129,2.014681,-0.556057,low,
+COP,ConocoPhillips,Energy,2017,scored,computed,,collected,1.565996,5.412829,52.706415,67453,-51.140419,738,10.940951,1851,27.44133,137,2.031044,-0.509749,low,both_low
+COP,ConocoPhillips,Energy,2018,scored,computed,,collected,1.592719,5.76795,52.883975,61427,-51.291256,590,9.604897,1818,29.596106,115,1.872141,-0.599405,low,both_low
+COP,ConocoPhillips,Energy,2019,scored,computed,,collected,13.278388,3.396229,51.698115,66213,-38.419727,536,8.095087,1760,26.580883,120,1.812333,-0.937194,low,both_low
+COP,ConocoPhillips,Energy,2020,scored,computed,,collected,27.409559,2.564552,51.282276,67880,-23.872717,551,8.117266,1707,25.147319,122,1.797289,-1.013541,low,both_low
+COP,ConocoPhillips,Energy,2021,scored,computed,,collected,28.21119,2.430184,51.215092,74095,-23.003902,689,9.298873,1822,24.590053,129,1.741008,-0.935122,low,both_low
+COP,ConocoPhillips,Energy,2022,scored,computed,,collected,43.748669,3.279082,51.639541,85760,-7.890872,1020,11.893657,2047,23.868937,162,1.888993,-0.640732,low,both_low
+COP,ConocoPhillips,Energy,2023,scored,computed,,collected,36.598499,4.245395,52.122698,107767,-15.524199,1086,10.077296,2556,23.717836,301,2.793063,-0.522501,low,both_low
+COP,ConocoPhillips,Energy,2024,scored,computed,,collected,37.391775,4.146738,52.073369,70138,-14.681594,720,10.265477,1851,26.39083,124,1.767943,-0.729532,low,both_low
+CRM,Salesforce,Technology,2016,missing_part1,computed,,collected,,,,37348,,577,15.449288,1580,42.304809,128,3.427225,1.231322,high,
+CRM,Salesforce,Technology,2017,missing_part1,computed,,collected,,,,80627,,679,8.421497,1942,24.086224,341,4.229352,-0.171405,medium,
+CRM,Salesforce,Technology,2018,missing_part1,computed,,collected,,,,84761,,1108,13.07205,2308,27.229504,368,4.341619,0.528968,high,
+CRM,Salesforce,Technology,2019,missing_part1,computed,,collected,,,,86348,,1079,12.495947,2433,28.17668,368,4.261824,0.487227,high,
+CRM,Salesforce,Technology,2020,missing_part1,computed,,collected,,,,86538,,676,7.811597,1854,21.424114,354,4.090688,-0.422451,low,
+CRM,Salesforce,Technology,2021,scored,computed,,collected,43.032918,1.721935,50.860968,69425,-7.82805,605,8.71444,1636,23.564998,252,3.629816,-0.37955,low,both_low
+CRM,Salesforce,Technology,2022,scored,computed,,collected,40.49246,4.637872,52.318936,88462,-11.826476,695,7.856481,1934,21.862495,354,4.001718,-0.426786,low,both_low
+CRM,Salesforce,Technology,2023,scored,computed,,collected,39.232596,1.99621,50.998105,76996,-11.765509,723,9.390098,2263,29.391137,284,3.688503,0.012128,medium,both_low
+CRM,Salesforce,Technology,2024,scored,computed,,collected,26.486486,-1.10027,49.449865,81393,-22.963379,706,8.673965,2252,27.668227,272,3.341811,-0.276134,medium,both_low
+CVX,Chevron,Energy,2016,scored,computed,,collected,65.17607,20.274497,60.137248,63709,5.038822,736,11.552528,1636,25.67926,179,2.80965,-0.257723,medium,both_high
+CVX,Chevron,Energy,2017,scored,computed,,collected,63.248596,20.28725,60.143625,53693,3.104971,676,12.590096,1508,28.085598,116,2.160431,-0.253653,medium,both_high
+CVX,Chevron,Energy,2018,scored,computed,,collected,63.438022,20.375398,60.187699,54989,3.250323,654,11.893288,1573,28.605721,115,2.091327,-0.326426,medium,both_high
+CVX,Chevron,Energy,2019,scored,computed,,collected,61.689815,20.277351,60.138675,56603,1.55114,630,11.130152,1606,28.373054,108,1.908026,-0.485418,low,both_high
+CVX,Chevron,Energy,2020,scored,computed,,collected,58.033385,23.105949,61.552974,58815,-3.519589,690,11.731701,1653,28.105075,118,2.006291,-0.399615,low,both_high
+CVX,Chevron,Energy,2021,scored,computed,,collected,61.103772,22.424079,61.21204,60069,-0.108268,696,11.586675,1625,27.052223,121,2.01435,-0.466229,low,both_high
+CVX,Chevron,Energy,2022,missing_part1,computed,,collected,,,,79375,,797,10.040945,1849,23.294488,178,2.24252,-0.743609,low,
+CVX,Chevron,Energy,2023,scored,computed,,collected,30.344203,31.859642,65.929821,70898,-35.585618,819,11.551807,2030,28.632684,123,1.734887,-0.488323,low,semantic_high_only
+CVX,Chevron,Energy,2024,scored,computed,,collected,31.266883,32.058566,66.029283,66957,-34.7624,729,10.887585,1855,27.704348,149,2.225309,-0.433022,low,semantic_high_only
+EOG,EOG Resources,Energy,2016,missing_part1,computed,,collected,,,,33445,,258,7.714158,1078,32.232023,146,4.365376,0.217917,high,
+EOG,EOG Resources,Energy,2017,scored,computed,,collected,37.725753,35.426477,67.713239,36701,-29.987486,326,8.882592,1174,31.988229,152,4.141577,0.251473,high,semantic_high_only
+EOG,EOG Resources,Energy,2018,scored,computed,,collected,46.229117,34.857655,67.428827,42841,-21.19971,282,6.582479,1238,28.897551,165,3.851451,-0.256878,medium,both_high
+EOG,EOG Resources,Energy,2019,scored,computed,,collected,52.266667,25.243417,62.621708,36786,-10.355041,270,7.339749,1156,31.424999,155,4.21356,0.082464,medium,both_high
+EOG,EOG Resources,Energy,2020,missing_part1,computed,,collected,,,,36784,,254,6.905176,1173,31.888865,145,3.941931,-0.036946,medium,
+EOG,EOG Resources,Energy,2021,missing_part1,computed,,collected,,,,59236,,327,5.520292,1506,25.423729,289,4.87879,-0.183946,medium,
+EOG,EOG Resources,Energy,2022,missing_part1,computed,,collected,,,,40867,,273,6.680207,1331,32.569066,151,3.694913,-0.114024,medium,
+EOG,EOG Resources,Energy,2023,missing_part1,computed,,collected,,,,43132,,375,8.694241,1608,37.280905,172,3.987759,0.447551,high,
+EOG,EOG Resources,Energy,2024,missing_part1,computed,,collected,,,,42558,,318,7.472156,1532,35.997932,167,3.924057,0.227965,high,
+F,Ford Motor,Consumer Discretionary,2016,missing_part1,computed,,collected,,,,73821,,625,8.466426,1603,21.714688,326,4.416088,-0.221661,medium,
+F,Ford Motor,Consumer Discretionary,2017,missing_part1,computed,,collected,,,,43199,,461,10.671543,1508,34.908215,98,2.268571,-0.072086,medium,
+F,Ford Motor,Consumer Discretionary,2018,missing_part1,computed,,collected,,,,64086,,514,8.020472,1842,28.742627,168,2.621477,-0.54717,low,
+F,Ford Motor,Consumer Discretionary,2019,missing_part1,computed,,collected,,,,77265,,629,8.140814,1680,21.743351,339,4.387498,-0.265327,medium,
+F,Ford Motor,Consumer Discretionary,2020,scored,computed,,collected,28.99106,15.327991,57.663995,48104,-28.672935,425,8.835024,1562,32.471312,103,2.141194,-0.439365,low,both_low
+F,Ford Motor,Consumer Discretionary,2021,scored,computed,,collected,41.846523,14.404058,57.202029,57849,-15.355506,436,7.536863,1786,30.873481,113,1.953361,-0.727328,low,both_low
+F,Ford Motor,Consumer Discretionary,2022,scored,computed,,collected,47.623345,17.88056,58.94028,85288,-11.316935,605,7.093612,1851,21.702936,355,4.162368,-0.459849,low,both_high
+F,Ford Motor,Consumer Discretionary,2023,scored,computed,,collected,31.441441,19.003104,59.501552,64997,-28.060111,465,7.154176,1772,27.262797,173,2.661661,-0.701716,low,semantic_high_only
+F,Ford Motor,Consumer Discretionary,2024,scored,computed,,collected,28.949772,19.845773,59.922887,60798,-30.973115,487,8.010132,1748,28.750946,171,2.812593,-0.479978,low,semantic_high_only
+GOOGL,Alphabet,Technology,2016,scored,computed,,collected,51.090343,4.891527,52.445763,50325,-1.35542,872,17.327372,2184,43.397914,187,3.715847,1.591542,high,keyword_high_only
+GOOGL,Alphabet,Technology,2017,scored,computed,,collected,50.462963,6.731281,53.36564,49749,-2.902677,890,17.889807,2029,40.784739,172,3.457356,1.426383,high,keyword_high_only
+GOOGL,Alphabet,Technology,2018,scored,computed,,collected,45.790251,6.455868,53.227934,49134,-7.437683,924,18.805715,1959,39.870558,175,3.561688,1.515031,high,keyword_high_only
+GOOGL,Alphabet,Technology,2019,scored,computed,,collected,42.139738,6.536055,53.268028,54964,-11.12829,975,17.738884,2246,40.86311,163,2.965577,1.239521,high,both_low
+GOOGL,Alphabet,Technology,2020,scored,computed,,collected,44.095477,7.186984,53.593492,51507,-9.498015,865,16.793834,2213,42.965034,155,3.0093,1.261128,high,both_low
+GOOGL,Alphabet,Technology,2021,scored,computed,,collected,42.641509,6.56613,53.283065,52522,-10.641556,907,17.268954,2139,40.725791,165,3.141541,1.244504,high,both_low
+GOOGL,Alphabet,Technology,2022,scored,computed,,collected,41.192788,14.0329,57.01645,78716,-15.823662,1433,18.204685,2423,30.781544,195,2.47726,0.600035,high,both_low
+GOOGL,Alphabet,Technology,2023,scored,computed,,collected,47.524652,6.16704,53.08352,71126,-5.558868,1231,17.307314,2134,30.003093,193,2.713494,0.547685,high,keyword_high_only
+GOOGL,Alphabet,Technology,2024,scored,computed,,collected,47.740778,8.284778,54.142389,57569,-6.401611,1277,22.182077,2033,35.314145,121,2.101826,1.126003,high,keyword_high_only
+GS,Goldman Sachs,Financials,2016,scored,computed,,collected,45.612312,7.742033,53.871017,47868,-8.258705,680,14.205732,1921,40.131194,155,3.238071,0.91928,high,keyword_high_only
+GS,Goldman Sachs,Financials,2017,scored,computed,,collected,0.598802,-15.156125,42.421937,47179,-41.823135,598,12.675131,1838,38.958011,152,3.221772,0.689007,high,both_low
+GS,Goldman Sachs,Financials,2018,scored,computed,,collected,43.45039,10.695493,55.347746,71868,-11.897356,741,10.310569,2251,31.321311,291,4.04909,0.337886,high,both_low
+GS,Goldman Sachs,Financials,2019,scored,computed,,collected,10.0271,41.40345,70.701725,53116,-60.674625,664,12.500941,2005,37.747571,180,3.388809,0.667655,high,semantic_high_only
+GS,Goldman Sachs,Financials,2020,scored,computed,,collected,9.021407,41.525805,70.762902,48449,-61.741495,660,13.622572,1908,39.381618,171,3.529485,0.92176,high,semantic_high_only
+GS,Goldman Sachs,Financials,2021,scored,computed,,collected,10.064935,40.698508,70.349254,77627,-60.284319,826,10.640628,2353,30.311618,305,3.929045,0.279019,high,semantic_high_only
+GS,Goldman Sachs,Financials,2022,scored,computed,,collected,9.312234,39.635664,69.817832,60459,-60.505598,762,12.603583,2208,36.520617,186,3.076465,0.504939,high,semantic_high_only
+GS,Goldman Sachs,Financials,2023,scored,computed,,collected,10.575858,35.834428,67.917214,71333,-57.341356,887,12.434638,2251,31.556222,210,2.943939,0.185585,high,semantic_high_only
+GS,Goldman Sachs,Financials,2024,scored,computed,,collected,35.878572,32.61042,66.30521,70044,-30.426638,940,13.420136,2348,33.521786,223,3.183713,0.477233,high,semantic_high_only
+HAL,Halliburton,Energy,2016,missing_part1,computed,,collected,,,,37947,,260,6.851662,1606,42.322186,82,2.160909,-0.141143,medium,
+HAL,Halliburton,Energy,2017,missing_part1,computed,,collected,,,,52855,,344,6.508372,1925,36.420395,153,2.894712,-0.219527,medium,
+HAL,Halliburton,Energy,2018,missing_part1,computed,,collected,,,,33603,,255,7.588608,1042,31.009136,86,2.559295,-0.499621,low,
+HAL,Halliburton,Energy,2019,missing_part1,computed,,collected,,,,44185,,290,6.563313,1224,27.701709,145,3.281657,-0.522523,low,
+HAL,Halliburton,Energy,2020,missing_part1,computed,,collected,,,,43837,,298,6.79791,1275,29.08502,145,3.307708,-0.417254,low,
+HAL,Halliburton,Energy,2021,scored,computed,,collected,46.117647,38.835047,69.417524,51669,-23.299877,324,6.270685,1449,28.043895,170,3.290174,-0.533417,low,both_high
+HAL,Halliburton,Energy,2022,scored,computed,,collected,45.126681,32.966978,66.483489,34153,-21.356808,250,7.320001,1223,35.809446,72,2.10816,-0.442965,low,both_high
+HAL,Halliburton,Energy,2023,scored,computed,,collected,47.14851,48.988007,74.494004,48615,-27.345494,365,7.507971,1566,32.21228,110,2.262676,-0.552039,low,both_high
+HAL,Halliburton,Energy,2024,scored,computed,,collected,45.941092,47.055026,73.527513,52898,-27.586421,295,5.57677,1501,28.375364,148,2.797837,-0.765851,low,both_high
+HD,Home Depot,Consumer Discretionary,2016,scored,computed,,collected,43.596649,7.414903,53.707451,38667,-10.110802,459,11.870587,1213,31.370419,119,3.07756,0.162937,high,both_low
+HD,Home Depot,Consumer Discretionary,2017,scored,computed,,collected,49.411765,10.104957,55.052478,42261,-5.640713,528,12.493789,1342,31.755046,116,2.744847,0.131408,high,keyword_high_only
+HD,Home Depot,Consumer Discretionary,2018,scored,computed,,collected,45.093567,9.771002,54.885501,44441,-9.791934,524,11.790914,1437,32.335006,121,2.722711,0.077729,medium,keyword_high_only
+HD,Home Depot,Consumer Discretionary,2019,scored,computed,,collected,50.952381,6.002007,53.001004,45239,-2.048623,514,11.361878,1331,29.421517,110,2.43153,-0.220924,medium,keyword_high_only
+HD,Home Depot,Consumer Discretionary,2020,scored,computed,,collected,50.288512,6.706378,53.353189,48985,-3.064677,565,11.534143,1349,27.539043,129,2.633459,-0.227068,medium,keyword_high_only
+HD,Home Depot,Consumer Discretionary,2021,scored,computed,,collected,52.686024,5.11984,52.55992,47301,0.126104,484,10.232342,1316,27.821822,116,2.452379,-0.416752,low,keyword_high_only
+HD,Home Depot,Consumer Discretionary,2022,scored,computed,,collected,53.338131,5.367714,52.683857,65978,0.654274,579,8.775652,1705,25.841947,155,2.349268,-0.711213,low,keyword_high_only
+HD,Home Depot,Consumer Discretionary,2023,scored,computed,,collected,48.787084,7.663658,53.831829,55273,-5.044745,596,10.782842,1595,28.856766,128,2.315778,-0.353149,medium,keyword_high_only
+HD,Home Depot,Consumer Discretionary,2024,scored,computed,,collected,51.124498,5.996374,52.998187,54620,-1.873689,545,9.97803,1448,26.510436,136,2.48993,-0.497867,low,keyword_high_only
+IBM,IBM,Technology,2016,missing_part1,computed,,collected,,,,45913,,326,7.100386,1241,27.029382,94,2.04735,-0.937622,low,
+IBM,IBM,Technology,2017,missing_part1,computed,,collected,,,,50122,,402,8.02043,1239,24.719684,107,2.134791,-0.925968,low,
+IBM,IBM,Technology,2018,missing_part1,computed,,collected,,,,51600,,355,6.879845,1391,26.957364,93,1.802326,-1.052024,low,
+IBM,IBM,Technology,2019,missing_part1,computed,,collected,,,,56998,,519,9.105583,1670,29.299274,113,1.982526,-0.629035,low,
+IBM,IBM,Technology,2020,scored,computed,,collected,66.093233,14.731762,57.365881,56745,8.727352,573,10.097806,1639,28.883602,93,1.638911,-0.665762,low,keyword_high_only
+IBM,IBM,Technology,2021,scored,computed,,collected,58.139422,15.275418,57.637709,60139,0.501713,570,9.478043,1567,26.056303,96,1.596302,-0.892208,low,keyword_high_only
+IBM,IBM,Technology,2022,scored,computed,,collected,55.095037,18.133326,59.066663,54098,-3.971626,558,10.314614,1531,28.300492,82,1.515768,-0.716057,low,both_high
+IBM,IBM,Technology,2023,scored,computed,,collected,58.695781,13.558486,56.779243,56709,1.916538,589,10.386358,1575,27.773369,93,1.639951,-0.69123,low,keyword_high_only
+IBM,IBM,Technology,2024,scored,computed,,collected,56.714437,15.490989,57.745494,53218,-1.031057,580,10.898568,1422,26.720283,84,1.578413,-0.71197,low,keyword_high_only
+INTC,Intel,Technology,2016,scored,computed,,collected,24.242424,10.012874,55.006437,41975,-30.764013,494,11.76891,1743,41.524717,94,2.239428,0.37416,high,both_low
+INTC,Intel,Technology,2017,scored,computed,,collected,48.476454,13.288812,56.644406,62384,-8.167952,544,8.720185,2115,33.902924,164,2.628879,-0.205208,medium,keyword_high_only
+INTC,Intel,Technology,2018,scored,computed,,collected,45.584416,17.369955,58.684978,52406,-13.100562,495,9.445483,1995,38.06816,123,2.347059,-0.014157,medium,both_high
+INTC,Intel,Technology,2019,scored,computed,,collected,47.868852,17.687182,58.843591,75173,-10.974739,592,7.875168,2283,30.369947,183,2.434385,-0.545921,low,both_high
+INTC,Intel,Technology,2020,scored,computed,,collected,51.729213,18.820113,59.410056,75310,-7.680843,568,7.542159,2379,31.58943,168,2.230779,-0.59158,low,both_high
+INTC,Intel,Technology,2021,scored,computed,,collected,55.886235,23.418745,61.709373,68844,-5.823138,558,8.105282,2041,29.646738,120,1.743071,-0.803751,low,both_high
+INTC,Intel,Technology,2022,scored,computed,,collected,51.402433,22.509273,61.254637,91252,-9.852204,590,6.465612,2760,30.245912,199,2.180774,-0.793766,low,both_high
+INTC,Intel,Technology,2023,scored,computed,,collected,19.677419,8.640257,54.320129,88662,-34.64271,492,5.549164,2851,32.155828,219,2.470055,-0.691703,low,both_low
+INTC,Intel,Technology,2024,scored,computed,,collected,27.83852,8.516965,54.258482,66241,-26.419962,376,5.676243,2237,33.770625,136,2.053109,-0.74347,low,both_low
+JNJ,Johnson & Johnson,Healthcare,2016,scored,computed,,collected,42.260398,4.667708,52.333854,43972,-10.073456,432,9.824434,1430,32.520695,87,1.978532,-0.38832,low,both_low
+JNJ,Johnson & Johnson,Healthcare,2017,scored,computed,,collected,58.308813,6.630793,53.315396,55221,4.993417,419,7.587693,1594,28.86583,156,2.825012,-0.515067,low,keyword_high_only
+JNJ,Johnson & Johnson,Healthcare,2018,scored,computed,,collected,54.731657,5.032062,52.516031,42972,2.215626,399,9.285116,1496,34.813367,80,1.861677,-0.370392,low,keyword_high_only
+JNJ,Johnson & Johnson,Healthcare,2019,scored,computed,,collected,57.287048,0.799016,50.399508,47703,6.88754,443,9.286628,1652,34.630946,97,2.033415,-0.318574,medium,keyword_high_only
+JNJ,Johnson & Johnson,Healthcare,2020,scored,computed,,collected,54.06746,3.248126,51.624063,50453,2.443397,456,9.038115,1808,35.835332,90,1.783838,-0.372256,low,keyword_high_only
+JNJ,Johnson & Johnson,Healthcare,2021,scored,computed,,collected,59.933333,10.266179,55.133089,58957,4.800244,515,8.73518,1872,31.751955,97,1.645267,-0.66305,low,keyword_high_only
+JNJ,Johnson & Johnson,Healthcare,2022,scored,computed,,collected,62.385197,4.187512,52.093756,95961,10.291441,746,7.773992,2195,22.873876,204,2.125864,-1.050103,low,keyword_high_only
+JNJ,Johnson & Johnson,Healthcare,2023,scored,computed,,collected,56.895956,18.47739,59.238695,61109,-2.342739,567,9.278502,1865,30.519236,107,1.75097,-0.630246,low,both_high
+JNJ,Johnson & Johnson,Healthcare,2024,scored,computed,,collected,45.983219,9.913013,54.956507,53540,-8.973288,380,7.097497,1627,30.388495,91,1.699664,-0.889458,low,keyword_high_only
+JPM,JPMorgan Chase,Financials,2016,missing_part1,computed,,collected,,,,54222,,551,10.161927,1625,29.969385,126,2.32378,-0.360052,medium,
+JPM,JPMorgan Chase,Financials,2017,missing_part1,computed,,collected,,,,49817,,594,11.923641,1578,31.675934,111,2.228155,-0.117399,medium,
+JPM,JPMorgan Chase,Financials,2018,missing_part1,computed,,collected,,,,64941,,835,12.857825,1901,29.272724,137,2.109607,-0.182172,medium,
+JPM,JPMorgan Chase,Financials,2019,missing_part1,computed,,collected,,,,51562,,651,12.625577,1674,32.465769,105,2.036383,-0.06967,medium,
+JPM,JPMorgan Chase,Financials,2020,scored,computed,,collected,58.174003,27.620487,63.810243,56434,-5.63624,460,8.151115,1662,29.450331,108,1.91374,-0.748267,low,both_high
+JPM,JPMorgan Chase,Financials,2021,scored,computed,,collected,59.585403,8.300347,54.150174,67880,5.435229,591,8.706541,2015,29.684738,124,1.826753,-0.707494,low,keyword_high_only
+JPM,JPMorgan Chase,Financials,2022,scored,computed,,collected,55.556018,8.242022,54.121011,63366,1.435007,610,9.626614,1911,30.158129,115,1.814853,-0.588647,low,keyword_high_only
+JPM,JPMorgan Chase,Financials,2023,scored,computed,,collected,50.223428,27.504609,63.752305,70116,-13.528877,698,9.954932,2020,28.809402,122,1.739974,-0.649015,low,both_high
+JPM,JPMorgan Chase,Financials,2024,scored,computed,,collected,61.818317,21.143873,60.571936,75900,1.246381,757,9.97365,2143,28.234519,139,1.831357,-0.643978,low,both_high
+LLY,Eli Lilly,Healthcare,2016,scored,computed,,collected,24.667272,10.391908,55.195954,31126,-30.528682,329,10.569942,1144,36.753839,48,1.542119,-0.246527,medium,both_low
+LLY,Eli Lilly,Healthcare,2017,scored,computed,,collected,44.916254,17.877014,58.938507,44421,-14.022253,365,8.216834,1541,34.690799,131,2.949056,-0.105234,medium,both_high
+LLY,Eli Lilly,Healthcare,2018,scored,computed,,collected,40.898906,23.813609,61.906804,59349,-21.007898,475,8.003505,1805,30.413318,196,3.302499,-0.221594,medium,semantic_high_only
+LLY,Eli Lilly,Healthcare,2019,scored,computed,,collected,49.974606,26.808318,63.404159,39059,-13.429553,365,9.344837,1606,41.117284,81,2.073786,0.034065,medium,both_high
+LLY,Eli Lilly,Healthcare,2020,scored,computed,,collected,48.449448,26.557925,63.278962,44870,-14.829514,506,11.277023,1919,42.767996,86,1.916648,0.270326,high,both_high
+LLY,Eli Lilly,Healthcare,2021,missing_part1,computed,,collected,,,,51294,,537,10.469061,2127,41.466838,100,1.949546,0.128605,high,
+LLY,Eli Lilly,Healthcare,2022,missing_part1,computed,,collected,,,,57460,,618,10.755308,2105,36.63418,100,1.740341,-0.162339,medium,
+LLY,Eli Lilly,Healthcare,2023,missing_part1,computed,,collected,,,,61758,,685,11.09168,2009,32.530199,100,1.619223,-0.37931,low,
+LLY,Eli Lilly,Healthcare,2024,scored,computed,,collected,6.26703,27.859193,63.929597,55257,-57.662567,503,9.102919,1909,34.547659,114,2.063087,-0.332034,medium,semantic_high_only
+LOW,Lowe's,Consumer Discretionary,2016,missing_part1,computed,,collected,,,,40173,,566,14.089065,1624,40.425161,130,3.236004,0.921061,high,
+LOW,Lowe's,Consumer Discretionary,2017,missing_part1,computed,,collected,,,,35981,,579,16.091826,1668,46.3578,116,3.223924,1.435622,high,
+LOW,Lowe's,Consumer Discretionary,2018,missing_part1,computed,,collected,,,,36677,,579,15.78646,1737,47.359381,113,3.08095,1.403312,high,
+LOW,Lowe's,Consumer Discretionary,2019,missing_part1,computed,,collected,,,,40123,,490,12.212447,1660,41.372779,120,2.990803,0.680889,high,
+LOW,Lowe's,Consumer Discretionary,2020,scored,computed,,collected,15.274463,-3.762939,48.11853,43878,-32.844067,648,14.768221,1650,37.604266,149,3.395779,0.906359,high,both_low
+LOW,Lowe's,Consumer Discretionary,2021,scored,computed,,collected,23.784902,-6.12113,46.939435,43247,-23.154533,635,14.683099,1804,41.713876,117,2.70539,0.862395,high,both_low
+LOW,Lowe's,Consumer Discretionary,2022,scored,computed,,collected,9.765051,14.061252,57.030626,65134,-47.265575,882,13.541315,2049,31.458225,188,2.886357,0.279004,high,both_low
+LOW,Lowe's,Consumer Discretionary,2023,scored,computed,,collected,8.315098,18.751946,59.375973,46735,-51.060875,701,14.999465,2044,43.735958,118,2.524874,0.935782,high,semantic_high_only
+LOW,Lowe's,Consumer Discretionary,2024,scored,computed,,collected,10.206422,9.591144,54.795572,43991,-44.58915,582,13.229979,1905,43.304312,113,2.568707,0.739165,high,both_low
+MCD,McDonald's,Consumer Discretionary,2016,missing_part1,computed,,collected,,,,36446,,564,15.474949,1017,27.904297,95,2.606596,0.205434,high,
+MCD,McDonald's,Consumer Discretionary,2017,missing_part1,computed,,collected,,,,51471,,673,13.075324,1473,28.618057,169,3.283402,0.224565,high,
+MCD,McDonald's,Consumer Discretionary,2018,missing_part1,computed,,collected,,,,37910,,462,12.186758,1169,30.836191,88,2.321287,-0.099045,medium,
+MCD,McDonald's,Consumer Discretionary,2019,missing_part1,computed,,collected,,,,36980,,445,12.033532,1280,34.613304,82,2.217415,0.040961,medium,
+MCD,McDonald's,Consumer Discretionary,2020,scored,computed,,collected,42.949501,9.140388,54.570194,52561,-11.620693,501,9.531782,1467,27.910428,150,2.853827,-0.344896,medium,both_low
+MCD,McDonald's,Consumer Discretionary,2021,scored,computed,,collected,50.501391,8.144814,54.072407,39888,-3.571016,480,12.033694,1198,30.034095,75,1.880265,-0.313182,medium,keyword_high_only
+MCD,McDonald's,Consumer Discretionary,2022,missing_part2,missing_proxy,no_def14a_filing_for_calendar_year,missing,,,,0,,0,0.0,0,0.0,0,0.0,,,
+MCD,McDonald's,Consumer Discretionary,2023,scored,computed,,collected,61.487423,17.989262,58.994631,54468,2.492792,567,10.409782,1453,26.676214,101,1.8543,-0.66875,low,both_high
+MCD,McDonald's,Consumer Discretionary,2024,scored,computed,,collected,53.492291,18.973033,59.486517,58219,-5.994226,615,10.563562,1620,27.825967,98,1.683299,-0.654105,low,both_high
+MDT,Medtronic,Healthcare,2016,missing_part1,computed,,collected,,,,96964,,698,7.198548,2189,22.575389,470,4.84716,-0.160703,medium,
+MDT,Medtronic,Healthcare,2017,missing_part1,computed,,collected,,,,67728,,357,5.271084,1803,26.621191,265,3.91271,-0.49253,low,
+MDT,Medtronic,Healthcare,2018,missing_part1,computed,,collected,,,,40581,,287,7.072275,1403,34.57283,117,2.883123,-0.257645,medium,
+MDT,Medtronic,Healthcare,2019,missing_part1,computed,,collected,,,,43966,,308,7.005413,1497,34.049038,138,3.138789,-0.200839,medium,
+MDT,Medtronic,Healthcare,2020,missing_part1,computed,,collected,,,,47876,,350,7.310552,1620,33.837413,160,3.341967,-0.106732,medium,
+MDT,Medtronic,Healthcare,2021,scored,computed,,collected,41.707317,1.111401,50.555701,73101,-8.848384,434,5.936991,2091,28.60426,283,3.871356,-0.334165,medium,both_low
+MDT,Medtronic,Healthcare,2022,scored,computed,,collected,41.965909,3.630958,51.815479,46243,-9.84957,358,7.741712,1600,34.599831,140,3.027485,-0.133076,medium,both_low
+MDT,Medtronic,Healthcare,2023,scored,computed,,collected,39.384139,3.506554,51.753277,53805,-12.369138,347,6.449215,1688,31.372549,202,3.754298,-0.178999,medium,both_low
+MDT,Medtronic,Healthcare,2024,scored,computed,,collected,43.643552,3.677509,51.838755,47297,-8.195203,321,6.7869,1611,34.061357,171,3.615451,-0.054391,medium,both_low
+META,Meta Platforms,Technology,2016,missing_part1,computed,,collected,,,,122690,,1066,8.688565,2841,23.155921,620,5.053387,0.102326,medium,
+META,Meta Platforms,Technology,2017,missing_part1,computed,,collected,,,,29853,,401,13.432486,1156,38.723076,127,4.254179,1.125011,high,
+META,Meta Platforms,Technology,2018,missing_part1,computed,,collected,,,,31626,,456,14.418516,1269,40.125213,139,4.395118,1.35277,high,
+META,Meta Platforms,Technology,2019,scored,computed,,collected,57.269668,16.713839,58.35692,40078,-1.087252,635,15.844104,1752,43.714756,167,4.166875,1.608607,high,both_high
+META,Meta Platforms,Technology,2020,scored,computed,,collected,54.318847,17.127407,58.563704,47811,-4.244857,561,11.733701,2475,51.76633,173,3.618414,1.384427,high,both_high
+META,Meta Platforms,Technology,2021,scored,computed,,collected,50.637478,17.84967,58.924835,51854,-8.287357,613,11.821653,2473,47.691596,176,3.394145,1.10563,high,both_high
+META,Meta Platforms,Technology,2022,scored,computed,,collected,62.396372,8.895263,54.447631,51066,7.948741,687,13.453178,2102,41.162417,174,3.407355,0.951349,high,keyword_high_only
+META,Meta Platforms,Technology,2023,scored,computed,,collected,43.974802,8.643022,54.321511,58012,-10.346709,660,11.376956,2191,37.768048,175,3.016617,0.41577,high,both_low
+META,Meta Platforms,Technology,2024,scored,computed,,collected,44.735863,7.114978,53.557489,77196,-8.821626,734,9.508265,2451,31.75035,297,3.84735,0.202011,high,both_low
+MPC,Marathon Petroleum,Energy,2016,scored,computed,,collected,34.985134,33.269196,66.634598,59780,-31.649464,693,11.592506,2021,33.807293,124,2.074272,-0.098516,medium,semantic_high_only
+MPC,Marathon Petroleum,Energy,2017,scored,computed,,collected,13.992754,18.065632,59.032816,72228,-45.040062,709,9.816138,2291,31.719001,174,2.409038,-0.277352,medium,semantic_high_only
+MPC,Marathon Petroleum,Energy,2018,scored,computed,,collected,29.246344,34.292144,67.146072,58152,-37.899728,753,12.948824,2106,36.215435,118,2.029165,0.154444,high,semantic_high_only
+MPC,Marathon Petroleum,Energy,2019,scored,computed,,collected,73.487773,22.181338,61.090669,45675,12.397104,313,6.852764,1662,36.387521,84,1.83908,-0.559132,low,both_high
+MPC,Marathon Petroleum,Energy,2020,scored,computed,,collected,82.116295,20.579654,60.289827,44889,21.826468,452,10.069282,1648,36.71278,96,2.138609,-0.090563,medium,both_high
+MPC,Marathon Petroleum,Energy,2021,scored,computed,,collected,74.876355,16.857482,58.428741,72657,16.447614,588,8.09282,2216,30.49947,299,4.115226,0.081059,medium,both_high
+MPC,Marathon Petroleum,Energy,2022,scored,computed,,collected,74.89405,16.559845,58.279922,51442,16.614128,609,11.838575,1904,37.012558,132,2.565997,0.266643,high,both_high
+MPC,Marathon Petroleum,Energy,2023,scored,computed,,collected,73.351973,30.529977,65.264989,52348,8.086984,654,12.493314,1931,36.887751,134,2.559792,0.328386,high,both_high
+MPC,Marathon Petroleum,Energy,2024,scored,computed,,collected,73.993244,34.53418,67.26709,50741,6.726154,633,12.475119,1952,38.469876,124,2.443783,0.366221,high,both_high
+MRK,Merck,Healthcare,2016,missing_part1,computed,,collected,,,,44780,,476,10.629745,1410,31.487271,128,2.858419,-0.04221,medium,
+MRK,Merck,Healthcare,2017,missing_part1,computed,,collected,,,,46895,,577,12.304084,1455,31.026762,121,2.580232,0.015282,medium,
+MRK,Merck,Healthcare,2018,missing_part1,computed,,collected,,,,42455,,471,11.0941,1336,31.468614,107,2.520316,-0.113362,medium,
+MRK,Merck,Healthcare,2019,missing_part1,computed,,collected,,,,58416,,543,9.295399,1627,27.851958,191,3.269652,-0.225598,medium,
+MRK,Merck,Healthcare,2020,scored,computed,,collected,56.399555,4.815638,52.407819,43590,3.991736,516,11.837577,1362,31.245699,109,2.500574,-0.051916,medium,keyword_high_only
+MRK,Merck,Healthcare,2021,scored,computed,,collected,55.294302,5.424638,52.712319,45323,2.581983,541,11.936544,1344,29.653818,108,2.382896,-0.164571,medium,keyword_high_only
+MRK,Merck,Healthcare,2022,scored,computed,,collected,53.221192,6.577617,53.288809,50475,-0.067617,575,11.391778,1509,29.895988,105,2.080238,-0.318188,medium,keyword_high_only
+MRK,Merck,Healthcare,2023,scored,computed,,collected,55.907359,8.352031,54.176015,59715,1.731344,665,11.13623,1636,27.396801,155,2.595663,-0.29052,medium,keyword_high_only
+MRK,Merck,Healthcare,2024,scored,computed,,collected,57.785639,7.154042,53.577021,53446,4.208618,555,10.384313,1465,27.410845,137,2.563335,-0.382058,low,keyword_high_only
+MS,Morgan Stanley,Financials,2016,scored,computed,,collected,20.27027,28.083893,64.041946,55565,-43.771676,578,10.402232,1658,29.838927,201,3.617385,0.118522,high,semantic_high_only
+MS,Morgan Stanley,Financials,2017,scored,computed,,collected,24.698311,26.863085,63.431542,68722,-38.733231,721,10.491546,2174,31.634702,252,3.666948,0.237649,high,semantic_high_only
+MS,Morgan Stanley,Financials,2018,scored,computed,,collected,24.696803,28.366542,64.183271,42823,-39.486468,466,10.882003,1550,36.195502,120,2.802232,0.205957,high,semantic_high_only
+MS,Morgan Stanley,Financials,2019,scored,computed,,collected,27.502634,29.159706,64.579853,45034,-37.077219,477,10.591997,1629,36.17267,134,2.97553,0.235182,high,semantic_high_only
+MS,Morgan Stanley,Financials,2020,scored,computed,,collected,22.923588,19.856031,59.928016,44366,-37.004428,420,9.466709,1584,35.703016,119,2.682234,-0.013912,medium,semantic_high_only
+MS,Morgan Stanley,Financials,2021,scored,computed,,collected,18.437784,23.094587,61.547294,53155,-43.10951,430,8.089549,1756,33.035462,162,3.047691,-0.168616,medium,semantic_high_only
+MS,Morgan Stanley,Financials,2022,scored,computed,,collected,23.972603,22.935555,61.467777,44567,-37.495174,456,10.231786,1590,35.676622,106,2.378441,-0.04097,medium,semantic_high_only
+MS,Morgan Stanley,Financials,2023,scored,computed,,collected,26.964433,24.863901,62.43195,49623,-35.467517,566,11.406001,1672,33.694053,127,2.559297,0.047913,medium,semantic_high_only
+MS,Morgan Stanley,Financials,2024,scored,computed,,collected,27.77036,25.735197,62.867598,67814,-35.097238,561,8.272628,2090,30.819595,213,3.140944,-0.229263,medium,semantic_high_only
+MSFT,Microsoft,Technology,2016,scored,computed,,collected,30.906433,8.48909,54.244545,45088,-23.338112,397,8.805004,1668,36.994322,98,2.173527,-0.199565,medium,both_low
+MSFT,Microsoft,Technology,2017,scored,computed,,collected,0.237812,-8.351553,45.824224,53433,-45.586412,439,8.215897,1804,33.761907,170,3.181554,-0.070312,medium,both_low
+MSFT,Microsoft,Technology,2018,scored,computed,,collected,39.093484,-2.458005,48.770998,34642,-9.677514,299,8.631141,1383,39.922637,81,2.338202,-0.00985,medium,both_low
+MSFT,Microsoft,Technology,2019,scored,computed,,collected,35.91133,1.008432,50.504216,37981,-14.592886,418,11.005503,1854,48.813881,79,2.079987,0.608669,high,both_low
+MSFT,Microsoft,Technology,2020,scored,computed,,collected,32.210999,2.966647,51.483323,40662,-19.272324,388,9.542079,1920,47.218533,73,1.795288,0.268677,high,both_low
+MSFT,Microsoft,Technology,2021,scored,computed,,collected,30.833648,1.608194,50.804097,54106,-19.970449,473,8.742099,2120,39.182346,111,2.051528,-0.137643,medium,both_low
+MSFT,Microsoft,Technology,2022,scored,computed,,collected,36.523795,7.621456,53.810728,47410,-17.286933,462,9.74478,2114,44.589749,69,1.455389,0.035161,medium,both_low
+MSFT,Microsoft,Technology,2023,scored,computed,,collected,36.129536,7.072854,53.536427,51784,-17.406891,548,10.582419,2220,42.870385,89,1.718678,0.130638,high,both_low
+MSFT,Microsoft,Technology,2024,scored,computed,,collected,28.991597,10.376354,55.188177,52116,-26.19658,480,9.210223,2185,41.925704,105,2.014736,0.040016,medium,both_low
+NKE,Nike,Consumer Discretionary,2016,missing_part1,computed,,collected,,,,32836,,279,8.496772,1168,35.570715,95,2.893166,-0.049967,medium,
+NKE,Nike,Consumer Discretionary,2017,missing_part1,computed,,collected,,,,32412,,339,10.459089,1211,37.362705,103,3.177835,0.353676,high,
+NKE,Nike,Consumer Discretionary,2018,missing_part1,computed,,collected,,,,30469,,292,9.583511,1054,34.592537,96,3.150743,0.108184,medium,
+NKE,Nike,Consumer Discretionary,2019,missing_part1,computed,,collected,,,,28531,,235,8.236655,1093,38.309208,87,3.049315,0.117737,high,
+NKE,Nike,Consumer Discretionary,2020,missing_part1,computed,,collected,,,,44308,,353,7.966959,1410,31.822696,153,3.453101,-0.099884,medium,
+NKE,Nike,Consumer Discretionary,2021,missing_part1,computed,,collected,,,,39236,,439,11.188704,1276,32.521154,90,2.293812,-0.129763,medium,
+NKE,Nike,Consumer Discretionary,2022,scored,computed,,collected,40.615797,27.808932,63.904466,38338,-23.288669,326,8.503313,1273,33.204653,106,2.764881,-0.215949,medium,semantic_high_only
+NKE,Nike,Consumer Discretionary,2023,scored,computed,,collected,47.366489,9.467213,54.733607,38275,-7.367118,402,10.502939,1333,34.826911,107,2.795558,0.092804,medium,keyword_high_only
+NKE,Nike,Consumer Discretionary,2024,scored,computed,,collected,47.753484,9.467213,54.733607,38833,-6.980123,488,12.566631,1247,32.111864,102,2.626632,0.115514,high,keyword_high_only
+NVDA,NVIDIA,Technology,2016,missing_part1,computed,,collected,,,,68072,,281,4.127982,1395,20.493007,327,4.803737,-0.612585,low,
+NVDA,NVIDIA,Technology,2017,scored,computed,,collected,21.680328,37.901724,68.950862,30460,-47.270534,238,7.813526,1003,32.928431,101,3.315824,-0.108517,medium,semantic_high_only
+NVDA,NVIDIA,Technology,2018,insufficient_stated_theme_signal,computed,,collected,,1.193877,50.596939,63735,,266,4.173531,1241,19.471248,338,5.303209,-0.482604,low,
+NVDA,NVIDIA,Technology,2019,insufficient_stated_theme_signal,computed,,collected,,-3.7669,48.11655,30816,,234,7.593458,969,31.444704,117,3.796729,-0.037314,medium,
+NVDA,NVIDIA,Technology,2020,insufficient_stated_theme_signal,computed,,collected,,-3.563819,48.218091,63548,,264,4.15434,1240,19.512809,336,5.287342,-0.488174,low,
+NVDA,NVIDIA,Technology,2021,scored,computed,,collected,0.0,2.921566,51.460783,33885,-51.460783,206,6.079386,911,26.885052,121,3.570902,-0.513587,low,both_low
+NVDA,NVIDIA,Technology,2022,insufficient_stated_theme_signal,computed,,collected,,-9.48593,45.257035,59734,,273,4.570261,1217,20.373657,289,4.838116,-0.558972,low,
+NVDA,NVIDIA,Technology,2023,scored,computed,,collected,30.75704,5.631452,52.815726,40094,-22.058686,259,6.459819,1151,28.707537,118,2.943084,-0.602398,low,both_low
+NVDA,NVIDIA,Technology,2024,scored,computed,,collected,30.933931,-0.988455,49.505772,41000,-18.571841,314,7.658537,1207,29.439024,118,2.878049,-0.459277,low,both_low
+ORCL,Oracle,Technology,2016,missing_part1,computed,,collected,,,,42403,,615,14.503691,1892,44.619484,95,2.240408,0.826722,high,
+ORCL,Oracle,Technology,2017,scored,computed,,collected,36.409783,23.86979,61.934895,60317,-25.525112,764,12.666412,2110,34.981846,158,2.619494,0.270618,high,semantic_high_only
+ORCL,Oracle,Technology,2018,scored,computed,,collected,34.924812,21.917019,60.958509,47778,-26.033697,701,14.672025,1963,41.085855,133,2.783708,0.856871,high,semantic_high_only
+ORCL,Oracle,Technology,2019,scored,computed,,collected,39.984152,21.688927,60.844464,45169,-20.860312,635,14.058314,1901,42.086387,121,2.678828,0.804912,high,semantic_high_only
+ORCL,Oracle,Technology,2020,scored,computed,,collected,47.578947,22.281556,61.140778,63867,-13.561831,730,11.430003,2220,34.759735,218,3.413343,0.408369,high,both_high
+ORCL,Oracle,Technology,2021,scored,computed,,collected,58.139831,16.887392,58.443696,66512,-0.303865,788,11.847486,2270,34.12918,211,3.17236,0.335351,high,both_high
+ORCL,Oracle,Technology,2022,scored,computed,,collected,57.177709,41.467366,70.733683,43914,-13.555974,594,13.526438,1936,44.086168,114,2.595983,0.820724,high,both_high
+ORCL,Oracle,Technology,2023,scored,computed,,collected,47.861435,48.137965,74.068983,70006,-26.207548,858,12.256092,2529,36.125475,227,3.242579,0.506379,high,both_high
+ORCL,Oracle,Technology,2024,scored,computed,,collected,48.359078,45.361945,72.680972,48858,-24.321894,703,14.388636,2105,43.084039,134,2.742642,0.914133,high,both_high
+OXY,Occidental Petroleum,Energy,2016,scored,computed,,collected,54.969419,40.384256,70.192128,35667,-15.222709,341,9.560658,1427,40.008972,126,3.532677,0.518654,high,both_high
+OXY,Occidental Petroleum,Energy,2017,insufficient_stated_theme_signal,computed,,collected,,4.42879,52.214395,36969,,371,10.035435,1463,39.573697,124,3.354162,0.483973,high,
+OXY,Occidental Petroleum,Energy,2018,missing_part1,computed,,collected,,,,56838,,420,7.389423,1798,31.633766,281,4.943876,0.357867,high,
+OXY,Occidental Petroleum,Energy,2019,scored,computed,,collected,68.75717,36.747364,68.373682,32118,0.383488,353,10.990722,1322,41.16072,117,3.642817,0.770358,high,both_high
+OXY,Occidental Petroleum,Energy,2020,scored,computed,,collected,20.967742,32.249013,66.124506,111365,-45.156764,1072,9.626005,2628,23.598078,695,6.24074,0.647367,high,semantic_high_only
+OXY,Occidental Petroleum,Energy,2021,scored,computed,,collected,38.405797,10.463744,55.231872,47493,-16.826075,596,12.549218,1755,36.952814,167,3.516308,0.677439,high,both_low
+OXY,Occidental Petroleum,Energy,2022,scored,computed,,collected,37.533129,14.20613,57.103065,56812,-19.569936,650,11.441245,1525,26.842921,143,2.517074,-0.314019,medium,both_low
+OXY,Occidental Petroleum,Energy,2023,scored,computed,,collected,40.368745,19.581859,59.79093,52556,-19.422185,706,13.43329,2075,39.481696,169,3.215618,0.795076,high,semantic_high_only
+OXY,Occidental Petroleum,Energy,2024,scored,computed,,collected,28.239845,15.527796,57.763898,48520,-29.524053,545,11.232481,1784,36.768343,140,2.885408,0.302473,high,both_low
+PFE,Pfizer,Healthcare,2016,scored,computed,,collected,41.73036,8.699284,54.349642,61360,-12.619282,616,10.039113,2376,38.722295,138,2.249022,0.048281,medium,both_low
+PFE,Pfizer,Healthcare,2017,scored,computed,,collected,45.59149,8.642328,54.321164,65082,-8.729674,628,9.649365,2481,38.121139,134,2.058941,-0.091871,medium,keyword_high_only
+PFE,Pfizer,Healthcare,2018,scored,computed,,collected,31.785714,2.698588,51.349294,72639,-19.56358,642,8.838227,2675,36.825947,161,2.21644,-0.189374,medium,both_low
+PFE,Pfizer,Healthcare,2019,scored,computed,,collected,35.336049,7.736034,53.868017,87199,-18.531968,687,7.878531,3091,35.447654,232,2.660581,-0.205287,medium,both_low
+PFE,Pfizer,Healthcare,2020,missing_part1,computed,,collected,,,,69776,,679,9.73114,2674,38.322632,144,2.063747,-0.071065,medium,
+PFE,Pfizer,Healthcare,2021,scored,computed,,collected,58.146402,13.38046,56.69023,68153,1.456172,666,9.77213,2443,35.845817,132,1.936819,-0.238534,medium,keyword_high_only
+PFE,Pfizer,Healthcare,2022,scored,computed,,collected,60.497226,20.431334,60.215667,58549,0.281559,585,9.991631,1621,27.686212,94,1.605493,-0.750333,low,both_high
+PFE,Pfizer,Healthcare,2023,scored,computed,,collected,60.719982,25.204113,62.602057,65444,-1.882075,657,10.039117,1832,27.993399,100,1.528024,-0.757021,low,both_high
+PFE,Pfizer,Healthcare,2024,scored,computed,,collected,60.331459,23.773144,61.886572,79136,-1.555113,623,7.872523,2045,25.841589,219,2.767388,-0.659751,low,both_high
+PSX,Phillips 66,Energy,2016,missing_part1,computed,,collected,,,,36315,,473,13.024921,1571,43.260361,92,2.533388,0.702342,high,
+PSX,Phillips 66,Energy,2017,scored,computed,,collected,34.485407,-6.627925,46.686037,33191,-12.20063,381,11.479015,1446,43.566027,77,2.319906,0.476099,high,both_low
+PSX,Phillips 66,Energy,2018,scored,computed,,collected,36.220472,-6.342645,46.828677,37207,-10.608205,421,11.315075,1676,45.045287,89,2.392023,0.559827,high,both_low
+PSX,Phillips 66,Energy,2019,scored,computed,,collected,36.314022,-6.692272,46.653864,35902,-10.339842,410,11.419977,1628,45.345663,76,2.116874,0.488751,high,both_low
+PSX,Phillips 66,Energy,2020,scored,computed,,collected,36.245353,-7.376594,46.311703,35474,-10.06635,371,10.458364,1574,44.370525,79,2.226983,0.374636,high,both_low
+PSX,Phillips 66,Energy,2021,scored,computed,,collected,52.11396,9.937093,54.968547,41968,-2.854587,515,12.271254,1660,39.553946,99,2.35894,0.369684,high,keyword_high_only
+PSX,Phillips 66,Energy,2022,scored,computed,,collected,56.123603,31.060397,65.530198,58388,-9.406595,593,10.156196,1801,30.845379,194,3.322601,0.038918,medium,both_high
+PSX,Phillips 66,Energy,2023,missing_part1,computed,,collected,,,,44141,,532,12.052287,1617,36.632609,102,2.310777,0.179507,high,
+PSX,Phillips 66,Energy,2024,scored,computed,,collected,40.605428,3.907854,51.953927,46024,-11.348499,435,9.45159,1284,27.898488,102,2.216235,-0.580569,low,both_low
+SBUX,Starbucks,Consumer Discretionary,2016,insufficient_stated_theme_signal,computed,,collected,,28.351137,64.175568,43081,,432,10.027622,1749,40.597943,134,3.11042,0.449,high,
+SBUX,Starbucks,Consumer Discretionary,2017,scored,computed,,collected,39.943849,20.941068,60.470534,39919,-20.526685,451,11.297878,1698,42.536136,130,3.256595,0.736593,high,semantic_high_only
+SBUX,Starbucks,Consumer Discretionary,2018,scored,computed,,collected,41.985019,20.290784,60.145392,45445,-18.160373,483,10.628232,1726,37.979976,125,2.750578,0.2517,high,semantic_high_only
+SBUX,Starbucks,Consumer Discretionary,2019,scored,computed,,collected,40.700483,20.08781,60.043905,44770,-19.343422,440,9.82801,1820,40.652222,122,2.725039,0.293463,high,semantic_high_only
+SBUX,Starbucks,Consumer Discretionary,2020,scored,computed,,collected,44.613095,20.474313,60.237156,47813,-15.624061,369,7.717566,1853,38.75515,112,2.342459,-0.166246,medium,semantic_high_only
+SBUX,Starbucks,Consumer Discretionary,2021,scored,computed,,collected,44.577352,19.221898,59.610949,50708,-15.033597,376,7.415004,1879,37.055297,108,2.129841,-0.361281,medium,semantic_high_only
+SBUX,Starbucks,Consumer Discretionary,2022,scored,computed,,collected,38.217209,19.788911,59.894455,72490,-21.677246,473,6.525038,1989,27.438267,211,2.910746,-0.671854,low,semantic_high_only
+SBUX,Starbucks,Consumer Discretionary,2023,missing_part1,computed,,collected,,,,55201,,510,9.238963,1918,34.745747,134,2.427492,-0.177857,medium,
+SBUX,Starbucks,Consumer Discretionary,2024,missing_part2,missing_proxy,no_def14a_filing_for_calendar_year,missing,,,,0,,0,0.0,0,0.0,0,0.0,,,
+SCHW,Charles Schwab,Financials,2016,scored,computed,,collected,61.046718,25.364412,62.682206,31597,-1.635488,292,9.241384,1155,36.554103,74,2.341994,-0.115389,medium,both_high
+SCHW,Charles Schwab,Financials,2017,scored,computed,,collected,51.329897,24.085567,62.042783,33435,-10.712886,417,12.471961,1224,36.608345,83,2.482429,0.284312,high,both_high
+SCHW,Charles Schwab,Financials,2018,scored,computed,,collected,59.520626,24.994664,62.497332,63951,-2.976706,554,8.662883,1954,30.554643,262,4.096887,0.13861,high,both_high
+SCHW,Charles Schwab,Financials,2019,scored,computed,,collected,28.078967,32.381555,66.190777,31094,-38.11181,295,9.487361,1230,39.557471,73,2.34772,0.066817,medium,semantic_high_only
+SCHW,Charles Schwab,Financials,2020,scored,computed,,collected,25.492902,31.751933,65.875967,63663,-40.383065,550,8.639241,2078,32.640623,274,4.303913,0.316383,high,semantic_high_only
+SCHW,Charles Schwab,Financials,2021,scored,computed,,collected,33.119896,39.485356,69.742678,36487,-36.622782,315,8.633212,1458,39.959438,104,2.85033,0.174144,high,semantic_high_only
+SCHW,Charles Schwab,Financials,2022,scored,computed,,collected,18.892508,28.160973,64.080487,65347,-45.187979,674,10.314169,2260,34.584602,296,4.529665,0.676008,high,semantic_high_only
+SCHW,Charles Schwab,Financials,2023,scored,computed,,collected,17.241379,38.826292,69.413146,41504,-52.171767,578,13.926369,1575,37.94815,109,2.626253,0.560221,high,semantic_high_only
+SCHW,Charles Schwab,Financials,2024,scored,computed,,collected,52.863188,29.070532,64.535266,42366,-11.672078,575,13.572204,1661,39.205967,117,2.761648,0.634652,high,both_high
+SLB,SLB (Schlumberger),Energy,2016,scored,computed,,collected,60.479705,28.559691,64.279845,52334,-3.80014,266,5.082738,2237,42.744678,140,2.675125,-0.126913,medium,both_high
+SLB,SLB (Schlumberger),Energy,2017,scored,computed,,collected,57.291667,27.923898,63.961949,60968,-6.670282,305,5.002624,2115,34.690329,151,2.476709,-0.618307,low,both_high
+SLB,SLB (Schlumberger),Energy,2018,scored,computed,,collected,55.9497,27.848564,63.924282,47756,-7.974582,249,5.214005,1785,37.377502,118,2.470894,-0.460103,low,both_high
+SLB,SLB (Schlumberger),Energy,2019,scored,computed,,collected,62.211037,28.249197,64.124599,49924,-1.913562,258,5.167855,2082,41.703389,140,2.804262,-0.125211,medium,both_high
+SLB,SLB (Schlumberger),Energy,2020,missing_part1,computed,,collected,,,,44281,,245,5.532847,1799,40.626905,99,2.235722,-0.343031,medium,
+SLB,SLB (Schlumberger),Energy,2021,missing_part1,computed,,collected,,,,71567,,341,4.764766,2250,31.439071,208,2.906367,-0.657699,low,
+SLB,SLB (Schlumberger),Energy,2022,scored,computed,,collected,46.875,19.715101,59.857551,40418,-12.982551,244,6.036914,1426,35.28131,95,2.350438,-0.52179,low,both_high
+SLB,SLB (Schlumberger),Energy,2023,scored,computed,,collected,41.106443,10.555642,55.277821,39247,-14.171378,264,6.726629,1397,35.595077,91,2.318649,-0.442925,low,both_low
+SLB,SLB (Schlumberger),Energy,2024,scored,computed,,collected,44.456233,8.206665,54.103333,38857,-9.6471,241,6.202229,1445,37.187637,86,2.213243,-0.455169,low,both_low
+TGT,Target,Consumer Discretionary,2016,insufficient_stated_theme_signal,computed,,collected,,-12.497373,43.751314,39143,,435,11.113098,1243,31.755359,74,1.890504,-0.320327,medium,
+TGT,Target,Consumer Discretionary,2017,insufficient_stated_theme_signal,computed,,collected,,-12.561612,43.719194,38448,,424,11.027882,1326,34.48814,84,2.184769,-0.085074,medium,
+TGT,Target,Consumer Discretionary,2018,insufficient_stated_theme_signal,computed,,collected,,-12.602354,43.698823,38103,,459,12.046296,1288,33.803113,72,1.889615,-0.115564,medium,
+TGT,Target,Consumer Discretionary,2019,scored,computed,,collected,0.513699,-12.296231,43.851884,35876,-43.338185,462,12.87769,1213,33.810904,70,1.951165,-0.003992,medium,both_low
+TGT,Target,Consumer Discretionary,2020,scored,computed,,collected,19.054441,25.732268,62.866134,52416,-43.811693,454,8.661477,1347,25.69826,137,2.613706,-0.636916,low,semantic_high_only
+TGT,Target,Consumer Discretionary,2021,scored,computed,,collected,20.760234,24.685029,62.342515,36789,-41.582281,466,12.66683,1181,32.101987,71,1.929925,-0.12167,medium,semantic_high_only
+TGT,Target,Consumer Discretionary,2022,scored,computed,,collected,11.553785,26.048808,63.024404,39419,-51.470619,500,12.684239,1185,30.061645,70,1.775793,-0.278991,medium,semantic_high_only
+TGT,Target,Consumer Discretionary,2023,scored,computed,,collected,12.234043,18.534393,59.267196,43567,-47.033153,562,12.899672,1429,32.800055,83,1.905112,-0.069734,medium,semantic_high_only
+TGT,Target,Consumer Discretionary,2024,scored,computed,,collected,36.003537,27.814244,63.907122,48070,-27.903585,647,13.459538,1551,32.265446,77,1.601831,-0.144671,medium,semantic_high_only
+TJX,TJX Companies,Consumer Discretionary,2016,missing_part1,computed,,collected,,,,34771,,293,8.426562,947,27.23534,97,2.789681,-0.520966,low,
+TJX,TJX Companies,Consumer Discretionary,2017,scored,computed,,collected,46.581633,24.224764,62.112382,59051,-15.530749,461,7.806811,1429,24.199421,172,2.912736,-0.699254,low,both_high
+TJX,TJX Companies,Consumer Discretionary,2018,scored,computed,,collected,47.906198,23.764663,61.882331,38544,-13.976133,363,9.417808,922,23.920714,96,2.49066,-0.690363,low,both_high
+TJX,TJX Companies,Consumer Discretionary,2019,scored,computed,,collected,56.628352,20.874438,60.437219,38188,-3.808867,379,9.924584,965,25.269718,93,2.43532,-0.586519,low,both_high
+TJX,TJX Companies,Consumer Discretionary,2020,scored,computed,,collected,43.962008,23.475039,61.737519,42049,-17.775511,473,11.248781,1095,26.041047,100,2.378178,-0.425075,low,semantic_high_only
+TJX,TJX Companies,Consumer Discretionary,2021,insufficient_stated_theme_signal,computed,,collected,,20.488139,60.24407,44323,,375,8.460619,1217,27.457528,93,2.098233,-0.751509,low,
+TJX,TJX Companies,Consumer Discretionary,2022,insufficient_stated_theme_signal,computed,,collected,,21.597548,60.798774,66137,,514,7.771747,1495,22.604593,180,2.721623,-0.852539,low,
+TJX,TJX Companies,Consumer Discretionary,2023,insufficient_stated_theme_signal,computed,,collected,,18.541736,59.270868,49738,,481,9.670674,1513,30.419398,116,2.332221,-0.38679,low,
+TJX,TJX Companies,Consumer Discretionary,2024,scored,computed,,collected,51.766499,24.880431,62.440216,44421,-10.673717,357,8.036739,1390,31.291506,109,2.453794,-0.474495,low,both_high
+TMO,Thermo Fisher Scientific,Healthcare,2016,scored,computed,,collected,30.345118,11.115111,55.557555,35265,-25.212437,238,6.748901,1102,31.249114,150,4.253509,0.024176,medium,both_low
+TMO,Thermo Fisher Scientific,Healthcare,2017,scored,computed,,collected,50.747475,14.886649,57.443325,32499,-6.69585,251,7.723315,1143,35.170313,140,4.307825,0.348878,high,keyword_high_only
+TMO,Thermo Fisher Scientific,Healthcare,2018,scored,computed,,collected,8.231707,9.875018,54.937509,34235,-46.705802,222,6.484592,1159,33.854243,145,4.235432,0.122724,high,both_low
+TMO,Thermo Fisher Scientific,Healthcare,2019,scored,computed,,collected,41.966667,17.54039,58.770195,41699,-16.803528,335,8.033766,1432,34.341351,130,3.117581,-0.082936,medium,semantic_high_only
+TMO,Thermo Fisher Scientific,Healthcare,2020,scored,computed,,collected,26.86747,18.137373,59.068686,43065,-32.201216,375,8.707767,1519,35.272263,126,2.92581,-0.030985,medium,semantic_high_only
+TMO,Thermo Fisher Scientific,Healthcare,2021,scored,computed,,collected,23.069106,13.90117,56.950585,46360,-33.881479,431,9.296808,1594,34.383089,129,2.782571,-0.064098,medium,both_low
+TMO,Thermo Fisher Scientific,Healthcare,2022,scored,computed,,collected,24.210691,17.137245,58.568623,43487,-34.357932,365,8.393313,1561,35.895785,110,2.529492,-0.173603,medium,semantic_high_only
+TMO,Thermo Fisher Scientific,Healthcare,2023,scored,computed,,collected,17.226891,35.085486,67.542743,62374,-50.315852,330,5.290666,1662,26.645718,234,3.751563,-0.546404,low,semantic_high_only
+TMO,Thermo Fisher Scientific,Healthcare,2024,missing_part1,computed,,collected,,,,41834,,385,9.203041,1430,34.182722,106,2.533824,-0.172773,medium,
+TSLA,Tesla,Consumer Discretionary,2016,scored,computed,,collected,5.106383,18.738512,59.369256,26819,-54.262873,426,15.884261,1254,46.757896,113,4.213431,1.78524,high,semantic_high_only
+TSLA,Tesla,Consumer Discretionary,2017,scored,computed,,collected,5.703422,4.849471,52.424735,29470,-46.721313,478,16.219885,1389,47.132677,117,3.970139,1.754073,high,both_low
+TSLA,Tesla,Consumer Discretionary,2018,scored,computed,,collected,8.108108,-0.984995,49.507503,35137,-41.399395,384,10.928651,614,17.474457,153,4.354384,-0.196134,medium,both_low
+TSLA,Tesla,Consumer Discretionary,2019,scored,computed,,collected,14.391892,-0.995488,49.502256,81180,-35.110364,945,11.640798,2179,26.841587,389,4.791821,0.51525,high,both_low
+TSLA,Tesla,Consumer Discretionary,2020,scored,computed,,collected,20.659898,-1.116951,49.441524,35124,-28.781626,614,17.480925,1249,35.559731,148,4.213643,1.383584,high,both_low
+TSLA,Tesla,Consumer Discretionary,2021,scored,computed,,collected,19.201389,-0.899865,49.550067,55281,-30.348678,956,17.293464,1916,34.659286,238,4.305277,1.349895,high,both_low
+TSLA,Tesla,Consumer Discretionary,2022,scored,computed,,collected,14.035088,-0.870571,49.564715,57997,-35.529627,1059,18.259565,1924,33.17413,210,3.620877,1.134579,high,both_low
+TSLA,Tesla,Consumer Discretionary,2023,scored,computed,,collected,33.842239,-4.029779,47.98511,34872,-14.142871,639,18.324157,1369,39.257857,131,3.756596,1.501157,high,both_low
+TSLA,Tesla,Consumer Discretionary,2024,scored,computed,,collected,19.261084,13.752322,56.876161,252612,-37.615077,2413,9.552199,6511,25.774706,722,2.858138,-0.450503,low,both_low
+UNH,UnitedHealth Group,Healthcare,2016,scored,computed,,collected,29.09572,14.017862,57.008931,40110,-27.913211,482,12.016953,2405,59.96011,113,2.817253,1.54977,high,both_low
+UNH,UnitedHealth Group,Healthcare,2017,scored,computed,,collected,40.37444,20.302338,60.151169,42813,-19.776729,581,13.570644,2554,59.654778,115,2.6861,1.654465,high,semantic_high_only
+UNH,UnitedHealth Group,Healthcare,2018,scored,computed,,collected,30.642202,22.447588,61.223794,42464,-30.581592,493,11.609834,2381,56.071025,112,2.637528,1.243114,high,semantic_high_only
+UNH,UnitedHealth Group,Healthcare,2019,scored,computed,,collected,35.341965,23.461924,61.730962,42152,-26.388997,543,12.881951,2412,57.221484,116,2.751945,1.479303,high,semantic_high_only
+UNH,UnitedHealth Group,Healthcare,2020,scored,computed,,collected,53.401437,15.270132,57.635066,56184,-4.233629,764,13.598177,2560,45.564574,204,3.630927,1.271685,high,keyword_high_only
+UNH,UnitedHealth Group,Healthcare,2021,scored,computed,,collected,51.575649,10.198615,55.099308,49908,-3.523659,759,15.207983,2285,45.784243,137,2.745051,1.141236,high,keyword_high_only
+UNH,UnitedHealth Group,Healthcare,2022,scored,computed,,collected,55.375254,14.434819,57.21741,43244,-1.842156,760,17.574692,2077,48.029784,104,2.404958,1.389648,high,keyword_high_only
+UNH,UnitedHealth Group,Healthcare,2023,missing_part1,computed,,collected,,,,47935,,845,17.628038,2110,44.017941,117,2.440805,1.202737,high,
+UNH,UnitedHealth Group,Healthcare,2024,missing_part1,computed,,collected,,,,43766,,676,15.44578,2025,46.268793,115,2.62761,1.149877,high,
+VLO,Valero Energy,Energy,2016,missing_part1,computed,,collected,,,,48298,,298,6.170028,1330,27.537372,193,3.996025,-0.319469,medium,
+VLO,Valero Energy,Energy,2017,missing_part1,computed,,collected,,,,31485,,266,8.448468,1110,35.254883,110,3.493727,0.141972,high,
+VLO,Valero Energy,Energy,2018,missing_part1,computed,,collected,,,,36564,,416,11.377311,1256,34.350727,141,3.856252,0.539075,high,
+VLO,Valero Energy,Energy,2019,missing_part1,computed,,collected,,,,33335,,290,8.699565,1257,37.708115,106,3.179841,0.183052,high,
+VLO,Valero Energy,Energy,2020,scored,computed,,collected,60.761328,18.317596,59.158798,53409,1.60253,337,6.309798,1665,31.174521,207,3.875751,-0.160978,medium,both_high
+VLO,Valero Energy,Energy,2021,scored,computed,,collected,65.449645,16.624696,58.312348,41484,7.137297,330,7.954874,1547,37.291486,121,2.916787,-0.011702,medium,both_high
+VLO,Valero Energy,Energy,2022,scored,computed,,collected,61.020408,32.155041,66.07752,54987,-5.057112,489,8.893011,2013,36.608653,125,2.273265,-0.174431,medium,both_high
+VLO,Valero Energy,Energy,2023,scored,computed,,collected,68.836314,43.574845,71.787423,65748,-2.951109,630,9.582041,2314,35.194987,160,2.433534,-0.115858,medium,both_high
+VLO,Valero Energy,Energy,2024,scored,computed,,collected,81.277728,35.629425,67.814712,65565,13.463016,480,7.320979,2075,31.647983,175,2.669107,-0.456666,low,both_high
+WFC,Wells Fargo,Financials,2016,scored,computed,,collected,0.685871,15.451692,57.725846,61999,-57.039975,692,11.16147,1770,28.548848,114,1.838739,-0.497663,low,both_low
+WFC,Wells Fargo,Financials,2017,scored,computed,,collected,1.2939,14.895595,57.447798,73069,-56.153898,838,11.468612,2029,27.768274,129,1.765455,-0.530654,low,both_low
+WFC,Wells Fargo,Financials,2018,scored,computed,,collected,17.867036,-6.283878,46.858061,73493,-28.991025,731,9.946526,2425,32.99634,131,1.782483,-0.420483,low,both_low
+WFC,Wells Fargo,Financials,2019,scored,computed,,collected,17.28511,-6.240084,46.879958,100563,-29.594848,678,6.742042,2831,28.151507,209,2.078299,-0.907682,low,both_low
+WFC,Wells Fargo,Financials,2020,scored,computed,,collected,47.313632,33.701945,66.850972,75837,-19.53734,698,9.203951,2445,32.240199,121,1.595527,-0.605363,low,both_high
+WFC,Wells Fargo,Financials,2021,scored,computed,,collected,45.884124,31.321992,65.660996,76725,-19.776872,712,9.279896,2529,32.961877,124,1.616162,-0.552932,low,both_high
+WFC,Wells Fargo,Financials,2022,scored,computed,,collected,48.074299,39.369306,69.684653,82535,-21.610354,762,9.232447,2473,29.963046,175,2.120313,-0.53249,low,both_high
+WFC,Wells Fargo,Financials,2023,scored,computed,,collected,47.356164,43.785489,71.892744,68962,-24.53658,747,10.832052,2198,31.872626,130,1.885096,-0.346436,medium,both_high
+WFC,Wells Fargo,Financials,2024,scored,computed,,collected,47.89621,35.727082,67.863541,75735,-19.967331,774,10.219846,2376,31.372549,145,1.914571,-0.427334,low,both_high
+XOM,ExxonMobil,Energy,2016,missing_part1,computed,,collected,,,,38880,,238,6.121399,1089,28.009259,93,2.391975,-0.870232,low,
+XOM,ExxonMobil,Energy,2017,missing_part1,computed,,collected,,,,34445,,337,9.783713,1051,30.512411,80,2.322543,-0.373323,low,
+XOM,ExxonMobil,Energy,2018,missing_part1,computed,,collected,,,,29420,,274,9.313392,1037,35.248131,86,2.923182,0.031906,medium,
+XOM,ExxonMobil,Energy,2019,scored,computed,,collected,25.323741,0.661233,50.330616,34912,-25.006875,318,9.108616,1279,36.634968,85,2.434693,-0.092589,medium,both_low
+XOM,ExxonMobil,Energy,2020,scored,computed,,collected,26.075269,0.578175,50.289088,34707,-24.213819,351,10.113234,1228,35.381911,82,2.362636,-0.074405,medium,both_low
+XOM,ExxonMobil,Energy,2021,missing_part2,missing_proxy,no_def14a_filing_for_calendar_year,missing,,,,0,,0,0.0,0,0.0,0,0.0,,,
+XOM,ExxonMobil,Energy,2022,missing_part1,computed,,collected,,,,42017,,405,9.638956,1256,29.892662,66,1.570793,-0.687592,low,
+XOM,ExxonMobil,Energy,2023,scored,computed,,collected,62.106368,36.889905,68.444952,59395,-6.338584,580,9.765132,1480,24.917922,94,1.582625,-0.924501,low,both_high
+XOM,ExxonMobil,Energy,2024,scored,computed,,collected,39.465021,34.043952,67.021976,52715,-27.556955,520,9.864365,1477,28.018591,85,1.612444,-0.744521,low,semantic_high_only

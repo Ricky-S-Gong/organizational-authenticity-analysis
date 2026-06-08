@@ -1,0 +1,4 @@
+comparison_metric,company_years,pearson_correlation,spearman_correlation
+authenticity_index,328,-0.092806,-0.14089
+semantic_0_100,342,0.178954,0.075721
+keyword_minus_semantic,328,-0.159147,-0.180748

@@ -1,0 +1,13 @@
+theme_id,computed_company_years,mean_theme_semantic_similarity,median_theme_semantic_similarity,mean_theme_share_gap_abs,mean_authenticity_index
+innovation_and_excellence,196,46.188081,46.067218,0.122383,46.13394
+environment_and_sustainability,200,45.834012,47.82061,0.109732,47.009072
+purpose_and_identity,171,44.899858,43.717064,0.135733,45.505805
+social_impact_and_community,199,44.029698,43.126148,0.10954,46.972239
+integrity_and_ethics,125,43.834238,44.849865,0.057055,52.413911
+customers_and_service,228,43.778073,44.825864,0.167183,46.360293
+diversity_equity_and_inclusion,149,43.512292,45.635555,0.08398,51.142944
+leadership_and_accountability,242,38.670089,38.048517,0.077247,48.121004
+health_safety_and_wellbeing,184,38.655855,38.407942,0.129321,48.158972
+collaboration_and_partnership,133,36.088163,36.246151,0.078676,49.742087
+shareholders_and_performance,91,35.986728,36.925697,0.135745,54.527212
+employees_and_workplace,181,25.964132,24.955257,0.083952,50.385095

@@ -212,7 +212,7 @@ def sector_heatmap_svg(
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
         f'viewBox="0 0 {width} {height}">',
         '<rect width="100%" height="100%" fill="#ffffff"/>',
-        _text(30, 34, "Part 2 Cross-Sector Theme Heatmap", size=22),
+        _text(30, 34, "Cross-Sector Theme Heatmap", size=22),
         _text(30, 56, "All taxonomy themes; mean matches per 10,000 words by sector", size=13),
     ]
     for col, theme_id in enumerate(theme_ids):
@@ -628,7 +628,7 @@ def _save_sector_heatmap_png(
         cbar_kws={"label": "Matches per 10,000 words"},
         ax=ax,
     )
-    ax.set_title("Part 2 Cross-Sector Theme Heatmap", pad=16, weight="bold")
+    ax.set_title("Cross-Sector Theme Heatmap", pad=16, weight="bold")
     ax.set_xlabel("")
     ax.set_ylabel("")
     ax.set_xticklabels(

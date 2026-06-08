@@ -15,14 +15,29 @@ The research pipeline is organized around four parts:
 
 ## Project Status
 
-Parts 1, 2, and 3 are complete and validated. Part 4 has not started yet.
+Parts 1, 2, 3, and 4 are complete and validated. A root-level LaTeX manuscript synthesizes the
+pipeline and findings as an academic-style report, while the part directories retain the
+assignment-specific code, outputs, README files, summaries, and validation audits.
 
 | Part | Status | Current evidence |
 | --- | --- | --- |
 | [Part&nbsp;1:&nbsp;Stated&nbsp;Values](part1_stated_values/) | Complete | 450/450 company-years processed; 358 usable archived stated-values pages; Phase 0-7 validation passes. |
 | [Part&nbsp;2:&nbsp;Lived&nbsp;Values](part2_lived_values/) | Complete | 450/450 company-years processed; 434 SEC `DEF 14A` filings collected; validation passes. |
 | [Part&nbsp;3:&nbsp;Authenticity&nbsp;Index](part3_authenticity/) | Complete | 450-row authenticity panel; 328 scored company-years; semantic robustness, scatter diagnostics, qualitative audit notes, figures, validity, and sensitivity outputs generated. |
-| [Part&nbsp;4:&nbsp;Proposal](part4_proposal/) | Not started | To be selected after Part 3 results expose interpretable patterns and limitations. |
+| [Part&nbsp;4:&nbsp;Proposal](part4_proposal/) | Complete | Proxy-genre sensitivity, section-level proxy parsing, theme-level semantic comparison, figures, tests, and validation generated. |
+
+## Assessment Compliance Checklist
+
+| Requirement | Repository evidence |
+| --- | --- |
+| Structured repository with commented code | Each part has `src/`, `tests/`, `docs/`, and outputs; Part 4 code includes method-level docstrings and inline comments for phrase counting, section parsing, semantic fallback, and figure encodings. |
+| README per part | `part1_stated_values/README.md`, `part2_lived_values/README.md`, `part3_authenticity/README.md`, and `part4_proposal/README.md`. |
+| Output data files | Each part has committed compact outputs and requirement audits under its `outputs/` directory. |
+| Written summary per part | Each part includes `docs/summary.md`; the root manuscript provides a single integrated report. |
+| Part 1 Wayback stated-values collection | 450 target company-years retained; 358 usable stated-values pages; missingness and acquisition status documented. |
+| Part 2 lived-values disclosure analysis | SEC `DEF 14A` proxy statements collected as the lived-values disclosure source; 434 filings collected with text-mining outputs and coverage notes. |
+| Part 3 authenticity measure | 450-row panel with 328 scoreable company-years, distribution summaries, validity checks, sensitivity metrics, and case-audit notes. |
+| Part 4 proposal and implementation | Proxy-genre pressure, section-level proxy parsing, theme-level semantic comparison, case-audit targets, figures, tests, and validation audit. |
 
 ## Repository Structure
 
@@ -32,6 +47,8 @@ Parts 1, 2, and 3 are complete and validated. Part 4 has not started yet.
 ├── part2_lived_values/    # SEC DEF 14A collection and lived-values disclosure analysis
 ├── part3_authenticity/    # Organizational Authenticity Index
 ├── part4_proposal/        # Additional exploratory analysis
+├── manuscript.tex         # Root-level LaTeX manuscript synthesizing Parts 1-4
+├── manuscript.pdf         # Compiled manuscript
 ├── pyproject.toml         # Project and tool configuration
 ├── uv.lock                # Locked Python environment
 └── README.md
@@ -56,7 +73,13 @@ written summary.
 
 ### Part 4: Proposal
 
-- Not started yet; deliverables will be listed in the Part 4 README once the proposal direction is selected.
+- [Part 4 deliverables](part4_proposal/README.md#deliverables)
+
+### Manuscript
+
+- [`manuscript.tex`](manuscript.tex): root-level LaTeX paper/report synthesizing Parts 1-4 into an
+  academic-style manuscript.
+- [`manuscript.pdf`](manuscript.pdf): compiled PDF version of the manuscript.
 
 ### Notes
 
@@ -99,6 +122,15 @@ PYTHONPATH=part3_authenticity/src \
 
 PYTHONPATH=part3_authenticity/src \
   uv run --no-sync ruff check part3_authenticity/src/org_auth_part3 part3_authenticity/tests
+
+PYTHONPATH=part4_proposal/src \
+  uv run --no-sync python -m org_auth_part4.validate
+
+PYTHONPATH=part4_proposal/src \
+  uv run --no-sync pytest part4_proposal/tests
+
+PYTHONPATH=part4_proposal/src \
+  uv run --no-sync ruff check part4_proposal/src/org_auth_part4 part4_proposal/tests
 ```
 
 ## Part-Level Commands
@@ -108,6 +140,7 @@ Detailed reproduction commands live in each part's README:
 - [Part 1 commands](part1_stated_values/README.md#commands)
 - [Part 2 commands](part2_lived_values/README.md#commands)
 - [Part 3 commands](part3_authenticity/README.md#commands)
+- [Part 4 commands](part4_proposal/README.md#commands)
 
 ## Data and Interpretation Notes
 
@@ -118,5 +151,8 @@ Detailed reproduction commands live in each part's README:
   dropped or imputed.
 - The Part 3 index currently scores 328 company-years with sufficient stated-values and disclosure
   theme evidence, with semantic similarity, sector percentile, and sector z-score diagnostics.
+- The Part 4 case-audit output now defines case types with the two primary alignment diagnostics
+  (`OAI` and whole-text semantic similarity); proxy genre pressure remains an auxiliary diagnostic
+  column rather than a case-type criterion.
 - Proxy statements are treated as official disclosure evidence, not direct observations of
   corporate behavior. That construct-validity caveat carries into the authenticity index.

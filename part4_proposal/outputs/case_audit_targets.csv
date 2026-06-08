@@ -1,0 +1,21 @@
+audit_bucket,ticker,company_name,sector,year,authenticity_index,semantic_0_100,keyword_minus_semantic,proxy_genre_pressure,genre_pressure_tercile,keyword_semantic_quadrant,interpretation_prompt
+low_oai_low_ss,NVDA,NVIDIA,Technology,2021,0.0,51.460783,-51.460783,-0.513587,low,both_low,Low alignment on both OAI and whole-text semantic similarity.
+low_oai_low_ss,MSFT,Microsoft,Technology,2017,0.237812,45.824224,-45.586412,-0.070312,medium,both_low,Low alignment on both OAI and whole-text semantic similarity.
+low_oai_low_ss,TGT,Target,Consumer Discretionary,2019,0.513699,43.851884,-43.338185,-0.003992,medium,both_low,Low alignment on both OAI and whole-text semantic similarity.
+low_oai_low_ss,GS,Goldman Sachs,Financials,2017,0.598802,42.421937,-41.823135,0.689007,high,both_low,Low alignment on both OAI and whole-text semantic similarity.
+low_oai_low_ss,COP,ConocoPhillips,Energy,2017,1.565996,52.706415,-51.140419,-0.509749,low,both_low,Low alignment on both OAI and whole-text semantic similarity.
+low_oai_high_ss,GS,Goldman Sachs,Financials,2020,9.021407,70.762902,-61.741495,0.92176,high,semantic_high_only,Broad semantic similarity but weak theme-distribution alignment.
+low_oai_high_ss,GS,Goldman Sachs,Financials,2019,10.0271,70.701725,-60.674625,0.667655,high,semantic_high_only,Broad semantic similarity but weak theme-distribution alignment.
+low_oai_high_ss,GS,Goldman Sachs,Financials,2021,10.064935,70.349254,-60.284319,0.279019,high,semantic_high_only,Broad semantic similarity but weak theme-distribution alignment.
+low_oai_high_ss,GS,Goldman Sachs,Financials,2022,9.312234,69.817832,-60.505598,0.504939,high,semantic_high_only,Broad semantic similarity but weak theme-distribution alignment.
+low_oai_high_ss,SCHW,Charles Schwab,Financials,2023,17.241379,69.413146,-52.171767,0.560221,high,semantic_high_only,Broad semantic similarity but weak theme-distribution alignment.
+high_oai_low_ss,ABBV,AbbVie,Healthcare,2020,72.75885,50.957715,21.801135,0.232883,high,keyword_high_only,Strong theme-distribution alignment with weaker whole-text semantic similarity.
+high_oai_low_ss,BAC,Bank of America,Financials,2018,71.69163,53.230278,18.461352,-0.174394,medium,keyword_high_only,Strong theme-distribution alignment with weaker whole-text semantic similarity.
+high_oai_low_ss,ABBV,AbbVie,Healthcare,2019,70.863913,50.775058,20.088855,0.171942,high,keyword_high_only,Strong theme-distribution alignment with weaker whole-text semantic similarity.
+high_oai_low_ss,BAC,Bank of America,Financials,2016,69.556707,51.488298,18.068409,-0.139279,medium,keyword_high_only,Strong theme-distribution alignment with weaker whole-text semantic similarity.
+high_oai_low_ss,BAC,Bank of America,Financials,2019,65.194272,53.03515,12.159122,-0.622718,low,keyword_high_only,Strong theme-distribution alignment with weaker whole-text semantic similarity.
+high_oai_high_ss,VLO,Valero Energy,Energy,2024,81.277728,67.814712,13.463016,-0.456666,low,both_high,Robust alignment across both OAI and whole-text semantic similarity.
+high_oai_high_ss,MPC,Marathon Petroleum,Energy,2024,73.993244,67.26709,6.726154,0.366221,high,both_high,Robust alignment across both OAI and whole-text semantic similarity.
+high_oai_high_ss,MPC,Marathon Petroleum,Energy,2023,73.351973,65.264989,8.086984,0.328386,high,both_high,Robust alignment across both OAI and whole-text semantic similarity.
+high_oai_high_ss,VLO,Valero Energy,Energy,2023,68.836314,71.787423,-2.951109,-0.115858,medium,both_high,Robust alignment across both OAI and whole-text semantic similarity.
+high_oai_high_ss,OXY,Occidental Petroleum,Energy,2019,68.75717,68.373682,0.383488,0.770358,high,both_high,Robust alignment across both OAI and whole-text semantic similarity.

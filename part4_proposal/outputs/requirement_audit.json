@@ -1,0 +1,27 @@
+{
+  "checks": {
+    "analysis_outputs_exist": true,
+    "computed_rows_have_genre_rates": true,
+    "diagnostics_exists": true,
+    "docs_exist": true,
+    "expected_row_count": true,
+    "figures_exist": true,
+    "required_columns_present": true,
+    "scored_rows_retain_scores": true,
+    "section_outputs_valid": true,
+    "theme_semantic_outputs_valid": true,
+    "unique_company_year_keys": true
+  },
+  "computed_genre_rows": 434,
+  "diagnostic_rows": 450,
+  "issues": {
+    "duplicate_company_year_keys": [],
+    "missing_required_columns": [],
+    "missing_section_columns": [],
+    "missing_theme_semantic_columns": []
+  },
+  "passed": true,
+  "scored_rows": 328,
+  "section_rows": 127630,
+  "theme_semantic_rows": 5400
+}
