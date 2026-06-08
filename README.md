@@ -55,27 +55,13 @@ navigation README, and the compiled manuscript PDF.
 
 ## Key Deliverables
 
-### Part 1: Stated Values
-
 - [Part 1 deliverables](part1_stated_values/README.md#deliverables)
-
-### Part 2: Lived Values
-
 - [Part 2 deliverables](part2_lived_values/README.md#deliverables)
-
-### Part 3: Organizational Authenticity Index
-
 - [Part 3 deliverables](part3_authenticity/README.md#deliverables)
-
-### Part 4: Proposal
-
 - [Part 4 deliverables](part4_proposal/README.md#deliverables)
-
-### Manuscript
-
 - [Manuscript PDF](manuscript.pdf)
 
-### Notes
+## Notes
 
 Some raw, full-text, cache, model, and intermediate artifacts are reproducible local files and may
 be omitted from Git because of size. The committed compact outputs retain source links, hashes,
