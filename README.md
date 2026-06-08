@@ -99,34 +99,6 @@ uv run --no-sync pytest
 uv run --no-sync ruff check .
 ```
 
-Run focused checks when working on a specific later part:
-
-```bash
-PYTHONPATH=part2_lived_values/src \
-  uv run --no-sync pytest part2_lived_values/tests
-
-PYTHONPATH=part2_lived_values/src \
-  uv run --no-sync ruff check part2_lived_values/src/org_auth_part2 part2_lived_values/tests
-
-PYTHONPATH=part3_authenticity/src \
-  uv run --no-sync python -m org_auth_part3.validate
-
-PYTHONPATH=part3_authenticity/src \
-  uv run --no-sync pytest part3_authenticity/tests
-
-PYTHONPATH=part3_authenticity/src \
-  uv run --no-sync ruff check part3_authenticity/src/org_auth_part3 part3_authenticity/tests
-
-PYTHONPATH=part4_proposal/src \
-  uv run --no-sync python -m org_auth_part4.validate
-
-PYTHONPATH=part4_proposal/src \
-  uv run --no-sync pytest part4_proposal/tests
-
-PYTHONPATH=part4_proposal/src \
-  uv run --no-sync ruff check part4_proposal/src/org_auth_part4 part4_proposal/tests
-```
-
 ## Part-Level Commands
 
 Detailed reproduction commands live in each part's README:
