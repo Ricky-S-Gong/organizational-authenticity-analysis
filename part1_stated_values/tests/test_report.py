@@ -46,6 +46,22 @@ def test_requirement_audit_passes_complete_small_contract() -> None:
     assert audit["human_review_required"]
 
 
+def test_requirement_audit_accepts_string_years_and_blank_missing_change() -> None:
+    row = record("A", 2016, "no_cdx_capture")
+    row["year"] = "2016"
+    row["changed_from_prior"] = ""
+
+    audit = audit_part1_requirements(
+        [row],
+        expected_company_count=1,
+        expected_years=(2016,),
+        llm_analysis_completed=True,
+    )
+
+    assert audit["checks"]["years_within_scope"]
+    assert audit["checks"]["missing_records_do_not_claim_no_change"]
+
+
 def test_requirement_audit_finds_traceability_and_missing_semantics_failures() -> None:
     bad_usable = record("A", 2020)
     bad_usable["source_url"] = None

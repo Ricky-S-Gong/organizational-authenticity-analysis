@@ -90,7 +90,8 @@ def audit_part1_requirements(
     """
 
     expected_record_count = expected_company_count * len(expected_years)
-    actual_keys = {(record.get("ticker"), record.get("year")) for record in records}
+    expected_year_strings = {str(year) for year in expected_years}
+    actual_keys = {(record.get("ticker"), str(record.get("year"))) for record in records}
     companies = {record.get("ticker") for record in records if record.get("ticker")}
     missing_fields = sorted(
         {field for field in REQUIRED_FINAL_FIELDS if any(field not in record for record in records)}
@@ -100,14 +101,18 @@ def audit_part1_requirements(
     untraceable_usable = _untraceable_usable_records(records)
     themes_without_evidence = _themes_without_evidence(records)
     years_outside_scope = sorted(
-        {record.get("year") for record in records if record.get("year") not in set(expected_years)},
+        {
+            record.get("year")
+            for record in records
+            if str(record.get("year")) not in expected_year_strings
+        },
         key=str,
     )
     invalid_missing_change = [
         f"{record.get('ticker')}:{record.get('year')}"
         for record in records
         if record.get("observation_status") != "usable"
-        and record.get("changed_from_prior") is not None
+        and record.get("changed_from_prior") not in {None, ""}
     ]
     discovery_incomplete = [
         f"{record.get('ticker')}:{record.get('year')}"
