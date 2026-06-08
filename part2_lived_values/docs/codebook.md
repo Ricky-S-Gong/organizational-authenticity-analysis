@@ -8,6 +8,104 @@ The full local dataset includes `page_text_clean` and is intentionally ignored b
 contains the extracted text for 434 proxy statements. The compact dataset keeps all source,
 provenance, status, hash, theme, and metric fields while omitting only `page_text_clean`.
 
+## Script Task Map
+
+The Part 2 code is organized around a few large reproducible tasks. Command-line modules execute
+the workflow, while support modules hold reusable collection, extraction, and analysis logic.
+
+<table>
+  <thead>
+    <tr>
+      <th>Large task</th>
+      <th>Script/module</th>
+      <th>Executes which task</th>
+      <th>Function of the script/module</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Target setup</td>
+      <td><code>src/org_auth_part2/targets.py</code></td>
+      <td>Builds <code>config/company_year_targets.csv</code>.</td>
+      <td>Loads the fixed Part 1 company list and expands it into the 50-company by 2016-2024 target grid.</td>
+    </tr>
+    <tr>
+      <td rowspan="4">SEC collection</td>
+      <td><code>src/org_auth_part2/run.py</code></td>
+      <td>Runs the full DEF 14A collection pipeline.</td>
+      <td>Resolves tickers to CIKs, selects annual proxy filings, downloads raw SEC artifacts, extracts clean text, writes hashes, logs progress, and exports full/compact datasets.</td>
+    </tr>
+    <tr>
+      <td><code>src/org_auth_part2/edgar.py</code></td>
+      <td>Supports SEC metadata and filing access.</td>
+      <td>Wraps EDGAR requests, ticker-CIK lookup, submissions pagination, archive URL construction, and deterministic DEF 14A filing selection.</td>
+    </tr>
+    <tr>
+      <td><code>src/org_auth_part2/extract.py</code></td>
+      <td>Supports text extraction quality control.</td>
+      <td>Extracts visible text from SEC HTML/plain-text filings and assigns extraction quality labels such as <code>usable</code> or <code>insufficient_text</code>.</td>
+    </tr>
+    <tr>
+      <td><code>src/org_auth_part2/models.py</code></td>
+      <td>Supports typed collection records.</td>
+      <td>Defines immutable company, company-year, filing metadata, and collection-result records shared across scripts.</td>
+    </tr>
+    <tr>
+      <td>Monitoring</td>
+      <td><code>src/org_auth_part2/status.py</code></td>
+      <td>Summarizes live collection progress.</td>
+      <td>Reads the JSONL progress log and latest state file to report event counts, most recent event, and run position.</td>
+    </tr>
+    <tr>
+      <td>Validation</td>
+      <td><code>src/org_auth_part2/validate.py</code></td>
+      <td>Validates generated Part 2 outputs.</td>
+      <td>Checks dataset existence, row counts, successful source/text evidence, coverage/audit JSONs, and enhanced-output join keys.</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Baseline text mining</td>
+      <td><code>src/org_auth_part2/analyze.py</code></td>
+      <td>Supports deterministic theme and linguistic metrics.</td>
+      <td>Applies the Part 1-compatible keyword taxonomy, stores literal phrase evidence, and computes lexical language/tone metrics.</td>
+    </tr>
+    <tr>
+      <td><code>src/org_auth_part2/text_mining.py</code></td>
+      <td>Runs deterministic analysis outputs.</td>
+      <td>Aggregates theme rates, language/tone summaries, sector variation, adjacent-year shifts, event-window summaries, missingness tables, and baseline analysis docs.</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Baseline presentation</td>
+      <td><code>src/org_auth_part2/figures.py</code></td>
+      <td>Generates baseline figures.</td>
+      <td>Creates SVG figures and optional PNG versions for theme trends, sector heatmaps, event-window changes, language/tone trends, and document-length context.</td>
+    </tr>
+    <tr>
+      <td><code>src/org_auth_part2/presentation.py</code></td>
+      <td>Generates tables and narrative docs.</td>
+      <td>Writes Markdown/LaTeX tables and refreshes <code>docs/text_mining_analysis.md</code> and <code>docs/summary.md</code> from saved analysis outputs.</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Enhanced model checks</td>
+      <td><code>src/org_auth_part2/enhanced_text_mining.py</code></td>
+      <td>Runs open-source exploratory model checks.</td>
+      <td>Runs TF-IDF/NMF topics, MiniLM embeddings, spaCy features, and optional local FLAN-T5 annotations with logged seeds, hashes, versions, and output paths.</td>
+    </tr>
+    <tr>
+      <td><code>src/org_auth_part2/enhanced_presentation.py</code></td>
+      <td>Presents enhanced model-check outputs.</td>
+      <td>Builds enhanced Markdown/LaTeX tables, PNG figures, and merges the enhanced-check section into the main analysis document.</td>
+    </tr>
+    <tr>
+      <td>Quality assurance</td>
+      <td><code>tests/</code></td>
+      <td>Runs Part 2 unit tests.</td>
+      <td>Tests target-grid construction, SEC selection logic, extraction, deterministic analysis, figures, enhanced checks, status, and validation.</td>
+    </tr>
+  </tbody>
+</table>
+
+## Dataset Columns
+
 | Column | Meaning |
 | --- | --- |
 | `ticker` | Company ticker from the fixed 50-company sample. |
