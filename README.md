@@ -36,6 +36,23 @@ assignment-specific code, outputs, README files, summaries, and validation audit
 Each completed part is self-contained with its own README, source code, tests, output data, and
 written summary.
 
+## Folder Guide
+
+The four part folders follow the same general layout:
+
+| Path pattern | Purpose |
+| --- | --- |
+| `README.md` | Part-level overview, assumptions, limitations, deliverables, and reproduction commands. |
+| `docs/` | Human-readable methodology, codebook, summary, audit notes, and interpretation files. |
+| `src/org_auth_part*/` | Python modules for collection, extraction, analysis, figures, presentation docs, and validation. |
+| `tests/` | Unit tests for parsing, scoring, validation, and output-generation logic. |
+| `outputs/` | Committed result tables, figures, requirement audits, summaries, and compact reproducibility artifacts. |
+| `config/` | Target company lists, candidate page lists, or company-year grids where applicable. |
+| `data/` | Raw/interim/processed/review artifacts used by collection-heavy parts; large full-text files may be local-only. |
+
+The root directory contains the shared environment files (`pyproject.toml`, `uv.lock`), this
+navigation README, and the compiled manuscript PDF.
+
 ## Key Deliverables
 
 ### Part 1: Stated Values
