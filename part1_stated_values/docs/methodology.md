@@ -115,7 +115,7 @@ Each phase has automated tests. The final pipeline also produces:
 
 - a 450-row requirement audit
 - coverage and failure summaries
-- manual review queues
+- extraction/gap review decisions
 - extraction and change QA flags
 - evidence-backed theme observations
 - local LLM analysis manifest and quality flags

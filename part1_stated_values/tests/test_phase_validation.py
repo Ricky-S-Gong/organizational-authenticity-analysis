@@ -107,11 +107,6 @@ def test_phase_validation_passes_complete_research_gates(tmp_path: Path) -> None
         ],
     )
     write_rows(
-        part / "data/review/manual_review_queue.csv",
-        ["ticker", "year", "review_status"],
-        [],
-    )
-    write_rows(
         part / "data/review/review_decisions.csv",
         ["ticker", "year", "review_status"],
         [

@@ -41,7 +41,6 @@ uv run --no-sync part1-validate-phases
 
 - Completed extraction/gap review decisions: 450.
 - Usable records: 358 of 450.
-- Unresolved manual review queue rows: 0.
 
 Status breakdown:
 

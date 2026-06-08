@@ -30,7 +30,6 @@ DEFAULT_AUDIT = Path("part1_stated_values/outputs/requirement_audit.json")
 DEFAULT_SUMMARY = Path("part1_stated_values/docs/summary.md")
 DEFAULT_CHANGE_EVENTS = Path("part1_stated_values/outputs/change_events.csv")
 DEFAULT_THEME_OBSERVATIONS = Path("part1_stated_values/outputs/theme_observations.csv")
-DEFAULT_REVIEW_QUEUE = Path("part1_stated_values/data/review/manual_review_queue.csv")
 DEFAULT_REVIEW_DECISIONS = Path("part1_stated_values/data/review/review_decisions.csv")
 DEFAULT_VALIDATION_REPORT = Path("part1_stated_values/docs/validation_report.md")
 
@@ -966,19 +965,6 @@ def write_supporting_outputs(records: list[dict[str, Any]]) -> None:
     ]
     write_csv(theme_rows, DEFAULT_THEME_OBSERVATIONS, theme_fields)
 
-    review_rows = [
-        row for row in build_review_decisions(records) if row["review_status"] != "completed"
-    ]
-    review_fields = [
-        "ticker",
-        "year",
-        "review_reason",
-        "observation_status",
-        "wayback_url",
-        "review_status",
-        "review_notes",
-    ]
-    write_csv(review_rows, DEFAULT_REVIEW_QUEUE, review_fields)
     write_csv(build_review_decisions(records), DEFAULT_REVIEW_DECISIONS, REVIEW_DECISION_FIELDS)
 
 
@@ -1101,7 +1087,6 @@ uv run --no-sync part1-validate-phases
 
 - Completed extraction/gap review decisions: {completed_decisions}.
 - Usable records: {usable} of {target_count}.
-- Unresolved manual review queue rows: 0.
 
 Status breakdown:
 

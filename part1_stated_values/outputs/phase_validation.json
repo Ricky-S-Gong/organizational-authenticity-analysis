@@ -54,7 +54,6 @@
         "selected_rows": 384,
         "artifact_rows": 384,
         "usable_rows": 358,
-        "pending_review_rows": 0,
         "review_decision_rows": 450,
         "completed_review_decisions": 450,
         "validation_report_exists": true

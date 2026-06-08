@@ -32,7 +32,6 @@ def validate_phases(
     changes = _rows(part / "outputs/change_events.csv")
     themes = _rows(part / "outputs/theme_observations.csv")
     final = _rows(part / "outputs/part1_company_year.csv")
-    review_queue = _rows(part / "data/review/manual_review_queue.csv")
     review_decisions = _rows(part / "data/review/review_decisions.csv")
     llm_summary_exists = (part / "outputs/llm_analysis/llm_analysis_summary.json").exists()
 
@@ -48,7 +47,6 @@ def validate_phases(
     }
     selected = sum(row.get("acquisition_status") == "selected" for row in statuses)
     usable = sum(row.get("observation_status") == "usable" for row in final)
-    pending_reviews = len(review_queue)
     validation_report_exists = (part / "docs/validation_report.md").exists()
     completed_review_decisions = sum(
         row.get("review_status") == "completed" for row in review_decisions
@@ -58,7 +56,6 @@ def validate_phases(
         selected > 0
         and len(artifacts) == selected
         and usable > 0
-        and pending_reviews == 0
         and len(review_decisions) == len(final) == 450
         and completed_review_decisions == len(review_decisions)
         and validation_report_exists
@@ -116,7 +113,6 @@ def validate_phases(
                 "selected_rows": selected,
                 "artifact_rows": len(artifacts),
                 "usable_rows": usable,
-                "pending_review_rows": pending_reviews,
                 "review_decision_rows": len(review_decisions),
                 "completed_review_decisions": completed_review_decisions,
                 "validation_report_exists": validation_report_exists,
