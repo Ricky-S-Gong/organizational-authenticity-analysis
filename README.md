@@ -18,19 +18,6 @@ assignment-specific code, outputs, README files, summaries, and validation audit
 | [Part&nbsp;3:&nbsp;Authenticity&nbsp;Index](part3_authenticity/) | Constructs an alignment measure from Part 1 stated-values evidence and Part 2 proxy-disclosure evidence. |
 | [Part&nbsp;4:&nbsp;Proposal](part4_proposal/) | Implements exploratory measurement diagnostics for proxy genre, proxy sections, and theme-level semantic comparability. |
 
-## Assessment Compliance Checklist
-
-| Requirement | Repository evidence |
-| --- | --- |
-| Structured repository with commented code | Each part has `src/`, `tests/`, `docs/`, and outputs; Part 4 code includes method-level docstrings and inline comments for phrase counting, section parsing, semantic fallback, and figure encodings. |
-| README per part | `part1_stated_values/README.md`, `part2_lived_values/README.md`, `part3_authenticity/README.md`, and `part4_proposal/README.md`. |
-| Output data files | Each part has committed compact outputs and requirement audits under its `outputs/` directory. |
-| Written summary per part | Each part includes `docs/summary.md`; the root manuscript provides a single integrated report. |
-| Part 1 Wayback stated-values collection | 450 target company-years retained; 358 usable stated-values pages; missingness and acquisition status documented. |
-| Part 2 lived-values disclosure analysis | SEC `DEF 14A` proxy statements collected as the lived-values disclosure source; 434 filings collected with text-mining outputs and coverage notes. |
-| Part 3 authenticity measure | 450-row panel with 328 scoreable company-years, distribution summaries, validity checks, sensitivity metrics, and case-audit notes. |
-| Part 4 proposal and implementation | Proxy-genre pressure, section-level proxy parsing, theme-level semantic comparison, case-audit targets, figures, tests, and validation audit. |
-
 ## Repository Structure
 
 ```text
